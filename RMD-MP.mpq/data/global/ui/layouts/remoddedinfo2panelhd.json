@@ -1,0 +1,483 @@
+{
+    "type": "VideoOptionsPanel", "name": "RemoddedInfo2Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$RMDOptionsTableColumn1", "$RMDOptionsTableColumn2" ],
+                        "rowHeight": "$RMDOptionsTableRowHeight"
+                    },
+                    "children": [
+
+                        /*
+        GGGGGGGGGGGGG                                                                                  lllllll                                         
+     GGG::::::::::::G                                                                                  l:::::l                                         
+   GG:::::::::::::::G                                                                                  l:::::l                                         
+  G:::::GGGGGGGG::::G                                                                                  l:::::l                                         
+ G:::::G       GGGGGG  aaaaaaaaaaaaa      mmmmmmm    mmmmmmm       eeeeeeeeeeee    ppppp   ppppppppp    l::::l   aaaaaaaaaaaaayyyyyyy           yyyyyyy
+G:::::G                a::::::::::::a   mm:::::::m  m:::::::mm   ee::::::::::::ee  p::::ppp:::::::::p   l::::l   a::::::::::::ay:::::y         y:::::y 
+G:::::G                aaaaaaaaa:::::a m::::::::::mm::::::::::m e::::::eeeee:::::eep:::::::::::::::::p  l::::l   aaaaaaaaa:::::ay:::::y       y:::::y  
+G:::::G    GGGGGGGGGG           a::::a m::::::::::::::::::::::me::::::e     e:::::epp::::::ppppp::::::p l::::l            a::::a y:::::y     y:::::y   
+G:::::G    G::::::::G    aaaaaaa:::::a m:::::mmm::::::mmm:::::me:::::::eeeee::::::e p:::::p     p:::::p l::::l     aaaaaaa:::::a  y:::::y   y:::::y    
+G:::::G    GGGGG::::G  aa::::::::::::a m::::m   m::::m   m::::me:::::::::::::::::e  p:::::p     p:::::p l::::l   aa::::::::::::a   y:::::y y:::::y     
+G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeeee   p:::::p     p:::::p l::::l  a::::aaaa::::::a    y:::::y:::::y      
+ G:::::G       G::::Ga::::a    a:::::a m::::m   m::::m   m::::me:::::::e            p:::::p    p::::::p l::::l a::::a    a:::::a     y:::::::::y       
+  G:::::GGGGGGGG::::Ga::::a    a:::::a m::::m   m::::m   m::::me::::::::e           p:::::ppppp:::::::pl::::::la::::a    a:::::a      y:::::::y        
+   GG:::::::::::::::Ga:::::aaaa::::::a m::::m   m::::m   m::::m e::::::::eeeeeeee   p::::::::::::::::p l::::::la:::::aaaa::::::a       y:::::y         
+     GGG::::::GGG:::G a::::::::::aa:::am::::m   m::::m   m::::m  ee:::::::::::::e   p::::::::::::::pp  l::::::l a::::::::::aa:::a     y:::::y          
+        GGGGGG   GGGG  aaaaaaaaaa  aaaammmmmm   mmmmmm   mmmmmm    eeeeeeeeeeeeee   p::::::pppppppp    llllllll  aaaaaaaaaa  aaaa    y:::::y           
+                                                                                    p:::::p                                         y:::::y            
+                                                                                    p:::::p                                        y:::::y             
+                                                                                   p:::::::p                                      y:::::y              
+                                                                                   p:::::::p                                     y:::::y               
+                                                                                   p:::::::p                                    yyyyyyy                
+                                                                                   ppppppppp                                                
+*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Build Details",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Client is based on version 2.4 (69270) of D2R, released on April 14th, 2022",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - This build will run independently from your current 2.5+ D2R install and mod files",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Based on a debug version of the client with extra capabilities in the backend",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - TCP/IP access and debug display removal are the only edits made in this public version",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": " - Special Thanks to Killshot, AdephX and Thinias for help with processing debug code",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "'Major' Feature Downgrades from 2.5+",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "The following features no longer exist in this build:",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Terror Zones", "Sunder Charms + Mechanic", "PassiveStat Columns 7-14", "Chance not to consume charges", "Controller QoL loot/assign", "Custom Hireling Icons" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Features not yet implemented in 2.4",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "The following features have been changed in this build:",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "NHD Local -> Global", "States.txt Rows 511 -> 255" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Feature changes from 2.5+",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "rect": { "y": 10},
+                                        "text": " - Controller players will be unable to access the skill tree for custom skills",
+                                        "style": "$StyleSettingsTextR"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "ReMoDDeD Changes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "The following features no longer exist in this build:",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Terror Zones", "-Enemy Immunity % Stats", "Soul Summons", "Mapping System", "Color Dyes" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Systems no longer compatible with 2.4",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "The following features have been changed in this build:",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "Resolution",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Drop Tables re-mapped", "Player Count affects drops", "Weighting System Stat Benefits", "...and more to come" ],
+                                        //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "tooltipString": "Systems changed to better fit multiplayer setting",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "TCP/IP Info",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$RMDOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "text": "TCP/IP was removed in modern versions of the client. We've restored it for your enjoyment.",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "rect": { "y": -25},
+                                        "text": "It will allow you to join other people's games and play with them directly",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "rect": { "y": -25},
+                                        "text": "One person acts as a host, and other players join them by entering in their unique IP address",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC4T",
+                                    "fields": {
+                                        "rect": { "y": -25},
+                                        "text": "Guides can be found on our discord to more easily and safely accomplish this task",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        
+
+
+
+/*
+MMMMMMMM               MMMMMMMM                                                             tttt                                                  
+M:::::::M             M:::::::M                                                          ttt:::t                                                  
+M::::::::M           M::::::::M                                                          t:::::t                                                  
+M:::::::::M         M:::::::::M                                                          t:::::t                                                  
+M::::::::::M       M::::::::::M   ooooooooooo   nnnn  nnnnnnnn        ssssssssss   ttttttt:::::ttttttt        eeeeeeeeeeee    rrrrr   rrrrrrrrr   
+M:::::::::::M     M:::::::::::M oo:::::::::::oo n:::nn::::::::nn    ss::::::::::s  t:::::::::::::::::t      ee::::::::::::ee  r::::rrr:::::::::r  
+M:::::::M::::M   M::::M:::::::Mo:::::::::::::::on::::::::::::::nn ss:::::::::::::s t:::::::::::::::::t     e::::::eeeee:::::eer:::::::::::::::::r 
+M::::::M M::::M M::::M M::::::Mo:::::ooooo:::::onn:::::::::::::::ns::::::ssss:::::stttttt:::::::tttttt    e::::::e     e:::::err::::::rrrrr::::::r
+M::::::M  M::::M::::M  M::::::Mo::::o     o::::o  n:::::nnnn:::::n s:::::s  ssssss       t:::::t          e:::::::eeeee::::::e r:::::r     r:::::r
+M::::::M   M:::::::M   M::::::Mo::::o     o::::o  n::::n    n::::n   s::::::s            t:::::t          e:::::::::::::::::e  r:::::r     rrrrrrr
+M::::::M    M:::::M    M::::::Mo::::o     o::::o  n::::n    n::::n      s::::::s         t:::::t          e::::::eeeeeeeeeee   r:::::r            
+M::::::M     MMMMM     M::::::Mo::::o     o::::o  n::::n    n::::nssssss   s:::::s       t:::::t    tttttte:::::::e            r:::::r            
+M::::::M               M::::::Mo:::::ooooo:::::o  n::::n    n::::ns:::::ssss::::::s      t::::::tttt:::::te::::::::e           r:::::r            
+M::::::M               M::::::Mo:::::::::::::::o  n::::n    n::::ns::::::::::::::s       tt::::::::::::::t e::::::::eeeeeeee   r:::::r            
+M::::::M               M::::::M oo:::::::::::oo   n::::n    n::::n s:::::::::::ss          tt:::::::::::tt  ee:::::::::::::e   r:::::r            
+MMMMMMMM               MMMMMMMM   ooooooooooo     nnnnnn    nnnnnn  sssssssssss              ttttttttttt      eeeeeeeeeeeeee   rrrrrrr            
+*/
+
+                        
+
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
