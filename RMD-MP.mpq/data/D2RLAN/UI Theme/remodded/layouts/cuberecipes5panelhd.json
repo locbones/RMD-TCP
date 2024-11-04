@@ -1937,7 +1937,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "text": "Sunder",
+                                        "text": "Disarm",
                                         "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
@@ -1974,7 +1974,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Fire Immunity -7% to -15%" ],
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Buff Length Increased by 10-20%" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -2009,7 +2009,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Cold Immunity -7% to -15%" ],
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Curse Radius Increased by 2-4" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -2044,7 +2044,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Lightning Immunity -7% to -15%" ],
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Curse Duration Increased by 10-20%" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -2079,7 +2079,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Poison Immunity -7% to -15%" ],
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Buff Length Increased by 10-20%" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -2114,7 +2114,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Physical Immunity -7% to -15%" ],
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Curse Radius Increased by 2-4" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -2149,7 +2149,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "All Enemy Immunities -7% to -15%" ],
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Curse Duration Increased by 10-20%" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -2184,7 +2184,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Magic Immunity -7% to -15%" ],
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Buff Length Increased by 10-20%" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -2219,7 +2219,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Enemy Magic Immunity -7% to -15%" ],
+                                            "5% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Curse Radius Increased by 2-4" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },
@@ -2254,7 +2254,7 @@
                                         "hoveredFrame": 3,
                                         "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
                                         "states": [ 
-                                            "10% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "All Enemy Immunities -7% to -15%" ],
+                                            "10% CtC L5 Disarm On Hit", "+10-20% Cooldown Reduction", "Curse Duration Increased by 10-20%", "+1 Combat Power" ],
                                         //"onUpdateMessage": "OptionsPanelMessage:SetScreenResolution",
                                         "text/style": "$StyleSettingsCarousel",
                                         "text/style": { "pointSize": "$MediumFontSize" },

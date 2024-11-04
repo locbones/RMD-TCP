@@ -429,7 +429,8 @@
         "fontColor": "$FontColorLightPink",
         "pointSize": "$MediumFontSize",
         "spacing" : "$ReducedSpacing",
-        "alignment": { "h": "left", "v": "center" }
+        "alignment": { "h": "left", "v": "top" },
+        "options": { "lineWrap": true }
     },
     "RecipeSettingsTextBlue": {
         "fontColor": "$FontColorBlue",

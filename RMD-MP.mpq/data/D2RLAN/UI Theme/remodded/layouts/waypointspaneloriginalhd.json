@@ -70,17 +70,7 @@
                         "pointSize": "$XMediumPanelFontSize",
                         "textColor": "$FontColorLightGray",
                         "text/rect": {"x": 210}
-                    },
-                    "children": [
-                        {
-                            "type": "ImageWidget", "name": "TerrorZone",
-                            "fields": {
-                        				"rect": { "x": 0, "y": 0 },
-                        				"filename": "..\\..\\..\\ReMoDDeD\\WP_TZ",
-                        				"visible": false
-                        		}
-                        }
-                    ]
+                    }
                 },
                 {
                     "type": "ImageWidget", "name": "SelectableButton",

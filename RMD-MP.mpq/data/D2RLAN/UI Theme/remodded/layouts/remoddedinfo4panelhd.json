@@ -1,25 +1,33 @@
 {
-    "type": "VideoOptionsPanel", "name": "RemoddedInfo4Panel",
+    "type": "SoundOptionsPanel", "name": "RemoddedInfo4Panel",
     "fields": {
         "priority": 9003,
-        "rect": { "x": -865, "y": 392, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
-        "anchor": { "x": 0.5 },
+        "rect": "$OptionsPanelRect",
+        "anchor": {
+            "x": 0.5
+        },
         "applySettingsImmediately": true
     },
     "children": [
         {
-            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "type": "ImageWidget",
+            "name": "ScrollBarBackground",
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
-                "anchor": { "x": 1.0 },
+                "anchor": {
+                    "x": 1.0
+                },
                 "filename": "..\\..\\..\\ReMoDDeD\\Info\\ScrollBG"
             },
             "children": [
                 {
-                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "type": "ScrollControllerWidget",
+                    "name": "ScrollController",
                     "fields": {
                         "rect": "$OptionsScrollBarRect",
-                        "anchor": { "x": 1.0 },
+                        "anchor": {
+                            "x": 1.0
+                        },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
                         "barFilepath": "..\\..\\..\\ReMoDDeD\\SkullScroll",
@@ -31,34 +39,56 @@
             ]
         },
         {
-            "type": "ScrollViewWidget", "name": "ScrollView",
+            "type": "ScrollViewWidget",
+            "name": "ScrollView",
             "fields": {
                 "fitToParent": true,
                 "scrollControllerName": "ScrollController"
             },
             "children": [
                 {
-                    "type": "TableWidget", "name": "OptionsTable",
+                    "type": "TableWidget",
+                    "name": "OptionsTable",
                     "fields": {
-                        "columns": [ "$RMDOptionsTableColumn1", "$RMDOptionsTableColumn2" ],
+                        "columns": [
+                            "$RMDOptionsTableColumn1",
+                            "$RMDOptionsTableColumn2"
+                        ],
                         "rowHeight": "$RMDOptionsTableRowHeight"
                     },
                     "children": [
+                        /*
+IIIIIIIIII       tttt                                                      
+I::::::::I    ttt:::t                                                      
+I::::::::I    t:::::t                                                      
+II::::::II    t:::::t                                                      
+  I::::Ittttttt:::::ttttttt        eeeeeeeeeeee       mmmmmmm    mmmmmmm   
+  I::::It:::::::::::::::::t      ee::::::::::::ee   mm:::::::m  m:::::::mm 
+  I::::It:::::::::::::::::t     e::::::eeeee:::::eem::::::::::mm::::::::::m
+  I::::Itttttt:::::::tttttt    e::::::e     e:::::em::::::::::::::::::::::m
+  I::::I      t:::::t          e:::::::eeeee::::::em:::::mmm::::::mmm:::::m
+  I::::I      t:::::t          e:::::::::::::::::e m::::m   m::::m   m::::m
+  I::::I      t:::::t          e::::::eeeeeeeeeee  m::::m   m::::m   m::::m
+  I::::I      t:::::t    tttttte:::::::e           m::::m   m::::m   m::::m
+II::::::II    t::::::tttt:::::te::::::::e          m::::m   m::::m   m::::m
+I::::::::I    tt::::::::::::::t e::::::::eeeeeeee  m::::m   m::::m   m::::m
+I::::::::I      tt:::::::::::tt  ee:::::::::::::e  m::::m   m::::m   m::::m
+IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
+*/
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "Itemization",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "ItemizationT",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 0 },
-                                        "text": "Tormented Monsters",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "text": "Kills, Deaths and Charm Weights",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
+                                                "rect": "$RMDOptionsDividerRect",
                                                 "filename": "PauseMenu\\Divider"
                                             }
                                         }
@@ -67,99 +97,191 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "GC1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 30 },
-                                        "text": "Diablo's minions and victims alike have fallen into torment...",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": "$OptionsDividerRect"
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
+                                        "text": " - Kills, Deaths and Weight will affect these stats: ",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Mana Regen %", "Faster Run/Walk", "+All Skills",  "Max HP %" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Rewards & Penalties",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
                                         }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 20 },
-                                        "text": "All color drained from their lifeless souls, forever trapped...",
-                                        "style": "$StyleSettingsTextC"
+                                        
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 10 },
-                                        "text": "They fear nothing, feel nothing; as the ice slowly consumes them.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 310, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\TormentDemo"
-                                            }
-                                        }
-                                    ]
+                                        "text": "Kill and Death Modifiers:",
+                                        "style": "$RecipeSettingsTextFlatBlue"
+                                    }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1060 },
-                                        "text": "Ender'aku",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
+                                        "text": " - Grants +1 Max HP% for every 10,000 kills (No Max)",
+                                        "style": "$StyleSettingsText"
+                                    }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1050 },
-                                        "text": "Putrid Herald of Darkness",
-                                        "style": "$StyleSettingsTextCR"
+                                        "text": " - Grants +1 All Skills for every 1,000,000 kills (No Max)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Penalizes -1% Max HP for every death (Max -20%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "Charm Weight Modifiers:",
+                                        "style": "$RecipeSettingsTextFlatBlue"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +80% Mana Regen, then penalized -1% for every weight used",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +40% Faster Run/Walk, then penalized -1% for every weight used",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Start with +3 All Skills, then penalized as follows:",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Weight 1-20: +2 All Skills", "Weight 21+: +1 All Skills" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Rewards & Penalties",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                         {
+                            "type": "TableRowWidget", "name": "Itemization",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ItemizationT",
+                                    "fields": {
+                                        "text": "Major Changes",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
+                                                "rect": "$RMDOptionsDividerRect",
                                                 "filename": "PauseMenu\\Divider"
                                             }
                                         }
@@ -168,77 +290,177 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "GC1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1070 },
-                                        "text": "An evil being that has been twisted and mis-shapen by the corpses she's consumed.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - Enabled socketing for the following item types: ",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Throwing (4 Sockets)", "Boots (3 Sockets)", "Gloves (3 Sockets)", "Belts (2 Sockets)",  "Jewelery (1 Socket)" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Max Socket Count",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1060 },
-                                        "text": "She desires nothing but to feed on flesh, and feed her spawning brood.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 260, "y": 50 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Enderaku"
-                                            }
-                                        }
-                                    ]
+                                        "text": " - Many new stats, oskills and new mechanics added",
+                                        "style": "$StyleSettingsText"
+                                    }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1850 },
-                                        "text": "Izual the Forsaken",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
+                                        "text": " - 94 New Unique items added (More coming in Beta)",
+                                        "style": "$StyleSettingsText"
+                                    }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1840 },
-                                        "text": "Corrupted Fire Lord",
-                                        "style": "$StyleSettingsTextCR"
+                                        "text": " - 9 New Sets with 26 more set items added (More coming in Beta)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - 27 New Runewords added (More coming in Beta)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Runewords can be made with any socket count using jewels to fill extra slots (Jewels first)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Item Enhancement system for upgrading item stats in exchange for required level increases",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Item Forging system for creating new unique/set items from unwanted uniques/sets",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Storage Bag system that holds all your gems, runes, keys and organs",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Jewels and Charms can be re-rolled using gems directly from your storage bag",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Itemization",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ItemizationT",
+                                    "fields": {
+                                        "text": "Item Types",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
+                                                "rect": "$RMDOptionsDividerRect",
                                                 "filename": "PauseMenu\\Divider"
                                             }
                                         }
@@ -247,77 +469,179 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "GC1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1860 },
-                                        "text": "Once a force against evil; now corrupted by the Prime Evil's resurrected powers.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - Many new class-specific items added: ",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Amazon Circlets", "Assassin Boots", "Assassin Cloaks", "Barbarian Belts",  "Druid Armors", "Paladin Armors",  "Paladin Crowns", "Sorceress Gloves" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Class-Specific Item Types",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
+                                        }
+                                        
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "GC1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 1850 },
-                                        "text": "Even they dare not enter his territory now...truly forsaken by all beings now.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 310, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\ForsakenIzual"
-                                            }
+                                        "text": " - Many existing item types have been converted: ",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "DropdownListWidget", "name": "NPCSpeech",
+                                    "fields": {
+                                        "rect": "$OptionsDropDownRect",
+                                        "background/rect": "$OptionsDropDownBackgroundRect",
+                                        "background/leftCapOffset": "$OptionsDropDownLeftCapOffset",
+                                        "background/rightCapOffset": "$OptionsDropDownRightCapOffset",
+                                        "pressedFrame": 1,
+                                        "disabledFrame": 2,
+                                        "hoveredFrame": 3,
+                                        "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                                        "states": [ "Clubs -> Druid Branches", "Crystal Swords -> Spell Blades", "2H Swords -> Assassin Katanas",  "Throwing Knives -> Assassin Only", "Military Picks -> Necro Sickles", "Mauls -> Barb Hammers", "Great Axes -> Barb Axes", "Wands -> Necromancer Only" ],
+                                        "onUpdateMessage": "OptionsPanelMessage:Close",
+                                        "text/style": "$StyleSettingsCarousel",
+                                        "text/style": { "pointSize": "$MediumFontSize" },
+                                        "textColor": "$FontColorLightGold",
+                                        "navigation": {
+                                            "down": { "name": "Resolution" }
+                                        },
+                                        "tooltipString": "Item Type Changes",
+                                        "tooltipStyle": {
+                                            "showAfterDelay": true
                                         }
-                                    ]
+                                        
+                                    }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 2620 },
-                                        "text": "Gurka",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
+                                        "text": " - Bows and Crossbows are now the same type (Bows)",
+                                        "style": "$StyleSettingsText"
+                                    }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 2610 },
-                                        "text": "Soul-Torn Puppet Master",
-                                        "style": "$StyleSettingsTextCR"
+                                        "text": " - Arrows and Bolts are now the same type (Quivers)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Spears and Polearms are now the same type (Spears)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Quivers can now roll as any item quality and cost 1 gold",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "fields": {
+                                        "text": " - Amazon Spears removed",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ3T",
+                                    "fields": {
+                                        "text": " - All Assassin Claws now have the chance for staff mods",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Itemization",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ItemizationT",
+                                    "fields": {
+                                        "text": "Itemization",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
+                                                "rect": "$RMDOptionsDividerRect",
                                                 "filename": "PauseMenu\\Divider"
                                             }
                                         }
@@ -326,77 +650,135 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ2",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ2T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 2630 },
-                                        "text": "Imbued with ancient, dark magic...this headless demon controls the souls of the fallen.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - Increased drop chance of higher runes",
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ7",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ7T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 2620 },
-                                        "text": "His blood has turned purple after consuming the blood of so many humans.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 310, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Gurka"
-                                            }
-                                        }
-                                    ]
+                                        "text": " - Rune level requirements for low and mid runes have been lowered",
+                                        "style": "$StyleSettingsText"
+                                    }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3220 },
-                                        "text": "Queen Syndred",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
+                                        "text": " - Quivers, Tomes and Throwing Weapons have max quantity of 500 and replenish quantity",
+                                        "style": "$StyleSettingsText"
+                                    }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "IZ1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3210 },
-                                        "text": "Lady of Corruption",
-                                        "style": "$StyleSettingsTextCR"
+                                        "text": " - Weapons now display itemtypes and true speed with the other basic info",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - All relevant items show the item level next to the item name",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ12",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ12T",
+                                    "fields": {
+                                        "text": " - Increased Max Sockets for many items, and at lower levels",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget",
+                                    "fields": {
+                                        "text": " - +Experience% added to many low level uniques for faster leveling",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+
+/*
+RRRRRRRRRRRRRRRRR                                                         
+R::::::::::::::::R                                                        
+R::::::RRRRRR:::::R                                                       
+RR:::::R     R:::::R                                                      
+  R::::R     R:::::Ruuuuuu    uuuuuunnnn  nnnnnnnn        eeeeeeeeeeee    
+  R::::R     R:::::Ru::::u    u::::un:::nn::::::::nn    ee::::::::::::ee  
+  R::::RRRRRR:::::R u::::u    u::::un::::::::::::::nn  e::::::eeeee:::::ee
+  R:::::::::::::RR  u::::u    u::::unn:::::::::::::::ne::::::e     e:::::e
+  R::::RRRRRR:::::R u::::u    u::::u  n:::::nnnn:::::ne:::::::eeeee::::::e
+  R::::R     R:::::Ru::::u    u::::u  n::::n    n::::ne:::::::::::::::::e 
+  R::::R     R:::::Ru::::u    u::::u  n::::n    n::::ne::::::eeeeeeeeeee  
+  R::::R     R:::::Ru:::::uuuu:::::u  n::::n    n::::ne:::::::e           
+RR:::::R     R:::::Ru:::::::::::::::uun::::n    n::::ne::::::::e          
+R::::::R     R:::::R u:::::::::::::::un::::n    n::::n e::::::::eeeeeeee  
+R::::::R     R:::::R  uu::::::::uu:::un::::n    n::::n  ee:::::::::::::e  
+RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee 
+*/
+
+                        {
+                            "type": "TableRowWidget", "name": "RuneChanges",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RuneChangesT",
+                                    "fields": {
+                                        "text": "Rune Changes",
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
+                                                "rect": "$RMDOptionsDividerRect",
                                                 "filename": "PauseMenu\\Divider"
                                             }
                                         }
@@ -405,514 +787,306 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "RC1",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "RC1T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3230 },
-                                        "text": "The power of the great resurrection has tainted this demon of terror.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": "Due to the increased socket counts, the following changes have been made:",
+                                        "style": "$StyleSettingsTextD"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "RC2",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "RC2T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3220 },
-                                        "text": "Only bits of flesh remain; the rest consumed by the fire of hatred.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 540, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Syndred"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 3970 },
-                                        "text": "Ded'Domer",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 3960 },
-                                        "text": "Breaker of Realms",
-                                        "style": "$StyleSettingsTextCR"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 3980 },
-                                        "text": "The master of the Arcane Dimensional magic - Bending the realms to do his bidding.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - El (Weapon Attack Rating reduced from 50 to 25)",
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "RC3",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "RC3T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 3970 },
-                                        "text": "His overflow of magic causes flames to spontaneously engulf him.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 710, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Deddomer"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 4570 },
-                                        "text": "Anuburak",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 4560 },
-                                        "text": "Nightmare of Horadrim",
-                                        "style": "$StyleSettingsTextCR"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 4580 },
-                                        "text": "Enraged during the maelstrom of chaos; it has absorbed untold power.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - Eld (Defense reduced from 15 to 10 )",
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "RC4",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "RC4T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 4570 },
-                                        "text": "Losing all intellect and reason...it now only knows the hunt.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 550, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Anuburak"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 5260 },
-                                        "text": "Raku'Ranth",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 5250 },
-                                        "text": "Demon Swordmaster",
-                                        "style": "$StyleSettingsTextCR"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 5270 },
-                                        "text": "True sword experts that have trained in the arts of execution.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - Ith (Max Damage reduced from 9 to 6)",
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "RC5",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "RC5T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5260 },
-                                        "text": "Their skin turned to an undead white after the great resurrection.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 580, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Rakuranth"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 5980 },
-                                        "text": "Kelthir",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 5970 },
-                                        "text": "Beastmaster of Arms",
-                                        "style": "$StyleSettingsTextCR"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 5990 },
-                                        "text": "Deadly with any weapon; his beast-like ferocity and speed have only increased.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - Tal/Ral/Ort/Thul (Resist% - Armor reduced from 30 to 10 and Shield from 35 to 20 ",
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "RC6",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "RC6T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 5980 },
-                                        "text": "Their skin turning black after human blood has soaked into their very being.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 690, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Kelthir"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 6440 },
-                                        "text": "Grizzlepaw",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 6430 },
-                                        "text": "Tainted Bear King",
-                                        "style": "$StyleSettingsTextCR"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 6450 },
-                                        "text": "Once loyal to the druids; now malformed into a tool of evil.",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - Tal/Ral/Ort/Thul (Elemental Damage reduced by 50%)",
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "RC7",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "RC7T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 6440 },
-                                        "text": "Battle hardened and created without fur - all know the king.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 600, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Grizzlepaw"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 7080 },
-                                        "text": "Majiko",
-                                        "style": "$StyleSettingsCenterTitle"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 }
-                                                //"filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 7070 },
-                                        "text": "Mutated Leaper",
-                                        "style": "$StyleSettingsTextCR"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 0, "y": 7090 },
-                                        "text": "Bestowed great size and speed has enabled it to be a deadly minion",
-                                        "style": "$StyleSettingsTextC"
+                                        "text": " - Sol (Damage Reduced By changed from 7 to 4)",
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "type": "TableRowWidget", "name": "RC8",
                             "children": [
                                 {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "type": "TextBoxWidget", "name": "RC8T",
                                     "fields": {
-                                        "rect": { "x": 0, "y": 7080 },
-                                        "text": "It's tormented soul making it become more erratic and lethal.",
-                                        "style": "$StyleSettingsTextC"
-                                    },
-                                    "children": [
-                                        {
-                                            "type": "ImageWidget", "name": "Divider",
-                                            "fields": {
-                                                "rect": { "x": 670, "y": 70 },
-                                                "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Majiko"
-                                            }
-                                        }
-                                    ]
+                                        "text": " - Shael (Increased Attack Speed reduced from 20% to 10%)",
+                                        "style": "$StyleSettingsText"
+                                    }
                                 }
                             ]
-                        }
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC9",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC9T",
+                                    "fields": {
+                                        "text": " - Shael (Faster Hit Recovery reduced from 20% to 10%",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC10T",
+                                    "fields": {
+                                        "text": " - Dol (HP Regen reduced from 7 to 3)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC11T",
+                                    "fields": {
+                                        "text": " - Pul (Att-Demon reduced from 100 to 50 and Dmg-Demon from 75% to 40%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC12",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC12T",
+                                    "fields": {
+                                        "text": " - Pul (Enhanced Defense% reduced from 30% to 20%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC13",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC13T",
+                                    "fields": {
+                                        "text": " - Um (All Resistance% reduced from 15% to 10%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC14",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC14T",
+                                    "fields": {
+                                        "text": " - Um (Open Wounds reduced from 25% to 10%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC15",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC15T",
+                                    "fields": {
+                                        "text": " - Mal (Magic Damage Reduced by lowered from 7 to 3)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC16",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC16T",
+                                    "fields": {
+                                        "text": " - Amn (Life Steal reduced from 7% to 5%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC17",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC17T",
+                                    "fields": {
+                                        "text": " - Ist (Weapon - Magic Find% reduced from 30% to 15%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC18",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC18T",
+                                    "fields": {
+                                        "text": " - Ist (Armor - Magic Find reduced from 25% to 10%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC19",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC19T",
+                                    "fields": {
+                                        "text": " - Gul (Attack Bonus% reduced from 20% to 10%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC20",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC20T",
+                                    "fields": {
+                                        "text": " - Vex (Mana Steal reduced from 7% to 5%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC21T",
+                                    "fields": {
+                                        "text": " - Cham (Freeze Target reduced from 3 to 2)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC22",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC22T",
+                                    "fields": {
+                                        "text": " - Ohm (Enhanded Damage% reduced from 50% to 35%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC23T",
+                                    "fields": {
+                                        "text": " - Lo (Deadly Strike reduced from 20% to 10%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC24T",
+                                    "fields": {
+                                        "text": " - Ber (Crushing Blow reduced from 20% to 10%)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC25",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC25T",
+                                    "fields": {
+                                        "text": " - Jah (Max HP% reduced from 5 to 2)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        
                     ]
                 }
             ]

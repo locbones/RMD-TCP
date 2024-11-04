@@ -257,20 +257,19 @@
                         {
                             "type": "TabBarWidget", "name": "Tabs",
                             "fields": {
-                                "rect": { "x": 235, "y": -10 },
-                                "tabCount": 1,
-                                "filename": "Blank",
+                                "rect": { "x": 85, "y": 10 },
+                                "tabCount": 2,
+                                "filename": "FrontEnd\\HD\\Final\\FrontEnd_Tabs",
                                 "inactiveFrames": [ 1, 1 ],
                                 "activeFrames": [ 0, 0 ],
-                                "disabledFrames": [ 2, -1 ],
-                                "textStrings": [ "Offline Only", "@Offline" ],
+                                "disabledFrames": [ 2, 2 ],
+                                "textStrings": [ "Disabled","@Offline" ],
                                 "textStyle": { "pointSize": "$XLargeFontSize" },
                                 "activeTextColor": "$FontColorWhite",
                                 "inactiveTextColor": "$FontColorWhite",
                                 "disabledTextColor": "$FontColorGray",
-                                "tabSize": { "x": 332, "y": 71 },
+                                "tabSize": { "x": 312, "y": 71 },
                                 "tabPadding": { "x": -1, "y": 0 },
-                                "onSwitchTabMessage": "CharacterSelect:SelectTabbb",
                                 "automaticallyPositionIndicators": false
                             }
                         }, 
@@ -310,7 +309,7 @@
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 242, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.8E)",
+                                "text":"(Beta - 0.9.9.8T)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
@@ -323,7 +322,7 @@
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 295, "y": 2070, "width": 400 },
-                                "text":"BUILD 082124",
+                                "text":"BUILD 102024",
                                 "style": {
                                     "fontColor": "$FontColorGray",
                                     "pointSize": "$SmallPanelFontSize",
@@ -331,7 +330,33 @@
                                     "dropShadow": "$DefaultDropShadow"
                                 }
                             }
-                        }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "Shop",
+                            "fields": {
+                                "rect": { "x": -70, "y": 1900, "width": 408 },
+                                "anchor": {"x": 0.5},
+                                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\Shop_Button",
+                                "tooltipString": "Enjoy Demon Hunting w/ Friends",
+                                "hoveredFrame": 2,
+                                "onClickMessage": "PanelManager:OpenPanel:TCPIPPanel"
+                            },
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModName",
+                                            "fields": {
+                                                "rect": { "x": 3, "y": 120, "width": 400 },
+                                                "text":"TCP/IP",
+                                                "style": {
+                                                    "fontColor": "$CharacterListDetailsColor",
+                                                    "pointSize": "$MediumFontSize",
+                                                    "spacing": "$ReducedSpacing",
+                                                    "dropShadow": "$DefaultDropShadow"
+                                                }
+                                            }
+                                }
+                            ]
+                        },
                     ]
                 }
             ]
