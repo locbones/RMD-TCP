@@ -32,7 +32,7 @@
                 {
                     "type": "TextBoxWidget", "name": "TitleTemplate",
                     "fields": {
-                        "rect": { "width": 250, "height": 90 },
+                        "rect": { "width": 375, "height": 90 },
                         "style": {
                             "fontFace": "Exocet",
                             "pointSize": "$LargeFontSize",
@@ -56,7 +56,7 @@
                 {
                     "type": "TextBoxWidget", "name": "RightTemplate",
                     "fields": {
-                        "rect": { "x": 200, "width": 100, "height": 72 },
+                        "rect": { "x": 400, "width": 100, "height": 72 },
                         "style": {
                             "fontFace": "Exocet",
                             "pointSize": "$LargeFontSize",
@@ -68,7 +68,7 @@
                 {
                     "type": "TextBoxWidget", "name": "CenterTemplate",
                     "fields": {
-                        "rect": { "x": 75, "width": 100, "height": 72 },
+                        "rect": { "x": 135, "width": 100, "height": 72 },
                         "style": {
                             "fontFace": "Exocet",
                             "pointSize": "$LargeFontSize",

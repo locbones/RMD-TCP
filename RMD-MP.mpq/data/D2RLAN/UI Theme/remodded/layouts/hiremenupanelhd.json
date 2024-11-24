@@ -1,6 +1,7 @@
 {
     "type": "HireMenuPanel", "name": "HireMenuPanel",
     "fields": {
+        "priority": 9001,
         "rect": "$LeftPanelRectS",
         "anchor": "$LeftPanelAnchor"
     },
@@ -226,6 +227,16 @@
                 "rect": { "x": 150, "y": 166 },
                 //"filename": "PANEL\\Hireling\\HireablePanel\\Hirables_Overlay"
             }
-        }
+        },
+        {
+            "type": "ButtonWidget", "name": "MercInfo",
+            "fields": {
+                "rect": { "x": 885, "y": 1257, "scale": 2.0 },
+                "filename": "PANEL/HUD_02/PauseMenu",
+                "tooltipString": "Show Merc Info",
+                "hoveredFrame": 2,
+                "onClickMessage": "PanelManager:OpenPanel:MercInfoPanel"
+            }
+        },
     ]
 }

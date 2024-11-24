@@ -4503,5 +4503,19 @@
       "uber": "..//custom/prismaticfacet",
       "ultra": "..//custom/prismaticfacet"
     }
+  },
+  {
+    "spiritual_sentinel": {
+      "normal": "..//custom//spiritarmor4",
+      "uber": "..//custom//spiritarmor4",
+      "ultra": "..//custom//spiritarmor4"
+    }
+  },
+  {
+    "spiritual_warden": {
+      "normal": "..//custom//spiritarmor5",
+      "uber": "..//custom//spiritarmor5",
+      "ultra": "..//custom//spiritarmor5"
+    }
   }
 ]
