@@ -1,7 +1,6 @@
 {
     "type": "HireMenuPanel", "name": "HireMenuPanel",
     "fields": {
-        "priority": 9001,
         "rect": "$LeftPanelRectS",
         "anchor": "$LeftPanelAnchor"
     },

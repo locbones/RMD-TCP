@@ -90,7 +90,7 @@
                                 {
                                     "type": "AnimatedImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "Blank",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Open\\Previews\\A5Aura",
                                         "rect": { "x": 80, "y": 20, "scale": 1.5 },
                                         "fps": 12
                                     }
@@ -103,7 +103,7 @@
                                 {
                                     "type": "ImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "Blank",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Open\\Icons\\I_Blank",
                                         "rect": { "x": 80, "y": 225, "scale": 0.70 }
                                     }
                                 }
