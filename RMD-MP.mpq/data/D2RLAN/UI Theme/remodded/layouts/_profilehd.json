@@ -593,7 +593,7 @@
     "OptionsScrollBarBackgroundRect": { "x": -20, "y": 0 },
     "MercOptionsScrollBarBackgroundRect": { "x": -350, "y": 0 },
     "RecipeScrollBarBackgroundRect": { "x": 0, "y": 0 },
-    "OptionsTableColumn1": { "width": 1200, "alignment": { "h": "fit", "v": "fit" } },
+    "OptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
     "OptionsTableColumn2": { "width": 700, "alignment": { "h": "center", "v": "center" } },
     "OptionsTableColumn2p": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
     "MercOptionsTableColumn1": { "width": 1000, "alignment": { "h": "fit", "v": "fit" } },
