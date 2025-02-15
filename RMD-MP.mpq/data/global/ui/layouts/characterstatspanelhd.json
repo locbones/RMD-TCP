@@ -959,6 +959,7 @@
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
                         "statsIndex": 0,
+                        "onClickMessage": "CharacterStatsPanelMessage:UseSkillPoint:0",
                         "tooltipString": "@TooltipCharacterScreenSpendStatPoint",
                         "sound": "none"
                     }
@@ -971,6 +972,7 @@
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
                         "statsIndex": 1,
+                        "onClickMessage": "CharacterStatsPanelMessage:UseSkillPoint:1",
                         "tooltipString": "@TooltipCharacterScreenSpendStatPoint",
                         "sound": "none"
                     }
@@ -983,6 +985,7 @@
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
                         "statsIndex": 2,
+                        "onClickMessage": "CharacterStatsPanelMessage:UseSkillPoint:2",
                         "tooltipString": "@TooltipCharacterScreenSpendStatPoint",
                         "sound": "none"
                     }
@@ -995,6 +998,7 @@
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
                         "statsIndex": 3,
+                        "onClickMessage": "CharacterStatsPanelMessage:UseSkillPoint:3",
                         "tooltipString": "@TooltipCharacterScreenSpendStatPoint",
                         "sound": "none"
                     }
