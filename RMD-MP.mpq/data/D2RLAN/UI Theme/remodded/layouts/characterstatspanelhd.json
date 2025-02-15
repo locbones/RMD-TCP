@@ -952,7 +952,7 @@
             "children": [
                 // Add skill pt button
                 {
-                    "type": "CharacterStatLevelUpButtonWidget", "name": "StrengthPointButton",
+                    "type": "ButtonWidget", "name": "StrengthPointButton",
                     "fields": {
                         "rect": { "x": 438, "y": 8 },
                         "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
@@ -964,7 +964,7 @@
                     }
                 },
                 {
-                    "type": "CharacterStatLevelUpButtonWidget", "name": "DexPointButton",
+                    "type": "ButtonWidget", "name": "DexPointButton",
                     "fields": {
                         "rect": { "x": 438, "y": 76 },
                         "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
@@ -976,7 +976,7 @@
                     }
                 },
                 {
-                    "type": "CharacterStatLevelUpButtonWidget", "name": "VitalityPointButton",
+                    "type": "ButtonWidget", "name": "VitalityPointButton",
                     "fields": {
                         "rect": { "x": 438, "y": 144 },
                         "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
@@ -988,7 +988,7 @@
                     }
                 },
                 {
-                    "type": "CharacterStatLevelUpButtonWidget", "name": "EnergyPointButton",
+                    "type": "ButtonWidget", "name": "EnergyPointButton",
                     "fields": {
                         "rect": { "x": 438, "y": 212 },
                         "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\LevelUpButton",
