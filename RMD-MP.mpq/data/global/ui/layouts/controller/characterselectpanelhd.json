@@ -147,8 +147,8 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 225, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.9 HF)",
+                                "rect": { "x": 240, "y": 2030, "width": 400 },
+                                "text":"(Beta - 0.9.9.9A)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
@@ -161,7 +161,7 @@
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 300, "y": 2080, "width": 400 },
-                                "text":"BUILD 021225",
+                                "text":"BUILD 021525",
                                 "style": {
                                     "fontColor": "$FontColorGray",
                                     "pointSize": "$SmallPanelFontSize",
@@ -169,32 +169,6 @@
                                     "dropShadow": "$DefaultDropShadow"
                                 }
                             }
-                        },
-                        {
-                            "type": "ButtonWidget", "name": "Shop",
-                            "fields": {
-                                "rect": { "x": -70, "y": 1900, "width": 408 },
-                                "anchor": {"x": 0.5},
-                                "filename": "..\\..\\..\\ReMoDDeD\\Shop\\Shop_Button",
-                                "tooltipString": "Enjoy Demon Hunting w/ Friends",
-                                "hoveredFrame": 2,
-                                "onClickMessage": "PanelManager:OpenPanel:TCPIPPanel"
-                            },
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "ModName",
-                                            "fields": {
-                                                "rect": { "x": 3, "y": 120, "width": 400 },
-                                                "text":"TCP/IP",
-                                                "style": {
-                                                    "fontColor": "$CharacterListDetailsColor",
-                                                    "pointSize": "$MediumFontSize",
-                                                    "spacing": "$ReducedSpacing",
-                                                    "dropShadow": "$DefaultDropShadow"
-                                                }
-                                            }
-                                }
-                            ]
                         }
                     ]
                 }
