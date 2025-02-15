@@ -16,14 +16,14 @@
 					"type": "GrowableImageWidget", "name": "UniqueMonsterBackground",
 					"rect": { "x": 0, "y": 126 },
 					"fields": {
-						"filename": "../../../D2RLaunch/Monster Stats/MonHPBar_UniFullPer"
+						"filename": "../../../D2RLAN/Monster Stats/MonHPBar_UniFullPer"
 					}
 				},
 				{
 					"type": "GrowableImageWidget", "name": "NormalMonsterBackground",
 					"rect": { "x": 0, "y": 126 },
 					"fields": {
-						"filename": "../../../D2RLaunch/Monster Stats/MonHPBar_NormFullPer"
+						"filename": "../../../D2RLAN/Monster Stats/MonHPBar_NormFullPer"
 					}
 				},
 				{

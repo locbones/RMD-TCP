@@ -331,7 +331,33 @@
                                     "dropShadow": "$DefaultDropShadow"
                                 }
                             }
-                        }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "Shop",
+                            "fields": {
+                                "rect": { "x": -70, "y": 1900, "width": 408 },
+                                "anchor": {"x": 0.5},
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Shop\\Shop_Button",
+                                "tooltipString": "Enjoy Demon Hunting w/ Friends",
+                                "hoveredFrame": 2,
+                                "onClickMessage": "PanelManager:OpenPanel:TCPIPPanel"
+                            },
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModName",
+                                            "fields": {
+                                                "rect": { "x": 3, "y": 120, "width": 400 },
+                                                "text":"TCP/IP",
+                                                "style": {
+                                                    "fontColor": "$CharacterListDetailsColor",
+                                                    "pointSize": "$MediumFontSize",
+                                                    "spacing": "$ReducedSpacing",
+                                                    "dropShadow": "$DefaultDropShadow"
+                                                }
+                                            }
+                                }
+                            ]
+                        },
                     ]
                 }
             ]
