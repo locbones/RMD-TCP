@@ -150,7 +150,7 @@
             "type": "ButtonWidget", "name": "close",
             "fields": {
                 "rect": { "x": 1065, "y": 26 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Exit_R",
                 "hoveredFrame": 3,
                 "normalFrame": 0,
                 "pressedFrame": 1,

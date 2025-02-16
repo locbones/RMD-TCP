@@ -13,7 +13,7 @@
             "fields": {
                 "rect": { "x": -896, "y": -130, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
                 "anchor": { "x": 0.5 },
-                "filename": "Controller/Panel/Options/Panel_Options_BG"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\InfoBGW_R"
             }
         },
         {
@@ -27,7 +27,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "PauseMenu\\VerticalScroll"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_R"
             },
             "children": [
                 {
@@ -57,7 +57,7 @@
             "type": "ButtonWidget", "name": "CloseButton",
             "fields": {
                 "rect": { "x": 1675, "y": -110 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                 "hoveredFrame": 3,
                 "onClickMessage": "PanelManager:ClosePanel:HelpPanel",
                 "tooltipString": "@strClose",

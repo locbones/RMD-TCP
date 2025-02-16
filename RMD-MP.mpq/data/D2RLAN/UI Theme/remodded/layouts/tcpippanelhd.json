@@ -9,7 +9,7 @@
             "type": "GridImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": 140, "y": 382, },
-                "filename": "..\\..\\..\\ReMoDDeD\\TCP_BG"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\TCPBG_R"
             }
         },
         {
@@ -77,7 +77,7 @@
             "type": "ButtonWidget", "name": "HostGame",
             "fields": {
                 "rect": { "x": 348, "y": 598, },
-                "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                 "textString": "@strCreateServer",
                 "onClickMessage": "FrontEndNavigation:ToCharacterSelect",
                 "text/style": "$StyleFEButtonText",
@@ -88,7 +88,7 @@
             "type": "ButtonWidget", "name": "JoinGame",
             "fields": {
                 "rect": { "x": 348, "y": 743, },
-                "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                 "textString": "@strMultiMenu2",
                 "onClickMessage": "FrontEndNavigation:ToJoinGame",
                 "text/style": "$StyleFEButtonText",
@@ -99,7 +99,7 @@
             "type": "ButtonWidget", "name": "Cancel",
             "fields": {
                 "rect": { "x": 935, "y": 395 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Exit",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit_R",
                 "hoveredFrame": 3,
                 "onClickMessage": "FrontEndNavigation:ToOtherMultiplayer",
                 "acceptsEscKeyEverywhere": true
