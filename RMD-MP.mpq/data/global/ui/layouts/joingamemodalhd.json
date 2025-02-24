@@ -12,7 +12,7 @@
             "type": "GridImageWidget", "name": "Background",
             "fields": {
                 "rect": { "x": 140, "y": 382, },
-                "filename": "..\\..\\..\\ReMoDDeD\\TCP_BG"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Main\\TCPBG_R"
             }
         },
         {
@@ -58,7 +58,7 @@
                     "type": "ButtonWidget", "name": "Ok",
                     "fields": {
                         "rect": { "x": 348, "y": 598, },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                         "textString":  "@ok",
                 	"text/style": "$StyleFEButtonText",
                 	"textColor": "$LightButtonTextColor",
@@ -69,7 +69,7 @@
                     "type": "ButtonWidget", "name": "Cancel",
                     "fields": {
                         "rect": { "x": 348, "y": 743,},
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                         "textString":  "@cancel",
                 	"text/style": "$StyleFEButtonText",
                 	"textColor": "$LightButtonTextColor",
@@ -100,7 +100,7 @@
                     "type": "ButtonWidget", "name": "CancelButton",
                     "fields": {
                         "rect": { "x": 335, "y": 600, },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                         "textString":  "@cancel",
                         "pointSize": "$MediumFontSize",
                         "textColor": "$FontColorLightGold",
@@ -131,7 +131,7 @@
                     "type": "ButtonWidget", "name": "OkButton",
                     "fields": {
                         "rect": { "x": 335, "y": 600, },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonMed_R",
                         "textString":  "@ok",
                         "pointSize": "$MediumFontSize",
                         "textColor": "$FontColorLightGold",
