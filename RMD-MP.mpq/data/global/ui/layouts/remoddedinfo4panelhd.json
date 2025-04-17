@@ -152,7 +152,7 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 {
                                     "type": "TextBoxWidget", "name": "IZ1T",
                                     "fields": {
-                                        "text": " - Grants +1 Max HP% for every 10,000 kills (No Max)",
+                                        "text": " - Grants +1 Max HP% for every 5,000 kills (No Max)",
                                         "style": "$StyleSettingsText"
                                     }
                                 }
