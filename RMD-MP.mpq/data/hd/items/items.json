@@ -1590,6 +1590,7 @@
   { "m32": { "asset": "charm/charm_small" } },
   { "m33": { "asset": "charm/charm_medium" } },
   { "m34": { "asset": "charm/charm_large" } },
+  { "m35": { "asset": "charm/charm_large" } },
   { "Ss1": { "asset": "axe/brainhew" } },
   { "Ss2": { "asset": "sword/lightsabre" } },
   { "Ss3": { "asset": "..//custom//katana" } },
