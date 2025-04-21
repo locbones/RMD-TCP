@@ -46,7 +46,7 @@
                 "disabledFrame": 2,
                 "hoveredFrame": 3,
                 "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
-                "states": [ "Page 1", "Page 2", "Page 3", "Page 4", "Page 5", "Page 6", "Page 7", "Page 8", "Page 9", "Page 10", "Page 11", "Page 12", "I should be blank" ],
+                "states": [ "Page 1", "Page 2", "Page 3", "Page 4", "Page 5", "Page 6" ],
                 "onUpdateMessage": "BankPanelMessage:SelectPage",
                 "text/style": "$StyleSettingsCarousel",
                 "text/style": { "pointSize": "$MediumFontSize" },

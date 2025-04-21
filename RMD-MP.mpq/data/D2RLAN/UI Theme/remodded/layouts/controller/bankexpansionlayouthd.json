@@ -45,6 +45,28 @@
             }
         },
         {
+            "type": "DropdownListWidget", "name": "BankPages",
+            "fields": {
+                "anchor": { "x": 0.05, "y": -0.1 },
+                "rect": { "width": 408, "height": 75 },
+                "background/rect": { "x": 20, "width": 408, "height": 75 },
+                "background/leftCapOffset": "$OptionsDropDownLeftCapOffset2",
+                "background/rightCapOffset": "$OptionsDropDownRightCapOffset2",
+                "pressedFrame": 1,
+                "disabledFrame": 2,
+                "hoveredFrame": 3,
+                "focusIndicatorFilename": "$OptionsDropDownFocusIndicatorFilename",
+                "states": [ "Page 1", "Page 2", "Page 3", "Page 4", "Page 5", "Page 6" ],
+                "onUpdateMessage": "BankPanelMessage:SelectPage",
+                "text/style": "$StyleSettingsCarousel",
+                "text/style": { "pointSize": "$MediumFontSize" },
+                "textColor": "$FontColorLightGold",
+                "tooltipString": "This allows you to switch between multiple pages of shared stash tabs",
+                "tooltipStyle": {
+                    "showAfterDelay": true}
+            }
+        },
+        {
             "type": "TabBarWidget", "name": "BankTabs",
             "fields": {
                 "rect": { "x": -250, "y": -140 },
