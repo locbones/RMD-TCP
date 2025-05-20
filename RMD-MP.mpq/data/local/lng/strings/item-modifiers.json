@@ -9808,5 +9808,39 @@
     "ruRU": "ÿcNPПронзающий уронÿc3",
     "zhCN": "ÿcN穿刺伤害ÿc3",
     "zhTW": "ÿcN穿刺傷害ÿc3"
+  },
+  {
+    "id": 48301,
+    "Key": "Moditem2ExpGN",
+	  "deDE": "Ÿcnmust limit Break auf Level-up!",
+	  "enUS": "ÿcNMust Limit Break to level-up!",
+	  "esES": "ÿcnMust Limite Break a nivel de nivel!",
+	  "esMX": "ÿcnMust Limite Break a nivel de nivel!",
+	  "frFR": "ÿCnMust Limit Break to Level-Up!",
+	  "itIT": "ÿCnMust Limit Break to Level-up!",
+	  "jaJP": "cnmustレベルアップへの制限の制限！",
+	  "koKR": "ÿcnmust Level-Up에 한계가 발생합니다!",
+	  "plPL": "ÿCnmust Break do poziomu!",
+	  "ptBR": "Limit Limit Break para o nível-up!",
+	  "ruRU": "ÿcnmust Limit Break до уровня вверх!",
+	  "zhCN": "•限制限制升级！",
+	  "zhTW": "•限制限制升級！"
+  },
+  {
+    "id": 48302,
+    "Key": "LBStatus",
+	  "deDE": "Ÿcnmust limit Break auf Level-up!",
+	  "enUS": "ÿcOLimit Break Level: ÿc0%d",
+	  "esES": "ÿcnMust Limite Break a nivel de nivel!",
+	  "esMX": "ÿcnMust Limite Break a nivel de nivel!",
+	  "frFR": "ÿCnMust Limit Break to Level-Up!",
+	  "itIT": "ÿCnMust Limit Break to Level-up!",
+	  "jaJP": "cnmustレベルアップへの制限の制限！",
+	  "koKR": "ÿcnmust Level-Up에 한계가 발생합니다!",
+	  "plPL": "ÿCnmust Break do poziomu!",
+	  "ptBR": "Limit Limit Break para o nível-up!",
+	  "ruRU": "ÿcnmust Limit Break до уровня вверх!",
+	  "zhCN": "•限制限制升级！",
+	  "zhTW": "•限制限制升級！"
   }
 ]
