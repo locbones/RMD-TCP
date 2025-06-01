@@ -1,14 +1,13 @@
 {
     "name": "RMD-MP",
     "savepath": "RMD-MP/"
-
-/*
+    /*
 --My Mod Details--
 Mod Download: https://github.com/locbones/RMD-TCP/archive/refs/heads/main.zip
 Mod Config Download: https://drive.google.com/uc?export=download&id=1GCpGLfWDadUKHCfP0zvscyefWVF_1ZTX
-Mod Version: 0.9.9.9BA (051925)
-News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.9BA)"
-News 1 Message: "This update adds a big new system to the mod, Limit Breaking! The player level cap has been raised to 125, but you will need to limit break and complete additional 'quests' in order to reach this new plateau of power. Expect this system to adapt and evolve over time, but I strongly recommend heading to our Discord or our Youtube for more info on this important change. As always, have fun!"
+Mod Version: 0.9.9.9C (052825)
+News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.9C)"
+News 1 Message: "This is a minor update on the mod side of things, but a major update for the experience. Loot filters are now available, and mod files have been updated to support easy loading of user-submitted configurations. For more details about the Loot Filter, please visit our Discord or Youtube, Enjoy!"
 News 2 Title: "D2RLAN 1.2.7+"
 News 2 Message: "D2RLAN has continued to evolve and push the boundaries of what's possible, while making it as easy-to-use and control as possible. Update 1.2.7 continues that trend; expanding the save file limit, implementing a stash paging system, and allowing socket counts to be displayed with items. These features are made available for all mods, so I hope you can enjoy them fully!"
 
@@ -29,5 +28,4 @@ Discord: https://www.discord.gg/pqUWcDcjWF
 Wiki: https://locbones.github.io/RMD-Wiki
 Patreon: https://www.patreon.com/bonesyd2r
 */
-
 }
