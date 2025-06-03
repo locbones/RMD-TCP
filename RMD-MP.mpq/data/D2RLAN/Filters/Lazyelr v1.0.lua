@@ -1,59 +1,248 @@
---- Filter Title: Cogy's Cozy Filter
---- Filter Type: (For new players)
---- Filter Description: Filters useless Items,\nand highlights a few Items\nFor suggestions please DM or Ping @Cogy
+--- Filter Title: Lazyelr
+--- Filter Type: Full playthrough filter
+--- Filter Description: This version of the filter comes with moderate-strong filtering of bases in Hell Cows, to remove this, delete all rules after line 133
 
 return {
+    reload = "{red}Lazyelr v1.0  {grey}Last Updated: 02/06/2025 03:20 elrtime {green}[Reloaded] ",
     rules = {
-        {   -- Hides 1 Socket Items
+        -- Hides 1 Socket Items
+        {
             codes = "allitems",
             quality = "3-",
             sockets = "1",
             hide = true
         },
-        {   -- Hides all non superior Bases with no Sockets, except some Paladin Maces
-            codes = {"cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp", "buc", "sml", "lrg", "kit", "tow", "gts", "lgl", "vgl", "mgl", "tgl", "hgl", "lbt", "vbt", "mbt", "tbt", "hbt", "lbl", "vbl", "mbl", "tbl", "hbl", "bhm", "bsh", "spk", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xui", "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp", "xuc", "xml", "xrg", "xit", "xow", "xts", "xlg", "xvg", "xmg", "xtg", "xhg", "xlb", "xvb", "xmb", "xtb", "xhb", "zlb", "zvb", "zmb", "ztb", "zhb", "xh9", "xsh", "xpk", "dr1", "dr2", "dr3", "dr4", "dr5", "ba1", "ba2", "ba3", "ba4", "ba5", "pa1", "pa2", "pa3", "pa4", "pa5", "ne1", "ne2", "ne3", "ne4", "ne5", "ci0", "ci1", "ci2", "ci3", "uap", "ukp", "ulm", "uhl", "uhm", "urn", "usk", "uui", "uea", "ula", "utu", "ung", "ucl", "uhn", "urs", "upl", "ult", "uld", "uth", "uul", "uar", "utp", "uuc", "uml", "urg", "uit", "uow", "uts", "ulg", "uvg", "umg", "utg", "uhg", "ulb", "uvb", "umb", "utb", "uhb", "ulc", "uvc", "umc", "utc", "uhc", "uh9", "ush", "upk", "dr6", "dr7", "dr8", "dr9", "dra", "ba6", "ba7", "ba8", "ba9", "baa", "pa6", "pa7", "pa8", "pa9", "paa", "ne6", "ne7", "ne8", "ne9", "nea", "drb", "drc", "drd", "dre", "drf", "bab", "bac", "bad", "bae", "baf", "pab", "pac", "pad", "pae", "paf", "neb", "neg", "ned", "nee", "nef", "Ca1", "Ca2", "Ca3", "Ca4", "Ca5", "Ca6", "Wp1", "Wp2", "Wp3", "Gg1", "Gg2", "Gg3", "Ab1", "Ab2", "Ab3", "Ab4", "Ab5", "Ab6", "Bp1", "Bp2", "Bp3", "Bp4", "Bp5", "Bp6", "Oa1", "Oa2", "Oa3", "Vg1", "Vg2", "Vg3", "Vg4", "Vg5", "Vg6", "Bb1", "Bb2", "Bb3", "Bb4", "Bb5", "Bb6", "Zc1", "Zc2", "Zc3", "Zc4", "Zc5", "Zc6", "St1", "St2", "Pc1", "Pc2", "Pc3", "Ag1", "Ag2", "Ag3", "Ag4", "Ag5", "Ag6", "Na1", "Na2", "Na3", "Na4", "Na5", "Na6", "Sa1", "Sa2", "Sa3", "Sa4", "Sa5", "Sa6", "St3", "St4", "St5", "St6", "St7", "St8", "St9", "St0", "D01", "D03", "D04", "D05", "D08", "D09", "D11", "D12", "D17", "D19", "D20", "D21", "D23", "D29", "D35", "D36", "D37", "D38", "D45", "hax", "axe", "2ax", "mpi", "wax", "lax", "bax", "btx", "gax", "gix", "wnd", "ywn", "bwn", "gwn", "clb", "scp", "gsc", "wsp", "spc", "mac", "mst", "fla", "whm", "mau", "gma", "ssd", "scm", "sbr", "flc", "crs", "bsd", "lsd", "wsd", "2hs", "clm", "gis", "bsw", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sst", "lst", "cst", "bst", "wst", "sbw", "hbw", "lbw", "cbw", "sbb", "lbb", "swb", "lwb", "lxb", "mxb", "hxb", "rxb", "gps", "ops", "gpm", "opm", "gpl", "opl", "9ha", "9ax", "92a", "9mp", "9wa", "9la", "9ba", "9bt", "9ga", "9gi", "9wn", "9yw", "9bw", "9gw", "9cl", "9sc", "9qs", "9ws", "9sp", "9ma", "9mt", "9fl", "9wh", "9m9", "9gm", "9ss", "9sm", "9sb", "9fc", "9cr", "9bs", "9ls", "9wd", "92h", "9cm", "9gs", "9b9", "9fb", "9gd", "9dg", "9di", "9kr", "9bl", "9tk", "9ta", "9bk", "9b8", "9ja", "9pi", "9s9", "9gl", "9ts", "9sr", "9tr", "9br", "9st", "9p9", "9b7", "9vo", "9s8", "9pa", "9h9", "9wc", "8ss", "8ls", "8cs", "8bs", "8ws", "8sb", "8hb", "8lb", "8cb", "8s8", "8l8", "8sw", "8lw", "8lx", "8mx", "8hx", "8rx", "ktr", "wrb", "axf", "ces", "clw", "btl", "skr", "9ar", "9wb", "9xf", "9cs", "9lw", "9tw", "9qr", "7ar", "7wb", "7xf", "7cs", "7lw", "7tw", "7qr", "7ha", "7ax", "72a", "7mp", "7wa", "7la", "7ba", "7bt", "7ga", "7gi", "7wn", "7yw", "7bw", "7gw", "7cl", "7sp", "7ma", "7mt", "7fl", "7wh", "7m7", "7gm", "7ss", "7sm", "7sb", "7fc", "7cr", "7bs", "7ls", "7wd", "72h", "7cm", "7gs", "7b7", "7fb", "7gd", "7dg", "7di", "7kr", "7bl", "7tk", "7ta", "7bk", "7b8", "7ja", "7pi", "7s7", "7gl", "7ts", "7sr", "7tr", "7br", "7st", "7p7", "7o7", "7vo", "7s8", "7pa", "7h7", "7wc", "6ss", "6ls", "6cs", "6bs", "6ws", "6sb", "6hb", "6lb", "6cb", "6s7", "6l7", "6sw", "6lw", "6lx", "6mx", "6hx", "6rx", "ob1", "ob2", "ob3", "ob4", "ob5", "am1", "am2", "am3", "am4", "am5", "ob6", "ob7", "ob8", "ob9", "oba", "am6", "am7", "am8", "am9", "ama", "obb", "obc", "obd", "obe", "obf", "amb", "amd", "ame", "amf", "k01", "k02", "k03", "Ds1", "Ds2", "Ds3", "Ds4", "Ds5", "Ds6", "Pm1", "Pm2", "Pm3", "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf4", "Bf5", "Bf6", "D00", "Ss1", "Ss2", "Ss3", "Ss4", "D02", "D13", "D14", "D15", "D16", "D24", "D25", "D26", "D27", "D28", "D30", "D31", "D34", "D39", "D40", "D41", "D42", "D43", "D44", "Ev9", "7qs"},
+        -- Hides all non superior Bases with no Sockets, except some Paladin Maces
+        {
+            codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp", "buc", "sml", "lrg", "kit", "tow", "gts", "lgl", "vgl", "mgl", "tgl", "hgl", "lbt", "vbt", "mbt", "tbt", "hbt", "lbl", "vbl", "mbl", "tbl", "hbl", "bhm", "bsh", "spk", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xui", "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp", "xuc", "xml", "xrg", "xit", "xow", "xts", "xlg", "xvg", "xmg", "xtg", "xhg", "xlb", "xvb", "xmb", "xtb", "xhb", "zlb", "zvb", "zmb", "ztb", "zhb", "xh9", "xsh", "xpk", "dr1", "dr2", "dr3", "dr4", "dr5", "ba1", "ba2", "ba3", "ba4", "ba5", "pa1", "pa2", "pa3", "pa4", "pa5", "ne1", "ne2", "ne3", "ne4", "ne5", "ci0", "ci1", "ci2", "ci3", "uap", "ukp", "ulm", "uhl", "uhm", "urn", "usk", "uui", "uea", "ula", "utu", "ung", "ucl", "uhn", "urs", "upl", "ult", "uld", "uth", "uul", "uar", "utp", "uuc", "uml", "urg", "uit", "uow", "uts", "ulg", "uvg", "umg", "utg", "uhg", "ulb", "uvb", "umb", "utb", "uhb", "ulc", "uvc", "umc", "utc", "uhc", "uh9", "ush", "upk", "dr6", "dr7", "dr8", "dr9", "dra", "ba6", "ba7", "ba8", "ba9", "baa", "pa6", "pa7", "pa8", "pa9", "paa", "ne6", "ne7", "ne8", "ne9", "nea", "drb", "drc", "drd", "dre", "drf", "bab", "bac", "bad", "bae", "baf", "pab", "pac", "pad", "pae", "paf", "neb", "neg", "ned", "nee", "nef", "Ca1", "Ca2", "Ca3", "Ca4", "Ca5", "Ca6", "Wp1", "Wp2", "Wp3", "Gg1", "Gg2", "Gg3", "Ab1", "Ab2", "Ab3", "Ab4", "Ab5", "Ab6", "Bp1", "Bp2", "Bp3", "Bp4", "Bp5", "Bp6", "Oa1", "Oa2", "Oa3", "Vg1", "Vg2", "Vg3", "Vg4", "Vg5", "Vg6", "Bb1", "Bb2", "Bb3", "Bb4", "Bb5", "Bb6", "Zc1", "Zc2", "Zc3", "Zc4", "Zc5", "Zc6", "St1", "St2", "Pc1", "Pc2", "Pc3", "Ag1", "Ag2", "Ag3", "Ag4", "Ag5", "Ag6", "Na1", "Na2", "Na3", "Na4", "Na5", "Na6", "Sa1", "Sa2", "Sa3", "Sa4", "Sa5", "Sa6", "St3", "St4", "St5", "St6", "St7", "St8", "St9", "St0", "D01", "D03", "D04", "D05", "D08", "D09", "D11", "D12", "D17", "D19", "D20", "D21", "D23", "D29", "D35", "D36", "D37", "D38", "D45", "hax", "axe", "2ax", "mpi", "wax", "lax", "bax", "btx", "gax", "gix", "wnd", "ywn", "bwn", "gwn", "clb", "scp", "gsc", "wsp", "spc", "mac", "mst", "fla", "whm", "mau", "gma", "ssd", "scm", "sbr", "flc", "crs", "bsd", "lsd", "wsd", "2hs", "clm", "gis", "bsw", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sst", "lst", "cst", "bst", "wst", "sbw", "hbw", "lbw", "cbw", "sbb", "lbb", "swb", "lwb", "lxb", "mxb", "hxb", "rxb", "gps", "ops", "gpm", "opm", "gpl", "opl", "9ha", "9ax", "92a", "9mp", "9wa", "9la", "9ba", "9bt", "9ga", "9gi", "9wn", "9yw", "9bw", "9gw", "9cl", "9sc", "9qs", "9ws", "9sp", "9ma", "9mt", "9fl", "9wh", "9m9", "9gm", "9ss", "9sm", "9sb", "9fc", "9cr", "9bs", "9ls", "9wd", "92h", "9cm", "9gs", "9b9", "9fb", "9gd", "9dg", "9di", "9kr", "9bl", "9tk", "9ta", "9bk", "9b8", "9ja", "9pi", "9s9", "9gl", "9ts", "9sr", "9tr", "9br", "9st", "9p9", "9b7", "9vo", "9s8", "9pa", "9h9", "9wc", "8ss", "8ls", "8cs", "8bs", "8ws", "8sb", "8hb", "8lb", "8cb", "8s8", "8l8", "8sw", "8lw", "8lx", "8mx", "8hx", "8rx", "ktr", "wrb", "axf", "ces", "clw", "btl", "skr", "9ar", "9wb", "9xf", "9cs", "9lw", "9tw", "9qr", "7ar", "7wb", "7xf", "7cs", "7lw", "7tw", "7qr", "7ha", "7ax", "72a", "7mp", "7wa", "7la", "7ba", "7bt", "7ga", "7gi", "7wn", "7yw", "7bw", "7gw", "7cl", "7sp", "7ma", "7mt", "7fl", "7wh", "7m7", "7gm", "7ss", "7sm", "7sb", "7fc", "7cr", "7bs", "7ls", "7wd", "72h", "7cm", "7gs", "7b7", "7fb", "7gd", "7dg", "7di", "7kr", "7bl", "7tk", "7ta", "7bk", "7b8", "7ja", "7pi", "7s7", "7gl", "7ts", "7sr", "7tr", "7br", "7st", "7p7", "7o7", "7vo", "7s8", "7pa", "7h7", "7wc", "6ss", "6ls", "6cs", "6bs", "6ws", "6sb", "6hb", "6lb", "6cb", "6s7", "6l7", "6sw", "6lw", "6lx", "6mx", "6hx", "6rx", "ob1", "ob2", "ob3", "ob4", "ob5", "am1", "am2", "am3", "am4", "am5", "ob6", "ob7", "ob8", "ob9", "oba", "am6", "am7", "am8", "am9", "ama", "obb", "obc", "obd", "obe", "obf", "amb", "amd", "ame", "amf", "k01", "k02", "k03", "Ds1", "Ds2", "Ds3", "Ds4", "Ds5", "Ds6", "Pm1", "Pm2", "Pm3", "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf4", "Bf5", "Bf6", "D00", "Ss1", "Ss2", "Ss3", "Ss4", "D02", "D13", "D14", "D15", "D16", "D24", "D25", "D26", "D27", "D28", "D30", "D31", "D34", "D39", "D40", "D41", "D42", "D43", "D44", "Ev9", "7qs" },
             quality = "2",
             sockets = "0",
             hide = true
         },
-        { -- Hides all Gold under 500 if the Player reached level 60
+        -- Hides all Gold under 250 if the Player reached level 75 (reduced from standard filter because gold is life)
+        {
             code = "gld",
-            stat = { index = 14, op = "<=", value=500}, -- Value = Gold minimum to be shown
-            pstat = { index = 12, op = ">=", value = 60 }, -- Value = Character Level
+            stat = { index = 14, op = "<=", value = 250 }, -- Value = Gold minimum to be shown
+            pstat = { index = 12, op = ">=", value = 75 }, -- Value = Character Level
             hide = true
         },
-        {   -- Hides non rare Arrows
+        -- Hides non magic+ Arrows
+        {
             code = "aqv",
-            quality = "4-", -- If you want to drop Magic Arrows, change quality to 3
+            quality = "3-", -- to hide rare, change to "4-"
             hide = true
         },
-        {   -- Hides Scrolls, Potions and Small Juvs
-            codes = { "mp1", "mp2", "mp3", "mp4", "mp5", "hp1", "hp2", "hp3", "hp4", "hp5", "isc", "tsc", "rvs"},
+        -- Hides Scrolls, Potions and Small Juvs
+        {
+            codes = { "mp1", "mp2", "mp3", "mp4", "mp5", "hp1", "hp2", "hp3", "hp4", "hp5", "isc", "tsc", "rvs" },
             hide = true
         },
-        {   -- Highlights Runes Mal+ 
-            codes = { "r23","r24","r25","r26","r27","r28","r29","r30","r31","r32","r33","r34","r35","r36"},
-            notify = true,
-            notify_message = "High Rune Droped" -- Message can be customized here
-        },
-        {   -- Hides Large Charms, i never pick em up
+        -- Hides Large Charms
+        {
             code = "cm2",
             quality = "4",
             hide = true
         },
-        {   -- Highlights Treasure Chests
-            codes = { "383", "y09","y10","y11","y12","y13","y14","y15","y16","y17","y18","y19","y20","y21","y22","y23","y24","y25","y26","y27","y28","y29","y30","y31","y32"},
+        -- Highlights Treasure Chests
+        {
+            codes = { "y09", "y10", "y11", "y12", "y13", "y14", "y15", "y16", "y17", "y18", "y19", "y20", "y21", "y22", "y23", "y24", "y25", "y26", "y27", "y28", "y29", "y30", "y31", "y32" },
             hide = false,
-            notify = true,
-            notify_message = "A Chest of Treasure" -- Message can be custimized
+            notify = "Lootboxes, in my diablo game?",
+            prefix = "{Yellow} [",
+            suffix = "{Yellow}] "
         },
-        {   -- Highlights Rama Gifts
+        -- Highlights Rama Gifts
+        {
             code = "Rgx",
-            notify = true,
-            notify_message = "A Gift by the Gods" -- Message can be custimized
+            notify = "Ramalamadingdong!",
+            prefix = "{Red}| ",
+            suffix = "{Red} |",
+            background = { 255, 255, 255, 255 }
+        },
+        -- Highlights ultra runes.. aggressively
+        {
+            codes = { "r34", "r35", "r36" },
+            notify = "ÿc1**          ULTRA Rune Dropped*:",
+            prefix = "{Red}|          ",
+            suffix = "{Red}          |",
+            background = { 255, 255, 255, 255 }
+        },
+        -- Highlights high runes Mal-Zod but not as angrily as ultras because theyre less cool
+        {
+            codes = { "r23", "r24", "r25", "r26", "r27", "r28", "r29", "r30", "r31", "r32", "r33" },
+            notify = "ÿc@*High Rune Dropped*:",
+            prefix = "|     ",
+            suffix = "     |",
+            background = { 255, 255, 255, 255 }
+        },
+        -- Hides Med or lower runes when clvl=80+
+        {
+            codes = { "r01", "r02", "r03", "r04", "r05", "r06", "r07", "r08", "r09", "r10", "r11", "r12", "r13", "r14", "r15", "r16", "r17", "r18", "r19", "r20", "r21", "r22" },
+            pstat = { index = 12, op = ">=", value = 80 }, --playerstat = index 12 (12 = player lvl), operation = greater than or equal too (>=), value selected = 80 (plvl >=80)
+            hide = true
+        },
+        -- Hides Grand Charms until clvl=44 (low level gcs are rarely worth looking at due to statue benefits)
+        {
+            code = "cm3",
+            pstat = { index = 12, op = "<=", value = 44 },
+            hide = true,
+            quality = "4"
+        },
+        -- Highlight Unique items with bases that are contested for a good unique (no ID spoilers)
+        {
+            codes = { "vgl", "utp", "6ls", "rin", "amu", "aqv" },
+            quality = "7",
+            notify = "ÿcO Contested Base Unique Dropped - GL",
+            prefix = "[   ",
+            suffix = "   ]"
+        },
+        -- Highlights rare rings and amulets specifically when clvl is <= 70
+        {
+            codes = { "rin", "amu" }, --add codes here to expand highlight list
+            quality = "5",
+            notify = "ÿcO Potential Rare Dropped",
+            prefix = "{red}** ",
+            suffix = "{red}  **",
+            pstat = { index = 12, op = "<=", value = 70 },
+        },
+        -- Highlight all Superior bases (does not check for mods)
+        {
+            codes = "allitems",
+            quality = "3",
+            prefix = "{tan}* ",
+            suffix = "{tan} *"
+        },
+        -- Hide all throwing weapons because theyre annoying and common
+        {
+            codes = { "tkf", "tax", "tsp" },
+            hide = true
+        },
+        -- Hide all magic items when clvl is 80 or above
+        {
+            codes = "allitems",
+            quality = "4",
+            pstat = { index = 12, op = ">=", value = 80 },
+            hide = true
+        },
+        -- Hiding items dropping with <max sockets rules (applies after clvl 80, assuming you're at hell cow farm level)
+        -- Weapons
+        {
+            codes = { "7ha", "9ha", "hax", "sbw", "7sp", "9sp", "spc", "7cs", "7lw", "7tw", "7qr", "7ar", "7xf", "7wb", "9xf", "9lw", "9tw", "9cs", "9ar", "9qr", "9wb", "btl", "clw", "axf", "skr", "wrb", "lxb", "amf", "ama", "am5", "7s7", "7ja", "7pi", "9pi", "9s9", "9ja", "ssp", "7kr", "7bl", "9kr", "9bl", "bld", "kri", "Pm1", "Pm2", "Pm3", "7mt", "7ma", "9ma", "9mt", "mac", "mst", "obf", "oba", "ob5", "7sc", "7qs", "9qs", "9sc", "gsc", "scp", "Ds1", "Ds2", "Ds3", "6ss", "8ss", "sst", "k01", "k02", "2hs", "7sm", "7sb", "7ss", "7fc", "7wd", "9wd", "9ss", "9sm", "9sb", "9fc", "flc", "sbr", "ssd", "scm", "wsd" },
+            quality = "3-",
+            sockets = "2-",
+            pstat = { index = 12, op = ">=", value = 80 },
+            hide = true
+        },
+        {
+            codes = { "Bf4", "cbw", "hbw", "8lx", "mxb", "6cs", "6bs", "6ls", "8cs", "8bs", "8ls", "bst", "cst", "lst", "bsw", "k03", "72h", "92h", "7gs", "7b7", "7cm", "9cm", "9b9", "9gs", "bsd", "clm", "gis", "lsd", "bal", "7gl", "7ts", "9ts", "9gl", "glv", "tsp" },
+            quality = "3-",
+            sockets = "3-",
+            pstat = { index = 12, op = ">=", value = 80 },
+            hide = true
+        },
+        {
+            codes = { "axe", "bax", "2ax", "lax", "am2", "am1", "6hb", "6cb", "6sb", "8cb", "8sb", "8hb", "lbw", "6rx", "6mx", "6lx", "8rx", "8mx", "rxb", "fla", "bar", "brn", "pax", "spr", "tri", "vou", "wsp", "scy", "9b8" },
+            quality = "3-",
+            sockets = "4-",
+            pstat = { index = 12, op = ">=", value = 80 },
+            hide = true
+        },
+        {
+            codes = { "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf5", "Bf6", "7wa", "7ga", "7bt", "72a", "7la", "7gi", "7ba", "7ax", "9gi", "9ba", "9ax", "9ga", "9la", "9wa", "9bt", "92a", "btx", "gix", "gax", "wax", "amc", "amb", "am6", "am7", "6l7", "6s7", "6lw", "6lb", "6sw", "8lb", "8lw", "8l8", "8sw", "8s8", "lbb", "lwb", "sbb", "swb", "6hx", "8hx", "hxb", "7wh", "7m7", "7gm", "9wh", "9gm", "9m9", "gma", "mau", "whm", "7fl", "9fl", "7vo", "7pa", "7st", "7h7", "7sr", "7br", "7o7", "7tr", "7p7", "9h9", "9vo", "9tr", "9p9", "9b7", "9pa", "9br", "9sr", "9st", "hal", "pik", "spt", "7ws", "9ws", "7mp", "7wc", "9wc", "9s8", "mpi", "wsc", "amd", "ame", "am8", "am9", "am3", "am4", "Ds4", "Ds5", "Ds6", "6ws", "8ws", "wst", "7gd", "7bs", "7ls", "9bs", "9gd", "9ls", "9fb", "flb", "gsd", "7cr", "9cr", "crs", "7b8" },
+            quality = "3-",
+            sockets = "5-",
+            pstat = { index = 12, op = ">=", value = 80 },
+            hide = true
+        },
+        --Body Armours
+        {
+            codes = { "brs", "chn", "ltp", "rng", "scl", "xea", "xla", "xui" },
+            quality = "3-",
+            sockets = "2-",
+            hide = true
+        },
+        {
+            codes = { "aar", "Bp1", "Bp2", "Bp3", "fld", "ful", "gth", "Gg3", "Na1", "Na2", "Na3", "Na4", "Na5", "Na6", "Oa1", "Oa2", "Oa3", "plt", "Sa1", "Sa2", "Sa3", "Sa4", "Sa5", "Sa6", "spl", "ult", "uld", "uar", "ucl", "uea", "uhn", "ula", "ulg", "ung", "uui", "urs", "utp", "uth", "utu", "upl", "uul", "Wp3", "xar", "xcl", "xhn", "xld", "xlt", "xng", "xpl", "xrs", "xth", "xtp", "xtu", "xul" },
+            quality = "3-",
+            sockets = "3-",
+            hide = true
+        },
+        -- Shields (including necro heads) - Hides the shields that can only have 2os after clvl60
+        {
+            codes = { "xuc", "xml", "buc", "sml" },
+            quality = "3-",
+            pstat = { index = 12, op = ">=", value = 60 },
+            hide = true
+        },
+        {
+            codes = { "ne6", "ne7", "ne1", "ne2", "uuc", "xsh", "bsh", "lrg", "spk" },
+            quality = "3-",
+            sockets = "2-",
+            hide = true
+        },
+        -- Rule that displays the 3os limit on bases that *do* drop, that cannot have 4
+        {
+            codes = { "ne6", "ne7", "ne1", "ne2", "uuc", "xsh", "bsh", "lrg", "spk" },
+            suffix = "[Max 3os]"
+        },
+        {
+            codes = { "nef", "neg", "neb", "ned", "nee", "ne9", "nea", "ne8", "ne5", "ne4", "ne3", "pad", "pac", "pab", "paf", "pae", "pa7", "pa6", "pa9", "pa8", "paa", "pa4", "pa5", "pa3", "pa2", "pa1", "uow", "upk", "urg", "uml", "uit", "ush", "uts", "xts", "xpk", "xit", "xow", "xrg", "gts", "kit", "tow" },
+            quality = "3-",
+            sockets = "3-",
+            hide = true
+        },
+        -- Helms
+        { --hides helms that max out at 2os after clvl 60
+            codes = { "xap", "cap", "hlm", "skp" },
+            quality = "3-",
+            pstat = { index = 12, op = ">=", value = 60 },
+            hide = true
+        },
+        {
+            codes = { "bab", "bae", "bad", "bac", "baf", "ba6", "ba7", "ba8", "ba9", "baa", "ba4", "ba5", "ba1", "ba2", "ba3", "drb", "drf", "drd", "dre", "drc", "dr6", "dr7", "dr8", "dra", "dr3", "dr4", "dr2", "dr5", "ulm", "uh9", "urn", "usk", "uhl", "ukp", "uap", "uhm", "Pc3", "Pc2", "xhl", "xlm", "xsk", "xrn", "xh9", "xkp", "xhm", "bhm", "crn", "fhl", "ghm", "msk", "Pc1" },
+            quality = "3-",
+            sockets = "2-",
+            hide = true
+        },
+        -- Circlets
+        {
+            codes = { "Zc1", "Zc2", "Zc3", "ci0", "ci1", "ci2", "ci3" },
+            quality = "3-",
+            sockets = "2-",
+            hide = true
+        },
+        -- Boots
+        { --Hides max 2os max boots after clvl 60
+            codes = { "xlb", "lbt", "vbt", "mbt" },
+            quality = "3-",
+            pstat = { index = 12, op = ">=", value = 60 },
+            hide = true
+        },
+        {
+            codes = { "ulb", "uvb", "umb", "utb", "uhb", "xvb", "xmb", "xtb", "xhb", "hbt", "tbt", "Ab1", "Ab2", "Ab3" },
+            quality = "3-",
+            sockets = "2-",
+            hide = true
+        },
+        -- Gloves
+        { --hides max 2os gloves after clvl 60
+            codes = { "Ag3", "Ag1", "xlg", "lgl", "vgl", "mgl" },
+            quality = "3-",
+            pstat = { index = 12, op = ">=", value = 60 },
+            hide = true
+        },
+        {
+            codes = { "Ag2", "Ag4", "Ag5", "Ag6", "uvg", "xvg", "Vg1", "Vg2", "Vg3", "Vg4", "Vg5", "Vg6", "ulg", "utg", "uhg", "umg", "xmg", "xtg", "xhg", "tgl", "hgl" },
+            quality = "3-",
+            sockets = "2-",
+            hide = true
         }
+
     }
 }
+
+
+
 --[[
 
 Exposed/Available Arguments:
@@ -2204,4 +2393,4 @@ Available Stat ID's:
 484 -- LB_Two
 485 -- LB_Three
 
-]]--
+]] --

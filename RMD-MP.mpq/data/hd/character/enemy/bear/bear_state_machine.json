@@ -302,7 +302,8 @@
             "stepIndex": 0,
             "animationBindings": {
                 "hth": [
-                    "attack1"
+                    "attack1",
+                    "attack2"
                 ]
             },
             "enterEvents": [],

@@ -5338,6 +5338,23 @@
     "zhCN": "有瑕疵的蓝宝石"
   },
   {
+    "id": 2248,
+    "Key": "Sapphire",
+    "enUS": "Sapphire",
+    "zhTW": "寶藍",
+    "deDE": "[fs]saphirblaue[ms]saphirblauer[ns]saphirblaues[pl]saphirblaue",
+    "esES": "de zafiro",
+    "frFR": "[ms]saphir[fs]saphir[mp]saphir[fp]saphir",
+    "itIT": "di Zaffiro",
+    "koKR": "사파이어색",
+    "plPL": "[fs]Szafirowa[ms]Szafirowy[nl]Szafirowe",
+    "esMX": "[ms]zafíreo[fs]zafírea[mp]zafíreos[fp]zafíreas",
+    "jaJP": "サファイアを帯びた",
+    "ptBR": "[fs]Safira[ms]Safira[fp]Safira[mp]Safira",
+    "ruRU": "[ms]сапфировый[fs]сапфировая[ns]сапфировое[pl]сапфировые",
+    "zhCN": "蓝宝石"
+  },
+  {
     "id": 2249,
     "Key": "glb",
     "enUS": "Flawless Sapphire",
@@ -5407,6 +5424,23 @@
   },
   {
     "id": 2253,
+    "Key": "Emerald",
+    "enUS": "Emerald",
+    "zhTW": "寶綠",
+    "deDE": "[fs]smaragdgrüne[ms]smaragdgrüner[ns] smaragdgrünes[pl]smaragdgrüne",
+    "esES": "de esmeralda",
+    "frFR": "[ms]smaragdin[fs]smaragdine[mp]smaragdins[fp]smaragdines",
+    "itIT": "di Smeraldo",
+    "koKR": "에메랄드색",
+    "plPL": "[fs]Szmaragdowa[ms]Szmaragdowy[nl]Szmaragdowe",
+    "esMX": "[ms]esmeralda[fs]esmeralda[mp]esmeraldas[fp]esmeraldas",
+    "jaJP": "エメラルドを帯びた",
+    "ptBR": "[fs]Esmeralda[ms]Esmeralda[fp]Esmeralda[mp]Esmeralda",
+    "ruRU": "[ms]изумрудный[fs]изумрудная[ns]изумрудное[pl]изумрудные",
+    "zhCN": "翡翠"
+  },
+  {
+    "id": 2254,
     "Key": "glg",
     "enUS": "Flawless Emerald",
     "zhTW": "無瑕綠寶石",
@@ -5472,6 +5506,23 @@
     "ptBR": "Rubi Imperfeito",
     "ruRU": "Мутный рубин",
     "zhCN": "有瑕疵的红宝石"
+  },
+  {
+    "id": 2258,
+    "Key": "Ruby",
+    "enUS": "Ruby",
+    "zhTW": "寶紅",
+    "deDE": "[fs]rubinrote[ms]rubinroter[ns]rubinrotes[pl]rubinrote",
+    "esES": "de rubí",
+    "frFR": "[ms]rubescent[fs]rubescente[mp]rubescents[fp]rubescentes",
+    "itIT": "di Rubino",
+    "koKR": "루비색",
+    "plPL": "[fs]Rubinowa[ms]Rubinowy[nl]Rubinowe",
+    "esMX": "[ms]carmesí[fs]carmesí[mp]carmesíes[fp]carmesíes",
+    "jaJP": "ルビーを帯びた",
+    "ptBR": "[fs]Rubi[ms]Rubi[fp]Rubi[mp]Rubi",
+    "ruRU": "[ms]рубиновый[fs]рубиновая[ns]рубиновое[pl]рубиновые",
+    "zhCN": "红宝石"
   },
   {
     "id": 2259,
@@ -5540,6 +5591,23 @@
     "ptBR": "Diamante Imperfeito",
     "ruRU": "Мутный бриллиант",
     "zhCN": "有瑕疵的钻石"
+  },
+  {
+    "id": 2263,
+    "Key": "gsw",
+    "enUS": "Diamond",
+    "zhTW": "鑽石",
+    "deDE": "Diamant",
+    "esES": "Diamante",
+    "frFR": "Diamant",
+    "itIT": "Diamante",
+    "koKR": "다이아몬드",
+    "plPL": "Diament",
+    "esMX": "[ms]Diamante",
+    "jaJP": "ダイアモンド",
+    "ptBR": "Diamante",
+    "ruRU": "[ms]Алмаз",
+    "zhCN": "钻石"
   },
   {
     "id": 2264,
