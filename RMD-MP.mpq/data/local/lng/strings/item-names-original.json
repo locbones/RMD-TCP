@@ -5339,7 +5339,7 @@
   },
   {
     "id": 2248,
-    "Key": "Sapphire",
+    "Key": "gsb",
     "enUS": "Sapphire",
     "zhTW": "寶藍",
     "deDE": "[fs]saphirblaue[ms]saphirblauer[ns]saphirblaues[pl]saphirblaue",
@@ -5424,7 +5424,7 @@
   },
   {
     "id": 2253,
-    "Key": "Emerald",
+    "Key": "gsg",
     "enUS": "Emerald",
     "zhTW": "寶綠",
     "deDE": "[fs]smaragdgrüne[ms]smaragdgrüner[ns] smaragdgrünes[pl]smaragdgrüne",
@@ -5509,7 +5509,7 @@
   },
   {
     "id": 2258,
-    "Key": "Ruby",
+    "Key": "gsr",
     "enUS": "Ruby",
     "zhTW": "寶紅",
     "deDE": "[fs]rubinrote[ms]rubinroter[ns]rubinrotes[pl]rubinrote",
