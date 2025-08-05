@@ -2,7 +2,7 @@
     "desecrated_zones": [
         {
             "start_time_utc": "2023-01-27 00:00:00",
-            /* "end_time_utc": "2022-12-15 00:00:00", */ /* Use end time to automate multiple configs. Useful for events. */
+            "end_time_utc": "2026-12-15 00:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -90,30 +90,6 @@
                         {
                             /* Mausoleum */
                             "level_id": 19
-                        },
-                        {
-                            /* Map 1A */
-                            "level_id": 189
-                        },
-                        {
-                            /* Map 1A */
-                            "level_id": 190
-                        },
-                        {
-                            /* Map 1B */
-                            "level_id": 192
-                        },
-                        {
-                            /* Map 1B */
-                            "level_id": 193
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 195
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 196
                         }
                     ]
                 },
@@ -144,28 +120,39 @@
                             "level_id": 37
                         },
                         {
-                            /* Map 2A */
-                            "level_id": 198
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 137,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 2A */
-                            "level_id": 199
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 138,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 2B */
-                            "level_id": 201
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 139,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 2B */
-                            "level_id": 202
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 140,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 2C */
-                            "level_id": 204
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 205
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 141,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -188,28 +175,39 @@
                             "level_id": 13
                         },
                         {
-                            /* Map 3A */
-                            "level_id": 206
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 162,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 3B */
-                            "level_id": 207
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 163,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 3C */
-                            "level_id": 208
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 164,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 3D */
-                            "level_id": 209
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 165,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 3E */
-                            "level_id": 210
-                        },
-                        {
-                            /* Map 3F */
-                            "level_id": 211
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 166,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -230,30 +228,6 @@
                         {
                             /* Underground Passage Level 2  */
                             "level_id": 14
-                        },
-                        {
-                            /* Map 4A */
-                            "level_id": 213
-                        },
-                        {
-                            /* Map 4A */
-                            "level_id": 214
-                        },
-                        {
-                            /* Map 4B */
-                            "level_id": 216
-                        },
-                        {
-                            /* Map 4B */
-                            "level_id": 217
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 219
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 220
                         }
                     ]
                 },
@@ -270,30 +244,6 @@
                         {
                             /* Den of Evil */
                             "level_id": 8
-                        },
-                        {
-                            /* Map 5A */
-                            "level_id": 221
-                        },
-                        {
-                            /* Map 5B */
-                            "level_id": 222
-                        },
-                        {
-                            /* Map 5C */
-                            "level_id": 223
-                        },
-                        {
-                            /* Map 5D */
-                            "level_id": 224
-                        },
-                        {
-                            /* Map 5E */
-                            "level_id": 225
-                        },
-                        {
-                            /* Map 5F */
-                            "level_id": 226
                         }
                     ]
                 },
@@ -318,30 +268,6 @@
                         {
                             /* Jail Level 3 */
                             "level_id": 31
-                        },
-                        {
-                            /* Map 6A */
-                            "level_id": 228
-                        },
-                        {
-                            /* Map 6A */
-                            "level_id": 229
-                        },
-                        {
-                            /* Map 6B */
-                            "level_id": 231
-                        },
-                        {
-                            /* Map 6B */
-                            "level_id": 232
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 234
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 235
                         }
                     ]
                 },
@@ -354,30 +280,6 @@
                             "level_id": 39,
                             /* Rogue Encampment */
                             "waypoint_level_id": 1
-                        },
-                        {
-                            /* Map 7A */
-                            "level_id": 237
-                        },
-                        {
-                            /* Map 7A */
-                            "level_id": 238
-                        },
-                        {
-                            /* Map 7B */
-                            "level_id": 240
-                        },
-                        {
-                            /* Map 7B */
-                            "level_id": 241
-                        },
-                        {
-                            /* Map 7C */
-                            "level_id": 243
-                        },
-                        {
-                            /* Map 7C */
-                            "level_id": 244
                         }
                     ]
                 },
@@ -390,30 +292,6 @@
                             "level_id": 4,
                             /* Stony Field */
                             "waypoint_level_id": 4
-                        },
-                        {
-                            /* Map 1A */
-                            "level_id": 189
-                        },
-                        {
-                            /* Map 1A */
-                            "level_id": 190
-                        },
-                        {
-                            /* Map 1B */
-                            "level_id": 192
-                        },
-                        {
-                            /* Map 1B */
-                            "level_id": 193
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 195
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 196
                         }
                     ]
                 },
@@ -434,30 +312,6 @@
                         {
                             /* Hole Level 2 */
                             "level_id": 15
-                        },
-                        {
-                            /* Map 2A */
-                            "level_id": 198
-                        },
-                        {
-                            /* Map 2A */
-                            "level_id": 199
-                        },
-                        {
-                            /* Map 2B */
-                            "level_id": 201
-                        },
-                        {
-                            /* Map 2B */
-                            "level_id": 202
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 204
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 205
                         }
                     ]
                 },
@@ -490,30 +344,6 @@
                         {
                             /* Tower Cellar Level 5 */
                             "level_id": 25
-                        },
-                        {
-                            /* Map 3A */
-                            "level_id": 206
-                        },
-                        {
-                            /* Map 3B */
-                            "level_id": 207
-                        },
-                        {
-                            /* Map 3C */
-                            "level_id": 208
-                        },
-                        {
-                            /* Map 3D */
-                            "level_id": 209
-                        },
-                        {
-                            /* Map 3E */
-                            "level_id": 210
-                        },
-                        {
-                            /* Map 3F */
-                            "level_id": 211
                         }
                     ]
                 },
@@ -530,30 +360,6 @@
                         {
                             /* Pit Level 2 */
                             "level_id": 16
-                        },
-                        {
-                            /* Map 4A */
-                            "level_id": 213
-                        },
-                        {
-                            /* Map 4A */
-                            "level_id": 214
-                        },
-                        {
-                            /* Map 4B */
-                            "level_id": 216
-                        },
-                        {
-                            /* Map 4B */
-                            "level_id": 217
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 219
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 220
                         }
                     ]
                 },
@@ -566,30 +372,6 @@
                             "level_id": 38,
                             /* Stony Field */
                             "waypoint_level_id": 4
-                        },
-                        {
-                            /* Map 5A */
-                            "level_id": 221
-                        },
-                        {
-                            /* Map 5B */
-                            "level_id": 222
-                        },
-                        {
-                            /* Map 5C */
-                            "level_id": 223
-                        },
-                        {
-                            /* Map 5D */
-                            "level_id": 224
-                        },
-                        {
-                            /* Map 5E */
-                            "level_id": 225
-                        },
-                        {
-                            /* Map 5F */
-                            "level_id": 226
                         }
                         
                     ]
@@ -613,30 +395,6 @@
                         {
                             /* Sewers Level 3 */
                             "level_id": 49
-                        },
-                        {
-                            /* Map 6A */
-                            "level_id": 228
-                        },
-                        {
-                            /* Map 6A */
-                            "level_id": 229
-                        },
-                        {
-                            /* Map 6B */
-                            "level_id": 231
-                        },
-                        {
-                            /* Map 6B */
-                            "level_id": 232
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 234
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 235
                         }
                     ]
                 },
@@ -657,30 +415,6 @@
                         {
                             /* Stony Tomb Level 2 */
                             "level_id": 59
-                        },
-                        {
-                            /* Map 7A */
-                            "level_id": 237
-                        },
-                        {
-                            /* Map 7A */
-                            "level_id": 238
-                        },
-                        {
-                            /* Map 7B */
-                            "level_id": 240
-                        },
-                        {
-                            /* Map 7B */
-                            "level_id": 241
-                        },
-                        {
-                            /* Map 7C */
-                            "level_id": 243
-                        },
-                        {
-                            /* Map 7C */
-                            "level_id": 244
                         }
                     ]
                 },
@@ -705,30 +439,6 @@
                         {
                             /* Halls of the Dead Level 3 */
                             "level_id": 60
-                        },
-                        {
-                            /* Map 1A */
-                            "level_id": 189
-                        },
-                        {
-                            /* Map 1A */
-                            "level_id": 190
-                        },
-                        {
-                            /* Map 1B */
-                            "level_id": 192
-                        },
-                        {
-                            /* Map 1B */
-                            "level_id": 193
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 195
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 196
                         }
                     ]
                 },
@@ -741,30 +451,6 @@
                             "level_id": 43,
                             /* Far Oasis */
                             "waypoint_level_id": 43
-                        },
-                        {
-                            /* Map 2A */
-                            "level_id": 198
-                        },
-                        {
-                            /* Map 2A */
-                            "level_id": 199
-                        },
-                        {
-                            /* Map 2B */
-                            "level_id": 201
-                        },
-                        {
-                            /* Map 2B */
-                            "level_id": 202
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 204
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 205
                         }
                     ]
                 },
@@ -791,28 +477,39 @@
                             "level_id": 61
                         },
                         {
-                            /* Map 3A */
-                            "level_id": 206
+                            /* Act 5 - Torment Trials 6 */
+                            "level_id": 142,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 3B */
-                            "level_id": 207
+                            /* Act 5 - Torment Trials 7 */
+                            "level_id": 143,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 3C */
-                            "level_id": 208
+                            /* Act 5 - Torment Trials 8 */
+                            "level_id": 144,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 3D */
-                            "level_id": 209
+                            /* Act 5 - Torment Trials 9 */
+                            "level_id": 145,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 3E */
-                            "level_id": 210
-                        },
-                        {
-                            /* Map 3F */
-                            "level_id": 211
+                            /* Act 5 - Torment Trials 10 */
+                            "level_id": 146,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -825,30 +522,6 @@
                             "level_id": 65,
                             /* Lost City */
                             "waypoint_level_id": 44
-                        },
-                        {
-                            /* Map 4A */
-                            "level_id": 213
-                        },
-                        {
-                            /* Map 4A */
-                            "level_id": 214
-                        },
-                        {
-                            /* Map 4B */
-                            "level_id": 216
-                        },
-                        {
-                            /* Map 4B */
-                            "level_id": 217
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 219
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 220
                         }
                     ]
                 },
@@ -889,30 +562,6 @@
                         {
                             /* Tal Rasha's Chamber */
                             "level_id": 73
-                        },
-                        {
-                            /* Map 5A */
-                            "level_id": 221
-                        },
-                        {
-                            /* Map 5B */
-                            "level_id": 222
-                        },
-                        {
-                            /* Map 5C */
-                            "level_id": 223
-                        },
-                        {
-                            /* Map 5D */
-                            "level_id": 224
-                        },
-                        {
-                            /* Map 5E */
-                            "level_id": 225
-                        },
-                        {
-                            /* Map 5F */
-                            "level_id": 226
                         }
                     ]
                 },
@@ -927,28 +576,39 @@
                             "waypoint_level_id": 74
                         },
                         {
-                            /* Map 6A */
-                            "level_id": 228
+                            /* Act 5 - Icy Hell 6 */
+                            "level_id": 167,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 6A */
-                            "level_id": 229
+                            /* Act 5 - Icy Hell 7 */
+                            "level_id": 168,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 6B */
-                            "level_id": 231
+                            /* Act 5 - Icy Hell 8 */
+                            "level_id": 169,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 6B */
-                            "level_id": 232
+                            /* Act 5 - Icy Hell 9 */
+                            "level_id": 170,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 6C */
-                            "level_id": 234
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 235
+                            /* Act 5 - Icy Hell 10 */
+                            "level_id": 171,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -965,30 +625,6 @@
                         {
                             /* Spider Cavern */
                             "level_id": 85
-                        },
-                        {
-                            /* Map 7A */
-                            "level_id": 237
-                        },
-                        {
-                            /* Map 7A */
-                            "level_id": 238
-                        },
-                        {
-                            /* Map 7B */
-                            "level_id": 240
-                        },
-                        {
-                            /* Map 7B */
-                            "level_id": 241
-                        },
-                        {
-                            /* Map 7C */
-                            "level_id": 243
-                        },
-                        {
-                            /* Map 7C */
-                            "level_id": 244
                         }
                     ]
                 },
@@ -1001,30 +637,6 @@
                             "level_id": 77,
                             /* Great Marsh */
                             "waypoint_level_id": 77
-                        },
-                        {
-                            /* Map 1A */
-                            "level_id": 189
-                        },
-                        {
-                            /* Map 1A */
-                            "level_id": 190
-                        },
-                        {
-                            /* Map 1B */
-                            "level_id": 192
-                        },
-                        {
-                            /* Map 1B */
-                            "level_id": 193
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 195
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 196
                         }
                     ]
                 },
@@ -1049,30 +661,6 @@
                         {
                             /* Flayer Dungeon Level 3 */
                             "level_id": 91
-                        },
-                        {
-                            /* Map 2A */
-                            "level_id": 198
-                        },
-                        {
-                            /* Map 2A */
-                            "level_id": 199
-                        },
-                        {
-                            /* Map 2B */
-                            "level_id": 201
-                        },
-                        {
-                            /* Map 2B */
-                            "level_id": 202
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 204
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 205
                         }
                     ]
                 },
@@ -1093,30 +681,6 @@
                         {
                             /* Disused Fane */
                             "level_id": 95
-                        },
-                        {
-                            /* Map 3A */
-                            "level_id": 206
-                        },
-                        {
-                            /* Map 3B */
-                            "level_id": 207
-                        },
-                        {
-                            /* Map 3C */
-                            "level_id": 208
-                        },
-                        {
-                            /* Map 3D */
-                            "level_id": 209
-                        },
-                        {
-                            /* Map 3E */
-                            "level_id": 210
-                        },
-                        {
-                            /* Map 3F */
-                            "level_id": 211
                         }
                     ]
                 },
@@ -1131,28 +695,39 @@
                             "waypoint_level_id": 83
                         },
                         {
-                            /* Map 4A */
-                            "level_id": 213
+                            /* Act 5 - Torment Trials 11 */
+                            "level_id": 147,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 4A */
-                            "level_id": 214
+                            /* Act 5 - Torment Trials 12 */
+                            "level_id": 148,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 4B */
-                            "level_id": 216
+                            /* Act 5 - Torment Trials 13 */
+                            "level_id": 149,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 4B */
-                            "level_id": 217
+                            /* Act 5 - Torment Trials 14 */
+                            "level_id": 150,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 4C */
-                            "level_id": 219
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 220
+                            /* Act 5 - Torment Trials 15 */
+                            "level_id": 151,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -1172,31 +747,42 @@
                         },
                         {
                             /* Durance of Hate Level 3 */
-                            "level_id": 102
+                            "level_id": 102                       
                         },
                         {
-                            /* Map 5A */
-                            "level_id": 221
+                            /* Act 5 - Icy Hell 11 */
+                            "level_id": 172,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 5B */
-                            "level_id": 222
+                            /* Act 5 - Icy Hell 12 */
+                            "level_id": 173,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 5C */
-                            "level_id": 223
+                            /* Act 5 - Icy Hell 13 */
+                            "level_id": 174,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 5D */
-                            "level_id": 224
+                            /* Act 5 - Icy Hell 14 */
+                            "level_id": 175,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 5E */
-                            "level_id": 225
-                        },
-                        {
-                            /* Map 5F */
-                            "level_id": 226
+                            /* Act 5 - Icy Hell 15 */
+                            "level_id": 176,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -1213,30 +799,6 @@
                         {
                             /* Plains of Despair */
                             "level_id": 105
-                        },
-                        {
-                            /* Map 6A */
-                            "level_id": 228
-                        },
-                        {
-                            /* Map 6A */
-                            "level_id": 229
-                        },
-                        {
-                            /* Map 6B */
-                            "level_id": 231
-                        },
-                        {
-                            /* Map 6B */
-                            "level_id": 232
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 234
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 235
                         }
                     ]
                 },
@@ -1255,28 +817,39 @@
                             "level_id": 107
                         },
                         {
-                            /* Map 7A */
-                            "level_id": 237
+                            /* Act 5 - Torment Trials 16 */
+                            "level_id": 152,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 7A */
-                            "level_id": 238
+                            /* Act 5 - Torment Trials 17 */
+                            "level_id": 153,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 7B */
-                            "level_id": 240
+                            /* Act 5 - Torment Trials 18 */
+                            "level_id": 154,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 7B */
-                            "level_id": 241
+                            /* Act 5 - Torment Trials 19 */
+                            "level_id": 155,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 7C */
-                            "level_id": 243
-                        },
-                        {
-                            /* Map 7C */
-                            "level_id": 244
+                            /* Act 5 - Torment Trials 20 */
+                            "level_id": 156,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -1291,28 +864,39 @@
                             "waypoint_level_id": 107
                         },
                         {
-                            /* Map 1A */
-                            "level_id": 189
+                            /* Act 5 - Icy Hell 16 */
+                            "level_id": 177,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 1A */
-                            "level_id": 190
+                            /* Act 5 - Icy Hell 17 */
+                            "level_id": 178,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 1B */
-                            "level_id": 192
+                            /* Act 5 - Icy Hell 18 */
+                            "level_id": 179,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 1B */
-                            "level_id": 193
+                            /* Act 5 - Icy Hell 19 */
+                            "level_id": 180,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 1C */
-                            "level_id": 195
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 196
+                            /* Act 5 - Icy Hell 20 */
+                            "level_id": 181,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -1333,30 +917,6 @@
                         {
                             /* Abbadon */
                             "level_id": 125
-                        },
-                        {
-                            /* Map 2A */
-                            "level_id": 198
-                        },
-                        {
-                            /* Map 2A */
-                            "level_id": 199
-                        },
-                        {
-                            /* Map 2B */
-                            "level_id": 201
-                        },
-                        {
-                            /* Map 2B */
-                            "level_id": 202
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 204
-                        },
-                        {
-                            /* Map 2C */
-                            "level_id": 205
                         }
                     ]
                 },
@@ -1373,30 +933,6 @@
                         {
                             /* Pit of Acheron */
                             "level_id": 126
-                        },
-                        {
-                            /* Map 3A */
-                            "level_id": 206
-                        },
-                        {
-                            /* Map 3B */
-                            "level_id": 207
-                        },
-                        {
-                            /* Map 3C */
-                            "level_id": 208
-                        },
-                        {
-                            /* Map 3D */
-                            "level_id": 209
-                        },
-                        {
-                            /* Map 3E */
-                            "level_id": 210
-                        },
-                        {
-                            /* Map 3F */
-                            "level_id": 211
                         }
                     ]
                 },
@@ -1413,30 +949,6 @@
                         {
                             /* Frozen River */
                             "level_id": 114
-                        },
-                        {
-                            /* Map 4A */
-                            "level_id": 213
-                        },
-                        {
-                            /* Map 4A */
-                            "level_id": 214
-                        },
-                        {
-                            /* Map 4B */
-                            "level_id": 216
-                        },
-                        {
-                            /* Map 4B */
-                            "level_id": 217
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 219
-                        },
-                        {
-                            /* Map 4C */
-                            "level_id": 220
                         }
                     ]
                 },
@@ -1461,30 +973,6 @@
                         {
                             /* Halls of Vaught */
                             "level_id": 124
-                        },
-                        {
-                            /* Map 5A */
-                            "level_id": 221
-                        },
-                        {
-                            /* Map 5B */
-                            "level_id": 222
-                        },
-                        {
-                            /* Map 5C */
-                            "level_id": 223
-                        },
-                        {
-                            /* Map 5D */
-                            "level_id": 224
-                        },
-                        {
-                            /* Map 5E */
-                            "level_id": 225
-                        },
-                        {
-                            /* Map 5F */
-                            "level_id": 226
                         }
                     ]
                 },
@@ -1501,30 +989,6 @@
                         {
                             /* Drifter Cavern */
                             "level_id": 116
-                        },
-                        {
-                            /* Map 6A */
-                            "level_id": 228
-                        },
-                        {
-                            /* Map 6A */
-                            "level_id": 229
-                        },
-                        {
-                            /* Map 6B */
-                            "level_id": 231
-                        },
-                        {
-                            /* Map 6B */
-                            "level_id": 232
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 234
-                        },
-                        {
-                            /* Map 6C */
-                            "level_id": 235
                         }
                     ]
                 },
@@ -1543,28 +1007,39 @@
                             "level_id": 119
                         },
                         {
-                            /* Map 7A */
-                            "level_id": 237
+                            /* Act 5 - Torment Trials 21 */
+                            "level_id": 157,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 7A */
-                            "level_id": 238
+                            /* Act 5 - Torment Trials 22 */
+                            "level_id": 158,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 7B */
-                            "level_id": 240
+                            /* Act 5 - Torment Trials 23 */
+                            "level_id": 159,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 7B */
-                            "level_id": 241
+                            /* Act 5 - Torment Trials 24 */
+                            "level_id": 160,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 7C */
-                            "level_id": 243
-                        },
-                        {
-                            /* Map 7C */
-                            "level_id": 244
+                            /* Act 5 - Torment Trials 25 */
+                            "level_id": 161,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 },
@@ -1595,32 +1070,232 @@
                             "level_id": 132
                         },
                         {
-                            /* Map 1A */
-                            "level_id": 189
+                            /* Act 5 - Icy Hell 21 */
+                            "level_id": 182,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 1A */
-                            "level_id": 190
+                            /* Act 5 - Icy Hell 22 */
+                            "level_id": 183,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 1B */
-                            "level_id": 192
+                            /* Act 5 - Icy Hell 23 */
+                            "level_id": 184,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 1B */
-                            "level_id": 193
+                            /* Act 5 - Icy Hell 24 */
+                            "level_id": 185,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         },
                         {
-                            /* Map 1C */
-                            "level_id": 195
-                        },
-                        {
-                            /* Map 1C */
-                            "level_id": 196
+                            /* Act 5 - Icy Hell 25 */
+                            "level_id": 186,
+                                "hell": {
+                                    "bound_incl_max": 95
+                                }
                         }
                     ]
                 }
             ]
         }
+    ],
+    "level_names": [
+        { "id": 0, "name": "None" },
+        { "id": 1, "name": "Rogue Encampment" },
+        { "id": 2, "name": "Blood Moor" },
+        { "id": 3, "name": "Cold Plains" },
+        { "id": 4, "name": "Stony Field" },
+        { "id": 5, "name": "Dark Wood" },
+        { "id": 6, "name": "Black Marsh" },
+        { "id": 7, "name": "Tamoe Highland" },
+        { "id": 8, "name": "Den Of Evil" },
+        { "id": 9, "name": "Cave Level 1" },
+        { "id": 10, "name": "Underground Passage Level 1" },
+        { "id": 11, "name": "Hole Level 1" },
+        { "id": 12, "name": "Pit Level 1" },
+        { "id": 13, "name": "Cave Level 2" },
+        { "id": 14, "name": "Underground Passage Level 2" },
+        { "id": 15, "name": "Hole Level 2" },
+        { "id": 16, "name": "Pit Level 2" },
+        { "id": 17, "name": "Burial Grounds" },
+        { "id": 18, "name": "Crypt" },
+        { "id": 19, "name": "Mausoleum" },
+        { "id": 20, "name": "Forgotten Tower" },
+        { "id": 21, "name": "Tower Cellar Level 1" },
+        { "id": 22, "name": "Tower Cellar Level 2" },
+        { "id": 23, "name": "Tower Cellar Level 3" },
+        { "id": 24, "name": "Tower Cellar Level 4" },
+        { "id": 25, "name": "Tower Cellar Level 5" },
+        { "id": 26, "name": "Monastery Gate" },
+        { "id": 27, "name": "Outer Cloister" },
+        { "id": 28, "name": "Barracks" },
+        { "id": 29, "name": "Jail Level 1" },
+        { "id": 30, "name": "Jail Level 2" },
+        { "id": 31, "name": "Jail Level 3" },
+        { "id": 32, "name": "Inner Cloister" },
+        { "id": 33, "name": "Cathedral" },
+        { "id": 34, "name": "Catacombs Level 1" },
+        { "id": 35, "name": "Catacombs Level 2" },
+        { "id": 36, "name": "Catacombs Level 3" },
+        { "id": 37, "name": "Catacombs Level 4" },
+        { "id": 38, "name": "Tristram" },
+        { "id": 39, "name": "Moo Moo Farm" },
+        { "id": 40, "name": "Lut Gholein" },
+        { "id": 41, "name": "Rocky Waste" },
+        { "id": 42, "name": "Dry Hills" },
+        { "id": 43, "name": "Far Oasis" },
+        { "id": 44, "name": "Lost City" },
+        { "id": 45, "name": "Valley Of Snakes" },
+        { "id": 46, "name": "Canyon Of The Magi" },
+        { "id": 47, "name": "A2 Sewers Level 1" },
+        { "id": 48, "name": "A2 Sewers Level 2" },
+        { "id": 49, "name": "A2 Sewers Level 3" },
+        { "id": 50, "name": "Harem Level 1" },
+        { "id": 51, "name": "Harem Level 2" },
+        { "id": 52, "name": "Palace Cellar Level 1" },
+        { "id": 53, "name": "Palace Cellar Level 2" },
+        { "id": 54, "name": "Palace Cellar Level 3" },
+        { "id": 55, "name": "Stony Tomb Level 1" },
+        { "id": 56, "name": "Halls Of The Dead Level 1" },
+        { "id": 57, "name": "Halls Of The Dead Level 2" },
+        { "id": 58, "name": "Claw Viper Temple Level 1" },
+        { "id": 59, "name": "Stony Tomb Level 2" },
+        { "id": 60, "name": "Halls Of The Dead Level 3" },
+        { "id": 61, "name": "Claw Viper Temple Level 2" },
+        { "id": 62, "name": "Maggot Lair Level 1" },
+        { "id": 63, "name": "Maggot Lair Level 2" },
+        { "id": 64, "name": "Maggot Lair Level 3" },
+        { "id": 65, "name": "Ancient Tunnels" },
+        { "id": 66, "name": "Tal Rasha's Tomb Level 1" },
+        { "id": 67, "name": "Tal Rasha's Tomb Level 2" },
+        { "id": 68, "name": "Tal Rasha's Tomb Level 3" },
+        { "id": 69, "name": "Tal Rasha's Tomb Level 4" },
+        { "id": 70, "name": "Tal Rasha's Tomb Level 5" },
+        { "id": 71, "name": "Tal Rasha's Tomb Level 6" },
+        { "id": 72, "name": "Tal Rasha's Tomb Level 7" },
+        { "id": 73, "name": "Duriel's Lair" },
+        { "id": 74, "name": "Arcane Sanctuary" },
+        { "id": 75, "name": "Kurast Docktown" },
+        { "id": 76, "name": "Spider Forest" },
+        { "id": 77, "name": "Great Marsh" },
+        { "id": 78, "name": "Flayer Jungle" },
+        { "id": 79, "name": "Lower Kurast" },
+        { "id": 80, "name": "Kurast Bazaar" },
+        { "id": 81, "name": "Upper Kurast" },
+        { "id": 82, "name": "Kurast Causeway" },
+        { "id": 83, "name": "Travincal" },
+        { "id": 84, "name": "Spider Cave" },
+        { "id": 85, "name": "Spider Cavern" },
+        { "id": 86, "name": "Swampy Pit Level 1" },
+        { "id": 87, "name": "Swampy Pit Level 2" },
+        { "id": 88, "name": "Flayer Dungeon Level 1" },
+        { "id": 89, "name": "Flayer Dungeon Level 2" },
+        { "id": 90, "name": "Swampy Pit Level 3" },
+        { "id": 91, "name": "Flayer Dungeon Level 3" },
+        { "id": 92, "name": "A3 Sewers Level 1" },
+        { "id": 93, "name": "A3 Sewers Level 2" },
+        { "id": 94, "name": "Ruined Temple" },
+        { "id": 95, "name": "Disused Fane" },
+        { "id": 96, "name": "Forgotten Reliquary" },
+        { "id": 97, "name": "Forgotten Temple" },
+        { "id": 98, "name": "Ruined Fane" },
+        { "id": 99, "name": "Disused Reliquary" },
+        { "id": 100, "name": "Durance Of Hate Level 1" },
+        { "id": 101, "name": "Durance Of Hate Level 2" },
+        { "id": 102, "name": "Durance Of Hate Level 3" },
+        { "id": 103, "name": "The Pandemonium Fortress" },
+        { "id": 104, "name": "Outer Steppes" },
+        { "id": 105, "name": "Plains Of Despair" },
+        { "id": 106, "name": "City Of The Damned" },
+        { "id": 107, "name": "River Of Flame" },
+        { "id": 108, "name": "Chaos Sanctuary" },
+        { "id": 109, "name": "Harrogath" },
+        { "id": 110, "name": "Bloody Foothills" },
+        { "id": 111, "name": "Frigid Highlands" },
+        { "id": 112, "name": "Arreat Plateau" },
+        { "id": 113, "name": "Crystalized Passage" },
+        { "id": 114, "name": "Frozen River" },
+        { "id": 115, "name": "Glacial Trail" },
+        { "id": 116, "name": "Drifter Cavern" },
+        { "id": 117, "name": "Frozen Tundra" },
+        { "id": 118, "name": "Ancients Way" },
+        { "id": 119, "name": "Icy Cellar" },
+        { "id": 120, "name": "Arreat Summit" },
+        { "id": 121, "name": "Nihlathak's Temple" },
+        { "id": 122, "name": "Halls Of Anguish" },
+        { "id": 123, "name": "Halls Of Pain" },
+        { "id": 124, "name": "Halls Of Vaught" },
+        { "id": 125, "name": "Abaddon" },
+        { "id": 126, "name": "Pit Of Acheron" },
+        { "id": 127, "name": "Infernal Pit" },
+        { "id": 128, "name": "The Worldstone Keep Level 1" },
+        { "id": 129, "name": "The Worldstone Keep Level 2" },
+        { "id": 130, "name": "The Worldstone Keep Level 3" },
+        { "id": 131, "name": "Throne Of Destruction" },
+        { "id": 132, "name": "The Worldstone Chamber" },
+        { "id": 133, "name": "Matron's Den" },
+        { "id": 134, "name": "Forgotten Sands" },
+        { "id": 135, "name": "Furnace of Pain" },
+        { "id": 136, "name": "Tristram 2" },
+        { "id": 137, "name": "Torment Trials (Level 1)" },
+        { "id": 138, "name": "Torment Trials (Level 2)" },
+        { "id": 139, "name": "Torment Trials (Level 3)" },
+        { "id": 140, "name": "Torment Trials (Level 4)" },
+        { "id": 141, "name": "Torment Trials (Level 5)" },
+        { "id": 142, "name": "Torment Trials (Level 6)" },
+        { "id": 143, "name": "Torment Trials (Level 7)" },
+        { "id": 144, "name": "Torment Trials (Level 8)" },
+        { "id": 145, "name": "Torment Trials (Level 9)" },
+        { "id": 146, "name": "Torment Trials (Level 10)" },
+        { "id": 147, "name": "Torment Trials (Level 11)" },
+        { "id": 148, "name": "Torment Trials (Level 12)" },
+        { "id": 149, "name": "Torment Trials (Level 13)" },
+        { "id": 150, "name": "Torment Trials (Level 14)" },
+        { "id": 151, "name": "Torment Trials (Level 15)" },
+        { "id": 152, "name": "Torment Trials (Level 16)" },
+        { "id": 153, "name": "Torment Trials (Level 17)" },
+        { "id": 154, "name": "Torment Trials (Level 18)" },
+        { "id": 155, "name": "Torment Trials (Level 19)" },
+        { "id": 156, "name": "Torment Trials (Level 20)" },
+        { "id": 157, "name": "Torment Trials (Level 21)" },
+        { "id": 158, "name": "Torment Trials (Level 22)" },
+        { "id": 159, "name": "Torment Trials (Level 23)" },
+        { "id": 160, "name": "Torment Trials (Level 24)" },
+        { "id": 161, "name": "Torment Trials (Level 25)" },
+        { "id": 162, "name": "Icy Hell (Level 1)" },
+        { "id": 163, "name": "Icy Hell (Level 2)" },
+        { "id": 164, "name": "Icy Hell (Level 3)" },
+        { "id": 165, "name": "Icy Hell (Level 4)" },
+        { "id": 166, "name": "Icy Hell (Level 5)" },
+        { "id": 167, "name": "Icy Hell (Level 6)" },
+        { "id": 168, "name": "Icy Hell (Level 7)" },
+        { "id": 169, "name": "Icy Hell (Level 8)" },
+        { "id": 170, "name": "Icy Hell (Level 9)" },
+        { "id": 171, "name": "Icy Hell (Level 10)" },
+        { "id": 172, "name": "Icy Hell (Level 11)" },
+        { "id": 173, "name": "Icy Hell (Level 12)" },
+        { "id": 174, "name": "Icy Hell (Level 13)" },
+        { "id": 175, "name": "Icy Hell (Level 14)" },
+        { "id": 176, "name": "Icy Hell (Level 15)" },
+        { "id": 177, "name": "Icy Hell (Level 16)" },
+        { "id": 178, "name": "Icy Hell (Level 17)" },
+        { "id": 179, "name": "Icy Hell (Level 18)" },
+        { "id": 180, "name": "Icy Hell (Level 19)" },
+        { "id": 181, "name": "Icy Hell (Level 20)" },
+        { "id": 182, "name": "Icy Hell (Level 21)" },
+        { "id": 183, "name": "Icy Hell (Level 22)" },
+        { "id": 184, "name": "Icy Hell (Level 23)" },
+        { "id": 185, "name": "Icy Hell (Level 24)" },
+        { "id": 186, "name": "Icy Hell (Level 25)" }
     ]
 }
