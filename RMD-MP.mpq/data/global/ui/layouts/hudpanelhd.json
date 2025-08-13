@@ -371,7 +371,7 @@
             "fields": {
                 "rect": { "x": 2460, "y": 380 },
                 "style": "$HUDInfoText",
-                "text": "Ver:                Build:                Author:"
+                "text": "Ver:                 Authors:"
             }
         },
         {
@@ -379,7 +379,7 @@
             "fields": {
                 "rect": { "x": 2490, "y": 380 },
                 "style": "$HUDInfoText2",
-                "text": "   0.9.9.9D             080525                 Bonesy"
+                "text": "   0.9.9.9E                   Bonesy & XanKreigur"
             }
         },
         {

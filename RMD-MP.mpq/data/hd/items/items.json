@@ -1596,5 +1596,22 @@
   { "Ss1": { "asset": "axe/brainhew" } },
   { "Ss2": { "asset": "sword/lightsabre" } },
   { "Ss3": { "asset": "..//custom//katana" } },
-  { "Ss4": { "asset": "..//custom//katana" } }
+  { "Ss4": { "asset": "..//custom//katana" } },
+  { "l01": { "asset": "armor/quilted_armor" } },
+  { "l02": { "asset": "armor/light_plate" } },
+  { "l03": { "asset": "armor/splint_mail" } },
+  { "l04": { "asset": "armor/chain_mail" } },
+  { "l05": { "asset": "armor/plate_mail" } },
+  { "l06": { "asset": "armor/full_plate_mail" } },
+  { "l07": { "asset": "belt/sash_l" } },
+  { "l08": { "asset": "helmet/bone_helm" } },
+  { "l09": { "asset": "helmet/great_helm" } },
+  { "l10": { "asset": "glove/bracers_m" } },
+  { "l11": { "asset": "boot/chain_boots" } },
+  { "l12": { "asset": "shield/kite_shield" } },
+  { "l13": { "asset": "sword/crystal_sword" } },
+  { "l14": { "asset": "bow/long_battle_bow" } },
+  { "l15": { "asset": "axe/giant_axe" } },
+  { "l16": { "asset": "axe/war_axe" } },
+  { "l17": { "asset": "polearm/poleaxe" } }
 ]

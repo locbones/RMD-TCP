@@ -1,247 +1,653 @@
---- Filter Title: Lazyelr
---- Filter Type: Full playthrough filter
---- Filter Description: This version of the filter comes with moderate-strong filtering of bases in Hell Cows, to remove this, delete all rules after line 133
+--- Filter Title: Sheep's Base Filter v.9
+--- Filter Type: (Generic base filter)
+--- Filter Description: \nRule Zero: Runewords beg you to keep them \nRule 1: Hides all 1 socket superior or lower items.(these items are pretty useless) \nRule 2: Hides zero skill paladin weapons. \nRule 2b: Shows 3 skill scepters in red \nRule 3: Hides scrolls on ground \nRule 4: Hides potions on ground (minus rejuvs) after level 25 \nRule 5: Border and notifies when unique amulets drop \nRule 6: Border and notify unique Rings \nRule 7: Border and notify set amulets \nRule 8: Border and notify set Rings \nRule 9: High Runes notification and Ultra rune border and colors \nRule 10: Unique Archons \nRule 11: Potential high quality uniques (ie hydra master) \nRule 12: Unique Charms \nRule 13: Facet Charms \nRule 14: Treasure Chest/Gem vein \nRule 15: Valuable Uniques bordered in pink \nRule 16: Good superior bases no socket sorting \nRule 17: Hides non-superior/non-class bases by level (helms) still shows 3 socket ones \nRule 18: Hides non-superior/non-class bases by level (Body Armors) still shows 3 socket ones \nRule 19: Hides non-superior/non-class bases by level (Shields) still shows 3 socket ones (higher level will force 4os) \nRule 20: Hides non-superior/non-class bases by level (gloves) still shows 3 socket ones \nRule 21: Hides non-superior/non-class bases by level (boots) still shows 3 socket ones \nRule 22: Hides non-superior/non-class bases by level (belts) still shows 2 socket ones \nRule 23: Hides non-superior/non-class bases by level (helms) still shows 3 socket ones \nRule 24: Hides non-superior/non-class bases by level (Body Armors) still shows 4 socket ones \nRule 25: Hides non-superior/non-class bases by level (Shields) still shows 4 socket ones \nRule 26: Hides non-superior/non-class bases by level (gloves) still shows 3 socket ones \nRule 27: Hides non-superior/non-class bases by level (boots) still shows 3 socket ones \nRule 28: Hides non-superior/non-class bases by level (belts) still shows 2 socket ones \nRule 29: Hides non-superior/non-class bases by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills) \nRule 30: Hides non-superior/non-class runeword bases lacking sockets (ie flails,crystal swords) \nRule 29: Hides non-class bases by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills) \nRule 30: Hides non-class base magic items by level (helms) \nRule 31: Hides non-class base magic items by level (Body Armors) \nRule 32: Hides non-class base magic items by level (Shields) \nRule 33: Hides non-class base magic items by level(gloves) \nRule 34: Hides non-class base magic items by level(boots) \nRule 35: Hides non-class base magic items by level (belts) \nRule 36: Hides non-class base magic items by level (helms) \nRule 37: Hides non-class base magic items by level (Body Armors) \nRule 38: Hides non-class base magic items by level (Shields) \nRule 39: Hides non-class base magic items by level (gloves) \nRule 40: Hides non-class base magic items by level(boots) es \nRule 41: Hides non-class base magic items by level (belts) \nRule 42: Hides non-class base magic items by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills) \nRule 43: Hides non-class base magic items by level (ie flails,crystal swords) \nRule 44: Hides non-class base magic items by level (weapons leaving runeword bases ie flails,crystal swords) \nRule 45: Hides all non rare or greater arrows \nRule 46: Hides low gold piles by level \nRule 47 Hides non superior items with less than 2 Sockets if the player is above 80 does not include staff mod items \nRule 48:Paladin Shield bases with high resistances (thanks cogy) \nRule 49: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 3 socket at level 80) this Rule technically does nothing that wasn't already done unless you swap it to 3 or more sockets \nRule 50: Shows Necro Shield bases with 3 summon skills \nRule 51:Shows 2 bow skills Grand Matron/matriarchal Bow bases \nRule 52:Shows +3 LF Amazon Javs bases \nRule 52: Shows Raven Damage Druid Helmet bases
 
 return {
-    reload = "{red}Lazyelr v1.0  {grey}Last Updated: 02/06/2025 03:20 elrtime {green}[Reloaded] ",
+    reload = "{pink}Sheep's Base Filter v.8 {grey} updated 8/10/25 {Green}Reloaded",
     rules = {
-        -- Hides 1 Socket Items
+        --Rule Zero: Runewords beg you to keep them
+        { 
+             codes = "allitems",
+             runeword = true,
+             --prefix = "prefix",
+             suffix = "{red}Don't leave me!!!",
+
+        },
+        -- Rule 1: Hides all 1 socket superior or lower items.(these items are pretty useless)
         {
             codes = "allitems",
-            quality = "3-",
             sockets = "1",
-            hide = true
+            quality = "3-",
+            hide = true,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+             
+            --prefix = "[hidden]", --left for testing reasons
         },
-        -- Hides all non superior Bases with no Sockets, except some Paladin Maces
+        --- Rule 2: Hides zero skill paladin weapons.
         {
-            codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp", "buc", "sml", "lrg", "kit", "tow", "gts", "lgl", "vgl", "mgl", "tgl", "hgl", "lbt", "vbt", "mbt", "tbt", "hbt", "lbl", "vbl", "mbl", "tbl", "hbl", "bhm", "bsh", "spk", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xui", "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp", "xuc", "xml", "xrg", "xit", "xow", "xts", "xlg", "xvg", "xmg", "xtg", "xhg", "xlb", "xvb", "xmb", "xtb", "xhb", "zlb", "zvb", "zmb", "ztb", "zhb", "xh9", "xsh", "xpk", "dr1", "dr2", "dr3", "dr4", "dr5", "ba1", "ba2", "ba3", "ba4", "ba5", "pa1", "pa2", "pa3", "pa4", "pa5", "ne1", "ne2", "ne3", "ne4", "ne5", "ci0", "ci1", "ci2", "ci3", "uap", "ukp", "ulm", "uhl", "uhm", "urn", "usk", "uui", "uea", "ula", "utu", "ung", "ucl", "uhn", "urs", "upl", "ult", "uld", "uth", "uul", "uar", "utp", "uuc", "uml", "urg", "uit", "uow", "uts", "ulg", "uvg", "umg", "utg", "uhg", "ulb", "uvb", "umb", "utb", "uhb", "ulc", "uvc", "umc", "utc", "uhc", "uh9", "ush", "upk", "dr6", "dr7", "dr8", "dr9", "dra", "ba6", "ba7", "ba8", "ba9", "baa", "pa6", "pa7", "pa8", "pa9", "paa", "ne6", "ne7", "ne8", "ne9", "nea", "drb", "drc", "drd", "dre", "drf", "bab", "bac", "bad", "bae", "baf", "pab", "pac", "pad", "pae", "paf", "neb", "neg", "ned", "nee", "nef", "Ca1", "Ca2", "Ca3", "Ca4", "Ca5", "Ca6", "Wp1", "Wp2", "Wp3", "Gg1", "Gg2", "Gg3", "Ab1", "Ab2", "Ab3", "Ab4", "Ab5", "Ab6", "Bp1", "Bp2", "Bp3", "Bp4", "Bp5", "Bp6", "Oa1", "Oa2", "Oa3", "Vg1", "Vg2", "Vg3", "Vg4", "Vg5", "Vg6", "Bb1", "Bb2", "Bb3", "Bb4", "Bb5", "Bb6", "Zc1", "Zc2", "Zc3", "Zc4", "Zc5", "Zc6", "St1", "St2", "Pc1", "Pc2", "Pc3", "Ag1", "Ag2", "Ag3", "Ag4", "Ag5", "Ag6", "Na1", "Na2", "Na3", "Na4", "Na5", "Na6", "Sa1", "Sa2", "Sa3", "Sa4", "Sa5", "Sa6", "St3", "St4", "St5", "St6", "St7", "St8", "St9", "St0", "D01", "D03", "D04", "D05", "D08", "D09", "D11", "D12", "D17", "D19", "D20", "D21", "D23", "D29", "D35", "D36", "D37", "D38", "D45", "hax", "axe", "2ax", "mpi", "wax", "lax", "bax", "btx", "gax", "gix", "wnd", "ywn", "bwn", "gwn", "clb", "scp", "gsc", "wsp", "spc", "mac", "mst", "fla", "whm", "mau", "gma", "ssd", "scm", "sbr", "flc", "crs", "bsd", "lsd", "wsd", "2hs", "clm", "gis", "bsw", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sst", "lst", "cst", "bst", "wst", "sbw", "hbw", "lbw", "cbw", "sbb", "lbb", "swb", "lwb", "lxb", "mxb", "hxb", "rxb", "gps", "ops", "gpm", "opm", "gpl", "opl", "9ha", "9ax", "92a", "9mp", "9wa", "9la", "9ba", "9bt", "9ga", "9gi", "9wn", "9yw", "9bw", "9gw", "9cl", "9sc", "9qs", "9ws", "9sp", "9ma", "9mt", "9fl", "9wh", "9m9", "9gm", "9ss", "9sm", "9sb", "9fc", "9cr", "9bs", "9ls", "9wd", "92h", "9cm", "9gs", "9b9", "9fb", "9gd", "9dg", "9di", "9kr", "9bl", "9tk", "9ta", "9bk", "9b8", "9ja", "9pi", "9s9", "9gl", "9ts", "9sr", "9tr", "9br", "9st", "9p9", "9b7", "9vo", "9s8", "9pa", "9h9", "9wc", "8ss", "8ls", "8cs", "8bs", "8ws", "8sb", "8hb", "8lb", "8cb", "8s8", "8l8", "8sw", "8lw", "8lx", "8mx", "8hx", "8rx", "ktr", "wrb", "axf", "ces", "clw", "btl", "skr", "9ar", "9wb", "9xf", "9cs", "9lw", "9tw", "9qr", "7ar", "7wb", "7xf", "7cs", "7lw", "7tw", "7qr", "7ha", "7ax", "72a", "7mp", "7wa", "7la", "7ba", "7bt", "7ga", "7gi", "7wn", "7yw", "7bw", "7gw", "7cl", "7sp", "7ma", "7mt", "7fl", "7wh", "7m7", "7gm", "7ss", "7sm", "7sb", "7fc", "7cr", "7bs", "7ls", "7wd", "72h", "7cm", "7gs", "7b7", "7fb", "7gd", "7dg", "7di", "7kr", "7bl", "7tk", "7ta", "7bk", "7b8", "7ja", "7pi", "7s7", "7gl", "7ts", "7sr", "7tr", "7br", "7st", "7p7", "7o7", "7vo", "7s8", "7pa", "7h7", "7wc", "6ss", "6ls", "6cs", "6bs", "6ws", "6sb", "6hb", "6lb", "6cb", "6s7", "6l7", "6sw", "6lw", "6lx", "6mx", "6hx", "6rx", "ob1", "ob2", "ob3", "ob4", "ob5", "am1", "am2", "am3", "am4", "am5", "ob6", "ob7", "ob8", "ob9", "oba", "am6", "am7", "am8", "am9", "ama", "obb", "obc", "obd", "obe", "obf", "amb", "amd", "ame", "amf", "k01", "k02", "k03", "Ds1", "Ds2", "Ds3", "Ds4", "Ds5", "Ds6", "Pm1", "Pm2", "Pm3", "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf4", "Bf5", "Bf6", "D00", "Ss1", "Ss2", "Ss3", "Ss4", "D02", "D13", "D14", "D15", "D16", "D24", "D25", "D26", "D27", "D28", "D30", "D31", "D34", "D39", "D40", "D41", "D42", "D43", "D44", "Ev9", "7qs" },
-            quality = "2",
-            sockets = "0",
-            hide = true
+            codes = { "scp", "wsp", "gsc", "7sc", "7ws", "7qs", "9sc", "9ws", "9qs" },
+            quality = "4-",
+            stat = { index = 83, op = "<=", value = 0, param = 3 }, -- Value = How many +skills, Param = 3 for Paladin
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
-        -- Hides all Gold under 250 if the Player reached level 75 (reduced from standard filter because gold is life)
+        --- Rule 2b: Shows 3 skill scepters in red
         {
-            code = "gld",
-            stat = { index = 14, op = "<=", value = 250 }, -- Value = Gold minimum to be shown
-            pstat = { index = 12, op = ">=", value = 75 }, -- Value = Character Level
-            hide = true
+            codes = { "scp", "wsp", "gsc", "7sc", "7ws", "7qs", "9sc", "9ws", "9qs" },
+            quality = "3-",
+            suffix = "ÿcE[3 Skill]",
+            stat = { index = 83, op = "==", value = 3, param = 3 }, -- Value = How many +skills, Param = 3 for Paladin
+            border = { 255, 255, 255, 230, 2 }
         },
-        -- Hides non magic+ Arrows
+        -- Rule 3: Hides scrolls on ground
         {
-            code = "aqv",
-            quality = "3-", -- to hide rare, change to "4-"
-            hide = true
+            codes = { "tsc", "isc"},
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
-        -- Hides Scrolls, Potions and Small Juvs
+        ---Rule 4: Hides potions on ground (minus rejuvs) after level 25
         {
-            codes = { "mp1", "mp2", "mp3", "mp4", "mp5", "hp1", "hp2", "hp3", "hp4", "hp5", "isc", "tsc", "rvs" },
-            hide = true
+            codes = { "hp1", "hp2", "hp3", "hp4", "hp5", "mp1", "mp2", "mp3", "mp4", "mp5" },
+            pstat = { index = 12, op = ">=", value = 25 }, -- Char Level is >= 25
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
-        -- Hides Large Charms
+        ---Rule 5: Border and notifies when unique amulets drop
         {
-            code = "cm2",
-            quality = "4",
-            hide = true
+            code = "amu",
+            quality = "7",
+            notify = "Unique Nearby",
+            border = { 255, 128, 0, 230, 2 } 
         },
-        -- Highlights Treasure Chests
+        ---Rule 6: Border and notify unique Rings
         {
-            codes = { "y09", "y10", "y11", "y12", "y13", "y14", "y15", "y16", "y17", "y18", "y19", "y20", "y21", "y22", "y23", "y24", "y25", "y26", "y27", "y28", "y29", "y30", "y31", "y32" },
-            hide = false,
-            notify = "Lootboxes, in my diablo game?",
-            prefix = "{Yellow} [",
-            suffix = "{Yellow}] "
-        },
-        -- Highlights Rama Gifts
+            code = "rin",
+            quality = "7",
+            notify = "Unique Nearby",
+            border = { 255, 128, 0, 230, 2 } 
+        }, 
+        ---Rule 7: Border and notify set amulets
         {
-            code = "Rgx",
-            notify = "Ramalamadingdong!",
-            prefix = "{Red}| ",
-            suffix = "{Red} |",
-            background = { 255, 255, 255, 255 }
+            code = "amu",
+            quality = "5",
+            notify = "ÿc2Set Nearby",
+            border = { 27, 209, 3, 230, 2 } 
         },
-        -- Highlights ultra runes.. aggressively
+        ---Rule 8: Border and notify set Rings
         {
-            codes = { "r34", "r35", "r36" },
-            notify = "ÿc1**          ULTRA Rune Dropped*:",
-            prefix = "{Red}|          ",
-            suffix = "{Red}          |",
-            background = { 255, 255, 255, 255 }
+            code = "rin",
+            quality = "5",
+            notify = "ÿc2Set Nearby",
+            border = { 27, 209, 3, 230, 2 } 
         },
-        -- Highlights high runes Mal-Zod but not as angrily as ultras because theyre less cool
+        ---Rule 9: High Runes notification and ultra rune border and colors
         {
             codes = { "r23", "r24", "r25", "r26", "r27", "r28", "r29", "r30", "r31", "r32", "r33" },
-            notify = "ÿc@*High Rune Dropped*:",
-            prefix = "|     ",
-            suffix = "     |",
-            background = { 255, 255, 255, 255 }
+            notify = "ÿc@High Rune Nearby"
         },
-        -- Hides Med or lower runes when clvl=80+
+        --Rule 9b: Ultra Runes 
         {
-            codes = { "r01", "r02", "r03", "r04", "r05", "r06", "r07", "r08", "r09", "r10", "r11", "r12", "r13", "r14", "r15", "r16", "r17", "r18", "r19", "r20", "r21", "r22" },
-            pstat = { index = 12, op = ">=", value = 80 }, --playerstat = index 12 (12 = player lvl), operation = greater than or equal too (>=), value selected = 80 (plvl >=80)
-            hide = true
+            code = "r34",
+            background = { 255, 255, 255, 255 },
+            prefix = "ÿcS|X|",
+            suffix = "ÿcS|X|",
+            notify = "ÿc@Ultra Rune Nearby",
+            border = { 240, 0, 0, 230, 2 } 
         },
-        -- Hides Grand Charms until clvl=44 (low level gcs are rarely worth looking at due to statue benefits)
+        ---Rule 9c: Ultra Runes
         {
-            code = "cm3",
-            pstat = { index = 12, op = "<=", value = 44 },
-            hide = true,
-            quality = "4"
+            code = "r35",
+            background = { 255, 255, 255, 255 },
+            prefix = "ÿcS|X|",
+            suffix = "ÿcS|X|",
+            notify = "ÿc@Ultra Rune Nearby",
+            border = { 240, 0, 0, 230, 2 } 
         },
-        -- Highlight Unique items with bases that are contested for a good unique (no ID spoilers)
+        ---Rule 9d: Ultra Runes
         {
-            codes = { "vgl", "utp", "6ls", "rin", "amu", "aqv" },
-            quality = "7",
-            notify = "ÿcO Contested Base Unique Dropped - GL",
-            prefix = "[   ",
-            suffix = "   ]"
+            code = "r36",
+            background = { 255, 255, 255, 255 },
+            prefix = "ÿcS|X|",
+            suffix = "ÿcS|X|",
+            notify = "ÿc@You Won The Lottery!!!ÿcS",
+            border = { 240, 0, 0, 230, 2 } 
         },
-        -- Highlights rare rings and amulets specifically when clvl is <= 70
+        ---Rule 10: Unique Archons
         {
-            codes = { "rin", "amu" }, --add codes here to expand highlight list
-            quality = "5",
-            notify = "ÿcO Potential Rare Dropped",
-            prefix = "{red}** ",
-            suffix = "{red}  **",
-            pstat = { index = 12, op = "<=", value = 70 },
+            code = "utp",
+            quality = 7,
+            background = { 255, 255, 255, 255 },
+            prefix = "ÿcE",
+            notify = "ÿcERare Unique Nearby",
+            border = { 240, 0, 0, 230, 2 } 
         },
-        -- Highlight all Superior bases (does not check for mods)
+        ---Rule 11: Potential high quality uniques (ie hydra master)
         {
-            codes = "allitems",
+            codes = { "6ls", "ci1", "xld", "uhn", "aqv" },
+            quality = 7,
+            --prefix = "ÿcO",
+            notify = "ÿcOVariable Unique Nearby",
+            border = { 230, 30, 200, 230, 2 },
+        },
+        ---Rule 12: Unique Charms
+        {
+            codes = { "cm1", "cm2", "cm3", "m32", "m33", "m34", "m35" },
+            quality = 7,
+            notify = "ÿc;Unique Nearby",
+            border = { 255, 128, 0, 230, 2 } 
+        },
+        --Rule 13: Facet Charms
+        {
+            codes = { "j00", "jew" },
+            quality = 7,
+            name_override = "Rainbow Facet!!!",
+            notify = "ÿcERainbow Facet Nearby",
+            --name_style = "Rainbow",
+            border = { 255, 0, 0, 230, 2 } 
+        },
+        ---Rule 14: Treasure Chest/gem vein
+        {
+            codes = { "Rgx", "y09", "y10", "y11", "y12", "y13", "y14", "y15", "y16", "y17", "y18", "y19", "y20", "y21", "y22", "y23", "y24", "y25", "y26", "y27", "y28", "y29", "y30", "y31", "y32", "y33" },
+            notify = "ÿc;Treasure Nearby"
+        },
+
+        ---Rule 15: Valuable Uniques (would be better to use unique indexing but lazy"
+        {
+            codes = { "amb", "8hx", "6cb", "6lw", "7ja", "7kr", "7bw", "7yw", "7gw", "obf", "oba", "ob7", "7gd", "upl", "ult", "uar", "uth", "ula", "ulc", "uhc", "utb", "xtb", "ci3", "umg", "nef", "pab", "pa9", "paa", "uit", "urg", "uuc", "vg3" },
+            quality = 7,
+            notify = "ÿcSQuality Unique Nearby",
+            border = { 255, 128, 0, 230, 2 } 
+        },
+        ---Rule 16: good superior bases no socket sorting
+        {
+            codes = { "7wa", "7cr", "ci0", "ci1", "ci2", "ci3", "utp", "7b8", "amc" },
             quality = "3",
-            prefix = "{tan}* ",
-            suffix = "{tan} *"
+            prefix = "{Red}|GB|{white}",
+            border = { 255, 255, 255, 230, 2 } 
         },
-        -- Hide all throwing weapons because theyre annoying and common
+        ---Rule 17: hiding non-superior/non-class bases by level (helms) still shows 3 socket ones
         {
-            codes = { "tkf", "tax", "tsp" },
-            hide = true
+            codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "bhm" },
+            sockets = "2-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
         },
-        -- Hide all magic items when clvl is 80 or above
+        ---Rule 18: hiding non-superior/non-class bases by level (Body Armors) still shows 3 socket ones
         {
-            codes = "allitems",
-            quality = "4",
-            pstat = { index = 12, op = ">=", value = 80 },
-            hide = true
+            codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp" },
+            sockets = "2-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
         },
-        -- Hiding items dropping with <max sockets rules (applies after clvl 80, assuming you're at hell cow farm level)
-        -- Weapons
+        ---Rule 19: hiding non-superior/non-class bases by level (Shields) still shows 3 socket ones (higher level will force 4os)
+        {
+            codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk" },
+            sockets = "2-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 20: hiding non-superior/non-class bases by level (gloves) still shows 3 socket ones
+        {
+            codes = { "lgl", "vgl", "hgl", "mgl", "tgl" },
+            sockets = "2-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 21: hiding non-superior/non-class bases by level (boots) still shows 3 socket ones
+        {
+            codes = { "lbt", "vbt", "mbt", "tbt", "hbt" },
+            sockets = "2-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 22: hiding non-superior/non-class bases by level (belts) still shows 2 socket ones
+        {
+            codes = { "lbl", "vbl", "mbl", "tbl", "hbl" },
+            sockets = "1-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 23: hiding non-superior/non-class bases by level (helms) still shows 3 socket ones
+        {
+            codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "bhm", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xsh", "xpk" },
+            sockets = "2-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+
+        ---Rule 24: hiding non-superior/non-class bases by level (Body Armors) still shows 4 socket ones
+        {
+            codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp", "xui", "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp" },
+            sockets = "3-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 25: hiding non-superior/non-class bases by level (Shields) still shows 4 socket ones
+        {
+            codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk", "xuc", "xml", "xrg", "xit", "xow", "xts", "xsh", "xpk" },
+            sockets = "3-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 26: hiding non-superior/non-class bases by level (gloves) still shows 3 socket ones
+        {
+            codes = { "lgl", "vgl", "hgl", "mgl", "tgl", "xlg", "xvg", "xhg", "xmg", "xtg" },
+            sockets = "2-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 27: hiding non-superior/non-class bases by level (boots) still shows 3 socket ones
+        {
+            codes = { "lbt", "vbt", "mbt", "tbt", "hbt", "xlb", "xvb", "xmb", "xtb", "xhb" },
+            sockets = "2-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 28: hiding non-superior/non-class bases by level (belts) still shows 2 socket ones
+        {
+            codes = { "lbl", "vbl", "mbl", "tbl", "hbl", "zlb", "zvb", "zmb", "ztb", "zhb" },
+            sockets = "1-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 29: hiding non-superior/non-class bases by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills)
+        {
+            codes = { "hax", "axe", "2ax", "wax", "lax", "bax", "btx", "gax", "gix", "mac", "mst", "whm", "mau", "gma", "ssd", "scm", "sbr", "flc", "bsd", "lsd", "wsd", "clm", "gis", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sbw", "hbw", "lbw", "cbw", "sbb", "lbb", "swb", "lwb", "lxb", "mxb", "hxb", "rxb" },
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
+            --prefix = "[hidden]", -testing purposes
+        },
+        ---Rule 30: hiding non-superior/non-class runeword bases lacking sockets (ie flails,crystal swords)
+        {
+            codes = { "fla", "crs", "9fl", "7fl", "7cr", "9cr" },
+            sockets = "3-",
+            quality = "2-",
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 29: hiding non-class bases by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills)
+        {
+            codes = { "hax", "axe", "2ax", "wax", "lax", "bax", "btx", "gax", "gix", "mac", "mst", "whm", "mau", "gma", "ssd", "scm", "sbr", "flc", "bsd", "lsd", "wsd", "clm", "gis", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sbw", "hbw", "lbw", "cbw", "sbb", "lbb", "swb", "lwb", "lxb", "mxb", "hxb", "rxb", "9ha", "9ax", "92a", "9wa", "9la", "9ba", "9bt", "9ga", "9gi", "9ma", "9mt", "9wh", "9m9", "9gm", "9ss", "9sm", "9sb", "9fc", "9bs", "9ls", "9wd", "9cm", "9gs", "9fb", "9gd", "9dg", "9di", "9kr", "9bl", "9tk", "9ta", "9bk", "9b8", "9ja", "9pi", "9s9", "9gl", "9ts", "9sr", "9tr", "9br", "9st", "9p9", "9b7", "9vo", "9s8", "9pa", "9h9", "9wc", "8sb", "8hb", "8lb", "8cb", "8s8", "8l8", "8sw", "8lw", "8lx", "8mx", "8hx", "8rx" },
+            quality = "3-",
+            pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+        },
+        ---Rule 30: hiding non-class base magic items by level (helms)
+        {
+            codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "bhm" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 31:  hiding non-class base magic items by level (Body Armors)
+        {
+            codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 32:  hiding non-class base magic items by level (Shields)
+        {
+            codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 33:  hiding non-class base magic items by level(gloves)
+        {
+            codes = { "lgl", "vgl", "hgl", "mgl", "tgl" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 34:  hiding non-class base magic items by level(boots)
+        {
+            codes = { "lbt", "vbt", "mbt", "tbt", "hbt" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 35:  hiding non-class base magic items by level (belts)
+        {
+            codes = { "lbl", "vbl", "mbl", "tbl", "hbl", "Bb1", "Bb4" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 36: hiding non-class base magic items by level (helms)
+        {
+            codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "bhm", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xsh", "xpk" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+
+        ---Rule 37:  hiding non-class base magic items by level (Body Armors)
+        {
+            codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp", "xui", "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 38: hiding non-class base magic items by level (Shields)
+        {
+            codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk", "xuc", "xml", "xrg", "xit", "xow", "xts", "xsh", "xpk" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 39:  hiding non-class base magic items by level (gloves)
+        {
+
+            codes = { "lgl", "vgl", "hgl", "mgl", "tgl", "xlg", "xvg", "xhg", "xmg", "xtg" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 40: hiding non-class base magic items by level(boots) es
+        {
+            codes = { "lbt", "vbt", "mbt", "tbt", "hbt", "xlb", "xvb", "xmb", "xtb", "xhb" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 41:  hiding non-class base magic items by level (belts)
+        {
+            codes = { "lbl", "vbl", "mbl", "tbl", "hbl", "zlb", "zvb", "zmb", "ztb", "zhb", "Bb1", "Bb2", "Bb4", "Bb5" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 42:  hiding non-class base magic items by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills)
+        {
+            codes = { "hax", "axe", "2ax", "wax", "lax", "bax", "btx", "gax", "gix", "mac", "mst", "whm", "mau", "gma", "ssd", "scm", "sbr", "flc", "bsd", "lsd", "wsd", "clm", "gis", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sbw", "hbw", "lbw", "cbw", "sbb", "lbb", "swb", "lwb", "lxb", "mxb", "hxb", "rxb" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 43:  hiding non-class base magic items by level (ie flails,crystal swords)
+        {
+            codes = { "fla", "crs", "9fl" },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 44:  hiding non-class base magic items by level (weapons leaving runeword bases ie flails,crystal swords)
+        {
+            codes = { "7ha", "9ha", "9ax", "92a", "9wa", "9la", "9ba", "9bt", "9ga", "9gi", "9ma", "9mt", "9wh", "9m9",
+                "9gm", "9ss", "9sm", "9sb", "9fc", "9bs", "7tr", "9ls", "9wd", "9cm", "9gs", "9fb", "9gd", "9dg", "9di",
+                "9kr", "9bl", "9tk", "9ta", "9bk", "9b8", "9ja", "9pi", "9s9", "9gl", "9ts", "9sr", "9tr", "9br", "9st",
+                "9p9", "9b7", "9vo", "9s8", "9pa", "9h9", "9wc", "8sb", "8hb", "8lb", "8cb", "8s8", "8l8", "8sw", "8lw",
+                "8lx", "8mx", "8hx", "8rx", "ob1", "ob2", "ob3", "ob4", "ob5", "am1", "am2", "am3", "am4", "am5", "ob6",
+                "ob7", "ob8", "ob9", "oba", "am6", "am7", "am8", "am9", "ama", "obb", "obc", "obd", "obe", "obf", "amb",
+                "amc", "amd", "ame", "amf", "k01", "k02", "k03", "Ds1", "Ds2", "Ds3", "Ds4", "Ds5", "Ds6", "Pm1", "Pm2",
+                "Pm3", "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf4", "Bf5",
+                "Bf6"
+            },
+            quality = 4,
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 60
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 45: hide all non rare or greater arrows over 60
+        {
+            code = "aqv",
+            quality = "4-",
+            hide = true, 
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 60
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+                ---Rule 45b: hide all white arrows
+        {
+            code = "aqv",
+            quality = "3-",
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 46: hide low gold piles by level
+        {
+            code = "gld",
+            stat = { index = 14, op = "<=", value = 749 }, --hides gold under 1k
+            pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 46b: hide low gold piles by level
+        {
+            code = "gld",
+            stat = { index = 14, op = "<=", value = 99 },  --hides gold under 100
+            pstat = { index = 12, op = ">=", value = 20 }, -- Char Level is >= 20
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        ---Rule 46c: hide low gold piles by level
+        {
+            code = "gld",
+            stat = { index = 14, op = "<=", value = 499 }, --hides gold under 500
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 60
+            hide = true, 
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+
+        },
+        --Rule 47 Hides non superior items with less than 2 Sockets if the player is above 80 does not include staff mod items
+        {
+            codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp", "buc", "sml", "lrg", "kit", "tow", "gts", "lgl", "vgl", "mgl", "tgl", "hgl", "lbt", "vbt", "mbt", "tbt", "hbt", "lbl", "vbl", "mbl", "tbl", "hbl", "bhm", "bsh", "spk", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xui", "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp", "xuc", "xml", "xrg", "xit", "xow", "xts", "xlg", "xvg", "xmg", "xtg", "xhg", "xlb", "xvb", "xmb", "xtb", "xhb", "zlb", "zvb", "zmb", "ztb", "zhb", "xh9", "xsh", "xpk", "ci0", "ci1", "ci2", "ci3", "uap", "ukp", "ulm", "uhl", "uhm", "urn", "usk", "uui", "uea", "ula", "utu", "ung", "ucl", "uhn", "urs", "upl", "ult", "uld", "uth", "uul", "uar", "utp", "uuc", "uml", "urg", "uit", "uow", "uts", "ulg", "uvg", "umg", "utg", "uhg", "ulb", "uvb", "umb", "utb", "uhb", "ulc", "uvc", "umc", "utc", "uhc", "uh9", "ush", "upk", "Wp1", "Wp2", "Wp3", "Gg1", "Gg2", "Gg3", "Ab1", "Ab2", "Ab3", "Ab4", "Ab5", "Ab6", "Bp1", "Bp2", "Bp3", "Bp4", "Bp5", "Bp6", "Oa1", "Oa2", "Oa3", "Vg1", "Vg2", "Vg3", "Vg4", "Vg5", "Vg6", "Bb1", "Bb2", "Bb3", "Bb4", "Bb5", "Bb6", "Zc1", "Zc2", "Zc3", "Zc4", "Zc5", "Zc6", "St1", "St2", "Pc1", "Pc2", "Ag1", "Ag2", "Ag3", "Ag4", "Ag5", "Ag6", "Na1", "Na2", "Na3", "Na4", "Na5", "Na6", "Sa1", "Sa2", "Sa3", "Sa4", "Sa5", "Sa6", "St3", "St4", "St5", "St6", "St7", "St8", "St9", "St0", "hax", "axe", "2ax", "mpi", "wax", "lax", "bax", "btx", "gax", "gix", "mac", "mst", "whm", "mau", "gma", "ssd", "scm", "sbr", "flc", "bsd", "lsd", "wsd", "clm", "gis", "bsw", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sst", "lst", "cst", "bst", "sbw", "hbw", "lbw", "cbw", "sbb", "lbb", "swb", "lwb", "lxb", "mxb", "hxb", "rxb", "9ha", "9ax", "92a", "9mp", "9wa", "9la", "9ba", "9bt", "9ga", "9gi", "9ma", "9mt", "9wh", "9m9", "9gm", "9ss", "9sm", "9sb", "9fc", "9cr", "9bs", "9ls", "9wd", "9cm", "9gs", "9b9", "9fb", "9gd", "9dg", "9di", "9kr", "9bl", "9tk", "9ta", "9bk", "9b8", "9ja", "9pi", "9s9", "9gl", "9ts", "9sr", "9tr", "9br", "9st", "9p9", "9b7", "9vo", "9s8", "9pa", "9h9", "9wc", "8ss", "8ls", "8cs", "8bs", "8sb", "8hb", "8lb", "8cb", "8s8", "8l8", "8sw", "8lw", "8lx", "8mx", "8hx", "8rx", "7ha", "7ax", "72a", "7mp", "7la", "7ba", "7bt", "7ga", "7gi", "7ma", "7mt", "7wh", "7m7", "7gm", "7ss", "7sm", "7sb", "7fc", "7bs", "7ls", "7wd", "7cm", "7gs", "7b7", "7fb", "7gd", "7dg", "7di", "7kr", "7bl", "7tk", "7ta", "7bk", "7ja", "7pi", "7s7", "7gl", "7ts", "7sr", "7tr", "7br", "7st", "7p7", "7o7", "7vo", "7s8", "7pa", "7h7", "7wc", "6ss", "6ls", "6cs", "6bs", "6sb", "6hb", "6lb", "6cb", "6s7", "6l7", "6sw", "6lw", "6lx", "6mx", "6hx", "6rx", "am1", "am2", "am3", "am4", "am6", "am7", "am8", "am9", "amd", "ame", "Pm1", "Pm2", "Pm3", "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf4", "Bf5", "Bf6", "D00", "Ss1", "Ss2" },
+            quality = "2-",
+            sockets = "1-",
+            pstat = { index = 12, op = ">=", value = 80 }, -- value is character level
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
+            --prefix = "47"
+        },
+        -- Rule 48:Paladin Shield bases with high resistances (thanks cogy)
+        {
+            codes = { "pa1", "pa2", "pa3", "pa4", "pa5", "pa6", "pa7", "pa8", "pa9", "paa", "pab", "pac", "pad", "pae", "paf" },
+            quality = "3-",
+            stat = { index = 39, op = ">=", value = 35 }, -- This is the Res Check, change the Value to change the minimum amount of Res
+            stat = { index = 41, op = ">=", value = 35 },
+            stat = { index = 43, op = ">=", value = 35 },
+            stat = { index = 45, op = ">=", value = 35 },
+            suffix = "ÿcE[High Resist]",
+            border = { 255, 255, 255, 230, 2 } 
+            --sockets = "0,4",-- add if you want socket sorting
+        },
+        -- Rule 49: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 3 socket at level 80) this Rule technically does nothing that wasn't already done unless you swap it to 3 or moresockets
         {
             codes = { "7ha", "9ha", "hax", "sbw", "7sp", "9sp", "spc", "7cs", "7lw", "7tw", "7qr", "7ar", "7xf", "7wb", "9xf", "9lw", "9tw", "9cs", "9ar", "9qr", "9wb", "btl", "clw", "axf", "skr", "wrb", "lxb", "amf", "ama", "am5", "7s7", "7ja", "7pi", "9pi", "9s9", "9ja", "ssp", "7kr", "7bl", "9kr", "9bl", "bld", "kri", "Pm1", "Pm2", "Pm3", "7mt", "7ma", "9ma", "9mt", "mac", "mst", "obf", "oba", "ob5", "7sc", "7qs", "9qs", "9sc", "gsc", "scp", "Ds1", "Ds2", "Ds3", "6ss", "8ss", "sst", "k01", "k02", "2hs", "7sm", "7sb", "7ss", "7fc", "7wd", "9wd", "9ss", "9sm", "9sb", "9fc", "flc", "sbr", "ssd", "scm", "wsd" },
             quality = "3-",
-            sockets = "2-",
-            pstat = { index = 12, op = ">=", value = 80 },
-            hide = true
+            sockets = "1,2",
+            pstat = { index = 12, op = ">=", value = 80 }, -- value is character level
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
         },
+        -- Rule 49b: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 4 socket at level 80) this Rule technically does nothing that wasn't already done unless you swap it to 3 or more sockets
         {
             codes = { "Bf4", "cbw", "hbw", "8lx", "mxb", "6cs", "6bs", "6ls", "8cs", "8bs", "8ls", "bst", "cst", "lst", "bsw", "k03", "72h", "92h", "7gs", "7b7", "7cm", "9cm", "9b9", "9gs", "bsd", "clm", "gis", "lsd", "bal", "7gl", "7ts", "9ts", "9gl", "glv", "tsp" },
             quality = "3-",
-            sockets = "3-",
-            pstat = { index = 12, op = ">=", value = 80 },
-            hide = true
+            sockets = "1,2",
+            pstat = { index = 12, op = ">=", value = 80 }, -- value is character level
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
         },
+        -- Rule 49c: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 5 socket at level 80) this Rule technically does nothing that wasn't already done unless you swap it to 3 or more sockets
         {
             codes = { "axe", "bax", "2ax", "lax", "am2", "am1", "6hb", "6cb", "6sb", "8cb", "8sb", "8hb", "lbw", "6rx", "6mx", "6lx", "8rx", "8mx", "rxb", "fla", "bar", "brn", "pax", "spr", "tri", "vou", "wsp", "scy", "9b8" },
             quality = "3-",
-            sockets = "4-",
-            pstat = { index = 12, op = ">=", value = 80 },
-            hide = true
+            sockets = "1,2",
+            pstat = { index = 12, op = ">=", value = 80 }, -- value is character level
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
+
         },
+        -- Rule 49d: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 6 socket at level 80) this Rule technically does nothing that wasn't already done unless you swap it to 3 or moresockets
         {
             codes = { "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf5", "Bf6", "7wa", "7ga", "7bt", "72a", "7la", "7gi", "7ba", "7ax", "9gi", "9ba", "9ax", "9ga", "9la", "9wa", "9bt", "92a", "btx", "gix", "gax", "wax", "amc", "amb", "am6", "am7", "6l7", "6s7", "6lw", "6lb", "6sw", "8lb", "8lw", "8l8", "8sw", "8s8", "lbb", "lwb", "sbb", "swb", "6hx", "8hx", "hxb", "7wh", "7m7", "7gm", "9wh", "9gm", "9m9", "gma", "mau", "whm", "7fl", "9fl", "7vo", "7pa", "7st", "7h7", "7sr", "7br", "7o7", "7tr", "7p7", "9h9", "9vo", "9tr", "9p9", "9b7", "9pa", "9br", "9sr", "9st", "hal", "pik", "spt", "7ws", "9ws", "7mp", "7wc", "9wc", "9s8", "mpi", "wsc", "amd", "ame", "am8", "am9", "am3", "am4", "Ds4", "Ds5", "Ds6", "6ws", "8ws", "wst", "7gd", "7bs", "7ls", "9bs", "9gd", "9ls", "9fb", "flb", "gsd", "7cr", "9cr", "crs", "7b8" },
             quality = "3-",
-            sockets = "5-",
-            pstat = { index = 12, op = ">=", value = 80 },
-            hide = true
-        },
-        --Body Armours
-        {
-            codes = { "brs", "chn", "ltp", "rng", "scl", "xea", "xla", "xui" },
-            quality = "3-",
-            sockets = "2-",
-            hide = true
-        },
-        {
-            codes = { "aar", "Bp1", "Bp2", "Bp3", "fld", "ful", "gth", "Gg3", "Na1", "Na2", "Na3", "Na4", "Na5", "Na6", "Oa1", "Oa2", "Oa3", "plt", "Sa1", "Sa2", "Sa3", "Sa4", "Sa5", "Sa6", "spl", "ult", "uld", "uar", "ucl", "uea", "uhn", "ula", "ulg", "ung", "uui", "urs", "utp", "uth", "utu", "upl", "uul", "Wp3", "xar", "xcl", "xhn", "xld", "xlt", "xng", "xpl", "xrs", "xth", "xtp", "xtu", "xul" },
-            quality = "3-",
-            sockets = "3-",
-            hide = true
-        },
-        -- Shields (including necro heads) - Hides the shields that can only have 2os after clvl60
-        {
-            codes = { "xuc", "xml", "buc", "sml" },
-            quality = "3-",
-            pstat = { index = 12, op = ">=", value = 60 },
-            hide = true
-        },
-        {
-            codes = { "ne6", "ne7", "ne1", "ne2", "uuc", "xsh", "bsh", "lrg", "spk" },
-            quality = "3-",
-            sockets = "2-",
-            hide = true
-        },
-        -- Rule that displays the 3os limit on bases that *do* drop, that cannot have 4
-        {
-            codes = { "ne6", "ne7", "ne1", "ne2", "uuc", "xsh", "bsh", "lrg", "spk" },
-            suffix = "[Max 3os]"
-        },
-        {
-            codes = { "nef", "neg", "neb", "ned", "nee", "ne9", "nea", "ne8", "ne5", "ne4", "ne3", "pad", "pac", "pab", "paf", "pae", "pa7", "pa6", "pa9", "pa8", "paa", "pa4", "pa5", "pa3", "pa2", "pa1", "uow", "upk", "urg", "uml", "uit", "ush", "uts", "xts", "xpk", "xit", "xow", "xrg", "gts", "kit", "tow" },
-            quality = "3-",
-            sockets = "3-",
-            hide = true
-        },
-        -- Helms
-        { --hides helms that max out at 2os after clvl 60
-            codes = { "xap", "cap", "hlm", "skp" },
-            quality = "3-",
-            pstat = { index = 12, op = ">=", value = 60 },
-            hide = true
-        },
-        {
-            codes = { "bab", "bae", "bad", "bac", "baf", "ba6", "ba7", "ba8", "ba9", "baa", "ba4", "ba5", "ba1", "ba2", "ba3", "drb", "drf", "drd", "dre", "drc", "dr6", "dr7", "dr8", "dra", "dr3", "dr4", "dr2", "dr5", "ulm", "uh9", "urn", "usk", "uhl", "ukp", "uap", "uhm", "Pc3", "Pc2", "xhl", "xlm", "xsk", "xrn", "xh9", "xkp", "xhm", "bhm", "crn", "fhl", "ghm", "msk", "Pc1" },
-            quality = "3-",
-            sockets = "2-",
-            hide = true
-        },
-        -- Circlets
-        {
-            codes = { "Zc1", "Zc2", "Zc3", "ci0", "ci1", "ci2", "ci3" },
-            quality = "3-",
-            sockets = "2-",
-            hide = true
-        },
-        -- Boots
-        { --Hides max 2os max boots after clvl 60
-            codes = { "xlb", "lbt", "vbt", "mbt" },
-            quality = "3-",
-            pstat = { index = 12, op = ">=", value = 60 },
-            hide = true
-        },
-        {
-            codes = { "ulb", "uvb", "umb", "utb", "uhb", "xvb", "xmb", "xtb", "xhb", "hbt", "tbt", "Ab1", "Ab2", "Ab3" },
-            quality = "3-",
-            sockets = "2-",
-            hide = true
-        },
-        -- Gloves
-        { --hides max 2os gloves after clvl 60
-            codes = { "Ag3", "Ag1", "xlg", "lgl", "vgl", "mgl" },
-            quality = "3-",
-            pstat = { index = 12, op = ">=", value = 60 },
-            hide = true
-        },
-        {
-            codes = { "Ag2", "Ag4", "Ag5", "Ag6", "uvg", "xvg", "Vg1", "Vg2", "Vg3", "Vg4", "Vg5", "Vg6", "ulg", "utg", "uhg", "umg", "xmg", "xtg", "xhg", "tgl", "hgl" },
-            quality = "3-",
-            sockets = "2-",
-            hide = true
-        }
+            sockets = "1,2",
+            pstat = { index = 12, op = ">=", value = 80 }, -- value is character level
+            hide = true, 
+            runeword = false,
+            area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
 
+            --prefix = "h"
+        },
+        -- Rule 50: Shows Necro Shield bases with 3 summon skills
+        {
+            codes = { "ne6", "ne7", "ne8", "ne9", "nea", "neg", "ned", "nee", "nef", "neb", "ne1", "ne2", "ne3", "ne4", "ne5" },
+            quality = "3-",
+            --sockets = "0,4",
+            stat = { index = 188, op = "==", value = 3, param = 18 },
+            suffix = " {red}[3 to Summoning]",
+            border = { 255, 255, 255, 230, 2 } 
+        },
+        --Rule 51:Shows 2 bow skills Grand Matron/matriarchal Bow bases
+        {
+            codes = { "amc", "amb" },
+            quality = "3-",
+            --sockets = "0,6",
+            stat = { index = 188, op = ">=", value = 2, param = 0 },
+            suffix = " {red}[2 Bow skills]",
+            border = { 255, 255, 255, 230, 2 } 
+
+        },
+        --Rule 52:Shows +3 LF Amazon Javs bases
+        {
+            codes = { "amf", "ama", "am5" },
+            quality = "3-",
+            --sockets = "0,3",
+            stat = { index = 107, op = "==", value = 3, param = 35 },
+            suffix = " {red}[3 LF]",
+            border = { 255, 255, 255, 230, 2 } 
+        },
+        --Rule 52: Shows Raven Damage Druid Helmet bases
+        {
+            codes = { "dr1", "dr2", "dr3", "dr4", "dr5", "dr6", "dr7", "dr8", "dr9", "dra", "drb", "drc", "drd", "dre", "drf" },
+            quality = "3-",
+            -- sockets = "0,3",
+            stat = { index = 403, op = ">=", value = 150 },
+            suffix = "{red}[High Raven Damage]",
+            border = { 255, 255, 255, 230, 2 } 
+        }
     }
 }
-
-
 
 --[[
 
@@ -272,7 +678,6 @@ You can also use it for parameters such as:
 stat Example Usage: stat = { index = 97, op = ">=", value = 2, param = 36}
 This checks stat#97, which grans a non-class skill, and sees if the value is 2 or higher.
 It also checks the param of the skill, to make sure it's giving +2 or more specifically to Fire Bolt, which is skill id 36.
-
 
 ------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------
