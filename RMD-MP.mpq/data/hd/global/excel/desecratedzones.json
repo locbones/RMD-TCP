@@ -1305,6 +1305,42 @@
             "levels": [ 37, 73, 102, 108, 131, 132 ]
         }
     ],
+    "stat_adjustments": [
+        {
+            "random": true,
+            "stats_values": [
+                { "stat": 25, "value": [-10, 30] },
+                { "stat": 34, "value": [10, 50] },
+                { "stat": 35, "value": [10, 50] },
+                { "stat": 36, "value": [-10, 30] },
+                { "stat": 37, "value": [-10, 30] },
+                { "stat": 39, "value": [-10, 30] },
+                { "stat": 41, "value": [-10, 30] },
+                { "stat": 43, "value": [-10, 30] },
+                { "stat": 45, "value": [-10, 30] },
+                { "stat": 67, "value": [-10, 30] },
+                { "stat": 68, "value": [-10, 30] },
+                { "stat": 74, "value": [-10, 30] },
+                { "stat": 76, "value": [-10, 30] },
+                { "stat": 81, "value": [1, 1] },
+                { "stat": 108, "value": [1, 1] },
+                { "stat": 134, "value": [2, 4] },
+                { "stat": 135, "value": [10, 30] },
+                { "stat": 136, "value": [10, 30] },
+                { "stat": 141, "value": [10, 30] },
+                { "stat": 142, "value": [5, 25] },
+                { "stat": 144, "value": [5, 25] },
+                { "stat": 146, "value": [5, 25] },
+                { "stat": 148, "value": [5, 25] },
+                { "stat": 153, "value": [1, 1] },
+                { "stat": 276, "value": [10, 30] },
+                { "stat": 329, "value": [10, 30] },
+                { "stat": 330, "value": [10, 30] },
+                { "stat": 331, "value": [10, 30] },
+                { "stat": 332, "value": [10, 30] }
+            ]
+        }
+    ],
     "stat_names": [
         { "id": 0, "name": "+%d to Strength" },
         { "id": 1, "name": "+%d to Energy" },
