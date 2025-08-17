@@ -93,6 +93,9 @@
                             "level_id": 19
                         },
                         {
+                            "level_id": 20
+                        },
+                        {
                             "level_id": 21
                         },
                         {
@@ -651,7 +654,7 @@
                 },
                 {
                     /* Trials 1-5 */
-                    "id": 37,
+                    "id": 7,
                     "levels": [
                         {
                             /* Act 5 - Torment Trials 1 */
@@ -727,7 +730,7 @@
                 },
                 {
                     /* Trials 6-10 */
-                    "id": 38,
+                    "id": 8,
                     "levels": [
                         {
                             /* Act 5 - Torment Trials 6 */
@@ -803,7 +806,7 @@
                 },
                 {
                     /* Trials 11-15 */
-                    "id": 39,
+                    "id": 9,
                     "levels": [
                         {
                             /* Act 5 - Torment Trials 11 */
@@ -879,7 +882,7 @@
                 },
                 {
                     /* Trials 16-20 */
-                    "id": 40,
+                    "id": 10,
                     "levels": [
                         {
                             /* Act 5 - Torment Trials 16 */
@@ -955,7 +958,7 @@
                 },
                 {
                     /* Trials 21-25 */
-                    "id": 41,
+                    "id": 11,
                     "levels": [
                         {
                             /* Act 5 - Torment Trials 21 */
@@ -1031,7 +1034,7 @@
                 },
                 {
                     /* Primal Showdown */
-                    "id": 42,
+                    "id": 12,
                     "levels": [
                         {
                             /* Act 1 - Catacombs Level 4 */
@@ -1051,7 +1054,7 @@
                         },
                         {
                             /* Act 5 - Throne of Destruction */
-                            "level_id": 132
+                            "level_id": 131
                         },
                         {
                             /* Act 5 - Worldstone Keep */
@@ -1253,16 +1256,12 @@
     ],
     "level_groups": [
         {
-            "name": "Tal Rasha's Tomb",
-            "levels": [ 66, 67, 68, 69, 70, 71, 72 ]
-        },
-        {
             "name": "All of Act 1",
             "levels": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ]
         },
         {
             "name": "All of Act 2",
-            "levels": [ 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73 ]
+            "levels": [ 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74 ]
         },
         {
             "name": "All of Act 3",
@@ -1308,6 +1307,7 @@
     "stat_adjustments": [
         {
             "random": true,
+            "minmaxStats": [ 1, 5 ],
             "stats_values": [
                 { "stat": 25, "value": [-10, 30] },
                 { "stat": 34, "value": [10, 50] },
