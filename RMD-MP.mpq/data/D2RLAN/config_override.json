@@ -1,0 +1,175 @@
+{
+  "MonsterStatsDisplay": true, // Displays real-time HP and resistances of monsters
+  "Channel Color": "ÿc5",
+  "Player Name Color": "ÿc8",
+  "Message Color": "ÿc0",
+  "HPRolloverMods": true, // Prevents HP Rollovers on high player counts by utilizing reduction logic on damage tables and player count bonuses (below)
+  "HPRollover%": 99, // The maximum percentage of damage reduction that can be applied to players damage tables
+  "HPRolloverDifficulty": 0, // Apply Rollover logic to difficulties greater than: -1 (All Difficulties), 0 (Nightmare/Hell Only), 1 (Hell Only)
+  "SunderedMonUMods": true, // Allows the 'sunder' mechanic to also reduce MonUMod bonuses (assuming enough -resistance% is applied)
+  "DLLsToLoad": [ "D2RHUD.dll" ],
+  "MemoryConfigs": [
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+    {
+      "Description": "Enable TCP/IP Access",
+      "Address": "749AC",
+      "Length": 1,
+      "Type": "Hex",
+      "Values": "EB" // Conditional Jump -> Forced Jump
+    },
+    {
+      "Description": "Allow Character Levels 100+",
+      "Address": "27B835",
+      "Length": 1,
+      "Type": "Hex",
+      "Values": "FF" //Level 255, Retail = 62 (98)
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+    {
+      "Description": "Display Player Names When Trading",
+      "Address": "BBFCF9",
+      "Length": 1,
+      "Type": "Hex",
+      "Values": "00" // 255 -> 0
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------// 
+    {
+      "Description": "Customize Max Stash Gold",
+      "Addresses": [ "BB5346", "345FE9", "31CC7A", "319C9E", "2B78F4", "2B7810", "2929D6", "28D940", "28D7E8", "27F75F", "18ED7A", "18E7C9", "D6255", "348A4B", "3489A2" ],
+      "Length": 4,
+      "Type": "Integer",
+      "Values": "25000000" // Retail Max = 2,500,000
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+    {
+      "Description": "Customize Max Character Gold",
+      "Addresses": [ "10252C", "19AA9B", "27F7A4", "28D375", "28D4A7", "2B7895", "2B79A4", "2D4E2D", "2D4F56", "31CBD3", "346822", "346497", "348832", "34B4BF", "BB4C89", "BB5397", "287CB2", "28D83F" ],
+      "Length": 4,
+      "Type": "Integer",
+      "Values": "100000" // Retail Max = 10,000 per character level
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+    {
+      "Description": "Customize Save File Limit",
+      "Addresses": [ "28F2B7", "28F2D1", "28F2F9", "28F324", "28F454", "28F47F", "28F487", "28F496" ],
+      "Length": 1,
+      "Type": "Hex",
+      "Values": "80" // Retail = 20(00) (8192 bytes) -- Replacing first-half of byte stack only
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+  {
+    "Description": "Player Difficulty Scaling Override (Max/UI)",
+    "Addresses": [ "135EF8", "135F16", "1E31CCC", "1E31D64" ],
+    "Length": 4,
+    "Type": "Integer",
+    "Values": "65535" //Retail Max = 8
+  },
+  {
+    "Description": "Player Difficulty Scaling Override (Command)",
+    "Address": "11FE12",
+    "Length": 17,
+    "Type": "Hex",
+    "Values": "4189C49090909090909090909090909090" //NOP last 14 bytes
+  },
+  {
+    "Description": "Player Difficulty Scaling Override (Actual)",
+    "Address": "136910",
+    "Length": 3,
+    "Type": "Hex",
+    "Values": "89C890" //NOP last byte
+  },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+  {
+    "Description": "Force Classic Whirlwind",
+    "Address": "3748C6",
+    "Length": 1,
+    "Type": "Hex",
+    "Values": "EB" // Conditional Jump -> Forced Jump, LOD behavior (eww) = "74"
+  },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+  {
+    "Description": "Increase Max Item Level (Drop)", // If less than this level, then...
+    "Address": "205E30",
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "125" // Level 125, Retail = "63" (99)
+  },
+  {
+    "Description": "Increase Max Item Level (Drop)", //Force it to be this level
+    "Address": "205E94",
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "125" // Level 125, Retail = "63" (99)
+  }
+  //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+  /*
+   {
+    "Description": "Fire, Cold, Light Resistance (Server/Client)", // UMod 8 (Magic Resistant)
+    "Addresses": [ "2FC7E4", "2FC8AD", "2FC968", "AF13F", "AF20B", "AF2CF" ],
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "40"
+  },
+  {
+    "Description": "Fire Resistance (Server/Client)", // UMod 9 (Fire Enchanted)
+    "Addresses": [ "2FC9EB", "AF35C" ],
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "75"
+  },
+  {
+    "Description": "Lightning Resistance (Server/Client)", // UMod 17 (Lightning Enchanted)
+    "Addresses": [ "2FCADD", "AF479" ],
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "75"
+  },
+  
+  {
+    "Description": "Cold Resistance (Server/Client)", // UMod 18 (Cold Enchanted)
+    "Addresses": [ "2FCA64", "AF3E9" ],
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "75"
+  },
+  
+  {
+    "Description": "Poison Resistance (Server/Client)", // UMod 23 (Poison Enchanted)
+    "Addresses": [ "2FCB56", "AF495" ],
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "75"
+  },
+  {
+    "Description": "Magic Resistance (Server/Client)", // UMod 25 (Mana Burn)
+    "Addresses": [ "2FCBCF", "AF522" ],
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "20"
+  },
+  {
+    "Description": "Fire, Cold, Lightning Resistance (Server/Client)", // UMod 27 (Spectral Hit)
+    "Addresses": [ "2FCC56", "2FCD22", "2FCDDC", "AF5B9", "AF698", "AF75C" ],
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "20"
+  },
+  {
+    "Description": "Physical Resistance (Server/Client)", // UMod 28 (Stone Skin)
+    "Addresses": [ "2FCDEE", "AF778" ],
+    "Length": 1,
+    "Type": "Integer",
+    "Values": "50"
+  }
+    */
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+  ]
+}
+
+/*
+WARNING:
+- Cheats are enabled by default, but have no effect unless used. You can learn more about them in the included cheats_readme.txt file
+- Some offsets that are altered may not be strictly necessary, or may still be missing
+- Thanks to Danny for his assistance with offset discovery and implementation
+*/
+

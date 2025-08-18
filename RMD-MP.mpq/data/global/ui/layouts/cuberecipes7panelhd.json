@@ -1103,14 +1103,6 @@
                                         "text": " ???",
                                         "style": "$RWInfo"
                                     }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
-                                    }
                                 }
                             ]
                         },
@@ -1136,14 +1128,6 @@
                                         "rect": { "x": 10, "y": -20},
                                         "text": "@bp22",
                                         "style": "$RWInfoFB"
-                                    }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
                                     }
                                 },
                                 {
