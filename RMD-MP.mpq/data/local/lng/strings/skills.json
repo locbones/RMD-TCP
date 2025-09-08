@@ -50947,5 +50947,39 @@
 	    "ruRU": "ÿcn [Путь завоевателя] ÿc2 \nprovides мощные бонусы и позволяет легко перемещаться в конечном счете.  Показатели синергии по всем навыкам увеличились на 5%",
 	    "zhCN": "ÿcN[Path of the Conqueror]ÿc2\nProvides powerful bonuses and allows easy endgame traveling\nOnly hard points provide bonuses\nÿc5Skill Cost = 5/5/10\n\nÿc8Level 1ÿc0 - Pandemonium and Trial Portals may be opened for free\nÿc8Level 2ÿc0 - AllSkills Increased by 2\nÿc8Level  3²C0-所有技能的协同率提高了5％",
 	    "zhTW": "ÿcN[Path of the Conqueror]ÿc2\nProvides powerful bonuses and allows easy endgame traveling\nOnly hard points provide bonuses\nÿc5Skill Cost = 5/5/10\n\nÿc8Level 1ÿc0 - Pandemonium and Trial Portals may be opened for free\nÿc8Level 2ÿc0 - AllSkills Increased by 2\nÿc8Level 3²C0-所有技能的協同率提高了5％"
+    },
+        {
+        "id": 61896,
+	    "Key": "skDarkLightningSentry",
+	    "enUS": "Dark Lightning Sentry",
+	    "zhTW": "深閃電哨兵",
+	    "deDE": "Dunkler Blitzwechsel",
+	    "esES": "Dark Lightning Sentry",
+	    "frFR": "Sentry de foudre sombre",
+	    "itIT": "Dark Lightning Sentry",
+	    "koKR": "어두운 번개 보초",
+	    "plPL": "Dark Lightning Sentry",
+	    "esMX": "Dark Lightning Sentry",
+	    "jaJP": "暗い稲妻セントリー",
+	    "ptBR": "Sentry Dark Lightning",
+	    "ruRU": "Темная молния",
+	    "zhCN": "深闪电哨兵"
+    },
+        {
+        "id": 61897,
+        "Key": "sdDarkLightningSentry",
+    	"enUS": "ÿcNDraw power from darkness itself\nÿc0Creates immobile traps that emits\nÿc0dark lightning at enemies nearby",
+	    "zhTW": "從黑暗本身中繪製的電源\n²c0創造了在附近的敵人發射\nμarkLightning的固定陷阱",
+	    "deDE": "Ÿcndraw Power aus der Dunkelheit selbst \nŸc0creates unbewegliche Fallen, die \nŸc0dark Lightning in Feinden in der Nähe abgeben",
+	    "esES": "ÿCnDraw Power de la oscuridad misma \nÿc0 crea trampas inmóviles que emiten \nÿC0Dark Lightning a los enemigos cercanos",
+	    "frFR": "ÿcndraw Power From Darkness lui-même \nÿc0cretes des pièges immobiles qui émet \nÿc0dark Lightning chez les ennemis à proximité",
+	    "itIT": "ÿCndraw Power from Darkness stesso \nÿc0 crea trappole immobili che emette \nÿc0dark lampo ai nemici nelle vicinanze",
+	    "koKR": "ÿcndraw 어둠 자체에서 파워 \nÿc0은 근처의 적에게 방출되는 움직이지 않는 함정을 만들어냅니다.",
+	    "plPL": "ÿCnDraw moc z samej ciemności \nÿc0creatuje nieruchome pułapki, które emitują błyskawicę \nÿc0dark u pobliskich wrogów",
+	    "esMX": "ÿCnDraw Power de la oscuridad misma \nÿc0 crea trampas inmóviles que emiten \nÿC0Dark Lightning a los enemigos cercanos",
+	    "jaJP": "暗闇自体からのcndrawパワー\nc0は、近くの敵で\nÿc0darkの稲妻を放出する不動のトラップを作成します",
+	    "ptBR": "ÿcndrAw Power da escuridão em si.",
+	    "ruRU": "ÿcndraw Сила из самой тьмы \nÿc0creates неподвижные ловушки, которые излучает молнию \nÿc0dark at emeries рядом с врагами",
+	    "zhCN": "从黑暗本身中绘制的电源\n²c0创造了在附近的敌人发射\nμarkLightning的固定陷阱"
     }
 ]

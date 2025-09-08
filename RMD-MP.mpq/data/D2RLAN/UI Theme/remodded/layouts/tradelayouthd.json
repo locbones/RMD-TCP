@@ -15,7 +15,7 @@
         {
             "type": "ImageWidget", "name": "background",
             "fields": {
-                "filename": "..\\..\\..\\ReMoDDeD\\Trade_BG",
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Inventory\\TradeBG_R"
             },
         },
         {

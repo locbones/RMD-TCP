@@ -787,7 +787,7 @@
             "_name": "Seq_Whirlwind",
             "audioId": "",
             "loopCount": 0,
-            "stateId": 15,
+            "stateId": 31,
             "modeId": 14,
             "skillIndex": 151,
             "stepIndex": 0,
@@ -798,6 +798,72 @@
                 "bow": [],
                 "1hs": [
                     "whirlwind"
+                ],
+                "1ht": [],
+                "stf": [],
+                "2hs": [],
+                "2ht": [],
+                "xbw": [],
+                "1js": [],
+                "1jt": [],
+                "1ss": [],
+                "1st": [],
+                "ht1": [],
+                "ht2": []
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState",
+            "_name": "Seq_Whirlwind",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 32,
+            "modeId": 14,
+            "skillIndex": 147,
+            "stepIndex": 0,
+            "animationBindings": {
+                "hth": [
+                    "attack1"
+                ],
+                "bow": [],
+                "1hs": [
+                    "attack1"
+                ],
+                "1ht": [],
+                "stf": [],
+                "2hs": [],
+                "2ht": [],
+                "xbw": [],
+                "1js": [],
+                "1jt": [],
+                "1ss": [],
+                "1st": [],
+                "ht1": [],
+                "ht2": []
+            },
+            "enterEvents": [],
+            "exitEvents": []
+        },
+        {
+            "type": "AnimationState",
+            "name": "AnimationState",
+            "_name": "Seq_Whirlwind",
+            "audioId": "",
+            "loopCount": 1,
+            "stateId": 33,
+            "modeId": 14,
+            "skillIndex": 147,
+            "stepIndex": 1,
+            "animationBindings": {
+                "hth": [
+                    "attack2"
+                ],
+                "bow": [],
+                "1hs": [
+                    "attack2"
                 ],
                 "1ht": [],
                 "stf": [],

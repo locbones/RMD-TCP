@@ -653,7 +653,7 @@
                     ]
                 },
                 {
-                    /* Trials 1-5 */
+                    /* Trials 1-10 */
                     "id": 7,
                     "levels": [
                         {
@@ -692,36 +692,106 @@
                                 }
                         },
                         {
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 142,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 143,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 144,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 145,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 146,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
                             /* Act 5 - Icy Hell 1 */
-                            "level_id": 162,
+                            "level_id": 187,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
                             /* Act 5 - Icy Hell 2 */
-                            "level_id": 163,
+                            "level_id": 188,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
                             /* Act 5 - Icy Hell 3 */
-                            "level_id": 164,
+                            "level_id": 189,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
                             /* Act 5 - Icy Hell 4 */
-                            "level_id": 165,
+                            "level_id": 190,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
                             /* Act 5 - Icy Hell 5 */
-                            "level_id": 166,
+                            "level_id": 191,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 192,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 193,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 194,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 195,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 196,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
@@ -733,71 +803,141 @@
                     "id": 8,
                     "levels": [
                         {
-                            /* Act 5 - Torment Trials 6 */
-                            "level_id": 142,
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 147,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 7 */
-                            "level_id": 143,
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 148,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 8 */
-                            "level_id": 144,
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 149,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 9 */
-                            "level_id": 145,
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 150,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 10 */
-                            "level_id": 146,
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 151,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 6 */
-                            "level_id": 167,
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 152,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 7 */
-                            "level_id": 168,
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 153,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 8 */
-                            "level_id": 169,
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 154,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 9 */
-                            "level_id": 170,
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 155,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 10 */
-                            "level_id": 171,
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 156,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 197,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 198,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 199,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 200,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 201,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 202,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 203,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 204,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 205,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 206,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
@@ -809,71 +949,141 @@
                     "id": 9,
                     "levels": [
                         {
-                            /* Act 5 - Torment Trials 11 */
-                            "level_id": 147,
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 157,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 12 */
-                            "level_id": 148,
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 158,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 13 */
-                            "level_id": 149,
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 159,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 14 */
-                            "level_id": 150,
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 160,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 15 */
-                            "level_id": 151,
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 161,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 11 */
-                            "level_id": 172,
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 162,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 12 */
-                            "level_id": 173,
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 163,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 13 */
-                            "level_id": 174,
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 164,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 14 */
-                            "level_id": 175,
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 165,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 15 */
-                            "level_id": 176,
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 166,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 207,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 208,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 209,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 210,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 211,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 212,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 213,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 214,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 215,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 216,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
@@ -885,71 +1095,141 @@
                     "id": 10,
                     "levels": [
                         {
-                            /* Act 5 - Torment Trials 16 */
-                            "level_id": 152,
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 167,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 17 */
-                            "level_id": 153,
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 168,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 18 */
-                            "level_id": 154,
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 169,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 19 */
-                            "level_id": 155,
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 170,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 20 */
-                            "level_id": 156,
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 171,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 16 */
-                            "level_id": 177,
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 172,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 17 */
-                            "level_id": 178,
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 173,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 18 */
-                            "level_id": 179,
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 174,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 19 */
-                            "level_id": 180,
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 175,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 20 */
-                            "level_id": 181,
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 176,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 217,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 218,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 219,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 220,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 221,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 222,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 223,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 224,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 225,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 226,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
@@ -961,71 +1241,141 @@
                     "id": 11,
                     "levels": [
                         {
-                            /* Act 5 - Torment Trials 21 */
-                            "level_id": 157,
+                            /* Act 5 - Torment Trials 1 */
+                            "level_id": 177,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 22 */
-                            "level_id": 158,
+                            /* Act 5 - Torment Trials 2 */
+                            "level_id": 178,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 23 */
-                            "level_id": 159,
+                            /* Act 5 - Torment Trials 3 */
+                            "level_id": 179,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 24 */
-                            "level_id": 160,
+                            /* Act 5 - Torment Trials 4 */
+                            "level_id": 180,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Torment Trials 25 */
-                            "level_id": 161,
+                            /* Act 5 - Torment Trials 5 */
+                            "level_id": 181,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 21 */
+                            /* Act 5 - Torment Trials 1 */
                             "level_id": 182,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 22 */
+                            /* Act 5 - Torment Trials 2 */
                             "level_id": 183,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 23 */
+                            /* Act 5 - Torment Trials 3 */
                             "level_id": 184,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 24 */
+                            /* Act 5 - Torment Trials 4 */
                             "level_id": 185,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
                         },
                         {
-                            /* Act 5 - Icy Hell 25 */
+                            /* Act 5 - Torment Trials 5 */
                             "level_id": 186,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 227,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 228,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 229,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 230,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 231,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 1 */
+                            "level_id": 232,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 2 */
+                            "level_id": 233,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 3 */
+                            "level_id": 234,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 4 */
+                            "level_id": 235,
+                                "hell": {
+                                    "bound_incl_max": 120
+                                }
+                        },
+                        {
+                            /* Act 5 - Icy Hell 5 */
+                            "level_id": 236,
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
@@ -1228,6 +1578,31 @@
         { "id": 159, "name": "Torment Trials (Level 23)" },
         { "id": 160, "name": "Torment Trials (Level 24)" },
         { "id": 161, "name": "Torment Trials (Level 25)" },
+        { "id": 137, "name": "Torment Trials (Level 26)" },
+        { "id": 138, "name": "Torment Trials (Level 27)" },
+        { "id": 139, "name": "Torment Trials (Level 28)" },
+        { "id": 140, "name": "Torment Trials (Level 29)" },
+        { "id": 141, "name": "Torment Trials (Level 30)" },
+        { "id": 142, "name": "Torment Trials (Level 31)" },
+        { "id": 143, "name": "Torment Trials (Level 32)" },
+        { "id": 144, "name": "Torment Trials (Level 33)" },
+        { "id": 145, "name": "Torment Trials (Level 34)" },
+        { "id": 146, "name": "Torment Trials (Level 35)" },
+        { "id": 147, "name": "Torment Trials (Level 36)" },
+        { "id": 148, "name": "Torment Trials (Level 37)" },
+        { "id": 149, "name": "Torment Trials (Level 38)" },
+        { "id": 150, "name": "Torment Trials (Level 39)" },
+        { "id": 151, "name": "Torment Trials (Level 40)" },
+        { "id": 152, "name": "Torment Trials (Level 41)" },
+        { "id": 153, "name": "Torment Trials (Level 42)" },
+        { "id": 154, "name": "Torment Trials (Level 43)" },
+        { "id": 155, "name": "Torment Trials (Level 44)" },
+        { "id": 156, "name": "Torment Trials (Level 45)" },
+        { "id": 157, "name": "Torment Trials (Level 46)" },
+        { "id": 158, "name": "Torment Trials (Level 47)" },
+        { "id": 159, "name": "Torment Trials (Level 48)" },
+        { "id": 160, "name": "Torment Trials (Level 49)" },
+        { "id": 161, "name": "Torment Trials (Level 50)" },
         { "id": 162, "name": "Icy Hell (Level 1)" },
         { "id": 163, "name": "Icy Hell (Level 2)" },
         { "id": 164, "name": "Icy Hell (Level 3)" },
@@ -1252,7 +1627,32 @@
         { "id": 183, "name": "Icy Hell (Level 22)" },
         { "id": 184, "name": "Icy Hell (Level 23)" },
         { "id": 185, "name": "Icy Hell (Level 24)" },
-        { "id": 186, "name": "Icy Hell (Level 25)" }
+        { "id": 186, "name": "Icy Hell (Level 25)" },
+        { "id": 162, "name": "Icy Hell (Level 26)" },
+        { "id": 163, "name": "Icy Hell (Level 27)" },
+        { "id": 164, "name": "Icy Hell (Level 28)" },
+        { "id": 165, "name": "Icy Hell (Level 29)" },
+        { "id": 166, "name": "Icy Hell (Level 30)" },
+        { "id": 167, "name": "Icy Hell (Level 31)" },
+        { "id": 168, "name": "Icy Hell (Level 32)" },
+        { "id": 169, "name": "Icy Hell (Level 33)" },
+        { "id": 170, "name": "Icy Hell (Level 34)" },
+        { "id": 171, "name": "Icy Hell (Level 35)" },
+        { "id": 172, "name": "Icy Hell (Level 36)" },
+        { "id": 173, "name": "Icy Hell (Level 37)" },
+        { "id": 174, "name": "Icy Hell (Level 38)" },
+        { "id": 175, "name": "Icy Hell (Level 39)" },
+        { "id": 176, "name": "Icy Hell (Level 40)" },
+        { "id": 177, "name": "Icy Hell (Level 41)" },
+        { "id": 178, "name": "Icy Hell (Level 42)" },
+        { "id": 179, "name": "Icy Hell (Level 43)" },
+        { "id": 180, "name": "Icy Hell (Level 44)" },
+        { "id": 181, "name": "Icy Hell (Level 45)" },
+        { "id": 182, "name": "Icy Hell (Level 46)" },
+        { "id": 183, "name": "Icy Hell (Level 47)" },
+        { "id": 184, "name": "Icy Hell (Level 48)" },
+        { "id": 185, "name": "Icy Hell (Level 49)" },
+        { "id": 186, "name": "Icy Hell (Level 50)" }
     ],
     "level_groups": [
         {
@@ -1280,24 +1680,24 @@
             "levels": [ 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 25, 28, 31, 35, 37, 47, 48, 49, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 113, 114, 115, 116, 118, 119, 122, 123, 124 ]
         },
         {
-            "name": "Trials and Icy Hell (1-5)",
-            "levels": [ 137, 138, 139, 140, 141, 162, 163, 164, 165, 166 ]
+            "name": "Trials and Icy Hell (1-10)",
+            "levels": [ 137, 138, 139, 140, 141, 142, 143, 144, 145 ,146, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196 ]
         },
         {
-            "name": "Trials and Icy Hell (6-10)",
-            "levels": [ 142, 143, 144, 145, 146, 167, 168, 169, 170, 171 ]
+            "name": "Trials and Icy Hell (11-20)",
+            "levels": [ 147, 148, 149, 150, 151, 152, 153, 154, 155 ,156, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206 ]
         },
         {
-            "name": "Trials and Icy Hell (11-15)",
-            "levels": [ 147, 148, 149, 150, 151, 172, 173, 174, 175, 176 ]
+            "name": "Trials and Icy Hell (21-30)",
+            "levels": [ 157, 158, 159, 160, 161, 162, 163, 164, 165 ,166, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216 ]
         },
         {
-            "name": "Trials and Icy Hell (16-20)",
-            "levels": [ 152, 153, 154, 155, 156, 177, 178, 179, 180, 181 ] 
+            "name": "Trials and Icy Hell (31-40)",
+            "levels": [ 167, 168, 169, 170, 171, 172, 173, 174, 175 ,176, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226 ] 
         },
         {
-            "name": "Trials and Icy Hell (21-25)",
-            "levels": [ 157, 158, 159, 160, 161, 182, 183, 184, 185, 186 ]
+            "name": "Trials and Icy Hell (41-50)",
+            "levels": [ 177, 178, 179, 180, 181, 182, 183, 184, 185 ,186, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236 ]
         },
         {
             "name": "All PrimeEvil Levels",

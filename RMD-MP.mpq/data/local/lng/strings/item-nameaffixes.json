@@ -17066,5 +17066,22 @@
         "ruRU": "эфирного потока",
         "zhCN": "以太流",
         "zhTW": "以太流"
+    },
+    {
+        "id": 49005,
+        "Key": "of Combat Power",
+	    "deDE": "von Kampfkraft",
+	    "enUS": "of Combat Power",
+	    "esES": "de poder de combate",
+	    "esMX": "de poder de combate",
+	    "frFR": "de puissance de combat",
+	    "itIT": "di potenza di combattimento",
+	    "jaJP": "戦闘力の",
+	    "koKR": "전투력의",
+	    "plPL": "mocy bojowej",
+	    "ptBR": "de poder de combate",
+	    "ruRU": "боевой силы",
+	    "zhCN": "战斗力",
+	    "zhTW": "戰鬥力"
     }
 ]

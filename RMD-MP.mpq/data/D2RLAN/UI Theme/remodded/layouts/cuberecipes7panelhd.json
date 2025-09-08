@@ -125,10 +125,53 @@
                                 "rect": { "x": -40, "y": 80 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp09d"
+                                "tooltipString": "@green@bp09@nl@grey (@RWBelt, @RWDruidChest, @rin)@nl@nl@gold@setbonus@nl@blue +5 @druid@nl@allenemyimmunity 30%@nl +5 @sumpower@nl +30 @enr@nl@allres +40%@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
                             }
                         },
-                        /*--------------------------------------------------------------------------------------------------------------------
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@bp21",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Sigon's",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Griswold's",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 160 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                //ÿc2Blacklight\nÿc5(Helm, Shield)\n\nÿc4Set Bonus:\nÿc3+2 to All Skills\n+2 to Paladin Skill Levels\nEnemy Lightning Immunity Reduced by 40%\nReduce Cooldowns by 40%\nIncrease All Stats by +15%\n+5% to All Maximum Resists\n\nÿc4First Discovered By: ÿc7Zexyÿc3
+                                "tooltipString": "@green@bp21@nl@grey (@RWHelm, @RWShield)@nl@nl@gold @Barbarian @setbonus@nl@blue +2 @askills@nl +2 @barbsk@nl+X% @atkspd (@strchrstr)@nl +X @max @dmg @clvl@nl@enemy @phys @immunity -40%@nl +15% @allatrb@nl@nl@gold @Paladin @setbonus@nl@blue +2 @askills@nl +2 @pally@nl@enemy @light @immunity -40%@nl@cdr 40%@nl +15% @allatrb@nl +5% @max @allres@nl@nl@firstdiscover@tan Zexy@blue"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------*/
@@ -164,10 +207,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 160 },
+                                "rect": { "x": -40, "y": 240 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp18d"
+                                "tooltipString": "@green@bp18@nl@grey (@RWHelm, @RWBelt, @rin)@nl@nl@gold@setbonus@nl@blue +1 @askills@nl +3 @cold @StrSklTree4@nl +400 @cold @dmg@nl +5% @cold @abs@nl@nl@gold@firstdiscover@tan Xan Kreigur@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -216,10 +259,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 240 },
+                                "rect": { "x": -40, "y": 320 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp08d"
+                                "tooltipString": "@green@bp08@nl@grey (@RWBowOnly, @Amazon @RWGlove)@nl@nl@gold@setbonus@blue@nl +2 @askills@nl +3 @zon@nl@allres +25%@nl +5 @spellpower@nl +5 @compower@nl +3 @dex@nl@nl@firstdiscover@tan Tank@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -266,10 +309,61 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 320 },
+                                "rect": { "x": -40, "y": 400 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp13d"
+                                "tooltipString": "@green@bp13@nl@grey (@RWTorso, @RWCirclet)@nl@nl@gold@setbonus@nl@blue +4 @pally@nl +4 @sorc@nl@enemy @mag @immunity -40%@nl@enemy @light @immunity -40%@nl +5 @spellpower@nl +5 @compower@nl@nl@gold@firstdiscover@tan Momotarou@blue"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@bp22",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Viz'jerei's",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Elemental's",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Battlemage's",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 480 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                //ÿc2Cascading Caldera\nÿc5(Shield, Boots, Amulet)\n\nÿc4Set Bonus:\nÿc3+5 to Fire Skills\n+1 to Landslide\n+400 Fire Damage\n+100% to Fire Skill Damage\nReduce Cooldowns by 50%\n+3 Spell Power\nFire Absorb +10%\n\nÿc4First Discovered By: ÿc7PlausibleSheepÿc3
+                                "tooltipString": "@green@bp22@nl@grey (@RWShield, @RWBoot, @amu)@nl@nl@gold@setbonus@nl@blue +5 @to @fire @StrSklTree4@nl +1 @to @skLandslide@nl+400 @fire @skdmg@nl@cdr 50%@nl +3 @spellpower@nl@fire @abs +10%@nl@nl@firstdiscover@tan PlausibleSheep@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -316,10 +410,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 400 },
+                                "rect": { "x": -40, "y": 560 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp12d"
+                                "tooltipString": "@green@bp12@nl@grey (@rin, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl@allenemyimmunity 20%@nl +5 @spellpower@nl +40 @enr@nl@ModCelestialAid@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -366,10 +460,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 480 },
+                                "rect": { "x": -40, "y": 640 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp04d"
+                                "tooltipString": "@green@bp04@nl@grey (@RWCirclet, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +30% @toele @skdmg@nl@cdr 35%@nl +15% @allatrb@nl@buff 20%@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -416,10 +510,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 560 },
+                                "rect": { "x": -40, "y": 720 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp10d"
+                                "tooltipString": "@green@bp10@nl@grey (@Paladin @RWScepter, @Paladin @RWShield)@nl@nl@gold@setbonus@nl@blue +3 @pally@nl@enemy @mag @immunity -30%@nl +7 @to @skFistOfTheHeavens @strPaladinOnly@nl +5 @spellpower@nl +10% @maxlife@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -466,17 +560,17 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 640 },
+                                "rect": { "x": -40, "y": 800 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp15d"
+                                "tooltipString": "@green@bp15@nl@grey (@RWBelt, @RWHelm)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +3 @to @skFade@nl +2 @sin@nl@enemy @phys @immunity -40%@nl +5 @compower@nl@nl@gold@firstdiscover@tan Spike@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------*/
-{
+                        {
     "type": "TableRowWidget", "name": "Gameplay Changes",
     "children": [
         {
@@ -516,12 +610,13 @@
 {
     "type": "ButtonWidget", "name": "AdvancedStats",
     "fields": {
-        "rect": { "x": -40, "y": 720 },
+        "rect": { "x": -40, "y": 880 },
         "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
         "hoveredFrame": 1,
-        "tooltipString": "@bp19d"
+        "tooltipString": "@green@bp19@nl@grey (@RWHelm, @RWPole, @RWTorso)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +5 @to @skBoneSpikes@nl@sumdmg +150%@nl +3 @sumpower@nl 10% @reanimate @SkCommander@nl 10% @reanimate @Specter@nl 10% @reanimate @OblivionKnight@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
     }
 },
+
 /*--------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
@@ -567,10 +662,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 800 },
+                                "rect": { "x": -40, "y": 960 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp06d"
+                                "tooltipString": "@green@bp06@nl@grey (@amu, @RWTorso, @RWShield)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +2 @psn @StrSklTree4@nl@enemy @psn @immunity -40%@nl +30% @to @psn @skdmg@nl +50 @vit@nl@nl@gold@firstdiscover@tan Smile_Joker_@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -617,10 +712,53 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 880 },
+                                "rect": { "x": -40, "y": 1040 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp01d"
+                                "tooltipString": "@green@bp01@nl@grey (@RWBelt, @RWBoot, @RWGlove)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +1 @to @skFireMastery@nl +30% @fire @skdmg@nl +20 @allatrb@nl@nl@gold@firstdiscover@tan Momotarou@blue"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@bp20",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Unstoppable Force",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " Natalya's",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 1120 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                //ÿc2Path of the Vortex\nÿc5(Claw, Claw or Axe, Axe)\n\nÿc4Set Bonus:\nÿc3+8 to Executioner Stance\n+8 to Master At Arms\n+250 Magic Damage\n+250 Fire Damage\n+250 Lightning Damage\n+250 Cold Damage\n25% Chance of Crushing Blow\n\nÿc4First Discovered By: ÿc7Zexyÿc3
+                                "tooltipString": "@green@bp20@nl@grey (2x @RWClaws or 2x @RWAxe)@nl@nl@gold@setbonus@nl@blue +8 @to @skClawMastery@nl +8 @to @skMasterAtArms@nl +250 @mag @dmg@nl +250 @fire @dmg@nl +250 @light dmg@nl +250 @cold @dmg@nl +25% @crush@nl@nl@firstdiscover@tan Zexy@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -667,10 +805,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 960 },
+                                "rect": { "x": -40, "y": 1200 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp16d"
+                                "tooltipString": "@green@bp16@nl@grey (@RWShield, @RWAxe, @RWBelt)@nl@nl@gold@setbonus@nl@blue +4 @askills@nl 5% @ctc 20 @skSlowMissiles @ctcstruck@nl +80 @to @life@nl@allres +30%@nl@plr 50%@nl@thorns +40@nl@nl@gold@firstdiscover@tan Revoltz & DSG_Wired@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -717,10 +855,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1040 },
+                                "rect": { "x": -40, "y": 1280 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp11d"
+                                "tooltipString": "@green@bp11@nl@grey (@RWHelm, @RWBoot, @RWGlove)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl@enemy @light @immunity -30%@nl@enemy @fire @immunity -30%@nl@enemy @cold @immunity -30%@nl +20 @allatrb@nl@cdr 50%@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -767,10 +905,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1120 },
+                                "rect": { "x": -40, "y": 1360 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp05d"
+                                "tooltipString": "@green@bp05@nl@grey (@RWHelm, @RWTorso, @RWShield)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +1 @to @skLightningMastery@nl +30 @to @light @skdmg@nl +20 @allatrb@nl@nl@gold@firstdiscover@tan Dadilydoo@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -817,10 +955,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1200 },
+                                "rect": { "x": -40, "y": 1440 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp17d"
+                                "tooltipString": "@green@bp17@nl@grey (@rin, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +1 @to @skPrismaticTower@nl +1 @to @skFireMastery@nl +1 @to @skColdMastery@nl +1 @to @skLightningMastery@nl +1 @lradius@nl@nl@gold@firstdiscover@tan elr@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -867,10 +1005,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1280 },
+                                "rect": { "x": -40, "y": 1520 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp14d"
+                                "tooltipString": "@green@bp14@nl@grey (@Assassin @RWBoot, @cloak, @RWGlove)@nl@nl@gold@setbonus@nl@blue +4 @sin@nl GOING TO BE REPLACED@nl@allenemyimmunity 20%@nl +10% @allatrb@nl +10 @lradius@nl@nl@gold@firstdiscover@tan Spike@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -917,10 +1055,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1360 },
+                                "rect": { "x": -40, "y": 1600 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp03d"
+                                "tooltipString": "@green@bp03@nl@grey (@RWScythe, @RWBelt, @RWBoot)@nl@nl@gold@setbonus@nl@blue +4 @necro@nl@allenemyimmunity -20%@nl +5 @to @skBloodGolem @strNecromanerOnly@nl +5 @sumpower@nl +10% @exp@nl@nl@gold@firstdiscover@tan Momotarou@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -967,10 +1105,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1440 },
+                                "rect": { "x": -40, "y": 1680 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@bp02d"
+                                "tooltipString": "@green@bp02@nl@grey (2x @tsp)@nl@nl@gold@setbonus@nl@blue +5 @barbsk@nl@dmg +500@nl +300% @hit@nl +30% @crush@nl +7 @to @skDoubleThrow @strBarbarianOnly@nl@nl@gold@firstdiscover@tan Momotarou@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1017,144 +1155,10 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1520 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
-                                "hoveredFrame": 1,
-                                "tooltipString": "@bp07d"
-                            }
-                        },
-/*--------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------*/
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 10, "y": -20},
-                                        "text": "@bp20",
-                                        "style": "$RWInfoFB"
-                                    }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
-                                    }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
-                                    }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "ButtonWidget", "name": "AdvancedStats",
-                            "fields": {
-                                "rect": { "x": -40, "y": 1600 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
-                                "hoveredFrame": 1,
-                                "tooltipString": "Unknown"
-                            }
-                        },
-/*--------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------*/
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 10, "y": -20},
-                                        "text": "@bp21",
-                                        "style": "$RWInfoFB"
-                                    }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
-                                    }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "ButtonWidget", "name": "AdvancedStats",
-                            "fields": {
-                                "rect": { "x": -40, "y": 1680 },
-                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
-                                "hoveredFrame": 1,
-                                "tooltipString": "Unknown"
-                            }
-                        },
-/*--------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------*/
-                        {
-                            "type": "TableRowWidget", "name": "Gameplay Changes",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "x": 10, "y": -20},
-                                        "text": "@bp22",
-                                        "style": "$RWInfoFB"
-                                    }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
-                                    }
-                                },
-                                {
-                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
-                                    "fields": {
-                                        "rect": { "y": -20},
-                                        "text": " ???",
-                                        "style": "$RWInfo"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "ButtonWidget", "name": "AdvancedStats",
-                            "fields": {
                                 "rect": { "x": -40, "y": 1760 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "Unknown"
+                                "tooltipString": "@green@bp07@nl@grey (@RWGlove, @mau)@nl@nl@gold@setbonus@nl@blue +4 @barbsk@nl +4 @druid@nl@dmg +250@nl@enemy @phys @immunity -40%@nl +30 @str@nl +10 @compower@nl@nl@gold@firstdiscover@tan Trasjr@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

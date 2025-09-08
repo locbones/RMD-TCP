@@ -1613,5 +1613,6 @@
   { "l14": { "asset": "bow/long_battle_bow" } },
   { "l15": { "asset": "axe/giant_axe" } },
   { "l16": { "asset": "axe/war_axe" } },
-  { "l17": { "asset": "polearm/poleaxe" } }
+  { "l17": { "asset": "polearm/poleaxe" } },
+  { "l18": { "asset": "h2h/claws" } }
 ]
