@@ -5,11 +5,17 @@ return {
     reload = "{turquoise}RMD Barebones Filter {gray}(v1.0) {green}Reloaded",
     language = "enUS",
     rules = {
-        { --Display item levels in white to the right of item name, (x)
+        { --Display item levels for weapons and armors in white, to the right of item name, (x)
             codes = "allitems",
             location = { "onground", "onplayer", "equipped", "atvendor" },
             itype = { 45, 50 },
             suffix = " {white}({ilvl})"
+        },
+        { --Display item levels for charms, jewels, rings and amulets in white, to the right of item name, (x)
+            codes = "allitems",
+            location = { "onground", "onplayer", "equipped", "atvendor" },
+            itype = { 10, 12, 13, 58 },
+            suffix = " {white}({ilvl})",
         },
         { --Display socket count in gray to the right of item name, [x]
             codes = "allitems",
@@ -37,13 +43,6 @@ return {
             itype = 4,
             name_override = "{name} Gold"
         },
-        { --Display charms and jewels  normally, without ilvls
-            codes = "allitems",
-            location = { "onground", "onplayer", "equipped", "atvendor" },
-            itype = { 13, 58 },
-            suffix = " {white}({ilvl})",
-        },
-
 
 
 -- region String Offloads
