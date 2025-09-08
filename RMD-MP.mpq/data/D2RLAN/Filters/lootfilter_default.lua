@@ -29,6 +29,12 @@ return {
             itype = { 45, 50 },
             suffix = " {tan}ⅳ"
         },
+        { --Display gold values normally, without ilvls
+            codes = "allitems",
+            location = { "onground", "onplayer", "equipped", "atvendor" },
+            itype = 4,
+            name_override = "{name} Gold"
+        },
 
 
 
