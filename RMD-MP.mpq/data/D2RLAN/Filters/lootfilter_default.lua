@@ -8,7 +8,8 @@ return {
         { --Display item levels in white to the right of item name, (x)
             codes = "allitems",
             location = { "onground", "onplayer", "equipped", "atvendor" },
-            suffix = " {white}({ilvl})",
+            itype = { 45, 50 },
+            suffix = " {white}({ilvl})"
         },
         { --Display socket count in gray to the right of item name, [x]
             codes = "allitems",
@@ -34,6 +35,12 @@ return {
             location = { "onground", "onplayer", "equipped", "atvendor" },
             itype = 4,
             name_override = "{name} Gold"
+        },
+        { --Display charms and jewels  normally, without ilvls
+            codes = "allitems",
+            location = { "onground", "onplayer", "equipped", "atvendor" },
+            itype = { 13, 58 },
+            suffix = " {white}({ilvl})",
         },
 
 
