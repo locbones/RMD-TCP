@@ -28,10 +28,11 @@ return {
             codes = { "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "l13", "l14","l15", "l16", "l17", "l18" },
             location = { "onground", "onplayer", "equipped", "atvendor" },
             itype = { 45, 50 },
+            ilvl = "103+",
             suffix = " {tan}ⅳ"
         },
         { --Display gold values normally, without ilvls
-            codes = "allitems",
+            codes = "gld",
             location = { "onground", "onplayer", "equipped", "atvendor" },
             itype = 4,
             name_override = "{name} Gold"
