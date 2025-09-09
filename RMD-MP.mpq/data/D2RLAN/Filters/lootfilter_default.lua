@@ -5,16 +5,10 @@ return {
     reload = "{turquoise}RMD Barebones Filter {gray}(v1.0) {green}Reloaded",
     language = "enUS",
     rules = {
-        { --Display item levels for weapons and armors in white, to the right of item name, (x)
+        { --Display item levels for weapons, armors, charms, jewels, rings and amulets in white, to the right of item name, (x)
             codes = "allitems",
             location = { "onground", "onplayer", "equipped", "atvendor" },
-            itype = { 45, 50 },
-            suffix = " {white}({ilvl})"
-        },
-        { --Display item levels for charms, jewels, rings and amulets in white, to the right of item name, (x)
-            codes = "allitems",
-            location = { "onground", "onplayer", "equipped", "atvendor" },
-            itype = { 10, 12, 13, 58 },
+            itype = { 10, 12, 45, 50, 58, 82, 83, 84 },
             suffix = " {white}({ilvl})",
         },
         { --Display socket count in gray to the right of item name, [x]
@@ -54,7 +48,7 @@ return {
         { --Quality of Life Bag Description
             code = "Z01",
             location ="onplayer",
-            prefix = "{gray}(Cube Recipes > Quality of Life Bag)\n{white} -More info can be found on our {turquoise}Wiki\n{white}-You can find item {turquoise}removers {white}from {turquoise}Edyrem {white}in each town\n{gray}(Gems, Runes, Keys, Organs, Rare Jewels, Full Rejuvs and Set/Unique items)\n {white}-Many items can be deposited into this bag for various purposes\n{turquoise}Mod Tips:\n\n"
+            prefix = "\n{gray}(Cube Recipes > Quality of Life Bag)\n{white} -More info can be found on our {turquoise}Wiki\n{white}-You can find item {turquoise}removers {white}from {turquoise}Edyrem {white}in each town\n{gray}(Gems, Runes, Keys, Organs, Rare Jewels, Full Rejuvs and Set/Unique items)\n {white}-Many items can be deposited into this bag for various purposes\n{turquoise}Mod Tips:\n\n"
         },
         { --Starter Package Description
             code = "y66",
@@ -2049,6 +2043,120 @@ return {
                 ruRU = "{tan}Cube в одиночку, чтобы перейти к следующему типу средства удаления\n\n{green}Щиты/Ювелирные изделия: {white}Неразрушимость, 5%% поглощения стихий\n{green}Шлемы/Ремни: {white}Неразрушимость, 5%% поглощения стихий\n{green}Броня/Ботинки: {white}Неразрушимость, 5%% поглощения стихий\n{green}Weapons/G любит: {white}Indestructible,  5%% поглощения стихий\n{turquoise}Rune Preview:\n\n{white}(Высокие очки {blue}-1024{white})\n",
                 zhCN = "{tan}Cube 单独更改为下一个去除剂类型\n\n{green}盾牌/珠宝：{white}坚不可摧，5%元素吸收\n{green}头盔/腰带：{white}坚不可摧，5%元素吸收\n{green}盔甲/靴子：{white}坚不可摧，5%元素吸收\n{green}武器/G喜欢：{white}坚不可摧，  5%% 元素吸收\n{turquoise}Rune 预览:\n\n{white}(高点{blue}-1024{white})\n",
                 zhTW = "{tan}Cube 單獨改為下一個去除劑類型\n\n{green}盾牌/珠寶：{white}堅不可摧，5%元素吸收\n{green}頭盔/腰帶：{white}堅不可摧，5%元素吸收\n{green}盔甲/靴子：{white}堅不可摧，5%元素吸收\n{green}武器/G喜歡：{white}堅不可摧， 5%% 元素吸收\n{turquoise}Rune 預覽:\n\n{white}(高點{blue}-1024{white})\n",
+            }
+        },
+        {
+            code = "Z48",
+            location = { "onplayer", "atvendor" },
+            prefix = {
+                deDE = "{gray}(Würfel zum Wechseln)\n\n{blue}(2048 Niedrig {white}->{blue} 1 Mittel)\n",
+                enUS = "{gray}(Cube to change converter type)\n\n{blue}(2048 Low {white}->{blue} 1 Mid)\n",
+                esES = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(2048 Bajo {white}->{blue} 1 Medio)\n",
+                esMX = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(2048 Bajo {white}->{blue} 1 Medio)\n",
+                frFR = "{gray}(Cubo per cambiare tipo di convertitore)\n\n{blue}(2048 Basso {white}->{blue} 1 Medio)\n",
+                itIT = "{gray}(Cube pour changer le type de convertisseur)\n\n{blue}(2048 Low {white}->{blue} 1 Mid)\n",
+                jaJP = "{gray}(コンバータ タイプを変更するキューブ)\n\n{blue}(2048 Low {white}->{blue} 1 Mid)\n",
+                koKR = "{gray}(변환기 유형을 변경하는 큐브)\n\n{blue}(2048 Low {white}->{blue} 1 Mid)\n",
+                plPL = "{gray}(Kostka do zmiany typu konwertera)\n\n{blue}(2048 Niski {white}->{blue} 1 Średni)\n",
+                ptBR = "{gray}(Cubo para alterar o tipo de conversor)\n\n{blue}(2048 Baixo {white}->{blue} 1 Médio)\n",
+                ruRU = "{gray}(Куб для изменения типа преобразователя)\n\n{blue}(2048 Low {white}->{blue} 1 Mid)\n",
+                zhCN = "{gray}(改变转换器类型的立方体)\n\n{blue}(2048 Low {white}->{blue} 1 Mid)\n",
+                zhTW = "{gray}(改變轉換器類型的立方體)\n\n{blue}(2048 Low {white}->{blue} 1 Mid)\n",
+            }
+        },
+        {
+            code = "Z49",
+            location = { "onplayer", "atvendor" },
+            prefix = {
+                deDE = "{gray}(Würfel zum Wechseln)\n\n{blue}(2048 Mittel {white}->{blue} 1 Hoch)\n",
+                enUS = "{gray}(Cube to change converter type)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                esES = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                esMX = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                frFR = "{gray}(Cubo per cambiare tipo di convertitore)\n\n{blue}(2048 Mid {white}->{blue} 1 Alto)\n",
+                itIT = "{gray}(Cube pour changer le type de convertisseur)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                jaJP = "{gray}(コンバータ タイプを変更するキューブ)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                koKR = "{gray}(변환기 유형을 변경하는 큐브)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                plPL = "{gray}(Kostka do zmiany typu konwertera)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                ptBR = "{gray}(Cubo para alterar o tipo de conversor)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                ruRU = "{gray}(Куб для изменения типа конвертера)\n\n{blue}(2048 Mid {white}->{blue} 1 High)\n",
+                zhCN = "{gray}（用于更改转换器类型的立方体）\n\n{blue}（2048 Mid {white}->{blue} 1 High\n",
+                zhTW = "{gray}（用於更改轉換器類型的立方體）\n\n{blue}（2048 Mid {white}->{blue} 1 High\n",
+            }
+        },
+        {
+            code = "Z50",
+            location = { "onplayer", "atvendor" },
+            prefix = {
+                deDE = "{gray}(Würfel zum Wechseln)\n\n{blue}(2048 Hoch {white}->{blue} 1 Ultra)\n",
+                enUS = "{gray}(Cube to change converter type)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                esES = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                esMX = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                frFR = "{gray}(Cubo per cambiare tipo di convertitore)\n\n{blue}(2048 Alto {white}->{blue} 1 Ultra)\n",
+                itIT = "{gray}(Cube pour changer le type de convertisseur)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                jaJP = "{gray}(コンバータ タイプを変更するキューブ)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                koKR = "{gray}(변환기 유형을 변경하기 위한 큐브)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                plPL = "{gray}(Kostka do zmiany typu konwertera)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                ptBR = "{gray}(Cubo para alterar o tipo de conversor)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                ruRU = "{gray}(Куб для изменения типа конвертера)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                zhCN = "{gray}(改变转换器类型的立方体)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+                zhTW = "{gray}(改變轉換器類型的立方體)\n\n{blue}(2048 High {white}->{blue} 1 Ultra)\n",
+            }
+        },
+        {
+            code = "Z51",
+            location = { "onplayer", "atvendor" },
+            prefix = {
+                deDE = "{gray}(Würfel zum Ändern des Konvertertyps)\n\n{blue}(1 Mittel {white}->{blue} 2048 Niedrig)\n",
+                enUS = "{gray}(Cube to change converter type)\n\n{blue}(1 Medium {white}->{blue} 2048 Low)\n",
+                esES = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(1 Medio {white}->{blue} 2048 Bajo)\n",
+                esMX = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(1 Medio {white}->{blue} 2048 Bajo)\n",
+                frFR = "{gray}(Cubo per cambiare tipo di convertitore)\n\n{blue}(1 Medio {white}->{blue} 2048 Basso)\n",
+                itIT = "{gray}(Cube pour changer le type de convertisseur)\n\n{blue}(1 Moyen {white}->{blue} 2048 Faible)\n",
+                jaJP = "{gray}(コンバータ タイプを変更するキューブ)\n\n{blue}(1 中 {white}->{blue} 2048 低)\n",
+                koKR = "{gray}(변환기 유형을 변경하는 큐브)\n\n{blue}(1 중간 {white}->{blue} 2048 낮음)\n",
+                plPL = "{gray}(Kostka do zmiany typu konwertera)\n\n{blue}(1 Średni {white}->{blue} 2048 Niski)\n",
+                ptBR = "{gray}(Cubo para alterar o tipo de conversor)\n\n{blue}(1 Médio {white}->{blue} 2048 Baixo)\n",
+                ruRU = "{gray}(Куб для изменения типа конвертера)\n\n{blue}(1 Средний {white}->{blue} 2048 Низкий)\n",
+                zhCN = "{gray}（用于更改转换器类型的立方体）\n\n{blue}（1 中 {white}->{blue} 2048 低\n",
+                zhTW = "{gray}（用於更改轉換器類型的立方體）\n\n{blue}（1 中 {white}->{blue} 2048 低\n",
+            }
+        },
+        {
+            code = "z80",
+            location = { "onplayer", "atvendor" },
+            prefix = {
+                deDE = "{gray}(Würfel zum Ändern des Konvertertyps)\n\n{blue}(1 Hoch {white}->{blue} 2048 Mittel)\n",
+                enUS = "{gray}(Cube to change converter type)\n\n{blue}(1 High {white}->{blue} 2048 Medium)\n",
+                esES = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(1 Alto {white}->{blue} 2048 Medio)\n",
+                esMX = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(1 Alto {white}->{blue} 2048 Medio)\n",
+                frFR = "{gray}(Cubo per cambiare tipo di convertitore)\n\n{blue}(1 Alto {white}->{blue} 2048 Medio)\n",
+                itIT = "{gray}(Cube pour changer le type de convertisseur)\n\n{blue}(1 Élevé {white}->{blue} 2048 Moyen)\n",
+                jaJP = "{gray}(コンバータ タイプを変更するキューブ)\n\n{blue}(1 High {white}->{blue} 2048 Medium)\n",
+                koKR = "{gray}(변환기 유형을 변경하는 큐브)\n\n{blue}(1 높음 {white}->{blue} 2048 중간)\n",
+                plPL = "{gray}(Kostka do zmiany typu konwertera)\n\n{blue}(1 Wysoka {white}->{blue} 2048 Średnia)\n",
+                ptBR = "{gray}(Cubo para alterar o tipo de conversor)\n\n{blue}(1 Alto {white}->{blue} 2048 Médio)\n",
+                ruRU = "{gray}(Куб для изменения типа конвертера)\n\n{blue}(1 Высокий {white}->{blue} 2048 Средний)\n",
+                zhCN = "{gray}（用于更改转换器类型的立方体）\n\n{blue}（1 高 {white}->{blue} 2048 中\n",
+                zhTW = "{gray}（用於更改轉換器類型的立方體）\n\n{blue}（1 高 {white}->{blue} 2048 中\n",
+            }
+        },
+        {
+            code = "z81",
+            location = { "onplayer", "atvendor" },
+            prefix = {
+                deDE = "{gray}(Würfel zum Ändern des Konvertertyps)\n\n{blue}(1 Ultra {white}->{blue} 2048 Hoch)\n",
+                enUS = "{gray}(Cube to change converter type)\n\n{blue}(1 Ultra {white}->{blue} 2048 High)\n",
+                esES = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(1 Ultra {white}->{blue} 2048 Alto)\n",
+                esMX = "{gray}(Cubo para cambiar el tipo de convertidor)\n\n{blue}(1 Ultra {white}->{blue} 2048 Alto)\n",
+                frFR = "{gray}(Cubo per cambiare tipo di convertitore)\n\n{blue}(1 Ultra {white}->{blue} 2048 Alto)\n",
+                itIT = "{gray}(Cube pour changer le type de convertisseur)\n\n{blue}(1 Ultra {white}->{blue} 2048 High)\n",
+                jaJP = "{gray}(コンバータ タイプを変更するキューブ)\n\n{blue}(1 Ultra {white}->{blue} 2048 High)\n",
+                koKR = "{gray}(변환기 유형 변경용 큐브)\n\n{blue}(1 Ultra {white}->{blue} 2048 High)\n",
+                plPL = "{gray}(Kostka do zmiany typu konwertera)\n\n{blue}(1 Ultra {white}->{blue} 2048 High)\n",
+                ptBR = "{gray}(Cubo para alterar o tipo de conversor)\n\n{blue}(1 Ultra {white}->{blue} 2048 High)\n",
+                ruRU = "{gray}(Куб для изменения типа конвертера)\n\n{blue}(1 Ultra {white}->{blue} 2048 High)\n",
+                zhCN = "{gray}（用于更改转换器类型的立方体）\n\n{blue}（1 Ultra {white}->{blue} 2048 High\n",
+                zhTW = "{gray}（用於更改轉換器類型的立方體）\n\n{blue}（1 Ultra {white}->{blue} 2048 High\n",
             }
         },
         {
