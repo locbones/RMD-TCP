@@ -92,14 +92,14 @@
       "Address": "205E30",
       "Length": 1,
       "Type": "Integer",
-      "Values": "99" // Level 125, Retail = "63" (99)
+      "Values": "125" // Level 125, Retail = "63" (99)
     },
     {
       "Description": "Increase Max Item Level (Drop)", //Force it to be this level
       "Address": "205E94",
       "Length": 1,
       "Type": "Integer",
-      "Values": "99" // Level 125, Retail = "63" (99)
+      "Values": "125" // Level 125, Retail = "63" (99)
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
