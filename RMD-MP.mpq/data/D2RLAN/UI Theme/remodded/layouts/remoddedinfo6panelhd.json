@@ -73,7 +73,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 100, "y": 30 },
-                                        "text": " - Randomly generated dungeon with 25 levels and 25 sub-levels",
+                                        "text": " - Randomly generated dungeon with 50 levels and 50 sub-levels",
                                         "style": "$StyleSettingsText"
                                     },
                                     "children": [

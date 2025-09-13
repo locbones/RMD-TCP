@@ -125,7 +125,7 @@
                                 "rect": { "x": -40, "y": 80 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp09@nl@grey (@RWBelt, @RWDruidChest, @rin)@nl@nl@gold@setbonus@nl@blue +5 @druid@nl@allenemyimmunity 30%@nl +5 @sumpower@nl +30 @enr@nl@allres +40%@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
+                                "tooltipString": "@green@bp09@nl@grey (@RWBelt, @RWDruidChest, @rin)@nl@nl@gold@setbonus@nl@blue +5 @druid@nl@allenemyimmunity 30%@nl +5 @sumpower@nl +30 @strchreng@nl@allres +40%@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -262,7 +262,7 @@
                                 "rect": { "x": -40, "y": 320 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp08@nl@grey (@RWBowOnly, @Amazon @RWGlove)@nl@nl@gold@setbonus@blue@nl +2 @askills@nl +3 @zon@nl@allres +25%@nl +5 @spellpower@nl +5 @compower@nl +3 @dex@nl@nl@firstdiscover@tan Tank@blue"
+                                "tooltipString": "@green@bp08@nl@grey (@RWBowOnly, @Amazon @RWGlove)@nl@nl@gold@setbonus@blue@nl +2 @askills@nl +3 @zon@nl@allres +25%@nl +5 @spellpower@nl +5 @compower@nl +30 @strchrdex@nl@nl@firstdiscover@tan Tank@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -413,7 +413,7 @@
                                 "rect": { "x": -40, "y": 560 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp12@nl@grey (@rin, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl@allenemyimmunity 20%@nl +5 @spellpower@nl +40 @enr@nl@ModCelestialAid@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
+                                "tooltipString": "@green@bp12@nl@grey (@rin, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl@allenemyimmunity 20%@nl +5 @spellpower@nl +40 @strchreng@nl@ModCelestialAid@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -958,7 +958,7 @@
                                 "rect": { "x": -40, "y": 1440 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp17@nl@grey (@rin, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +1 @to @skPrismaticTower@nl +1 @to @skFireMastery@nl +1 @to @skColdMastery@nl +1 @to @skLightningMastery@nl +1 @lradius@nl@nl@gold@firstdiscover@tan elr@blue"
+                                "tooltipString": "@green@bp17@nl@grey (@rin, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +1 @to @skTriTower@nl +1 @to @skFireMastery@nl +1 @to @skColdMastery@nl +1 @to @skLightningMastery@nl +1 @lradius@nl@nl@gold@firstdiscover@tan elr@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1158,7 +1158,7 @@
                                 "rect": { "x": -40, "y": 1760 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp07@nl@grey (@RWGlove, @mau)@nl@nl@gold@setbonus@nl@blue +4 @barbsk@nl +4 @druid@nl@dmg +250@nl@enemy @phys @immunity -40%@nl +30 @str@nl +10 @compower@nl@nl@gold@firstdiscover@tan Trasjr@blue"
+                                "tooltipString": "@green@bp07@nl@grey (@RWGlove, @mau)@nl@nl@gold@setbonus@nl@blue +4 @barbsk@nl +4 @druid@nl@dmg +250@nl@enemy @phys @immunity -40%@nl +30 @strchrstr@nl +10 @compower@nl@nl@gold@firstdiscover@tan Trasjr@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

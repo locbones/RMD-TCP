@@ -152,7 +152,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "LB Quest 2: 500k Kills + Ded'domer's Jawbone + Mythos Log = Mythos Log (LB2)",
+                                        "text": "LB Quest 2: 300k Kills + Ded'domer's Jawbone + Mythos Log = Mythos Log (LB2)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

@@ -10,7 +10,7 @@
   "DLLsToLoad": [ "D2RHUD.dll" ],
   "MemoryConfigs": [
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-    {
+        {
       "Description": "Enable TCP/IP Access",
       "Address": "749AC",
       "Length": 1,
@@ -57,111 +57,88 @@
       "Values": "80" // Retail = 20(00) (8192 bytes) -- Replacing first-half of byte stack only
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-  {
-    "Description": "Player Difficulty Scaling Override (Max/UI)",
-    "Addresses": [ "135EF8", "135F16", "1E31CCC", "1E31D64" ],
-    "Length": 4,
-    "Type": "Integer",
-    "Values": "65535" //Retail Max = 8
-  },
-  {
-    "Description": "Player Difficulty Scaling Override (Command)",
-    "Address": "11FE12",
-    "Length": 17,
-    "Type": "Hex",
-    "Values": "4189C49090909090909090909090909090" //NOP last 14 bytes
-  },
-  {
-    "Description": "Player Difficulty Scaling Override (Actual)",
-    "Address": "136910",
-    "Length": 3,
-    "Type": "Hex",
-    "Values": "89C890" //NOP last byte
-  },
+    {
+      "Description": "Player Difficulty Scaling Override (Max/UI)",
+      "Addresses": [ "135EF8", "135F16", "1E31CCC", "1E31D64" ],
+      "Length": 4,
+      "Type": "Integer",
+      "Values": "65535" //Retail Max = 8
+    },
+    {
+      "Description": "Player Difficulty Scaling Override (Command)",
+      "Address": "11FE12",
+      "Length": 17,
+      "Type": "Hex",
+      "Values": "4189C49090909090909090909090909090" //NOP last 14 bytes
+    },
+    {
+      "Description": "Player Difficulty Scaling Override (Actual)",
+      "Address": "136910",
+      "Length": 3,
+      "Type": "Hex",
+      "Values": "89C890" //NOP last byte
+    },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-  {
-    "Description": "Force Classic Whirlwind",
-    "Address": "3748C6",
-    "Length": 1,
-    "Type": "Hex",
-    "Values": "EB" // Conditional Jump -> Forced Jump, LOD behavior (eww) = "74"
-  },
+    {
+      "Description": "Force Classic Whirlwind",
+      "Address": "3748C6",
+      "Length": 1,
+      "Type": "Hex",
+      "Values": "EB" // Conditional Jump -> Forced Jump, LOD behavior (eww) = "74"
+    },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-  {
-    "Description": "Increase Max Item Level (Drop)", // If less than this level, then...
-    "Address": "205E30",
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "125" // Level 125, Retail = "63" (99)
-  },
-  {
-    "Description": "Increase Max Item Level (Drop)", //Force it to be this level
-    "Address": "205E94",
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "125" // Level 125, Retail = "63" (99)
-  }
-  //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-  /*
-   {
-    "Description": "Fire, Cold, Light Resistance (Server/Client)", // UMod 8 (Magic Resistant)
-    "Addresses": [ "2FC7E4", "2FC8AD", "2FC968", "AF13F", "AF20B", "AF2CF" ],
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "40"
-  },
-  {
-    "Description": "Fire Resistance (Server/Client)", // UMod 9 (Fire Enchanted)
-    "Addresses": [ "2FC9EB", "AF35C" ],
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "75"
-  },
-  {
-    "Description": "Lightning Resistance (Server/Client)", // UMod 17 (Lightning Enchanted)
-    "Addresses": [ "2FCADD", "AF479" ],
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "75"
-  },
-  
-  {
-    "Description": "Cold Resistance (Server/Client)", // UMod 18 (Cold Enchanted)
-    "Addresses": [ "2FCA64", "AF3E9" ],
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "75"
-  },
-  
-  {
-    "Description": "Poison Resistance (Server/Client)", // UMod 23 (Poison Enchanted)
-    "Addresses": [ "2FCB56", "AF495" ],
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "75"
-  },
-  {
-    "Description": "Magic Resistance (Server/Client)", // UMod 25 (Mana Burn)
-    "Addresses": [ "2FCBCF", "AF522" ],
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "20"
-  },
-  {
-    "Description": "Fire, Cold, Lightning Resistance (Server/Client)", // UMod 27 (Spectral Hit)
-    "Addresses": [ "2FCC56", "2FCD22", "2FCDDC", "AF5B9", "AF698", "AF75C" ],
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "20"
-  },
-  {
-    "Description": "Physical Resistance (Server/Client)", // UMod 28 (Stone Skin)
-    "Addresses": [ "2FCDEE", "AF778" ],
-    "Length": 1,
-    "Type": "Integer",
-    "Values": "50"
-  }
-    */
+    {
+      "Description": "Increase Max Item Level (Drop)", // If less than this level, then...
+      "Address": "205E30",
+      "Length": 1,
+      "Type": "Integer",
+      "Values": "99" // Level 125, Retail = "63" (99)
+    },
+    {
+      "Description": "Increase Max Item Level (Drop)", //Force it to be this level
+      "Address": "205E94",
+      "Length": 1,
+      "Type": "Integer",
+      "Values": "99" // Level 125, Retail = "63" (99)
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+    {
+      "Description": "Expose Item Level to Clients", // For Loot Filter (Non-hosts can now see ilvl also)
+      "Address": "205E25",
+      "Length": 1,
+      "Type": "Hex",
+      "Values": "EB" // Conditional Jump -> Forced Jump, Retail = 75
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+    {
+      "Description": "Hit Chance % (Lower Bound)",
+      "Addresses": ["329CE1", "BCD385", "BFE863" ],
+      "Length": 1,
+      "Type": "Integer",
+      "Values": "0" // 0% Chance to hit, Retail = 5%
+    },
+    {
+      "Description": "Hit Chance % (Upper Bound)",
+      "Addresses": ["329CCE", "BCD390", "BFE893" ],
+      "Length": 1,
+      "Type": "Integer",
+      "Values": "100" // 100% Chance to hit, Retail = 95%
+    },
+    {
+      "Description": "Hit Chance % (Display Fix)", // Client Display Fix needed if value = 0, else no string displayed (now shows 0%)
+      "Address": "BCD36A", 
+      "Length": 1,
+      "Type": "Hex",
+      "Values": "EB" // Conditional Jump -> Forced Jump, Retail = 75
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+    {
+      "Description": "Disable Run Penalty for Defense",
+      "Addresses": [ "329F70", "BCA5A0" ],
+      "Length": 1,
+      "Type": "Integer",
+      "Values": "255" // Anim_Mode = 255 (Invalid), Retail = 3
+    }
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
   ]
 }
