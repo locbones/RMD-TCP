@@ -4629,7 +4629,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "@RWSpell, X/Bows",
+                                        "text": "@RWSpell, X/Bows, @RWStaff",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -7290,7 +7290,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": "@RWSpell, X/Bows",
+                                        "text": "@RWSpell, X/Bows, @RWStaff",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -7646,6 +7646,52 @@
                                 "tooltipString": "@tan@Runeword83@nl@white@rlvl 29@nl@blue +3 @sorc@nl +33% @cast@nl +9 @mindmg@nl -25% @trgdefense@nl +3 @to @skEnergyShield@nl +2 @to @skStaticField@nl +50% @defperc@nl +10 @to @strchrvit@nl +10 @to @strchreng@nl +20% @maxmana@nl@mdr 7@nl@nl@runelow 16@runemid 49@runehigh 0@runeultra 0"
                             }
                         },
+
+
+{
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword93",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWSpell, X/Bows, @RWStaff",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r33L      @r01L      @r03L     @r08L     @r23L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 14320 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@tan@Runeword93@nl@white@rlvl 5@nl@blue @ModStre9s@nl 10% @ctc 10 @skLifeTap @killenemy@nl+5% @fire, @cold, @light, @strBSMagic @abs@nl @ModStre10b 10-12 @skConviction @aura@nl 5% @ctc 5 @skMassEnchant @ctcstrike@nl+360-400% @dmgperc@nl+30 @hit@nl+3-15 @fire @dmg@nl@allenemyimmunity 25 @to 35%@nl @ModStr4a@nl+1-3 @spellpower@nl+0.5 @life @clvl@nl+2 @mak@nl+1 @to @lradius@nl@nl@runelow 133@runemid 0@runehigh 1024@runeultra 0"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+
+
                         {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
@@ -7711,7 +7757,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14400 },
+                                "rect": { "x": -40, "y": 14480 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword17@nl@white@rlvl 44@nl@blue 37% @ctc 13 @skStaticField @ctcstrike@nl 10% @ctc 17 @skChainLightning @ctcstrike@nl +10% @atkspd@nl +180-220% @dmgperc@nl@ModStr3y@nl -35% @to @enemy @light @res@nl +10% @wounds@nl +9-11 @mag @abs@nl +2 @mak@nl@nl@runelow 4@runemid 1026@runehigh 0@runeultra 0"
@@ -7753,7 +7799,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14480 },
+                                "rect": { "x": -40, "y": 14560 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword20@nl@white@rlvl 55@nl@blue@ModStre9s@nl 100% @ctc 44 @skChainLightning @ctcdeath@nl 25% @ctc 18 @skGlacialSpike @ctcatk@nl +300-385% @dmgperc@nl +15% @hit@nl +30 @hit@nl +1-25 @light @dmg@nl 5% @manasteal@nl +0.5% @dstrike @clvl@nl +1 @lradius@nl@nl@runelow 257@runemid 8@runehigh 12@runeultra 0"
@@ -7805,7 +7851,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14560 },
+                                "rect": { "x": -40, "y": 14640 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword25@nl@white@rlvl 65@nl@blue+100-180 @fire @dmg@nl 5% @ctc 23 @skMoltenBoulder @ctcstrike@nl 7% @lifesteal@nl+350% @dmgperc@nl+100-180 @mag @dmg@nl 5% @manasteal@nl+10% @crush@nl+10% @dstrike@nl+10 @to @strchrdex@nl@nl@runelow 0@runemid 64@runehigh 424@runeultra 0@canforge"
@@ -7847,7 +7893,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14640 },
+                                "rect": { "x": -40, "y": 14720 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword47@nl@white@rlvl 59@nl@blue 35% @ctc 15 @skVenom @ctcstrike@nl +30-40% @atkspd@nl@dmg +340-400@nl@ModStr3y@nl -25% @trgdefense@nl +1.875% @ddmg @clvl@nl +3-15 @fire @dmg@nl -20 @to -25% @enemy @psn @res@nl +10% @dstrike@nl@ModStr4a@nl +10-15 @lak@nl +2 @mak@nl@nl@runelow 148@runemid 0@runehigh 33@runeultra 0"
@@ -7899,7 +7945,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14720 },
+                                "rect": { "x": -40, "y": 14800 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword65@nl@white@rlvl 7@nl@blue +100% @dmgperc@nl +150 @hit@nl +100% @ddmg@nl +100 @ardemon@nl +100% @strMaceSpecialDamage@nl +100 @arundead@nl +3-15 @fire @dmg@nl +2-7 @cold @dmg@nl 5-7% @lifesteal@nl@nl@runelow 1664@runemid 0@runehigh 0@runeultra 0@canforge"
@@ -7941,7 +7987,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14800 },
+                                "rect": { "x": -40, "y": 14880 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword66@nl@white@rlvl 53@nl@blue +30% @atkspd@nl +230-270% @dmgperc@nl -25% @trgdefense@nl +15% @hit@nl  +33% @crush@nl +35% @wounds@nl@ModStr4a@nl +1 @to @skVengeance@nl +10 @to @strchrstr@nl +40% @goldfind@nl@nl@runelow 0@runemid 1152@runehigh 5@runeultra 0"
@@ -7983,7 +8029,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14880 },
+                                "rect": { "x": -40, "y": 14960 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword67@nl@white@rlvl 59@nl@blue @strchrlvl 5-15 @skRedemption @aura@nl +1-3 @to @SkillCategoryPa3 @strPaladinOnly@nl +1-3 @pally@nl +20-45% @atkspd@nl +150-225% @dmgperc@nl +8 @hit @clvl@nl +15-30% @dstrike@nl +10% @wounds@nl +10 @to @strchrstr@nl +10 @to @strchrdex@nl@nl@runelow 0@runemid 1216@runehigh 32@runeultra 0"
@@ -8025,7 +8071,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 14960 },
+                                "rect": { "x": -40, "y": 15040 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword69@nl@white@rlvl 65@nl@blue 10% @ctc 18 @skLifeTap @ctcstrike@nl 6% @ctc 11 @skFade @ctcstruck@nl 20% @ctc 20 @skChargedBolt @ctcatk@nl @strchrlvl 17 @skMight @aura@nl +330-375% @dmgperc@nl@ModStr3y@nl@ModStr6d +1@nl +0.5% @magicfind @clvl@nl@nl@runelow 0@runemid 0@runehigh 961@runeultra 0"
@@ -8067,7 +8113,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15040 },
+                                "rect": { "x": -40, "y": 15120 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword71@nl@white@rlvl 38@nl@blue 20% @ctc 15 @skDecrepify @ctcstrike @nl @strchrlvl 16-18 @skSanctuary @aura@nl-50% @trgdefense@nl+60-180 @fire @dmg@nl+130-180 @cold @dmg@nl 5% @lifesteal@nl@ModitemSMRIP@nl+200-250 @dvsm@nl+10 @to @strchrdex@nl 75% @goldfind@nl@nl@runelow 1024@runemid 320@runehigh 0@runeultra 0"
@@ -8119,7 +8165,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15120 },
+                                "rect": { "x": -40, "y": 15200 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstrike@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
@@ -8171,7 +8217,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15200 },
+                                "rect": { "x": -40, "y": 15280 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword121@nl@white@rlvl 53@nl@blue 20% @ctc 16 @skTornado @ctcstrike@nl 16% @ctc 21 @skFrozenOrb @ctcatk@nl +15% @hit@nl +160-250 @mag @dmg@nl +60-180 @fire @dmg@nl +5-10 @to @strchrstr@nl +15-20 @to @strchrdex@nl +5-10 @to @strchrvit@nl +5-10 @to @strchreng@nl 38% @dmgmana@nl 75% @goldfind@nl @reqs -20%@nl@nl@runelow 0@runemid 328@runehigh 4@runeultra 0@canforge"
@@ -8223,7 +8269,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15280 },
+                                "rect": { "x": -40, "y": 15360 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword134@nl@white@rlvl 3@nl@blue +25% @atkspd@nl +20% @dmgperc@nl +3 @mindmg@nl +3 @maxdmg@nl +30 @hit@nl +25% @wounds@nl +2 @mak@nl +1 @lradius@nl@nl@runelow 5@runemid 0@runehigh 0@runeultra 0@canforge"
@@ -8275,7 +8321,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15360 },
+                                "rect": { "x": -40, "y": 15440 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword99@nl@white@rlvl 38@nl@blue 15% @ctc 13 @skFrozenOrb @ctcstrike@nl 18% @ctc 20 @skIceBolt @ctcstrike@nl +30 @hit@nl+220-350% @ddmg@nl+355-375% @strMaceSpecialDamage@nl+50 @arundead@nl+100-220 @cold @dmg@nl-24% @to @enemy @cold @res@nl+10 @to @to @strchrdex@nl 75% @goldfind@nl+1 @to @lradius@nl@nl@runelow 3@runemid 320@runehigh 0@runeultra 0@canforge"
@@ -8356,7 +8402,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15520 },
+                                "rect": { "x": -40, "y": 15600 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword21@nl@white@rlvl 20@nl@blue +10% @atkspd@nl +33% @pierce@nl +85-170% @dmgperc@nl +75 @hit@nl 5% @lifesteal@nl@slowt % (Based on Dexterity)@nl@ModStr1y@nl +1 @spellpower@nl@ModStre9v@nl@nl@runelow 1024@runemid 2@runehigh 0@runeultra 0@canforge"
@@ -8398,7 +8444,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15600 },
+                                "rect": { "x": -40, "y": 15680 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword28@nl@white@rlvl 53@nl@blue 5% @ctc 5 @skHowl @ctcstruck@nl+30% @atkspd@nl+110-220% @dmgperc@nl+15% @hit@nl+75-225 @hit@nl+10% @wounds@nl+3-6 @to @skThrowingMastery @strBarbarianOnly@nl@flee 10%@nl@ModStr1y@nl+10 @to @strchrdex@nl@ModStre9v@nl@nl@runelow 8@runemid 1088@runehigh 4@runeultra 0"
@@ -8440,7 +8486,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15680 },
+                                "rect": { "x": -40, "y": 15760 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword46@nl@white@rlvl 63@nl@blue +30% @atkspd@nl +225-310% @dmgperc@nl +20 @hit @clvl@nl 5% @manasteal@nl +10% @crush@nl +1% @pierce (@strchrdex)@nl +5 @to @skThrowingMastery@nl +2-3 @spellpower@nl +300% @goldfind@nl@nl@runelow 0@runemid 2@runehigh 136@runeultra 0"
@@ -8513,7 +8559,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15840 },
+                                "rect": { "x": -40, "y": 15920 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword173@nl@white@rlvl 72@nl@blue @strchrlvl 10 @skSalvation @aura@nl +2 @askills@nl +40-50% @cast@nl +75% @strMaceSpecialDamage@nl +50 @arundead@nl@allenemyimmunity -30%@nl +2 @spellpower@nl +10-15% @max @life@nl +10-15% @max @mana@nl@nl@runelow 2@runemid 0@runehigh 0@runeultra 4"
@@ -8555,7 +8601,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 15920 },
+                                "rect": { "x": -40, "y": 16000 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@tan@Runeword162@nl@white@rlvl 27@nl@blue +3 @to @SkillCategoryNe2 @StrSklTree4@strNecromanerOnly@nl +20% @cast@nl +2 @to @skBoneSpear@strNecromanerOnly@nl +4 @to @skSummonMastery@strNecromanerOnly@nl +3 @to @skBoneArmor@strNecromanerOnly@nl @flee 25%@nl +10 @strchrvit@nl +13 @mana@nl @mdr 4@nl@nl@runelow 0@runemid 20@runehigh 0@runeultra 0"

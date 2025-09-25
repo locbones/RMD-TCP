@@ -1,13 +1,22 @@
---- Filter Title: WolfieeifloW's Debug v1.0
+--- Filter Title: WolfieeifloW's Debug v1.4
 --- Filter Type: NOT FOR NORMAL USAGE. Used for debugging and testing, mostly for filter creators.
 --- Filter Description: DO NOT USE THIS FOR NORMAL PLAY. It is for testing and debugging.
+--- Filter Link: https://github.com/locbones/D2RLAN-Filters/raw/refs/heads/main/ReMoDDeD/wolfiedebug.lua
+
 return {
-    reload = "WolfieeifloW's DEBUG v1.0: {green}reloaded",
+    reload = "WolfieeifloW's DEBUG v1.4: {green}reloaded",
     debug = false,
+    allowOverrides = true,
     rules = {
         -- +-------------------------+
         -- | TAGS & GENERIC RULES    |
         -- +-------------------------+
+        { -- Adding item level to appropriate items (Rings, Amulets, Weapons, Armors, Jewels, and Small/Large/Grand Charms)
+            codes = "allitems",
+            itype = { 10, 12, 45, 50, 58, 82, 83, 84 },
+            location = { "onplayer", "equipped" , "onground", "dropping", "atvendor" },
+            suffix = " ({ilvl})"
+        },
         { -- Adding [Eth] tag to items
             codes = "allitems",
             ethereal = true,
@@ -3601,5 +3610,6 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             suffix = "\n{red}------- STAT ID -------{white}"
         }
+
     }
 }

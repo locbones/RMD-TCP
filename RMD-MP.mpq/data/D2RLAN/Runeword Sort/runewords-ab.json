@@ -5188,7 +5188,7 @@
                                         "rect": {
                                             "y": -20
                                         },
-                                        "text": "@RWSpell, X/Bows",
+                                        "text": "@RWSpell, X/Bows, @RWStaff",
                                         "style": "$RWInfo"
                                     }
                                 },

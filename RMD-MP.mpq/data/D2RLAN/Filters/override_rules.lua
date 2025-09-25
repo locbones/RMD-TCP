@@ -8,11 +8,6 @@ return {
         --Certain languages such as Russian, French, etc have lower total characters allowed in their string entries throughout files (best theory available).
         --This helps us trim the excess strings from the game files, while still allowing diverse and helpful descriptions. These entries are considered part of the mod.
 
-        { --Quality of Life Bag Description
-            code = "Z01",
-            location ="onplayer",
-            prefix = "\n{gray}(Cube Recipes > Quality of Life Bag)\n{white} -More info can be found on our {turquoise}Wiki\n{white}-You can find item {turquoise}removers {white}from {turquoise}Edyrem {white}in each town\n{gray}(Gems, Runes, Keys, Organs, Rare Jewels, Full Rejuvs and Set/Unique items)\n {white}-Many items can be deposited into this bag for various purposes\n{turquoise}Mod Tips:\n\n"
-        },
         { --Starter Package Description
             code = "y66",
             location = "onplayer",

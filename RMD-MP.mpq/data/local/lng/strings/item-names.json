@@ -39217,5 +39217,22 @@
 	  "ptBR": "Ken'juk arriscado",
 	  "ruRU": "Кенджук разумный облик",
 	  "zhCN": "Ken'juk的崩溃面貌"
-}
+  },
+  {
+    "id": 51352,
+    "Key": "l18",
+	  "deDE": "Tekko-Kagi",
+	  "enUS": "Tekko-kagi",
+	  "esES": "Tekko-kagi",
+	  "esMX": "Tekko-kagi",
+	  "frFR": "Tekko-kagi",
+	  "itIT": "Tekko-Kagi",
+	  "jaJP": "Tekko-kagi",
+	  "koKR": "Tekko-Kagi",
+	  "plPL": "Tekko-Kagi",
+	  "ptBR": "Tekko-kagi",
+	  "ruRU": "Tekko-Kagi",
+	  "zhCN": "Tekko-Kagi",
+	  "zhTW": "Tekko-Kagi"
+  }
 ]

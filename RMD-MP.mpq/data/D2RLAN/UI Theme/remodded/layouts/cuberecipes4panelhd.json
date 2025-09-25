@@ -119,7 +119,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6",
+                                        "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6 (Sets/Uniques Only)",
                                         "style": "$RecipeSettingsTextPink"
                                     }
                                 }
@@ -317,7 +317,19 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "5x Rainbow Facets of each element (25 total) = Prismatic Facet",
+                                        "text": "Storage Bag (30 Rare Jewels) + Magic Jewel + Identify Scroll = Rainbow Facet (Random)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "5x Rainbow Facets of each element (30 total) = Prismatic Facet",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
