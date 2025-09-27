@@ -102,6 +102,8 @@ Goodies - Smith			1						Blank	5	C28	1																				0
 Goodies - Thresh Socket			1						Blank	10	C24	1	C29	1	Thresh Socket Flavor	3																0
 TormentBossesA			1						Blank	5	RMD Loot A	4	Runes 18	4	b64	5	All Codexes	16	Shards	4	Ev0	8										0
 TormentBossesB			1						Blank	5	RMD Loot A	5	Runes 18	5	b64	5	All Codexes	30	Shards	5	Ev0	15										0
+Act 5 (X) Equip A			1						l01	1	l02	1	l03	1	l04	1	l05	1	l06	1	l07	1	l08	1	l09	1			35	1565	0.9776	0
+Act 5 (X) Equip B			1						l10	1	l11	1	l12	1	l13	1	l14	1	l15	1	l16	1	l17	1					35	1565	0.9776	0
 Ammo			1						Blank	16	aqv	3																				0
 Potions			1						Blank	500	hp5	5	mp5	5	rvs	2	rvl	1	hp1	8	mp1	8										0
 Runes 1			1						r01	3	r02	2																				0
@@ -196,8 +198,6 @@ Act 4 (H) Equip C	1	82	1						weap72	2	armo72	1	weap75	6	armo75	3	weap78	14	armo
 Act 5 (H) Equip A	1	83	1						weap75	2	armo75	1	weap78	6	armo78	3	weap81	14	armo81	7	weap84	2	armo84	1	Act 4 (H) Equip B	1530			36	1566	0.977	0
 Act 5 (H) Equip B	1	84	1						weap78	2	armo78	1	weap81	6	armo81	3	weap84	14	armo84	7	weap87	2	armo87	1	Act 5 (H) Equip A	1530			36	1566	0.977	0
 Act 5 (H) Equip C	1	85	1						weap81	2	armo81	1	weap84	6	armo84	3	weap87	14	armo87	7	weap87	1	armo87	1	Act 5 (H) Equip B	1530			35	1565	0.9776	0
-Act 5 (X) Equip A	1	103	1						l01	1	l02	1	l03	1	l04	1	l05	1	l06	1	l07	1	l08	1	l09	1			35	1565	0.9776	0
-Act 5 (X) Equip B	1	103	1						l10	1	l11	1	l12	1	l13	1	l14	1	l15	1	l16	1	l17	1					35	1565	0.9776	0
 Act 5 (X) Equip	1	103	1						Act 5 (X) Equip A	1	Act 5 (X) Equip B	1	Act 5 (H) Equip C	1050															35	1565	0.9776	0
 Act 1 Melee A	2	0	1						mele3	7	armo3	7																				0
 Act 1 Melee B	2	5	1						mele3	3	armo3	3	mele6	7	armo6	7																0
@@ -782,9 +782,10 @@ Council (H)			3	650	800	800	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip A	15	Act 4 
 Griswold			-4					0	Act 1 Uitem C	1	Act 1 Melee B	2	Griswold (NM) Flavor	1																		0
 Griswold (N)			-4					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2	Griswold (NM) Flavor	1																		0
 Griswold (H)			5					0	Act 1 (H) Uitem C	10	Act 1 (H) Melee B	20	Goodies - Griswold	2																		0
-Cow			1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-Cow (N)			1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-Cow (H)			1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55	TreasureChestsGroupB	8																0
+Cow			1					1000	gld	250	Act 5 Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
+Cow (N)			1					1000	gld	250	Act 5 (N) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
+Cow (H)	22	85	1					1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
+Cow (H)2	22	103	1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55	TreasureChestsGroupB	8																0
 Trapped Soul			1					100	gld	19	Act 4 Equip A	8	Act 4 Junk	33																		0
 Trapped Soul (N)			1					100	gld	19	Act 4 (N) Equip A	8	Act 4 (N) Junk	33																		0
 Trapped Soul (H)			1					100	gld	19	Act 4 (H) Equip A	8	Act 4 (H) Junk	33																		0
@@ -955,22 +956,37 @@ Bishibosh			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	
 Bishibosh (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (NM) Equip C	19	Act 1 (NM) Junk	5	Act 1 (NM) Good	3	Bishibosh (NM) Flavor	1														0
 Bishibosh (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3	Bishibosh (H) Flavor	1														0
 Fire Eye (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip A	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	Fire Eye Flavor	1														0
-TormentGroupA			1	650	800	800		100	Blank	4500	Act 5 (X) Equip	480	Act 5 (H) Good	220	RMD Loot A	2	Runes 18	5	gld,mul=1024	240	Unique Charms	1	Ev0	1								0
-TormentGroupB			1	725	825	800		100	Blank	4500	Act 5 (X) Equip	600	Act 5 (H) Good	280	Trial Scroll Group A	20	RMD Loot A	4	Runes 18	10	gld,mul=1536	300	Unique Charms	1	Ev0	1						0
-TormentGroupC			1	800	850	800		100	Blank	4500	Act 5 (X) Equip	720	Act 5 (H) Good	340	Trial Scroll Group B	30	RMD Loot A	6	Runes 18	15	gld,mul=2048	360	Unique Charms	1	Ev0	1						0
-TormentGroupD			1	875	875	800		100	Blank	4500	Act 5 (X) Equip	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	Unique Charms	1	Ev0	1						0
-TormentGroupE			1	950	900	800		100	Blank	4500	Act 5 (X) Equip	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480	Unique Charms	1	Ev0	1						0
+TormentGroupA	20	85	1	650	800	800		100	Blank	4500	Act 5 (H) Equip C	480	Act 5 (H) Good	220	RMD Loot A	2	Runes 18	5	gld,mul=1024	240	Unique Charms	1	Ev0	1								0
+TormentGroupB	20	85	1	725	825	800		100	Blank	4500	Act 5 (H) Equip C	600	Act 5 (H) Good	280	Trial Scroll Group A	20	RMD Loot A	4	Runes 18	10	gld,mul=1536	300	Unique Charms	1	Ev0	1						0
+TormentGroupC	20	85	1	800	850	800		100	Blank	4500	Act 5 (H) Equip C	720	Act 5 (H) Good	340	Trial Scroll Group B	30	RMD Loot A	6	Runes 18	15	gld,mul=2048	360	Unique Charms	1	Ev0	1						0
+TormentGroupD	20	85	1	875	875	800		100	Blank	4500	Act 5 (H) Equip C	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	Unique Charms	1	Ev0	1						0
+TormentGroupE	20	85	1	950	900	800		100	Blank	4500	Act 5 (H) Equip C	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480	Unique Charms	1	Ev0	1						0
+TormentGroupA2	20	103	1	650	800	800		100	Blank	4500	Act 5 (X) Equip	480	Act 5 (H) Good	220	RMD Loot A	2	Runes 18	5	gld,mul=1024	240	Unique Charms	1	Ev0	1								0
+TormentGroupB2	20	103	1	725	825	800		100	Blank	4500	Act 5 (X) Equip	600	Act 5 (H) Good	280	Trial Scroll Group A	20	RMD Loot A	4	Runes 18	10	gld,mul=1536	300	Unique Charms	1	Ev0	1						0
+TormentGroupC2	20	103	1	800	850	800		100	Blank	4500	Act 5 (X) Equip	720	Act 5 (H) Good	340	Trial Scroll Group B	30	RMD Loot A	6	Runes 18	15	gld,mul=2048	360	Unique Charms	1	Ev0	1						0
+TormentGroupD2	20	103	1	875	875	800		100	Blank	4500	Act 5 (X) Equip	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	Unique Charms	1	Ev0	1						0
+TormentGroupE2	20	103	1	950	900	800		100	Blank	4500	Act 5 (X) Equip	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480	Unique Charms	1	Ev0	1						0
 TrialEnd			-1						a06	1																						0
-Enderaku			5	993	725	1024	600	19	Act 5 (X) Equip	40	Act 5 (H) Good	10	TormentBossesA	4																		0
-ForsakenIzual			7	993	725	1024	600	19	Act 5 (X) Equip	30	Act 5 (H) Good	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
-Gurka			7	993	725	1024	600	19	Act 5 (X) Equip	30	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
-Deddomer			7	993	725	1024	400	19	Act 5 (X) Equip	30	Act 5 (H) Good	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
-Majiko			5	993	725	1024	1024	19	Act 5 (X) Equip	40	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesA	4																0
-Rakuranth			5	993	725	1024	400	19	Act 5 (X) Equip	40	Act 5 (H) Good	10	Trial Scroll Group B	4	TormentBossesA	4																0
-Anuburak			7	993	725	1024	1024	19	Act 5 (X) Equip	30	Act 5 (H) Good	10	Trial Scroll Group D	4	TormentBossesB	4	Goodies - Anuburak	2														0
-Syndred			7	993	725	1024	1024	19	Act 5 (X) Equip	30	Act 5 (H) Good	10	Trial Scroll Group C	4	TormentBossesB	4	Goodies - Queen Syndred	2														0
-Grizzlepaw			5	800	500	1024	1024	19	Act 5 (X) Equip	40	Act 5 (H) Good	10	Trial Scroll Group C	4	TormentBossesA	4																0
-Kelthir			5	800	500	1024	1024	19	Act 5 (X) Equip	40	Act 5 (H) Good	10	Trial Scroll Group D	4	TormentBossesA	4																0
+Enderaku	21	85	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	TormentBossesA	4																		0
+ForsakenIzual	21	85	7	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
+Gurka	21	85	7	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
+Deddomer	21	85	7	993	725	1024	400	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
+Majiko	21	85	5	993	725	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesA	4																0
+Rakuranth	21	85	5	993	725	1024	400	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group B	4	TormentBossesA	4																0
+Anuburak	21	85	7	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group D	4	TormentBossesB	4	Goodies - Anuburak	2														0
+Syndred	21	85	7	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group C	4	TormentBossesB	4	Goodies - Queen Syndred	2														0
+Grizzlepaw	21	85	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group C	4	TormentBossesA	4																0
+Kelthir	21	85	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group D	4	TormentBossesA	4																0
+Enderaku2	21	103	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	TormentBossesA	4																		0
+ForsakenIzual2	21	103	7	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
+Gurka2	21	103	7	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
+Deddomer2	21	103	7	993	725	1024	400	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
+Majiko2	21	103	5	993	725	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	Trial Scroll Group A	4	TormentBossesA	4																0
+Rakuranth2	21	103	5	993	725	1024	400	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	Trial Scroll Group B	4	TormentBossesA	4																0
+Anuburak2	21	103	7	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group D	4	TormentBossesB	4	Goodies - Anuburak	2														0
+Syndred2	21	103	7	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group C	4	TormentBossesB	4	Goodies - Queen Syndred	2														0
+Grizzlepaw2	21	103	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	Trial Scroll Group C	4	TormentBossesA	4																0
+Kelthir2	21	103	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	Trial Scroll Group D	4	TormentBossesA	4																0
 Bonebreak			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3																0
 Bonebreak (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N)  Good	3																0
 Bonebreak (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
