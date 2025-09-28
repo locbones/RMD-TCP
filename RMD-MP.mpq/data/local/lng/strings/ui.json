@@ -35682,5 +35682,22 @@
 	    "ruRU": "Призыв скорость",
 	    "zhCN": "召唤速度",
 	    "zhTW": "召喚速度"
+    },
+    {
+      "id": 63187,
+      "Key": "vendorprice",
+	    "deDE": "Verkäuferpreise durch reduzieren",
+	    "enUS": "Reduce Vendor Prices by",
+	    "esES": "Reducir los precios de los proveedores por",
+	    "esMX": "Reducir los precios de los proveedores por",
+	    "frFR": "Réduire les prix des vendeurs par",
+	    "itIT": "Ridurre i prezzi dei fornitori di",
+	    "jaJP": "ベンダーの価格を下げます",
+	    "koKR": "공급 업체 가격을 줄입니다",
+	    "plPL": "Obniżyć ceny dostawców o",
+	    "ptBR": "Reduzir os preços dos fornecedores por",
+	    "ruRU": "Снизить цены поставщика",
+	    "zhCN": "将供应商价格降低",
+	    "zhTW": "將供應商價格降低"
     }
 ]

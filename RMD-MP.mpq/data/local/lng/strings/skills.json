@@ -50948,7 +50948,7 @@
 	    "zhCN": "ÿcN[Path of the Conqueror]ÿc2\nProvides powerful bonuses and allows easy endgame traveling\nOnly hard points provide bonuses\nÿc5Skill Cost = 5/5/10\n\nÿc8Level 1ÿc0 - Pandemonium and Trial Portals may be opened for free\nÿc8Level 2ÿc0 - AllSkills Increased by 2\nÿc8Level  3²C0-所有技能的协同率提高了5%",
 	    "zhTW": "ÿcN[Path of the Conqueror]ÿc2\nProvides powerful bonuses and allows easy endgame traveling\nOnly hard points provide bonuses\nÿc5Skill Cost = 5/5/10\n\nÿc8Level 1ÿc0 - Pandemonium and Trial Portals may be opened for free\nÿc8Level 2ÿc0 - AllSkills Increased by 2\nÿc8Level 3²C0-所有技能的協同率提高了5%"
     },
-        {
+    {
         "id": 61896,
 	    "Key": "skDarkLightningSentry",
 	    "enUS": "Dark Lightning Sentry",
@@ -50965,7 +50965,7 @@
 	    "ruRU": "Темная молния",
 	    "zhCN": "深闪电哨兵"
     },
-        {
+    {
         "id": 61897,
         "Key": "sdDarkLightningSentry",
     	"enUS": "ÿcNDraw power from darkness itself\nÿc0Creates immobile traps that emits\nÿc0dark lightning at enemies nearby",
@@ -50981,5 +50981,22 @@
 	    "ptBR": "ÿcndrAw Power da escuridão em si.",
 	    "ruRU": "ÿcndraw Сила из самой тьмы \nÿc0creates неподвижные ловушки, которые излучает молнию \nÿc0dark at emeries рядом с врагами",
 	    "zhCN": "从黑暗本身中绘制的电源\n²c0创造了在附近的敌人发射\nμarkLightning的固定陷阱"
+    },
+    {
+        "id": 61898,
+	    "Key": "skGuardBreaker",
+	    "deDE": "Wachbrecher",
+	    "enUS": "Guard Breaker",
+	    "esES": "Interruptor de guardia",
+	    "esMX": "Interruptor de guardia",
+	    "frFR": "Disjoncteur",
+	    "itIT": "Breaker di guardia",
+	    "jaJP": "ガードブレーカー",
+	    "koKR": "가드 차단기",
+	    "plPL": "Breaker Guard",
+	    "ptBR": "Breaker de guarda",
+	    "ruRU": "Защитник",
+	    "zhCN": "警卫断路器",
+	    "zhTW": "警衛斷路器"
     }
 ]

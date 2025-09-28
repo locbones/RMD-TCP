@@ -1008,7 +1008,7 @@
                                 "rect": { "x": -40, "y": 1520 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp14@nl@grey (@Assassin @RWBoot, @cloak, @RWGlove)@nl@nl@gold@setbonus@nl@blue +4 @sin@nl GOING TO BE REPLACED@nl@allenemyimmunity 20%@nl +10% @allatrb@nl +10 @lradius@nl@nl@gold@firstdiscover@tan Spike@blue"
+                                "tooltipString": "@green@bp14@nl@grey (@Assassin @RWBoot, @cloak, @RWGlove)@nl@nl@gold@setbonus@nl@blue +4 @sin@nl @buffdur 50%@nl@allenemyimmunity 20%@nl +10% @allatrb@nl +10 @lradius@nl@nl@gold@firstdiscover@tan Spike@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

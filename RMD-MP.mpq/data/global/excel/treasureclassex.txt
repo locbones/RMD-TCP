@@ -43,7 +43,7 @@ Trial Scroll Group A			1						Blank	8	Trial Scroll A	1	Trial Scroll A2	1								
 Trial Scroll Group B			1						Blank	8	Trial Scroll B	1	Trial Scroll B2	1																		0
 Trial Scroll Group C			1						Blank	8	Trial Scroll C	1	Trial Scroll C2	1																		0
 Trial Scroll Group D			1						Blank	8	Trial Scroll D	1	Trial Scroll D2	1																		0
-RMD Loot A			1						Rgx	1	y33	2	TreasureChestsGroup	1																		0
+RMD Loot A			1						Rgx	50	y33	100	TreasureChestsGroup	50	z23	1																0
 Breakfast		1	1	1024					Blank	19	m36	1																				0
 Unique Charms - m32	19	115	1						Blank	18	m32	1																				0
 Unique Charms - m34	19	90	1						Blank	18	m34	1																				0
@@ -82,21 +82,21 @@ Bishibosh (H) Flavor			1					1	The Oculus	1																						0
 Fire Eye Flavor			1					1	Kreigur's Will	1	Kreigur's Judgement	1	Bul-Kathos' Sacred Charge	1	Bul-Kathos' Tribal Guardian	1																0
 Goodies - Andariel			1						Blank	5	C00	4	C35	4	tes	20	Shards	20														0
 Goodies - Ancients			1						Blank	5	C11	1																				0
-Goodies - Anuburak			1						Blank	5	C01	1	C30																			0
+Goodies - Anuburak			1						Blank	50	C01	10	C30	10																		0
 Goodies - Baal			1						Blank	5	C02	4	C12	4	fed	20	Shards	20														0
 Goodies - Blood Raven			1						Blank	10	C13	1	Blood Raven Flavor	3																		0
 Goodies - Corpsefire			1						Blank	5	C19	1																				0
-Goodies - Deddomer			1						Blank	5	C03	1	C20	1																		0
+Goodies - Deddomer			1						Blank	50	C03	10	C20	10	z25	1																0
 Goodies - Diablo			1						Blank	5	C04	4	C25	4	C31	4	bet	20	Shards	20												0
 Goodies - Duriel			1						Blank	5	C05	4	C26	4	tes	20	Shards	20														0
 Goodies - Fangskin			1						Blank	10	C32	1	C36	1	Fangskin (H) Flavor	3																0
-Goodies - Forsaken Izual			1						Blank	5	C06	1	C14	1	C33	1																0
+Goodies - Forsaken Izual			1						Blank	50	C06	10	C14	10	C33	10	z24	1														0
 Goodies - Griswold			1						Blank	10	C15	1	C21	1	Griswold (H) Flavor	3																0
-Goodies - Gurka			1						Blank	5	C07	1	C16	1																		0
+Goodies - Gurka			1						Blank	50	C07	10	C16	10	z27	1																0
 Goodies - Hephasto			1						Blank	10	C27	1	Hephasto (H) Flavor	3																		0
 Goodies - Izual			1						Blank	5	C17	1	C34	1																		0
 Goodies - Mephisto			1						Blank	5	C08	4	C22	4	ceh	20	Shards	20														0
-Goodies - Queen Syndred			1						Blank	5	C09	1	C37	1																		0
+Goodies - Queen Syndred			1						Blank	50	C09	10	C37	10	z26	1																0
 Goodies - Radament			1						Blank	10	C18	1	C23	1	Radament Flavor	3																0
 Goodies - Smith			1						Blank	5	C28	1																				0
 Goodies - Thresh Socket			1						Blank	10	C24	1	C29	1	Thresh Socket Flavor	3																0
@@ -287,6 +287,7 @@ Act 3 (H) Good	5	78	1						Blank	80	Jewelry D	300	Perfect Gem	100	Runes 15	10	Rg
 Act 4 (H) Good	5	82	1						Blank	80	Jewelry D	300	Perfect Gem	100	Runes 15	10	Rgx	1														0
 Act 5 (H) Good	5	85	1						Blank	80	Jewelry D	300	Perfect Gem	100	Runes 15	10	Rgx	1														0
 Act X (H) Good	5	85	1						Blank	80	Jewelry D	300	Perfect Gem	100	Runes 17	10	Rgx	1														0
+Act X (H) Good 100	5	103	1						Blank	400	Jewelry D	1500	Perfect Gem	500	Runes 17	50	Rgx	10	z20	1	z21	1										0
 Act 1 Chest A	6	0	4					100	gld	15	Act 1 Junk	15	Act 1 Equip A	10	Act 1 Good	2																0
 Act 1 Chest B	6	5	4					100	gld	15	Act 1 Junk	15	Act 1 Equip B	10	Act 1 Good	2																0
 Act 1 Chest C	6	9	4					100	gld	15	Act 1 Junk	12	Act 2 Junk	3	Act 1 Equip C	15	Act 1 Good	2														0
@@ -959,12 +960,12 @@ Fire Eye (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip A	19	Act 
 TormentGroupA	20	85	1	650	800	800		100	Blank	4500	Act 5 (H) Equip C	480	Act 5 (H) Good	220	RMD Loot A	2	Runes 18	5	gld,mul=1024	240	Unique Charms	1	Ev0	1								0
 TormentGroupB	20	85	1	725	825	800		100	Blank	4500	Act 5 (H) Equip C	600	Act 5 (H) Good	280	Trial Scroll Group A	20	RMD Loot A	4	Runes 18	10	gld,mul=1536	300	Unique Charms	1	Ev0	1						0
 TormentGroupC	20	85	1	800	850	800		100	Blank	4500	Act 5 (H) Equip C	720	Act 5 (H) Good	340	Trial Scroll Group B	30	RMD Loot A	6	Runes 18	15	gld,mul=2048	360	Unique Charms	1	Ev0	1						0
-TormentGroupD	20	85	1	875	875	800		100	Blank	4500	Act 5 (H) Equip C	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	Unique Charms	1	Ev0	1						0
+TormentGroupD	20	85	1	875	875	800		100	Blank	4500	Act 5 (H) Equip C	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	Unique Charms	1	Ev0	1	z22	1				0
 TormentGroupE	20	85	1	950	900	800		100	Blank	4500	Act 5 (H) Equip C	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480	Unique Charms	1	Ev0	1						0
 TormentGroupA2	20	103	1	650	800	800		100	Blank	4500	Act 5 (X) Equip	480	Act 5 (H) Good	220	RMD Loot A	2	Runes 18	5	gld,mul=1024	240	Unique Charms	1	Ev0	1								0
 TormentGroupB2	20	103	1	725	825	800		100	Blank	4500	Act 5 (X) Equip	600	Act 5 (H) Good	280	Trial Scroll Group A	20	RMD Loot A	4	Runes 18	10	gld,mul=1536	300	Unique Charms	1	Ev0	1						0
 TormentGroupC2	20	103	1	800	850	800		100	Blank	4500	Act 5 (X) Equip	720	Act 5 (H) Good	340	Trial Scroll Group B	30	RMD Loot A	6	Runes 18	15	gld,mul=2048	360	Unique Charms	1	Ev0	1						0
-TormentGroupD2	20	103	1	875	875	800		100	Blank	4500	Act 5 (X) Equip	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	Unique Charms	1	Ev0	1						0
+TormentGroupD2	20	103	1	875	875	800		100	Blank	4500	Act 5 (X) Equip	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	Unique Charms	1	Ev0	1	z22	1				0
 TormentGroupE2	20	103	1	950	900	800		100	Blank	4500	Act 5 (X) Equip	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480	Unique Charms	1	Ev0	1						0
 TrialEnd			-1						a06	1																						0
 Enderaku	21	85	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	TormentBossesA	4																		0
