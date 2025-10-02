@@ -32,7 +32,7 @@
                      // ITRANSFORMCLASS_GREY2 - Used
                      {
                          "hue": [ 0.0, 0.501 ],
-                         "saturation": [ 0.14, 0.14 ],
+                         "saturation": [ 0.74, 0.74 ],
                          "value": [ 0.425, 0.54 ]
                      },
                      // ITRANSFORMCLASS_GOLD
@@ -42,8 +42,8 @@
                      // ITRANSFORMCLASS_GREYBROWN - Used
                      {
                          "hue": [ 0.0, 0.501 ],
-                         "saturation": [ 0.175, 0.175 ],
-                         "value": [ 0.4, 0.4 ]
+                         "saturation": [ 0.145, 0.205 ],
+                         "value": [ 0.9, 0.9 ]
                      },
                      // ITRANSFORMCLASS_INV_GREY
                      "$EmptyColorRange",
@@ -52,8 +52,8 @@
                      // ITRANSFORMCLASS_INV_GREYBROWN - Used
                      {
                          "hue": [ 0.05, 0.06 ], //[ 0.03, 0.05 ],
-                         "saturation": [ 0.5, 0.501 ],
-                         "value": [ 0.585, 0.415 ]
+                         "saturation": [ 0.7, 0.701 ],
+                         "value": [ 0.585, 0.915 ]
                      }
                 ],
                 "colorTransform": [
@@ -80,82 +80,82 @@
                      {
                          "comment": "ITRANSFORM_LIGHTBLUE lblu",
                          "hsvTransform": [ -0.47, 0.2, 0.6, 0.0 ],
-                         "tintTransform": [ 0.595, 0.96, 0.98, 0.40 ]
+                         "tintTransform": [ 0.595, 0.96, 0.98, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_DARKBLUE dblu",
                          "hsvTransform": [ -0.46, 0.25, 0.2, 0.0 ],
-                         "tintTransform": [ 0.473, 0.77, 0.788, 0.6 ]
+                         "tintTransform": [ 0.473, 0.77, 0.788, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_CRYSTALBLUE cblu",
-                         "hsvTransform": [ 0.58, 0.2, 0.5, 0.0 ],
-                         "tintTransform": [ 0.427, 0.698, 0.728, 0.5 ]
+                         "hsvTransform": [ 0.58, 0.8, 0.5, 0.0 ],
+                         "tintTransform": [ 0.427, 0.698, 0.728, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_LIGHTRED lred",
                          "hsvTransform": [ 0.0, 0.25, 0.55, 0.0 ],
-                         "tintTransform": [ 1.0, 0.0, 0.0, 0.5 ]
+                         "tintTransform": [ 1.0, 0.0, 0.0, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_DARKRED dred",
                          "hsvTransform": [ 0.0, 0.75, -0.35, 0.0 ],
-                         "tintTransform": [ 1.0, 0.0, 0.0, 0.5 ]
+                         "tintTransform": [ 1.0, 0.0, 0.0, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_CRYSTALRED cred",
                          "hsvTransform": [ 0.0, 1.0, 0.5, 0.0 ],
-                         "tintTransform": [ 0.9, 0.1, 0.0, 0.7 ]
+                         "tintTransform": [ 0.9, 0.1, 0.0, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_LIGHTGREEN lgrn",
                          "hsvTransform": [ 0.25, 0.25, -0.1, 0.0 ],
-                         "tintTransform": [ 0.0, 1.0, 0.0, 0.3 ]
+                         "tintTransform": [ 0.0, 1.0, 0.0, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_DARKGREEN dgrn",
                          "hsvTransform": [ 0.25, 0.0, -0.3, 0.0 ],
-                         "tintTransform": [ 0.0, 0.8, 0.0, 0.3 ]
+                         "tintTransform": [ 0.0, 0.8, 0.0, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_CRYSTALGREEN cgrn",
                          "hsvTransform": [ 0.25, 1.0, 0.3, 0.0 ],
-                         "tintTransform": [ 0.0, 1.0, 0.0, 0.3 ]
+                         "tintTransform": [ 0.0, 1.0, 0.0, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_LIGHTYELLOW lyel",
                          "hsvTransform": [ 0.065, 0.4, 0.4, 0.0 ],
-                         "tintTransform": [ 0.8, 0.68, 0.25, 0.8 ]
+                         "tintTransform": [ 0.8, 0.68, 0.25, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_DARKYELLOW dyel",
                          "hsvTransform": [ 0.05, 0.4, -0.2, 0.0 ],
-                         "tintTransform": [ 0.57, 0.49, 0.28, 0.7 ]
+                         "tintTransform": [ 0.57, 0.49, 0.28, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_LIGHTGOLD lgld",
                          "hsvTransform": [ 0.04, 0.0, 0.5, 0.0 ],
-                         "tintTransform": [ 0.882, 0.813, 0.71, 0.6 ]
+                         "tintTransform": [ 0.882, 0.813, 0.71, 0.85 ]
                      },
                      {
                          "comment": "ITRANSFORM_DARKGOLD dgld",
                          "hsvTransform": [ 0.0, 0.0, 0.5, 0.0 ],
-                         "tintTransform": [ 0.686275, 0.403922, 0.011765, 0.6 ]
+                         "tintTransform": [ 0.686275, 0.403922, 0.011765, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_LIGHTPURPLE lpur",
                          "hsvTransform": [ -0.33, 0.80, 0.4, 0.0 ],
-                         "tintTransform": [ 0.553, 0.137, 0.51, 0.3 ]
+                         "tintTransform": [ 0.553, 0.137, 0.51, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_DARKPURPLE dpur",
                          "hsvTransform": [ -0.16, 0.35, -0.25, 0.0 ],
-                         "tintTransform": [ 0.553, 0.137, 0.51, 0.75 ]
+                         "tintTransform": [ 0.553, 0.137, 0.51, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_ORANGE oran",
                          "hsvTransform": [ 0.04, 0.3, 0.0, 0.0 ],
-                         "tintTransform": [ 1.0, 0.25, 0.0, 0.42 ]
+                         "tintTransform": [ 1.0, 0.25, 0.0, 0.95 ]
                      },
                      {
                          "comment": "ITRANSFORM_BRIGHTWHITE bwht",

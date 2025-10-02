@@ -9910,5 +9910,22 @@
     "ruRU": "Ультра усиливает: ÿc7%d/1ÿc3",
     "zhCN": "超增强：ÿc7%d/1ÿc3",
     "zhTW": "超增強：ÿc7%d/1ÿc3"
+  },
+  {
+    "id": 48308,
+    "Key": "ModJBMJewel",
+	  "deDE": "Ÿc4magische Juwelen: Ÿc3%d",
+	  "enUS": "ÿc4Magic Jewels: ÿc3%d",
+	  "esES": "ÿC4 Joyas mágicas: ÿC3%D",
+	  "esMX": "ÿC4 Joyas mágicas: ÿC3%D",
+	  "frFR": "ÿC4Magic Jewels: ÿc3% D",
+	  "itIT": "ÿC4 Magic Jewels: ÿC3%d",
+	  "jaJP": "C4MAGICJEWELS：C3%d",
+	  "koKR": "ÿc4magic 보석 : ÿc3%d",
+	  "plPL": "ÿC4Magic klejnoty: ÿC3%d",
+	  "ptBR": "Jewels Magic Jewels: ÿc3%d",
+	  "ruRU": "ÿc4magic Jewels: ÿc3%d",
+	  "zhCN": "•C4Magic珠宝：•C3%d",
+	  "zhTW": "•C4Magic珠寶：•C3%d"
   }
 ]

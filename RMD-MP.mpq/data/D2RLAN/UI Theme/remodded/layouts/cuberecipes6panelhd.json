@@ -603,7 +603,7 @@
                                 "rect": { "x": -40, "y": 960 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword73@nl@white@rlvl 5@nl@blue 31% @ctc 3 @skRollingThunder @ctcstrike @nl +20% @run @nl +10-25% @defperc @nl @regenmana 10-15% @nl @light @res +10% @nl +4 @light @thorns@nl +1 @lradius @nl@nl@runelow 257@runemid 0@runehigh 0@runeultra 0 @canforge"
+                                "tooltipString": "@tan@Runeword73@nl@white@rlvl 5@nl@blue 1% @ctc 25 @skRollingThunder @ctcstrike @nl +20% @run @nl +10-25% @defperc @nl @regenmana 10-15% @nl @light @res +10% @nl +4 @light @thorns@nl +1 @lradius @nl@nl@runelow 257@runemid 0@runehigh 0@runeultra 0 @canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1884,7 +1884,7 @@
                                 "rect": { "x": -40, "y": 3360 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword57@nl@white@rlvl 3@nl@blue +3-10% @ibc@nl +30 @hit@nl +5% @toele @skdmg@nl +55 @strchrdef@nl +5-10% @maxlife@nl +60 @mana@nl@allres -5% @to +5%@nl +2 @mak@nl +1 @lradius@nl@nl@runelow 5@runemid 0@runehigh 0@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword57@nl@white@rlvl 3@nl@blue -10% @ibc@nl +30 @hit@nl +5% @toele @skdmg@nl +55 @strchrdef@nl +5-10% @maxlife@nl +60 @mana@nl@allres -5% @to +5%@nl +2 @mak@nl +1 @lradius@nl@nl@runelow 5@runemid 0@runehigh 0@runeultra 0@canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -6420,7 +6420,7 @@
                                 "rect": { "x": -40, "y": 11920 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword57@nl@white@rlvl 3@nl@blue +3-10% @ibc@nl +30 @hit@nl +5% @toele @skdmg@nl +40 @strchrdef@nl +5-10% @maxlife@nl +60 @mana@nl@allres -5% @to +5%@nl +2 @mak@nl +1 @lradius@nl@nl@runelow 5@runemid 0@runehigh 0@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword57@nl@white@rlvl 3@nl@blue -10% @ibc@nl +30 @hit@nl +5% @toele @skdmg@nl +40 @strchrdef@nl +5-10% @maxlife@nl +60 @mana@nl@allres -5% @to +5%@nl +2 @mak@nl +1 @lradius@nl@nl@runelow 5@runemid 0@runehigh 0@runeultra 0@canforge"
                             }
                         },
                         {

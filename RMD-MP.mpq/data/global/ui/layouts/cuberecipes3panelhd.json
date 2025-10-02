@@ -476,7 +476,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Storage Bag(3 Gems) + Magic Charm/Jewel = Re-roll magic stats",
+                                        "text": "Storage Bag(3 Gems) + Magic Charm/Jewel + Token of Evil = Re-roll magic stats",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -655,6 +655,63 @@
                                     "fields": {
                                         "text": "Sacred Unique refers to any unique item chosen for this system (community discovery required)",
                                         "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Color Dyes",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Color Dye Bottle + Storage Bag (50 Gems) = Next Shade of Color Bottle",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Equipment (any) + Color Dye Bottle = Color Dyed Item (Inventory and World Views)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Empty Bottle + Color Dyed Item = Remove Color Dye ",
+                                        "style": "$RecipeSettingsText"
                                     }
                                 }
                             ]
