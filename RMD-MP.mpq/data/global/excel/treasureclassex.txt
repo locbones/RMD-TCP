@@ -784,8 +784,8 @@ Griswold (N)			-4					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2	Griswold (NM) Fl
 Griswold (H)			5					0	Act 1 (H) Uitem C	10	Act 1 (H) Melee B	20	Goodies - Griswold	2																		0
 Cow			1					1000	gld	250	Act 5 Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
 Cow (N)			1					1000	gld	250	Act 5 (N) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-Cow (H)	22	85	1					1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-Cow (H)2	22	103	1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55	TreasureChestsGroupB	8																0
+Cow (H)	35	85	1					1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
+Cow (H)2	35	103	1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55	TreasureChestsGroupB	8																0
 Trapped Soul			1					100	gld	19	Act 4 Equip A	8	Act 4 Junk	33																		0
 Trapped Soul (N)			1					100	gld	19	Act 4 (N) Equip A	8	Act 4 (N) Junk	33																		0
 Trapped Soul (H)			1					100	gld	19	Act 4 (H) Equip A	8	Act 4 (H) Junk	33																		0

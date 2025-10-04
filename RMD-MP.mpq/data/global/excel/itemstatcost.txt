@@ -1,488 +1,488 @@
 Stat	*ID	Send Other	Signed	Send Bits	Send Param Bits	UpdateAnimRate	Saved	CSvSigned	CSvBits	CSvParam	fCallback	fMin	MinAccr	Encode	Add	Multiply	ValShift	1.09-Save Bits	1.09-Save Add	Save Bits	Save Add	Save Param Bits	keepzero	op	op param	op base	op stat1	op stat2	op stat3	direct	maxstat	damagerelated	itemevent1	itemeventfunc1	itemevent2	itemeventfunc2	descpriority	descfunc	descval	descstrpos	descstrneg	descstr2	dgrp	dgrpfunc	dgrpval	dgrpstrpos	dgrpstrneg	dgrpstr2	stuff	advdisplay	*eol
-some_stuff_was_here_once	0																																																		0
-some_stuff_was_here_once	1																																																		0
-some_stuff_was_here_once	2																																																		0
-some_stuff_was_here_once	3																																																		0
-some_stuff_was_here_once	4																																																		0
-some_stuff_was_here_once	5																																																		0
-some_stuff_was_here_once	6																																																		0
-some_stuff_was_here_once	7																																																		0
-some_stuff_was_here_once	8																																																		0
-some_stuff_was_here_once	9																																																		0
-some_stuff_was_here_once	10																																																		0
-some_stuff_was_here_once	11																																																		0
-some_stuff_was_here_once	12																																																		0
-some_stuff_was_here_once	13																																																		0
-some_stuff_was_here_once	14																																																		0
-some_stuff_was_here_once	15																																																		0
-some_stuff_was_here_once	16																																																		0
-some_stuff_was_here_once	17																																																		0
-some_stuff_was_here_once	18																																																		0
-some_stuff_was_here_once	19																																																		0
-some_stuff_was_here_once	20																																																		0
-some_stuff_was_here_once	21																																																		0
-some_stuff_was_here_once	22																																																		0
-some_stuff_was_here_once	23																																																		0
-some_stuff_was_here_once	24																																																		0
-some_stuff_was_here_once	25																																																		0
-some_stuff_was_here_once	26																																																		0
-some_stuff_was_here_once	27																																																		0
-some_stuff_was_here_once	28																																																		0
-some_stuff_was_here_once	29																																																		0
-some_stuff_was_here_once	30																																																		0
-some_stuff_was_here_once	31																																																		0
-some_stuff_was_here_once	32																																																		0
-some_stuff_was_here_once	33																																																		0
-some_stuff_was_here_once	34																																																		0
-some_stuff_was_here_once	35																																																		0
-some_stuff_was_here_once	36																																																		0
-some_stuff_was_here_once	37																																																		0
-some_stuff_was_here_once	38																																																		0
-some_stuff_was_here_once	39																																																		0
-some_stuff_was_here_once	40																																																		0
-some_stuff_was_here_once	41																																																		0
-some_stuff_was_here_once	42																																																		0
-some_stuff_was_here_once	43																																																		0
-some_stuff_was_here_once	44																																																		0
-some_stuff_was_here_once	45																																																		0
-some_stuff_was_here_once	46																																																		0
-some_stuff_was_here_once	47																																																		0
-some_stuff_was_here_once	48																																																		0
-some_stuff_was_here_once	49																																																		0
-some_stuff_was_here_once	50																																																		0
-some_stuff_was_here_once	51																																																		0
-some_stuff_was_here_once	52																																																		0
-some_stuff_was_here_once	53																																																		0
-some_stuff_was_here_once	54																																																		0
-some_stuff_was_here_once	55																																																		0
-some_stuff_was_here_once	56																																																		0
-some_stuff_was_here_once	57																																																		0
-some_stuff_was_here_once	58																																																		0
-some_stuff_was_here_once	59																																																		0
-some_stuff_was_here_once	60																																																		0
-some_stuff_was_here_once	61																																																		0
-some_stuff_was_here_once	62																																																		0
-some_stuff_was_here_once	63																																																		0
-some_stuff_was_here_once	64																																																		0
-some_stuff_was_here_once	65																																																		0
-some_stuff_was_here_once	66																																																		0
-some_stuff_was_here_once	67																																																		0
-some_stuff_was_here_once	68																																																		0
-some_stuff_was_here_once	69																																																		0
-some_stuff_was_here_once	70																																																		0
-some_stuff_was_here_once	71																																																		0
-some_stuff_was_here_once	72																																																		0
-some_stuff_was_here_once	73																																																		0
-some_stuff_was_here_once	74																																																		0
-some_stuff_was_here_once	75																																																		0
-some_stuff_was_here_once	76																																																		0
-some_stuff_was_here_once	77																																																		0
-some_stuff_was_here_once	78																																																		0
-some_stuff_was_here_once	79																																																		0
-some_stuff_was_here_once	80																																																		0
-some_stuff_was_here_once	81																																																		0
-some_stuff_was_here_once	82																																																		0
-some_stuff_was_here_once	83																																																		0
-some_stuff_was_here_once	84																																																		0
-some_stuff_was_here_once	85																																																		0
-some_stuff_was_here_once	86																																																		0
-some_stuff_was_here_once	87																																																		0
-some_stuff_was_here_once	88																																																		0
-some_stuff_was_here_once	89																																																		0
-some_stuff_was_here_once	90																																																		0
-some_stuff_was_here_once	91																																																		0
-some_stuff_was_here_once	92																																																		0
-some_stuff_was_here_once	93																																																		0
-some_stuff_was_here_once	94																																																		0
-some_stuff_was_here_once	95																																																		0
-some_stuff_was_here_once	96																																																		0
-some_stuff_was_here_once	97																																																		0
-some_stuff_was_here_once	98																																																		0
-some_stuff_was_here_once	99																																																		0
-some_stuff_was_here_once	100																																																		0
-some_stuff_was_here_once	101																																																		0
-some_stuff_was_here_once	102																																																		0
-some_stuff_was_here_once	103																																																		0
-some_stuff_was_here_once	104																																																		0
-some_stuff_was_here_once	105																																																		0
-some_stuff_was_here_once	106																																																		0
-some_stuff_was_here_once	107																																																		0
-some_stuff_was_here_once	108																																																		0
-some_stuff_was_here_once	109																																																		0
-some_stuff_was_here_once	110																																																		0
-some_stuff_was_here_once	111																																																		0
-some_stuff_was_here_once	112																																																		0
-some_stuff_was_here_once	113																																																		0
-some_stuff_was_here_once	114																																																		0
-some_stuff_was_here_once	115																																																		0
-some_stuff_was_here_once	116																																																		0
-some_stuff_was_here_once	117																																																		0
-some_stuff_was_here_once	118																																																		0
-some_stuff_was_here_once	119																																																		0
-some_stuff_was_here_once	120																																																		0
-some_stuff_was_here_once	121																																																		0
-some_stuff_was_here_once	122																																																		0
-some_stuff_was_here_once	123																																																		0
-some_stuff_was_here_once	124																																																		0
-some_stuff_was_here_once	125																																																		0
-some_stuff_was_here_once	126																																																		0
-some_stuff_was_here_once	127																																																		0
-some_stuff_was_here_once	128																																																		0
-some_stuff_was_here_once	129																																																		0
-some_stuff_was_here_once	130																																																		0
-some_stuff_was_here_once	131																																																		0
-some_stuff_was_here_once	132																																																		0
-some_stuff_was_here_once	133																																																		0
-some_stuff_was_here_once	134																																																		0
-some_stuff_was_here_once	135																																																		0
-some_stuff_was_here_once	136																																																		0
-some_stuff_was_here_once	137																																																		0
-some_stuff_was_here_once	138																																																		0
-some_stuff_was_here_once	139																																																		0
-some_stuff_was_here_once	140																																																		0
-some_stuff_was_here_once	141																																																		0
-some_stuff_was_here_once	142																																																		0
-some_stuff_was_here_once	143																																																		0
-some_stuff_was_here_once	144																																																		0
-some_stuff_was_here_once	145																																																		0
-some_stuff_was_here_once	146																																																		0
-some_stuff_was_here_once	147																																																		0
-some_stuff_was_here_once	148																																																		0
-some_stuff_was_here_once	149																																																		0
-some_stuff_was_here_once	150																																																		0
-some_stuff_was_here_once	151																																																		0
-some_stuff_was_here_once	152																																																		0
-some_stuff_was_here_once	153																																																		0
-some_stuff_was_here_once	154																																																		0
-some_stuff_was_here_once	155																																																		0
-some_stuff_was_here_once	156																																																		0
-some_stuff_was_here_once	157																																																		0
-some_stuff_was_here_once	158																																																		0
-some_stuff_was_here_once	159																																																		0
-some_stuff_was_here_once	160																																																		0
-some_stuff_was_here_once	161																																																		0
-some_stuff_was_here_once	162																																																		0
-some_stuff_was_here_once	163																																																		0
-some_stuff_was_here_once	164																																																		0
-some_stuff_was_here_once	165																																																		0
-some_stuff_was_here_once	166																																																		0
-some_stuff_was_here_once	167																																																		0
-some_stuff_was_here_once	168																																																		0
-some_stuff_was_here_once	169																																																		0
-some_stuff_was_here_once	170																																																		0
-some_stuff_was_here_once	171																																																		0
-some_stuff_was_here_once	172																																																		0
-some_stuff_was_here_once	173																																																		0
-some_stuff_was_here_once	174																																																		0
-some_stuff_was_here_once	175																																																		0
-some_stuff_was_here_once	176																																																		0
-some_stuff_was_here_once	177																																																		0
-some_stuff_was_here_once	178																																																		0
-some_stuff_was_here_once	179																																																		0
-some_stuff_was_here_once	180																																																		0
-some_stuff_was_here_once	181																																																		0
-some_stuff_was_here_once	182																																																		0
-some_stuff_was_here_once	183																																																		0
-some_stuff_was_here_once	184																																																		0
-some_stuff_was_here_once	185																																																		0
-some_stuff_was_here_once	186																																																		0
-some_stuff_was_here_once	187																																																		0
-some_stuff_was_here_once	188																																																		0
-some_stuff_was_here_once	189																																																		0
-some_stuff_was_here_once	190																																																		0
-some_stuff_was_here_once	191																																																		0
-some_stuff_was_here_once	192																																																		0
-some_stuff_was_here_once	193																																																		0
-some_stuff_was_here_once	194																																																		0
-some_stuff_was_here_once	195																																																		0
-some_stuff_was_here_once	196																																																		0
-some_stuff_was_here_once	197																																																		0
-some_stuff_was_here_once	198																																																		0
-some_stuff_was_here_once	199																																																		0
-some_stuff_was_here_once	200																																																		0
-some_stuff_was_here_once	201																																																		0
-some_stuff_was_here_once	202																																																		0
-some_stuff_was_here_once	203																																																		0
-some_stuff_was_here_once	204																																																		0
-some_stuff_was_here_once	205																																																		0
-some_stuff_was_here_once	206																																																		0
-some_stuff_was_here_once	207																																																		0
-some_stuff_was_here_once	208																																																		0
-some_stuff_was_here_once	209																																																		0
-some_stuff_was_here_once	210																																																		0
-some_stuff_was_here_once	211																																																		0
-some_stuff_was_here_once	212																																																		0
-some_stuff_was_here_once	213																																																		0
-some_stuff_was_here_once	214																																																		0
-some_stuff_was_here_once	215																																																		0
-some_stuff_was_here_once	216																																																		0
-some_stuff_was_here_once	217																																																		0
-some_stuff_was_here_once	218																																																		0
-some_stuff_was_here_once	219																																																		0
-some_stuff_was_here_once	220																																																		0
-some_stuff_was_here_once	221																																																		0
-some_stuff_was_here_once	222																																																		0
-some_stuff_was_here_once	223																																																		0
-some_stuff_was_here_once	224																																																		0
-some_stuff_was_here_once	225																																																		0
-some_stuff_was_here_once	226																																																		0
-some_stuff_was_here_once	227																																																		0
-some_stuff_was_here_once	228																																																		0
-some_stuff_was_here_once	229																																																		0
-some_stuff_was_here_once	230																																																		0
-some_stuff_was_here_once	231																																																		0
-some_stuff_was_here_once	232																																																		0
-some_stuff_was_here_once	233																																																		0
-some_stuff_was_here_once	234																																																		0
-some_stuff_was_here_once	235																																																		0
-some_stuff_was_here_once	236																																																		0
-some_stuff_was_here_once	237																																																		0
-some_stuff_was_here_once	238																																																		0
-some_stuff_was_here_once	239																																																		0
-some_stuff_was_here_once	240																																																		0
-some_stuff_was_here_once	241																																																		0
-some_stuff_was_here_once	242																																																		0
-some_stuff_was_here_once	243																																																		0
-some_stuff_was_here_once	244																																																		0
-some_stuff_was_here_once	245																																																		0
-some_stuff_was_here_once	246																																																		0
-some_stuff_was_here_once	247																																																		0
-some_stuff_was_here_once	248																																																		0
-some_stuff_was_here_once	249																																																		0
-some_stuff_was_here_once	250																																																		0
-some_stuff_was_here_once	251																																																		0
-some_stuff_was_here_once	252																																																		0
-some_stuff_was_here_once	253																																																		0
-some_stuff_was_here_once	254																																																		0
-some_stuff_was_here_once	255																																																		0
-some_stuff_was_here_once	256																																																		0
-some_stuff_was_here_once	257																																																		0
-some_stuff_was_here_once	258																																																		0
-some_stuff_was_here_once	259																																																		0
-some_stuff_was_here_once	260																																																		0
-some_stuff_was_here_once	261																																																		0
-some_stuff_was_here_once	262																																																		0
-some_stuff_was_here_once	263																																																		0
-some_stuff_was_here_once	264																																																		0
-some_stuff_was_here_once	265																																																		0
-some_stuff_was_here_once	266																																																		0
-some_stuff_was_here_once	267																																																		0
-some_stuff_was_here_once	268																																																		0
-some_stuff_was_here_once	269																																																		0
-some_stuff_was_here_once	270																																																		0
-some_stuff_was_here_once	271																																																		0
-some_stuff_was_here_once	272																																																		0
-some_stuff_was_here_once	273																																																		0
-some_stuff_was_here_once	274																																																		0
-some_stuff_was_here_once	275																																																		0
-some_stuff_was_here_once	276																																																		0
-some_stuff_was_here_once	277																																																		0
-some_stuff_was_here_once	278																																																		0
-some_stuff_was_here_once	279																																																		0
-some_stuff_was_here_once	280																																																		0
-some_stuff_was_here_once	281																																																		0
-some_stuff_was_here_once	282																																																		0
-some_stuff_was_here_once	283																																																		0
-some_stuff_was_here_once	284																																																		0
-some_stuff_was_here_once	285																																																		0
-some_stuff_was_here_once	286																																																		0
-some_stuff_was_here_once	287																																																		0
-some_stuff_was_here_once	288																																																		0
-some_stuff_was_here_once	289																																																		0
-some_stuff_was_here_once	290																																																		0
-some_stuff_was_here_once	291																																																		0
-some_stuff_was_here_once	292																																																		0
-some_stuff_was_here_once	293																																																		0
-some_stuff_was_here_once	294																																																		0
-some_stuff_was_here_once	295																																																		0
-some_stuff_was_here_once	296																																																		0
-some_stuff_was_here_once	297																																																		0
-some_stuff_was_here_once	298																																																		0
-some_stuff_was_here_once	299																																																		0
-some_stuff_was_here_once	300																																																		0
-some_stuff_was_here_once	301																																																		0
-some_stuff_was_here_once	302																																																		0
-some_stuff_was_here_once	303																																																		0
-some_stuff_was_here_once	151																																																		0
-some_stuff_was_here_once	305																																																		0
-some_stuff_was_here_once	306																																																		0
-some_stuff_was_here_once	307																																																		0
-some_stuff_was_here_once	308																																																		0
-some_stuff_was_here_once	309																																																		0
-some_stuff_was_here_once	310																																																		0
-some_stuff_was_here_once	311																																																		0
-some_stuff_was_here_once	312																																																		0
-some_stuff_was_here_once	313																																																		0
-some_stuff_was_here_once	314																																																		0
-some_stuff_was_here_once	315																																																		0
-some_stuff_was_here_once	316																																																		0
-some_stuff_was_here_once	317																																																		0
-some_stuff_was_here_once	318																																																		0
-some_stuff_was_here_once	319																																																		0
-some_stuff_was_here_once	320																																																		0
-some_stuff_was_here_once	321																																																		0
-some_stuff_was_here_once	322																																																		0
-some_stuff_was_here_once	323																																																		0
-some_stuff_was_here_once	324																																																		0
-some_stuff_was_here_once	325																																																		0
-some_stuff_was_here_once	326																																																		0
-some_stuff_was_here_once	327																																																		0
-some_stuff_was_here_once	328																																																		0
-some_stuff_was_here_once	329																																																		0
-some_stuff_was_here_once	330																																																		0
-some_stuff_was_here_once	331																																																		0
-some_stuff_was_here_once	332																																																		0
-some_stuff_was_here_once	333																																																		0
-some_stuff_was_here_once	334																																																		0
-some_stuff_was_here_once	335																																																		0
-some_stuff_was_here_once	336																																																		0
-some_stuff_was_here_once	337																																																		0
-some_stuff_was_here_once	338																																																		0
-some_stuff_was_here_once	339																																																		0
-some_stuff_was_here_once	340																																																		0
-some_stuff_was_here_once	341																																																		0
-some_stuff_was_here_once	342																																																		0
-some_stuff_was_here_once	343																																																		0
-some_stuff_was_here_once	344																																																		0
-some_stuff_was_here_once	345																																																		0
-some_stuff_was_here_once	346																																																		0
-some_stuff_was_here_once	347																																																		0
-some_stuff_was_here_once	348																																																		0
-some_stuff_was_here_once	349																																																		0
-some_stuff_was_here_once	350																																																		0
-some_stuff_was_here_once	351																																																		0
-some_stuff_was_here_once	352																																																		0
-some_stuff_was_here_once	353																																																		0
-some_stuff_was_here_once	354																																																		0
-some_stuff_was_here_once	355																																																		0
-some_stuff_was_here_once	356																																																		0
-some_stuff_was_here_once	357																																																		0
-some_stuff_was_here_once	358																																																		0
-some_stuff_was_here_once	359																																																		0
-some_stuff_was_here_once	360																																																		0
-some_stuff_was_here_once	361																																																		0
-some_stuff_was_here_once	362																																																		0
-some_stuff_was_here_once	363																																																		0
-some_stuff_was_here_once	364																																																		0
-some_stuff_was_here_once	365																																																		0
-some_stuff_was_here_once	366																																																		0
-some_stuff_was_here_once	367																																																		0
-some_stuff_was_here_once	368																																																		0
-some_stuff_was_here_once	369																																																		0
-some_stuff_was_here_once	370																																																		0
-some_stuff_was_here_once	371																																																		0
-some_stuff_was_here_once	372																																																		0
-some_stuff_was_here_once	373																																																		0
-some_stuff_was_here_once	374																																																		0
-some_stuff_was_here_once	375																																																		0
-some_stuff_was_here_once	376																																																		0
-some_stuff_was_here_once	377																																																		0
-some_stuff_was_here_once	378																																																		0
-some_stuff_was_here_once	379																																																		0
-some_stuff_was_here_once	380																																																		0
-some_stuff_was_here_once	381																																																		0
-some_stuff_was_here_once	382																																																		0
-some_stuff_was_here_once	383																																																		0
-some_stuff_was_here_once	384																																																		0
-some_stuff_was_here_once	385																																																		0
-some_stuff_was_here_once	386																																																		0
-some_stuff_was_here_once	387																																																		0
-some_stuff_was_here_once	388																																																		0
-some_stuff_was_here_once	389																																																		0
-some_stuff_was_here_once	390																																																		0
-some_stuff_was_here_once	391																																																		0
-some_stuff_was_here_once	392																																																		0
-some_stuff_was_here_once	393																																																		0
-some_stuff_was_here_once	394																																																		0
-some_stuff_was_here_once	395																																																		0
-some_stuff_was_here_once	396																																																		0
-some_stuff_was_here_once	397																																																		0
-some_stuff_was_here_once	398																																																		0
-some_stuff_was_here_once	385																																																		0
-some_stuff_was_here_once	400																																																		0
-some_stuff_was_here_once	401																																																		0
-some_stuff_was_here_once	402																																																		0
-some_stuff_was_here_once	403																																																		0
-some_stuff_was_here_once	404																																																		0
-some_stuff_was_here_once	405																																																		0
-some_stuff_was_here_once	406																																																		0
-some_stuff_was_here_once	407																																																		0
-some_stuff_was_here_once	408																																																		0
-some_stuff_was_here_once	409																																																		0
-some_stuff_was_here_once	410																																																		0
-some_stuff_was_here_once	411																																																		0
-some_stuff_was_here_once	412																																																		0
-some_stuff_was_here_once	413																																																		0
-some_stuff_was_here_once	414																																																		0
-some_stuff_was_here_once	415																																																		0
-some_stuff_was_here_once	416																																																		0
-some_stuff_was_here_once	417																																																		0
-some_stuff_was_here_once	418																																																		0
-some_stuff_was_here_once	419																																																		0
-some_stuff_was_here_once	420																																																		0
-some_stuff_was_here_once	421																																																		0
-some_stuff_was_here_once	422																																																		0
-some_stuff_was_here_once	423																																																		0
-some_stuff_was_here_once	424																																																		0
-some_stuff_was_here_once	425																																																		0
-some_stuff_was_here_once	426																																																		0
-some_stuff_was_here_once	427																																																		0
-some_stuff_was_here_once	428																																																		0
-some_stuff_was_here_once	429																																																		0
-some_stuff_was_here_once	430																																																		0
-some_stuff_was_here_once	431																																																		0
-some_stuff_was_here_once	432																																																		0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
 color_dye	433		1	6											0	0		1	0	6	23																														0
-some_stuff_was_here_once	434																																																		0
-some_stuff_was_here_once	435																																																		0
-some_stuff_was_here_once	436																																																		0
-some_stuff_was_here_once	437																																																		0
-some_stuff_was_here_once	438																																																		0
-some_stuff_was_here_once	439																																																		0
-some_stuff_was_here_once	440																																																		0
-some_stuff_was_here_once	441																																																		0
-some_stuff_was_here_once	442																																																		0
-some_stuff_was_here_once	443																																																		0
-some_stuff_was_here_once	444																																																		0
-some_stuff_was_here_once	445																																																		0
-some_stuff_was_here_once	446																																																		0
-some_stuff_was_here_once	447																																																		0
-some_stuff_was_here_once	448																																																		0
-some_stuff_was_here_once	449																																																		0
-some_stuff_was_here_once	450																																																		0
-some_stuff_was_here_once	451																																																		0
-some_stuff_was_here_once	452																																																		0
-some_stuff_was_here_once	453																																																		0
-some_stuff_was_here_once	454																																																		0
-some_stuff_was_here_once	455																																																		0
-some_stuff_was_here_once	456																																																		0
-some_stuff_was_here_once	457																																																		0
-some_stuff_was_here_once	458																																																		0
-some_stuff_was_here_once	459																																																		0
-some_stuff_was_here_once	460																																																		0
-some_stuff_was_here_once	461																																																		0
-some_stuff_was_here_once	462																																																		0
-some_stuff_was_here_once	463																																																		0
-some_stuff_was_here_once	464																																																		0
-some_stuff_was_here_once	465																																																		0
-some_stuff_was_here_once	466																																																		0
-some_stuff_was_here_once	467																																																		0
-some_stuff_was_here_once	468																																																		0
-some_stuff_was_here_once	469																																																		0
-some_stuff_was_here_once	470																																																		0
-some_stuff_was_here_once	471																																																		0
-some_stuff_was_here_once	472																																																		0
-some_stuff_was_here_once	473																																																		0
-some_stuff_was_here_once	474																																																		0
-some_stuff_was_here_once	475																																																		0
-some_stuff_was_here_once	476																																																		0
-some_stuff_was_here_once	477																																																		0
-some_stuff_was_here_once	478																																																		0
-some_stuff_was_here_once	479																																																		0
-some_stuff_was_here_once	480																																																		0
-some_stuff_was_here_once	481																																																		0
-some_stuff_was_here_once	482																																																		0
-some_stuff_was_here_once	483																																																		0
-some_stuff_was_here_once	484																																																		0
-some_stuff_was_here_once	485																																																		0
-some_stuff_was_here_once	486																																																		0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
