@@ -10470,5 +10470,22 @@
       "ruRU": "Ядовитый плющ",
       "zhCN": "有毒常春藤",
       "zhTW": "有毒常春藤"
-  }  
+  },
+  {
+      "id": 55087,
+      "Key": "MadKing",
+	"deDE": "ÿc7Verrückter König",
+	"enUS": "ÿc7The Mad King",
+	"esES": "ÿc7rey loco",
+	"esMX": "ÿc7rey loco",
+	"frFR": "ÿc7Roi fou",
+	"itIT": "ÿc7Re pazzo",
+	"jaJP": "ÿc7マッドキング",
+	"koKR": "ÿc7매드킹",
+	"plPL": "ÿc7Szalony Król",
+	"ptBR": "ÿc7Rei Louco",
+	"ruRU": "ÿc7Безумный король",
+	"zhCN": "ÿc7疯狂国王",
+	"zhTW": "ÿc7瘋狂國王"
+  }
 ]

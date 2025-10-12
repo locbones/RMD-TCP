@@ -71,19 +71,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "Normal Item + Gold Bar = Socketed Item (Max Sockets)",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC3",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC3T",
-                                    "fields": {
-                                        "text": "Ramaladni's Gift + Magic or Higher Quality Item = Same Item +1 Socket (Repeatable)",
+                                        "text": "Ramaladni's Gift + Item = Same Item +1 Socket (Repeatable)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -159,24 +147,12 @@
                             ]
                         },
                         {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "Weapons",
-                                        "style": "$RecipeSettingsTextRed"
-                                    }
-                                }
-                            ]
-                        },
-                        {
                             "type": "TableRowWidget", "name": "GC2",
                             "children": [
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Ort + Amn + Sapphire + Normal Rare Weapon = Exceptional Rare Weapon",
+                                        "text": "Normal Item (Rare/Unique) + Item UpConverter (Advanced) = Exceptional Item",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -188,7 +164,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Fal + Um + Sapphire + Exceptional Rare Weapon = Elite Rare Weapon",
+                                        "text": "Exceptional Item (Rare/Unique) + Item UpConverter (Elite) = Elite Item",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -200,7 +176,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Ral + Sol + Emerald + Normal Unique Weapon = Exceptional Unique Weapon",
+                                        "text": "Storage Bag (10 Magic Jewels) + Item UpConverter (Basic) = Rare Jewel",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -212,67 +188,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Lum + Pul + Emerald + Exceptional Unique Weapon = Elite Unique Weapon",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "Armors",
-                                        "style": "$RecipeSettingsTextRed"
-                                    }
-                                }
-                            ]
-                        },   
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Ral + Thul + Amethyst + Normal Rare Armor = Exceptional Rare Armor",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Ko + Pul + Amethyst + Exceptional Rare Armor = Elite Rare Armor",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },         
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Tal + Shael + Diamond + Normal Unique Armor = Exceptional Unique Armor",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        }, 
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Ko + Lem + Diamond + Exceptional Unique Armor = Elite Unique Armor",
+                                        "text": "Storage Bag (30 Rare Jewels) + Item UpConverter (Advanced) = Rainbow Facet (Random)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -284,7 +200,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "text": "Utility Upgrades",
+                                        "text": "Specialty Upgrades",
                                         "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
@@ -296,30 +212,6 @@
                                             }
                                         }
                                     ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "10x Magic Jewels = 1x Rare Jewel",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Storage Bag (30 Rare Jewels) + Magic Jewel + Identify Scroll = Rainbow Facet (Random)",
-                                        "style": "$RecipeSettingsText"
-                                    }
                                 }
                             ]
                         },
@@ -377,24 +269,12 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Any Item + Gold Bars (Separated) = Add Ethereal to Item",
+                                        "text": "Any Item + Gold Bar = Add Ethereal to Item",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
                             ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC2",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC2T",
-                                    "fields": {
-                                        "text": "Gold Bar Cost: Normal/Socketed - 2, Magic/Superior - 3, Rare - 4, Unique/Set - 5 ",
-                                        "style": "$RecipeSettingsTextPink"
-                                    }
-                                }
-                            ]
-                        },
+                        }
                     ]
                 }
             ]

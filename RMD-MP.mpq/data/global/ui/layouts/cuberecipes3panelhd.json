@@ -50,6 +50,255 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
+                                        "text": "Candy Corn Chaos",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "100 Candy Corn = 1 Cornucopia",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Candy Corn cannot be stacked - Cornucopia are used for larger amounts",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "1 Candy Corn = Random Set Item",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "2 Candy Corn = Random Buff Potion",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "3 Candy Corn = Random Rune (Up to Zod)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "5 Candy Corn = Broken Gift Box (Chance at bugged/1.08 items)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "10 Candy Corn = Random Unique Archon Plate",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "20 Candy Corn + Gheed's Fortune = Gheed's Fortune (+2 Combat Power)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "20 Candy Corn + Annihilus = Annihilus (+1 All Skills)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "20 Candy Corn + Cola Cube = Cola Cube (+1 Fire Skills)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "20 Candy Corn + Healthy Breakfast = Healthy Breakfast (+15 Vit, +100 HP, +5% Lifesteal)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "35 Candy Corn + Beacon of Hope = Beacon of Hope (+100-150 Soul Shards)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "50 Candy Corn = +1 All Skills Enhancement Crystal",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "1 Cornucopia = Tears of Bonesy (Buff Potion)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "1 Cornucopia + 50 Candy Corn = 3x Rainbow Facets (Random)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "2 Cornucopia + 50 Candy Corn + Codex = Testament of Same Set",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "5 Cornucopia + Buriza Crossbow = Buriza (Ward Bow)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "5 Cornucopia + Gull Dagger = Gull (Short Sword)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "10 Cornucopia + Blank Talent = Blank Talent (+1 to Elemental Masteries)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
                                         "text": "Storage Bag",
                                         "style": "$StyleSettingsTitle"
                                     },

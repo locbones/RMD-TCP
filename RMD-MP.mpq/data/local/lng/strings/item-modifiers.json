@@ -4254,7 +4254,7 @@
     "id": 11033,
     "Key": "ModStr1x",
     "deDE": "%d%% Erhöhter Magiefund",
-    "enUS": "%d%% Better Chance of Getting Magic Items",
+    "enUS": "+%d%% Chance of Higher Quality Items",
     "esES": "%d%% hallazgo mágico aumentado",
     "esMX": "%d%% hallazgo mágico aumentado",
     "frFR": "%d%Augmentation de la découverte magique",

@@ -4671,28 +4671,22 @@
       "stepIndex": 1,
       "animationBindings": {
         "hth": [
-          "hth_dragonflight_kick"
         ],
         "bow": [
-          "bow_dragonflight_kick"
+          "bow_attack1"
         ],
         "1hs": [
-          "1hs_dragonflight_kick"
         ],
         "1ht": [
-          "1ht_dragonflight_kick"
         ],
         "stf": [
-          "stf_dragonflight_kick"
         ],
         "2hs": [
-          "2hs_dragonflight_kick"
         ],
         "2ht": [
-          "2ht_dragonflight_kick"
         ],
         "xbw": [
-          "xbw_dragonflight_kick"
+          "xbw_attack1"
         ],
         "1js": [
         ],
@@ -4703,10 +4697,8 @@
         "1st": [
         ],
         "ht1": [
-          "ht1_dragonflight_kick"
         ],
         "ht2": [
-          "ht2_dragonflight_kick"
         ]
       },
       "enterEvents": [
@@ -4726,28 +4718,22 @@
       "stepIndex": 0,
       "animationBindings": {
         "hth": [
-          "hth_dragonflight_start"
         ],
         "bow": [
-          "bow_dragonflight_start"
+          "bow_attack1"
         ],
         "1hs": [
-          "1hs_dragonflight_start"
         ],
         "1ht": [
-          "1ht_dragonflight_start"
         ],
         "stf": [
-          "stf_dragonflight_start"
         ],
         "2hs": [
-          "2hs_dragonflight_start"
         ],
         "2ht": [
-          "2ht_dragonflight_start"
         ],
         "xbw": [
-          "xbw_dragonflight_start"
+          "xbw_attack1"
         ],
         "1js": [
         ],
@@ -4758,10 +4744,8 @@
         "1st": [
         ],
         "ht1": [
-          "ht1_dragonflight_start"
         ],
         "ht2": [
-          "ht2_dragonflight_start"
         ]
       },
       "enterEvents": [

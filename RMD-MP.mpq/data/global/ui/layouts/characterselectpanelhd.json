@@ -1,4 +1,4 @@
-{
+﻿{
     "type": "CharacterSelectPanel", "name": "CharacterSelectPanel",
     "fields": {
         "priority": 1,
@@ -309,8 +309,8 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 240, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.9GA)",
+                                "rect": { "x": 215, "y": 2030, "width": 400 },
+                                "text":"(Beta - 0.9.9.9GAH)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
@@ -322,10 +322,10 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 300, "y": 2080, "width": 400 },
-                                "text":"BUILD 100225",
+                                "rect": { "x": 270, "y": 2080, "width": 400 },
+                                "text":"Halloween Havoc",
                                 "style": {
-                                    "fontColor": "$FontColorGray",
+                                    "fontColor": "$FontColorOrange",
                                     "pointSize": "$SmallPanelFontSize",
                                     "spacing": "$ReducedSpacing",
                                     "dropShadow": "$DefaultDropShadow"

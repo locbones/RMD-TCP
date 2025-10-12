@@ -1,4 +1,4 @@
-{
+﻿{
     "type": "CreditsModal", "name": "CreditsModal",
     "fields": {
         "fitToParent": true,
@@ -19,7 +19,7 @@
                 "anchor": { "x": -0.5, "y": 0.0 },
                 "filename": "CreditsResurrected.txt",
                 "normalScrollPerSecond": 150,
-                "fastScrollPerSecond": 500,
+                "fastScrollPerSecond": 750,
                 "maxScrollPerSecond": 2000,
                 "accelerationPercentPerSecond": 0.3,
                 "onFinishMessage": "CreditsModalMessage:Finish",

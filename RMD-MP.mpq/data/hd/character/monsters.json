@@ -1073,5 +1073,8 @@
   "goblin_rmd": "goblin_rmd",
   "chainsentry1": "chargeboltsentry",
   "chainsentry2": "chargeboltsentry",
-  "chainsentry3": "null"
+  "chainsentry3": "null",
+  "wraithX": "wraith1",
+  "vampireX": "vampire1",
+  "madking": "madking"
 }

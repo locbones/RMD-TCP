@@ -86,6 +86,11 @@
     "FontColorFlatBlue": { "r": 70, "g": 142, "b": 168, "a": 255 },
     "FontColorLightLightBlue": { "r": 82, "g": 164, "b": 227, "a": 255 },
     "FontColorLightPink": { "r": 240, "g": 134, "b": 235, "a": 255 },
+    "FontColorSmokeyWhite": { "r": 196, "g": 196, "b": 196, "a": 255 },
+    "FontColorPastelRed": { "r": 235, "g": 116, "b": 110, "a": 255 },
+    "FontColorPastelGreen": { "r": 110, "g": 235, "b": 110, "a": 255 },
+    "FontColorPastelYellow": { "r": 226, "g": 235, "b": 110, "a": 255 },
+    "FontColorPastelBlue": { "r": 148, "g": 148, "b": 255, "a": 255 },
 
     // Text color presets
     "CarouselEnabledColor": "$FontColorLightGold",
@@ -552,22 +557,31 @@
         "substringColor": "$FontColorLightGray",
         "healthColor": [ 0.31, 0, 0, 1.0 ],
         "borderColor": "$TooltipBorderColor",
-        "DefaultColor": "$FontColorWhite",
-        "QuestColor": "$FontColorGoldYellow",
-        "RareColor": "$FontColorYellow",
-        "CraftedColor": "$FontColorOrange",
-        "TemperedColor": "$FontColorDarkGreen",
-        "MagicColor": "$FontColorBlue",
-        "SetColor": "$FontColorGreen",
-        "UniqueColor": "$FontColorGoldYellow",
-        "SocketedColor": "$FontColorGrey",
-        "EtherealColor": "$FontColorLightLightBlue",
-        "HealthPotionColor": "$FontColorRed",
-        "ManaPotionColor": "$FontColorWhite",
-        "RejuvPotionColor": "$FontColorWhite",
-        "GoldColor": "$FontColorWhite",
-        "RuneColor": "$FontColorOrange",
-        "EventItemsColor": "$FontColorOrange"
+        "DefaultColor": "$FontColorWhite", // =
+        "QuestColor": "$FontColorGoldYellow", // >
+        "RareColor": "$FontColorYellow", // ?
+        "CraftedColor": "$FontColorOrange", // @
+        "TemperedColor": "$FontColorDarkGreen", // A
+        "MagicColor": "$FontColorBlue", // B
+        "SetColor": "$FontColorGreen", // C
+        "UniqueColor": "$FontColorGoldYellow", // D
+        "HealthPotionColor": "$FontColorPastelGreen", // E
+        "ManaPotionColor": "$FontColorPastelYellow", // F
+        "RejuvPotionColor": "$FontColorSmokeyWhite", // G
+        "GoldColor": "$FontColorWhite", // H
+        "EtherealColor": "$FontColorLightLightBlue", // I
+        "RuneColor": "$FontColorOrange", // J
+        "SocketedColor": "$FontColorGrey", // K
+        "EventItemsColor": "$FontColorPastelRed" // L
+        // M = TAN
+        // N - TURQUOISE
+        // O = PINK
+        // P = LILAC
+        // Q = FontColorGreen
+        // R = YELLOW2
+        // S = DARKRED
+        // T = ICE BLUE 
+        // U = VIBRANT RED
     },
     "SkillIconFilenames": [
         "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\ST_Amazon_SK",

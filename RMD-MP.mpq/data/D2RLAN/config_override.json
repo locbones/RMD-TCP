@@ -5,8 +5,10 @@
   "Message Color": "ÿc0",
   "HPRolloverMods": true, // Prevents HP Rollovers on high player counts by utilizing reduction logic on damage tables and player count bonuses (below)
   "HPRollover%": 99, // The maximum percentage of damage reduction that can be applied to players damage tables
-  "HPRolloverDifficulty": 0, // Apply Rollover logic to difficulties greater than: -1 (All Difficulties), 0 (Nightmare/Hell Only), 1 (Hell Only)
+  "HPRolloverDifficulty": -1, // Apply Rollover logic to difficulties greater than: -1 (All Difficulties), 0 (Nightmare/Hell Only), 1 (Hell Only)
   "SunderedMonUMods": true, // Allows the 'sunder' mechanic to also reduce MonUMod bonuses (assuming enough -resistance% is applied)
+  "MinionEquality": true, // Allows minions of Champs/Uniques to benefit from the same drop levels
+  "GambleCostControl": true, // Allows the 'Gamble Cost' column in AMW.txt to be used for all items; a value of -1 reverts to retail cost logic'
   "DLLsToLoad": [ "D2RHUD.dll" ],
   "MemoryConfigs": [
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -62,7 +64,7 @@
       "Addresses": [ "135EF8", "135F16", "1E31CCC", "1E31D64" ],
       "Length": 4,
       "Type": "Integer",
-      "Values": "65535" //Retail Max = 8
+      "Values": "20" //Retail Max = 8
     },
     {
       "Description": "Player Difficulty Scaling Override (Command)",

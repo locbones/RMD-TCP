@@ -1,488 +1,488 @@
 Stat	*ID	Send Other	Signed	Send Bits	Send Param Bits	UpdateAnimRate	Saved	CSvSigned	CSvBits	CSvParam	fCallback	fMin	MinAccr	Encode	Add	Multiply	ValShift	1.09-Save Bits	1.09-Save Add	Save Bits	Save Add	Save Param Bits	keepzero	op	op param	op base	op stat1	op stat2	op stat3	direct	maxstat	damagerelated	itemevent1	itemeventfunc1	itemevent2	itemeventfunc2	descpriority	descfunc	descval	descstrpos	descstrneg	descstr2	dgrp	dgrpfunc	dgrpval	dgrpstrpos	dgrpstrneg	dgrpstr2	stuff	advdisplay	*eol
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
+SomethingWasHere	0																																																		0
+SomethingWasHere	1																																																		0
+SomethingWasHere	2																																																		0
+SomethingWasHere	3																																																		0
+SomethingWasHere	4																																																		0
+SomethingWasHere	5																																																		0
+SomethingWasHere	6																																																		0
+SomethingWasHere	7																																																		0
+SomethingWasHere	8																																																		0
+SomethingWasHere	9																																																		0
+SomethingWasHere	10																																																		0
+SomethingWasHere	11																																																		0
+SomethingWasHere	12																																																		0
+SomethingWasHere	13																																																		0
+SomethingWasHere	14																																																		0
+SomethingWasHere	15																																																		0
+SomethingWasHere	16																																																		0
+SomethingWasHere	17																																																		0
+SomethingWasHere	18																																																		0
+SomethingWasHere	19																																																		0
+SomethingWasHere	20																																																		0
+SomethingWasHere	21																																																		0
+SomethingWasHere	22																																																		0
+SomethingWasHere	23																																																		0
+SomethingWasHere	24																																																		0
+SomethingWasHere	25																																																		0
+SomethingWasHere	26																																																		0
+SomethingWasHere	27																																																		0
+SomethingWasHere	28																																																		0
+SomethingWasHere	29																																																		0
+SomethingWasHere	30																																																		0
+SomethingWasHere	31																																																		0
+SomethingWasHere	32																																																		0
+SomethingWasHere	33																																																		0
+SomethingWasHere	34																																																		0
+SomethingWasHere	35																																																		0
+SomethingWasHere	36																																																		0
+SomethingWasHere	37																																																		0
+SomethingWasHere	38																																																		0
+SomethingWasHere	39																																																		0
+SomethingWasHere	40																																																		0
+SomethingWasHere	41																																																		0
+SomethingWasHere	42																																																		0
+SomethingWasHere	43																																																		0
+SomethingWasHere	44																																																		0
+SomethingWasHere	45																																																		0
+SomethingWasHere	46																																																		0
+SomethingWasHere	47																																																		0
+SomethingWasHere	48																																																		0
+SomethingWasHere	49																																																		0
+SomethingWasHere	50																																																		0
+SomethingWasHere	51																																																		0
+SomethingWasHere	52																																																		0
+SomethingWasHere	53																																																		0
+SomethingWasHere	54																																																		0
+SomethingWasHere	55																																																		0
+SomethingWasHere	56																																																		0
+SomethingWasHere	57																																																		0
+SomethingWasHere	58																																																		0
+SomethingWasHere	59																																																		0
+SomethingWasHere	60																																																		0
+SomethingWasHere	61																																																		0
+SomethingWasHere	62																																																		0
+SomethingWasHere	63																																																		0
+SomethingWasHere	64																																																		0
+SomethingWasHere	65																																																		0
+SomethingWasHere	66																																																		0
+SomethingWasHere	67																																																		0
+SomethingWasHere	68																																																		0
+SomethingWasHere	69																																																		0
+SomethingWasHere	70																																																		0
+SomethingWasHere	71																																																		0
+SomethingWasHere	72																																																		0
+SomethingWasHere	73																																																		0
+SomethingWasHere	74																																																		0
+SomethingWasHere	75																																																		0
+SomethingWasHere	76																																																		0
+SomethingWasHere	77																																																		0
+SomethingWasHere	78																																																		0
+SomethingWasHere	79																																																		0
+SomethingWasHere	80																																																		0
+SomethingWasHere	81																																																		0
+SomethingWasHere	82																																																		0
+SomethingWasHere	83																																																		0
+SomethingWasHere	84																																																		0
+SomethingWasHere	85																																																		0
+SomethingWasHere	86																																																		0
+SomethingWasHere	87																																																		0
+SomethingWasHere	88																																																		0
+SomethingWasHere	89																																																		0
+SomethingWasHere	90																																																		0
+SomethingWasHere	91																																																		0
+SomethingWasHere	92																																																		0
+SomethingWasHere	93																																																		0
+SomethingWasHere	94																																																		0
+SomethingWasHere	95																																																		0
+SomethingWasHere	96																																																		0
+SomethingWasHere	97																																																		0
+SomethingWasHere	98																																																		0
+SomethingWasHere	99																																																		0
+SomethingWasHere	100																																																		0
+SomethingWasHere	101																																																		0
+SomethingWasHere	102																																																		0
+SomethingWasHere	103																																																		0
+SomethingWasHere	104																																																		0
+SomethingWasHere	105																																																		0
+SomethingWasHere	106																																																		0
+SomethingWasHere	107																																																		0
+SomethingWasHere	108																																																		0
+SomethingWasHere	109																																																		0
+SomethingWasHere	110																																																		0
+SomethingWasHere	111																																																		0
+SomethingWasHere	112																																																		0
+SomethingWasHere	113																																																		0
+SomethingWasHere	114																																																		0
+SomethingWasHere	115																																																		0
+SomethingWasHere	116																																																		0
+SomethingWasHere	117																																																		0
+SomethingWasHere	118																																																		0
+SomethingWasHere	119																																																		0
+SomethingWasHere	120																																																		0
+SomethingWasHere	121																																																		0
+SomethingWasHere	122																																																		0
+SomethingWasHere	123																																																		0
+SomethingWasHere	124																																																		0
+SomethingWasHere	125																																																		0
+SomethingWasHere	126																																																		0
+SomethingWasHere	127																																																		0
+SomethingWasHere	128																																																		0
+SomethingWasHere	129																																																		0
+SomethingWasHere	130																																																		0
+SomethingWasHere	131																																																		0
+SomethingWasHere	132																																																		0
+SomethingWasHere	133																																																		0
+SomethingWasHere	134																																																		0
+SomethingWasHere	135																																																		0
+SomethingWasHere	136																																																		0
+SomethingWasHere	137																																																		0
+SomethingWasHere	138																																																		0
+SomethingWasHere	139																																																		0
+SomethingWasHere	140																																																		0
+SomethingWasHere	141																																																		0
+SomethingWasHere	142																																																		0
+SomethingWasHere	143																																																		0
+SomethingWasHere	144																																																		0
+SomethingWasHere	145																																																		0
+SomethingWasHere	146																																																		0
+SomethingWasHere	147																																																		0
+SomethingWasHere	148																																																		0
+SomethingWasHere	149																																																		0
+SomethingWasHere	150																																																		0
+SomethingWasHere	151																																																		0
+SomethingWasHere	152																																																		0
+SomethingWasHere	153																																																		0
+SomethingWasHere	154																																																		0
+SomethingWasHere	155																																																		0
+SomethingWasHere	156																																																		0
+SomethingWasHere	157																																																		0
+SomethingWasHere	158																																																		0
+SomethingWasHere	159																																																		0
+SomethingWasHere	160																																																		0
+SomethingWasHere	161																																																		0
+SomethingWasHere	162																																																		0
+SomethingWasHere	163																																																		0
+SomethingWasHere	164																																																		0
+SomethingWasHere	165																																																		0
+SomethingWasHere	166																																																		0
+SomethingWasHere	167																																																		0
+SomethingWasHere	168																																																		0
+SomethingWasHere	169																																																		0
+SomethingWasHere	170																																																		0
+SomethingWasHere	171																																																		0
+SomethingWasHere	172																																																		0
+SomethingWasHere	173																																																		0
+SomethingWasHere	174																																																		0
+SomethingWasHere	175																																																		0
+SomethingWasHere	176																																																		0
+SomethingWasHere	177																																																		0
+SomethingWasHere	178																																																		0
+SomethingWasHere	179																																																		0
+SomethingWasHere	180																																																		0
+SomethingWasHere	181																																																		0
+SomethingWasHere	182																																																		0
+SomethingWasHere	183																																																		0
+SomethingWasHere	184																																																		0
+SomethingWasHere	185																																																		0
+SomethingWasHere	186																																																		0
+SomethingWasHere	187																																																		0
+SomethingWasHere	188																																																		0
+SomethingWasHere	189																																																		0
+SomethingWasHere	190																																																		0
+SomethingWasHere	191																																																		0
+SomethingWasHere	192																																																		0
+SomethingWasHere	193																																																		0
+SomethingWasHere	194																																																		0
+SomethingWasHere	195																																																		0
+SomethingWasHere	196																																																		0
+SomethingWasHere	197																																																		0
+SomethingWasHere	198																																																		0
+SomethingWasHere	199																																																		0
+SomethingWasHere	200																																																		0
+SomethingWasHere	201																																																		0
+SomethingWasHere	202																																																		0
+SomethingWasHere	203																																																		0
+SomethingWasHere	204																																																		0
+SomethingWasHere	205																																																		0
+SomethingWasHere	206																																																		0
+SomethingWasHere	207																																																		0
+SomethingWasHere	208																																																		0
+SomethingWasHere	209																																																		0
+SomethingWasHere	210																																																		0
+SomethingWasHere	211																																																		0
+SomethingWasHere	212																																																		0
+SomethingWasHere	213																																																		0
+SomethingWasHere	214																																																		0
+SomethingWasHere	215																																																		0
+SomethingWasHere	216																																																		0
+SomethingWasHere	217																																																		0
+SomethingWasHere	218																																																		0
+SomethingWasHere	219																																																		0
+SomethingWasHere	220																																																		0
+SomethingWasHere	221																																																		0
+SomethingWasHere	222																																																		0
+SomethingWasHere	223																																																		0
+SomethingWasHere	224																																																		0
+SomethingWasHere	225																																																		0
+SomethingWasHere	226																																																		0
+SomethingWasHere	227																																																		0
+SomethingWasHere	228																																																		0
+SomethingWasHere	229																																																		0
+SomethingWasHere	230																																																		0
+SomethingWasHere	231																																																		0
+SomethingWasHere	232																																																		0
+SomethingWasHere	233																																																		0
+SomethingWasHere	234																																																		0
+SomethingWasHere	235																																																		0
+SomethingWasHere	236																																																		0
+SomethingWasHere	237																																																		0
+SomethingWasHere	238																																																		0
+SomethingWasHere	239																																																		0
+SomethingWasHere	240																																																		0
+SomethingWasHere	241																																																		0
+SomethingWasHere	242																																																		0
+SomethingWasHere	243																																																		0
+SomethingWasHere	244																																																		0
+SomethingWasHere	245																																																		0
+SomethingWasHere	246																																																		0
+SomethingWasHere	247																																																		0
+SomethingWasHere	248																																																		0
+SomethingWasHere	249																																																		0
+SomethingWasHere	250																																																		0
+SomethingWasHere	251																																																		0
+SomethingWasHere	252																																																		0
+SomethingWasHere	253																																																		0
+SomethingWasHere	254																																																		0
+SomethingWasHere	255																																																		0
+SomethingWasHere	256																																																		0
+SomethingWasHere	257																																																		0
+SomethingWasHere	258																																																		0
+SomethingWasHere	259																																																		0
+SomethingWasHere	260																																																		0
+SomethingWasHere	261																																																		0
+SomethingWasHere	262																																																		0
+SomethingWasHere	263																																																		0
+SomethingWasHere	264																																																		0
+SomethingWasHere	265																																																		0
+SomethingWasHere	266																																																		0
+SomethingWasHere	267																																																		0
+SomethingWasHere	268																																																		0
+SomethingWasHere	269																																																		0
+SomethingWasHere	270																																																		0
+SomethingWasHere	271																																																		0
+SomethingWasHere	272																																																		0
+SomethingWasHere	273																																																		0
+SomethingWasHere	274																																																		0
+SomethingWasHere	275																																																		0
+SomethingWasHere	276																																																		0
+SomethingWasHere	277																																																		0
+SomethingWasHere	278																																																		0
+SomethingWasHere	279																																																		0
+SomethingWasHere	280																																																		0
+SomethingWasHere	281																																																		0
+SomethingWasHere	282																																																		0
+SomethingWasHere	283																																																		0
+SomethingWasHere	284																																																		0
+SomethingWasHere	285																																																		0
+SomethingWasHere	286																																																		0
+SomethingWasHere	287																																																		0
+SomethingWasHere	288																																																		0
+SomethingWasHere	289																																																		0
+SomethingWasHere	290																																																		0
+SomethingWasHere	291																																																		0
+SomethingWasHere	292																																																		0
+SomethingWasHere	293																																																		0
+SomethingWasHere	294																																																		0
+SomethingWasHere	295																																																		0
+SomethingWasHere	296																																																		0
+SomethingWasHere	297																																																		0
+SomethingWasHere	298																																																		0
+SomethingWasHere	299																																																		0
+SomethingWasHere	300																																																		0
+SomethingWasHere	301																																																		0
+SomethingWasHere	302																																																		0
+SomethingWasHere	303																																																		0
+SomethingWasHere	151																																																		0
+SomethingWasHere	305																																																		0
+SomethingWasHere	306																																																		0
+SomethingWasHere	307																																																		0
+SomethingWasHere	308																																																		0
+SomethingWasHere	309																																																		0
+SomethingWasHere	310																																																		0
+SomethingWasHere	311																																																		0
+SomethingWasHere	312																																																		0
+SomethingWasHere	313																																																		0
+SomethingWasHere	314																																																		0
+SomethingWasHere	315																																																		0
+SomethingWasHere	316																																																		0
+SomethingWasHere	317																																																		0
+SomethingWasHere	318																																																		0
+SomethingWasHere	319																																																		0
+SomethingWasHere	320																																																		0
+SomethingWasHere	321																																																		0
+SomethingWasHere	322																																																		0
+SomethingWasHere	323																																																		0
+SomethingWasHere	324																																																		0
+SomethingWasHere	325																																																		0
+SomethingWasHere	326																																																		0
+SomethingWasHere	327																																																		0
+SomethingWasHere	328																																																		0
+SomethingWasHere	329																																																		0
+SomethingWasHere	330																																																		0
+SomethingWasHere	331																																																		0
+SomethingWasHere	332																																																		0
+SomethingWasHere	333																																																		0
+SomethingWasHere	334																																																		0
+SomethingWasHere	335																																																		0
+SomethingWasHere	336																																																		0
+SomethingWasHere	337																																																		0
+SomethingWasHere	338																																																		0
+SomethingWasHere	339																																																		0
+SomethingWasHere	340																																																		0
+SomethingWasHere	341																																																		0
+SomethingWasHere	342																																																		0
+SomethingWasHere	343																																																		0
+SomethingWasHere	344																																																		0
+SomethingWasHere	345																																																		0
+SomethingWasHere	346																																																		0
+SomethingWasHere	347																																																		0
+SomethingWasHere	348																																																		0
+SomethingWasHere	349																																																		0
+SomethingWasHere	350																																																		0
+SomethingWasHere	351																																																		0
+SomethingWasHere	352																																																		0
+SomethingWasHere	353																																																		0
+SomethingWasHere	354																																																		0
+SomethingWasHere	355																																																		0
+SomethingWasHere	356																																																		0
+SomethingWasHere	357																																																		0
+SomethingWasHere	358																																																		0
+SomethingWasHere	359																																																		0
+SomethingWasHere	360																																																		0
+SomethingWasHere	361																																																		0
+SomethingWasHere	362																																																		0
+SomethingWasHere	363																																																		0
+SomethingWasHere	364																																																		0
+SomethingWasHere	365																																																		0
+SomethingWasHere	366																																																		0
+SomethingWasHere	367																																																		0
+SomethingWasHere	368																																																		0
+SomethingWasHere	369																																																		0
+SomethingWasHere	370																																																		0
+SomethingWasHere	371																																																		0
+SomethingWasHere	372																																																		0
+SomethingWasHere	373																																																		0
+SomethingWasHere	374																																																		0
+SomethingWasHere	375																																																		0
+SomethingWasHere	376																																																		0
+SomethingWasHere	377																																																		0
+SomethingWasHere	378																																																		0
+SomethingWasHere	379																																																		0
+SomethingWasHere	380																																																		0
+SomethingWasHere	381																																																		0
+SomethingWasHere	382																																																		0
+SomethingWasHere	383																																																		0
+SomethingWasHere	384																																																		0
+SomethingWasHere	385																																																		0
+SomethingWasHere	386																																																		0
+SomethingWasHere	387																																																		0
+SomethingWasHere	388																																																		0
+SomethingWasHere	389																																																		0
+SomethingWasHere	390																																																		0
+SomethingWasHere	391																																																		0
+SomethingWasHere	392																																																		0
+SomethingWasHere	393																																																		0
+SomethingWasHere	394																																																		0
+SomethingWasHere	395																																																		0
+SomethingWasHere	396																																																		0
+SomethingWasHere	397																																																		0
+SomethingWasHere	398																																																		0
+SomethingWasHere	385																																																		0
+SomethingWasHere	400																																																		0
+SomethingWasHere	401																																																		0
+SomethingWasHere	402																																																		0
+SomethingWasHere	403																																																		0
+SomethingWasHere	404																																																		0
+SomethingWasHere	405																																																		0
+SomethingWasHere	406																																																		0
+SomethingWasHere	407																																																		0
+SomethingWasHere	408																																																		0
+SomethingWasHere	409																																																		0
+SomethingWasHere	410																																																		0
+SomethingWasHere	411																																																		0
+SomethingWasHere	412																																																		0
+SomethingWasHere	413																																																		0
+SomethingWasHere	414																																																		0
+SomethingWasHere	415																																																		0
+SomethingWasHere	416																																																		0
+SomethingWasHere	417																																																		0
+SomethingWasHere	418																																																		0
+SomethingWasHere	419																																																		0
+SomethingWasHere	420																																																		0
+SomethingWasHere	421																																																		0
+SomethingWasHere	422																																																		0
+SomethingWasHere	423																																																		0
+SomethingWasHere	424																																																		0
+SomethingWasHere	425																																																		0
+SomethingWasHere	426																																																		0
+SomethingWasHere	427																																																		0
+SomethingWasHere	428																																																		0
+SomethingWasHere	429																																																		0
+SomethingWasHere	430																																																		0
+SomethingWasHere	431																																																		0
+SomethingWasHere	432																																																		0
 color_dye	433		1	6											0	0		1	0	6	23																														0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
-stuff_used_to_be_here																																																			0
+SomethingWasHere	434																																																		0
+SomethingWasHere	435																																																		0
+SomethingWasHere	436																																																		0
+SomethingWasHere	437																																																		0
+SomethingWasHere	438																																																		0
+SomethingWasHere	439																																																		0
+SomethingWasHere	440																																																		0
+SomethingWasHere	441																																																		0
+SomethingWasHere	442																																																		0
+SomethingWasHere	443																																																		0
+SomethingWasHere	444																																																		0
+SomethingWasHere	445																																																		0
+SomethingWasHere	446																																																		0
+SomethingWasHere	447																																																		0
+SomethingWasHere	448																																																		0
+SomethingWasHere	449																																																		0
+SomethingWasHere	450																																																		0
+SomethingWasHere	451																																																		0
+SomethingWasHere	452																																																		0
+SomethingWasHere	453																																																		0
+SomethingWasHere	454																																																		0
+SomethingWasHere	455																																																		0
+SomethingWasHere	456																																																		0
+SomethingWasHere	457																																																		0
+SomethingWasHere	458																																																		0
+SomethingWasHere	459																																																		0
+SomethingWasHere	460																																																		0
+SomethingWasHere	461																																																		0
+SomethingWasHere	462																																																		0
+SomethingWasHere	463																																																		0
+SomethingWasHere	464																																																		0
+SomethingWasHere	465																																																		0
+SomethingWasHere	466																																																		0
+SomethingWasHere	467																																																		0
+SomethingWasHere	468																																																		0
+SomethingWasHere	469																																																		0
+SomethingWasHere	470																																																		0
+SomethingWasHere	471																																																		0
+SomethingWasHere	472																																																		0
+SomethingWasHere	473																																																		0
+SomethingWasHere	474																																																		0
+SomethingWasHere	475																																																		0
+SomethingWasHere	476																																																		0
+SomethingWasHere	477																																																		0
+SomethingWasHere	478																																																		0
+SomethingWasHere	479																																																		0
+SomethingWasHere	480																																																		0
+SomethingWasHere	481																																																		0
+SomethingWasHere	482																																																		0
+SomethingWasHere	483																																																		0
+SomethingWasHere	484																																																		0
+SomethingWasHere	485																																																		0
+SomethingWasHere	486																																																		0

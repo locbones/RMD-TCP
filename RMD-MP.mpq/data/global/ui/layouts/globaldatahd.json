@@ -32,7 +32,7 @@
                      // ITRANSFORMCLASS_GREY2 - Used
                      {
                          "hue": [ 0.0, 0.501 ],
-                         "saturation": [ 0.74, 0.74 ],
+                         "saturation": [ 0.14, 0.14 ],
                          "value": [ 0.425, 0.54 ]
                      },
                      // ITRANSFORMCLASS_GOLD
@@ -42,7 +42,7 @@
                      // ITRANSFORMCLASS_GREYBROWN - Used
                      {
                          "hue": [ 0.0, 0.501 ],
-                         "saturation": [ 0.145, 0.205 ],
+                         "saturation": [ 0.175, 0.175 ],
                          "value": [ 0.9, 0.9 ]
                      },
                      // ITRANSFORMCLASS_INV_GREY
@@ -52,7 +52,7 @@
                      // ITRANSFORMCLASS_INV_GREYBROWN - Used
                      {
                          "hue": [ 0.05, 0.06 ], //[ 0.03, 0.05 ],
-                         "saturation": [ 0.7, 0.701 ],
+                         "saturation": [ 0.5, 0.501 ],
                          "value": [ 0.585, 0.915 ]
                      }
                 ],
