@@ -5575,7 +5575,7 @@
                                 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword102@nl@white@rlvl 3@nl@blue +10% @atkspd@nl +25% @pierce@nl +15-30% @dmgperc@nl +6@max@dmg@nl +15 @pdo 4 @seconds@nl @ModStr1y@nl +1 @spellpower@nl@nl@runelow 40@runemid 0@runehigh 0@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword102@nl@white@rlvl 3@nl@blue +10% @atkspd@nl +25% @pierce@nl +15-30% @dmgperc@nl +6 @max @dmg@nl +15 @pdo 4 @seconds@nl @ModStr1y@nl +1 @spellpower@nl@nl@runelow 40@runemid 0@runehigh 0@runeultra 0@canforge"
                             }
                         },
                         {

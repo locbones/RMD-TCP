@@ -30619,19 +30619,19 @@
   {
     "id": 50472,
     "Key": "a06",
-	  "deDE": "Ÿc5Congratulations Held!  Würfeln Sie dies mit Ihrem Mythos -Protokoll.",
-	  "enUS": "ÿc5Congratulations Hero! Cube this with your Mythos Log Charm\nto unlock your 3rd Limit Break and powerful new features\nÿc4Scroll of Triumph",
-	  "esES": "ÿC5Conratulations Hero!  Cube esto con su encanto de registro mythos \nto desbloquee su tercer descanso límite y potentes nuevas características \nÿc4scroll de triunfo",
-	  "esMX": "ÿC5Conratulations Hero!  Cube esto con su encanto de registro mythos \nto desbloquee su tercer descanso límite y potentes nuevas características \nÿc4scroll de triunfo",
-	  "frFR": "ÿC5Congratulating Hero!  Cube ceci avec votre Mythos Log Charm \nto Déverrouiller votre 3e limite et les nouvelles fonctionnalités puissantes \nÿC4SCROLL OF TRIUMPH",
-	  "itIT": "ÿC5CONGRATULATION HERO!  Cube questo con il tuo fascino del registro Mythos \nto sblocca il tuo terzo limite di rottura e potenti nuove funzionalità \nÿc4scroll di trionfo",
-	  "jaJP": "C5CongratulationSヒーロー！ あなたのMythos Log Charm \nでこれをキューブして、3番目の制限ブレークと強力な新機能のロックを解除してください",
-	  "koKR": "ÿc5세 번째 리미트 브레이크와 강력한 신규 기능이 열릴 것이네\n축하하네, 영웅이여! 이 아이템을 신화의 조각상과 큐브에 넣으면\nÿc4승리의 두루마리",
-	  "plPL": "ÿC5Congratulations Hero!  Cube to za pomocą swojego uroku dziennika mitów \nto odblokowanie trzeciej przerwy w limicie i potężne nowe funkcje \nÿC4Scroll of Triumph",
-	  "ptBR": "Herói Herói!  Cubo isto com o seu charme de log mythos \nto desbloqueio sua 3ª quebra de limite e novos recursos poderosos \nÿc4scroll of triunph",
-	  "ruRU": "ÿc5congratulations Герой!  Cube this с вашим Log Charm \nto разблокировать свой третий лимит и мощные новые функции \nÿc4scroll Triumph",
-	  "zhCN": "•c5综合英雄！  Cube用您的神话记录符\n to解锁您的第三个限制中断和强大的新功能\n设施",
-	  "zhTW": "•c5綜合英雄！ Cube用您的神話記錄符\n to解鎖您的第三個限制中斷和強大的新功能\n設施"
+	  "deDE": "ÿc4Rolle des Triumphs",
+	  "enUS": "ÿc4Scroll of Triumph",
+	  "esES": "ÿc4Pergamino del triunfo",
+	  "esMX": "ÿc4Pergamino del triunfo",
+	  "frFR": "ÿc4Parchemin de triomphe",
+	  "itIT": "ÿc4Pergamena del Trionfo",
+	  "jaJP": "ÿc4勝利の巻物",
+	  "koKR": "ÿc4승리의 두루마리",
+	  "plPL": "ÿc4Zwój Triumfu",
+	  "ptBR": "ÿc4Pergaminho do Triunfo",
+	  "ruRU": "ÿc4Свиток триумфа",
+	  "zhCN": "ÿc4凯旋卷轴",
+	  "zhTW": "ÿc4凱旋捲軸"
   },
   {
     "id": 50784,
@@ -39370,5 +39370,22 @@
 	  "ptBR": "Presas da Serpente",
 	  "ruRU": "Клыки змея",
 	  "zhCN": "蛇的牙"
+  },
+  {
+    "id": 51361,
+    "Key": "Shadow Hunter",
+	  "enUS": "Shadow Hunter",
+	  "zhTW": "暗影獵手",
+	  "deDE": "Schattenjäger",
+	  "esES": "Cazador de sombras",
+	  "frFR": "Chasseur d'Ombres",
+	  "itIT": "Cacciatore di ombre",
+	  "koKR": "섀도우헌터",
+	  "plPL": "Łowca Cieni",
+	  "esMX": "Cazador de sombras",
+	  "jaJP": "シャドウハンター",
+	  "ptBR": "Caçador de Sombras",
+	  "ruRU": "Теневой охотник",
+	  "zhCN": "暗影猎手"
 }
 ]

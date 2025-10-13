@@ -782,10 +782,10 @@ Council (H)			3	650	800	800	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip A	15	Act 4 
 Griswold			-4					0	Act 1 Uitem C	1	Act 1 Melee B	2	Griswold (NM) Flavor	1																		0
 Griswold (N)			-4					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2	Griswold (NM) Flavor	1																		0
 Griswold (H)			5					0	Act 1 (H) Uitem C	10	Act 1 (H) Melee B	20	Goodies - Griswold	2																		0
-Cow			1					1000	gld	250	Act 5 Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-Cow (N)			1					1000	gld	250	Act 5 (N) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-Cow (H)	35	85	1					1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-Cow (H)2	35	103	1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55	TreasureChestsGroupB	8																0
+Cow			1					1000	gld	250	Act 5 Equip C	250	Act 5 Good	55																		0
+Cow (N)			1					1000	gld	250	Act 5 (N) Equip C	250	Act 5 Good	55																		0
+Cow (H)	35	85	1					1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55																		0
+Cow (H)2	35	103	1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55																		0
 Trapped Soul			1					100	gld	19	Act 4 Equip A	8	Act 4 Junk	33																		0
 Trapped Soul (N)			1					100	gld	19	Act 4 (N) Equip A	8	Act 4 (N) Junk	33																		0
 Trapped Soul (H)			1					100	gld	19	Act 4 (H) Equip A	8	Act 4 (H) Junk	33																		0
@@ -1096,7 +1096,7 @@ Ventar (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip C	19	Act 5 
 CountPatreonA			1	926	875	1024	1024		Act 3 Equip A	1																						0
 CountPatreonB			1	926	875	1024	1024		Act 3 (N) Equip A	1																						0
 CountPatreonC			1	926	875	1024	1024		Act 3 (H) Equip A	19	Hygieia's Purity	1																				0
-FakeCows			1	256	384	512	640	1000	gld	250	Act 5 Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-FakeCows (N)			1	256	384	512	640	1000	gld	250	Act 5 (N) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-FakeCows (H)	36	85	1	256	384	512	640	1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55	TreasureChestsGroupB	8																0
-FakeCows (H)2	36	103	1	256	384	512	640	1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55	TreasureChestsGroupB	8																0
+FakeCows			1	256	384	512	640	1000	gld	250	Act 5 Equip C	250	Act 5 Good	55																		0
+FakeCows (N)			1	256	384	512	640	1000	gld	250	Act 5 (N) Equip C	250	Act 5 Good	55																		0
+FakeCows (H)	36	85	1	256	384	512	640	1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55																		0
+FakeCows (H)2	36	103	1	256	384	512	640	1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55																		0
