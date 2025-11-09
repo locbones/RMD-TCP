@@ -3105,7 +3105,7 @@
                                 "rect": { "x": -40, "y": 5600 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword112@nl@white@rlvl 47@nl@blue +25% @run@nl +140-170% @dmgperc@nl @allres +25-35%@nl @pdr 3@nl @mdr 13@nl +2 @mak@nl +1 @lradius@nl @repairdur@nl@nl@runelow 4@runemid 0@runehigh 1@runeultra 0"
+                                "tooltipString": "@tan@Runeword112@nl@white@rlvl 47@nl@blue +25% @hitrecovery@nl +140-170% @defperc@nl @allres +25-35%@nl @pdr 3@nl @mdr 13@nl +2 @mak@nl +1 @lradius@nl @repairdur@nl@nl@runelow 4@runemid 0@runehigh 1@runeultra 0"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -4823,7 +4823,7 @@
                                 "rect": { "x": -40, "y": 8800 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword101@nl@white@rlvl 3@nl@blue +10% @atkspd@nl +25% @pierce@nl +15-30% @dmgperc@nl +6@max@dmg@nl +15 @pdo 4 @seconds@nl @ModStr1y@nl +1 @spellpower@nl@nl@runelow 40@runemid 0@runehigh 0@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword102@nl@white@rlvl 3@nl@blue +10% @atkspd@nl +25% @pierce@nl +15-30% @dmgperc@nl +6 @max @dmg@nl +15 @pdo 4 @seconds@nl @ModStr1y@nl +1 @spellpower@nl@nl@runelow 40@runemid 0@runehigh 0@runeultra 0@canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

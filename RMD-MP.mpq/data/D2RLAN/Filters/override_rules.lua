@@ -1381,7 +1381,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} +30 Verteidigung\n{green}Helme/Gürtel:{white} +10 auf Stärke\n{green}Rüstungen/Stiefel:{white} +10 auf Stärke\n{green}Waffen/Handschuhe:{white} +150 auf Angriffswert\n{turquoise}Edelsteinvorschau:\n\n{white}(Edelsteinpunkte{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +30 Defense\n{green}Helms/Belts:{white} +10 to Strength\n{green}Armors/Boots:{white} +10 to Strength\n{green}Weapons/Gloves:{white} +150 to Attack Rating\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +30 Defense\n{green}Helms/Belts:{white} +10 to Strength\n{green}Armors/Boots:{white} +10 to Strength\n{green}Weapons/Gloves:{white} +150 to Attack Rating\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} +30 Defensa\n{green}Yelmos/Cinturones:{white} +10 a Fuerza\n{green}Armaduras/Botas:{white} +10 a Fuerza\n{green}Armas/Guantes:{white} +150 a Índice de Ataque\n{turquoise}Vista previa de la gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} +30 Defensa\n{green}Yelmos/Cinturones:{white} +10 a Fuerza\n{green}Armaduras/Botas:{white} +10 a Fuerza\n{green}Armas/Guantes:{white} +150 a Índice de Ataque\n{turquoise}Vista previa de la gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 frFR = "{tan}Cube seul pour passer au type de dissolvant suivant\n\n{green}Boucliers/Bijoux :{white} +30 Défense\n{green}Casques/Ceintures :{white} +10 à la Force\n{green}Armures/Bottes :{white} +10 à la Force\n{green}Armes/Gants :{white} +150 à la valeur d'attaque\n{turquoise}Aperçu des gemmes :\n\n{white}(Points de gemmes{blue} -1{white})\n",
@@ -1400,7 +1400,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} Blitzresistenz +40%%\n{green}Helme/Gürtel:{white} 24%% bessere Chance, magische Gegenstände zu erhalten\n{green}Rüstungen/Stiefel:{white} 24%% bessere Chance, magische Gegenstände zu erhalten\n{green}Waffen/Handschuhe:{white} Fügt 1-40 Blitzschaden hinzu\n{turquoise}Edelsteinvorschau:\n\n{white}(Edelsteinpunkte{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Lightning Resist +40%%\n{green}Helms/Belts:{white} 24%% Better Chance of Getting Magic Items\n{green}Armors/Boots:{white} 24%% Better Chance of Getting Magic Items\n{green}Weapons/Gloves:{white} Adds 1-40 lightning damage\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Lightning Resist +40%%\n{green}Helms/Belts:{white} 24%% Better Chance of Getting Magic Items\n{green}Armors/Boots:{white} 24%% Better Chance of Getting Magic Items\n{green}Weapons/Gloves:{white} Adds 1-40 lightning damage\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} Resistencia al rayo +40%%\n{green}Yelmos/Cinturones:{white} 24%% más de probabilidad de obtener objetos mágicos\n{green}Armaduras/Botas:{white} 24%% más de probabilidad de obtener objetos mágicos\n{green}Armas/Guantes:{white} Añade 1-40 de daño por rayo\n{turquoise}Vista previa de la gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} Resistencia al rayo +40%%\n{green}Yelmos/Cinturones:{white} 24%% más de probabilidad de obtener objetos mágicos\n{green}Armaduras/Botas:{white} 24%% más de probabilidad de obtener objetos mágicos\n{green}Armas/Guantes:{white} Añade 1-40 de daño por rayo\n{turquoise}Vista previa de la gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 frFR = "{tan}Cube seul pour passer au type de dissolvant suivant\n\n{green}Boucliers/Bijoux :{white} Résistance à la foudre +40 %\n{green}Casques/Ceintures :{white} Chances supplémentaires de 24 % pour obtenir des objets magiques\n{green}Armures/Bottes :{white} Chances supplémentaires de 24 % pour obtenir des objets magiques\n{green}Armures/Gants :{white} Ajoute 1 à 40 points de dégâts de foudre\n{turquoise}Aperçu des gemmes :\n\n{white}(Points de gemmes{blue} -1{white})\n",
@@ -1419,7 +1419,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} Kälteresistenz +40%%\n{green}Helme/Gürtel:{white} +38 auf Mana\n{green}Rüstungen/Stiefel:{white} +38 auf Mana\n{green}Waffen/Handschuhe:{white} Fügt 10-14 Kälteschaden hinzu\n{turquoise}Edelsteinvorschau:\n\n{white}(Edelsteinpunkte{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Cold Resist +40%%\n{green}Helms/Belts:{white} +38 to Mana\n{green}Armors/Boots:{white} +38 to Mana\n{green}Weapons/Gloves:{white} Adds 10-14 cold damage\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Cold Resist +40%%\n{green}Helms/Belts:{white} +38 to Mana\n{green}Armors/Boots:{white} +38 to Mana\n{green}Weapons/Gloves:{white} Adds 10-14 cold damage\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green} Escudos/Joyas:{white} Resistencia al frío +40%%\n{green} Cascos/Cinturones:{white} +38 al maná\n{green} Armaduras/Botas:{white} +38 al maná\n{green} Armas/Guantes:{white} Agrega 10-14 de daño por frío\n{turquoise} Vista previa de gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green} Escudos/Joyas:{white} Resistencia al frío +40%%\n{green} Cascos/Cinturones:{white} +38 al maná\n{green} Armaduras/Botas:{white} +38 al maná\n{green} Armas/Guantes:{white} Agrega 10-14 de daño por frío\n{turquoise} Vista previa de gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 frFR = "{tan}Cube seul pour passer au type de dissolvant suivant\n\n{green}Boucliers/Bijoux :{white} Résistance au froid +40 %\n{green}Casques/Ceintures :{white} +38 au mana\n{green}Armures/Bottes :{white} +38 au mana\n{green}Armes/Gants :{white} Ajoute 10 à 14 dégâts de froid\n{turquoise}Aperçu des gemmes :\n\n{white}(Points de gemmes{blue} -1{white})\n",
@@ -1438,7 +1438,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} Giftresistenz +40%%\n{green}Helme/Gürtel:{white} +10 auf Geschicklichkeit\n{green}Rüstungen/Stiefel:{white} +10 auf Geschicklichkeit\n{green}Waffen/Handschuhe:{white} +100 Giftschaden über 7 Sekunden\n{turquoise}Edelsteinvorschau:\n\n{white}(Edelsteinpunkte{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Poison Resist +40%%\n{green}Helms/Belts:{white} +10 to Dexterity\n{green}Armors/Boots:{white} +10 to Dexterity\n{green}Weapons/Gloves:{white} +100 poison damage over 7 seconds\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Poison Resist +40%%\n{green}Helms/Belts:{white} +10 to Dexterity\n{green}Armors/Boots:{white} +10 to Dexterity\n{green}Weapons/Gloves:{white} +100 poison damage over 7 seconds\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} Resistencia al veneno +40%%\n{green}Yelmos/Cinturones:{white} +10 a Destreza\n{green}Armaduras/Botas:{white} +10 a Destreza\n{green}Armas/Guantes:{white} +100 de daño por veneno durante 7 segundos\n{turquoise}Vista previa de la gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} Resistencia al veneno +40%%\n{green}Yelmos/Cinturones:{white} +10 a Destreza\n{green}Armaduras/Botas:{white} +10 a Destreza\n{green}Armas/Guantes:{white} +100 de daño por veneno durante 7 segundos\n{turquoise}Vista previa de la gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 frFR = "{tan}Cube seul pour passer au type de dissolvant suivant\n\n{green}Boucliers/Bijoux :{white} Résistance au poison +40 %\n{green}Casques/Ceintures :{white} +10 à la dextérité\n{green}Armures/Bottes :{white} +10 à la dextérité\n{green}Armes/Gants :{white} +100 dégâts de poison en 7 secondes\n{turquoise}Aperçu des gemmes :\n\n{white}(Points de gemmes{blue} -1{white})\n",
@@ -1457,7 +1457,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} Feuerresistenz +40%%\n{green}Helme/Gürtel:{white} +38 zum Leben\n{green}Rüstungen/Stiefel:{white} +38 zum Leben\n{green}Waffen/Handschuhe:{white} Fügt 15-20 Feuerschaden hinzu\n{turquoise}Edelsteinvorschau:\n\n{white}(Edelsteinpunkte{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Fire Resist +40%%\n{green}Helms/Belts:{white} +38 to Life\n{green}Armors/Boots:{white} +38 to Life\n{green}Weapons/Gloves:{white} Adds 15-20 fire damage\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Fire Resist +40%%\n{green}Helms/Belts:{white} +38 to Life\n{green}Armors/Boots:{white} +38 to Life\n{green}Weapons/Gloves:{white} Adds 15-20 fire damage\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
                 esES = "{tan}Usa el cubo solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} Resistencia al fuego +40%%\n{green}Yelmos/Cinturones:{white} +38 a la vida\n{green}Armaduras/Botas:{white} +38 a la vida\n{green}Armas/Guantes:{white} Añade 15-20 de daño por fuego\n{turquoise}Vista previa de la gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 esMX = "{tan}Usa el cubo solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} Resistencia al fuego +40%%\n{green}Yelmos/Cinturones:{white} +38 a la vida\n{green}Armaduras/Botas:{white} +38 a la vida\n{green}Armas/Guantes:{white} Añade 15-20 de daño por fuego\n{turquoise}Vista previa de la gema:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 frFR = "{tan}Cube seul pour passer au type de dissolvant suivant\n\n{green}Boucliers/Bijoux :{white} Résistance au feu +40 %\n{green}Casques/Ceintures :{white} +38 à la vie\n{green}Armures/Bottes :{white} +38 à la vie\n{green}Armes/Gants :{white} Ajoute 15 à 20 points de dégâts de feu\n{turquoise}Aperçu des gemmes :\n\n{white}(Points de gemmes{blue} -1{white})\n",
@@ -1476,7 +1476,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} Alle Widerstände +19%%\n{green}Helme/Gürtel:{white} +100 auf Angriffswert\n{green}Rüstungen/Stiefel:{white} +100 auf Angriffswert\n{green}Waffen/Handschuhe:{white} +68%% Schaden an Untoten\n{turquoise}Edelsteinvorschau:\n\n{white}(Edelsteinpunkte{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} All Resistances +19%%\n{green}Helms/Belts:{white} +100 to Attack Rating\n{green}Armors/Boots:{white} +100 to Attack Rating\n{green}Weapons/Gloves:{white} +68%% Damage to Undead\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} All Resistances +19%%\n{green}Helms/Belts:{white} +100 to Attack Rating\n{green}Armors/Boots:{white} +100 to Attack Rating\n{green}Weapons/Gloves:{white} +68%% Damage to Undead\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green} Escudos/Joyas:{white} Todas las resistencias +19%%\n{green} Cascos/Cinturones:{white} +100 al índice de ataque\n{green} Armaduras/Botas:{white} +100 al índice de ataque\n{green} Armas/Guantes:{white} +68%% Daño a no muertos\n{turquoise} Vista previa de gemas:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green} Escudos/Joyas:{white} Todas las resistencias +19%%\n{green} Cascos/Cinturones:{white} +100 al índice de ataque\n{green} Armaduras/Botas:{white} +100 al índice de ataque\n{green} Armas/Guantes:{white} +68%% Daño a no muertos\n{turquoise} Vista previa de gemas:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 frFR = "{tan}Cube seul pour passer au type de dissolvant suivant\n\n{green}Boucliers/Bijoux :{white} Toutes les résistances +19 %\n{green}Casques/Ceintures :{white} +100 au taux d'attaque\n{green}Armures/Bottes :{white} +100 au taux d'attaque\n{green}Armures/Gants :{white} +68 % de dégâts aux morts-vivants\n{turquoise}Aperçu des gemmes :\n\n{white}(Points de gemmes{blue} -1{white})\n",
@@ -1495,7 +1495,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} Angreifer erleidet Schaden von 20\n{green}Helme/Gürtel:{white} Mana regenerieren 19%%, Leben auffüllen +5\n{green}Rüstungen/Stiefel:{white} Mana regenerieren 19%%, Leben auffüllen +5\n{green}Waffen/Handschuhe:{white} 4%% Leben pro Treffer gestohlen, 3%% Mana pro Treffer gestohlen\n{turquoise}Edelsteinvorschau:\n\n{white}(Edelsteinpunkte{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Attacker Takes Damage of 20\n{green}Helms/Belts:{white} Regenerate Mana 19%%, Replenish Life +5\n{green}Armors/Boots:{white} Regenerate Mana 19%%, Replenish Life +5\n{green}Weapons/Gloves:{white} 4%% Life stolen per hit, 3%% Mana stolen per hit\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Attacker Takes Damage of 20\n{green}Helms/Belts:{white} Regenerate Mana 19%%, Replenish Life +5\n{green}Armors/Boots:{white} Regenerate Mana 19%%, Replenish Life +5\n{green}Weapons/Gloves:{white} 4%% Life stolen per hit, 3%% Mana stolen per hit\n{turquoise}Gem Preview:\n\n{white}(Gem Points{blue} -1{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green} Escudos/Joyas:{white} El atacante recibe 20 de daño\n{green} Cascos/Cinturones:{white} Regeneración de maná 19%%, Reposición de vida +5\n{green} Armaduras/Botas:{white} Regeneración de maná 19%%, Reposición de vida +5\n{green} Armas/Guantes:{white} 4%% de vida robada por golpe, 3%% de maná robado por golpe\n{turquoise} Vista previa de gemas:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de removedor\n\n{green} Escudos/Joyas:{white} El atacante recibe 20 de daño\n{green} Cascos/Cinturones:{white} Regeneración de maná 19%%, Reposición de vida +5\n{green} Armaduras/Botas:{white} Regeneración de maná 19%%, Reposición de vida +5\n{green} Armas/Guantes:{white} 4%% de vida robada por golpe, 3%% de maná robado por golpe\n{turquoise} Vista previa de gemas:\n\n{white}(Puntos de gema{blue} -1{white})\n",
                 frFR = "{tan}Cube seul pour passer au type de dissolvant suivant\n\n{green}Boucliers/Bijoux :{white} L'attaquant subit des dégâts de 20\n{green}Casques/Ceintures :{white} Régénération de mana de 19 %, Régénération de vie +5\n{green}Armures/Bottes :{white} Régénération de mana de 19 %, Régénération de vie +5\n{green}Armures/Gants :{white} 4 % de vie volée par coup, 3 % de mana volé par coup\n{turquoise}Aperçu des gemmes :\n\n{white}(Points de gemmes{blue} -1{white})\n",
@@ -1514,7 +1514,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +15 Verteidigung,\n+1 Lichtradius\n{green}Helm/Gürtel:{white} +10 Verteidigung,\n+1 Lichtradius\n{green}Rüstungen/Stiefel:{white} +10 Verteidigung,\n+1 Lichtradius\nn{green}Waffen/Handschuhe:{white} +30 Angriffswert,\n+1 Lichtradius\n{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +15 Defense,\n+1 to Light Radius\n{green}Helms/Belts:{white} +10 Defense,\n+1 to Light Radius\n{green}Armors/Boots:{white} +10 Defense,\n+1 to Light Radius\n{green}Weapons/Gloves:{white} +30 to Attack Rating,\n+1 to Light Radius\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +15 Defense,\n+1 to Light Radius\n{green}Helms/Belts:{white} +10 Defense,\n+1 to Light Radius\n{green}Armors/Boots:{white} +10 Defense,\n+1 to Light Radius\n{green}Weapons/Gloves:{white} +30 to Attack Rating,\n+1 to Light Radius\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -1{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyería:{white} 15 Defensa, 1 a radio de luz\n{green}Yelmos/Cinturones:{white} 10 Defensa, 1 a radio de luz\n{green}Armaduras/Botas:{white} 10 Defensa, 1 a radio de luz\nn{green}Armas/guantes:{white} 30 de índice de ataque, 1 de radio de luz\nÿcVista previa de la carrera:\n\n{white}(Puntos bajos{blue} -1{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyería:{white} 15 Defensa, 1 a radio de luz\n{green}Yelmos/Cinturones:{white} 10 Defensa, 1 a radio de luz\n{green}Armaduras/Botas:{white} 10 Defensa, 1 a radio de luz\nn{green}Armas/guantes:{white} 30 de índice de ataque, 1 de radio de luz\nÿcVista previa de la carrera:\n\n{white}(Puntos bajos{blue} -1{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 15 Difesa, 1 a raggio leggero\n{green}Elmi/Cinture:{white} 10 Difesa, 1 a raggio leggero\n{green}Armature/Stivali:{white} 10 Difesa, 1 a raggio leggero\nn{green}Armi/Guanti:{white} 30 al grado di attacco, 1 al raggio di luce\n{turquoise}Rune Anteprima:\n\n{white}(Punti bassi{blue} -1{white})\n",
@@ -1533,7 +1533,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} 7%% Blockchance\n{green}Helme/Gürtel:{white} +5%% Lauftempo\n{green}Rüstungen/Stiefel:{white} +5%% Lauftempo\n{green}Waffen/Handschuhe:{white} +75%% Schaden und 50%% Angriffswert gegen Untote\n{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -2{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} 7%% Increased Chance of Blocking\n{green}Helms/Belts:{white} +5%% Faster Run/Walk\n{green}Armors/Boots:{white} +5%% Faster Run/Walk\n{green}Weapons/Gloves:{white} +75%% Damage and +50%% Attack Rating to Undead\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -2{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} 7%% Increased Chance of Blocking\n{green}Helms/Belts:{white} +5%% Faster Run/Walk\n{green}Armors/Boots:{white} +5%% Faster Run/Walk\n{green}Weapons/Gloves:{white} +75%% Damage and +50%% Attack Rating to Undead\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -2{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 7%% de mayor probabilidad de bloqueo\n{green}Yelmos/cinturones:{white} 5%% más rápido para correr/caminar\n{green}Armaduras/botas:{white} {white} 5%% más rápido para correr/caminar\n{green}Armas/guantes: {white} 75%% de daño y 50%% de índice de ataque a muertos vivientes\n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -2{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 7%% de mayor probabilidad de bloqueo\n{green}Yelmos/cinturones:{white} 5%% más rápido para correr/caminar\n{green}Armaduras/botas:{white} {white} 5%% más rápido para correr/caminar\n{green}Armas/guantes: {white} 75%% de daño y 50%% de índice de ataque a muertos vivientes\n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -2{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 7%% Aumentata possibilità di blocco\n{green}Elmi/Cinture:{white} Corsa/camminata più veloce del 5%%\n{green}Armature/Stivali:{white} Corsa/camminata più veloce del 5%%\n{green}Armi/Guanti: {white} 75%% di danno e 50%% di attacco ai non morti\n{turquoise}Rune Anteprima:\n\n{white}(Punti bassi{blue} -2{white})\n",
@@ -1552,7 +1552,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +2 Mana pro Kill\n{green}Helme/Gürtel:{white} +2 Mana pro Kill\n{green}Rüstungen/Stiefel:{white} +2 Mana pro Kill\n{green}Waffen/Handschuhe:{white} +2 Mana pro Kill\n{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -4{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +2 Mana after each kill\n{green}Helms/Belts:{white} +2 Mana after each kill\n{green}Armors/Boots:{white} +2 Mana after each kill\n{green}Weapons/Gloves:{white} +2 Mana after each kill\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -4{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +2 Mana after each kill\n{green}Helms/Belts:{white} +2 Mana after each kill\n{green}Armors/Boots:{white} +2 Mana after each kill\n{green}Weapons/Gloves:{white} +2 Mana after each kill\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -4{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 2 de maná después de cada muerte\n{green}Yelmos/cinturones:{white} 2 de maná después de cada muerte\n{green}Armaduras/botas:{white} 2 de maná después de cada muerte\n{green}Armas/guantes:{white} 2  Maná después de cada muerte\n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -4{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 2 de maná después de cada muerte\n{green}Yelmos/cinturones:{white} 2 de maná después de cada muerte\n{green}Armaduras/botas:{white} 2 de maná después de cada muerte\n{green}Armas/guantes:{white} 2  Maná después de cada muerte\n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -4{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 2 Mana dopo ogni uccisione\n{green}Elmi/Cinture:{white} 2 Mana dopo ogni uccisione\n{green}Armature/Stivali:{white} 2 Mana dopo ogni uccisione\n{green}Armi/Guanti:{white} 2  Mana dopo ogni uccisione\n{turquoise}Rune Anteprima:\n\n{white}(Punti bassi{blue} -4{white})\n",
@@ -1571,7 +1571,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +30 Projektilverteidigung\n{green}Helm/Gürtel:{white} +30 Projektilverteidigung\n{green}Rüstungen/Stiefel:{white} +30 Projektilverteidigung\n{green}Waffen/Handschuhe:{white} Rückstoß\nn{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -8{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +30 Defense vs. Missile\n{green}Helms/Belts:{white} +30 Defense vs. Missile\n{green}Armors/Boots:{white} +30 Defense vs. Missile\n{green}Weapons/Gloves:{white} Knockback\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -8{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +30 Defense vs. Missile\n{green}Helms/Belts:{white} +30 Defense vs. Missile\n{green}Armors/Boots:{white} +30 Defense vs. Missile\n{green}Weapons/Gloves:{white} Knockback\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -8{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 30 Defensa contra misil\n{green}Yelmos/Cinturones:{white} 30 Defensa contra misil\n{green}Armaduras/Botas:{white} 30 Defensa contra misil\n{green}Armas/Guantes:{white} Retroceso\nn{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -8{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 30 Defensa contra misil\n{green}Yelmos/Cinturones:{white} 30 Defensa contra misil\n{green}Armaduras/Botas:{white} 30 Defensa contra misil\n{green}Armas/Guantes:{white} Retroceso\nn{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -8{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 30 Difesa vs. Missile\n{green}Elmi/Cinture:{white} 30 Difesa vs. Missile\n{green}Armature/Stivali:{white} 30 Difesa vs. Missile\n{green}Armi/Guanti:{white} Knockback\nAnteprima n{turquoise}Rune:\n\n{white}(Punti bassi{blue} -8{white})\n",
@@ -1590,7 +1590,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Regeneriere Mana 15%%\n{green}Helme/Gürtel:{white} Regeneriere Mana 10%%\n{green}Rüstungen/Stiefel:{white} Regeneriere Mana 10%%\n{green}Waffen/Handschuhe:{white} -25%% Zielverteidigung\nÿcRune Preview:\n\n{white}(Niedrig{blue} -16{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Regenerate Mana 15%%\n{green}Helms/Belts:{white} Regenerate Mana 10%%\n{green}Armors/Boots:{white} Regenerate Mana 10%%\n{green}Weapons/Gloves:{white} -25%% Target Defense\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -16{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Regenerate Mana 15%%\n{green}Helms/Belts:{white} Regenerate Mana 10%%\n{green}Armors/Boots:{white} Regenerate Mana 10%%\n{green}Weapons/Gloves:{white} -25%% Target Defense\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -16{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Regenerar maná 15%%\n{green}Yelmos/Cinturones:{white} Regenerar maná 10%%\n{green}Armaduras/botas:{white} Regenerar maná 10%%\n{green}Armas/guantes:{white} -25 %cune Defense  Vista previa:\n\n{white}(Puntos bajos{blue} -16{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Regenerar maná 15%%\n{green}Yelmos/Cinturones:{white} Regenerar maná 10%%\n{green}Armaduras/botas:{white} Regenerar maná 10%%\n{green}Armas/guantes:{white} -25 %cune Defense  Vista previa:\n\n{white}(Puntos bajos{blue} -16{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Rigenera mana 15%%\n{green}Elmi/Cinture:{white} Rigenera mana 10%%\n{green}Armature/Stivali:{white} Rigenera mana 10%%\n{green}Armi/Guanti:{white} -25%Difesa bersaglio{white}-25%cNRune  Anteprima:\n\n{white}(Punti bassi{blue} -16{white})\n",
@@ -1609,7 +1609,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +15%% erlittener Schaden geht in Mana\n{green}Helme/Gürtel:{white} +10%% erlittener Schaden geht in Mana\n{green}Rüstungen/Stiefel:{white} +10%% erlittener Schaden geht in Mana\nn{green}Waffen/Handschuhe:{white} +6 maximaler Schaden\n{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -32{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +15%% Damage Taken Goes to Mana\n{green}Helms/Belts:{white} +10%% Damage Taken Goes to Mana\n{green}Armors/Boots:{white} +10%% Damage Taken Goes to Mana\n{green}Weapons/Gloves:{white} +6 to Maximum Damage\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -32{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +15%% Damage Taken Goes to Mana\n{green}Helms/Belts:{white} +10%% Damage Taken Goes to Mana\n{green}Armors/Boots:{white} +10%% Damage Taken Goes to Mana\n{green}Weapons/Gloves:{white} +6 to Maximum Damage\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -32{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 15%% del daño recibido va a maná\n{green}Yelmos/cinturones:{white} 10%% del daño recibido va a maná\n{green}Armaduras/botas:{white} 10%% del daño recibido va a maná\nn{green}Armas/guantes:{white} 6 al daño máximo\n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -32{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 15%% del daño recibido va a maná\n{green}Yelmos/cinturones:{white} 10%% del daño recibido va a maná\n{green}Armaduras/botas:{white} 10%% del daño recibido va a maná\nn{green}Armas/guantes:{white} 6 al daño máximo\n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -32{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 15%% dei danni subiti va a Mana\n{green}Elmi/Cinture:{white} 10%% dei danni subiti va a Mana\n{green}Armature/Stivali:{white} 10%% dei danni subiti va a Mana\nn{green}Armi/Guanti: da{white} 6 a danno massimo\n{turquoise}Rune Anteprima:\n\n{white}(Punti bassi{blue} -32{white})\n",
@@ -1628,7 +1628,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Giftwiderstand +20%%\n{green}Helme/Gürtel:{white} Giftwiderstand +10%%\n{green}Rüstungen/Stiefel:{white} Giftwiderstand +10%%\n{green}Waffen/Handschuhe:{white} +38 Giftschaden über 5 Sekunden\nn{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -64{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Poison Resist +20%%\n{green}Helms/Belts:{white} Poison Resist +10%%\n{green}Armors/Boots:{white} Poison Resist +10%%\n{green}Weapons/Gloves:{white} +38 Poison Damage over 5 Seconds\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -64{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Poison Resist +20%%\n{green}Helms/Belts:{white} Poison Resist +10%%\n{green}Armors/Boots:{white} Poison Resist +10%%\n{green}Weapons/Gloves:{white} +38 Poison Damage over 5 Seconds\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -64{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Resistencia al veneno 20%%\n{green}Yelmos/Cinturones:{white} Resistencia al veneno 10%%\n{green}Armaduras/Botas:{white} Resistencia al veneno 10%%\n{green}Armas/Guantes:{white} 58segundos de daño por veneno  n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -64{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Resistencia al veneno 20%%\n{green}Yelmos/Cinturones:{white} Resistencia al veneno 10%%\n{green}Armaduras/Botas:{white} Resistencia al veneno 10%%\n{green}Armas/Guantes:{white} 58segundos de daño por veneno  n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -64{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Resiste al veleno del 20%%\n{green}Elmi/Cinture:{white} Resiste al veleno del 10%%\n{green}Armature/Stivali:{white} Resiste al veleno del 10%%\n{green}Armi/Guanti:{white} Danno da veleno superiore a 35 secondi\n{green}  Anteprima n{turquoise}Rune:\n\n{white}(Punti bassi{blue} -64{white})\n",
@@ -1647,7 +1647,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Feuerresistenz +20%%\n{green}Helme/Gürtel:{white} Feuerresistenz +10%%\n{green}Rüstungen/Stiefel:{white} Feuerresistenz +10%%\n{green}Waffen/Handschuhe:{white} +3-15 Feuerschaden\n{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -128{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Fire Resist +20%%\n{green}Helms/Belts:{white} Fire Resist +10%%\n{green}Armors/Boots:{white} Fire Resist +10%%\n{green}Weapons/Gloves:{white} Adds 3-15 Fire Damage\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -128{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Fire Resist +20%%\n{green}Helms/Belts:{white} Fire Resist +10%%\n{green}Armors/Boots:{white} Fire Resist +10%%\n{green}Weapons/Gloves:{white} Adds 3-15 Fire Damage\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -128{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Resistencia al fuego 20%%\n{green}Yelmos/Cinturones:{white} Resistencia al fuego 10%%\n{green}Armaduras/Botas:{white} Resistencia al fuego 10%%\n{green}Armas/Guantes:{white} Agrega 3-15NR de daño por fuego  Vista previa:\n\n{white}(Puntos bajos{blue} -128{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Resistencia al fuego 20%%\n{green}Yelmos/Cinturones:{white} Resistencia al fuego 10%%\n{green}Armaduras/Botas:{white} Resistencia al fuego 10%%\n{green}Armas/Guantes:{white} Agrega 3-15NR de daño por fuego  Vista previa:\n\n{white}(Puntos bajos{blue} -128{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di dispositivo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Resistenze al fuoco 20%%\n{green}Elmi/Cinture:{white} Resistenze al fuoco 10%%\n{green}Armature/Stivali:{white} Resiste al fuoco 10%%\n{green}Armi/Guanti:{white} Nrdanni 3n\n\nFire aggiunti 3  Anteprima:\n\n{white}(Punti bassi{blue} -128{white})\n",
@@ -1666,7 +1666,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Blitzwiderstand +20%%\n{green}Helme/Gürtel:{white} Blitzwiderstand +10%%\n{green}Rüstungen/Stiefel:{white} Blitzwiderstand +10%%\n{green}Waffen/Handschuhe:{white} +1-25 Blitzschaden\n{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -256{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Lightning Resist +20%%\n{green}Helms/Belts:{white} Lightning Resist +10%%\n{green}Armors/Boots:{white} Lightning Resist +10%%\n{green}Weapons/Gloves:{white} Adds 1-25 Lightning Damage\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -256{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Lightning Resist +20%%\n{green}Helms/Belts:{white} Lightning Resist +10%%\n{green}Armors/Boots:{white} Lightning Resist +10%%\n{green}Weapons/Gloves:{white} Adds 1-25 Lightning Damage\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -256{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Resistencia a los rayos 20%%\n{green}Yelmos/Cinturones:{white} Resistencia a los rayos 10%%\n{green}Armaduras/Botas:{white} Resistencia a los rayos 10%%\n{green}Armas/Guantes:{white} Agrega 1-25cNR de daño por rayos  Vista previa:\n\n{white}(Puntos bajos{blue} -256{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Resistencia a los rayos 20%%\n{green}Yelmos/Cinturones:{white} Resistencia a los rayos 10%%\n{green}Armaduras/Botas:{white} Resistencia a los rayos 10%%\n{green}Armas/Guantes:{white} Agrega 1-25cNR de daño por rayos  Vista previa:\n\n{white}(Puntos bajos{blue} -256{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Resistenza ai fulmini del 20%%\n{green}Elmi/Cinture:{white} Resistenza ai fulmini del 10%%\n{green}Armature/Stivali:{white} Resistenza ai fulmini del 10%%\n{green}Armi/Guanti: ÿ25NRi danni: ÿ25ÿAggiunta 1 fulmine  Anteprima:\n\n{white}(Punti bassi{blue} -256{white})\n",
@@ -1685,7 +1685,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Kältewiderstand +20%%\n{green}Helme/Gürtel:{white} Kältewiderstand +10%%\n{green}Rüstungen/Stiefel:{white} Kältewiderstand +10%%\n{green}Waffen/Handschuhe:{white} +2-7 Kälteschaden\n{turquoise}Rune Preview:\n\n{white}(Niedrig{blue} -512{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Cold Resist +20%%\n{green}Helms/Belts:{white} Cold Resist +10%%\n{green}Armors/Boots:{white} Cold Resist +10%%\n{green}Weapons/Gloves:{white} Adds 2-7 Cold Damage\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -512{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Cold Resist +20%%\n{green}Helms/Belts:{white} Cold Resist +10%%\n{green}Armors/Boots:{white} Cold Resist +10%%\n{green}Weapons/Gloves:{white} Adds 2-7 Cold Damage\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -512{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyería:{white} Resistencia al frío 20%%\n{green}Yelmos/Cinturones:{white} Resistencia al frío 10%%\n{green}Armaduras/Botas:{white} Resistencia al frío 10%%\n{green}Armas/Guantes:{white} Agrega 2-7NR de daño por frío  Vista previa:\n\n{white}(Puntos bajos{blue} -512{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyería:{white} Resistencia al frío 20%%\n{green}Yelmos/Cinturones:{white} Resistencia al frío 10%%\n{green}Armaduras/Botas:{white} Resistencia al frío 10%%\n{green}Armas/Guantes:{white} Agrega 2-7NR de daño por frío  Vista previa:\n\n{white}(Puntos bajos{blue} -512{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Cold Resist 20%%\n{green}Elmi/Cinture:{white} Cold Resist 10%%\n{green}Armature/Stivali:{white} Cold Resist 10%%\n{green}Armi/Guanti:{white} Cold Damage Aggiunge n2  Anteprima:\n\n{white}(Punti bassi{blue} -512{white})\n",
@@ -1704,7 +1704,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Dornen: 14\n{green}Helme/Gürtel:{white} Dornen: 14\n{green}Rüstungen/Stiefel:{white} Dornen: 14\n{green}Waffen/Handschuhe:{white} 5%% Lebenraub\n{turquoise}Rune Preview:\n{white}(Niedrig{blue} -1024{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Thorns: +14\n{green}Helms/Belts:{white} Thorns: +14\n{green}Armors/Boots:{white} Thorns: +14\n{green}Weapons/Gloves:{white} 5%% Life Stolen Per Hit\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -1024{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Thorns: +14\n{green}Helms/Belts:{white} Thorns: +14\n{green}Armors/Boots:{white} Thorns: +14\n{green}Weapons/Gloves:{white} 5%% Life Stolen Per Hit\n{turquoise}Rune Preview:\n\n{white}(Low Points{blue} -1024{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Espinas: 14\n{green}Yelmos/Cinturones:{white} Espinas: 14\n{green}Armaduras/Botas:{white} Espinas: 14\n{green}Armas/Guantes:{white} 5%% Vida robada por golpe\nRVista previa:\n{turquoise} Por golpe\n{white}(Puntos bajos{blue} -1024{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Espinas: 14\n{green}Yelmos/Cinturones:{white} Espinas: 14\n{green}Armaduras/Botas:{white} Espinas: 14\n{green}Armas/Guantes:{white} 5%% Vida robada por golpe\nRVista previa:\n{turquoise} Por golpe\n{white}(Puntos bajos{blue} -1024{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Spine: 14\n{green}Elmi/Cinture:{white} Spine: 14\n{green}Armature/Stivali:{white} Spine: 14\n{green}Armi/Guanti:{white} 5%% Life Stolen Perune Hit\n{turquoise}R Preview:\n{turquoise}R Hits:  n\n{white}(Punti bassi{blue} -1024{white})\n",
@@ -1723,7 +1723,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Schaden um 7 reduziert\n{green}Helme/Gürtel:{white} Schaden um 4 reduziert\n{green}Rüstungen/Stiefel:{white} Schaden um 4 reduziert\n{green}Waffen/Handschuhe:{white} +9 minimalen Schaden\n{turquoise}RunePreview :\n\n{white}(Mittel{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Damage Reduced by 7\n{green}Helms/Belts:{white} Damage Reduced by 4\n{green}Armors/Boots:{white} Damage Reduced by 4\n{green}Weapons/Gloves:{white} +9 to Minimum Damage\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Damage Reduced by 7\n{green}Helms/Belts:{white} Damage Reduced by 4\n{green}Armors/Boots:{white} Damage Reduced by 4\n{green}Weapons/Gloves:{white} +9 to Minimum Damage\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -1{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Daño reducido en 7\n{green}Yelmos/Cinturones:{white} Daño reducido en 4\n{green}Armaduras/Botas:{white} Daño reducido en 4\n{green}Armas/Guantes:{white} 9 a daño mínimo NRuneview  :\n\n{white}(Puntos medios{blue} -1{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Daño reducido en 7\n{green}Yelmos/Cinturones:{white} Daño reducido en 4\n{green}Armaduras/Botas:{white} Daño reducido en 4\n{green}Armas/Guantes:{white} 9 a daño mínimo NRuneview  :\n\n{white}(Puntos medios{blue} -1{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Danni ridotti di 7\n{green}Elmi/Cinture:{white} Danni ridotti di 4\n{green}Armature/Stivali:{white} Danni ridotti di 4\n{green}Armi/Guanti:{white} 9 a danno minimo\n:\n\n{white}(Punti medi{blue} -1{white})\n",
@@ -1742,7 +1742,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} 20%% schnellere Blockrate\n{green}Helme/Gürtel:{white} 10%% schnellere Erholung\n{green}Rüstungen/Stiefel:{white} 10%% schnellere Erholung\n{green}Waffen/Handschuhe:{white} +10%% Angriffstempo\n{turquoise}Rune-Vorschau:\n\n{white}(Mittel{blue} -2{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} 20%% Faster Block Rate\n{green}Helms/Belts:{white} 10%% Faster Hit Recovery\n{green}Armors/Boots:{white} 10%% Faster Hit Recovery\n{green}Weapons/Gloves:{white} 10%% Increased Attack Speed\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -2{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} 20%% Faster Block Rate\n{green}Helms/Belts:{white} 10%% Faster Hit Recovery\n{green}Armors/Boots:{white} 10%% Faster Hit Recovery\n{green}Weapons/Gloves:{white} 10%% Increased Attack Speed\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -2{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 20%% Tasa de bloqueo más rápida\n{green}Cinturones:{white} 10%% Recuperación de golpes más rápida\n{green}Armaduras/Botas:{white} 10%% Recuperación de golpes más rápida\n{green}Armas/Guantes:{white} 10%% Velocidad de ataque aumentada\n{turquoise}Rune Preview:\n\n{white}(Puntos medios{blue} -2{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 20%% Tasa de bloqueo más rápida\n{green}Cinturones:{white} 10%% Recuperación de golpes más rápida\n{green}Armaduras/Botas:{white} 10%% Recuperación de golpes más rápida\n{green}Armas/Guantes:{white} 10%% Velocidad de ataque aumentada\n{turquoise}Rune Preview:\n\n{white}(Puntos medios{blue} -2{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di dispositivo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 20%% Tasso di blocco più rapido\n{green}Elmi/Cinture:{white} 10%% Recupero del colpo più rapido\n{green}Armature/Stivali:{white} 10%% Recupero del colpo più rapido\n{green}Armi/Guanti:{white} 10%% Velocità d'attacco aumentata\n{turquoise}Rune Anteprima:\n\n{white}(Punti medi{blue} -2{white})\n",
@@ -1761,7 +1761,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Leben auffüllen +7\n{green}Helme/Gürtel:{white} Leben auffüllen +3\n{green}Rüstungen/Stiefel:{white} Leben auffüllen +3\n{green}Waffen/Handschuhe:{white} Treffer lässt Monster fliehen 25%%\n{turquoise}Rune Preview:\n\n{white}(Mittel{blue} -4{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Replenish Life +7\n{green}Helms/Belts:{white} Replenish Life +3\n{green}Armors/Boots:{white} Replenish Life +3\n{green}Weapons/Gloves:{white} Hit Causes Monster to Flee 25%%\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -4{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Replenish Life +7\n{green}Helms/Belts:{white} Replenish Life +3\n{green}Armors/Boots:{white} Replenish Life +3\n{green}Weapons/Gloves:{white} Hit Causes Monster to Flee 25%%\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -4{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Reponer vida 7\n{green}Yelmos/Cinturones:{white} Reponer vida 3\n{green}Armaduras/Botas:{white} Reponer vida 3\n{green}Armas/guantes:{white} Golpear hace que el monstruo huya 25%%\nRuneview:\n\n{white}(Puntos medios{blue} -4{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Reponer vida 7\n{green}Yelmos/Cinturones:{white} Reponer vida 3\n{green}Armaduras/Botas:{white} Reponer vida 3\n{green}Armas/guantes:{white} Golpear hace que el monstruo huya 25%%\nRuneview:\n\n{white}(Puntos medios{blue} -4{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Replenish Life 7\n{green}Elmi/Cinture:{white} Replenish Life 3\n{green}Armature/Stivali:{white} Replenish Life 3\n{green}Armi/Guanti:{white} Il colpo fa fuggire il mostro 25%ÿNRcune: Anteprima\n\n{white}(Punti medi{blue} -4{white})\n",
@@ -1780,7 +1780,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Anforderungen -15%%\n{green}Helme/Gürtel:{white} Anforderungen -15%%\n{green}Rüstungen/Stiefel:{white} Anforderungen -15%%\n{green}Waffen/Handschuhe:{white} Anforderungen -20%%\n{turquoise}Rune Preview:\n\n{white}(Mittel{blue} -8{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Requirements -15%%\n{green}Helms/Belts:{white} Requirements -15%%\n{green}Armors/Boots:{white} Requirements -15%%\n{green}Weapons/Gloves:{white} Requirements -20%%\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -8{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Requirements -15%%\n{green}Helms/Belts:{white} Requirements -15%%\n{green}Armors/Boots:{white} Requirements -15%%\n{green}Weapons/Gloves:{white} Requirements -20%%\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -8{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Requisitos -15%%\n{green}Yelmos/Cinturones:{white} Requisitos -15%%\n{green}Armaduras/Botas:{white} Requisitos -15%%\n{green}Armas/Guantes:{white} Requisitos -c0%NRuneVista previa:\n\n{white}(Puntos medios{blue} -8{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Requisitos -15%%\n{green}Yelmos/Cinturones:{white} Requisitos -15%%\n{green}Armaduras/Botas:{white} Requisitos -15%%\n{green}Armas/Guantes:{white} Requisitos -c0%NRuneVista previa:\n\n{white}(Puntos medios{blue} -8{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Requirements -15%%\n{green}Elmi/Cinture:{white} Requirements -15%%\n{green}Armature/Stivali:{white} Requirements -15%%\n{green}Armi/Guanti:{white} Requirements -20%NR Preview:n{green}NR Preview:n{green}\n\n{white}(Punti medi{blue} -8{white})\n",
@@ -1799,7 +1799,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +10 Vitalität\n{green}Helme/Gürtel:{white} +10 Vitalität\n{green}Rüstungen/Stiefel:{white} +10 Vitalität\n{green}Waffen/Handschuhe:{white} +10 Vitalität\n{turquoise}RunePreview:\n\n{white}(Mittel{blue} -16{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +10 to Vitality\n{green}Helms/Belts:{white} +10 to Vitality\n{green}Armors/Boots:{white} +10 to Vitality\n{green}Weapons/Gloves:{white} +10 to Vitality\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -16{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +10 to Vitality\n{green}Helms/Belts:{white} +10 to Vitality\n{green}Armors/Boots:{white} +10 to Vitality\n{green}Weapons/Gloves:{white} +10 to Vitality\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -16{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 10 a Vitalidad\n{green}Yelmos/Cinturones:{white} 10 a Vitalidad\n{green}Armaduras/Botas:{white} 10 a Vitalidad\n{green}Armas/Guantes:{white} 10 a Vitalidad\n{turquoise}Rune Preview:\n\n{white}(Puntos medios{blue} -16{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 10 a Vitalidad\n{green}Yelmos/Cinturones:{white} 10 a Vitalidad\n{green}Armaduras/Botas:{white} 10 a Vitalidad\n{green}Armas/Guantes:{white} 10 a Vitalidad\n{turquoise}Rune Preview:\n\n{white}(Puntos medios{blue} -16{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli: da{white} 10 a Vitality\n{green}Elmi/Cinture: da{white} 10 a Vitality\n{green}Armature/Stivali: da{white} 10 a Vitality\n{green}Armi/Guanti: da{white} 10 a Vitality\n{turquoise}Rune:\n\n{white}(Punti medi{blue} -16{white})\n",
@@ -1818,7 +1818,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +10 Energie\n{green}Helme/Gürtel:{white} +10 Energie\n{green}Rüstungen/Stiefel:{white} +10 Energie\n{green}Waffen/Handschuhe:{white} +10 Energie\n{turquoise}RunePreview:\n\n{white}(Mittel{blue} -32{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +10 to Energy\n{green}Helms/Belts:{white} +10 to Energy\n{green}Armors/Boots:{white} +10 to Energy\n{green}Weapons/Gloves:{white} +10 to Energy\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -32{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +10 to Energy\n{green}Helms/Belts:{white} +10 to Energy\n{green}Armors/Boots:{white} +10 to Energy\n{green}Weapons/Gloves:{white} +10 to Energy\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -32{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 10 a Energía\n{green}Yelmos/Cinturones:{white} 10 a Energía\n{green}Armaduras/Botas:{white} 10 a Energía\n{green}Armas/Guantes:{white} 10 a Energía\nÿcVista previa de NRune:\n\n{white}(Puntos medios{blue} -32{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 10 a Energía\n{green}Yelmos/Cinturones:{white} 10 a Energía\n{green}Armaduras/Botas:{white} 10 a Energía\n{green}Armas/Guantes:{white} 10 a Energía\nÿcVista previa de NRune:\n\n{white}(Puntos medios{blue} -32{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 10 a Energia\n{green}Elmi/Cinture:{white} 10 a Energia\n{green}Armature/Stivali:{white} 10 a Energia\n{green}Armi/Guanti:{white} 10 a Energia\n{turquoise}Rune Anteprima:\n\n{white}(Punti medi{blue} -32{white})\n",
@@ -1837,7 +1837,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +10 Geschicklichkeit\n{green}Helme/Gürtel:{white} +10 Geschicklichkeit\n{green}Rüstungen/Stiefel:{white} +10 Geschicklichkeit\n{green}Waffen/Handschuhe:{white} +10 Geschicklichkeit\n{turquoise}Rune Preview:\n\n{white}(Mittel{blue} -64{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +10 to Dexterity\n{green}Helms/Belts:{white} +10 to Dexterity\n{green}Armors/Boots:{white} +10 to Dexterity\n{green}Weapons/Gloves:{white} +10 to Dexterity\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -64{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +10 to Dexterity\n{green}Helms/Belts:{white} +10 to Dexterity\n{green}Armors/Boots:{white} +10 to Dexterity\n{green}Weapons/Gloves:{white} +10 to Dexterity\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -64{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 10 a Destreza\n{green}Yelmos/Cinturones:{white} 10 a Destreza\n{green}Armaduras/Botas:{white} 10 a Destreza\n{green}Armas/Guantes:\n{white} 10 a Dexterityune Vista previa:\n\n{white}(Puntos medios{blue} -64{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 10 a Destreza\n{green}Yelmos/Cinturones:{white} 10 a Destreza\n{green}Armaduras/Botas:{white} 10 a Destreza\n{green}Armas/Guantes:\n{white} 10 a Dexterityune Vista previa:\n\n{white}(Puntos medios{blue} -64{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 10 a Destrezza\n{green}Elmi/Cinture:{white} 10 a Destrezza\n{green}Armature/Stivali:{white} 10 a Destrezza\n{green}Armi/Guanti:\n{white}10 a Destrezza\n\n{white}(Punti medi{blue} -64{white})\n",
@@ -1856,7 +1856,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +10 Stärke\n{green}Helme/Gürtel:{white} +10 Stärke\n{green}Rüstungen/Stiefel:{white} +10 Stärke\n{green}Waffen/Handschuhe:{white} +10 Stärke\n{turquoise}RunePreview:\n\n{white}(Mittel{blue} -128{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +10 to Strength\n{green}Helms/Belts:{white} +10 to Strength\n{green}Armors/Boots:{white} +10 to Strength\n{green}Weapons/Gloves:{white} +10 to Strength\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -128{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +10 to Strength\n{green}Helms/Belts:{white} +10 to Strength\n{green}Armors/Boots:{white} +10 to Strength\n{green}Weapons/Gloves:{white} +10 to Strength\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -128{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 10 a Fuerza\n{green}Yelmos/Cinturones:{white} 10 a Fuerza\n{green}Armaduras/Botas:{white} 10 a Fuerza\n{green}Armas/Guantes:{white} 10 a Fuerza\nÿcVista previa de NRune:\n\n{white}(Puntos bajos{blue} -128{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 10 a Fuerza\n{green}Yelmos/Cinturones:{white} 10 a Fuerza\n{green}Armaduras/Botas:{white} 10 a Fuerza\n{green}Armas/Guantes:{white} 10 a Fuerza\nÿcVista previa de NRune:\n\n{white}(Puntos bajos{blue} -128{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli: da{white} 10 a Forza\n{green}Elmi/Cinture: da{white} 10 a Forza\n{green}Armature/Stivali: da{white} 10 a Forza\n{green}Armi/Guanti:{white} 10 a Forza\n{turquoise}Rune Anteprima:\n\n{white}(Punti bassi{blue} -128{white})\n",
@@ -1875,7 +1875,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +50%% mehr Gold\n{green}Helme/Gürtel:{white} +50%% mehr Gold\n{green}Rüstungen/Stiefel:{white} +50%% mehr Gold\n{green}Waffen/Handschuhe:{white} +75%% mehr Gold\n{turquoise}Rune Preview:\n\n{white}(Mittel{blue} -256{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +50%% Extra Gold from Monsters\n{green}Helms/Belts:{white} +50%% Extra Gold from Monsters\n{green}Armors/Boots:{white} +50%% Extra Gold from Monsters\n{green}Weapons/Gloves:{white} +75%% Extra Gold from Monsters\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -256{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +50%% Extra Gold from Monsters\n{green}Helms/Belts:{white} +50%% Extra Gold from Monsters\n{green}Armors/Boots:{white} +50%% Extra Gold from Monsters\n{green}Weapons/Gloves:{white} +75%% Extra Gold from Monsters\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -256{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 50%% de oro extra de monstruos\n{green}Yelmos/cinturones:{white} 50%% de oro extra de monstruos\n{green}Armaduras/botas:{white} 50%% de oro extra de monstruos\n{green}Armas/guantes  :{white} 75%% de oro extra de Monsters\n{turquoise}Rune Preview:\n\n{white}(Puntos medios{blue} -256{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 50%% de oro extra de monstruos\n{green}Yelmos/cinturones:{white} 50%% de oro extra de monstruos\n{green}Armaduras/botas:{white} 50%% de oro extra de monstruos\n{green}Armas/guantes  :{white} 75%% de oro extra de Monsters\n{turquoise}Rune Preview:\n\n{white}(Puntos medios{blue} -256{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 50%% di oro extra dai mostri\n{green}Elmi/Cinture:{white} 50%% di oro extra dai mostri\n{green}Armature/Stivali:{white} 50%% oro extra dai mostri\n{green}Armi/Guanti  :{white} 75%% di oro extra da Monsters\n{turquoise}Rune Anteprima:\n\n{white}(Punti medi{blue} -256{white})\n",
@@ -1894,7 +1894,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +30%% Verteidigung\n{green}Helme/Gürtel:{white} +20%% Verteidigung\n{green}Rüstungen/Stiefel:{white} +20%% Verteidigung\n{green}Waffen/Handschuhe:{white} +50 Angriffswert und +40%% Schaden an Dämonen\n{turquoise}Rune Preview:\n\n{white}(Mittel{blue} -512{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +30%% Enhanced Defense\n{green}Helms/Belts:{white} +20%% Enhanced Defense\n{green}Armors/Boots:{white} +20%% Enhanced Defense\n{green}Weapons/Gloves:{white} +50 to Attack Rating and +40%% Damage to Demons\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -512{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +30%% Enhanced Defense\n{green}Helms/Belts:{white} +20%% Enhanced Defense\n{green}Armors/Boots:{white} +20%% Enhanced Defense\n{green}Weapons/Gloves:{white} +50 to Attack Rating and +40%% Damage to Demons\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -512{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 30%% de defensa mejorada\n{green}Yelmos/cinturones:{white} 20%% de defensa mejorada\n{green}Armaduras/botas:{white} 20%% de defensa mejorada\n{green}Armas/guantes:{white} 50 de índice de ataque  y 40%% de daño a los demonios\n{turquoise}Rune Preview:\n\n{white}(Puntos medios{blue} -512{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 30%% de defensa mejorada\n{green}Yelmos/cinturones:{white} 20%% de defensa mejorada\n{green}Armaduras/botas:{white} 20%% de defensa mejorada\n{green}Armas/guantes:{white} 50 de índice de ataque  y 40%% de daño a los demonios\n{turquoise}Rune Preview:\n\n{white}(Puntos medios{blue} -512{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 30%% Difesa migliorata\n{green}Elmi/Cinture:{white} 20%% Difesa migliorata\n{green}Armature/Stivali:{white} 20%% Difesa migliorata\n{green}Armi/Guanti:{white} 50 al Rating Attacco  e 40%% di danni ai demoni\n{turquoise}Rune Anteprima:\n\n{white}(Punti medi{blue} -512{white})\n",
@@ -1913,7 +1913,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Alle Widerstände +22%%\n{green}Helme/Gürtel:{white} Alle Widerstände +10%%\n{green}Rüstungen/Stiefel:{white} Alle Widerstände +10%%\n{green}Waffen/Handschuhe:{white} 10%% Chance auf offene Wunden\n{turquoise}Rune Preview:\n\n{white}(Mittel{blue} -1024{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} All Resistances +22\n{green}Helms/Belts:{white} All Resistances +10\n{green}Armors/Boots:{white} All Resistances +10\n{green}Weapons/Gloves:{white} 10%% Chance of Open Wounds\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -1024{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} All Resistances +22\n{green}Helms/Belts:{white} All Resistances +10\n{green}Armors/Boots:{white} All Resistances +10\n{green}Weapons/Gloves:{white} 10%% Chance of Open Wounds\n{turquoise}Rune Preview:\n\n{white}(Mid Points{blue} -1024{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} Todas las resistencias 22\n{green}Yelmos/Cinturones:{white} Todas las resistencias 10\n{green}Armaduras/Botas:{white} Todas las resistencias 10\n{green}Armas/Guantes:{white} 10%% de probabilidad de heridas abiertas\nVista previa de heridas abiertas\n{green}  n\n{white}(Puntos medios{blue} -1024{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de removedor\n\n{green}Escudos/Joyas:{white} Todas las resistencias 22\n{green}Yelmos/Cinturones:{white} Todas las resistencias 10\n{green}Armaduras/Botas:{white} Todas las resistencias 10\n{green}Armas/Guantes:{white} 10%% de probabilidad de heridas abiertas\nVista previa de heridas abiertas\n{green}  n\n{white}(Puntos medios{blue} -1024{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} All Resistances 22\n{green}Elmi/Cinture:{white} All Resistances 10\n{green}Armature/Stivali:{white} All Resistances 10\n{green}Armi/Guanti:{white} 10%% Chance of Open Woundune\n{turquoise}R Preview:  n\n{white}(Punti medi{blue} -1024{white})\n",
@@ -1932,7 +1932,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Magischer Schaden um 7 verringert\n{green}Helme/Gürtel:{white} Magischer Schaden um 3 verringert\n{green}Rüstungen/Stiefel:{white} Magischer Schaden um 3 verringert\n{green}Waffen/Handschuhe:{white} Monsterheilung verhindern\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Magic Damage Reduced by 7\n{green}Helms/Belts:{white} Magic Damage Reduced by 3\n{green}Armors/Boots:{white} Magic Damage Reduced by 3\n{green}Weapons/Gloves:{white} Prevent Monster Heal\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Magic Damage Reduced by 7\n{green}Helms/Belts:{white} Magic Damage Reduced by 3\n{green}Armors/Boots:{white} Magic Damage Reduced by 3\n{green}Weapons/Gloves:{white} Prevent Monster Heal\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -1{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Daño mágico reducido en 7\n{green}Yelmos/Cinturones:{white} Daño mágico reducido en 3\n{green}Armaduras/Botas:{white} Daño mágico reducido en 3\n{green}Armas/Guantes:{white} Evitar la curación de monstruos\nVista previa:\n\n{white}(Puntos altos{blue} -1{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Daño mágico reducido en 7\n{green}Yelmos/Cinturones:{white} Daño mágico reducido en 3\n{green}Armaduras/Botas:{white} Daño mágico reducido en 3\n{green}Armas/Guantes:{white} Evitar la curación de monstruos\nVista previa:\n\n{white}(Puntos altos{blue} -1{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Danno magico ridotto di 7\n{green}Elmi/Cinture:{white} Danno magico ridotto di 3\n{green}Armature/Stivali:{white} Danno magico ridotto di 3\n{green}Armi/Guanti:{white} Prevenzione cura dei mostri\n{green}  Anteprima:\n\n{white}(Punti massimi{blue} -1{white})\n",
@@ -1951,7 +1951,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +25%% Magiefund\n{green}Helme/Gürtel:{white} +10%% Magiefund\n{green}Rüstungen/Stiefel:{white} +10%% Magiefund\n{green}Waffen/Handschuhe:{white} +15%% Magiefund\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -2{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +25%% Increased Magic Find\n{green}Helms/Belts:{white} +10%% Increased Magic Find\n{green}Armors/Boots:{white} +10%% Increased Magic Find\n{green}Weapons/Gloves:{white} +15%% Increased Magic find\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -2{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +25%% Increased Magic Find\n{green}Helms/Belts:{white} +10%% Increased Magic Find\n{green}Armors/Boots:{white} +10%% Increased Magic Find\n{green}Weapons/Gloves:{white} +15%% Increased Magic find\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -2{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 25%% de aumento del hallazgo mágico\n{green}Yelmos/cinturones:{white} 10%% de aumento del hallazgo mágico\n{green}Armaduras/botas:{white} 10%% de aumento del hallazgo mágico\n{green}Armas/guantes:{white} 15  %% de búsqueda mágica aumentada\n{turquoise}Rune Preview:\n\n{white}(Puntos altos{blue} -2{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 25%% de aumento del hallazgo mágico\n{green}Yelmos/cinturones:{white} 10%% de aumento del hallazgo mágico\n{green}Armaduras/botas:{white} 10%% de aumento del hallazgo mágico\n{green}Armas/guantes:{white} 15  %% de búsqueda mágica aumentada\n{turquoise}Rune Preview:\n\n{white}(Puntos altos{blue} -2{white})\n",
                 frFR = "{tan}Solo cubo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 25%% ritrovamento magico aumentato\n{green}Elmi/cinture:{white} 10%% ritrovamento magico aumentato\n{green}Armature/stivali:{white} 10%% ritrovamento magico aumentato\n{green}Armi/guanti:{white} 15  %% di ritrovamento magico aumentato\n{turquoise}Rune Anteprima:\n\n{white}(Punti massimi{blue} -2{white})\n",
@@ -1970,7 +1970,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +5%% maximalen Giftwiderstand\n{green}Helme/Gürtel:{white} +5%% maximalen Giftwiderstand\n{green}Rüstungen/Stiefel:{white} +5%% maximalen Giftwiderstand\n{green}Waffen/Handschuhe:{white} +15%% Angriffswert\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -4{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +5%% to Maximum Poison Resist\n{green}Helms/Belts:{white} +5%% to Maximum Poison Resist\n{green}Armors/Boots:{white} +5%% to Maximum Poison Resist\n{green}Weapons/Gloves:{white} 15%% Bonus to Attack Rating\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -4{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +5%% to Maximum Poison Resist\n{green}Helms/Belts:{white} +5%% to Maximum Poison Resist\n{green}Armors/Boots:{white} +5%% to Maximum Poison Resist\n{green}Weapons/Gloves:{white} 15%% Bonus to Attack Rating\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -4{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 5%% hasta la resistencia máxima al veneno\n{green}Yelmos/cinturones:{white} 5%% hasta la resistencia máxima al veneno\n{green}Armaduras/botas:{white} 5%% hasta la resistencia máxima al veneno\n{green}Armas/guantes  :{white} 15%% de bonificación al índice de ataque\n{turquoise}Rune Preview:\n\n{white}(Puntos altos{blue} -4{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 5%% hasta la resistencia máxima al veneno\n{green}Yelmos/cinturones:{white} 5%% hasta la resistencia máxima al veneno\n{green}Armaduras/botas:{white} 5%% hasta la resistencia máxima al veneno\n{green}Armas/guantes  :{white} 15%% de bonificación al índice de ataque\n{turquoise}Rune Preview:\n\n{white}(Puntos altos{blue} -4{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 5%% alla massima resistenza al veleno\n{green}Elmi/Cinture:{white} 5%% alla massima resistenza al veleno\n{green}Armature/Stivali:{white} 5%% alla massima resistenza al veleno\n{green}Armi/guanti  :{white} 15%% Bonus al Rating Attacco\n{turquoise}Rune Anteprima:\n\n{white}(Punti più alti{blue} -4{white})\n",
@@ -1989,7 +1989,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +5%% maximalen Feuerwiderstand\n{green}Helme/Gürtel:{white} +5%% maximalen Feuerwiderstand\n{green}Rüstungen/Stiefel:{white} +5%% maximalen Feuerwiderstand\n{green}Waffen/Handschuhe:{white} +5%% Manaraub\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -8{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +5%% to Maximum Fire Resist\n{green}Helms/Belts:{white} +5%% to Maximum Fire Resist\n{green}Armors/Boots:{white} +5%% to Maximum Fire Resist\n{green}Weapons/Gloves:{white} 5%% Mana Stolen Per Hit\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -8{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +5%% to Maximum Fire Resist\n{green}Helms/Belts:{white} +5%% to Maximum Fire Resist\n{green}Armors/Boots:{white} +5%% to Maximum Fire Resist\n{green}Weapons/Gloves:{white} 5%% Mana Stolen Per Hit\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -8{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 5%% hasta la resistencia máxima al fuego\n{green}Yelmos/cinturones:{white} 5%% hasta la resistencia máxima al fuego\n{green}Armaduras/botas:{white} 5%% hasta la resistencia máxima al fuego\n{green}Armas/guantes  :{white} 5%% de maná robado por golpe\n{turquoise}Rune Preview:\n\n{white}(Puntos altos{blue} -8{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 5%% hasta la resistencia máxima al fuego\n{green}Yelmos/cinturones:{white} 5%% hasta la resistencia máxima al fuego\n{green}Armaduras/botas:{white} 5%% hasta la resistencia máxima al fuego\n{green}Armas/guantes  :{white} 5%% de maná robado por golpe\n{turquoise}Rune Preview:\n\n{white}(Puntos altos{blue} -8{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 5%% alla massima resistenza al fuoco\n{green}Elmi/Cinture:{white} 5%% alla massima resistenza al fuoco\n{green}Armature/Stivali:{white} 5%% alla massima resistenza al fuoco\n{green}Armi/Guanti  :{white} 5%% Mana rubato per colpo\n{turquoise}Rune Anteprima:\n\n{white}(Punti massimi{blue} -8{white})\n",
@@ -2008,7 +2008,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +5%% maximalen Kältewiderstand\n{green}Helme/Gürtel:{white} +5%% maximalen Kältewiderstand\n{green}Rüstungen/Stiefel:{white} +5%% maximalen Kältewiderstand\n{green}Waffen/Handschuhe:{white} +35%% Schaden\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -16{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +5%% to Maximum Cold Resist\n{green}Helms/Belts:{white} +5%% to Maximum Cold Resist\n{green}Armors/Boots:{white} +5%% to Maximum Cold Resist\n{green}Weapons/Gloves:{white} +35%% Enhanced Damage\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -16{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +5%% to Maximum Cold Resist\n{green}Helms/Belts:{white} +5%% to Maximum Cold Resist\n{green}Armors/Boots:{white} +5%% to Maximum Cold Resist\n{green}Weapons/Gloves:{white} +35%% Enhanced Damage\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -16{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 5%% para resistencia máxima al frío\n{green}Cascos/cinturones:{white} 5%% para resistencia máxima al frío\n{green}Armaduras/botas:{white} 5%% para resistencia máxima al frío\n{green}Armas/guantes  :{white} 35%% de daño mejorado\n{turquoise}Rune Preview:\n\n{white}(Puntos altos{blue} -16{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 5%% para resistencia máxima al frío\n{green}Cascos/cinturones:{white} 5%% para resistencia máxima al frío\n{green}Armaduras/botas:{white} 5%% para resistencia máxima al frío\n{green}Armas/guantes  :{white} 35%% de daño mejorado\n{turquoise}Rune Preview:\n\n{white}(Puntos altos{blue} -16{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 5%% alla massima resistenza al freddo\n{green}Elmi/Cinture:{white} 5%% alla massima resistenza al freddo\n{green}Armature/Stivali:{white} 5%% alla massima resistenza al freddo\n{green}Armi/Guanti  :{white} 35%% del danno potenziato\n{turquoise}Rune Anteprima:\n\n{white}(Punti massimi{blue} -16{white})\n",
@@ -2027,7 +2027,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +5%% maximale Blitzwiderstand\n{green}Helme/Gürtel:{white} +5%% maximale Blitzwiderstand\n{green}Rüstungen/Stiefel:{white} +5%% maximale Blitzwiderstand\n{green}Waffen/Handschuhe:{white} 10%% Tödlichen Schlag\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -32{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +5%% to Maximum Lightning Resist\n{green}Helms/Belts:{white} +5%% to Maximum Lightning Resist\n{green}Armors/Boots:{white} +5%% to Maximum Lightning Resist\n{green}Weapons/Gloves:{white} 10%% Deadly Strike\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -32{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +5%% to Maximum Lightning Resist\n{green}Helms/Belts:{white} +5%% to Maximum Lightning Resist\n{green}Armors/Boots:{white} +5%% to Maximum Lightning Resist\n{green}Weapons/Gloves:{white} 10%% Deadly Strike\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -32{white})\n",
                 esES = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 5%% a la resistencia máxima a los rayos\n{green}Yelmos/cinturones:{white} 5%% a la resistencia máxima a los rayos\n{green}Armaduras/botas:{white} 5%% a la resistencia máxima a los rayos\n{green}Armas/guantes  :{white} 10%% Golpe mortal\nÿcVista previa de NRune:\n\n{white}(Puntos altos{blue} -32{white})\n",
                 esMX = "{tan}Cube solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 5%% a la resistencia máxima a los rayos\n{green}Yelmos/cinturones:{white} 5%% a la resistencia máxima a los rayos\n{green}Armaduras/botas:{white} 5%% a la resistencia máxima a los rayos\n{green}Armas/guantes  :{white} 10%% Golpe mortal\nÿcVista previa de NRune:\n\n{white}(Puntos altos{blue} -32{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 5%% alla massima resistenza ai fulmini\n{green}Elmi/Cinture:{white} 5%% alla massima resistenza ai fulmini\n{green}Armature/Stivali:{white} 5%% alla massima resistenza ai fulmini\n{green}Armi/Guanti  :{white} 10%% Attacco mortale\n{turquoise}Rune Anteprima:\n\n{white}(Punti alti{blue} -32{white})\n",
@@ -2046,7 +2046,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +50 Mana\n{green}Helme/Gürtel:{white} Max Mana +5%%\n{green}Rüstungen/Stiefel:{white} Max Mana +5%%\n{green}Waffen/Handschuhe:{white} TZreffer blendet Ziel\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -64{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +50 to Mana\n{green}Helms/Belts:{white} Maximum Mana +5%%\n{green}Armors/Boots:{white} Maximum Mana +5%%\n{green}Weapons/Gloves:{white} Hit Blinds Target\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -64{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +50 to Mana\n{green}Helms/Belts:{white} Maximum Mana +5%%\n{green}Armors/Boots:{white} Maximum Mana +5%%\n{green}Weapons/Gloves:{white} Hit Blinds Target\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -64{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 50 a maná\n{green}Yelmos/cinturones:{white} Máximo de maná 5%%\n{green}Armaduras/botas:{white} Máximo de maná 5%%\n{green}Armas/guantes:{white} Hit Blinds Target Preview\nÿc  n\n{white}(Puntos altos{blue} -64{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 50 a maná\n{green}Yelmos/cinturones:{white} Máximo de maná 5%%\n{green}Armaduras/botas:{white} Máximo de maná 5%%\n{green}Armas/guantes:{white} Hit Blinds Target Preview\nÿc  n\n{white}(Puntos altos{blue} -64{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 50 a Mana\n{green}Elmi/Cinture:{white} Mana massimo 5%%\n{green}Armature/Stivali:{white} Mana massimo 5%%\n{green}Armi/Guanti:{white} Bersaglio ciechi colpisci\n{turquoise}RAnteprima:\n{turquoise}R  n\n{white}(Punti massimi{blue} -64{white})\n",
@@ -2065,7 +2065,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} Schaden um 8%% reduziert\n{green}Helme/Gürtel:{white} Schaden um 8%% reduziert\n{green}Rüstungen/Stiefel:{white} Schaden um 8%% reduziert\n{green}Waffen/Handschuhe:{white} +10%% Chance auf Vernichtenden Schlag\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -128{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Damage Reduced by 8%%\n{green}Helms/Belts:{white} Damage Reduced by 8%%\n{green}Armors/Boots:{white} Damage Reduced by 8%%\n{green}Weapons/Gloves:{white} +10%% Chance of Crushing Blow\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -128{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Damage Reduced by 8%%\n{green}Helms/Belts:{white} Damage Reduced by 8%%\n{green}Armors/Boots:{white} Damage Reduced by 8%%\n{green}Weapons/Gloves:{white} +10%% Chance of Crushing Blow\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -128{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Daño reducido en un 8%%\n{green}Yelmos/Cinturones:{white} Daño reducido en un 8%%\n{green}Armaduras/Botas:{white} Daño reducido en un 8%%\n{green}Armas/Guantes:{white} Probabilidad de 10%%  Golpe aplastante\n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -128{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Daño reducido en un 8%%\n{green}Yelmos/Cinturones:{white} Daño reducido en un 8%%\n{green}Armaduras/Botas:{white} Daño reducido en un 8%%\n{green}Armas/Guantes:{white} Probabilidad de 10%%  Golpe aplastante\n{turquoise}Rune Preview:\n\n{white}(Puntos bajos{blue} -128{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Danni ridotti dell'8%%\n{green}Elmi/Cinture:{white} Danni ridotti dell'8%%\n{green}Armature/Stivali:{white} Danni ridotti dell'8%%\n{green}Armi/Guanti:{white} 10%% di probabilità  Colpo schiacciante\n{turquoise}Rune Anteprima:\n\n{white}(Punti bassi{blue} -128{white})\n",
@@ -2084,7 +2084,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, zum Removertyp wechseln\n\n{green}Schilde/Schmuck:{white} +50 Leben\n{green}Helme/Gürtel:{white} Max Leben +2%%\n{green}Rüstungen/Stiefel:{white} Max Leben +2%%\n{green}Waffen/Handschuhe:{white} Ignoriert Verteidigung\n{turquoise}Rune Preview:\n\n{white}(Hohe{blue} -256{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +50 to Life\n{green}Helms/Belts:{white} Maximum Life +2%%\n{green}Armors/Boots:{white} Maximum Life +2%%\n{green}Weapons/Gloves:{white} Ignore Target's Defense\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -256{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +50 to Life\n{green}Helms/Belts:{white} Maximum Life +2%%\n{green}Armors/Boots:{white} Maximum Life +2%%\n{green}Weapons/Gloves:{white} Ignore Target's Defense\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -256{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 50 a la Vida\n{green}Yelmos/Cinturones:{white} Vida máxima 2%%\n{green}Armaduras/Botas:{white} Vida máxima 2%%\n{green}Armas/Guantes:{white} Ignorar la defensa del objetivo\nVista previa de NRune:ÿc  n\n{white}(Puntos altos{blue} -256{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 50 a la Vida\n{green}Yelmos/Cinturones:{white} Vida máxima 2%%\n{green}Armaduras/Botas:{white} Vida máxima 2%%\n{green}Armas/Guantes:{white} Ignorar la defensa del objetivo\nVista previa de NRune:ÿc  n\n{white}(Puntos altos{blue} -256{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 50 a Vita\n{green}Elmi/Cinture:{white} Vita massima 2%%\n{green}Armature/Stivali:{white} Vita massima 2%%\n{green}Armi/Guanti:{white} Ignora difesa del bersaglio\n{turquoise}R Anteprima:\n{turquoise}R  n\n{white}(Punti massimi{blue} -256{white})\n",
@@ -2103,7 +2103,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} Halbe Einfrierdauer\n{green}Helme/Gürtel:{white} Halbe Einfrierdauer\n{green}Rüstungen/Stiefel:{white} Halbe Einfrierdauer\n{green}Waffen/Handschuhe:{white} Friert das Ziel 2 ein\nÿc NRune-Vorschau:\n\n{white}  (Höhepunkte{blue} -512{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Half Freeze Duration\n{green}Helms/Belts:{white} Half Freeze Duration\n{green}Armors/Boots:{white} Half Freeze Duration\n{green}Weapons/Gloves:{white} Freezes Target +2\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -512{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Half Freeze Duration\n{green}Helms/Belts:{white} Half Freeze Duration\n{green}Armors/Boots:{white} Half Freeze Duration\n{green}Weapons/Gloves:{white} Freezes Target +2\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -512{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Duración de media congelación\n{green}Cascos/cinturones:{white} Duración de media congelación\n{green}Armas/Botas:{white} Duración de media congelación\n{green}Armas/Guantes:{white} Objetivo 2 de congelación\n{turquoise} Rune Vista previa:\n\n{white}  (Puntos altos{blue} -512{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Duración de media congelación\n{green}Cascos/cinturones:{white} Duración de media congelación\n{green}Armas/Botas:{white} Duración de media congelación\n{green}Armas/Guantes:{white} Objetivo 2 de congelación\n{turquoise} Rune Vista previa:\n\n{white}  (Puntos altos{blue} -512{white})\n",
                 frFR = "{tan}Cube da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Durata di congelamento a metà\n{green}Elmi/Cinture:{white} Durata di congelamento a metà\n{green}Armature/Stivali:{white} Durata di congelamento a metà\n{green}Armi/Guanti:{white} Obiettivo di congelamento 2\n{turquoise}R un'anteprima:\n\n{white}  (Punti più alti{blue} -512{white})\n",
@@ -2122,7 +2122,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Würfel allein, um zum nächsten Entfernertyp zu wechseln\n\n{green}Schilde/Schmuck:{white} Unzerstörbar, 5%% Elementarabsorption\n{green}Helme/Gürtel:{white} Unzerstörbar, 5%% Elementarabsorption\n{green}Rüstungen/Stiefel:{white} Unzerstörbar, 5%% Elementarabsorption\n{green}Waffen/Handschuhe:{white} Unzerstörbar,  5%% Elementarabsorption\n{turquoise}Rune-Vorschau:\n\n{white}(High Points{blue} -1024{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Indestructible, +5%% Cold, Lightning, Fire, Magic Absorb\n{green}Helms/Belts:{white} Indestructible, +5%% Cold, Lightning, Fire, Magic Absorb\n{green}Armors/Boots:{white} Indestructible, +5%% Cold, Lightning, Fire, Magic Absorb\n{green}Weapons/Gloves:{white} Indestructible, +5%% Cold, Lightning, Fire, Magic Absorb\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -1024{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Indestructible, +5%% Cold, Lightning, Fire, Magic Absorb\n{green}Helms/Belts:{white} Indestructible, +5%% Cold, Lightning, Fire, Magic Absorb\n{green}Armors/Boots:{white} Indestructible, +5%% Cold, Lightning, Fire, Magic Absorb\n{green}Weapons/Gloves:{white} Indestructible, +5%% Cold, Lightning, Fire, Magic Absorb\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -1024{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Indestructible, 5%% de absorción elemental\n{green}Cascos/cinturones:{white} Indestructible, 5%% de absorción elemental\n{green}Armas/Botas:{white} Indestructible, 5%% de absorción elemental\n{green}Armas/ Guantes:{white} Indestructible,  5%% de absorción elemental\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -1024{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Indestructible, 5%% de absorción elemental\n{green}Cascos/cinturones:{white} Indestructible, 5%% de absorción elemental\n{green}Armas/Botas:{white} Indestructible, 5%% de absorción elemental\n{green}Armas/ Guantes:{white} Indestructible,  5%% de absorción elemental\n{turquoise}Rune Preview:\n\n{white}(High Points{blue} -1024{white})\n",
                 frFR = "{tan}Cube da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} Indistruttibile, 5%% Assorbimento elementale\n{green}Elmi/Cinture:{white} Indistruttibile, 5%% Assorbimento elementale\n{green}Armature/Stivali:{white} Indistruttibile, 5%% Assorbimento elementale\n{green}Armi/Guanti :{white} Indistruttibile,  Assorbimento elementale 5%%\n{turquoise}Rune Anteprima:\n\n{white}(Punti alti{blue} -1024{white})\n",
@@ -3440,7 +3440,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix_desc = {
                 deDE = "{blue}35%% Kalt-/Feuer-/Blitzschaden für 10 Minuten\n{white}eat, um zu erhalten:\n\nbinc5a Geschenk vom Boney Bunny ...\n",
-                enUS = "{white}1000{orange} Candy Corn: {blue}+1 to Elemental Masteries (Blank Talent Only)\n{white}500{orange} Candy Corn: {blue}Remove Class Restriction from Buriza or Gull\n{white}250{orange} Candy Corn: {blue}Upgrade Codex to Testament\n{white}150{orange} Candy Corn: {blue}3 Random Rainbow Facets\n{white}100{orange} Candy Corn: {blue}+3-4 Unspent Stat Points (Permanent)\n{white}50{orange} Candy Corn: {blue}+1 All Skills Enhance Crystal\n{white}35{orange} Candy Corn: {blue}+100-150 Soul Shards\n{white}20{orange} Candy Corn: {blue}Buffable Unique Charms\n{white}10{orange} Candy Corn: {blue}Random Unique Archon Plate\n{white}5{orange} Candy Corn: {blue}Random Bugged/Hacked Items (or gold)\n{white}3{orange} Candy Corn: {blue}Random Rune (Up to Zod)\n{white}2{orange} Candy Corn: {blue}Random Pumpkin Perk\n{white}1{orange} Candy Corn: {blue}Random Set Item\n{purple}Hint: (Check your Recipe Menu)\n\n{lilac}Maybe they hold value elsewhere?\nLost remnants of the Mad Kings minions...\n",
+                enUS = "{white}1000{orange} Pumpkin Slice: {blue}Grants an infinite premium socket remover\n{white}500{orange} Pumpkin Slice: {blue}Limit Break Package\n{white}250{orange} Pumpkin Slice: {blue}Convert Crimson Shift to an Amulet\n{white}150{orange} Pumpkin Slice: {blue}Remove Merc Only status on Merc Items\n{white}100{orange} Pumpkin Slice: {blue}+3-4 Unspent Stat Points (Permanent)\n{white}50{orange} Pumpkin Slice: {blue}Organ Set (Uber Tristram)\n{white}35{orange} Pumpkin Slice: {blue}+100-150 Soul Shards\n{white}20{orange} Pumpkin Slice: {blue}Upgrade for Healthy Breakfast\n{white}10{orange} Pumpkin Slice: {blue}Random Unique Archon Plate\n{white}5{orange} Pumpkin Slice: {blue}Grants 250K Gold\n{white}3{orange} Pumpkin Slice: {blue}Random Rune (Up to Zod)\n{white}1{orange} Pumpkin Slice: {blue}Random Unique Item\n{purple}Hint: (Check your Recipe Menu)\n\n{lilac}Maybe they hold value elsewhere?\nStill fresh from the oven...\n",
                 esES = "{blue}35%% Cold/Fire/Lightning Daño durante 10 minutos\n{white}eat para recibir:\n\n{gray}a regalo del conejito de huesos ...\n",
                 esMX = "{blue}35%% Cold/Fire/Lightning Daño durante 10 minutos\n{white}eat para recibir:\n\n{gray}a regalo del conejito de huesos ...\n",
                 frFR = "{blue}35%% Dommages à froid / feu / Lightning pendant 10 minutes\n{white}EAT à recevoir:\n\n{gray}a Cadeau du Boney Bunny ...\n",
@@ -3573,7 +3573,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix_desc = {
                 deDE = "{gray}(Alle Effekte halten 10 Minuten an)\n{blue}Reduziert Händlerpreise um 20%%\n+50%% Erfahrung\n+1 alle Fertigkeiten\n{white}Iss zum erhalten:\n\n{gray}Ein Geschenk vom Bonesy Bunny ... für die Schlauen unter euch\n",
-                enUS = "{blue}Used to represent{white} 100{orange} Candy Corn{blue} during the event\n\n{lilac}You can never have too much candy...\n",
+                enUS = "{blue}Used to represent{white} 100{orange} Pumpkin Slice{blue} during the event\n\n{lilac}Just one more slice...\n",
                 esES = "{gray}(Todos los efectos duran 10 minutos)\n{blue}Reduce los precios de los vendedores en un 20%%\n50%% de experiencia obtenida\n1 para todas las habilidades\n{white}Come para recibir:\n\n{gray}Un regalo de Bonesy Bunny... para los inteligentes entre ustedes\n",
                 esMX = "{gray}(Todos los efectos duran 10 minutos)\n{blue}Reduce los precios de los vendedores en un 20%%\n50%% de experiencia obtenida\n1 para todas las habilidades\n{white}Come para recibir:\n\n{gray}Un regalo de Bonesy Bunny... para los inteligentes entre ustedes\n",
                 frFR = "{gray}(Tous les effets durent 10 minutes)\n{blue}Réduisez les prix des fournisseurs de 20 %%\n50 %% d'expérience acquise\n1 pour toutes les compétences\n{white}Mangez pour recevoir :\n\n{gray}Un cadeau du Bonesy Bunny... pour les plus intelligents d'entre vous\n",
@@ -3617,7 +3617,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Cube allein, für den nächsten Entfernertyp\n\n{green}Schilde/Schmuck:{white} +2 Beschwörungskraft\n{green}Helme/Gürtel:{white} +2 Zauberkraft\n{green}Rüstungen/Stiefel:{white} +2 Zauberkraft\n{green}Waffen/Handschuhe:{white} +2 Kampfkraft\n{turquoise}Rune Preview:\n\n{white}(Ultra Points{blue} -1{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +2 Summoning Power\n{green}Helms/Belts:{white} +2 Spell Power\n{green}Armors/Boots:{white} +2 Spell Power\n{green}Weapons/Gloves:{white} +2 Combat Power\n{turquoise}Rune Preview:\n\n{white}(Ultra Points{blue} -1{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +2 Summoning Power\n{green}Helms/Belts:{white} +2 Spell Power\n{green}Armors/Boots:{white} +2 Spell Power\n{green}Weapons/Gloves:{white} +2 Combat Power\n{turquoise}Rune Preview:\n\n{white}(Ultra Points{blue} -1{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 2 Poder de invocación\n{green}Yelmos/Cinturones:{white} 2 Poder con hechizos\n{green}Armas/Botas:{white} 2 Poder con hechizos\n{green}Armas/Guantes:{white} 2 Poder de combate\n{turquoise}R una vista previa:\n\n{white}(Ultra Puntos{blue} -1{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 2 Poder de invocación\n{green}Yelmos/Cinturones:{white} 2 Poder con hechizos\n{green}Armas/Botas:{white} 2 Poder con hechizos\n{green}Armas/Guantes:{white} 2 Poder de combate\n{turquoise}R una vista previa:\n\n{white}(Ultra Puntos{blue} -1{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/gioielli:{white} 2 potere di evocazione\n{green}Elmi/cinture:{white} 2 potere magico\n{green}Armature/stivali:{white} 2 potere magico\n{green}Armi/guanti:{white} 2 potere di combattimento\n{turquoise}Rune Anteprima:\n\n{white}(Ultra Punti{blue} -1{white})\n",
@@ -3636,7 +3636,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Cube allein, für den nächsten Entfernertyp\n\n{green}Schilde/Schmuck:{white} Reduzierte Abklingzeiten um 10%%\n{green}Helme/Gürtel:{white} Erhöht Buff-Dauer um 10%%\n{green}Rüstungen/Stiefel:{white} Erhöht Buff-Dauer um 10%%\n{green}Waffen/Handschuh s:{white} Reduzierte Abklingzeiten um 10%%\n{turquoise}Rune Preview:\n\n{white}(Ultra{blue} -2{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} Reduces Cooldowns by 10%%\n{green}Helms/Belts:{white} Increases Buff Durations by 10%%\n{green}Armors/Boots:{white} Increases Buff Durations by 10%%\n{green}Weapons/Gloves:{white} Reduces Cooldowns by 10%%\n{turquoise}Rune Preview:\n\n{white}(Ultra Points{blue} -2{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} Reduces Cooldowns by 10%%\n{green}Helms/Belts:{white} Increases Buff Durations by 10%%\n{green}Armors/Boots:{white} Increases Buff Durations by 10%%\n{green}Weapons/Gloves:{white} Reduces Cooldowns by 10%%\n{turquoise}Rune Preview:\n\n{white}(Ultra Points{blue} -2{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Reduce los tiempos de reutilización en un 10%%\n{green}Cascos/cinturones:{white} Aumenta la duración de las mejoras en un 10%%\n{green}Armas/Botas:{white} Aumenta la duración de las mejoras en un 10%%\n{green}Armas/G ama:{white} Reduce los tiempos de reutilización en  10%%\n{turquoise}Rune Vista previa:\n\n{white}(Ultra Points{blue} -2{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} Reduce los tiempos de reutilización en un 10%%\n{green}Cascos/cinturones:{white} Aumenta la duración de las mejoras en un 10%%\n{green}Armas/Botas:{white} Aumenta la duración de las mejoras en un 10%%\n{green}Armas/G ama:{white} Reduce los tiempos de reutilización en  10%%\n{turquoise}Rune Vista previa:\n\n{white}(Ultra Points{blue} -2{white})\n",
                 frFR = "{tan}Cube da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/gioielli:{white} Riduce i tempi di recupero del 10%%\n{green}Elmi/Cinture:{white} Aumenta la durata dei buff del 10%%\n{green}Armature/stivali:{white} Aumenta la durata dei buff del 10%%\n{green}Armi/guanti:{white} Riduce i tempi di recupero di  10%%\n{turquoise}Rune Anteprima:\n\n{white}(Ultra Points{blue} -2{white})\n",
@@ -3655,7 +3655,7 @@ return {
             location = { "onplayer", "atvendor" },
             prefix = {
                 deDE = "{tan}Cube allein, für den nächsten Entfernertyp\n\n{green}Schilde/Schmuck:{white} +1 alle Fertigkeiten\n{green}Helme/Gürtel:{white} +1 alle Fertigkeiten\n{green}Rüstungen/Stiefel:{white} +1 alle Fertigkeiten\n{green}Waffen/Handschuhe:{white} +1 alle Fertigkeiten\n{turquoise}Rune Preview:\n\n{white}(Ultra{blue} -4{white})\n",
-                enUS = "{tan}Cube alone to change to next remover type\n\n{green}Shields/Jewelry:{white} +1 to All Skills\n{green}Helms/Belts:{white} +1 to All Skills\n{green}Armors/Boots:{white} +1 to All Skills\n{green}Weapons/Gloves:{white} +1 to All Skills\n{turquoise}Rune Preview:\n\n{white}(Ultra Points{blue} -4{white})\n",
+                enUS = "{tan}Cube with Storage Bag to change to next remover type\n\n{green}Shields/Jewelry:{white} +1 to All Skills\n{green}Helms/Belts:{white} +1 to All Skills\n{green}Armors/Boots:{white} +1 to All Skills\n{green}Weapons/Gloves:{white} +1 to All Skills\n{turquoise}Rune Preview:\n\n{white}(Ultra Points{blue} -4{white})\n",
                 esES = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 1 para todas las habilidades\n{green}Cascos/cinturones:{white} 1 para todas las habilidades\n{green}Armas/Botas:{white} 1 para todas las habilidades\n{green}Armas/Guantes:{white} 1 para todas las habilidades\n{turquoise}Rune Vista previa:\n\n{white}(Ultra Points{blue} -4{white})\n",
                 esMX = "{tan}Cubo solo para cambiar al siguiente tipo de eliminador\n\n{green}Escudos/Joyas:{white} 1 para todas las habilidades\n{green}Cascos/cinturones:{white} 1 para todas las habilidades\n{green}Armas/Botas:{white} 1 para todas las habilidades\n{green}Armas/Guantes:{white} 1 para todas las habilidades\n{turquoise}Rune Vista previa:\n\n{white}(Ultra Points{blue} -4{white})\n",
                 frFR = "{tan}Cubo da solo per passare al tipo di rimozione successivo\n\n{green}Scudi/Gioielli:{white} 1 a tutte le abilità\n{green}Elmi/Cinture:{white} 1 a tutte le abilità\n{green}Armature/Stivali:{white} 1 a tutte le abilità\n{green}Armi/Guanti:{white} 1 a tutte le abilità\n{turquoise}Rune Anteprima:\n\n{white}(Ultra Points{blue} -4{white})\n",
@@ -4567,7 +4567,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{white} White\n{tan}or{lilac}\nCube with item to dye it\n\n{white}Bright White{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{white} White {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{white}Bright White{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4586,7 +4586,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{gray} Light Gray\n{tan}or{lilac}\nCube with item to dye it\n\n{gray}Black{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{gray} Light Gray {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{gray}Black{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4605,7 +4605,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{blue} Light Blue\n{tan}or{lilac}\nCube with item to dye it\n\n{blue}Crystal Blue{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{blue} Light Blue {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{blue}Crystal Blue{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4624,7 +4624,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{red} Light Red\n{tan}or{lilac}\nCube with item to dye it\n\n{red}Crystal Red{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{red} Light Red {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{red}Crystal Red{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4643,7 +4643,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{green} Light Green\n{tan}or{lilac}\nCube with item to dye it\n\n{green}Crystal Green{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{green} Light Green {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{green}Crystal Green{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4662,7 +4662,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{yellow} Dark Yellow\n{tan}or{lilac}\nCube with item to dye it\n\n{yellow}Light Yellow{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{yellow} Dark Yellow {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{yellow}Light Yellow{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4681,7 +4681,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{purple} Dark Purple\n{tan}or{lilac}\nCube with item to dye it\n\n{purple}Light Purple{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{purple} Dark Purple {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{purple}Light Purple{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4700,7 +4700,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{white} Bright White\n{tan}or{lilac}\nCube with item to dye it\n\n{white}White{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{white} Bright White {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{white}White{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4719,7 +4719,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{gray} Dark Gray\n{tan}or{lilac}\nCube with item to dye it\n\n{gray}Light Gray{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{gray} Dark Gray {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{gray}Light Gray{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4738,7 +4738,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{gray} Black\n{tan}or{lilac}\nCube with item to dye it\n\n{gray}Dark Gray{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{gray} Black {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{gray}Dark Gray{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4757,7 +4757,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{blue} Dark Blue\n{tan}or{lilac}\nCube with item to dye it\n\n{blue}Light Blue{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{blue} Dark Blue {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{blue}Light Blue{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4776,7 +4776,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{blue} Crystal Blue\n{tan}or{lilac}\nCube with item to dye it\n\n{blue}Dark Blue{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{blue} Crystal Blue {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{blue}Dark Blue{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4795,7 +4795,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{red} Dark Red\n{tan}or{lilac}\nCube with item to dye it\n\n{red}Light Red{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{red} Dark Red {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{red}Light Red{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4814,7 +4814,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{red} Crystal Red\n{tan}or{lilac}\nCube with item to dye it\n\n{red}Dark Red{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{red} Crystal Red {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{red}Dark Red{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4833,7 +4833,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{green} Dark Green\n{tan}or{lilac}\nCube with item to dye it\n\n{green}Light Green{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{green} Dark Green {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{green}Light Green{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4852,7 +4852,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{green} Crystal Green\n{tan}or{lilac}\nCube with item to dye it\n\n{green}Dark Green{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{green} Crystal Green {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{green}Dark Green{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4871,7 +4871,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{yellow} Light Yellow\n{tan}or{lilac}\nCube with item to dye it\n\n{yellow}Dark Yellow{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{yellow} Light Yellow {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{yellow}Dark Yellow{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4890,7 +4890,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{purple} Light Purple\n{tan}or{lilac}\nCube with item to dye it\n\n{purple}Dark Purple{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{purple} Light Purple {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{purple}Dark Purple{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4909,7 +4909,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{gold} Light Gold\n{tan}or{lilac}\nCube with item to dye it\n\n{orange}Orange{gold}\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{gold} Light Gold {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{orange}Orange{gold}\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4928,7 +4928,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{gold} Dark Gold\n{tan}or{lilac}\nCube with item to dye it\n\n{gold}Light Gold\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{gold} Dark Gold {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{gold}Light Gold\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -4947,7 +4947,7 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix = {
                 deDE = "{green}(Würfel mit einem farbigen Element zum Entfernen des Farbstoffs){gold}\n",
-                enUS = "{lilac}Cube alone to change shade to{orange} Orange\n{tan}or{lilac}\nCube with item to dye it\n\n{gold}Dark Gold\n",
+                enUS = "{lilac}Cube with Storage Bag to change shade to{orange} Orange {grey}(50 Gems)\n{tan}or{lilac}\nCube with item to dye it\n\n{gold}Dark Gold\n",
                 esES = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 esMX = "{green}(cubo con un elemento teñido de color para eliminar el tinte){gold}\n",
                 frFR = "{green}(cube avec un élément teint en couleur pour supprimer le colorant){gold}\n",
@@ -5093,7 +5093,109 @@ return {
             location = { "onplayer", "equipped", "atvendor" },
             prefix_desc = "{white}Use in Horadric Shop to purchase rewards\n{tan}or\n{white}Cube with Token of Evil to convert to 5m gold\n"
         },
-        
+        { --Healthy Breakfast Flavor Text
+            code = "cm1",
+            index = 598,
+            identified = true,
+            location = { "onplayer", "equipped", "atvendor" },
+            prefix = "{grey}Well maybe not healthy, but it does make you glow\n"
+        },
+        { --Bag Warning: Rare Jewels
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 419, op = "==", value = 2037 },
+            suffix_desc = "{tan}WARNING: {white}Rare Jewels are at storage capacity!\n"
+        },
+        { --Bag Warning: Full Rejuvs
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 420, op = "==", value = 2037 },
+            suffix_desc = "{tan}WARNING: {white}Full Rejuvs are at storage capacity!\n"
+        },
+        { --Bag Warning: Magic Jewels
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 434, op = "==", value = 9999 },
+            suffix_desc = "{tan}WARNING: {white}Full Rejuvs are at storage capacity!\n"
+        },
+        { --Bag Warning: Gems
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 291, op = "==", value = 4000 },
+            suffix_desc = "{tan}WARNING: {white}Gems are at storage capacity!\n"
+        },
+        { --Bag Warning: Low Runes
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 292, op = "==", value = 1000000 },
+            suffix_desc = "{tan}WARNING: {white}Low Runes are at storage capacity!\n"
+        },
+        { --Bag Warning: Mid Runes
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 293, op = "==", value = 1000000 },
+            suffix_desc = "{tan}WARNING: {white}Mid Runes are at storage capacity!\n"
+        },
+        { --Bag Warning: High Runes
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 294, op = "==", value = 1000000 },
+            suffix_desc = "{tan}WARNING: {white}High Runes are at storage capacity!\n"
+        },
+        { --Bag Warning: Terror Keys
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 295, op = "==", value = 200 },
+            suffix_desc = "{tan}WARNING: {white}Terror Keys are at storage capacity!\n"
+        },
+        { --Bag Warning: Hate Keys
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 296, op = "==", value = 200 },
+            suffix_desc = "{tan}WARNING: {white}Hate Keys are at storage capacity!\n"
+        },
+        { --Bag Warning: Destruction Keys
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 297, op = "==", value = 200 },
+            suffix_desc = "{tan}WARNING: {white}Destruction Keys are at storage capacity!\n"
+        },
+        { --Bag Warning: Diablo Organs
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 298, op = "==", value = 200 },
+            suffix_desc = "{tan}WARNING: {white}Diablo Organs are at storage capacity!\n"
+        },
+        { --Bag Warning: Baal Organs
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 299, op = "==", value = 200 },
+            suffix_desc = "{tan}WARNING: {white}Baal Organs are at storage capacity!\n"
+        },
+        { --Bag Warning: Meph Organs
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 300, op = "==", value = 200 },
+            suffix_desc = "{tan}WARNING: {white}Meph Organs are at storage capacity!\n"
+        },
+        { --Bag Warning: Unique Cores
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 386, op = "==", value = 2017 },
+            suffix_desc = "{tan}WARNING: {white}Unique Cores are at storage capacity!\n"
+        },
+        { --Bag Warning: Set Cores
+            code = "Z01",
+            location = { "onplayer", "equipped", "atvendor" },
+            stat= { index = 369, op = "==", value = 2017 },
+            suffix_desc = "{tan}WARNING: {white}Set Cores are at storage capacity!\n"
+        },
+        { --Charms Purple Text
+            codes = { "cm1", "cm2", "cm3" },
+            identified = false,
+            location = { "onground", "onplayer", "atvendor" },
+            prefix = "{purple}"
+        },
 
         -- endregion
 

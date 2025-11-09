@@ -147,8 +147,8 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 215, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.9GAI)",
+                                "rect": { "x": 230, "y": 2030, "width": 400 },
+                                "text":"(Beta - 0.9.9.9GB)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
@@ -160,8 +160,8 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 270, "y": 2080, "width": 400 },
-                                "text":"Halloween Havoc",
+                                "rect": { "x": 250, "y": 2080, "width": 400 },
+                                "text":"Hell Hath No Gravy",
                                 "style": {
                                     "fontColor": "$FontColorOrange",
                                     "pointSize": "$SmallPanelFontSize",

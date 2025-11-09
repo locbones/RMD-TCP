@@ -51219,5 +51219,22 @@
 	    "ruRU": "Сопротивление стихиям/магии противника %d%% (%d%% при наличии иммунитета)",
 	    "zhCN": "敌人元素/魔法抗性%d%%（如果免疫则为%d%%）",
 	    "zhTW": "敵人元素/魔法抗性%d%%（如果免疫則為%d%%）"
+    },
+    {
+        "id": 61912,
+        "Key": "skMindBlast",
+	    "deDE": "Geistesblitz",
+	    "enUS": "Mind Blast",
+	    "esES": "Explosión mental",
+	    "esMX": "Explosión mental",
+	    "frFR": "Explosion mentale",
+	    "itIT": "Esplosione mentale",
+	    "jaJP": "マインドブラスト",
+	    "koKR": "마인드 블래스트",
+	    "plPL": "Eksplozja umysłu",
+	    "ptBR": "Explosão mental",
+	    "ruRU": "Взрыв разума",
+	    "zhCN": "心灵冲击",
+	    "zhTW": "心靈衝擊"
     }
 ]

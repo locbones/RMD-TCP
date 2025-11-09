@@ -895,9 +895,9 @@
   "ultra": "glove/light_gauntlets"
 } },
 { "repeating_reaper": {
-  "normal": "bow/repeating_crossbow",
-  "uber": "bow/repeating_crossbow",
-  "ultra": "bow/repeating_crossbow"
+  "normal": "bow/hydra_bow",
+  "uber": "bow/hydra_bow",
+  "ultra": "bow/hydra_bow"
 } },
 { "fletchers_friend": {
   "normal": "glove/heavy_gloves",

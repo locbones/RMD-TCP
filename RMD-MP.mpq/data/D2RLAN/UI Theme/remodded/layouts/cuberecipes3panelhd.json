@@ -1,4 +1,4 @@
-{
+﻿{
     "type": "VideoOptionsPanel", "name": "CubeRecipes3Panel",
     "fields": {
         "priority": 9003,
@@ -50,7 +50,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
-                                        "text": "Candy Corn Chaos",
+                                        "text": "Hell Hath No Gravy",
                                         "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
@@ -71,7 +71,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "100 Candy Corn = 1 Cornucopia",
+                                        "text": "100 Pumpkin Slice = 1 Pumpkin Pie",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -83,7 +83,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "Candy Corn cannot be stacked - Cornucopia are used for larger amounts",
+                                        "text": "Pumpkin Slice cannot be stacked - Pumpkin Pie are used for larger amounts",
                                         "style": "$RecipeSettingsTextPink"
                                     }
                                 }
@@ -95,7 +95,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "1 Candy Corn = Random Set Item",
+                                        "text": "1 Pumpkin Slice = Random Unique Item",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -107,7 +107,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "2 Candy Corn = Random Buff Potion",
+                                        "text": "3 Pumpkin Slice = Random Rune (Up to Zod)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -119,7 +119,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "3 Candy Corn = Random Rune (Up to Zod)",
+                                        "text": "5 Pumpkin Slice = 250K Gold",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -131,7 +131,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "5 Candy Corn = Broken Gift Box (Chance at bugged/1.08 items)",
+                                        "text": "10 Pumpkin Slice = Random Unique Archon Plate",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -143,7 +143,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "10 Candy Corn = Random Unique Archon Plate",
+                                        "text": "20 Pumpkin Slice + Healthy Breakfast = Healthy Breakfast (+15 Energy, +100 MP, +5% Manasteal)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -155,7 +155,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "20 Candy Corn + Gheed's Fortune = Gheed's Fortune (+2 Combat Power)",
+                                        "text": "35 Pumpkin Slice + Beacon of Hope = Beacon of Hope (+100-150 Soul Shards)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -167,7 +167,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "20 Candy Corn + Annihilus = Annihilus (+1 All Skills)",
+                                        "text": "50 Pumpkin Slice = Organ Set (Uber Tristram)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -179,7 +179,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "20 Candy Corn + Cola Cube = Cola Cube (+1 Fire Skills)",
+                                        "text": "1 Pumpkin Pie = Tears of Bonesy (Buff Potion)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -191,7 +191,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "20 Candy Corn + Healthy Breakfast = Healthy Breakfast (+15 Vit, +100 HP, +5% Lifesteal)",
+                                        "text": "1 Pumpkin Pie + 50 Pumpkin Slice = Remove Merc Only affix from Merc Items",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -203,7 +203,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "35 Candy Corn + Beacon of Hope = Beacon of Hope (+100-150 Soul Shards)",
+                                        "text": "2 Pumpkin Pie + 50 Pumpkin Slice + Crimson Shift = Crimson Shift Amulet",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -215,7 +215,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "50 Candy Corn = +1 All Skills Enhancement Crystal",
+                                        "text": "5 Pumpkin Pie + QoL Bag = LB Package (Adds 300 Rare Jewels to bag + Ded'domer's Jawbone)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -227,67 +227,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
-                                        "text": "1 Cornucopia = Tears of Bonesy (Buff Potion)",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "1 Cornucopia + 50 Candy Corn = 3x Rainbow Facets (Random)",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "2 Cornucopia + 50 Candy Corn + Codex = Testament of Same Set",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "5 Cornucopia + Buriza Crossbow = Buriza (Ward Bow)",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "5 Cornucopia + Gull Dagger = Gull (Short Sword)",
-                                        "style": "$RecipeSettingsText"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget", "name": "GC1",
-                            "children": [
-                                {
-                                    "type": "TextBoxWidget", "name": "GC1T",
-                                    "fields": {
-                                        "text": "10 Cornucopia + Blank Talent = Blank Talent (+1 to Elemental Masteries)",
+                                        "text": "10 Pumpkin Pie = Infinity Remover (Infinite Premium Socket Remover)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

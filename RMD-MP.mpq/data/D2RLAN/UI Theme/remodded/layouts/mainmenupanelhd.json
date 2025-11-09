@@ -30,7 +30,7 @@
                 "playerBoundsMax": [ 40.0, 10.0, 490.0 ],
                 "enableOutdoorShadow": true,
                 "overrideFrustumBoundsOnActivate": true,
-                "visDataPath": "data/hd/env/vis/ui_frontend_act1_vignette.json",
+                "visDataPath": "data/hd/env/vis/ui_frontend_act5_vignette.json",
                 "iblDataPath": "data/hd/env/ibl/act3_IW_over29_CUBEMAP.ibls"
             }
         },
@@ -48,7 +48,7 @@
                 "playerBoundsMax": [ 75.0, 10.0, 115.0 ],
                 "enableOutdoorShadow": true,
                 "overrideFrustumBoundsOnActivate": true,
-                "visDataPath": "data/hd/env/vis/ui_frontend_act2_vignette.json",
+                "visDataPath": "data/hd/env/vis/ui_frontend_act5_vignette.json",
                 "iblDataPath": "data/hd/env/ibl/act3_IW_over29_CUBEMAP.ibls"
             }
         },
@@ -66,7 +66,7 @@
                 "playerBoundsMax": [ 17.0, 10.0, -320 ],
                 "enableOutdoorShadow": true,
                 "overrideFrustumBoundsOnActivate": true,
-                "visDataPath": "data/hd/env/vis/ui_frontend_act3_vignette.json",
+                "visDataPath": "data/hd/env/vis/ui_frontend_act5_vignette.json",
                 "iblDataPath": "data/hd/env/ibl/act3_IW_over29_CUBEMAP.ibls"
             }
         },
@@ -84,7 +84,7 @@
                 "playerBoundsMax": [ 30.0, 15.0, -800.0],
                 "enableOutdoorShadow": true,
                 "overrideFrustumBoundsOnActivate": true,
-                "visDataPath": "data/hd/env/vis/ui_frontend_act4_vignette.json",
+                "visDataPath": "data/hd/env/vis/ui_frontend_act5_vignette.json",
                 "iblDataPath": "data/hd/env/ibl/act3_IW_over29_CUBEMAP.ibls"
             }
         },
