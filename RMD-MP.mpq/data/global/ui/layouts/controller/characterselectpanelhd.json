@@ -148,7 +148,7 @@
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 230, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.9GB)",
+                                "text":"(Beta - 0.9.9.9GBA)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",

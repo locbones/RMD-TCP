@@ -7,6 +7,7 @@
   "HPRollover%": 99, // The maximum percentage of damage reduction that can be applied to players damage tables
   "HPRolloverDifficulty": -1, // Apply Rollover logic to difficulties greater than: -1 (All Difficulties), 0 (Nightmare/Hell Only), 1 (Hell Only)
   "SunderedMonUMods": true, // Allows the 'sunder' mechanic to also reduce MonUMod bonuses (assuming enough -resistance% is applied)
+  "SunderValue": 99, // The resistance value monster will be set to when successfully "sundered"
   "MinionEquality": true, // Allows minions of Champs/Uniques to benefit from the same drop levels
   "GambleCostControl": true, // Allows the 'Gamble Cost' column in AMW.txt to be used for all items; a value of -1 reverts to retail cost logic'
   "DLLsToLoad": [ "D2RHUD.dll" ],

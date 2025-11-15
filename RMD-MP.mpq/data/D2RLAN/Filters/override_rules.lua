@@ -5116,7 +5116,7 @@ return {
             code = "Z01",
             location = { "onplayer", "equipped", "atvendor" },
             stat= { index = 434, op = "==", value = 9999 },
-            suffix_desc = "{tan}WARNING: {white}Full Rejuvs are at storage capacity!\n"
+            suffix_desc = "{tan}WARNING: {white}Magic Jewels are at storage capacity!\n"
         },
         { --Bag Warning: Gems
             code = "Z01",
