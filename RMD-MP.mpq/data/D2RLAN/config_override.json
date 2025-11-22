@@ -10,7 +10,7 @@
   "SunderValue": 99, // The resistance value monster will be set to when successfully "sundered"
   "MinionEquality": true, // Allows minions of Champs/Uniques to benefit from the same drop levels
   "GambleCostControl": true, // Allows the 'Gamble Cost' column in AMW.txt to be used for all items; a value of -1 reverts to retail cost logic'
-  "CombatLog": true, // Displays real-time attack/defense data logs in the System Chat (Channel: All). This uses logic/values from internal game code
+  "CombatLog": false, // Displays real-time attack/defense data logs in the System Chat (Channel: All). This uses logic/values from internal game code
   "DLLsToLoad": [ "D2RHUD.dll" ],
   "MemoryConfigs": [
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
