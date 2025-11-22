@@ -5196,7 +5196,10 @@ return {
             location = { "onground", "onplayer", "atvendor" },
             prefix = "{purple}"
         },
-
+        { --High Rune Drop Sound
+            codes = { "r23", "r24", "r25", "r26", "r27", "r28", "r29", "r30", "r31", "r32", "r33", "r34", "r35", "r36" },
+            audio = "HR_Drop.mp3"
+        },
         -- endregion
 
     }

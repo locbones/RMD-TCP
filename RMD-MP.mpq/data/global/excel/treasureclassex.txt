@@ -81,7 +81,7 @@ Bishibosh (H) Flavor			1					1	The Oculus	1																						0
 Fire Eye Flavor			1					1	Kreigur's Will	1	Kreigur's Judgement	1	Bul-Kathos' Sacred Charge	1	Bul-Kathos' Tribal Guardian	1																0
 Goodies - Andariel			1						Blank	5	C00	4	C35	4	tes	20	Shards	20														0
 Goodies - Ancients			1						Blank	5	C11	1																				0
-Goodies - Anuburak			1						Blank	50	C01	10	C30	10																		0
+Goodies - Anuburak			1						Blank	50	C01	10	C30	10	z19	1																0
 Goodies - Baal			1						Blank	5	C02	4	C12	4	fed	20	Shards	20														0
 Goodies - Blood Raven			1						Blank	10	C13	1	Blood Raven Flavor	3																		0
 Goodies - Corpsefire			1						Blank	5	C19	1																				0
@@ -962,10 +962,10 @@ TormentGroupB	21	85	1	725	825	800		100	Blank	4500	Act 5 (H) Equip C	600	Act 5 (H
 TormentGroupB2	21	103	1	725	825	800		100	Blank	4500	Act 5 (X) Equip	600	Act 5 (H) Good	280	Trial Scroll Group A	20	RMD Loot A	4	Runes 18	10	gld,mul=1536	300										0
 TormentGroupC	22	85	1	800	850	800		100	Blank	4500	Act 5 (H) Equip C	720	Act 5 (H) Good	340	Trial Scroll Group B	30	RMD Loot A	6	Runes 18	15	gld,mul=2048	360										0
 TormentGroupC2	22	103	1	800	850	800		100	Blank	4500	Act 5 (X) Equip	720	Act 5 (H) Good	340	Trial Scroll Group B	30	RMD Loot A	6	Runes 18	15	gld,mul=2048	360										0
-TormentGroupD	23	85	1	875	875	800		100	Blank	4500	Act 5 (H) Equip C	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	z22	1								0
-TormentGroupD2	23	103	1	875	875	800		100	Blank	4500	Act 5 (X) Equip	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420	z22	1								0
-TormentGroupE	24	85	1	950	900	800		100	Blank	4500	Act 5 (H) Equip C	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480										0
-TormentGroupE2	24	103	1	950	900	800		100	Blank	4500	Act 5 (X) Equip	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480										0
+TormentGroupD	23	85	1	875	875	800		100	Blank	4500	Act 5 (H) Equip C	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420										0
+TormentGroupD2	23	103	1	875	875	800		100	Blank	4500	Act 5 (X) Equip	840	Act 5 (H) Good	400	Trial Scroll Group C	40	RMD Loot A	8	Runes 18	20	gld,mul=2560	420										0
+TormentGroupE	24	85	1	950	900	800		100	Blank	4500	Act 5 (H) Equip C	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480	z22	1								0
+TormentGroupE2	24	103	1	950	900	800		100	Blank	4500	Act 5 (X) Equip	960	Act 5 (H) Good	460	Trial Scroll Group D	50	RMD Loot A	10	Runes 18	25	gld,mul=3072	480	z22	1								0
 TrialEnd			-1						a06	1																						0
 Enderaku	25	85	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	TormentBossesA	4																		0
 Enderaku2	25	103	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	TormentBossesA	4																		0

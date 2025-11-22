@@ -1,488 +1,488 @@
 Stat	*ID	Send Other	Signed	Send Bits	Send Param Bits	UpdateAnimRate	Saved	CSvSigned	CSvBits	CSvParam	fCallback	fMin	MinAccr	Encode	Add	Multiply	ValShift	1.09-Save Bits	1.09-Save Add	Save Bits	Save Add	Save Param Bits	keepzero	op	op param	op base	op stat1	op stat2	op stat3	direct	maxstat	damagerelated	itemevent1	itemeventfunc1	itemevent2	itemeventfunc2	descpriority	descfunc	descval	descstrpos	descstrneg	descstr2	dgrp	dgrpfunc	dgrpval	dgrpstrpos	dgrpstrneg	dgrpstr2	stuff	advdisplay	*eol
-StuffWasHere	0																																																		0
-StuffWasHere	1																																																		0
-StuffWasHere	2																																																		0
-StuffWasHere	3																																																		0
-StuffWasHere	4																																																		0
-StuffWasHere	5																																																		0
-StuffWasHere	6																																																		0
-StuffWasHere	7																																																		0
-StuffWasHere	8																																																		0
-StuffWasHere	9																																																		0
-StuffWasHere	10																																																		0
-StuffWasHere	11																																																		0
-StuffWasHere	12																																																		0
-StuffWasHere	13																																																		0
-StuffWasHere	14																																																		0
-StuffWasHere	15																																																		0
-StuffWasHere	16																																																		0
-StuffWasHere	17																																																		0
-StuffWasHere	18																																																		0
-StuffWasHere	19																																																		0
-StuffWasHere	20																																																		0
-StuffWasHere	21																																																		0
-StuffWasHere	22																																																		0
-StuffWasHere	23																																																		0
-StuffWasHere	24																																																		0
-StuffWasHere	25																																																		0
-StuffWasHere	26																																																		0
-StuffWasHere	27																																																		0
-StuffWasHere	28																																																		0
-StuffWasHere	29																																																		0
-StuffWasHere	30																																																		0
-StuffWasHere	31																																																		0
-StuffWasHere	32																																																		0
-StuffWasHere	33																																																		0
-StuffWasHere	34																																																		0
-StuffWasHere	35																																																		0
-StuffWasHere	36																																																		0
-StuffWasHere	37																																																		0
-StuffWasHere	38																																																		0
-StuffWasHere	39																																																		0
-StuffWasHere	40																																																		0
-StuffWasHere	41																																																		0
-StuffWasHere	42																																																		0
-StuffWasHere	43																																																		0
-StuffWasHere	44																																																		0
-StuffWasHere	45																																																		0
-StuffWasHere	46																																																		0
-StuffWasHere	47																																																		0
-StuffWasHere	48																																																		0
-StuffWasHere	49																																																		0
-StuffWasHere	50																																																		0
-StuffWasHere	51																																																		0
-StuffWasHere	52																																																		0
-StuffWasHere	53																																																		0
-StuffWasHere	54																																																		0
-StuffWasHere	55																																																		0
-StuffWasHere	56																																																		0
-StuffWasHere	57																																																		0
-StuffWasHere	58																																																		0
-StuffWasHere	59																																																		0
-StuffWasHere	60																																																		0
-StuffWasHere	61																																																		0
-StuffWasHere	62																																																		0
-StuffWasHere	63																																																		0
-StuffWasHere	64																																																		0
-StuffWasHere	65																																																		0
-StuffWasHere	66																																																		0
-StuffWasHere	67																																																		0
-StuffWasHere	68																																																		0
-StuffWasHere	69																																																		0
-StuffWasHere	70																																																		0
-StuffWasHere	71																																																		0
-StuffWasHere	72																																																		0
-StuffWasHere	73																																																		0
-StuffWasHere	74																																																		0
-StuffWasHere	75																																																		0
-StuffWasHere	76																																																		0
-StuffWasHere	77																																																		0
-StuffWasHere	78																																																		0
-StuffWasHere	79																																																		0
-StuffWasHere	80																																																		0
-StuffWasHere	81																																																		0
-StuffWasHere	82																																																		0
-StuffWasHere	83																																																		0
-StuffWasHere	84																																																		0
-StuffWasHere	85																																																		0
-StuffWasHere	86																																																		0
-StuffWasHere	87																																																		0
-StuffWasHere	88																																																		0
-StuffWasHere	89																																																		0
-StuffWasHere	90																																																		0
-StuffWasHere	91																																																		0
-StuffWasHere	92																																																		0
-StuffWasHere	93																																																		0
-StuffWasHere	94																																																		0
-StuffWasHere	95																																																		0
-StuffWasHere	96																																																		0
-StuffWasHere	97																																																		0
-StuffWasHere	98																																																		0
-StuffWasHere	99																																																		0
-StuffWasHere	100																																																		0
-StuffWasHere	101																																																		0
-StuffWasHere	102																																																		0
-StuffWasHere	103																																																		0
-StuffWasHere	104																																																		0
-StuffWasHere	105																																																		0
-StuffWasHere	106																																																		0
-StuffWasHere	107																																																		0
-StuffWasHere	108																																																		0
-StuffWasHere	109																																																		0
-StuffWasHere	110																																																		0
-StuffWasHere	111																																																		0
-StuffWasHere	112																																																		0
-StuffWasHere	113																																																		0
-StuffWasHere	114																																																		0
-StuffWasHere	115																																																		0
-StuffWasHere	116																																																		0
-StuffWasHere	117																																																		0
-StuffWasHere	118																																																		0
-StuffWasHere	119																																																		0
-StuffWasHere	120																																																		0
-StuffWasHere	121																																																		0
-StuffWasHere	122																																																		0
-StuffWasHere	123																																																		0
-StuffWasHere	124																																																		0
-StuffWasHere	125																																																		0
-StuffWasHere	126																																																		0
-StuffWasHere	127																																																		0
-StuffWasHere	128																																																		0
-StuffWasHere	129																																																		0
-StuffWasHere	130																																																		0
-StuffWasHere	131																																																		0
-StuffWasHere	132																																																		0
-StuffWasHere	133																																																		0
-StuffWasHere	134																																																		0
-StuffWasHere	135																																																		0
-StuffWasHere	136																																																		0
-StuffWasHere	137																																																		0
-StuffWasHere	138																																																		0
-StuffWasHere	139																																																		0
-StuffWasHere	140																																																		0
-StuffWasHere	141																																																		0
-StuffWasHere	142																																																		0
-StuffWasHere	143																																																		0
-StuffWasHere	144																																																		0
-StuffWasHere	145																																																		0
-StuffWasHere	146																																																		0
-StuffWasHere	147																																																		0
-StuffWasHere	148																																																		0
-StuffWasHere	149																																																		0
-StuffWasHere	150																																																		0
-StuffWasHere	151																																																		0
-StuffWasHere	152																																																		0
-StuffWasHere	153																																																		0
-StuffWasHere	154																																																		0
-StuffWasHere	155																																																		0
-StuffWasHere	156																																																		0
-StuffWasHere	157																																																		0
-StuffWasHere	158																																																		0
-StuffWasHere	159																																																		0
-StuffWasHere	160																																																		0
-StuffWasHere	161																																																		0
-StuffWasHere	162																																																		0
-StuffWasHere	163																																																		0
-StuffWasHere	164																																																		0
-StuffWasHere	165																																																		0
-StuffWasHere	166																																																		0
-StuffWasHere	167																																																		0
-StuffWasHere	168																																																		0
-StuffWasHere	169																																																		0
-StuffWasHere	170																																																		0
-StuffWasHere	171																																																		0
-StuffWasHere	172																																																		0
-StuffWasHere	173																																																		0
-StuffWasHere	174																																																		0
-StuffWasHere	175																																																		0
-StuffWasHere	176																																																		0
-StuffWasHere	177																																																		0
-StuffWasHere	178																																																		0
-StuffWasHere	179																																																		0
-StuffWasHere	180																																																		0
-StuffWasHere	181																																																		0
-StuffWasHere	182																																																		0
-StuffWasHere	183																																																		0
-StuffWasHere	184																																																		0
-StuffWasHere	185																																																		0
-StuffWasHere	186																																																		0
-StuffWasHere	187																																																		0
-StuffWasHere	188																																																		0
-StuffWasHere	189																																																		0
-StuffWasHere	190																																																		0
-StuffWasHere	191																																																		0
-StuffWasHere	192																																																		0
-StuffWasHere	193																																																		0
-StuffWasHere	194																																																		0
-StuffWasHere	195																																																		0
-StuffWasHere	196																																																		0
-StuffWasHere	197																																																		0
-StuffWasHere	198																																																		0
-StuffWasHere	199																																																		0
-StuffWasHere	200																																																		0
-StuffWasHere	201																																																		0
-StuffWasHere	202																																																		0
-StuffWasHere	203																																																		0
-StuffWasHere	204																																																		0
-StuffWasHere	205																																																		0
-StuffWasHere	206																																																		0
-StuffWasHere	207																																																		0
-StuffWasHere	208																																																		0
-StuffWasHere	209																																																		0
-StuffWasHere	210																																																		0
-StuffWasHere	211																																																		0
-StuffWasHere	212																																																		0
-StuffWasHere	213																																																		0
-StuffWasHere	214																																																		0
-StuffWasHere	215																																																		0
-StuffWasHere	216																																																		0
-StuffWasHere	217																																																		0
-StuffWasHere	218																																																		0
-StuffWasHere	219																																																		0
-StuffWasHere	220																																																		0
-StuffWasHere	221																																																		0
-StuffWasHere	222																																																		0
-StuffWasHere	223																																																		0
-StuffWasHere	224																																																		0
-StuffWasHere	225																																																		0
-StuffWasHere	226																																																		0
-StuffWasHere	227																																																		0
-StuffWasHere	228																																																		0
-StuffWasHere	229																																																		0
-StuffWasHere	230																																																		0
-StuffWasHere	231																																																		0
-StuffWasHere	232																																																		0
-StuffWasHere	233																																																		0
-StuffWasHere	234																																																		0
-StuffWasHere	235																																																		0
-StuffWasHere	236																																																		0
-StuffWasHere	237																																																		0
-StuffWasHere	238																																																		0
-StuffWasHere	239																																																		0
-StuffWasHere	240																																																		0
-StuffWasHere	241																																																		0
-StuffWasHere	242																																																		0
-StuffWasHere	243																																																		0
-StuffWasHere	244																																																		0
-StuffWasHere	245																																																		0
-StuffWasHere	246																																																		0
-StuffWasHere	247																																																		0
-StuffWasHere	248																																																		0
-StuffWasHere	249																																																		0
-StuffWasHere	250																																																		0
-StuffWasHere	251																																																		0
-StuffWasHere	252																																																		0
-StuffWasHere	253																																																		0
-StuffWasHere	254																																																		0
-StuffWasHere	255																																																		0
-StuffWasHere	256																																																		0
-StuffWasHere	257																																																		0
-StuffWasHere	258																																																		0
-StuffWasHere	259																																																		0
-StuffWasHere	260																																																		0
-StuffWasHere	261																																																		0
-StuffWasHere	262																																																		0
-StuffWasHere	263																																																		0
-StuffWasHere	264																																																		0
-StuffWasHere	265																																																		0
-StuffWasHere	266																																																		0
-StuffWasHere	267																																																		0
-StuffWasHere	268																																																		0
-StuffWasHere	269																																																		0
-StuffWasHere	270																																																		0
-StuffWasHere	271																																																		0
-StuffWasHere	272																																																		0
-StuffWasHere	273																																																		0
-StuffWasHere	274																																																		0
-StuffWasHere	275																																																		0
-StuffWasHere	276																																																		0
-StuffWasHere	277																																																		0
-StuffWasHere	278																																																		0
-StuffWasHere	279																																																		0
-StuffWasHere	280																																																		0
-StuffWasHere	281																																																		0
-StuffWasHere	282																																																		0
-StuffWasHere	283																																																		0
-StuffWasHere	284																																																		0
-StuffWasHere	285																																																		0
-StuffWasHere	286																																																		0
-StuffWasHere	287																																																		0
-StuffWasHere	288																																																		0
-StuffWasHere	289																																																		0
-StuffWasHere	290																																																		0
-StuffWasHere	291																																																		0
-StuffWasHere	292																																																		0
-StuffWasHere	293																																																		0
-StuffWasHere	294																																																		0
-StuffWasHere	295																																																		0
-StuffWasHere	296																																																		0
-StuffWasHere	297																																																		0
-StuffWasHere	298																																																		0
-StuffWasHere	299																																																		0
-StuffWasHere	300																																																		0
-StuffWasHere	301																																																		0
-StuffWasHere	302																																																		0
-StuffWasHere	303																																																		0
-StuffWasHere	151																																																		0
-StuffWasHere	305																																																		0
-StuffWasHere	306																																																		0
-StuffWasHere	307																																																		0
-StuffWasHere	308																																																		0
-StuffWasHere	309																																																		0
-StuffWasHere	310																																																		0
-StuffWasHere	311																																																		0
-StuffWasHere	312																																																		0
-StuffWasHere	313																																																		0
-StuffWasHere	314																																																		0
-StuffWasHere	315																																																		0
-StuffWasHere	316																																																		0
-StuffWasHere	317																																																		0
-StuffWasHere	318																																																		0
-StuffWasHere	319																																																		0
-StuffWasHere	320																																																		0
-StuffWasHere	321																																																		0
-StuffWasHere	322																																																		0
-StuffWasHere	323																																																		0
-StuffWasHere	324																																																		0
-StuffWasHere	325																																																		0
-StuffWasHere	326																																																		0
-StuffWasHere	327																																																		0
-StuffWasHere	328																																																		0
-StuffWasHere	329																																																		0
-StuffWasHere	330																																																		0
-StuffWasHere	331																																																		0
-StuffWasHere	332																																																		0
-StuffWasHere	333																																																		0
-StuffWasHere	334																																																		0
-StuffWasHere	335																																																		0
-StuffWasHere	336																																																		0
-StuffWasHere	337																																																		0
-StuffWasHere	338																																																		0
-StuffWasHere	339																																																		0
-StuffWasHere	340																																																		0
-StuffWasHere	341																																																		0
-StuffWasHere	342																																																		0
-StuffWasHere	343																																																		0
-StuffWasHere	344																																																		0
-StuffWasHere	345																																																		0
-StuffWasHere	346																																																		0
-StuffWasHere	347																																																		0
-StuffWasHere	348																																																		0
-StuffWasHere	349																																																		0
-StuffWasHere	350																																																		0
-StuffWasHere	351																																																		0
-StuffWasHere	352																																																		0
-StuffWasHere	353																																																		0
-StuffWasHere	354																																																		0
-StuffWasHere	355																																																		0
-StuffWasHere	356																																																		0
-StuffWasHere	357																																																		0
-StuffWasHere	358																																																		0
-StuffWasHere	359																																																		0
-StuffWasHere	360																																																		0
-StuffWasHere	361																																																		0
-StuffWasHere	362																																																		0
-StuffWasHere	363																																																		0
-StuffWasHere	364																																																		0
-StuffWasHere	365																																																		0
-StuffWasHere	366																																																		0
-StuffWasHere	367																																																		0
-StuffWasHere	368																																																		0
-StuffWasHere	369																																																		0
-StuffWasHere	370																																																		0
-StuffWasHere	371																																																		0
-StuffWasHere	372																																																		0
-StuffWasHere	373																																																		0
-StuffWasHere	374																																																		0
-StuffWasHere	375																																																		0
-StuffWasHere	376																																																		0
-StuffWasHere	377																																																		0
-StuffWasHere	378																																																		0
-StuffWasHere	379																																																		0
-StuffWasHere	380																																																		0
-StuffWasHere	381																																																		0
-StuffWasHere	382																																																		0
-StuffWasHere	383																																																		0
-StuffWasHere	384																																																		0
-StuffWasHere	385																																																		0
-StuffWasHere	386																																																		0
-StuffWasHere	387																																																		0
-StuffWasHere	388																																																		0
-StuffWasHere	389																																																		0
-StuffWasHere	390																																																		0
-StuffWasHere	391																																																		0
-StuffWasHere	392																																																		0
-StuffWasHere	393																																																		0
-StuffWasHere	394																																																		0
-StuffWasHere	395																																																		0
-StuffWasHere	396																																																		0
-StuffWasHere	397																																																		0
-StuffWasHere	398																																																		0
-StuffWasHere	385																																																		0
-StuffWasHere	400																																																		0
-StuffWasHere	401																																																		0
-StuffWasHere	402																																																		0
-StuffWasHere	403																																																		0
-StuffWasHere	404																																																		0
-StuffWasHere	405																																																		0
-StuffWasHere	406																																																		0
-StuffWasHere	407																																																		0
-StuffWasHere	408																																																		0
-StuffWasHere	409																																																		0
-StuffWasHere	410																																																		0
-StuffWasHere	411																																																		0
-StuffWasHere	412																																																		0
-StuffWasHere	413																																																		0
-StuffWasHere	414																																																		0
-StuffWasHere	415																																																		0
-StuffWasHere	416																																																		0
-StuffWasHere	417																																																		0
-StuffWasHere	418																																																		0
-StuffWasHere	419																																																		0
-StuffWasHere	420																																																		0
-StuffWasHere	421																																																		0
-StuffWasHere	422																																																		0
-StuffWasHere	423																																																		0
-StuffWasHere	424																																																		0
-StuffWasHere	425																																																		0
-StuffWasHere	426																																																		0
-StuffWasHere	427																																																		0
-StuffWasHere	428																																																		0
-StuffWasHere	429																																																		0
-StuffWasHere	430																																																		0
-StuffWasHere	431																																																		0
-StuffWasHere	432																																																		0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
 color_dye	433		1	6											0	0		1	0	6	23																														0
-StuffWasHere	434																																																		0
-StuffWasHere	435																																																		0
-StuffWasHere	436																																																		0
-StuffWasHere	437																																																		0
-StuffWasHere	438																																																		0
-StuffWasHere	439																																																		0
-StuffWasHere	440																																																		0
-StuffWasHere	441																																																		0
-StuffWasHere	442																																																		0
-StuffWasHere	443																																																		0
-StuffWasHere	444																																																		0
-StuffWasHere	445																																																		0
-StuffWasHere	446																																																		0
-StuffWasHere	447																																																		0
-StuffWasHere	448																																																		0
-StuffWasHere	449																																																		0
-StuffWasHere	450																																																		0
-StuffWasHere	451																																																		0
-StuffWasHere	452																																																		0
-StuffWasHere	453																																																		0
-StuffWasHere	454																																																		0
-StuffWasHere	455																																																		0
-StuffWasHere	456																																																		0
-StuffWasHere	457																																																		0
-StuffWasHere	458																																																		0
-StuffWasHere	459																																																		0
-StuffWasHere	460																																																		0
-StuffWasHere	461																																																		0
-StuffWasHere	462																																																		0
-StuffWasHere	463																																																		0
-StuffWasHere	464																																																		0
-StuffWasHere	465																																																		0
-StuffWasHere	466																																																		0
-StuffWasHere	467																																																		0
-StuffWasHere	468																																																		0
-StuffWasHere	469																																																		0
-StuffWasHere	470																																																		0
-StuffWasHere	471																																																		0
-StuffWasHere	472																																																		0
-StuffWasHere	473																																																		0
-StuffWasHere	474																																																		0
-StuffWasHere	475																																																		0
-StuffWasHere	476																																																		0
-StuffWasHere	477																																																		0
-StuffWasHere	478																																																		0
-StuffWasHere	479																																																		0
-StuffWasHere	480																																																		0
-StuffWasHere	481																																																		0
-StuffWasHere	482																																																		0
-StuffWasHere	483																																																		0
-StuffWasHere	484																																																		0
-StuffWasHere	485																																																		0
-StuffWasHere	486																																																		0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
+stuff_used_to_be_here																																																			0
