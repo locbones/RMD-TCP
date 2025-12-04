@@ -142,6 +142,28 @@
       "Length": 1,
       "Type": "Integer",
       "Values": "255" // Anim_Mode = 255 (Invalid), Retail = 3
+    },
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+    {
+      "Description": "Sundered MonUMods Patch",
+      "Addresses": [ "2FC7DA", "2FC89C", "2FC95E" ],
+      "Length": 1,
+      "Type": "Integer",
+      "Values": "99" // This sets the 'if' condition on the function to check for 99 instead of 100 to prevent multiple monumod applications 
+    },
+    {
+      "Description": "Allow CTC while Uninterruptible (On Target)", // This will allow SkillonTarget function to use CTC events
+      "Address": "3654E0", 
+      "Length": 6,
+      "Type": "Hex",
+      "Values": "0F8542010000" // Use 909090909090 to Allow CTC while Uninterruptible
+    },
+    {
+      "Description": "Allow CTC while Uninterruptible (On Position)", // This will allow SkillonPosition function to use CTC events
+      "Address": "3656AB", 
+      "Length": 6,
+      "Type": "Hex",
+      "Values": "0F852B010000" // Use 909090909090 to Allow CTC while Uninterruptible
     }
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
   ]
