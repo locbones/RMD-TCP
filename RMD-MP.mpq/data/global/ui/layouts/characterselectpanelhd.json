@@ -310,23 +310,10 @@
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
                                 "rect": { "x": 230, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.9GBB)",
+                                "text":"(Beta - 0.9.9.9GC)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
                                     "pointSize": "$XMediumPanelFontSize",
-                                    "spacing": "$ReducedSpacing",
-                                    "dropShadow": "$DefaultDropShadow"
-                                }
-                            }
-                        },
-                        {
-                            "type": "TextBoxWidget", "name": "ModAuthors",
-                            "fields": {
-                                "rect": { "x": 250, "y": 2080, "width": 400 },
-                                "text":"Hell Hath No Gravy",
-                                "style": {
-                                    "fontColor": "$FontColorOrange",
-                                    "pointSize": "$SmallPanelFontSize",
                                     "spacing": "$ReducedSpacing",
                                     "dropShadow": "$DefaultDropShadow"
                                 }

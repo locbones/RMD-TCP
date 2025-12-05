@@ -5068,7 +5068,7 @@
   {
     "id": 2231,
     "Key": "box",
-    "enUS": "Cube of the Thrice-Basted King",
+    "enUS": "Horadric Cube",
     "zhTW": "赫拉迪姆方塊",
     "deDE": "Horadrimwürfel",
     "esES": "Cubo horádrico",
@@ -39217,5 +39217,22 @@
 	  "ptBR": "Coroa Morta-Viva Fundida",
 	  "ruRU": "Слитая корона нежити",
 	  "zhCN": "融合不死王冠"
+  },
+  {
+    "id": 51365,
+    "Key": "Dustdevil",
+	  "enUS": "Dustdevil",
+	  "zhTW": "塵魔",
+	  "deDE": "Staubteufel",
+	  "esES": "diablo de polvo",
+	  "frFR": "Diable de poussière",
+	  "itIT": "Diavolo della polvere",
+	  "koKR": "먼지 악마",
+	  "plPL": "Pyłowy diabeł",
+	  "esMX": "diablo de polvo",
+	  "jaJP": "ダストデビル",
+	  "ptBR": "Diabo de poeira",
+	  "ruRU": "Пыльный дьявол",
+	  "zhCN": "尘魔"
 }
 ]

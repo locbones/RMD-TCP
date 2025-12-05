@@ -269,7 +269,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "Any Item + Gold Bar = Add Ethereal to Item",
+                                        "text": "Any Item + Gold Bar + Token of Evil = Add Ethereal to Item",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

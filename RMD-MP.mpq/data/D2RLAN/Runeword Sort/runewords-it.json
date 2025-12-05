@@ -2359,7 +2359,7 @@
                                 "rect": { "x": -40, "y": 4320 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword175@nl@white@rlvl 71@nl@blue +2 @askills@nl +40-50% @run@nl +24% @hitrecovery@nl@allenemyimmunity 30 @to 40%@nl +30-50% @sumdmg@nl +30-50% @sumcr@nl +30-50% @sumhp@nl +40% @sumspeed@nl @light @res +20%@nl @buffdur 20%@nl @ModValkMaster@nl@nl@runelow  512@runemid 0@runehigh 0@runeultra 2@nl@tan(LB Base Only)"
+                                "tooltipString": "@tan@Runeword175@nl@white@rlvl 71@nl@blue +2 @askills@nl +40-50% @run@nl +24% @hitrecovery@nl@allenemyimmunity 30 @to 40%@nl +30-50% @sumdmg@nl +30-50% @sumcr@nl +30-50% @sumhp@nl +40% @sumspeed@nl @light @res +20%@nl @buffdur 20%@nl @ModValkMaster@nl@nl@runelow  512@runemid 0@runehigh 0@runeultra 4@nl@tan(LB Base Only)"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

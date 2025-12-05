@@ -665,7 +665,7 @@
                                 "rect": { "x": -40, "y": 960 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp06@nl@grey (@amu, @RWTorso, @RWShield)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +2 @psn @StrSklTree4@nl@enemy @psn @immunity -40%@nl +30% @to @psn @skdmg@nl +50 @vit@nl@nl@gold@firstdiscover@tan Smile_Joker_@blue"
+                                "tooltipString": "@green@bp06@nl@grey (@amu, @RWTorso, @RWShield)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +2 @psn @StrSklTree4@nl@enemy @psn @immunity -40%@nl +30% @to @psn @skdmg@nl +50 @strchrvit@nl@nl@gold@firstdiscover@tan Smile_Joker_@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

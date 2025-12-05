@@ -153,6 +153,24 @@
         },
         {
             "type": "Entity",
+            "name": "entity_vfx_meteornew",
+            "id": 3406042961,
+            "components": [
+                {
+                    "type": "UnitSourceSkillFilterComponent",
+                    "name": "entity_vfx_meteornew_UnitSourceSkillFilter",
+                    "sourceSkill": "Curtain of Fire"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_meteornew_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/missiles/meteor/vfx_meteor_fire.particles",
+                    "hardKillOnDestroy": true
+                }
+            ]
+        },
+        {
+            "type": "Entity",
             "name": "entity_vfx_moltenBoulder",
             "id": 3370835060,
             "components": [

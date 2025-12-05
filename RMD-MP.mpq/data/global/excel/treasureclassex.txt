@@ -1,10 +1,10 @@
 Treasure Class	group	level	Picks	Unique	Set	Rare	Magic	NoDrop	Item1	Prob1	Item2	Prob2	Item3	Prob3	Item4	Prob4	Item5	Prob5	Item6	Prob6	Item7	Prob7	Item8	Prob8	Item9	Prob9	Item10	Prob10	*ItemProbSum	*ItemProbTotal	*TreasureClassDropChance	*eol
 Gold			1						gld	1																						0
 Blank			1						NaN	1																						0
-Jewelry A			1						rin	800	amu	400	jew	200	cm3	200	cm2	200	cm1	200	Ev1	50										0
-Jewelry B			1						rin	800	amu	400	jew	200	cm3	200	cm2	200	cm1	200	Ev1	50										0
-Jewelry C			1						rin	800	amu	400	jew	200	cm3	200	cm2	200	cm1	200	Ev1	50										0
-Jewelry D			1						rin	800	amu	400	jew	200	cm3	200	cm2	200	cm1	200	Ev1	50										0
+Jewelry A			1						rin	800	amu	400	jew	200	cm3	200	cm2	200	cm1	200												0
+Jewelry B			1						rin	800	amu	400	jew	200	cm3	200	cm2	200	cm1	200												0
+Jewelry C			1						rin	800	amu	400	jew	200	cm3	200	cm2	200	cm1	200												0
+Jewelry D			1						rin	800	amu	400	jew	200	cm3	200	cm2	200	cm1	200												0
 Chipped Gem			1						gcv	3	gcy	3	gcb	3	gcg	3	gcr	3	gcw	3	skc	2										0
 Flawed Gem			1						gfv	3	gfy	3	gfb	3	gfg	3	gfr	3	gfw	3	skf	2										0
 Normal Gem			1						gsv	3	gsy	3	gsb	3	gsg	3	gsr	3	gsw	3	sku	2										0
@@ -102,7 +102,7 @@ Goodies - Thresh Socket			1						Blank	10	C24	1	C29	1	Thresh Socket Flavor	3				
 TormentBossesA			1						Blank	5	RMD Loot A	4	Runes 18	4	b64	5	All Codexes	8	Shards	8												0
 TormentBossesB			1						Blank	5	RMD Loot A	5	Runes 18	5	b64	5	All Codexes	15	Shards	10												0
 Act 5 (X) Equip A			1						l01	1	l02	1	l03	1	l04	1	l05	1	l06	1	l07	1	l08	1	l09	1			35	1565	0.9776	0
-Act 5 (X) Equip B			1						l10	1	l11	1	l12	1	l13	1	l14	1	l15	1	l16	1	l17	1					35	1565	0.9776	0
+Act 5 (X) Equip B			1						l10	1	l11	1	l12	1	l13	1	l14	1	l15	1	l16	1	l17	1	l18	1			35	1565	0.9776	0
 Ammo			1						Blank	16	aqv	3	cqv	3																		0
 Potions			1						Blank	500	hp5	5	mp5	5	rvs	2	rvl	1	hp1	8	mp1	8										0
 Runes 1			1						r01	3	r02	2																				0
@@ -137,7 +137,7 @@ Goblin - Runes B			-2						Runes 16	2																						0
 Goblin - Runes C			-3						Runes 17	3																						0
 Goblin - RMD A			1						b64	1																						0
 Goblin - RMD B			2						b64	1																						0
-Goblin - RMD C			3						Rgx	1	b64	1	Trials Scrolls	1	S01	1																0
+Goblin - RMD C			3						Rgx	1	b64	1	Trials Scrolls	1	S01	1	ColorDyes	1														0
 Act 1 Junk			1						Potions	8	Misc 0	4	Ammo	4																		0
 Act 2 Junk			1						Act 1 Junk	2	Potions	8	Misc 0	4	Ammo	4																0
 Act 3 Junk			1						Act 2 Junk	2	Potions	8	Misc 1	4	Ammo	4																0

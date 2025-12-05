@@ -724,7 +724,7 @@
     "mephfrostnova": "frost_nova",
     "mephlight": "null",
     "vampiremeteorfire": "ground_fire_medium",
-    "strafearrow": "fire_arrow",
+    "strafearrow": "arrow_strafe",
     "strafebolt": "fire_arrow",
     "recklessattacksmissile": "expansion_shockwave",
     "discharge":"lightning_strike",

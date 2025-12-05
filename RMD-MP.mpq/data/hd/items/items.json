@@ -548,7 +548,7 @@
   { "j34": { "asset": "quest/jade_figurine" } },
   { "g34": { "asset": "quest/gold_bird" } },
   { "bbb": { "asset": "quest/lam_esens_tome" } },
-  { "box": { "asset": "..//custom//horadricthanksgiving" } },
+  { "box": { "asset": "quest/horadric_cube" } },
   { "tr1": { "asset": "quest/scroll_of_horadric_quest_info" } },
   { "mss": { "asset": "quest/mephisto_soul_stone" } },
   { "ass": { "asset": "quest/book_of_skill" } },

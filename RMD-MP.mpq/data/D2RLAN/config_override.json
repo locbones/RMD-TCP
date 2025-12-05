@@ -14,156 +14,236 @@
   "DLLsToLoad": [ "D2RHUD.dll" ],
   "MemoryConfigs": [
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
-        {
-      "Description": "Enable TCP/IP Access",
+    {
+      "Name": "Enable TCP/IP Access",
+      "Description":"Without this feature, you will always receive a 'Failed to Join' error when hosting a TCP/IP game",
+      "Category": "Important",
       "Address": "749AC",
       "Length": 1,
       "Type": "Hex",
-      "Values": "EB" // Conditional Jump -> Forced Jump
+      "Values": "EB",
+      "OriginalValues":"74",
+      "ModdedValues":"EB"
     },
     {
-      "Description": "Allow Character Levels 100+",
+      "Name": "Allow Character Levels 100+",
+      "Description":"Without this feature, you will always receive a 'Failed to Join' error when entering a game with a level 100+ character",
+      "Category": "Important",
       "Address": "27B835",
       "Length": 1,
       "Type": "Hex",
-      "Values": "FF" //Level 255, Retail = 62 (98)
+      "Values": "FF",
+      "OriginalValues":"62",
+      "ModdedValues":"FF"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Display Player Names When Trading",
+      "Name": "Display Player Names When Trading",
+      "Description":"Without this feature, player names will not show in the trade window",
+      "Category": "Important",
       "Address": "BBFCF9",
       "Length": 1,
       "Type": "Hex",
-      "Values": "00" // 255 -> 0
+      "Values": "00",
+      "OriginalValues":"FF",
+      "ModdedValues":"00"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------// 
     {
-      "Description": "Customize Max Stash Gold",
+      "Name": "Customize Max Stash Gold",
+      "Description":"Allows you to control the maximum gold able to be stored in your stash",
+      "Category": "Enhancement",
       "Addresses": [ "BB5346", "345FE9", "31CC7A", "319C9E", "2B78F4", "2B7810", "2929D6", "28D940", "28D7E8", "27F75F", "18ED7A", "18E7C9", "D6255", "348A4B", "3489A2" ],
       "Length": 4,
       "Type": "Integer",
-      "Values": "25000000" // Retail Max = 2,500,000
+      "Values": "25000000",
+      "OriginalValues":"2500000",
+      "ModdedValues":"25000000"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Customize Max Character Gold",
+      "Name": "Customize Max Character Gold",
+      "Description":"Allows you to control the maximum gold able to be stored on your player (Character Level x Value)",
+      "Category": "Enhancement",
       "Addresses": [ "10252C", "19AA9B", "27F7A4", "28D375", "28D4A7", "2B7895", "2B79A4", "2D4E2D", "2D4F56", "31CBD3", "346822", "346497", "348832", "34B4BF", "BB4C89", "BB5397", "287CB2", "28D83F" ],
       "Length": 4,
       "Type": "Integer",
-      "Values": "100000" // Retail Max = 10,000 per character level
+      "Values": "100000",
+      "OriginalValues":"10000",
+      "ModdedValues":"100000"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Customize Save File Limit",
+      "Name": "Customize Save File Limit",
+      "Description":"Allows you to control the maximum save file size. We are replacing the first half of the byte stack only",
+      "Category": "Important",
       "Addresses": [ "28F2B7", "28F2D1", "28F2F9", "28F324", "28F454", "28F47F", "28F487", "28F496" ],
       "Length": 1,
       "Type": "Hex",
-      "Values": "80" // Retail = 20(00) (8192 bytes) -- Replacing first-half of byte stack only
+      "Values": "80",
+      "OriginalValues":"20",
+      "ModdedValues":"80"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Player Difficulty Scaling Override (Max/UI)",
+      "Name": "Player Difficulty Scaling Override (Max/UI)",
+      "Description":"Allows you to control the maximum player difficulty. These addresses are for UI and client checks",
+      "Category": "Important",
       "Addresses": [ "135EF8", "135F16", "1E31CCC", "1E31D64" ],
       "Length": 4,
       "Type": "Integer",
-      "Values": "20" //Retail Max = 8
+      "Values": "20", //Retail Max = 8
+      "OriginalValues":"8",
+      "ModdedValues":"65535"
     },
     {
-      "Description": "Player Difficulty Scaling Override (Command)",
+      "Name": "Player Difficulty Scaling Override (Command)",
+      "Description":"Allows you to control the maximum player difficulty. This address is for the player command",
+      "Category": "Important",
       "Address": "11FE12",
       "Length": 17,
       "Type": "Hex",
-      "Values": "4189C49090909090909090909090909090" //NOP last 14 bytes
+      "Values": "4189C49090909090909090909090909090", //NOP last 14 bytes
+      "OriginalValues":"???",
+      "ModdedValues":"4189C49090909090909090909090909090"
     },
     {
-      "Description": "Player Difficulty Scaling Override (Actual)",
+      "Name": "Player Difficulty Scaling Override (Actual)",
+      "Description":"Allows you to control the maximum player difficulty. This address is for the server value",
+      "Category": "Important",
       "Address": "136910",
       "Length": 3,
       "Type": "Hex",
-      "Values": "89C890" //NOP last byte
+      "Values": "89C890", //NOP last byte
+      "OriginalValues":"8",
+      "ModdedValues":"89C890"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Force Classic Whirlwind",
+      "Name": "Force Classic Whirlwind",
+      "Description":"Changes the WW BP calcs to use 1FPA attacks instead of 4FPA for max speed",
+      "Category": "Alteration",
       "Address": "3748C6",
       "Length": 1,
       "Type": "Hex",
-      "Values": "EB" // Conditional Jump -> Forced Jump, LOD behavior (eww) = "74"
+      "Values": "EB",
+      "OriginalValues":"74",
+      "ModdedValues":"EB"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Increase Max Item Level (Drop)", // If less than this level, then...
+      "Name": "Increase Max Item Level (Drop)",
+      "Description":"Changes the maximum item level that is allowed to drop. This address controls the check value",
+      "Category": "Enhancement",
       "Address": "205E30",
       "Length": 1,
       "Type": "Integer",
-      "Values": "125" // Level 125, Retail = "63" (99)
+      "Values": "125",
+      "OriginalValues":"99",
+      "ModdedValues":"125"
     },
     {
-      "Description": "Increase Max Item Level (Drop)", //Force it to be this level
+      "Name": "Increase Max Item Level (Drop)",
+      "Description":"Changes the maximum item level that is allowed to drop. This address controls the forced value",
+      "Category": "Enhancement",
       "Address": "205E94",
       "Length": 1,
       "Type": "Integer",
-      "Values": "125" // Level 125, Retail = "63" (99)
+      "Values": "125",
+      "OriginalValues":"99",
+      "ModdedValues":"125"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Expose Item Level to Clients", // For Loot Filter (Non-hosts can now see ilvl also)
+      "Name": "Expose Item Level to Clients",
+      "Description":"Allows for non-hosts in TCP/IP games to see the ilvls of items via the loot filter",
+      "Category": "Optional Fix",
       "Address": "205E25",
       "Length": 1,
       "Type": "Hex",
-      "Values": "EB" // Conditional Jump -> Forced Jump, Retail = 75
+      "Values": "EB",
+      "OriginalValues":"75",
+      "ModdedValues":"EB"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Hit Chance % (Lower Bound)",
+      "Name": "Hit Chance % (Lower Bound)",
+      "Description":"Changes the lower bound for hit% rates (monster and player)",
+      "Category": "Alteration",
       "Addresses": ["329CE1", "BCD385", "BFE863" ],
       "Length": 1,
       "Type": "Integer",
-      "Values": "0" // 0% Chance to hit, Retail = 5%
+      "Values": "0",
+      "OriginalValues":"5",
+      "ModdedValues":"0"
     },
     {
-      "Description": "Hit Chance % (Upper Bound)",
+      "Name": "Hit Chance % (Upper Bound)",
+      "Description":"Changes the lower bound for hit% rates (monster and player)",
+      "Category": "Alteration",
       "Addresses": ["329CCE", "BCD390", "BFE893" ],
       "Length": 1,
       "Type": "Integer",
-      "Values": "100" // 100% Chance to hit, Retail = 95%
+      "Values": "100",
+      "OriginalValues":"95",
+      "ModdedValues":"100"
     },
     {
-      "Description": "Hit Chance % (Display Fix)", // Client Display Fix needed if value = 0, else no string displayed (now shows 0%)
+      "Name": "Hit Chance % (Display Fix)",
+      "Description":"This will allow 0% value to be shown on character stats screen if lower bound edits are used",
+      "Category": "Optional Fix",
       "Address": "BCD36A", 
       "Length": 1,
       "Type": "Hex",
-      "Values": "EB" // Conditional Jump -> Forced Jump, Retail = 75
+      "Values": "EB",
+      "OriginalValues":"75",
+      "ModdedValues":"EB"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Disable Run Penalty for Defense",
+      "Name": "Disable Run Penalty for Defense",
+      "Description":"This will disable run penalties. The animation mode used for the check is invalid",
+      "Category": "Alteration",
       "Addresses": [ "329F70", "BCA5A0" ],
       "Length": 1,
       "Type": "Integer",
-      "Values": "255" // Anim_Mode = 255 (Invalid), Retail = 3
+      "Values": "255",
+      "OriginalValues":"3",
+      "ModdedValues":"255"
     },
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
     {
-      "Description": "Sundered MonUMods Patch",
+      "Name": "Sundered MonUMods Patch",
+      "Description":"This will change the monumod application condition from >=100 to >=99. Recommended if using our customized Sunder mechanic",
+      "Category": "Optional Fix",
       "Addresses": [ "2FC7DA", "2FC89C", "2FC95E" ],
       "Length": 1,
       "Type": "Integer",
-      "Values": "99" // This sets the 'if' condition on the function to check for 99 instead of 100 to prevent multiple monumod applications 
+      "Values": "99",
+      "OriginalValues":"100",
+      "ModdedValues":"99"
     },
     {
-      "Description": "Allow CTC while Uninterruptible (On Target)", // This will allow SkillonTarget function to use CTC events
+      "Name": "Allow CTC while Uninterruptible (On Target)",
+      "Description":"This will remove the check for the Uninterruptible state on the SkillOnTarget function",
+      "Category": "Alteration",
       "Address": "3654E0", 
       "Length": 6,
       "Type": "Hex",
-      "Values": "0F8542010000" // Use 909090909090 to Allow CTC while Uninterruptible
+      "Values": "0F8542010000",
+      "OriginalValues":"0F8542010000",
+      "ModdedValues":"909090909090"
     },
     {
-      "Description": "Allow CTC while Uninterruptible (On Position)", // This will allow SkillonPosition function to use CTC events
+      "Name": "Allow CTC while Uninterruptible (On Position)",
+      "Description":"This will remove the check for the Uninterruptible state on the SkillOnPosition function",
+      "Category": "Alteration",
       "Address": "3656AB", 
       "Length": 6,
       "Type": "Hex",
-      "Values": "0F852B010000" // Use 909090909090 to Allow CTC while Uninterruptible
+      "Values": "0F852B010000", // Use 909090909090 to Allow CTC while Uninterruptible
+      "OriginalValues":"0F852B010000",
+      "ModdedValues":"909090909090"
     }
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
   ]

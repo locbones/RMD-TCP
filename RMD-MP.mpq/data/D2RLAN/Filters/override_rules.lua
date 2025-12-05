@@ -3610,7 +3610,7 @@ return {
         { --Horadric Cube
             code = "box",
             location = { "onplayer", "atvendor", "onground" },
-            name_style = "OpenFlames",
+            name_style = "",
         },
         { --Di Remover
             code = "z82",
