@@ -99,8 +99,6 @@ Goodies - Queen Syndred			1						Blank	50	C09	10	C37	10	z26	1																0
 Goodies - Radament			1						Blank	10	C18	1	C23	1	Radament Flavor	3																0
 Goodies - Smith			1						Blank	5	C28	1																				0
 Goodies - Thresh Socket			1						Blank	10	C24	1	C29	1	Thresh Socket Flavor	3																0
-TormentBossesA			1						Blank	5	RMD Loot A	4	Runes 18	4	b64	5	All Codexes	8	Shards	8												0
-TormentBossesB			1						Blank	5	RMD Loot A	5	Runes 18	5	b64	5	All Codexes	15	Shards	10												0
 Act 5 (X) Equip A			1						l01	1	l02	1	l03	1	l04	1	l05	1	l06	1	l07	1	l08	1	l09	1			35	1565	0.9776	0
 Act 5 (X) Equip B			1						l10	1	l11	1	l12	1	l13	1	l14	1	l15	1	l16	1	l17	1	l18	1			35	1565	0.9776	0
 Ammo			1						Blank	16	aqv	3	cqv	3																		0
@@ -123,6 +121,8 @@ Runes 15			1						r29	3	r30	2	Runes 14	2941																		0
 Runes 16			1						r31	3	r32	2	Runes 15	3957																		0
 Runes 17			1						r33	1	Runes 16	5170																				0
 Runes 18			1						r34	4	r35	2	r36	1	Runes 17	6000																0
+TormentBossesA			1						Blank	5	RMD Loot A	4	Runes 18	4	b64	5	All Codexes	8	Shards	8												0
+TormentBossesB			1						Blank	5	RMD Loot A	5	Runes 18	5	b64	5	All Codexes	15	Shards	10												0
 Goblin - Gems A			-1						y33	1																						0
 Goblin - Gems B			-3						y33	3																						0
 Goblin - Gems C			-5						y33	5																						0
@@ -138,21 +138,21 @@ Goblin - Runes C			-3						Runes 17	3																						0
 Goblin - RMD A			1						b64	1																						0
 Goblin - RMD B			2						b64	1																						0
 Goblin - RMD C			3						Rgx	1	b64	1	Trials Scrolls	1	S01	1	ColorDyes	1														0
-Act 1 Junk			1						Potions	8	Misc 0	4	Ammo	4																		0
-Act 2 Junk			1						Act 1 Junk	2	Potions	8	Misc 0	4	Ammo	4																0
-Act 3 Junk			1						Act 2 Junk	2	Potions	8	Misc 1	4	Ammo	4																0
-Act 4 Junk			1						Act 3 Junk	2	Potions	8	Misc 1	4	Ammo	4																0
-Act 5 Junk			1						Act 4 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 1 (N) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 2 (N) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 3 (N) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 4 (N) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 5 (N) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 1 (H) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 2 (H) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 3 (H) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 4 (H) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
-Act 5 (H) Junk			1						Act 5 Junk	2	Potions	8	Misc 2	4	Ammo	4																0
+Act 1 Junk			1						Potions	8	Ammo	4																				0
+Act 2 Junk			1						Act 1 Junk	2	Potions	8	Ammo	4																		0
+Act 3 Junk			1						Act 2 Junk	2	Potions	8	Ammo	4																		0
+Act 4 Junk			1						Act 3 Junk	2	Potions	8	Ammo	4																		0
+Act 5 Junk			1						Act 4 Junk	2	Potions	8	Ammo	4																		0
+Act 1 (N) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 2 (N) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 3 (N) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 4 (N) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 5 (N) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 1 (H) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 2 (H) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 3 (H) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 4 (H) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
+Act 5 (H) Junk			1						Act 5 Junk	2	Potions	8	Ammo	4																		0
 Act 1 Equip A	1	0	1						weap3	7	armo3	7																				0
 Act 1 Equip B	1	5	1						weap3	3	armo3	3	weap6	7	armo6	7																0
 Act 1 Equip C	1	9	1						weap3	2	armo3	1	weap6	6	armo6	3	weap9	14	armo9	7	weap12	2	armo12	1								0
@@ -591,7 +591,7 @@ Act 4 (H) Cpot B	12	80	2					0	rvl	1	Potions	2	Potions	4	Potions	8				7									
 Act 5 (H) Cpot A	12	81	2					0	rvl	1	Potions	2	Potions	4	Potions	8				7												0
 Act 5 (H) Cpot B	12	83	2					0	rvl	1	Potions	2	Potions	4	Potions	8				7												0
 Act 5 (H) Cpot C	12	85	2					0	rvl	1	Potions	2	Potions	4	Potions	8				7												0
-Act 1 Champ A	13	0	-2					0	Act 1 Citem A	1	Act 1 Cpot A	2																				0
+Act 1 Champ A	13	0	-2					0	Act 1 Citem A	1	Act 1 Cpot A	1																				0
 Act 1 Champ B	13	5	-2					0	Act 1 Citem B	1	Act 1 Cpot B	1																				0
 Act 1 Champ C	13	9	-2					0	Act 1 Citem C	1	Act 1 Cpot C	1																				0
 Act 2 Champ A	13	12	-2					0	Act 2 Citem A	1	Act 2 Cpot A	1																				0
@@ -605,37 +605,37 @@ Act 4 Champ B	13	29	-2					0	Act 4 Citem B	1	Act 4 Cpot B	1																				0
 Act 5 Champ A	13	32	-2					0	Act 5 Citem A	1	Act 5 Cpot A	1																				0
 Act 5 Champ B	13	34	-2					0	Act 5 Citem B	1	Act 5 Cpot B	1																				0
 Act 5 Champ C	13	36	-2					0	Act 5 Citem C	1	Act 5 Cpot C	1																				0
-Act 1 (N) Champ A	13	38	-2					0	Act 1 (N) Citem A	1	Act 1 (N) Cpot A	2																				0
-Act 1 (N) Champ B	13	40	-2					0	Act 1 (N) Citem B	1	Act 1 (N) Cpot B	2																				0
-Act 1 (N) Champ C	13	41	-2					0	Act 1 (N) Citem C	1	Act 1 (N) Cpot C	2																				0
-Act 2 (N) Champ A	13	42	-2					0	Act 2 (N) Citem A	1	Act 2 (N) Cpot A	2																				0
-Act 2 (N) Champ B	13	44	-2					0	Act 2 (N) Citem B	1	Act 2 (N) Cpot B	2																				0
-Act 2 (N) Champ C	13	45	-2					0	Act 2 (N) Citem C	1	Act 2 (N) Cpot C	2																				0
-Act 3 (N) Champ A	13	46	-2					0	Act 3 (N) Citem A	1	Act 3 (N) Cpot A	2																				0
-Act 3 (N) Champ B	13	48	-2					0	Act 3 (N) Citem B	1	Act 3 (N) Cpot B	2																				0
-Act 3 (N) Champ C	13	50	-2					0	Act 3 (N) Citem C	1	Act 3 (N) Cpot C	2																				0
-Act 4 (N) Champ A	13	51	-2					0	Act 4 (N) Citem A	1	Act 4 (N) Cpot A	2																				0
-Act 4 (N) Champ B	13	54	-2					0	Act 4 (N) Citem B	1	Act 4 (N) Cpot B	2																				0
-Act 4 (N) Champ C	13	56	-2					0	Act 4 (N) Citem B	1	Act 4 (N) Cpot B	2																				0
-Act 5 (N) Champ A	13	57	-2					0	Act 5 (N) Citem A	1	Act 5 (N) Cpot A	2																				0
-Act 5 (N) Champ B	13	60	-2					0	Act 5 (N) Citem B	1	Act 5 (N) Cpot B	2																				0
-Act 5 (N) Champ C	13	62	-2					0	Act 5 (N) Citem C	1	Act 5 (N) Cpot C	2																				0
-Act 1 (H) Champ A	13	63	-2					0	Act 1 (H) Citem A	1	Act 1 (H) Cpot A	3																				0
-Act 1 (H) Champ B	13	66	-2					0	Act 1 (H) Citem B	1	Act 1 (H) Cpot B	3																				0
-Act 1 (H) Champ C	13	68	-2					0	Act 1 (H) Citem C	1	Act 1 (H) Cpot C	3																				0
-Act 2 (H) Champ A	13	69	-2					0	Act 2 (H) Citem A	1	Act 2 (H) Cpot A	3																				0
-Act 2 (H) Champ B	13	71	-2					0	Act 2 (H) Citem B	1	Act 2 (H) Cpot B	3																				0
-Act 2 (H) Champ C	13	72	-2					0	Act 2 (H) Citem C	1	Act 2 (H) Cpot C	3																				0
-Act 3 (H) Champ A	13	74	-2					0	Act 3 (H) Citem A	1	Act 3 (H) Cpot A	3																				0
-Act 3 (H) Champ B	13	75	-2					0	Act 3 (H) Citem B	1	Act 3 (H) Cpot B	3																				0
-Act 3 (H) Champ C	13	77	-2					0	Act 3 (H) Citem C	1	Act 3 (H) Cpot C	3																				0
-Act 4 (H) Champ A	13	78	-2					0	Act 4 (H) Citem A	1	Act 4 (H) Cpot A	3																				0
-Act 4 (H) Champ B	13	80	-2					0	Act 4 (H) Citem B	1	Act 4 (H) Cpot B	3																				0
-Act 5 (H) Champ A	13	81	-2					0	Act 5 (H) Citem A	1	Act 5 (H) Cpot A	3																				0
-Act 5 (H) Champ B	13	83	-2					0	Act 5 (H) Citem B	1	Act 5 (H) Cpot B	3																				0
-Act 5 (H) Champ C	13	85	-2					0	Act 5 (H) Citem C	1	Act 5 (H) Cpot C	3																				0
-Act X (H) Champ	13	90	-2						Act 5 (H) Citem C	10	Act 5 (H) Cpot C	20																				0
-Act X (H) Champ 100	13	103	-2						Act 5 (X) Equip	10	Act 5 (H) Cpot C	20																				0
+Act 1 (N) Champ A	13	38	-2					0	Act 1 (N) Citem A	1	Act 1 (N) Cpot A	1																				0
+Act 1 (N) Champ B	13	40	-2					0	Act 1 (N) Citem B	1	Act 1 (N) Cpot B	1																				0
+Act 1 (N) Champ C	13	41	-2					0	Act 1 (N) Citem C	1	Act 1 (N) Cpot C	1																				0
+Act 2 (N) Champ A	13	42	-2					0	Act 2 (N) Citem A	1	Act 2 (N) Cpot A	1																				0
+Act 2 (N) Champ B	13	44	-2					0	Act 2 (N) Citem B	1	Act 2 (N) Cpot B	1																				0
+Act 2 (N) Champ C	13	45	-2					0	Act 2 (N) Citem C	1	Act 2 (N) Cpot C	1																				0
+Act 3 (N) Champ A	13	46	-2					0	Act 3 (N) Citem A	1	Act 3 (N) Cpot A	1																				0
+Act 3 (N) Champ B	13	48	-2					0	Act 3 (N) Citem B	1	Act 3 (N) Cpot B	1																				0
+Act 3 (N) Champ C	13	50	-2					0	Act 3 (N) Citem C	1	Act 3 (N) Cpot C	1																				0
+Act 4 (N) Champ A	13	51	-2					0	Act 4 (N) Citem A	1	Act 4 (N) Cpot A	1																				0
+Act 4 (N) Champ B	13	54	-2					0	Act 4 (N) Citem B	1	Act 4 (N) Cpot B	1																				0
+Act 4 (N) Champ C	13	56	-2					0	Act 4 (N) Citem B	1	Act 4 (N) Cpot B	1																				0
+Act 5 (N) Champ A	13	57	-2					0	Act 5 (N) Citem A	1	Act 5 (N) Cpot A	1																				0
+Act 5 (N) Champ B	13	60	-2					0	Act 5 (N) Citem B	1	Act 5 (N) Cpot B	1																				0
+Act 5 (N) Champ C	13	62	-2					0	Act 5 (N) Citem C	1	Act 5 (N) Cpot C	1																				0
+Act 1 (H) Champ A	13	63	-2					0	Act 1 (H) Citem A	1	Act 1 (H) Cpot A	1																				0
+Act 1 (H) Champ B	13	66	-2					0	Act 1 (H) Citem B	1	Act 1 (H) Cpot B	1																				0
+Act 1 (H) Champ C	13	68	-2					0	Act 1 (H) Citem C	1	Act 1 (H) Cpot C	1																				0
+Act 2 (H) Champ A	13	69	-2					0	Act 2 (H) Citem A	1	Act 2 (H) Cpot A	1																				0
+Act 2 (H) Champ B	13	71	-2					0	Act 2 (H) Citem B	1	Act 2 (H) Cpot B	1																				0
+Act 2 (H) Champ C	13	72	-2					0	Act 2 (H) Citem C	1	Act 2 (H) Cpot C	1																				0
+Act 3 (H) Champ A	13	74	-2					0	Act 3 (H) Citem A	1	Act 3 (H) Cpot A	1																				0
+Act 3 (H) Champ B	13	75	-2					0	Act 3 (H) Citem B	1	Act 3 (H) Cpot B	1																				0
+Act 3 (H) Champ C	13	77	-2					0	Act 3 (H) Citem C	1	Act 3 (H) Cpot C	1																				0
+Act 4 (H) Champ A	13	78	-2					0	Act 4 (H) Citem A	1	Act 4 (H) Cpot A	1																				0
+Act 4 (H) Champ B	13	80	-2					0	Act 4 (H) Citem B	1	Act 4 (H) Cpot B	1																				0
+Act 5 (H) Champ A	13	81	-2					0	Act 5 (H) Citem A	1	Act 5 (H) Cpot A	1																				0
+Act 5 (H) Champ B	13	83	-2					0	Act 5 (H) Citem B	1	Act 5 (H) Cpot B	1																				0
+Act 5 (H) Champ C	13	85	-2					0	Act 5 (H) Citem C	1	Act 5 (H) Cpot C	1																				0
+Act X (H) Champ	13	90	-2						Act 5 (H) Citem C	1	Act 5 (H) Cpot C	1																				0
+Act X (H) Champ 100	13	103	-2						Act 5 (X) Equip	1	Act 5 (H) Cpot C	1																				0
 Act 1 Uitem A	14	0	1	800	800	800	1024	0	Act 1 Equip A	58	Act 1 Good	4																				0
 Act 1 Uitem B	14	5	1	800	800	800	1024	0	Act 1 Equip B	58	Act 1 Good	4																				0
 Act 1 Uitem C	14	9	1	800	800	800	1024	0	Act 1 Equip C	58	Act 1 Good	4																				0
@@ -720,8 +720,8 @@ Act 4 (H) Unique B	15	80	-3					0	Act 4 (H) Uitem B	1	Act 4 (H) Cpot B	2								
 Act 5 (H) Unique A	15	81	-3					0	Act 5 (H) Uitem A	1	Act 5 (H) Cpot A	2																				0
 Act 5 (H) Unique B	15	83	-3					0	Act 5 (H) Uitem B	1	Act 5 (H) Cpot B	2																				0
 Act 5 (H) Unique C	15	85	-3					0	Act 5 (H) Uitem C	1	Act 5 (H) Cpot C	2																				0
-Act X (H) Unique	15	90	-3						Act 5 (H) Uitem C	10	Act 5 (H) Cpot C	20																				0
-Act X (H) Unique 100	15	103	-3						Act 5 (X) Equip	10	Act 5 (H) Cpot C	20																				0
+Act X (H) Unique	15	90	-3						Act 5 (H) Uitem C	1	Act 5 (H) Cpot C	2																				0
+Act X (H) Unique 100	15	103	-3						Act 5 (X) Equip	1	Act 5 (H) Cpot C	2																				0
 Quill 1	16	0	1					125	gld	19	Act 1 Junk	19																				0
 Quill 2	16	4	1					125	gld	19	Act 1 Junk	19																				0
 Quill 3	16	8	1					125	gld	19	Act 1 Junk	19	Act 1 Good	1																		0
@@ -737,48 +737,48 @@ Quill 2 (H)	16	62	1					125	gld	19	Act 1 (H) Junk	19	Act 1 (H) Good	3											
 Quill 3 (H)	16	65	1					125	gld	19	Act 1 (H) Junk	19	Act 1 (H) Good	3																		0
 Quill 4 (H)	16	68	1					125	gld	19	Act 1 (H) Junk	19	Act 1 (H) Good	3																		0
 Quill 5 (H)	16	85	1					125	gld	19	Act 3 (H) Junk	19	Act 3 (H) Good	3																		0
-Swarm 1	17	0	1					125	Potions	12	Misc 1	6	Act 2 Good	1																		0
-Swarm 2	17	20	1					125	Potions	12	Misc 2	6	Act 3 Good	1																		0
-Swarm 1 (N)	17	40	1					125	Potions	12	Misc 2	6	Act 2 (N) Good	1																		0
-Swarm 2 (N)	17	46	1					125	Potions	12	Misc 2	6	Act 3 (N) Good	1																		0
-Swarm 1 (H)	17	68	1					125	Potions	12	Misc 2	6	Act 2 (H) Good	1																		0
-Swarm 2 (H)	17	74	1					125	Potions	12	Misc 2	6	Act 3 (H) Good	1																		0
-Andariel			7	983	983	983	1024	19	"gld,mul=1280"	11	Act 2 Equip A	19	Act 2 Junk	15	Act 2 Good	3																0
-Andariel (N)			7	983	983	983	1024	19	"gld,mul=1536"	11	Act 2 (N) Equip A	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																0
-Andariel (H)			7	983	983	983	1024	19	"gld,mul=2048"	11	Act 2 (H) Equip A	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	Goodies - Andariel	2														0
-Andarielq			7	995	995	1024	1024	19	Act 2 Equip A	19	Act 2 Good	3																				0
-Andarielq (N)			7	995	995	1024	1024	19	Act 2 (N) Equip A	19	Act 2 (N) Good	3																				0
-Andarielq (H)			7	995	995	1024	1024	19	Act 2 (H) Equip A	19	Act 2 (H) Good	5	Goodies - Andariel	2																		0
-Duriel - Base			7	983	983	983	1024	19	"gld,mul=1280"	11	Act 3 Equip A	19	Act 3 Junk	15	Act 3 Good	3																0
-Duriel (N) - Base			7	983	983	983	1024	19	"gld,mul=1536"	11	Act 3 (N) Equip A	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																0
-Duriel (H) - Base			7	983	983	983	1024	19	"gld,mul=2048"	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3	Goodies - Duriel	2														0
-Durielq - Base			7	993	993	1024	1024	19	Act 3 Equip A	19	Act 3 Good	3																				0
-Durielq (N) - Base			7	993	993	1024	1024	19	Act 3 (N) Equip A	19	Act 3 (N) Good	3																				0
-Durielq (H) - Base			7	993	993	1024	1024	19	Act 3 (H) Equip A	19	Act 3 (H) Good	3	Goodies - Duriel	2																		0
+Swarm 1	17	0	1					125	Potions	12	Act 2 Good	1																				0
+Swarm 2	17	20	1					125	Potions	12	Act 3 Good	1																				0
+Swarm 1 (N)	17	40	1					125	Potions	12	Act 2 (N) Good	1																				0
+Swarm 2 (N)	17	46	1					125	Potions	12	Act 3 (N) Good	1																				0
+Swarm 1 (H)	17	68	1					125	Potions	12	Act 2 (H) Good	1																				0
+Swarm 2 (H)	17	74	1					125	Potions	12	Act 3 (H) Good	1																				0
+Andariel			6	983	983	983	1024	19	"gld,mul=1280"	11	Act 2 Equip A	19	Act 2 Junk	15	Act 2 Good	3																0
+Andariel (N)			6	983	983	983	1024	19	"gld,mul=1536"	11	Act 2 (N) Equip A	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																0
+Andariel (H)			6	983	983	983	1024	19	"gld,mul=2048"	11	Act 2 (H) Equip A	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	Goodies - Andariel	2														0
+Andarielq			6	995	995	1024	1024	19	Act 2 Equip A	19	Act 2 Good	3																				0
+Andarielq (N)			6	995	995	1024	1024	19	Act 2 (N) Equip A	19	Act 2 (N) Good	3																				0
+Andarielq (H)			6	995	995	1024	1024	19	Act 2 (H) Equip A	19	Act 2 (H) Good	5	Goodies - Andariel	2																		0
+Duriel - Base			6	983	983	983	1024	19	"gld,mul=1280"	11	Act 3 Equip A	19	Act 3 Junk	15	Act 3 Good	3																0
+Duriel (N) - Base			6	983	983	983	1024	19	"gld,mul=1536"	11	Act 3 (N) Equip A	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																0
+Duriel (H) - Base			6	983	983	983	1024	19	"gld,mul=2048"	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3	Goodies - Duriel	2														0
+Durielq - Base			6	993	993	1024	1024	19	Act 3 Equip A	19	Act 3 Good	3																				0
+Durielq (N) - Base			6	993	993	1024	1024	19	Act 3 (N) Equip A	19	Act 3 (N) Good	3																				0
+Durielq (H) - Base			6	993	993	1024	1024	19	Act 3 (H) Equip A	19	Act 3 (H) Good	3	Goodies - Duriel	2																		0
 Radament			5	900	900	900	1024	19	"gld,mul=1280"	11	Act 3 Equip B	19	Act 3 Junk	15	Act 3 Good	3																0
 Radament (N)			5	900	900	900	1024	19	"gld,mul=1536"	11	Act 3 (N) Equip B	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																0
 Radament (H)			5	900	900	900	1024	19	"gld,mul=2048"	11	Act 3 (H) Equip C	19	Act 3 (H) Junk	15	Act 3 (H) Good	3	Goodies - Radament	2														0
 Flying Scimitar			1					100	Act 2 Good	3	scm	57																				0
 Flying Scimitar (N)			1					100	Act 2 (N) Good	3	scm	25	9sm	32																		0
 Flying Scimitar (H)			1					100	Act 2 (H) Good	3	scm	7	9sm	18	7sm	32																0
-Mephisto			7	983	983	983	1024	15	"gld,mul=1280"	5	Act 4 Equip A	52	Act 4 Junk	5	Act 4 Good	3																0
-Mephisto (N)			7	983	983	983	1024	15	"gld,mul=1536"	5	Act 4 (N) Equip A	52	Act 4 (N) Junk	5	Act 4 (N) Good	3																0
-Mephisto (H)			7	983	983	983	1024	15	"gld,mul=2048"	5	Act 4 (H) Equip A	52	Act 4 (H) Junk	5	Act 4 (H) Good	3	Goodies - Mephisto	2														0
-Mephistoq			7	993	993	1024	1024	15	Act 4 Equip A	52	Act 4 Good	3																				0
-Mephistoq (N)			7	993	993	1024	1024	15	Act 4 (N) Equip A	52	Act 4 (N) Good	3																				0
-Mephistoq (H)			7	993	993	1024	1024	15	Act 4 (H) Equip A	52	Act 4 (H) Good	3	Goodies - Mephisto	2																		0
-Diablo			7	983	983	983	1024	15	"gld,mul=1280"	5	Act 5 Equip A	52	Act 5 Junk	5	Act 5 Good	3																0
-Diablo (N)			7	983	983	983	1024	15	"gld,mul=1536"	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
-Diablo (H)			7	983	983	983	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Goodies - Diablo	2														0
-Diabloq			7	993	993	1024	1024	15	Act 5 Equip A	52	Act 5 Good	3																				0
-Diabloq (N)			7	993	993	1024	1024	15	Act 5 (N) Equip A	52	Act 5 (N) Good	3																				0
-Diabloq (H)			7	993	993	1024	1024	15	Act 5 (H) Equip A	52	Act 5 (H) Good	3	Goodies - Diablo	2																		0
-Summoner			5	900	900	972	1024	19	"gld,mul=1280"	9	Act 2 Equip C	15	Act 3 Junk	5	Act 2 Good	3	Act 3 Magic A	4														0
-Summoner (N)			5	900	900	972	1024	19	"gld,mul=1536"	9	Act 2 (N) Equip C	15	Act 3 (N) Junk	5	Act 2 (N) Good	3	Act 3 (N) Magic A	4														0
-Summoner (H)			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 2 (H) Equip C	15	Act 3 (H) Junk	5	Act 2 (H) Good	3	Act 3 (H) Magic A	4	pk2	1												0
-Council			3	650	800	800	1024	19	"gld,mul=1280"	9	Act 4 Equip A	15	Act 4 Junk	5	Act 4 Good	3	Act 4 Magic A	4														0
-Council (N)			3	650	800	800	1024	19	"gld,mul=1536"	9	Act 4 (N) Equip A	15	Act 4 (N) Junk	5	Act 4 (N) Good	3	Act 4 (N) Magic A	4														0
-Council (H)			3	650	800	800	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip A	15	Act 4 (H) Junk	5	Act 4 (H) Good	3	Act 4 (H) Magic A	4														0
+Mephisto			6	983	983	983	1024	15	"gld,mul=1280"	5	Act 4 Equip A	52	Act 4 Junk	5	Act 4 Good	3																0
+Mephisto (N)			6	983	983	983	1024	15	"gld,mul=1536"	5	Act 4 (N) Equip A	52	Act 4 (N) Junk	5	Act 4 (N) Good	3																0
+Mephisto (H)			6	983	983	983	1024	15	"gld,mul=2048"	5	Act 4 (H) Equip A	52	Act 4 (H) Junk	5	Act 4 (H) Good	3	Goodies - Mephisto	2														0
+Mephistoq			6	993	993	1024	1024	15	Act 4 Equip A	52	Act 4 Good	3																				0
+Mephistoq (N)			6	993	993	1024	1024	15	Act 4 (N) Equip A	52	Act 4 (N) Good	3																				0
+Mephistoq (H)			6	993	993	1024	1024	15	Act 4 (H) Equip A	52	Act 4 (H) Good	3	Goodies - Mephisto	2																		0
+Diablo			6	983	983	983	1024	15	"gld,mul=1280"	5	Act 5 Equip A	52	Act 5 Junk	5	Act 5 Good	3																0
+Diablo (N)			6	983	983	983	1024	15	"gld,mul=1536"	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
+Diablo (H)			6	983	983	983	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Goodies - Diablo	2														0
+Diabloq			6	993	993	1024	1024	15	Act 5 Equip A	52	Act 5 Good	3																				0
+Diabloq (N)			6	993	993	1024	1024	15	Act 5 (N) Equip A	52	Act 5 (N) Good	3																				0
+Diabloq (H)			6	993	993	1024	1024	15	Act 5 (H) Equip A	52	Act 5 (H) Good	3	Goodies - Diablo	2																		0
+Summoner			5	900	900	972	1024	19	"gld,mul=1280"	9	Act 2 Equip C	15	Act 3 Junk	5	Act 2 Good	3																0
+Summoner (N)			5	900	900	972	1024	19	"gld,mul=1536"	9	Act 2 (N) Equip C	15	Act 3 (N) Junk	5	Act 2 (N) Good	3																0
+Summoner (H)			5	900	900	972	1024	19	"gld,mul=2048"	9	Act 2 (H) Equip C	15	Act 3 (H) Junk	5	Act 2 (H) Good	3	pk2	1														0
+Council			3	650	800	800	1024	19	"gld,mul=1280"	9	Act 4 Equip A	15	Act 4 Junk	5	Act 4 Good	3																0
+Council (N)			3	650	800	800	1024	19	"gld,mul=1536"	9	Act 4 (N) Equip A	15	Act 4 (N) Junk	5	Act 4 (N) Good	3																0
+Council (H)			3	650	800	800	1024	19	"gld,mul=2048"	9	Act 4 (H) Equip A	15	Act 4 (H) Junk	5	Act 4 (H) Good	3																0
 Griswold			-4					0	Act 1 Uitem C	1	Act 1 Melee B	2	Griswold (NM) Flavor	1																		0
 Griswold (N)			-4					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2	Griswold (NM) Flavor	1																		0
 Griswold (H)			5					0	Act 1 (H) Uitem C	10	Act 1 (H) Melee B	20	Goodies - Griswold	2																		0
@@ -795,12 +795,12 @@ Hephasto (H)			5	800	800	900	1024	19	"gld,mul=2048"	14	Act 5 (H) Equip A	19	Act 
 Nihlathak			5	900	900	900	1024	19	"gld,mul=1280"	14	Act 5 Equip B	19	Act 5 Junk	5	Act 5 Good	3																0
 Nihlathak (N)			5	900	900	900	1024	19	"gld,mul=1536"	14	Act 5 (N) Equip B	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
 Nihlathak (H)			5	900	900	900	1024	19	"gld,mul=2048"	14	Act 5 (H) Equip B	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	pk3	1														0
-Baal			7	983	983	983	1024	15	"gld,mul=1280"	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
-Baal (N)			7	983	983	983	1024	15	"gld,mul=1536"	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
-Baal (H)			7	983	983	983	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Goodies - Baal	2														0
+Baal			6	983	983	983	1024	15	"gld,mul=1280"	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
+Baal (N)			6	983	983	983	1024	15	"gld,mul=1536"	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
+Baal (H)			6	983	983	983	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Goodies - Baal	2														0
 Baalq			-5	993	993	1024	1024	15	Act 1 (N) Equip A	2	Act 1 (N) Good	2	Beacon of Hope	1																		0
-Baalq (N)			7	993	993	1024	1024	15	Act 1 (H) Equip A	52	Act 1 (H) Good	3																				0
-Baalq (H)			7	993	993	1024	1024	15	Act 5 (H) Equip B	52	Act 5 (H) Good	3	Goodies - Baal	2																		0
+Baalq (N)			6	993	993	1024	1024	15	Act 1 (H) Equip A	52	Act 1 (H) Good	3																				0
+Baalq (H)			6	993	993	1024	1024	15	Act 5 (H) Equip B	52	Act 5 (H) Good	3	Goodies - Baal	2																		0
 Blood Raven			5	800	800	972	1024	19	"gld,mul=1280"	14	Act 1 Equip B	19	Act 1 Junk	5	Act 1 Good	3																0
 Blood Raven (N)			5	800	800	972	1024	19	"gld,mul=1536"	14	Act 1 (N) Equip B	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
 Blood Raven (H)			5	800	800	972	1024	19	"gld,mul=2048"	14	Act 1 (H) Equip B	19	Act 1 (H) Junk	5	Act 1 (H) Good	3	Goodies - Blood Raven	2														0
@@ -931,20 +931,20 @@ Boneash (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1
 Lister			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 Equip C	19	Act 5 Junk	5	Act 5 Good	3																0
 Lister (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (N) Equip C	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
 Lister (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	Lister Flavor	1														0
-Lord De Seis			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 Equip C	19	Act 4 Junk	5	Act 4 Good	3	Lord De Seis (N) Flavor	1														0
-Lord De Seis (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 (NM) Equip C	19	Act 4 (NM) Junk	5	Act 4 (NM) Good	3	Lord De Seis (NM) Flavor	1														0
+Lord De Seis			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 Equip B	19	Act 4 Junk	5	Act 4 Good	3	Lord De Seis (N) Flavor	1														0
+Lord De Seis (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 (N) Equip C	19	Act 4 (N) Junk	5	Act 4 (N) Good	3	Lord De Seis (NM) Flavor	1														0
 Lord De Seis (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 (H) Equip C	19	Act 4 (H) Junk	5	Act 4 (H) Good	3	Lord De Seis (H) Flavor	1														0
 Toorc Icefist			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 Equip C	19	Act 3 Junk	5	Act 3 Good	3																0
-Toorc Icefist (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 (NM) Equip C	19	Act 3 (NM) Junk	5	Act 3 (NM) Good	3	Toorc Icefist (NM) Flavor	1														0
+Toorc Icefist (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 (N) Equip C	19	Act 3 (N) Junk	5	Act 3 (N) Good	3	Toorc Icefist (NM) Flavor	1														0
 Toorc Icefist (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 (H) Equip C	19	Act 3 (H) Junk	5	Act 3 (H) Good	3	Toorc Icefist (H) Flavor	1														0
 Rakanishu			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3	Rakanishu (N) Flavor	1														0
-Rakanishu (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (NM) Equip C	19	Act 1 (NM) Junk	5	Act 1 (NM) Good	3	Rakanishu (NM) Flavor	1														0
+Rakanishu (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3	Rakanishu (NM) Flavor	1														0
 Rakanishu (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3	Rakanishu (H) Flavor	1														0
 Fangskin			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 2 Equip C	19	Act 2 Junk	5	Act 2 Good	3	Fangskin (N) Flavor	1														0
-Fangskin (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 2 (NM) Equip C	19	Act 2 (NM) Junk	5	Act 2 (NM) Good	3	Fangskin (NM) Flavor	1														0
+Fangskin (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 2 (N) Equip C	19	Act 2 (N) Junk	5	Act 2 (N) Good	3	Fangskin (NM) Flavor	1														0
 Fangskin (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 2 (H) Equip C	19	Act 2 (H) Junk	5	Act 2 (H) Good	3	Goodies - Fangskin	2														0
 Treehead			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3	Treehead (N) Flavor	1														0
-Treehead (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (NM) Equip C	19	Act 1 (NM) Junk	5	Act 1 (NM) Good	3	Treehead (NM) Flavor	1														0
+Treehead (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3	Treehead (NM) Flavor	1														0
 Treehead (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3	Treehead (H) Flavor	1														0
 Thresh Socket			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 Equip C	19	Act 5 Junk	5	Act 5 Good	3																0
 Thresh Socket (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (N) Equip C	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
@@ -953,7 +953,7 @@ Corpsefire			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk
 Corpsefire (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
 Corpsefire (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3	Goodies - Corpsefire	2														0
 Bishibosh			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3	Bishibosh (N) Flavor	1														0
-Bishibosh (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (NM) Equip C	19	Act 1 (NM) Junk	5	Act 1 (NM) Good	3	Bishibosh (NM) Flavor	1														0
+Bishibosh (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3	Bishibosh (NM) Flavor	1														0
 Bishibosh (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3	Bishibosh (H) Flavor	1														0
 Fire Eye (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip A	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	Fire Eye Flavor	1														0
 TormentGroupA	20	85	1	650	800	800		100	Blank	4500	Act 5 (H) Equip C	480	Act 5 (H) Good	220	RMD Loot A	2	Runes 18	5	gld,mul=1024	240												0
@@ -969,26 +969,26 @@ TormentGroupE2	24	103	1	950	900	800		100	Blank	4500	Act 5 (X) Equip	960	Act 5 (H
 TrialEnd			-1						a06	1																						0
 Enderaku	25	85	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	TormentBossesA	4																		0
 Enderaku2	25	103	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	TormentBossesA	4																		0
-ForsakenIzual	26	85	7	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
-ForsakenIzual2	26	103	7	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
-Gurka	27	85	7	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
-Gurka2	27	103	7	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
-Deddomer	28	85	7	993	725	1024	400	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
-Deddomer2	28	103	7	993	725	1024	400	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
+ForsakenIzual	26	85	6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
+ForsakenIzual2	26	103	6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
+Gurka	27	85	6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
+Gurka2	27	103	6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
+Deddomer	28	85	6	993	725	1024	400	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
+Deddomer2	28	103	6	993	725	1024	400	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
 Majiko	29	85	5	993	725	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesA	4																0
 Majiko2	29	103	5	993	725	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	Trial Scroll Group A	4	TormentBossesA	4																0
 Rakuranth	30	85	5	993	725	1024	400	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group B	4	TormentBossesA	4																0
 Rakuranth2	30	103	5	993	725	1024	400	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	Trial Scroll Group B	4	TormentBossesA	4																0
-Anuburak	31	85	7	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group D	4	TormentBossesB	4	Goodies - Anuburak	2														0
-Anuburak2	31	103	7	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group D	4	TormentBossesB	4	Goodies - Anuburak	2														0
-Syndred	32	85	7	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group C	4	TormentBossesB	4	Goodies - Queen Syndred	2														0
-Syndred2	32	103	7	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group C	4	TormentBossesB	4	Goodies - Queen Syndred	2														0
+Anuburak	31	85	6	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group D	4	TormentBossesB	4	Goodies - Anuburak	2														0
+Anuburak2	31	103	6	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group D	4	TormentBossesB	4	Goodies - Anuburak	2														0
+Syndred	32	85	6	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group C	4	TormentBossesB	4	Goodies - Queen Syndred	2														0
+Syndred2	32	103	6	993	725	1024	1024	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group C	4	TormentBossesB	4	Goodies - Queen Syndred	2														0
 Grizzlepaw	33	85	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group C	4	TormentBossesA	4																0
 Grizzlepaw2	33	103	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	Trial Scroll Group C	4	TormentBossesA	4																0
 Kelthir	34	85	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group D	4	TormentBossesA	4																0
 Kelthir2	34	103	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	Trial Scroll Group D	4	TormentBossesA	4																0
 Bonebreak			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3																0
-Bonebreak (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N)  Good	3																0
+Bonebreak (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
 Bonebreak (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
 Coldcrow			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3																0
 Coldcrow (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
@@ -1051,10 +1051,10 @@ Wyand (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 (H) Equip C	19	Act 3 (
 Maffer			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 Equip C	19	Act 3 Junk	5	Act 3 Good	3																0
 Maffer (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 (N) Equip C	19	Act 3 (N) Junk	5	Act 3 (N) Good	3																0
 Maffer (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 (H) Equip C	19	Act 3 (H) Junk	5	Act 3 (H) Good	3																0
-Infector of Souls			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 Equip C	19	Act 4 Junk	5	Act 4 Good	3																0
+Infector of Souls			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 Equip B	19	Act 4 Junk	5	Act 4 Good	3																0
 Infector of Souls (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 (N) Equip C	19	Act 4 (N) Junk	5	Act 4 (N) Good	3																0
-Infector of Souls (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 (H) Equip C	19	Act 4  (H) Junk	5	Act 4 (H) Good	3																0
-Grand Vizier			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 Equip C	19	Act 4 Junk	5	Act 4 Good	3																0
+Infector of Souls (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 (H) Equip C	19	Act 4 (H) Junk	5	Act 4 (H) Good	3																0
+Grand Vizier			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 Equip B	19	Act 4 Junk	5	Act 4 Good	3																0
 Grand Vizier (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 (N) Equip C	19	Act 4 (N) Junk	5	Act 4 (N) Good	3																0
 Grand Vizier (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 4 (H) Equip C	19	Act 4 (H) Junk	5	Act 4 (H) Good	3																0
 Shenk			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 Equip C	19	Act 5 Junk	5	Act 5 Good	3																0
@@ -1100,3 +1100,4 @@ FakeCows			1	256	384	512	640	1000	gld	250	Act 5 Equip C	250	Act 5 Good	55							
 FakeCows (N)			1	256	384	512	640	1000	gld	250	Act 5 (N) Equip C	250	Act 5 Good	55																		0
 FakeCows (H)	36	85	1	256	384	512	640	1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55																		0
 FakeCows (H)2	36	103	1	256	384	512	640	1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55																		0
+GiftBox			-1						m28	1																						0

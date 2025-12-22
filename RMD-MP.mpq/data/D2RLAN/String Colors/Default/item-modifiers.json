@@ -4253,19 +4253,19 @@
   {
     "id": 11033,
     "Key": "ModStr1x",
-    "deDE": "%d%% Erhöhter Magiefund",
+    "deDE": "+%d%% Erhöhter Magiefund",
     "enUS": "+%d%% Chance of Higher Quality Items",
-    "esES": "%d%% hallazgo mágico aumentado",
-    "esMX": "%d%% hallazgo mágico aumentado",
-    "frFR": "%d%Augmentation de la découverte magique",
-    "itIT": "%d%% ritrovamento magico aumentato",
-    "jaJP": "%d%% 増加した魔法の発見",
-    "koKR": "ÿc2마법 아이템 발견 확률 %d%% 증가",
-    "plPL": "%d%% Zwiększone znajdowanie magii",
-    "ptBR": "%d%% Pesquisa mágica aumentada",
-    "ruRU": "%d%% Увеличенный поиск магии",
-    "zhCN": "%d%% 增加魔法发现",
-    "zhTW": "%d%% 增加魔法發現"
+    "esES": "+%d%% hallazgo mágico aumentado",
+    "esMX": "+%d%% hallazgo mágico aumentado",
+    "frFR": "+%d%Augmentation de la découverte magique",
+    "itIT": "+%d%% ritrovamento magico aumentato",
+    "jaJP": "+%d%% 増加した魔法の発見",
+    "koKR": "+ÿc2마법 아이템 발견 확률 %d%% 증가",
+    "plPL": "+%d%% Zwiększone znajdowanie magii",
+    "ptBR": "+%d%% Pesquisa mágica aumentada",
+    "ruRU": "+%d%% Увеличенный поиск магии",
+    "zhCN": "+%d%% 增加魔法发现",
+    "zhTW": "+%d%% 增加魔法發現"
   },
   {
     "id": 11034,
@@ -10080,5 +10080,22 @@
     "ptBR": "ÿc4Cérebros: ÿc3%d",
     "ruRU": "ÿc4Мозги: ÿc3%d",
     "zhCN": "ÿc4Brains: ÿc3%d"
+  },
+  {
+    "id": 48319,
+    "Key": "ModStr1xn",
+    "deDE": "%d%% Erhöhter Magiefund",
+    "enUS": "%d%% Chance of Higher Quality Items",
+    "esES": "%d%% hallazgo mágico aumentado",
+    "esMX": "%d%% hallazgo mágico aumentado",
+    "frFR": "%d%Augmentation de la découverte magique",
+    "itIT": "%d%% ritrovamento magico aumentato",
+    "jaJP": "%d%% 増加した魔法の発見",
+    "koKR": "ÿc2마법 아이템 발견 확률 %d%% 증가",
+    "plPL": "%d%% Zwiększone znajdowanie magii",
+    "ptBR": "%d%% Pesquisa mágica aumentada",
+    "ruRU": "%d%% Увеличенный поиск магии",
+    "zhCN": "%d%% 增加魔法发现",
+    "zhTW": "%d%% 增加魔法發現"
   }
 ]

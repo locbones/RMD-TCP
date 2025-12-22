@@ -31,10 +31,10 @@ Bremm Sparkfist	Bremm Sparkfist	councilmember3	28		30	17	0	2	2	1	0		22	22	22	Bre
 Toorc Icefist	Toorc Icefist	councilmember1	29		18	28	0	0	0	1	0		23	23	23	Toorc Icefist	Toorc Icefist (N)	Toorc Icefist (H)	Toorc Icefist	Toorc Icefist (N)	Toorc Icefist (H)	0
 Wyand Voidfinger	Wyand Voidfinger	councilmember2	30		25	26	0	0	0	1	0		38	38	38	Wyand	Wyand (N)	Wyand (H)	Wyand	Wyand (N)	Wyand (H)	0
 Maffer Dragonhand	Maffer Dragonhand	councilmember3	31		5	6	0	0	0	1	0		23	23	23	Maffer	Maffer (N)	Maffer (H)	Maffer	Maffer (N)	Maffer (H)	0
-Winged Death	Winged Death	megademon3	32		5	7	0	7	7	1	0		24	24	24	Winged Death	Winged Death (N)	Winged Death (H)	Winged Death	Winged Death (N)	Winged Death (H)	0
-The Tormentor	The Tormentor	willowisp3	33		8	9	0	5	5	1	0		9	9	9	The Tormentor	The Tormentor (N)	The Tormentor (H)	The Tormentor	The Tormentor (N)	The Tormentor (H)	0
-Taintbreeder	Taintbreeder	vilemother2	34		6	0	0	6	6	1	0		10	10	10	Taintbreeder	Taintbreeder (N)	Taintbreeder (H)	Taintbreeder	Taintbreeder (N)	Taintbreeder (H)	0
-Riftwraith the Cannibal	Riftwraith the Cannibal	regurgitator2	35		18	26	0	8	8	1	0		25	25	25	Riftwraith	Riftwraith (N)	Riftwraith (H)	Riftwraith	Riftwraith (N)	Riftwraith (H)	0
+Winged Death	Winged Death	megademon3	32		5	7	0	7	7	1	0		24	24	24	Act 4 Super A	Act 4 (N) Super A	Act 4 (H) Super A	Act 4 Super A	Act 4 (N) Super A	Act 4 (H) Super A	0
+The Tormentor	The Tormentor	willowisp3	33		8	9	0	5	5	1	0		9	9	9	Act 4 Super A	Act 4 (N) Super A	Act 4 (H) Super A	Act 4 Super A	Act 4 (N) Super A	Act 4 (H) Super A	0
+Taintbreeder	Taintbreeder	vilemother2	34		6	0	0	6	6	1	0		10	10	10	Act 4 Super A	Act 4 (N) Super A	Act 4 (H) Super A	Act 4 Super A	Act 4 (N) Super A	Act 4 (H) Super A	0
+Riftwraith the Cannibal	Riftwraith the Cannibal	regurgitator2	35		18	26	0	8	8	1	0		25	25	25	Act 4 Super A	Act 4 (N) Super A	Act 4 (H) Super A	Act 4 Super A	Act 4 (N) Super A	Act 4 (H) Super A	0
 Infector of Souls	Infector of Souls	megademon3	36		6	27	0	9	9	1	0		26	26	26	Infector of Souls	Infector of Souls (N)	Infector of Souls (H)	Infector of Souls	Infector of Souls (N)	Infector of Souls (H)	0
 Lord De Seis	Lord De Seis	doomknight3	37		5	30	24	5	5	1	0		11	11	11	Lord De Seis	Lord De Seis (N)	Lord De Seis (H)	Lord De Seis	Lord De Seis (N)	Lord De Seis (H)	0
 Grand Vizier of Chaos	Grand Vizier of Chaos	fingermage3	38		5	9	0	9	9	1	0		26	26	26	Grand Vizier	Grand Vizier (N)	Grand Vizier (H)	Grand Vizier	Grand Vizier (N)	Grand Vizier (H)	0
@@ -43,22 +43,22 @@ Corpsefire	Corpsefire	zombie1	40		27	0	0	5	5	1	0		25	25	25	Corpsefire	Corpsefire
 Hephasto The Armorer	Hephasto The Armorer	hephasto	41	smithdemon	27	30	0	0	0	1	0		20	20	20	Hephasto	Hephasto (N)	Hephasto (H)	Hephasto	Hephasto (N)	Hephasto (H)	0
 Expansion																						0
 Shenk the Overseer	Shenk the Overseer	overseer1	42		5	0	0	0	0	0	1		7	7	7	Shenk	Shenk (N)	Shenk (H)	Shenk	Shenk (N)	Shenk (H)	0
-Talic	Talic	ancientbarb1	43		0	0	0	0	0	0	1		25	25	25	Talic	Talic (N)	Goodies - Ancients	Talic	Talic (N)	Goodies - Ancients	0
-Madawc	Madawc	ancientbarb2	44		0	0	0	0	0	0	1		26	26	26	Madawc	Madawc (N)	Goodies - Ancients	Madawc	Madawc (N)	Goodies - Ancients	0
-Korlic	Korlic	ancientbarb3	45		0	0	0	0	0	0	1		11	11	11	Korlic	Korlic (N)	Goodies - Ancients	Korlic	Korlic (N)	Goodies - Ancients	0
-Axe Dweller	Axe Dweller	bloodlord3	46		8	9	0	2	2	0	0		20	20	20	Axe Dweller	Axe Dweller (N)	Axe Dweller (H)	Axe Dweller	Axe Dweller (N)	Axe Dweller (H)	0
-Bonesaw Breaker	Bonesaw Breaker	reanimatedhorde2	47		5	8	0	5	5	0	0		35	35	35	Bonesaw	Bonesaw (N)	Bonesaw (H)	Bonesaw	Bonesaw (N)	Bonesaw (H)	0
+Talic	Talic	ancientbarb1	43		0	0	0	0	0	0	1		25	25	25			Goodies - Ancients			Goodies - Ancients	0
+Madawc	Madawc	ancientbarb2	44		0	0	0	0	0	0	1		26	26	26			Goodies - Ancients			Goodies - Ancients	0
+Korlic	Korlic	ancientbarb3	45		0	0	0	0	0	0	1		11	11	11			Goodies - Ancients			Goodies - Ancients	0
+Axe Dweller	Axe Dweller	bloodlord3	46		8	9	0	2	2	0	0		20	20	20	Act 5 Super C	Act 5 (N) Super C	Act 5 (H) Super C	Act 5 Super C	Act 5 (N) Super C	Act 5 (H) Super C	0
+Bonesaw Breaker	Bonesaw Breaker	reanimatedhorde2	47		5	8	0	5	5	0	0		35	35	35	Act 5 Super A	Act 5 (N) Super A	Act 5 (H) Super A	Act 5 Super A	Act 5 (N) Super A	Act 5 (H) Super A	0
 Dac Farren	Dac Farren	imp3	48		18	0	0	4	4	0	0	1	36	36	36	Dac Farren	Dac Farren (N)	Dac Farren (H)	Dac Farren	Dac Farren (N)	Dac Farren (H)	0
 Eldritch the Rectifier	Eldritch the Rectifier	minion1	49		1	6	0	8	8	0	0	1	21	21	21	Eldritch	Eldritch (N)	Eldritch (H)	Eldritch	Eldritch (N)	Eldritch (H)	0
 Eyeback Unleashed	Eyeback Unleashed	deathmauler1	50		5	6	0	2	2	0	0		8	8	8	Eyeback	Eyeback (N)	Eyeback (H)	Eyeback	Eyeback (N)	Eyeback (H)	0
 Thresh Socket	Thresh Socket	siegebeast3	51		7	0	0	0	0	0	0		37	37	37	Thresh Socket	Thresh Socket (N)	Thresh Socket (H)	Thresh Socket	Thresh Socket (N)	Thresh Socket (H)	0
 Pindleskin	Pindleskin	reanimatedhorde5	52		9	0	0	6	6	0	0		22	22	22	Pindleskin	Pindleskin (N)	Pindleskin (H)	Pindleskin	Pindleskin (N)	Pindleskin (H)	0
 Snapchip Shatter	Snapchip Shatter	frozenhorror1	53		7	18	0	4	4	0	0		23	23	23	Snapchip	Snapchip (N)	Snapchip (H)	Snapchip	Snapchip (N)	Snapchip (H)	0
-Anodized Elite	Anodized Elite	succubus4	54		9	7	0	6	6	0	0		38	38	38	Anodized	Anodized (N)	Anodized (H)	Anodized	Anodized (N)	Anodized (H)	0
-Vinvear Molech	Vinvear Molech	succubuswitch2	55		8	5	18	0	0	0	0		23	23	23	Vinvear	Vinvear (N)	Vinvear (H)	Vinvear	Vinvear (N)	Vinvear (H)	0
+Anodized Elite	Anodized Elite	succubus4	54		9	7	0	6	6	0	0		38	38	38	Act 5 Super C	Act 5 Super C	Act 5 (H) Super C	Act 5 Super C	Act 5 Super C	Act 5 (H) Super C	0
+Vinvear Molech	Vinvear Molech	succubuswitch2	55		8	5	18	0	0	0	0		23	23	23	Act 5 Super A	Act 5 Super A	Act 5 (H) Super A	Act 5 Super A	Act 5 Super A	Act 5 (H) Super A	0
 Sharp Tooth Sayer	Sharp Tooth Sayer	overseer3	56		6	0	0	3	3	0	0	1	24	24	24	Sharp Tooth	Sharp Tooth (N)	Sharp Tooth (H)	Sharp Tooth	Sharp Tooth (N)	Sharp Tooth (H)	0
-Magma Torquer	Magma Torquer	imp5	57		5	7	0	5	5	0	0		9	9	9	Magma Torquer	Magma Torquer (N)	Magma Torquer (H)	Magma Torquer	Magma Torquer (N)	Magma Torquer (H)	0
-Blaze Ripper	Blaze Ripper	deathmauler5	58		17	6	0	4	4	0	0		10	10	10	Blaze Ripper	Blaze Ripper (N)	Blaze Ripper (H)	Blaze Ripper	Blaze Ripper (N)	Blaze Ripper (H)	0
+Magma Torquer	Magma Torquer	imp5	57		5	7	0	5	5	0	0		9	9	9	Act 5 Super C	Act 5 (N) Super C	Act 5 (H) Super C	Act 5 Super C	Act 5 (N) Super C	Act 5 (H) Super C	0
+Blaze Ripper	Blaze Ripper	deathmauler5	58		17	6	0	4	4	0	0		10	10	10	Act 5 Super C	Act 5 (N) Super C	Act 5 (H) Super C	Act 5 Super C	Act 5 (N) Super C	Act 5 (H) Super C	0
 Frozenstein	Frozenstein	snowyeti4	59		18	25	0	5	6	0	0		19	19	19	Frozenstein	Frozenstein (N)	Frozenstein (H)	Frozenstein	Frozenstein (N)	Frozenstein (H)	0
 Nihlathak Boss	Nihlathak	nihlathakboss	60		0	0	0	0	0	0	1		28	28	28	Nihlathak	Nihlathak (N)	Nihlathak (H)	Nihlathak	Nihlathak (N)	Nihlathak (H)	0
 Colenzo the Annihilator	Colenzo the Annihilator	fallenshaman5	61		9	0	0	5	5	0	1		29	29	29	Colenzo	Colenzo (N)	Colenzo (H)	Colenzo	Colenzo (N)	Colenzo (H)	0

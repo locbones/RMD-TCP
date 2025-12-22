@@ -908,6 +908,7 @@
   "darksummon":"darksummon",
   "minidiablo":"minidiablo",
   "suicide_trialend":"trialend_chest",
+  "suicide_giftbox":"trialend_chest",
   "quantum_meph": "quantum_meph",
   "quantum_diablo": "quantum_diablo",
   "quantum_baal": "quantum_baal",
@@ -1076,5 +1077,14 @@
   "chainsentry3": "null",
   "wraithX": "wraith1",
   "vampireX": "vampire1",
-  "madking": "madking"
+  "madking": "madking",
+  "andarielxmas": "andariel",
+  "durielxmas": "duriel",
+  "mephistoxmas": "mephisto",
+  "diabloxmas": "diablo",
+  "baalcrabxmas": "baalcrab",
+  "succubusxmas": "succubuswitch1",
+  "willowispxmas": "willowisp1",
+  "cr_lancerxmas": "cr_lancer1",
+  "cr_archerxmas": "cr_archer1"
 }

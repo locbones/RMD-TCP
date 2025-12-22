@@ -5,15 +5,17 @@
 return {
     reload = "{turquoise}RMD Barebones Filter {gray}(v1.0) {green}Reloaded",
     language = "enUS",
+    audioVoice = 1, -- Chooses a voice, available from ones installed on OS
+    audioPlayback = true, -- Enable or Disable audio playback support, including TTS
     allowOverrides = true,
-    filter_level = 2,
+    filter_level = 1,
     filter_titles = { "1", "2" },
     rules = {
-        { --Display item levels for weapons, armors, charms, jewels, rings, amulets and arrows, in white, to the right of item name, (x)
+        { --Display item levels for weapons, armors, charms, jewels, rings, amulets and arrows/bolts, to the right of item name, (x)
             codes = "allitems",
             location = { "onground", "onplayer", "equipped", "atvendor" },
             itype = { 5, 6, 10, 12, 45, 50, 58, 82, 83, 84 },
-            suffix = " {white}({ilvl})",
+            suffix = " ({ilvl})",
         },
         { --Display socket count in gray, to the right of item name, [x]
             codes = "allitems",

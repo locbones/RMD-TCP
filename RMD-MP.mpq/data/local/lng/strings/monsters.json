@@ -10487,5 +10487,22 @@
 	"ruRU": "ÿc7Безумный король",
 	"zhCN": "ÿc7疯狂国王",
 	"zhTW": "ÿc7瘋狂國王"
+  },
+  {
+      "id": 55088,
+      "Key": "NephalemChest",
+	"deDE": "Nephalems Cache",
+	"enUS": "Nephalem's Cache",
+	"esES": "Alijo de Nephalem",
+	"esMX": "Alijo de Nephalem",
+	"frFR": "Cache de Nephalem",
+	"itIT": "Deposito di Nefilim",
+	"jaJP": "ネファレムの隠し場所",
+	"koKR": "네팔렘의 보관함",
+	"plPL": "Skrytka Nefalema",
+	"ptBR": "Esconderijo de Nephalem",
+	"ruRU": "Тайник Нефалема",
+	"zhCN": "奈非天的宝箱",
+	"zhTW": "奈非天的寶箱"
   }
 ]

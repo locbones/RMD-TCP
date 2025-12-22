@@ -10080,5 +10080,22 @@
     "ptBR": "ÿc4Cérebros: ÿcG%dÿc3",
     "ruRU": "ÿc4Мозги: ÿcG%dÿc3",
     "zhCN": "ÿc4Brains: ÿcG%dÿc3"
+  },
+  {
+    "id": 48319,
+    "Key": "ModStr1xn",
+    "deDE": "ÿcG%d%%ÿc3 Erhöhter Magiefund",
+    "enUS": "ÿcG%d%%ÿc3 Chance of Higher Quality Items",
+    "esES": "ÿcG%d%%ÿc3 hallazgo mágico aumentado",
+    "esMX": "ÿcG%d%%ÿc3 hallazgo mágico aumentado",
+    "frFR": "ÿcG%d%%ÿc3 Augmentation de la découverte magique",
+    "itIT": "ÿcG%d%%ÿc3 ritrovamento magico aumentato",
+    "jaJP": "ÿcG%d%%ÿc3 増加した魔法の発見",
+    "koKR": "ÿc2마법 아이템 발견 확률 ÿcG%d%%ÿc3 증가",
+    "plPL": "ÿcG%d%%ÿc3 Zwiększone znajdowanie magii",
+    "ptBR": "ÿcG%d%%ÿc3 Pesquisa mágica aumentada",
+    "ruRU": "ÿcG%d%%ÿc3 Увеличенный поиск магии",
+    "zhCN": "ÿcG%d%%ÿc3 增加魔法发现",
+    "zhTW": "ÿcG%d%%ÿc3 增加魔法發現"
   }
 ]

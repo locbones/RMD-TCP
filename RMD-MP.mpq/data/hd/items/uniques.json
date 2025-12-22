@@ -4692,5 +4692,12 @@
       "uber": "..\\custom\\MythosLogC",
       "ultra": "..\\custom\\MythosLogC"
     }
+  },
+  {
+    "soul_of_edyrem": {
+      "normal": "..\\custom\\EdyremSoul",
+      "uber": "..\\custom\\EdyremSoul",
+      "ultra": "..\\custom\\EdyremSoul"
+    }
   }
 ]
