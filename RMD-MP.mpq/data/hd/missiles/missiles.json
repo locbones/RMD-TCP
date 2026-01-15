@@ -507,6 +507,11 @@
     "erruption_crack_2": "null",
     "erruption_smoke_1": "expansion_eruption_smoke",
     "erruption_smoke_2": "null",
+    "ice_eruption_center": "null",
+    "ice_eruption_crack_1": "ice_eruption_crack",
+    "ice_eruption_crack_2": "null",
+    "ice_eruption_smoke_1": "expansion_eruption_smoke",
+    "ice_eruption_smoke_2": "null",
     "vine_beast_walk_1": "expansion_pod_walk_1",
     "vine_beast_walk_2": "expansion_pod_walk_2",
     "vine_beast_neutral": "expansion_pod_neutral_1",
@@ -1004,5 +1009,7 @@
     "psionicblades": "rmd_bladefury",
     "spellblade_miss_cold": "frost_nova",
     "spellblade_miss_fire": "expansion_firestorm_emitter",
-    "spellblade_miss_light": "lightning_strike"
+    "spellblade_miss_light": "lightning_strike",
+    "prismwisp":"prismwisp",
+    "lightning_fissure": "lightningbolt"
 }

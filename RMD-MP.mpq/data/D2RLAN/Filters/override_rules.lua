@@ -5109,11 +5109,6 @@ return {
                 zhTW = "{gray} 解鎖您的第三次極限突破和強大的新功能\n恭喜英雄！用你的神話原木符咒\n",
             },
         },
-        { --Wirt's Leg, Halloween Havoc
-            code = "leg",
-            location = { "onplayer", "equipped", "atvendor" },
-            suffix_desc = "{purple}To carve all that out while you're being dismembered? What a hero.\n\n{grey}My Leg + Cube = Revenge'\nP.S.\n'The Mad King was here\n{purple}There appears to be a message carved deep into Wirt's leg...{blue}\n\n"
-        },
         { --Gold Bar (500k, Old)
             code = "Y20",
             location = { "onplayer", "equipped", "atvendor" },
@@ -5245,7 +5240,876 @@ return {
             code = "m28",
             location = { "onplayer", "equipped", "atvendor" },
             suffix_desc = "{grey}and the unseen hand will answer with a blessing earned only by insight.\nRecast the crucible once more, with your shiny treasure in tow...\nFragment of Oblivion, Conjurer of Hellflame, Merchant of Midas, assume the trinity of legacies domain\nBind them beneath the power of your second ascension, with valor proven in spilled blood.\nCollect a score of muted currency, entrusted to the greed of humanity,\n\n"
-        }
+        },
+		{ -- Mod Tips: Scroll of Resistance
+			code = "tr2",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{gray}On use, permanently adds 10%% to All Resistances\n{lilac}[Mod Tip]\n\n"
+		},
+		{ -- Mod Tips: Twisted Essence of Suffering
+            code = "tes",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}Cube with QoL Bag to get 4-7 Gem Points\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Charged Essence of Hatred
+            code = "ceh",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}Cube with QoL Bag to get 1-3 High Rune Points\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Burning Essence of Terror
+            code = "bet",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}Cube with QoL Bag to get 3-6 Set Cores\n{lilac}[Mod Tip]\n\n"
+        },
+        { -- Mod Tips: Festering Essence of Destruction
+            code = "fed",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}Cube with QoL Bag to get 3-6 Unique Cores\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Demon Tempering, Body Parts
+            codes = { "C00", "C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08", "C09", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C20", "C21", "C22", "C23", "C24", "C25", "C26", "C27", "C28", "C29", "C30", "C31", "C32", "C33", "C34", "C35", "C36", "C37" },
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}One of the Body Parts used in {dark green}Demon Tempering\n{lilac}[Mod Tip]\n\n"
+        },
+		{-- Mod Tips: Demon Tempering, Normal base Relics
+            codes = "allitems",
+            quality = "7",
+            rarity = "0",
+            identified = true,
+            index = { 6, 45, 55, 71, 299, 330, 335 },
+            location = { "onplayer", "atvendor", "equipped" },
+            prefix = "{dark green}Can be Demon Tempered{gold}\n"
+        },
+        { -- Mod Tips: Demon Tempering, Exceptional base Relics
+            codes = "allitems",
+            quality = "7",
+            rarity = "1",
+            identified = true,
+            index = { 143, 281, 286, 347, 366, 369, 379, 386, 483 },
+            location = { "onplayer", "atvendor", "equipped" },
+            prefix = "{dark green}Can be Demon Tempered{gold}\n"
+        },
+        { -- Mod Tips: Demon Tempering, Elite base Relics
+            codes = "allitems",
+            quality = "7",
+            rarity = "2",
+            identified = true,
+            index = { 189, 211, 213, 217, 225, 226, 231, 246, 247, 249, 254, 262, 292, 295, 412, 413, 418, 423, 428, 433, 438, 445, 447, 453 },
+            location = { "onplayer", "atvendor", "equipped" },
+            prefix = "{dark green}Can be Demon Tempered{gold}\n"
+        },
+        { -- Mod Tips: Demon Tempering, Misc Relics
+            codes = "allitems",
+            quality = "7",
+            identified = true,
+            index = { 525, 527, 529, 532, 543, 556 },
+            location = { "onplayer", "atvendor", "equipped" },
+            prefix = "{dark green}Can be Demon Tempered{gold}\n"
+        },
+		{ -- Mod Tips: Demon Tempering, Scroll of Belial
+            code = "y67",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}Cube it with a Demon Temper-able item and then with a Body Part to Temper it\nIngredient for {dark green}Demon Tempering\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Socket Remover
+            code = "b64",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}If stacked, cube alone to remove 1 quantity before using\nCube a stack of 10 to create Premium Socket Remover\n{lilac}[Mod Tip]\n\n"
+        },
+        { -- Mod Tips: Premium Socket Remover
+            code = "b65",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}If stacked, cube alone to remove 1 quantity before using\nCube alone to turn back into 10 Socket Removers\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Wirt's Leg
+            code = "leg",
+            location = { "onplayer", "atvendor" },
+            suffix_desc = "{gray}Cube alone for MooMoo Farm\n{lilac}[Mod Tip]\n\n{blue}"
+        },
+		{ -- Mod Tips: Unholly Commander
+            code = "cm3",
+            identified = true,
+            index = 590,
+            location = { "onplayer", "atvendor" },
+            suffix_desc = "{grey}Cube alone to change amount summoned (5 max)\n{lilac}[Mod Tip]\n\n{blue}"
+        },
+		{ -- Mod Tips: Blank Talent
+            code = "cm3",
+            identified = true,
+            index = 611,
+            location = { "onplayer", "atvendor" },
+            suffix_desc = "{grey}Can be enhanced. Cannot be re-rolled\n{lilac}[Mod Tip]\n\n{blue}"
+        },
+		{ -- Mod Tips: Antidote Potion
+            code = "yps",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{grey}Used for {green}Set{gray} Blood Contracts{white}\n{lilac}[Mod Tip]\n\n"
+        },
+        { -- Mod Tips: Thawing Potion
+            code = "wms",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{grey}Used for ÿc4Unique{gray} Blood Contracts{white}\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Standard of Heroes
+            code = "std",
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{grey}Will replace first SuperUnique monster you encounter in this game session\nCan be sold to {white}any{gray} vendor in Hell to spawn Diablo Clone\nCube with {gold}Hellfire Torch{gray} or {gold}Annihilus{gray} to reroll them\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Gold Bar
+            code = "Y21",
+            location = { "onplayer", "atvendor" },
+            suffix_desc = "{gray}1 Gold Bar + item = added Ethereal\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Key of Terror
+            code = "pk1",
+            location = "onplayer",
+            prefix_desc = "{gray}Cube 2 copies to obtain 1x Key of Hate\n{lilac}[Mod Tip]\n\n{orange}"
+        },
+        { -- Mod Tips: Key of Hate
+            code = "pk2",
+            location = "onplayer",
+            prefix_desc = "{gray}Cube 2 copies to obtain 1x Key of Destruction\n{lilac}[Mod Tip]\n\n{orange}"
+        },
+        { -- Mod Tips: Key of Destruction
+            code = "pk3",
+            location = "onplayer",
+            prefix_desc = "{gray}Cube 2 copies to obtain 1x Key of Terror\n{lilac}[Mod Tip]\n\n{orange}"
+        },
+		{ -- Mod Tips: Key of Terror Remover
+            code = "Z42",
+            location = { "onplayer", "atvendor" },
+            prefix = "{gold}The Countess {gray}(A1: Black Marsh->Forgotten Tower)\nKey is obtained in Hellfrom:\n{lilac}[Mod Tip]\n\n"
+        },
+        { -- Mod Tips: Key of Hate Remover
+            code = "Z43",
+            location = { "onplayer", "atvendor" },
+            prefix = "{gold}The Summoner {gray}(A2: Arcane Sanctuary)\nKey is obtained in Hell from:\n{lilac}[Mod Tip]\n\n"
+        },
+        { -- Mod Tips: Key of Destruction Remover
+            code = "Z44",
+            location = { "onplayer", "atvendor" },
+            prefix = "{gold}Nihlathak {gray}(A5: Halls of Vaught)\nKey is obtained in Hell from:\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Diablo's Horn Remover
+            code = "Z45",
+            location = { "onplayer", "atvendor" },
+            prefix = "{gold}Lilith {gray}(A5: Matron's Den)\nOrgan is obtained in Hell from:\n{lilac}[Mod Tip]\n\n"
+        },
+        { -- Mod Tips: Baal's Eye Remover
+            code = "Z46",
+            location = { "onplayer", "atvendor" },
+            prefix = "{gold}Uber Duriel {gray}(A5: Forgotten Sands)\nOrgan is obtained in Hell from:\n{lilac}[Mod Tip]\n\n"
+        },
+        { -- Mod Tips: Mephisto's Brain Remover
+            code = "Z47",
+            location = { "onplayer", "atvendor" },
+            prefix = "{gold}Uber Izual {gray}(A5: Furnace of Pain)\nOrgan is obtained in Hell from:\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Jewel Converter
+            codes = { "z75", "z74" },
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}Storage Bag (30 {yellow}Jewels{gray}) {white}+{gray} Item UpConverter (Advanced) {white}={gray} Rainbow Facet (random)\nStorage Bag (5 {yellow}Jewels{gray}) {white}+{gray} Unique/Set Item {white}+{gray} Identify Scroll {white}={gray} Re-Rolled Stats\nStorage Bag{gray} (10 {blue}Jewels{gray}) {white}+{gray} Item UpConverter (basic) {white}+{gray} Token of Evil {white}= {yellow}Jewel{gray} (random)\n{lilac}Jewel Recipes:\n\n"
+        },
+		{ -- Mod Tips: Soul Shard
+            code = "S01",
+            location = { "onplayer", "atvendor" },
+            suffix_desc = "{gray} + 1-3 Soul Shards\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tip: El Rune
+			code = "r01",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+1 Low Rune Point{orange}\n"
+		},
+		{ -- Mod Tip: Eld Rune
+			code = "r02",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+2 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Tir Rune
+			code = "r03",
+			location = { "onplayer", "atvendor"},
+			prefix = "{gray}+4 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Nef Rune
+			code = "r04",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+8 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Eth Rune
+			code = "r05",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+16 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Ith Rune
+			code = "r06",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+32 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Tal Rune
+			code = "r07",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+64 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Ral Rune
+			code = "r08",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+128 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Ort Rune
+			code = "r09",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+256 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Thul Rune
+			code = "r10",
+			location = { "onplayer", "atvendor"},
+			prefix = "{gray}+512 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Amn Rune
+			code = "r11",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+1024 Low Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Sol Rune
+			code = "r12",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+1 Mid Rune Point{orange}\n"
+		},
+		{ -- Mod Tip: Shael Rune
+			code = "r13",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+2 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Dol Rune
+			code = "r14",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+4 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Hel Rune
+			code = "r15",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+8 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Io Rune
+			code = "r16",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+16 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Lum Rune
+			code = "r17",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+32 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Ko Rune
+			code = "r18",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+64 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Fal Rune
+			code = "r19",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+128 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Lem Rune
+			code = "r20",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+256 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Pul Rune
+			code = "r21",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+512 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Um Rune
+			code = "r22",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+1024 Mid Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Mal Rune
+			code = "r23",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+1 High Rune Point{orange}\n"
+		},
+		{ -- Mod Tip: Ist Rune
+			code = "r24",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+2 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Gul Rune
+			code = "r25",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+4 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Vex Rune
+			code = "r26",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+8 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Ohm Rune
+			code = "r27",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+16 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Lo Rune
+			code = "r28",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+32 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Sur Rune
+			code = "r29",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+64 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Ber Rune
+			code = "r30",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+128 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Jah Rune
+			code = "r31",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+256 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Cham Rune
+			code = "r32",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+512 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Zod Rune
+			code = "r33",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+1024 High Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Di Rune
+			code = "r34",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+1 Ultra Rune Point{orange}\n"
+		},
+		{ -- Mod Tip: Ab Rune
+			code = "r35",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+2 Ultra Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Er Rune
+			code = "r36",
+			location = { "onplayer", "atvendor" },
+			prefix = "{gray}+4 Ultra Rune Points{orange}\n"
+		},
+		{ -- Mod Tip: Civerb's Forsaken Pact
+			code = "L00",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Mirrored Flames {gray}- Civerb's + Aldur's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Hsaru's Forsaken Pact
+			code = "L01",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Cleglaw's Forsaken Pact
+			code = "L02",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Mikael's Toxicity {gray}- Cleglaw's + Rathma's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Iratha's Forsaken Pact
+			code = "L03",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Isenhart's Forsaken Pact
+			code = "L04",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Vidala's Forsaken Pact
+			code = "L05",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos'\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Milabrega's Forsaken Pact
+			code = "L06",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Cathan's Forsaken Pact
+			code = "L07",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Tancred's Forsaken Pact
+			code = "L08",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Underworld's Unrest {gray}- Tancred's + Trang-Oul's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Sigon's Forsaken Pact
+			code = "L09",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Justitia's Divinity {gray}- Sigon's + Orphan's\n{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's\n{green}Blacklight {gray}- Sigon's + Immortal King's {red}-Paladin and Barbarian only\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Infernal Forsaken Pact
+			code = "L10",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal + Aldur's + Immortal King's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Berserker's Forsaken Pact
+			code = "L11",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos'\n{green}Artio's Calling {gray}- Berserker's + Cow King's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Death's Forsaken Pact
+			code = "L12",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos'\n{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Angelic Forsaken Pact
+			code = "L13",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's\n{green}Celestial Caress {gray}- Angelic's + The Disciple's + Vessel's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Arctic Forsaken Pact
+			code = "L14",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Arcanna's Forsaken Pact
+			code = "L15",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Natalya's Forsaken Pact
+			code = "L16",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Silhouette of Silence {gray}- Natalya's + Kreigur's\n{green}Path of the Vortex {gray}- Unstoppable Force + Natalya's {red}-Barbarian and Assassin only\n{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Aldur's Forsaken Pact
+			code = "L17",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal's + Aldur's + Immortal King's\n{green}Mirrored Flames {gray}- Civerb's + Aldur's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Immortal King's Forsaken Pact
+			code = "L18",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal's + Aldur's + Immortal King's\n{green}Blacklight {gray}- Sigon's + Immortal King's {red}-Paladin and Barbarian only\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Tal Rasha's Forsaken Pact
+			code = "L19",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Griswold's Forsaken Pact
+			code = "L20",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Trang-Oul's Forsaken Pact
+			code = "L21",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Underworld's Unrest {gray}- Tancred's + Trang-Oul's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: M'avina's Forsaken Pact
+			code = "L22",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos'\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: The Disciple's Forsaken Pact
+			code = "L23",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Celestial Caress {gray}- Angelic's + The Disciple's + Vessel's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Heaven's Forsaken Pact
+			code = "L24",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's\n{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Orphan's Forsaken Pact
+			code = "L25",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Justitia's Divinity {gray}- Sigon's + Orphan's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Hwanin's Forsaken Pact
+			code = "L26",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Sazabi's Forsaken Pact
+			code = "L27",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Bul-Kathos' Forsaken Pact
+			code = "L28",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos'\n{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos'\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Cow King's Forsaken Pact
+			code = "L29",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Artio's Calling {gray}- Berserker's + Cow King's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Naj's Forsaken Pact
+			code = "L30",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Sander's/McAuley's Forsaken Pact
+			code = "L31",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Vessel's Forsaken Pact
+			code = "L32",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Celestial Caress {gray}- Angelic's + Disciple's + Vessel's\n{green}Breaker of Chains {gray}- Vessel's + Majestic\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Majestic Forsaken Pact
+			code = "L33",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Breaker of Chains {gray}- Vessel's + Majestic\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Skovos Forsaken Pact
+			code = "L34",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Wonderous / Wonder Wear Forsaken Pact
+			code = "L35",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Vizjerei's Forsaken Pact
+			code = "L36",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Battlemage's Forsaken Pact
+			code = "L37",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Glacial Forsaken Pact
+			code = "L38",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Black Tempest {gray}- Glacial + Blessings of Artemis\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Rathma's Forsaken Pact
+			code = "L39",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Mikael's Toxicity {gray}- Cleglaw's + Rathma's\n{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Stacatomamba's Forsaken Pact
+			code = "L40",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Kreigur's Forsaken Pact
+			code = "L41",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Silhouette of Silence {gray}- Natalya's + Kreigur's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Sukami Forsaken Pact
+			code = "L42",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Mirrored Flames Forsaken Pact
+			code = "L43",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Unstoppable Force Forsaken Pact
+			code = "L44",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Path of the Vortex {gray}- Unstoppable Force + Natalya's {red}-Barbarian and Assassin only\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Underworld's Unrest Forsaken Pact
+			code = "L45",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Elemental Blueprints Forsaken Pact
+			code = "L46",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Raijin's Rebellion Forsaken Pact
+			code = "L47",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Mikael's Toxicity Forsaken Pact
+			code = "L48",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Warrior's Wrath Forsaken Pact
+			code = "L49",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Blessings of Artemis Forsaken Pact
+			code = "L50",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Black Tempest {gray}- Glacial + Blessings of Artemis\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Artio's Calling Forsaken Pact
+			code = "L51",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Justitia's Divinity Forsaken Pact
+			code = "L52",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Pulsing Presence Forsaken Pact
+			code = "L53",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Celestial Caress Forsaken Pact
+			code = "L54",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Breaker of Chains Forsaken Pact
+			code = "L55",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Silhouette of Silence Forsaken Pact
+			code = "L56",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Mangala's Teachings Forsaken Pact
+			code = "L57",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Sacrificial Trinity Forsaken Pact
+			code = "L58",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Plates of Protection Forsaken Pact
+			code = "L59",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Black Tempest Forsaken Pact
+			code = "L60",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+        { -- Quill of Quality
+			code = "m30",
+			location = { "onplayer" },
+			prefix_desc = "{white}(See Barrier Charm tooltip for more details)\nUsed to upgrade the quality of your {gold}Evil Barrier {white}charm\n"
+		},
+        { -- Parchment of Proof (No Reward)
+			codes = { "Bt00", "Bt01", "Bt02", "Bt03", "Bt05", "Bt06", "Bt07", "Bt08", "Bt10", "Bt11", "Bt12", "Bt13", "Bt15", "Bt16", "Bt17", "Bt18", "Bt20", "Bt21", "Bt22", "Bt23", "Bt25", "Bt26", "Bt27", "Bt28", "Bt30", "Bt31", "Bt32", "Bt33", "Bt35", "Bt36", "Bt37", "Bt38", "Bt40", "Bt41", "Bt42", "Bt43", "Bt45", "Bt46", "Bt47", "Bt48", "Bt50", "Bt51", "Bt52", "Bt53", "Bt55", "Bt56", "Bt57", "Bt58", "Bt60", "Bt61", "Bt62", "Bt63", "Bt65", "Bt66", "Bt67", "Bt68", "Bt70", "Bt71", "Bt72", "Bt73" },
+			location = { "onplayer" },
+			prefix_desc = "{grey}Cube with your {gold}Evil Barrier {grey}charm to complete the Quest\n"
+		},
+        { -- Parchment of Proof (Assigned Reward)
+			code= "Bt04",
+			location = { "onplayer" },
+			prefix_desc = "{white}Fire Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+		},
+        { -- Parchment of Proof (Assigned Reward)
+			code= "Bt09",
+			location = { "onplayer" },
+			prefix_desc = "{white}Gain +1 Socket Remover\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+		},
+        { -- Parchment of Proof (Assigned Reward)
+			code= "Bt14",
+			location = { "onplayer" },
+			prefix_desc = "{white}Magic and Physical Damage Reduced By 5 added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+		},
+        { -- Parchment of Proof (Assigned Reward)
+			code= "Bt19",
+			location = { "onplayer" },
+			prefix_desc = "{white}Poison Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+		},
+        { -- Parchment of Proof (Chosen Reward)
+			code = "Bt24",
+			location = { "onplayer" },
+			prefix_desc = "{white}Option 1 Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward E: {grey}(Any Charm)\n\n{white}Option 1 Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward D: {grey}(Any Amulet)\n\n{white}Option 1 Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward C: {grey}(Any Ring)\n\n{white}Option 1 Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward B: {grey}(Any Armor)\n\n{white}Option 1 Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube with your {gold}Evil Barrier {white}charm and one of the below items to complete the Quest\n"
+		},
+        { -- Evil Barrier 1
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 1 },
+			location = { "onplayer" },
+            suffix_desc = "{gold}----------------------------------------\n{lilac}All gems stored in the bag are perfect gems when withdrawn\nThese can be withdrawn later or used in various recipes as you progress\nYou can store gems, runes and other valuables in your bag\n{gold}Tips:\n\n{white}Deposit a Skull into your Storage Bag\n{gold}Task:\n\n{tan}Current Quest {white}[1/75]\n{gold}----------------------------------------\n\n",
+		},
+        { -- Evil Barrier 2
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 2 },
+			location = { "onplayer" },
+            suffix_desc = "{lilac}You can cube a remover alone to change what type of gem, rune, etc it withdraws\nGem (and other) removers allow you to withdraw the corresponding items from your bag\nYou can visit Edyrem's shop to buy removers (Left corner of town)\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with a Perfect Skull\n{gold}Completion: \n{white}Withdraw a Perfect Skull from your Storage Bag\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[2/75]\n\n",
+		},
+        { -- Evil Barrier 3
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 3 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}You will learn more about charm weighting in the next quest\nThis is because the 'charm weight system' is activated by your weapon\nYou'll notice without your weapon equipped, you have no mana\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm alone\n{gold}Completion: \n{white}Drop your weapon on the ground\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[3/75]\n\n"
+		},
+        { -- Evil Barrier 4
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 4 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}(For more info, view the Itemization tab of the Mod Info menu)\nCharm weight controls the max charms allowed before a 0 mana penalty is applied\nIn addition, the Statue of Mythos also grants your base charm weight capacity\n\nThey can increase your total HP over time or be used as requirements for recipes\nKills are tracked through the lifetime of your character\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Statue of Mythos\n{gold}Completion: \n{white}Kill 1000 monsters\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[4/75]\n\n"
+		},
+        { -- Evil Barrier 5
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 5 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}This process consumes your set items and cannot be reversed once a Pact has been made\nPacts can be cubed together, with varying combinations granting new, undroppable sets\nSome completed sets can be cubed together, creating a 'Forsaken Pact'\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Lightning Resist +25%% added to charm\n{gold}Reward: \n{white}Read the tip below, then cube this charm with your set piece\n{gold}Completion: \n{white}Obtain a piece of the Arctic Gears set from Cold Crow (The Cave Level 1)\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[5/75]\n\n"
+		},
+        { -- Evil Barrier 6
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 6 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Blood Contracts allow you to gamble new set/unique items using prices shown in the recipe menu\nEach item sacrificed adds a 'core' to your bag, which can be used for Blood Contracts\nUnique and Set items can be sacrificed to your bag\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Gnasher\n{gold}Completion: \n{white}Obtain The Gnasher from Rakanishu (Stony Field)\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[6/75]\n\n"
+		},
+        { -- Evil Barrier 7
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 7 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}This clue is a hint for a known Demon Tempering recipe, which you will learn more about in later quests\nSometimes you will see various item clues on tooltips\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Scroll of Inifuss\n{gold}Completion: \n{white}COllect the Scroll of Inifuss from Treehead Woodfist (Dark Wood)\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[7/75]\n\n"
+		},
+        { -- Evil Barrier 8
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 8 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Also, a waypoint has been added to the cow level (at spawn point)\nCubing Wirt's Leg alone will now spawn the Cow Portal, no tome needed\nQoL Changes are found in many different areas, such as recipes\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with Wirt's Leg\n{gold}Completion: \n{white}Obtain Wirt's Leg from Wirt's Corpse (Tristram)\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[8/75]\n\n"
+		},
+        { -- Evil Barrier 9
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 9 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}(Points always assume a 2x rune upgrade cost)\nRunes are converted to points and any rune can be withdrawn given you have enough points\nJust like gems, runes can also be stored in your Storage Bag\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Thul Rune and Storage Bag\n{gold}Completion: \n{white}Kill The Countess and deposit a Thul rune into your Storage Bag\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[9/75]\n\n"
+		},
+        { -- Evil Barrier 10
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 10 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}In addition, a converter can be purchased to convert between Low, Mid and High points\nJust like gems, runes can be withdrawn using the removers from Edyrem\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Gain a Socket Remover\n{gold}Reward: \n{white}Read the tip below, then cube this charm with your Amn Rune and Storage Bag\n{gold}Completion: \n{white}Withdraw an Amn rune using points from your Storage Bag\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[10/75]\n\n"
+		},
+        { -- Evil Barrier 11
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 11 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Simply cube them with your desired item to change the world view color\nColor Dyes can help you change the visuals of your items\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Color Dye Bottle and any Weapon\n{gold}Completion: \n{white}Obtain a Color Dye Bottle from Bloodwitch the Wild (Halls of the Dead Level 3)\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[11/75]\n\n"
+		},
+        { -- Evil Barrier 12
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 12 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Expect more custom areas to fill in act designs in the future\nAs you likely noticed, many multi-level areas have been shortened\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Horadric Staff\n{gold}Completion: \n{white}Obtain the Horadric Staff (Maggot Lair)\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[12/75]\n\n"
+		},
+        { -- Evil Barrier 13
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 13 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}(This riddile can be skipped for now, try again after clearing Hell)\nRiddles are optional, but solving them may lead to special items or abilities\nAnother clue tooltip, this one in the form of a harder riddle\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Scribblings\n{gold}Completion: \n{white}Obtain the Scribblings of a Forsaken Nephalem (Arcane Sanctuary)\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[13/75]\n\n"
+		},
+        { -- Evil Barrier 14
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 14 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}If you want to PvP for Ears or team up with a buddy or two, please do\nDon't forget that we do have MP access via TCP/IP in addition to SP\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with the Ear\n{gold}Completion: \n{white}Gamble an ear from Edyrem\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[14/75]\n\n"
+		},
+        { -- Evil Barrier 15
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 15 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Use it to customize your items or make low level items purposeful\nCrystals will add stats to your item, but also increase the level requirement\nItems can be enhanced using crystals, bought from Edyrem or found in endgame areas\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}+5 Physical Damage Reduction added to Belt\n{gold}Reward: \n{white}Read the tip below, then cube this charm with your belt and crystal\n{gold}Completion: \n{white}Enhance a belt with a 'Magic Damage Reduced' crystal from Edyrem\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[15/75]\n\n"
+		},
+        { -- Evil Barrier 16
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 16 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}(With every major update, the contents of the shop are rotated)\nThese can be limited-time perks, exclusive buffs, discounted offers and much more\nThis is our seasonal/rotational shop where special purchases or rewards can be found\nThe Rift Shop can be accessed in your cube panel with the rift portal button\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm alone\n{gold}Completion: \n{white}Learn about the Horadric Rift Shop\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[16/75]\n\n"
+		},
+        { -- Evil Barrier 17
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 17 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}(The runeword menu can also be accessed via your help menu hotkey)\nIf it doesn't appear in the menu, then it's not a recipe in this mod\nThis is where you will find all of our cube recipes, Crafting, Runewords and Forsaken Pacts\nThe Recipe Menu can be accessed in your cube panel using the recipe button\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your craft materials\n{gold}Completion: \n{white}Craft a Safety Ring\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[17/75]\n\n"
+		},
+        { -- Evil Barrier 18
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 18 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Expect some small surprises and more useful additions both now and in the future\nAs you might notice (or not), some quest rewards have been improved\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Gidbinn\n{gold}Completion: \n{white}Obtain the Gidbinn and talk to Ormus\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[18/75]\n\n"
+		},
+        { -- Evil Barrier 19
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 19 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Expect some small surprises and more useful additions both now and in the future\nAs you might notice (or not), some quest rewards have been improved\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Gidbinn\n{gold}Completion: \n{white}Obtain the Gidbinn and talk to Ormus\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[19/75]\n\n"
+		},
+        { -- Evil Barrier 20
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 20 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Weapons have a lower cost because any random weapon may be chosen, type agnostic\nSuch as any helm = any helm, not diadem = diadem\nBlood Contracts will produce a random item of the same type\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Poison Resist +25%% added to charm\n{gold}Reward: \n{white}Read the tip below, then cube this charm with your contract materials\n{gold}Completion: \n{white}Create a Weapon Blood Contract using 10 unique cores from your Storage Bag\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[20/75]\n\n"
+		},
+        { -- Evil Barrier 21
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 21 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Expect endgame items to cost millions of gold and new gambling items available\nYour max sell value is capped and you can store 10x the gold as normal\nGold Find and farming are more useful and expected in this mod\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Khalim's Flail\n{gold}Completion: \n{white}Obtain Khalim's Flail\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[21/75]\n\n"
+		},
+        { -- Evil Barrier 22
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 22 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Expect some small surprises and more useful additions both now and in the future\nAs you might notice (or not), some quest rewards have been improved\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Gidbinn\n{gold}Completion: \n{white}Obtain the Gidbinn and talk to Ormus\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[22/75]\n\n"
+		},
+        { -- Evil Barrier 22
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 22 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Expect some small surprises and more useful additions both now and in the future\nAs you might notice (or not), some quest rewards have been improved\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Gidbinn\n{gold}Completion: \n{white}Obtain the Gidbinn and talk to Ormus\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[22/75]\n\n"
+		},
+        { -- Evil Barrier 22
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 22 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}Expect some small surprises and more useful additions both now and in the future\nAs you might notice (or not), some quest rewards have been improved\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Read the tip below, then cube this charm with your Gidbinn\n{gold}Completion: \n{white}Obtain the Gidbinn and talk to Ormus\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[22/75]\n\n"
+		},
+        { -- Evil Barrier 25
+			code = "m32",
+            index = 670,
+            stat = {  index = 398, op = "==", value = 25 },
+			location = { "onplayer" },
+			suffix_desc = "{lilac}It can also be used to store and control your 'Soul Summons', which you will learn more about later\nThe Beacon of Hope allows you to teleport with any class\nCongratulations for clearing Normal Difficulty, enjoy your Beacon of Hope\n{turquoise}Tip(s)\n\n{gold}----------------------------------------\n{white}Choose Your Own!\n{gold}Reward: \n{white}Read the tip below, then cube this charm with your Gidbinn\n{gold}Completion: \n{white}Obtain the Gidbinn and talk to Ormus\n{gold}Task: \n{gold}----------------------------------------\n{tan}Current Quest {white}[22/75]\n\n"
+		},
         -- endregion
 
     }

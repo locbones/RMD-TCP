@@ -188,7 +188,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "[Blacksmith Only] Mythos Log (LB3) = Pandemonium Portal (and your log back)",
+                                        "text": "[Conqueror Only] Mythos Statue (LB3) = Pandemonium Portal (and your log back)",
                                         "style": "$RecipeSettingsTextPink"
                                     }
                                 }
@@ -200,7 +200,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "[Blacksmith Only] Trials Scroll = Portal to specified Trials Level (and your scroll back)",
+                                        "text": "[Conqueror Only] Trials Scroll = Portal to specified Trials Level (and your scroll back)",
                                         "style": "$RecipeSettingsTextPink"
                                     }
                                 }

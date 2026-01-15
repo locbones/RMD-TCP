@@ -35699,5 +35699,22 @@
 	    "ruRU": "Снизить цены поставщика",
 	    "zhCN": "将供应商价格降低",
 	    "zhTW": "將供應商價格降低"
+    },
+    {
+      "id": 63188,
+      "Key": "bp23",
+	    "deDE": "Winterkrieger",
+	    "enUS": "Winter Warrior",
+	    "esES": "guerrero de invierno",
+	    "esMX": "guerrero de invierno",
+	    "frFR": "Guerrier de l'hiver",
+	    "itIT": "Guerriero d'inverno",
+	    "jaJP": "冬の戦士",
+	    "koKR": "겨울 전사",
+	    "plPL": "Zimowy Wojownik",
+	    "ptBR": "Guerreiro de Inverno",
+	    "ruRU": "Зимний воин",
+	    "zhCN": "冬日战士",
+	    "zhTW": "冬日戰士"
     }
 ]

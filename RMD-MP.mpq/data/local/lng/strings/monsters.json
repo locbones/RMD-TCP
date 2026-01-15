@@ -10504,5 +10504,39 @@
 	"ruRU": "Тайник Нефалема",
 	"zhCN": "奈非天的宝箱",
 	"zhTW": "奈非天的寶箱"
+  },
+  {
+      "id": 55089,
+      "Key": "FrostGolem",
+	"deDE": "Frostgolem",
+	"enUS": "Frost Golem",
+      "esES": "Gólem de escarcha",
+	"esMX": "Gólem de escarcha",
+	"frFR": "Golem de givre",
+	"itIT": "Golem del gelo",
+	"jaJP": "フロストゴーレム",
+	"koKR": "프로스트 골렘",
+	"plPL": "Mroźny Golem",
+	"ptBR": "Golem de Gelo",
+	"ruRU": "Ледяной голем",
+	"zhCN": "冰霜傀儡",
+	"zhTW": "冰霜傀儡"
+  },
+  {
+      "id": 55090,
+      "Key": "FrostGolem",
+	"deDE": "Blitzgolem",
+	"enUS": "Lightning Golem",
+	"esES": "Gólem relámpago",
+	"esMX": "Gólem relámpago",
+	"frFR": "Golem de foudre",
+	"itIT": "Golem Fulminante",
+	"jaJP": "ライトニングゴーレム",
+	"koKR": "번개 골렘",
+	"plPL": "Błyskawiczny Golem",
+	"ptBR": "Golem Relâmpago",
+	"ruRU": "Молниеносный голем",
+	"zhCN": "闪电傀儡",
+	"zhTW": "閃電傀儡"
   }
 ]

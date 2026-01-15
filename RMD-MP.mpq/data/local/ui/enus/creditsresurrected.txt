@@ -1,30 +1,38 @@
 ﻿*ReMoDDeD 0.9.9.9
 Developed by Bonesy
-*Community Manager
+*Partner In Crime
 XanKreigur
-*Lead Moderator
+*Hopeless FireSorc
 elr
 *Bot Brainiac
 RedDeadBull
+*Manic Moderator
+Magickz
+*Pioneering Patreon
+Sukami
 
 *Chat Legends
 PlausibleSheep
 Cogy the Tongolem
 Vivasen
 Stacatomamba
+Wolfieeiflow
+ .
 
 *Patreon Hall of Fame:
-.treepop
 .yenlowang
 0Perfection
 Aaron Simon
 ac
+Adam Caridi
 Adam Long
 Adrien Parrot
+Aidan Nutting
 Alan Horton
 Alex Pool
 Alexander La Monaca
 Alexander Velez
+Alvaro Penaranda
 Andrew Scarborough
 ant milk
 Antidel
@@ -37,6 +45,7 @@ AuburnFury
 Audrius
 Austin W
 Awnetu
+axelpain
 ayellowcrayon
 B Gu
 Bear Bear
@@ -56,7 +65,6 @@ Caleb Campbell
 Caleb Hunter
 C-Bud
 celestialrayss
-ch1n0el
 Chancellor Crust
 Cheops
 Chris Heath
@@ -80,15 +88,18 @@ David Norris
 David Sharpe
 Devon Melvin
 disemboweledsilverback
+Dominic
 Dominic Parsons
 donny 
 Doug Snider
 Doughy Boxx
+Drakhan86
 Drew Richardson
 Dronkie
 Dubé-criss 
 dufusrjently
 elr
+elviwiel
 eric campbell
 Ethan McCloud
 evan cote
@@ -97,14 +108,15 @@ farpost
 Fenix
 Fimcro 07
 FMDavetheone
+furo
 G
 Gabriel
 Galygious
 GetPlayed TV
 Ghorgaz
 Giacomo Nicolini
+gninetv
 gnparty
-goatknight.
 Gorn Blackheart
 Grandes
 Greg
@@ -116,19 +128,19 @@ holk33
 Horizon
 Hrabe Von Labilon
 Hubas
-hxrxtxc
 HylianMurr
 Ian D
 J C
 jackbob.
 Jacob Hollandsworth
+James Coffman
 James Lassiter
 James McReynolds`
 james smith
 jami8142
 jawndablah
 Jay Nichols
-jayowenstein
+Jay Owen
 jeezlawayz
 Jeff Allen
 Jeremy
@@ -143,12 +155,13 @@ Josh Dial
 Josko Trendevski
 Journey FX
 jpsizzle
-jukes4jesustv
 Justin Nixon
 Kasmov 
+Kenneth Caggiano
 Kentonftw
 Kevin Love
 ki7227
+Kirk
 konigstiger28
 korgie
 Krakkenox
@@ -161,15 +174,18 @@ Latedozer
 LAVILLE Fabien
 Leland Guillemin
 LeOsTyLe
+Liam Trapp
 Lille G.
+liveonno3vil
 Loki Doozer
+lonestardc
 Lord Draic
 luukaner
 M H
+maelstrom__
 Manbutter
 manumanoliy0
 Marcus
-Mario Krese
 marnok.
 Martin Kostov
 mathomas vie
@@ -178,16 +194,17 @@ Matthew Trask
 Michael Preuss
 Michael Rill
 Michael Stenger
+Midnight Lexicon
 Minh Nguyen
+Momchil Stanchev
 Morten Hoffgård
 mr.maric
 mrmickmike
 MrSpock 
-mstanchev
 muyu_nyan
 Nasar
 Nathaniel W. Lee
-necroxus
+Necroxus
 Neil Gordon
 neonspark
 Nick Kresse
@@ -214,24 +231,28 @@ rob c
 Robert 
 Russell Cordon
 Ryan Turner
-Seth Thomas Ackerman
-shadowbroker.
+SETH THOMAS ACKERMAN
+shadowbroker
 Shawn Tucker
 sickatwork
 Simon Koßmann
 sinmaggot
+sir_lootalot
+skarz1337
 SoulForge
 Spencer Wesseldine
 squatchy9927
-stenmarch
+StenMarch
 Steven Mitchler
 Steven Thompson
 sukami
 Sven Rauber
 Swift721
+sztiffen
 t4n1s
 TCs 
 teelow87
+terrissnowpaw
 ThaDude
 The art is EZ
 The Dancing Mad
@@ -259,7 +280,9 @@ Virus
 visigoth9912
 vivasen
 Vojox Boggyman
+wagettn
 were5
+wikte_
 Will   Shepherd
 William Minor
 William Palmer
@@ -273,6 +296,7 @@ ZomboBrain
 Теодор
 김 도연
 시키 지
+정태현 정
 江
 
 *Special Thanks To:

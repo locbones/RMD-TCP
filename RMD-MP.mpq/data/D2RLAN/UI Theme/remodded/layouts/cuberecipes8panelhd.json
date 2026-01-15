@@ -140,7 +140,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "LB Quest 1: Mythos Log (LB1) + 10 Rainbow Facets + Bag w/ 1k Gems = Mythos Log (LB1)",
+                                        "text": "LB Quest 1: Mythos Statue + 10 Rainbow Facets + Bag w/ 1k Gems = Mythos Statue (LB1)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -152,7 +152,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC3T",
                                     "fields": {
-                                        "text": "LB Quest 2: 300k Kills + Ded'domer's Jawbone + Mythos Log = Mythos Log (LB2)",
+                                        "text": "LB Quest 2: Mythos Statue (LB1) + 300k Kills + Ded'domer's Jawbone = Mythos Statue (LB2)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }
@@ -165,7 +165,7 @@
                                 {
                                     "type": "TextBoxWidget", "name": "GC2T",
                                     "fields": {
-                                        "text": "LB Quest 3: Mythos Log (LB2) + Edyrem's Encyclopedia + Triumph Scroll (Trials 26 Reward) = Mythos Log (LB3)",
+                                        "text": "LB Quest 3: Mythos Statue (LB2) + Edyrem's Encyclopedia + Triumph Scroll (Trials End Reward) = Mythos Statue (LB3)",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

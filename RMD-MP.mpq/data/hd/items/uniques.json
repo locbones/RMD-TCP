@@ -4699,5 +4699,26 @@
       "uber": "..\\custom\\EdyremSoul",
       "ultra": "..\\custom\\EdyremSoul"
     }
+  },
+  {
+    "barrier_1": {
+      "normal": "..\\custom\\BarrierCharm1",
+      "uber": "..\\custom\\BarrierCharm1",
+      "ultra": "..\\custom\\BarrierCharm1"
+    }
+  },
+  {
+    "barrier_2": {
+      "normal": "..\\custom\\BarrierCharm2",
+      "uber": "..\\custom\\BarrierCharm2",
+      "ultra": "..\\custom\\BarrierCharm2"
+    }
+  },
+  {
+    "barrier_3": {
+      "normal": "..\\custom\\BarrierCharm3",
+      "uber": "..\\custom\\BarrierCharm3",
+      "ultra": "..\\custom\\BarrierCharm3"
+    }
   }
 ]

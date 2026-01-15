@@ -2393,7 +2393,7 @@
                                 "rect": { "x": -40, "y": 4320 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword175@nl@white@rlvl 71@nl@blue +2 @askills@nl +40-50% @run@nl +24% @hitrecovery@nl@allenemyimmunity 30 @to 40%@nl +30-50% @sumdmg@nl +30-50% @sumcr@nl +30-50% @sumhp@nl +40% @sumspeed@nl @light @res +20%@nl @buffdur 20%@nl @ModValkMaster@nl@nl@runelow  512@runemid 0@runehigh 0@runeultra 2@nl@tan(LB Base Only)"
+                                "tooltipString": "@tan@Runeword175@nl@white@rlvl 71@nl@blue +2 @askills@nl +40-50% @run@nl +24% @hitrecovery@nl@allenemyimmunity 30 @to 40%@nl +30-50% @sumdmg@nl +30-50% @sumcr@nl +30-50% @sumhp@nl +40% @sumspeed@nl @light @res +20%@nl @buffdur 20%@nl @ModValkMaster@nl@nl@runelow  512@runemid 0@runehigh 0@runeultra 4@nl@tan(LB Base Only)"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -4302,7 +4302,7 @@
                                 "rect": { "x": -40, "y": 7840 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstrike@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstruck@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -5672,7 +5672,7 @@
                                 "rect": { "x": -40, "y": 10480 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstrike@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstruck@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -8248,7 +8248,7 @@
                                 "rect": { "x": -40, "y": 15280 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstrike@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstruck@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

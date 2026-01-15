@@ -49,6 +49,7 @@ Trial Scroll Group D			1						Blank	8	Trial Scroll D	1	Trial Scroll D2	1								
 RMD Loot A			1						Rgx	50	y33	100	TreasureChestsGroup	50	z23	1																0
 Breakfast		1	1	1024					Blank	19	Healthy Breakfast	1																				0
 Shards			1						Blank	1	S01	1																				0
+Barrier-T1			-2						m32	1	skc	1																				0
 Radament Flavor			1					21	Rathma's Reaper	1	Rathma's Shelter	1	Rathma's Vestage	1	Rathma's Fortress	1																0
 Griswold (NM) Flavor			1					21	Griswold's Edge	1																						0
 Griswold (H) Flavor			1					21	Griswold's Valor	1	Griswold's Honor	1	Griswolds's Redemption	1	Griswold's Heart	1																0
@@ -71,7 +72,7 @@ Treehead (N) Flavor			1					1	Felloak	1																						0
 Treehead (NM) Flavor			1					1	Bloodtree Stump	1																						0
 Treehead (H) Flavor			1					1	Nord's Tenderizer	1																						0
 Thresh Socket Flavor			1					1	The Reaper's Toll	1																						0
-Corpsefire Flavor			1					1	Arctic Horn	1	Arctic Furs	1	Arctic Binding	1	Arctic Mitts	1																0
+Coldcrow Flavor			1					1	Arctic Horn	1	Arctic Furs	1	Arctic Binding	1	Arctic Mitts	1																0
 Hephasto (N) Flavor			1					1	Bonesnap	1																						0
 Hephasto (NM) Flavor			1					1	The Gavel of Pain	1	Earthshaker	1																				0
 Hephasto (H) Flavor			1					1	The Cranium Basher	1																						0
@@ -346,6 +347,7 @@ Act 4 H2H B	7	29	1					100	gld	21	Act 4 Equip B	16	Act 4 Junk	21	Act 4 Good	2			
 Act 5 H2H A	7	32	1					100	gld	21	Act 5 Equip A	16	Act 5 Junk	21	Act 5 Good	2																0
 Act 5 H2H B	7	34	1					100	gld	21	Act 5 Equip B	16	Act 5 Junk	21	Act 5 Good	2																0
 Act 5 H2H C	7	36	1					100	gld	21	Act 5 Equip C	16	Act 5 Junk	21	Act 5 Good	2																0
+Act X H2H	7	36	1					100	gld	21	Act 5 Equip C	16	Act 5 Junk	21	Act 5 Good	2																0
 Act 1 (N) H2H A	7	38	1					100	gld	21	Act 1 (N) Equip A	16	Act 1 (N) Junk	21	Act 1 (N) Good	2																0
 Act 1 (N) H2H B	7	40	1					100	gld	21	Act 1 (N) Equip B	16	Act 1 (N) Junk	21	Act 1 (N) Good	2																0
 Act 1 (N) H2H C	7	41	1					100	gld	21	Act 1 (N) Equip B	16	Act 1 (N) Junk	21	Act 1 (N) Good	2																0
@@ -360,6 +362,7 @@ Act 4 (N) H2H B	7	54	1					100	gld	21	Act 4 (N) Equip B	16	Act 4 (N) Junk	21	Act
 Act 5 (N) H2H A	7	57	1					100	gld	21	Act 5 (N) Equip A	16	Act 5 (N) Junk	21	Act 5 (N) Good	2																0
 Act 5 (N) H2H B	7	60	1					100	gld	21	Act 5 (N) Equip B	16	Act 5 (N) Junk	21	Act 5 (N) Good	2																0
 Act 5 (N) H2H C	7	62	1					100	gld	21	Act 5 (N) Equip C	16	Act 5 (N) Junk	21	Act 5 (N) Good	2																0
+Act X (N) H2H	7	62	1					100	gld	21	Act 5 (N) Equip C	16	Act 5 (N) Junk	21	Act 5 (N) Good	2																0
 Act 1 (H) H2H A	7	63	1					100	gld	21	Act 1 (H) Equip A	16	Act 1 (H) Junk	21	Act 1 (H) Good	2																0
 Act 1 (H) H2H B	7	66	1					100	gld	21	Act 1 (H) Equip B	16	Act 1 (H) Junk	21	Act 1 (H) Good	2																0
 Act 1 (H) H2H C	7	68	1					100	gld	21	Act 1 (H) Equip B	16	Act 1 (H) Junk	21	Act 1 (H) Good	2																0
@@ -390,6 +393,7 @@ Act 4 Cast B	8	29	1					100	gld	18	Act 4 Equip B	15	Act 4 Junk	18	Act 4 Good	2		
 Act 5 Cast A	8	32	1					100	gld	18	Act 5 Equip A	15	Act 5 Junk	18	Act 5 Good	2																0
 Act 5 Cast B	8	34	1					100	gld	18	Act 5 Equip B	15	Act 5 Junk	18	Act 5 Good	2																0
 Act 5 Cast C	8	36	1					100	gld	18	Act 5 Equip C	15	Act 5 Junk	18	Act 5 Good	2																0
+Act X Cast	8	36	1					100	gld	18	Act 5 Equip C	15	Act 5 Junk	18	Act 5 Good	2																0
 Act 1 (N) Cast A	8	38	1					100	gld	18	Act 1 (N) Equip A	15	Act 1 (N) Junk	18	Act 1 (N) Good	2																0
 Act 1 (N) Cast B	8	40	1					100	gld	18	Act 1 (N) Equip B	15	Act 1 (N) Junk	18	Act 1 (N) Good	2																0
 Act 1 (N) Cast C	8	41	1					100	gld	18	Act 1 (N) Equip B	15	Act 1 (N) Junk	18	Act 1 (N) Good	2																0
@@ -404,6 +408,7 @@ Act 4 (N) Cast B	8	54	1					100	gld	18	Act 4 (N) Equip B	15	Act 4 (N) Junk	18	Ac
 Act 5 (N) Cast A	8	57	1					100	gld	18	Act 5 (N) Equip A	15	Act 5 (N) Junk	18	Act 5 (N) Good	2																0
 Act 5 (N) Cast B	8	60	1					100	gld	18	Act 5 (N) Equip B	15	Act 5 (N) Junk	18	Act 5 (N) Good	2																0
 Act 5 (N) Cast C	8	62	1					100	gld	18	Act 5 (N) Equip C	15	Act 5 (N) Junk	18	Act 5 (N) Good	2																0
+Act X (N) Cast	8	62	1					100	gld	18	Act 5 (N) Equip C	15	Act 5 (N) Junk	18	Act 5 (N) Good	2																0
 Act 1 (H) Cast A	8	63	1					100	gld	18	Act 1 (H) Equip A	15	Act 1 (H) Junk	18	Act 1 (H) Good	2																0
 Act 1 (H) Cast B	8	66	1					100	gld	18	Act 1 (H) Equip B	15	Act 1 (H) Junk	18	Act 1 (H) Good	2																0
 Act 1 (H) Cast C	8	68	1					100	gld	18	Act 1 (H) Equip B	15	Act 1 (H) Junk	18	Act 1 (H) Good	2																0
@@ -434,6 +439,7 @@ Act 4 Miss B	9	29	1					100	gld	18	Act 4 Equip B	13	Act 4 Junk	18	Act 4 Good	2	A
 Act 5 Miss A	9	32	1					100	gld	18	Act 5 Equip A	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow A	6	Ammo	3												0
 Act 5 Miss B	9	34	1					100	gld	18	Act 5 Equip B	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow B	6	Ammo	3												0
 Act 5 Miss C	9	36	1					100	gld	18	Act 5 Equip C	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow B	6	Ammo	3												0
+Act X Miss	9	36	1					100	gld	18	Act 5 Equip C	13	Act 5 Junk	18	Act 5 Good	2	Act 5 Bow B	6	Ammo	3												0
 Act 1 (N) Miss A	9	38	1					100	gld	18	Act 1 (N) Equip A	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow A	6	Ammo	3												0
 Act 1 (N) Miss B	9	40	1					100	gld	18	Act 1 (N) Equip B	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow B	6	Ammo	3												0
 Act 1 (N) Miss C	9	41	1					100	gld	18	Act 1 (N) Equip B	13	Act 1 (N) Junk	18	Act 1 (N) Good	2	Act 1 (N) Bow B	6	Ammo	3												0
@@ -448,6 +454,7 @@ Act 4 (N) Miss B	9	54	1					100	gld	18	Act 4 (N) Equip B	13	Act 4 (N) Junk	18	Ac
 Act 5 (N) Miss A	9	57	1					100	gld	18	Act 5 (N) Equip A	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow A	6	Ammo	3												0
 Act 5 (N) Miss B	9	60	1					100	gld	18	Act 5 (N) Equip B	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Ammo	3												0
 Act 5 (N) Miss C	9	62	1					100	gld	18	Act 5 (N) Equip C	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Ammo	3												0
+Act X (N) Miss	9	62	1					100	gld	18	Act 5 (N) Equip C	13	Act 5 (N) Junk	18	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Ammo	3												0
 Act 1 (H) Miss A	9	63	1					100	gld	18	Act 1 (H) Equip A	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow A	6	Ammo	3												0
 Act 1 (H) Miss B	9	66	1					100	gld	18	Act 1 (H) Equip B	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow B	6	Ammo	3												0
 Act 1 (H) Miss C	9	68	1					100	gld	18	Act 1 (H) Equip B	13	Act 1 (H) Junk	18	Act 1 (H) Good	2	Act 1 (H) Bow B	6	Ammo	3												0
@@ -478,6 +485,7 @@ Act 4 Wraith B	10	29	1					75	Act 4 Good	4																						0
 Act 5 Wraith A	10	32	1					75	Act 5 Good	4																						0
 Act 5 Wraith B	10	34	1					75	Act 5 Good	4																						0
 Act 5 Wraith C	10	36	1					75	Act 5 Good	4																						0
+Act X Wraith	10	36	1					75	Act 5 Good	4																						0
 Act 1 (N) Wraith A	10	38	1					75	Act 1 (N) Good	4																						0
 Act 1 (N) Wraith B	10	40	1					75	Act 1 (N) Good	4																						0
 Act 1 (N) Wraith C	10	41	1					75	Act 1 (N) Good	4																						0
@@ -492,6 +500,7 @@ Act 4 (N) Wraith B	10	54	1					75	Act 4 (N) Good	4																						0
 Act 5 (N) Wraith A	10	57	1					75	Act 5 (N) Good	4																						0
 Act 5 (N) Wraith B	10	60	1					75	Act 5 (N) Good	4																						0
 Act 5 (N) Wraith C	10	62	1					75	Act 5 (N) Good	4																						0
+Act X (N) Wraith	10	62	1					75	Act 5 (N) Good	4																						0
 Act 1 (H) Wraith A	10	63	1					75	Act 1 (H) Good	4																						0
 Act 1 (H) Wraith B	10	66	1					75	Act 1 (H) Good	4																						0
 Act 1 (H) Wraith C	10	68	1					75	Act 1 (H) Good	4																						0
@@ -605,6 +614,7 @@ Act 4 Champ B	13	29	-2					0	Act 4 Citem B	1	Act 4 Cpot B	1																				0
 Act 5 Champ A	13	32	-2					0	Act 5 Citem A	1	Act 5 Cpot A	1																				0
 Act 5 Champ B	13	34	-2					0	Act 5 Citem B	1	Act 5 Cpot B	1																				0
 Act 5 Champ C	13	36	-2					0	Act 5 Citem C	1	Act 5 Cpot C	1																				0
+Act X Champ	13	36	-2					0	Act 5 Citem C	1	Act 5 Cpot C	1																				0
 Act 1 (N) Champ A	13	38	-2					0	Act 1 (N) Citem A	1	Act 1 (N) Cpot A	1																				0
 Act 1 (N) Champ B	13	40	-2					0	Act 1 (N) Citem B	1	Act 1 (N) Cpot B	1																				0
 Act 1 (N) Champ C	13	41	-2					0	Act 1 (N) Citem C	1	Act 1 (N) Cpot C	1																				0
@@ -620,6 +630,7 @@ Act 4 (N) Champ C	13	56	-2					0	Act 4 (N) Citem B	1	Act 4 (N) Cpot B	1									
 Act 5 (N) Champ A	13	57	-2					0	Act 5 (N) Citem A	1	Act 5 (N) Cpot A	1																				0
 Act 5 (N) Champ B	13	60	-2					0	Act 5 (N) Citem B	1	Act 5 (N) Cpot B	1																				0
 Act 5 (N) Champ C	13	62	-2					0	Act 5 (N) Citem C	1	Act 5 (N) Cpot C	1																				0
+Act X (N) Champ	13	62	-2					0	Act 5 (N) Citem C	1	Act 5 (N) Cpot C	1																				0
 Act 1 (H) Champ A	13	63	-2					0	Act 1 (H) Citem A	1	Act 1 (H) Cpot A	1																				0
 Act 1 (H) Champ B	13	66	-2					0	Act 1 (H) Citem B	1	Act 1 (H) Cpot B	1																				0
 Act 1 (H) Champ C	13	68	-2					0	Act 1 (H) Citem C	1	Act 1 (H) Cpot C	1																				0
@@ -692,6 +703,7 @@ Act 4 Unique B	15	29	-3					0	Act 4 Uitem B	1	Act 4 Cpot B	2																				
 Act 5 Unique A	15	32	-3					0	Act 5 Uitem A	1	Act 5 Cpot A	2																				0
 Act 5 Unique B	15	34	-3					0	Act 5 Uitem B	1	Act 5 Cpot B	2																				0
 Act 5 Unique C	15	36	-3					0	Act 5 Uitem C	1	Act 5 Cpot C	2																				0
+Act X Unique	15	36	-3					0	Act 5 Uitem C	1	Act 5 Cpot C	2																				0
 Act 1 (N) Unique A	15	38	-3					0	Act 1 (N) Uitem A	1	Act 1 (N) Cpot A	2																				0
 Act 1 (N) Unique B	15	40	-3					0	Act 1 (N) Uitem B	1	Act 1 (N) Cpot B	2																				0
 Act 1 (N) Unique C	15	41	-3					0	Act 1 (N) Uitem C	1	Act 1 (N) Cpot C	2																				0
@@ -706,6 +718,7 @@ Act 4 (N) Unique B	15	54	-3					0	Act 4 (N) Uitem B	1	Act 4 (N) Cpot B	2								
 Act 5 (N) Unique A	15	57	-3					0	Act 5 (N) Uitem A	1	Act 5 (N) Cpot A	2																				0
 Act 5 (N) Unique B	15	60	-3					0	Act 5 (N) Uitem B	1	Act 5 (N) Cpot B	2																				0
 Act 5 (N) Unique C	15	62	-3					0	Act 5 (N) Uitem C	1	Act 5 (N) Cpot C	2																				0
+Act X (N) Unique	15	62	-3					0	Act 5 (N) Uitem C	1	Act 5 (N) Cpot C	2																				0
 Act 1 (H) Unique A	15	63	-3					0	Act 1 (H) Uitem A	1	Act 1 (H) Cpot A	2																				0
 Act 1 (H) Unique B	15	66	-3					0	Act 1 (H) Uitem B	1	Act 1 (H) Cpot B	2																				0
 Act 1 (H) Unique C	15	68	-3					0	Act 1 (H) Uitem C	1	Act 1 (H) Cpot C	2																				0
@@ -788,7 +801,7 @@ Cow (H)	35	85	1					1000	gld	250	Act 5 (H) Equip C	250	Act 5 Good	55												
 Cow (H)2	35	103	1					1000	gld	250	Act 5 (X) Equip	250	Act 5 Good	55																		0
 Trapped Soul			1					100	gld	19	Act 4 Equip A	8	Act 4 Junk	33																		0
 Trapped Soul (N)			1					100	gld	19	Act 4 (N) Equip A	8	Act 4 (N) Junk	33																		0
-Trapped Soul (H)			1					100	gld	19	Act 4 (H) Equip A	8	Act 4 (H) Junk	33																		0
+Trapped Soul (H)			1					100	gld	190	Act 4 Equip A	80	Act 4 Junk	330	m29	5																0
 Hephasto			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 Equip A	19	Act 5 Junk	5	Act 5 Good	3	Hephasto (N) Flavor	1														0
 Hephasto (N)			5	800	800	900	1024	19	"gld,mul=1536"	14	Act 5 (N) Equip A	19	Act 5 (N) Junk	5	Act 5 (N) Good	3	Hephasto (NM) Flavor	1														0
 Hephasto (H)			5	800	800	900	1024	19	"gld,mul=2048"	14	Act 5 (H) Equip A	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	Goodies - Hephasto	2														0
@@ -949,7 +962,7 @@ Treehead (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 
 Thresh Socket			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 Equip C	19	Act 5 Junk	5	Act 5 Good	3																0
 Thresh Socket (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (N) Equip C	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
 Thresh Socket (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	Goodies - Thresh Socket	2														0
-Corpsefire			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3	Corpsefire Flavor	1														0
+Corpsefire			-1					19	Barrier-T1	1																						0
 Corpsefire (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
 Corpsefire (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3	Goodies - Corpsefire	2														0
 Bishibosh			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3	Bishibosh (N) Flavor	1														0
@@ -971,8 +984,8 @@ Enderaku	25	85	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Torm
 Enderaku2	25	103	5	993	725	1024	600	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	TormentBossesA	4																		0
 ForsakenIzual	26	85	6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
 ForsakenIzual2	26	103	6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	TormentBossesB	4	Goodies - Forsaken Izual	2																0
-Gurka	27	85	6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
-Gurka2	27	103	6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group A	4	TormentBossesB	4	Goodies - Gurka	2														0
+Gurka	27	85	6	993	725	1024	600	190	Act 5 (H) Equip C	300	Act 5 (H) Good	100	Trial Scroll Group A	40	TormentBossesB	40	Goodies - Gurka	20	m29	2												0
+Gurka2	27	103	6	993	725	1024	600	190	Act 5 (H) Equip C	300	Act 5 (H) Good	100	Trial Scroll Group A	40	TormentBossesB	40	Goodies - Gurka	20	m29	2												0
 Deddomer	28	85	6	993	725	1024	400	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
 Deddomer2	28	103	6	993	725	1024	400	19	Act 5 (H) Equip C	30	Act 5 (X) Equip	10	Trial Scroll Group B	4	TormentBossesB	4	Goodies - Deddomer	2														0
 Majiko	29	85	5	993	725	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (H) Good	10	Trial Scroll Group A	4	TormentBossesA	4																0
@@ -990,7 +1003,7 @@ Kelthir2	34	103	5	800	500	1024	1024	19	Act 5 (H) Equip C	40	Act 5 (X) Equip	10	T
 Bonebreak			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3																0
 Bonebreak (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
 Bonebreak (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
-Coldcrow			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3																0
+Coldcrow			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3	Coldcrow Flavor	1														0
 Coldcrow (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
 Coldcrow (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
 Pitspawn			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3																0

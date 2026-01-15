@@ -309,23 +309,10 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 230, "y": 2030, "width": 400 },
-                                "text":"(Beta - 0.9.9.9GD HFF)",
+                                "rect": { "x": 235, "y": 2045, "width": 400 },
+                                "text":"(Beta - 0.9.9.9GE)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
-                                    "pointSize": "$XMediumPanelFontSize",
-                                    "spacing": "$ReducedSpacing",
-                                    "dropShadow": "$DefaultDropShadow"
-                                }
-                            }
-                        },
-                        {
-                            "type": "TextBoxWidget", "name": "ModAuthors",
-                            "fields": {
-                                "rect": { "x": 255, "y": 2070, "width": 400 },
-                                "text":"(Xmas Edition)",
-                                "style": {
-                                    "fontColor": "$FontColorGreen",
                                     "pointSize": "$XMediumPanelFontSize",
                                     "spacing": "$ReducedSpacing",
                                     "dropShadow": "$DefaultDropShadow"
