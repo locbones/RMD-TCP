@@ -13,7 +13,7 @@
             */
 
             "start_time_utc": "2026-01-17 08:00:00",
-            "end_time_utc": "2026-01-18 08:00:00",
+            "end_time_utc": "2026-01-18 08:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 1440,
             "terror_break_min": 0,
             "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
@@ -23,43 +23,26 @@
             "enabled_hell": true,
             "default_normal": {
                 "bound_incl_min": 3, /* Minimum level of a terrorized monster. MAX(bound_incl_min, original_monster_level) */
-                "bound_incl_max": 60, /* Maximum level of a terrorized monster. MAX(bound_incl_max, original_monster_level) */
-                "boost_level": 0, /* player_level + boost_level = terrorized_monster_level */
+                "bound_incl_max": 45, /* Maximum level of a terrorized monster. MAX(bound_incl_max, original_monster_level) */
+                "boost_level": 2, /* player_level + boost_level = terrorized_monster_level */
                 "difficulty_scale": 8, /* Fake the amount of players in the game. AKA /players X */
-                "boost_experience_percent": 0 /* Bonus experience percentage applied at to the monster's base experience in monstats.txt */
+                "boost_experience_percent": 25 /* Bonus experience percentage applied at to the monster's base experience in monstats.txt */
             },
             "default_nightmare": {
                 "bound_incl_min": 40,
-                "bound_incl_max": 90,
-                "boost_level": 0,
+                "bound_incl_max": 71,
+                "boost_level": 2,
                 "difficulty_scale": 8,
-                "boost_experience_percent": 0
+                "boost_experience_percent": 25
             },
             "default_hell": {
                 "bound_incl_min": 70,
-                "bound_incl_max": 120,
-                "boost_level": 0,
+                "bound_incl_max": 110,
+                "boost_level": 2,
                 "difficulty_scale": 8,
-                "boost_experience_percent": 0
+                "boost_experience_percent": 25
             },
             "warnings": [
-                {
-                    "announce_time_min": 10,
-                    "tier": 1
-                },
-                {
-                    "announce_time_min": 5,
-                    "tier": 2
-                },
-                {
-                    "announce_time_min": 1,
-                    "tier": 3
-                },
-                {
-                    /* DO NOT REMOVE! ALWAYS NEED A TIER 0 AT MINUTE 0. DO NOT REMOVE! */
-                    "announce_time_min": 0,
-                    "tier": 0
-                }
             ],
             "zones": [
                 {
@@ -179,7 +162,13 @@
                         },
                         {
                             "level_id": 39
-                        },
+                        }
+                    ]
+                },
+                {
+                    /* Act 2 */
+                    "id": 2,
+                    "levels": [
                         {
                             "level_id": 41
                         },
@@ -281,7 +270,13 @@
                         },
                         {
                             "level_id": 74
-                        },
+                        }
+                    ]
+                },
+                {
+                    /* Act 3 */
+                    "id": 3,
+                    "levels": [
                         {
                             "level_id": 76
                         },
@@ -362,7 +357,13 @@
                         },
                         {
                             "level_id": 102
-                        },
+                        }
+                    ]
+                },
+                {
+                    /* Act 4 */
+                    "id": 4,
+                    "levels": [
                         {
                             "level_id": 104
                         },
@@ -377,7 +378,13 @@
                         },
                         {
                             "level_id": 108
-                        },
+                        }
+                    ]
+                },
+                {
+                    /* Act 5 */
+                    "id": 5,
+                    "levels": [
                         {
                             "level_id": 110
                         },
@@ -446,7 +453,220 @@
                         },
                         {
                             "level_id": 132
+                        }
+                    ]
+                },
+                {
+                    /* Underground Areas */
+                    "id": 6,
+                    "levels": [
+                        {
+                            "level_id": 8
                         },
+                        {
+                            "level_id": 9
+                        },
+                        {
+                            "level_id": 10
+                        },
+                        {
+                            "level_id": 11
+                        },
+                        {
+                            "level_id": 12
+                        },
+                        {
+                            "level_id": 13
+                        },
+                        {
+                            "level_id": 14
+                        },
+                        {
+                            "level_id": 15
+                        },
+                        {
+                            "level_id": 16
+                        },
+                        {
+                            "level_id": 18
+                        },
+                        {
+                            "level_id": 19
+                        },
+                        {
+                            "level_id": 25
+                        },
+                        {
+                            "level_id": 28
+                        },
+                        {
+                            "level_id": 31
+                        },
+                        {
+                            "level_id": 35
+                        },
+                        {
+                            "level_id": 37
+                        },
+                        {
+                            "level_id": 47
+                        },
+                        {
+                            "level_id": 48
+                        },
+                        {
+                            "level_id": 49
+                        },
+                        {
+                            "level_id": 54
+                        },
+                        {
+                            "level_id": 55
+                        },
+                        {
+                            "level_id": 56
+                        },
+                        {
+                            "level_id": 57
+                        },
+                        {
+                            "level_id": 58
+                        },
+                        {
+                            "level_id": 59
+                        },
+                        {
+                            "level_id": 60
+                        },
+                        {
+                            "level_id": 61
+                        },
+                        {
+                            "level_id": 62
+                        },
+                        {
+                            "level_id": 63
+                        },
+                        {
+                            "level_id": 64
+                        },
+                        {
+                            "level_id": 65
+                        },
+                        {
+                            "level_id": 66
+                        },
+                        {
+                            "level_id": 67
+                        },
+                        {
+                            "level_id": 68
+                        },
+                        {
+                            "level_id": 69
+                        },
+                        {
+                            "level_id": 70
+                        },
+                        {
+                            "level_id": 71
+                        },
+                        {
+                            "level_id": 72
+                        },
+                        {
+                            "level_id": 73
+                        },
+                        {
+                            "level_id": 84
+                        },
+                        {
+                            "level_id": 85
+                        },
+                        {
+                            "level_id": 86
+                        },
+                        {
+                            "level_id": 87
+                        },
+                        {
+                            "level_id": 88
+                        },
+                        {
+                            "level_id": 89
+                        },
+                        {
+                            "level_id": 90
+                        },
+                        {
+                            "level_id": 91
+                        },
+                        {
+                            "level_id": 92
+                        },
+                        {
+                            "level_id": 93
+                        },
+                        {
+                            "level_id": 94
+                        },
+                        {
+                            "level_id": 95
+                        },
+                        {
+                            "level_id": 96
+                        },
+                        {
+                            "level_id": 97
+                        },
+                        {
+                            "level_id": 98
+                        },
+                        {
+                            "level_id": 99
+                        },
+                        {
+                            "level_id": 100
+                        },
+                        {
+                            "level_id": 101
+                        },
+                        {
+                            "level_id": 102
+                        },
+                        {
+                            "level_id": 113
+                        },
+                        {
+                            "level_id": 114
+                        },
+                        {
+                            "level_id": 115
+                        },
+                        {
+                            "level_id": 116
+                        },
+                        {
+                            "level_id": 118
+                        },
+                        {
+                            "level_id": 119
+                        },
+                        {
+                            "level_id": 122
+                        },
+                        {
+                            "level_id": 123
+                        },
+                        {
+                            "level_id": 124
+                        }
+                    ]
+                },
+                {
+                    /* Trials 1-10 */
+                    "id": 7,
+                    "levels": [
                         {
                             /* Act 5 - Torment Trials 1 */
                             "level_id": 137,
@@ -586,7 +806,13 @@
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
-                        },
+                        }
+                    ]
+                },
+                {
+                    /* Trials 6-10 */
+                    "id": 8,
+                    "levels": [
                         {
                             /* Act 5 - Torment Trials 1 */
                             "level_id": 147,
@@ -726,7 +952,13 @@
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
-                        },
+                        }
+                    ]
+                },
+                {
+                    /* Trials 11-15 */
+                    "id": 9,
+                    "levels": [
                         {
                             /* Act 5 - Torment Trials 1 */
                             "level_id": 157,
@@ -866,7 +1098,13 @@
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
-                        },
+                        }
+                    ]
+                },
+                {
+                    /* Trials 16-20 */
+                    "id": 10,
+                    "levels": [
                         {
                             /* Act 5 - Torment Trials 1 */
                             "level_id": 167,
@@ -1006,7 +1244,13 @@
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
-                        },
+                        }
+                    ]
+                },
+                {
+                    /* Trials 21-25 */
+                    "id": 11,
+                    "levels": [
                         {
                             /* Act 5 - Torment Trials 1 */
                             "level_id": 177,
@@ -1146,6 +1390,36 @@
                                 "hell": {
                                     "bound_incl_max": 120
                                 }
+                        }
+                    ]
+                },
+                {
+                    /* Primal Showdown */
+                    "id": 12,
+                    "levels": [
+                        {
+                            /* Act 1 - Catacombs Level 4 */
+                            "level_id": 37
+                        },
+                        {
+                            /* Act 2 - Duriel's Lair */
+                            "level_id": 73
+                        },
+                        {
+                            /* Act 3 - Durance of Hate Level 3 */
+                            "level_id": 102
+                        },
+                        {
+                            /* Act 4 - Chaos Sanctuary */
+                            "level_id": 108
+                        },
+                        {
+                            /* Act 5 - Throne of Destruction */
+                            "level_id": 131
+                        },
+                        {
+                            /* Act 5 - Worldstone Keep */
+                            "level_id": 132
                         }
                     ]
                 }
@@ -1393,21 +1667,88 @@
     ],
     "level_groups": [
         {
-            "name": "Everywhere!",
-            "levels": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 104, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 137, 138, 139, 140, 141, 142, 143, 144, 145 ,146, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 147, 148, 149, 150, 151, 152, 153, 154, 155 ,156, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 157, 158, 159, 160, 161, 162, 163, 164, 165 ,166, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 167, 168, 169, 170, 171, 172, 173, 174, 175 ,176, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 177, 178, 179, 180, 181, 182, 183, 184, 185 ,186, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236 ]
+            "name": "All of Act 1",
+            "levels": [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ]
+        },
+        {
+            "name": "All of Act 2",
+            "levels": [ 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74 ]
+        },
+        {
+            "name": "All of Act 3",
+            "levels": [ 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102 ]
+        },
+        {
+            "name": "All of Act 4",
+            "levels": [ 104, 105, 106, 107, 108 ]
+        },
+        {
+            "name": "All of Act 5",
+            "levels": [ 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132 ]
+        },
+        {
+            "name": "All Underground Areas",
+            "levels": [ 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 25, 28, 31, 35, 37, 47, 48, 49, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 113, 114, 115, 116, 118, 119, 122, 123, 124 ]
+        },
+        {
+            "name": "Trials and Icy Hell (1-10)",
+            "levels": [ 137, 138, 139, 140, 141, 142, 143, 144, 145 ,146, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196 ]
+        },
+        {
+            "name": "Trials and Icy Hell (11-20)",
+            "levels": [ 147, 148, 149, 150, 151, 152, 153, 154, 155 ,156, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206 ]
+        },
+        {
+            "name": "Trials and Icy Hell (21-30)",
+            "levels": [ 157, 158, 159, 160, 161, 162, 163, 164, 165 ,166, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216 ]
+        },
+        {
+            "name": "Trials and Icy Hell (31-40)",
+            "levels": [ 167, 168, 169, 170, 171, 172, 173, 174, 175 ,176, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226 ] 
+        },
+        {
+            "name": "Trials and Icy Hell (41-50)",
+            "levels": [ 177, 178, 179, 180, 181, 182, 183, 184, 185 ,186, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236 ]
+        },
+        {
+            "name": "All PrimeEvil Levels",
+            "levels": [ 37, 73, 102, 108, 131, 132 ]
         }
     ],
     "stat_adjustments": [
         {
             "random": true,
-            "minmaxStats": [ 6, 6 ],
+            "minmaxStats": [ 1, 5 ],
             "stats_values": [
-                { "stat": 36, "value": [-75, -75] },
-                { "stat": 37, "value": [-75, -75] },
-                { "stat": 39, "value": [-75, -75] },
-                { "stat": 41, "value": [-75, -75] },
-                { "stat": 43, "value": [-75, -75] },
-                { "stat": 45, "value": [-75, -75] }
+                { "stat": 25, "value": [-10, 30] },
+                { "stat": 34, "value": [10, 50] },
+                { "stat": 35, "value": [10, 50] },
+                { "stat": 36, "value": [-10, 30] },
+                { "stat": 37, "value": [-10, 30] },
+                { "stat": 39, "value": [-10, 30] },
+                { "stat": 41, "value": [-10, 30] },
+                { "stat": 43, "value": [-10, 30] },
+                { "stat": 45, "value": [-10, 30] },
+                { "stat": 67, "value": [-10, 30] },
+                { "stat": 68, "value": [-10, 30] },
+                { "stat": 74, "value": [-10, 30] },
+                { "stat": 76, "value": [-10, 30] },
+                { "stat": 81, "value": [1, 1] },
+                { "stat": 108, "value": [1, 1] },
+                { "stat": 134, "value": [2, 4] },
+                { "stat": 135, "value": [10, 30] },
+                { "stat": 136, "value": [10, 30] },
+                { "stat": 141, "value": [10, 30] },
+                { "stat": 142, "value": [5, 25] },
+                { "stat": 144, "value": [5, 25] },
+                { "stat": 146, "value": [5, 25] },
+                { "stat": 148, "value": [5, 25] },
+                { "stat": 153, "value": [1, 1] },
+                { "stat": 276, "value": [10, 30] },
+                { "stat": 329, "value": [10, 30] },
+                { "stat": 330, "value": [10, 30] },
+                { "stat": 331, "value": [10, 30] },
+                { "stat": 332, "value": [10, 30] }
             ]
         }
     ],

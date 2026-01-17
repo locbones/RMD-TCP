@@ -10097,5 +10097,22 @@
     "ruRU": "%d%% Увеличенный поиск магии",
     "zhCN": "%d%% 增加魔法发现",
     "zhTW": "%d%% 增加魔法發現"
+  },
+  {
+    "id": 48320,
+    "Key": "ModSoldierPerk",
+	  "deDE": "ÿc3Stärkepunkte gewähren Schaden, Verteidigung und Verringerung der physischen Immunität\nÿcO[Soldat der Stärke]ÿc3\n",
+	  "enUS": "ÿc3Strength Points grant Damage, Defense and Physical Immunity Reduction\nÿcO[Soldier of Strength]ÿc3\n",
+	  "esES": "ÿc3Los puntos de fuerza otorgan daño, defensa y reducción de inmunidad física\nÿcO[Soldado de fuerza]ÿc3\n",
+	  "esMX": "ÿc3Los puntos de fuerza otorgan daño, defensa y reducción de inmunidad física\nÿcO[Soldado de fuerza]ÿc3\n",
+	  "frFR": "ÿc3Les points de force accordent une réduction des dégâts, de la défense et de l'immunité physique\nÿcO[Soldat de force]ÿc3\n",
+	  "itIT": "ÿc3I punti forza garantiscono riduzione del danno, della difesa e dell'immunità fisica\nÿcO[Soldato della forza]ÿc3\n",
+	  "jaJP": "ÿc3Strength ポイントはダメージ、防御力、物理的免疫の減少を付与します\nÿcO[Soldier of Strength]ÿc3\n",
+	  "koKR": "ÿc3힘 포인트는 피해, 방어 및 물리 면역 감소를 부여합니다.\nÿcO[힘의 군인]ÿc3\n",
+	  "plPL": "ÿc3Punkty Siły zapewniają redukcję obrażeń, obrony i odporności fizycznej\nÿcO[Żołnierz siły]ÿc3\n",
+	  "ptBR": "ÿc3Pontos de Força concedem Redução de Dano, Defesa e Imunidade Física\nÿcO[Soldado da Força]ÿc3\n",
+	  "ruRU": "ÿc3Очки силы дают снижение урона, защиты и физического иммунитета\nÿcO[Солдат силы]ÿc3\n",
+	  "zhCN": "ÿc3力量点给予伤害、防御和物理免疫减少\nÿcO[力量士兵]ÿc3\n",
+	  "zhTW": "ÿc3力量點給予傷害、防禦和物理免疫減少\nÿcO[力量士兵]ÿc3\n"
   }
 ]

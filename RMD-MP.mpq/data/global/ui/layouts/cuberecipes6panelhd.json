@@ -3172,6 +3172,90 @@
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------*/
+{
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword128",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWTorso",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r04L     @r17L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 5760 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@tan@Runeword128@nl@white@rlvl 29@nl@blue +20% @hitrecovery@nl +75% @defperc@nl +280 @dvsm@nl +10 @to @strchreng@nl @allres +50%@nl -1 @lradius@nl@nl@runelow 8@runemid 32@runehigh 0@runeultra 0"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
+                                        "text": "@Runeword176",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@RWTorso",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": "@r12L     @r34L     @r36L",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 5840 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@tan@Runeword176@nl@white@rlvl 72@nl@blue +300-400% @defperc@nl @strchrlvl 20 @thorns @aura@nl +1 @askills@nl +4 @to @SkillCategoryBa2@StrSklTree13 @strBarbarianOnly@nl +24 @hitrecovery@nl +5 @strchrdef (@strchrstr)@nl +2 @to @spellpower@nl @pdr 4@nl +10 @lhit@nl@nl@ModSoldierPerk@nl@nl@runelow 0@runemid 1@runehigh 0@runeultra 5"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/
                         {
                             "type": "TableRowWidget", "name": "Gameplay Changes",
                             "children": [
@@ -4268,7 +4352,7 @@
                                 "rect": { "x": -40, "y": 7840 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstruck@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstrike@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstruck@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -5638,7 +5722,7 @@
                                 "rect": { "x": -40, "y": 10480 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstruck@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstrike@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstruck@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -8214,7 +8298,7 @@
                                 "rect": { "x": -40, "y": 15280 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstruck@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstrike@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
+                                "tooltipString": "@tan@Runeword91@nl@white@rlvl 47@nl@blue @ModStre9s@nl 30% @ctc 20 @skBoneSpirit @ctcstrike@nl +40% @atkspd@nl +210-340 @dmgperc@nl +40% @ddmg@nl +50 @ardemon@nl@ModStr4a@nl +10 @to @strchreng@nl +10-15 @mag @abs@nl 15% @ctc 50 @skBlessedHammer @ctcstruck@nl@nl@runelow 0@runemid 546@runehigh 1@runeultra 0@canforge"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

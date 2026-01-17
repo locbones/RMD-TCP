@@ -35716,5 +35716,22 @@
 	    "ruRU": "Зимний воин",
 	    "zhCN": "冬日战士",
 	    "zhTW": "冬日戰士"
+    },
+    {
+      "id": 63189,
+      "Key": "lbonly",
+	    "deDE": "[Nur LB]",
+	    "enUS": "[LB Only]",
+	    "esES": "[Solo LB]",
+	    "esMX": "[Solo LB]",
+	    "frFR": "[LB uniquement]",
+	    "itIT": "[Solo LB]",
+	    "jaJP": "【LBのみ】",
+	    "koKR": "[LB 전용]",
+	    "plPL": "[Tylko LB]",
+	    "ptBR": "[Somente LB]",
+	    "ruRU": "[Только LB]",
+	    "zhCN": "[仅限LB]",
+	    "zhTW": "[僅限LB]"
     }
 ]

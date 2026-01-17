@@ -39778,5 +39778,39 @@
 	  "ruRU": "Восходящий огонь",
 	  "zhCN": "崛起的小精灵",
 	  "zhTW": "崛起的小精靈"
+  },
+  {
+    "id": 51398,
+    "Key": "Akara's Blessing",
+	  "deDE": "Akaras Segen",
+	  "enUS": "Akara's Blessing",
+	  "esES": "La bendición de Akara",
+	  "esMX": "La bendición de Akara",
+	  "frFR": "La bénédiction d'Akara",
+	  "itIT": "La benedizione di Akara",
+	  "jaJP": "アカラの祝福",
+	  "koKR": "아카라의 축복",
+	  "plPL": "Błogosławieństwo Akary",
+	  "ptBR": "Bênção de Akara",
+	  "ruRU": "Благословение Акары",
+	  "zhCN": "阿卡拉的祝福",
+	  "zhTW": "阿卡拉的祝福"
+  },
+  {
+    "id": 51399,
+    "Key": "Runeword176",
+	  "deDE": "Soldat",
+	  "enUS": "Soldier",
+	  "esES": "Soldado",
+	  "esMX": "Soldado",
+	  "frFR": "Soldat",
+	  "itIT": "Soldato",
+	  "jaJP": "兵士",
+	  "koKR": "군인",
+	  "plPL": "Żołnierz",
+	  "ptBR": "Soldado",
+	  "ruRU": "Солдат",
+	  "zhCN": "士兵",
+	  "zhTW": "士兵"
   }
 ]

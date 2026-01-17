@@ -432,8 +432,8 @@ stuff_was_here	429																																																		0
 stuff_was_here	430																																																		0
 stuff_was_here	431																																																		0
 stuff_was_here	432																																																		0
-color_dye	433																																																		0
-stuff_was_here	434																																																		0
+stuff_was_here	433																																																		0
+JB_Magic	434																																																		0
 transmog	435																																																		0
 stuff_was_here	436																																																		0
 stuff_was_here	437																																																		0

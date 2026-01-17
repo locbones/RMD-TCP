@@ -49,7 +49,6 @@ Trial Scroll Group D			1						Blank	8	Trial Scroll D	1	Trial Scroll D2	1								
 RMD Loot A			1						Rgx	50	y33	100	TreasureChestsGroup	50	z23	1																0
 Breakfast		1	1	1024					Blank	19	Healthy Breakfast	1																				0
 Shards			1						Blank	1	S01	1																				0
-Barrier-T1			-2						m32	1	skc	1																				0
 Radament Flavor			1					21	Rathma's Reaper	1	Rathma's Shelter	1	Rathma's Vestage	1	Rathma's Fortress	1																0
 Griswold (NM) Flavor			1					21	Griswold's Edge	1																						0
 Griswold (H) Flavor			1					21	Griswold's Valor	1	Griswold's Honor	1	Griswolds's Redemption	1	Griswold's Heart	1																0
@@ -962,7 +961,7 @@ Treehead (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 
 Thresh Socket			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 Equip C	19	Act 5 Junk	5	Act 5 Good	3																0
 Thresh Socket (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (N) Equip C	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
 Thresh Socket (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	Goodies - Thresh Socket	2														0
-Corpsefire			-1					19	Barrier-T1	1																						0
+Corpsefire			5					19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3																0
 Corpsefire (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (N) Equip C	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
 Corpsefire (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 (H) Equip C	19	Act 1 (H) Junk	5	Act 1 (H) Good	3	Goodies - Corpsefire	2														0
 Bishibosh			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 1 Equip C	19	Act 1 Junk	5	Act 1 Good	3	Bishibosh (N) Flavor	1														0

@@ -2,7 +2,7 @@
     "desecrated_zones": [
         {
             "start_time_utc": "2023-01-27 00:00:00",
-            "end_time_utc": "2026-12-15 00:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "end_time_utc": "2031-12-15 00:00:00", /* Use end time to automate multiple configs. Useful for events. */
             "terror_duration_min": 60,
             "terror_break_min": 0,
             "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
