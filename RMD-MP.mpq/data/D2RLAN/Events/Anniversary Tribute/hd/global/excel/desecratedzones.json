@@ -13,8 +13,8 @@
             */
 
             "start_time_utc": "2026-01-17 08:00:00",
-            "end_time_utc": "2026-01-18 08:00:00", /* Use end time to automate multiple configs. Useful for events. */
-            "terror_duration_min": 1440,
+            "end_time_utc": "2026-01-19 08:00:00", /* Use end time to automate multiple configs. Useful for events. */
+            "terror_duration_min": 2880,
             "terror_break_min": 0,
             "seed": 16664395743969097666, /* UInt64. Can't be above 18446744073709551615 */
             "non_ladder_enabled": true,
