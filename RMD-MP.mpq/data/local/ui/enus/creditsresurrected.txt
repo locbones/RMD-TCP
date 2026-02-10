@@ -310,3 +310,6 @@ Firehawk
 dadilydoo
 DSG_Wired
 .
+
+*Quest 28
+Cube Town Portal Scroll with a Thawing Potion

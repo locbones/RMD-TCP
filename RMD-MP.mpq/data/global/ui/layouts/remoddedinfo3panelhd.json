@@ -2,7 +2,7 @@
     "type": "VideoOptionsPanel", "name": "RemoddedInfo3Panel",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -40,8 +40,8 @@
                 {
                     "type": "TableWidget", "name": "OptionsTable",
                     "fields": {
-                        "columns": [ "$RMDOptionsTableColumn1", "$RMDOptionsTableColumn2" ],
-                        "rowHeight": "$RMDOptionsTableRowHeight"
+                        "columns": [ "$CraftOptionsTableColumn1", "$CraftOptionsTableColumn2" ],
+                        "rowHeight": "$CubeOptionsTableRowHeight"
                     },
                     "children": [
 
@@ -82,8 +82,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -187,8 +187,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -282,8 +282,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -411,8 +411,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -552,8 +552,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -669,8 +669,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -844,8 +844,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1104,8 +1104,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1251,8 +1251,8 @@ G:::::G        G::::G a::::aaaa::::::a m::::m   m::::m   m::::me::::::eeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1413,8 +1413,8 @@ Q:::::::QQ::::::::Qo:::::ooooo:::::oLL:::::::LLLLLLLLL:::::L
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1518,8 +1518,8 @@ Q:::::::QQ::::::::Qo:::::ooooo:::::oLL:::::::LLLLLLLLL:::::L
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]

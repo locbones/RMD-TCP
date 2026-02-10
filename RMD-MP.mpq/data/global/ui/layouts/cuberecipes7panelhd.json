@@ -125,7 +125,7 @@
                                 "rect": { "x": -40, "y": 80 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp09@nl@grey (@RWBelt, @RWDruidChest, @rin)@nl@nl@gold@setbonus@nl@blue +5 @druid@nl@allenemyimmunity 30%@nl +5 @sumpower@nl +30 @strchreng@nl@allres +40%@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
+                                "tooltipString": "@green@bp09@nl@grey (@RWBelt, @RWDruidChest, @rin)@nl@fpcost@C28@nl@nl@gold@setbonus@nl@blue +5 @druid@nl@allenemyimmunity 30%@nl +5 @sumpower@nl +30 @strchreng@nl@allres +40%@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -155,7 +155,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " Griswold's",
+                                        "text": " Immortal King's",
                                         "style": "$RWInfo"
                                     }
                                 }
@@ -168,7 +168,7 @@
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 //ÿc2Blacklight\nÿc5(Helm, Shield)\n\nÿc4Set Bonus:\nÿc3+2 to All Skills\n+2 to Paladin Skill Levels\nEnemy Lightning Immunity Reduced by 40%\nReduce Cooldowns by 40%\nIncrease All Stats by +15%\n+5% to All Maximum Resists\n\nÿc4First Discovered By: ÿc7Zexyÿc3
-                                "tooltipString": "@green@bp21@nl@grey (@RWHelm, @RWShield)@nl@nl@gold @Barbarian @setbonus@nl@blue +2 @askills@nl +2 @barbsk@nl+X% @atkspd (@strchrstr)@nl +X @max @dmg @clvl@nl@enemy @phys @immunity -40%@nl +15% @allatrb@nl@nl@gold @Paladin @setbonus@nl@blue +2 @askills@nl +2 @pally@nl@enemy @light @immunity -40%@nl@cdr 40%@nl +15% @allatrb@nl +5% @max @allres@nl@nl@firstdiscover@tan Zexy@blue"
+                                "tooltipString": "@green@bp21@nl@grey (@RWHelm, @RWShield)@nl@fpcost@C15@nl@fpcost@Barbarian / @Paladin@nl@nl@gold @Barbarian @setbonus@nl@blue +2 @askills@nl +2 @barbsk@nl+X% @atkspd (@strchrstr)@nl +X @max @dmg @clvl@nl@enemy @phys @immunity -40%@nl +15% @allatrb@nl@nl@gold @Paladin @setbonus@nl@blue +2 @askills@nl +2 @pally@nl@enemy @light @immunity -40%@nl@cdr 40%@nl +15% @allatrb@nl +5% @max @allres@nl@nl@gold@firstdiscover@tan Zexy@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -210,7 +210,7 @@
                                 "rect": { "x": -40, "y": 240 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp18@nl@grey (@RWHelm, @RWBelt, @rin)@nl@nl@gold@setbonus@nl@blue +1 @askills@nl +3 @cold @StrSklTree4@nl +400 @cold @dmg@nl +5% @cold @abs@nl@nl@gold@firstdiscover@tan Xan Kreigur@blue"
+                                "tooltipString": "@green@bp18@nl@grey (@RWHelm, @RWBelt, @rin)@nl@fpcost@C27@nl@nl@gold@setbonus@nl@blue +1 @askills@nl +3 @cold @StrSklTree4@nl +400 @cold @dmg@nl +5% @cold @abs@nl@nl@gold@firstdiscover@tan Xan Kreigur@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -262,7 +262,7 @@
                                 "rect": { "x": -40, "y": 320 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp08@nl@grey (@RWBowOnly, @Amazon @RWGlove)@nl@nl@gold@setbonus@blue@nl +2 @askills@nl +3 @zon@nl@allres +25%@nl +5 @spellpower@nl +5 @compower@nl +30 @strchrdex@nl@nl@firstdiscover@tan Tank@blue"
+                                "tooltipString": "@green@bp08@nl@grey (@RWBowOnly, @Amazon @RWGlove)@nl@fpcost@C15@nl@nl@gold@setbonus@blue@nl +2 @askills@nl +3 @zon@nl@allres +25%@nl +5 @spellpower@nl +5 @compower@nl +30 @strchrdex@nl@nl@gold@firstdiscover@tan Tank@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -312,7 +312,7 @@
                                 "rect": { "x": -40, "y": 400 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp13@nl@grey (@RWTorso, @RWCirclet)@nl@nl@gold@setbonus@nl@blue +4 @pally@nl +4 @sorc@nl@enemy @mag @immunity -40%@nl@enemy @light @immunity -40%@nl +5 @spellpower@nl +5 @compower@nl@nl@gold@firstdiscover@tan Momotarou@blue"
+                                "tooltipString": "@green@bp13@nl@grey (@RWTorso, @RWCirclet)@nl@fpcost@C15@nl@nl@gold@setbonus@nl@blue +4 @pally@nl +4 @sorc@nl@enemy @mag @immunity -40%@nl@enemy @light @immunity -40%@nl +5 @spellpower@nl +5 @compower@nl@nl@gold@firstdiscover@tan Momotarou@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -363,7 +363,7 @@
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 //ÿc2Cascading Caldera\nÿc5(Shield, Boots, Amulet)\n\nÿc4Set Bonus:\nÿc3+5 to Fire Skills\n+1 to Landslide\n+400 Fire Damage\n+100% to Fire Skill Damage\nReduce Cooldowns by 50%\n+3 Spell Power\nFire Absorb +10%\n\nÿc4First Discovered By: ÿc7PlausibleSheepÿc3
-                                "tooltipString": "@green@bp22@nl@grey (@RWShield, @RWBoot, @amu)@nl@nl@gold@setbonus@nl@blue +5 @to @fire @StrSklTree4@nl +1 @to @skLandslide@nl+400 @fire @skdmg@nl@cdr 50%@nl +3 @spellpower@nl@fire @abs +10%@nl@nl@firstdiscover@tan PlausibleSheep@blue"
+                                "tooltipString": "@green@bp22@nl@grey (@RWShield, @RWBoot, @amu)@nl@fpcost@C21@nl@nl@gold@setbonus@nl@blue +5 @to @fire @StrSklTree4@nl +1 @to @skLandslide@nl+400 @fire @skdmg@nl@cdr 50%@nl +3 @spellpower@nl@fire @abs +10%@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -413,7 +413,7 @@
                                 "rect": { "x": -40, "y": 560 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp12@nl@grey (@rin, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl@allenemyimmunity 20%@nl +5 @spellpower@nl +40 @strchreng@nl@ModCelestialAid@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
+                                "tooltipString": "@green@bp12@nl@grey (@rin, @rin, @amu)@nl@fpcost@C45@nl@nl@gold@setbonus@nl@blue +3 @askills@nl@allenemyimmunity 20%@nl +5 @spellpower@nl +40 @strchreng@nl@ModCelestialAid@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -463,7 +463,7 @@
                                 "rect": { "x": -40, "y": 640 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp04@nl@grey (@RWCirclet, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +30% @toele @skdmg@nl@cdr 35%@nl +15% @allatrb@nl@buff 20%@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
+                                "tooltipString": "@green@bp04@nl@grey (@RWCirclet, @rin, @amu)@nl@fpcost@C38@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +30% @toele @skdmg@nl@cdr 35%@nl +15% @allatrb@nl@buff 20%@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -513,7 +513,7 @@
                                 "rect": { "x": -40, "y": 720 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp10@nl@grey (@Paladin @RWScepter, @Paladin @RWShield)@nl@nl@gold@setbonus@nl@blue +3 @pally@nl@enemy @mag @immunity -30%@nl +7 @to @skFistOfTheHeavens @strPaladinOnly@nl +5 @spellpower@nl +10% @maxlife@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
+                                "tooltipString": "@green@bp10@nl@grey (@Paladin @RWScepter, @Paladin @RWShield)@nl@fpcost@C15@nl@nl@gold@setbonus@nl@blue +3 @pally@nl@enemy @mag @immunity -30%@nl +7 @to @skFistOfTheHeavens @strPaladinOnly@nl +5 @spellpower@nl +10% @maxlife@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -563,7 +563,7 @@
                                 "rect": { "x": -40, "y": 800 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp15@nl@grey (@RWBelt, @RWHelm)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +3 @to @skFade@nl +2 @sin@nl@enemy @phys @immunity -40%@nl +5 @compower@nl@nl@gold@firstdiscover@tan Spike@blue"
+                                "tooltipString": "@green@bp15@nl@grey (@RWBelt, @RWHelm)@nl@fpcost@C45@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +3 @to @skFade@nl +2 @sin@nl@enemy @phys @immunity -40%@nl +5 @compower@nl@nl@gold@firstdiscover@tan Spike@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -613,7 +613,7 @@
         "rect": { "x": -40, "y": 880 },
         "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
         "hoveredFrame": 1,
-        "tooltipString": "@green@bp19@nl@grey (@RWHelm, @RWPole, @RWTorso)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +5 @to @skBoneSpikes@nl@sumdmg +150%@nl +3 @sumpower@nl 10% @reanimate @SkCommander@nl 10% @reanimate @Specter@nl 10% @reanimate @OblivionKnight@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
+        "tooltipString": "@green@bp19@nl@grey (@RWHelm, @RWPole, @RWTorso)@nl@fpcost@C38@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +5 @to @skBoneSpikes@nl@sumdmg +150%@nl +3 @sumpower@nl 10% @reanimate @SkCommander@nl 10% @reanimate @Specter@nl 10% @reanimate @OblivionKnight@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
     }
 },
 
@@ -665,7 +665,7 @@
                                 "rect": { "x": -40, "y": 960 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp06@nl@grey (@amu, @RWTorso, @RWShield)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +2 @psn @StrSklTree4@nl@enemy @psn @immunity -40%@nl +30% @to @psn @skdmg@nl +50 @strchrvit@nl@nl@gold@firstdiscover@tan Smile_Joker_@blue"
+                                "tooltipString": "@green@bp06@nl@grey (@amu, @RWTorso, @RWShield)@nl@fpcost@C28@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +2 @psn @StrSklTree4@nl@enemy @psn @immunity -40%@nl +30% @to @psn @skdmg@nl +50 @strchrvit@nl@nl@gold@firstdiscover@tan Smile_Joker_@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -715,7 +715,7 @@
                                 "rect": { "x": -40, "y": 1040 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp01@nl@grey (@RWBelt, @RWBoot, @RWGlove)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +1 @to @skFireMastery@nl +30% @fire @skdmg@nl +20 @allatrb@nl@nl@gold@firstdiscover@tan Momotarou@blue"
+                                "tooltipString": "@green@bp01@nl@grey (@RWBelt, @RWBoot, @RWGlove)@nl@fpcost@C38@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +1 @to @skFireMastery@nl +30% @fire @skdmg@nl +20 @allatrb@nl@nl@gold@firstdiscover@tan Momotarou@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -758,7 +758,7 @@
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 //ÿc2Path of the Vortex\nÿc5(Claw, Claw or Axe, Axe)\n\nÿc4Set Bonus:\nÿc3+8 to Executioner Stance\n+8 to Master At Arms\n+250 Magic Damage\n+250 Fire Damage\n+250 Lightning Damage\n+250 Cold Damage\n25% Chance of Crushing Blow\n\nÿc4First Discovered By: ÿc7Zexyÿc3
-                                "tooltipString": "@green@bp20@nl@grey (2x @RWClaws or 2x @RWAxe)@nl@nl@gold@setbonus@nl@blue +8 @to @skClawMastery@nl +8 @to @skMasterAtArms@nl +250 @mag @dmg@nl +250 @fire @dmg@nl +250 @light dmg@nl +250 @cold @dmg@nl +25% @crush@nl@nl@firstdiscover@tan Zexy@blue"
+                                "tooltipString": "@green@bp20@nl@grey (2x @RWClaws or 2x @RWAxe)@nl@fpcost@C45@nl@fpcost@Assassin / @Barbarian@nl@nl@gold@setbonus@nl@blue +8 @to @skClawMastery@nl +8 @to @skMasterAtArms@nl +250 @mag @dmg@nl +250 @fire @dmg@nl +250 @light @dmg@nl +250 @cold @dmg@nl +25% @crush@nl@nl@gold@firstdiscover@tan Zexy@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -808,7 +808,7 @@
                                 "rect": { "x": -40, "y": 1200 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp16@nl@grey (@RWShield, @RWAxe, @RWBelt)@nl@nl@gold@setbonus@nl@blue +4 @askills@nl 5% @ctc 20 @skSlowMissiles @ctcstruck@nl +80 @to @life@nl@allres +30%@nl@plr 50%@nl@thorns +40@nl@nl@gold@firstdiscover@tan Revoltz & DSG_Wired@blue"
+                                "tooltipString": "@green@bp16@nl@grey (@RWShield, @RWAxe, @RWBelt)@nl@fpcost@C38@nl@nl@gold@setbonus@nl@blue +4 @askills@nl 5% @ctc 20 @skSlowMissiles @ctcstruck@nl +80 @to @life@nl@allres +30%@nl@plr 50%@nl@thorns +40@nl@nl@gold@firstdiscover@tan Revoltz & DSG_Wired@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -858,7 +858,7 @@
                                 "rect": { "x": -40, "y": 1280 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp11@nl@grey (@RWHelm, @RWBoot, @RWGlove)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl@enemy @light @immunity -30%@nl@enemy @fire @immunity -30%@nl@enemy @cold @immunity -30%@nl +20 @allatrb@nl@cdr 50%@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
+                                "tooltipString": "@green@bp11@nl@grey (@RWHelm, @RWBoot, @RWGlove)@nl@fpcost@C21@nl@nl@gold@setbonus@nl@blue +2 @askills@nl@enemy @light @immunity -30%@nl@enemy @fire @immunity -30%@nl@enemy @cold @immunity -30%@nl +20 @allatrb@nl@cdr 50%@nl@nl@gold@firstdiscover@tan Joon.pf@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -908,7 +908,7 @@
                                 "rect": { "x": -40, "y": 1360 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp05@nl@grey (@RWHelm, @RWTorso, @RWShield)@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +1 @to @skLightningMastery@nl +30 @to @light @skdmg@nl +20 @allatrb@nl@nl@gold@firstdiscover@tan Dadilydoo@blue"
+                                "tooltipString": "@green@bp05@nl@grey (@RWHelm, @RWTorso, @RWShield)@nl@fpcost@C28@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +1 @to @skLightningMastery@nl +30 @to @light @skdmg@nl +20 @allatrb@nl@nl@gold@firstdiscover@tan Dadilydoo@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -958,7 +958,7 @@
                                 "rect": { "x": -40, "y": 1440 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp17@nl@grey (@rin, @rin, @amu)@nl@nl@gold@setbonus@nl@blue +1 @to @skTriTower@nl +1 @to @skFireMastery@nl +1 @to @skColdMastery@nl +1 @to @skLightningMastery@nl +1 @lradius@nl@nl@gold@firstdiscover@tan elr@blue"
+                                "tooltipString": "@green@bp17@nl@grey (@rin, @rin, @amu)@nl@fpcost@C21@nl@nl@gold@setbonus@nl@blue +1 @to @skTriTower@nl +1 @to @skFireMastery@nl +1 @to @skColdMastery@nl +1 @to @skLightningMastery@nl +1 @lradius@nl@nl@gold@firstdiscover@tan elr@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1008,7 +1008,7 @@
                                 "rect": { "x": -40, "y": 1520 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp14@nl@grey (@Assassin @RWBoot, @cloak, @RWGlove)@nl@nl@gold@setbonus@nl@blue +4 @sin@nl @buffdur 50%@nl@allenemyimmunity 20%@nl +10% @allatrb@nl +10 @lradius@nl@nl@gold@firstdiscover@tan Spike@blue"
+                                "tooltipString": "@green@bp14@nl@grey (@Assassin @RWBoot, @cloak, @RWGlove)@nl@fpcost@C28@nl@nl@gold@setbonus@nl@blue +4 @sin@nl @buffdur 50%@nl@allenemyimmunity 20%@nl +10% @allatrb@nl +10 @lradius@nl@nl@gold@firstdiscover@tan Spike@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1058,7 +1058,7 @@
                                 "rect": { "x": -40, "y": 1600 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp03@nl@grey (@RWScythe, @RWBelt, @RWBoot)@nl@nl@gold@setbonus@nl@blue +4 @necro@nl@allenemyimmunity -20%@nl +5 @to @skBloodGolem @strNecromanerOnly@nl +5 @sumpower@nl +10% @exp@nl@nl@gold@firstdiscover@tan Momotarou@blue"
+                                "tooltipString": "@green@bp03@nl@grey (@RWScythe, @RWBelt, @RWBoot)@nl@fpcost@C27@nl@nl@gold@setbonus@nl@blue +4 @necro@nl@allenemyimmunity -20%@nl +5 @to @skBloodGolem @strNecromanerOnly@nl +5 @sumpower@nl +10% @exp@nl@nl@gold@firstdiscover@tan Momotarou@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1108,7 +1108,7 @@
                                 "rect": { "x": -40, "y": 1680 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp02@nl@grey (2x @tsp)@nl@nl@gold@setbonus@nl@blue +5 @barbsk@nl@dmg +500@nl +300% @hit@nl +30% @crush@nl +7 @to @skDoubleThrow @strBarbarianOnly@nl@nl@gold@firstdiscover@tan Momotarou@blue"
+                                "tooltipString": "@green@bp02@nl@grey (2x @tsp)@nl@fpcost@C45@nl@nl@gold@setbonus@nl@blue +5 @barbsk@nl@dmg +500@nl +300% @hit@nl +30% @crush@nl +7 @to @skDoubleThrow @strBarbarianOnly@nl@nl@gold@firstdiscover@tan Momotarou@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1158,7 +1158,7 @@
                                 "rect": { "x": -40, "y": 1760 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp07@nl@grey (@RWGlove, @mau)@nl@nl@gold@setbonus@nl@blue +4 @barbsk@nl +4 @druid@nl@dmg +250@nl@enemy @phys @immunity -40%@nl +30 @strchrstr@nl +10 @compower@nl@nl@gold@firstdiscover@tan Trasjr@blue"
+                                "tooltipString": "@green@bp07@nl@grey (@RWGlove, @mau)@nl@fpcost@C27@nl@nl@gold@setbonus@nl@blue +4 @barbsk@nl +4 @druid@nl@dmg +250@nl@enemy @phys @immunity -40%@nl +30 @strchrstr@nl +10 @compower@nl@nl@gold@firstdiscover@tan Trasjr@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1200,7 +1200,7 @@
                                 "rect": { "x": -40, "y": 1840 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp23@nl@grey (@RWShield, @amu)@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +1 @necro@nl +1 @to @skFrostGolem @nl +35% @cast@nl +75% @goldfind @nl @cdr 35%@nl@nl@gold@firstdiscover@tan KreshanXD@blue"
+                                "tooltipString": "@green@bp23@nl@grey (@RWShield, @amu)@nl@fpcost@C27@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +1 @necro@nl +1 @to @skFrostGolem @nl +35% @cast@nl +75% @goldfind @nl @cdr 35%@nl@nl@gold@firstdiscover@tan KreshanXD@blue"
                             }
                         }
 /*--------------------------------------------------------------------------------------------------------------------

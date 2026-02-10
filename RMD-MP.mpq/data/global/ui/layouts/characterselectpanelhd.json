@@ -296,7 +296,7 @@
                         {
                             "type": "TextBoxWidget", "name": "ModName",
                             "fields": {
-                                "rect": { "x": 255, "y": 1970, "width": 400 },
+                                "rect": { "x": 255, "y": 1990, "width": 400 },
                                 "text":"ReMoDDeD",
                                 "style": {
                                     "fontColor": "$CharacterListDetailsColor",
@@ -309,23 +309,10 @@
                         {
                             "type": "TextBoxWidget", "name": "ModAuthors",
                             "fields": {
-                                "rect": { "x": 235, "y": 2020, "width": 400 },
-                                "text":"(Beta - 0.9.9.9GE)",
+                                "rect": { "x": 235, "y": 2040, "width": 400 },
+                                "text":"(Beta - 0.9.9.9GF)",
                                 "style": {
                                     "fontColor": "$FontColorBonesyRed",
-                                    "pointSize": "$XMediumPanelFontSize",
-                                    "spacing": "$ReducedSpacing",
-                                    "dropShadow": "$DefaultDropShadow"
-                                }
-                            }
-                        },
-                        {
-                            "type": "TextBoxWidget", "name": "ModAuthors",
-                            "fields": {
-                                "rect": { "x": 200, "y": 2060, "width": 400 },
-                                "text":"(Anniversary Edition)",
-                                "style": {
-                                    "fontColor": "$FontColorFlatBlue",
                                     "pointSize": "$XMediumPanelFontSize",
                                     "spacing": "$ReducedSpacing",
                                     "dropShadow": "$DefaultDropShadow"

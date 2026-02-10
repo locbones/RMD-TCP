@@ -90,7 +90,7 @@
                                 {
                                     "type": "AnimatedImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\Open\\Previews\\A5Aura",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviewsOpen\\Previews\\A5Aura",
                                         "rect": { "x": 80, "y": 20, "scale": 1.5 },
                                         "fps": 12
                                     }
@@ -103,7 +103,7 @@
                                 {
                                     "type": "ImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Open\\Icons\\I_Blank",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Open\\Icons\\I_Blank",
                                         "rect": { "x": 80, "y": 225, "scale": 0.70 }
                                     }
                                 }
@@ -282,7 +282,7 @@
                                 {
                                     "type": "AnimatedImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Barbarian\\Previews\\GroundRender",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Barbarian\\Previews\\GroundRender",
                                         "rect": { "x": 80, "y": 30, "scale": 1.5 },
                                         "fps": 12
                                     }
@@ -295,7 +295,7 @@
                                 {
                                     "type": "ImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Barbarian\\Icons\\I_GroundRender",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Barbarian\\Icons\\I_GroundRender",
                                         "rect": { "x": 80, "y": 235, "scale": 0.70 }
                                     }
                                 }
@@ -474,7 +474,7 @@
                                 {
                                     "type": "AnimatedImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Druid\\Previews\\Landslide",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Druid\\Previews\\Landslide",
                                         "rect": { "x": 80, "y": 30, "scale": 1.5 },
                                         "fps": 12
                                     }
@@ -487,7 +487,7 @@
                                 {
                                     "type": "ImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Druid\\Icons\\I_Landslide",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Druid\\Icons\\I_Landslide",
                                         "rect": { "x": 80, "y": 235, "scale": 0.70 }
                                     }
                                 }
@@ -666,7 +666,7 @@
                                 {
                                     "type": "AnimatedImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Barbarian\\Previews\\FanOut",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Barbarian\\Previews\\FanOut",
                                         "rect": { "x": 80, "y": 30, "scale": 1.5 },
                                         "fps": 12
                                     }
@@ -679,7 +679,7 @@
                                 {
                                     "type": "ImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Barbarian\\Icons\\I_FanOut",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Barbarian\\Icons\\I_FanOut",
                                         "rect": { "x": 80, "y": 235, "scale": 0.70 }
                                     }
                                 }
@@ -858,7 +858,7 @@
                                 {
                                     "type": "AnimatedImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Barbarian\\Previews\\Frenzy",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Barbarian\\Previews\\Frenzy",
                                         "rect": { "x": 80, "y": 30, "scale": 1.5 },
                                         "fps": 12
                                     }
@@ -871,7 +871,7 @@
                                 {
                                     "type": "ImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Barbarian\\Icons\\I_Frenzy",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Barbarian\\Icons\\I_Frenzy",
                                         "rect": { "x": 80, "y": 235, "scale": 0.70 }
                                     }
                                 }
@@ -1050,7 +1050,7 @@
                                 {
                                     "type": "AnimatedImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Barbarian\\Previews\\Shout",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Barbarian\\Previews\\Shout",
                                         "rect": { "x": 80, "y": 30, "scale": 1.5 },
                                         "fps": 12
                                     }
@@ -1063,7 +1063,7 @@
                                 {
                                     "type": "ImageWidget", "name": "Skill1",
                                     "fields": {
-                                        "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Skills\\\\Barbarian\\Icons\\I_Shout",
+                                        "filename": "..\\..\\..\\ReMoDDeD\\SkillPreviews\\Barbarian\\Icons\\I_Shout",
                                         "rect": { "x": 80, "y": 235, "scale": 0.70 }
                                     }
                                 }

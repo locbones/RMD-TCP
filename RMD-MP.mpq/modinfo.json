@@ -5,11 +5,11 @@
 --My Mod Details--
 Mod Download: https://github.com/locbones/RMD-TCP/archive/refs/heads/main.zip
 Mod Config Download: https://github.com/locbones/RMD-TCP/raw/refs/heads/main/RMD-MP.mpq/modinfo.json
-Mod Version: 0.9.9.9GE (011626)
-News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.9GE)"
-News 1 Message: "Another big update coming your way! This update reworks many Necro Summons, adds some new uniques, a new forsaken pact, and improves various quest drop rewards. We've also made some more adjustments to XP Scaling for early and late-game to improve the overall flow. As always, the usual round of bug fixes and small improvements also made the cut. We hope you enjoy this large update and have fun with the new changes!"
-News 2 Title: "4-Year Anniversary!"
-News 2 Message: "On January 17th at Midnight (UTC), our 24-hour celebration for our 4-year anniversary will begin. Just like our Christmas Chaos event, you can opt-in using the Special Events menu option in D2RLAN. New event-only items, highly discounted recipes and limited-time gambling options will make their appearance. We hope you to continue our evolving experience and we thank you for your continued support and passion!"
+Mod Version: 0.9.9.9GF (021026)
+News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.9GF)"
+News 1 Message: "This update adds our 'Quest Charm/Onboarding' system to help players learn the mod and reward them for progression. New Superuniques have been added as well as drop tables adjustments for quest flags. New Uniques, New Riddle Rewards and New Recipe adjustments have also been added. As always, we've included some skill balancing and bug fixes to round out the update. We hope you enjoy yet another large update as we inch ever closer to our 1.0 release!"
+News 2 Title: "Questing System!"
+News 2 Message: "We understand that with the scale of this mod and it's expansion-like experience, it can be a little overwhelming for some players trying to learn the ropes. For this reason, a new softcoded questing system has been added that will both teach you the mod in an organic way, while rewarding you for progression through the mod. Expect this feature to evolve over time, but you can view the current details of it in our Mod Info menu (Quest Charm tab)"
 
 --General Options--
 Map Layouts: Enabled

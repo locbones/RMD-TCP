@@ -62,7 +62,7 @@
                             "fields": {
                                 "rect": { "x": 1347, "y": 1512 },
                                 "style": "$StyleSettingsTextCRTG",
-                                "text": "The demon lords are morbid creatures; twisted and perverse in their desires..."
+                                "text": "Quest 10"
                             }
                         },
                         {
@@ -70,7 +70,7 @@
                             "fields": {
                                 "rect": { "x": 1347, "y": 1552 },
                                 "style": "$StyleSettingsTextCRTG",
-                                "text": "They enjoy only killing and death...and they will ask both of you."
+                                "text": "To complete Quest 10, please cube an antidote potion with..."
                             }
                         },
                         {
@@ -78,7 +78,7 @@
                             "fields": {
                                 "rect": { "x": 1347, "y": 1592 },
                                 "style": "$StyleSettingsTextCRTG",
-                                "text": "If you do not meet their demands, only sadness and regret await..."
+                                "text": "the other item mentioned somewhere in the cube recipe panel"
                             }
                         },
                         {

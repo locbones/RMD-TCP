@@ -2,7 +2,7 @@
     "type": "VideoOptionsPanel", "name": "RemoddedInfo5Panel",
     "fields": {
         "priority": 9003,
-        "rect": { "x": -865, "y": 392, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
+        "rect": "$OptionsPanelRectRMD",
         "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
@@ -40,8 +40,8 @@
                 {
                     "type": "TableWidget", "name": "OptionsTable",
                     "fields": {
-                        "columns": [ "$RMDOptionsTableColumn1", "$RMDOptionsTableColumn2" ],
-                        "rowHeight": "$RMDOptionsTableRowHeight"
+                        "columns": [ "$CraftOptionsTableColumn1", "$CraftOptionsTableColumn2" ],
+                        "rowHeight": "$CubeOptionsTableRowHeight"
                     },
                     "children": [
                         {
@@ -52,14 +52,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 0 },
                                         "text": "Greedy Goblins",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -74,7 +74,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 30 },
                                         "text": "Goblins randomly wander the levels; hoarding gems, gold, runes and other special items",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
@@ -96,7 +96,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 20 },
                                         "text": "They care nothing for battle, their souls entwined by the treasures they seek",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -109,7 +109,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 10 },
                                         "text": "Old man Cain heard a rumor they never appear in the same place twice...",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -122,7 +122,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 20 },
                                         "text": "",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -135,7 +135,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 20 },
                                         "text": "Gemma Perfectus",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -157,14 +157,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 10 },
                                         "text": "Mordeaux the Dead Mind",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -179,7 +179,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 30 },
                                         "text": "Once a fallen monster, now just a soul-less shell of insatiable curiousity",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -192,13 +192,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 20 },
                                         "text": "Gems. Perfect Gems. This creature's mind has been deadened to any other thought.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 590, "y": 60 },
+                                                "rect": { "x": 0, "y": 60 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin1"
                                             }
                                         }
@@ -214,7 +214,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 720 },
                                         "text": "Opulentus Sicarius",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -236,14 +236,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 710 },
                                         "text": "Xan of the Umbra Lunae",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -258,7 +258,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 730 },
                                         "text": "Once a fallen monster, now it's mind twisted to wealth and shadow.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -271,13 +271,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 720 },
                                         "text": "Legends tell of a wealth of info and gold being spewed from this monster.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 590, "y": 60 },
+                                                "rect": { "x": 0, "y": 60 },
                                                 "activeFrame": 1,
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin2"
                                             }
@@ -294,7 +294,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 1440 },
                                         "text": "Divitiae Absconditus",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -316,14 +316,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 1450 },
                                         "text": "Elr the Ignis",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -338,7 +338,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 1470 },
                                         "text": "A once noble Fire Sorceress, now corrupted by power in service to darkness",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -351,13 +351,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 1460 },
                                         "text": "It holds potentially powerful artifacts for those who may be lucky.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 590, "y": 60 },
+                                                "rect": { "x": 0, "y": 60 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin3"
                                             }
                                         }
@@ -373,7 +373,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 2160 },
                                         "text": "Runarum Avarus",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -395,14 +395,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 2170 },
                                         "text": "Hells Runekeeper",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -417,7 +417,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 2190 },
                                         "text": "A demon granted power by the collective whispers of the masses, chanting it's name. Jah-men.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -430,13 +430,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 2180 },
                                         "text": "Various symbols of power are imbued on this demon, maybe that power can be harnessed.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 590, "y": 60 },
+                                                "rect": { "x": 0, "y": 60 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin4"
                                             }
                                         }
@@ -452,7 +452,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 2880 },
                                         "text": "Famulus Bonesii",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -474,14 +474,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 2890 },
                                         "text": "Bonesy's Familiar",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -496,7 +496,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 2910 },
                                         "text": "A fragment of Edyrem's soul, the last of the Nephalem - taken form.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -509,13 +509,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 2900 },
                                         "text": "Light emanates from this monster at all times, unable to control its prismatic power.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 590, "y": 60 },
+                                                "rect": { "x": 0, "y": 60 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Goblin5"
                                             }
                                         }
@@ -531,14 +531,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 3600 },
                                         "text": "Tormented Monsters",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -553,7 +553,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 3630 },
                                         "text": "Diablo's minions and victims alike have fallen into torment...",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
@@ -575,7 +575,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 3620 },
                                         "text": "All color drained from their lifeless souls, forever trapped...",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -588,13 +588,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 3610 },
                                         "text": "They fear nothing, feel nothing; as the ice slowly consumes them.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 310, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\TormentDemo"
                                             }
                                         }
@@ -610,7 +610,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 4660 },
                                         "text": "Ender'aku",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -632,14 +632,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 4650 },
                                         "text": "Putrid Herald of Darkness",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -654,7 +654,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 4670 },
                                         "text": "An evil being that has been twisted and mis-shapen by the corpses she's consumed.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -667,13 +667,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 4650 },
                                         "text": "She desires nothing but to feed on flesh, and feed her spawning brood.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 260, "y": 50 },
+                                                "rect": { "x": 0, "y": 50 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Enderaku"
                                             }
                                         }
@@ -689,7 +689,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 5440 },
                                         "text": "Izual the Forsaken",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -711,14 +711,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 5440 },
                                         "text": "Corrupted Fire Lord",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -733,7 +733,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 5460 },
                                         "text": "Once a force against evil; now corrupted by the Prime Evil's resurrected powers.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -746,13 +746,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 5450 },
                                         "text": "Even they dare not enter his territory now...truly forsaken by all beings now.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 310, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\ForsakenIzual"
                                             }
                                         }
@@ -768,7 +768,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 6190 },
                                         "text": "Gurka",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -790,14 +790,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 6180 },
                                         "text": "Soul-Torn Puppet Master",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -812,7 +812,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 6200 },
                                         "text": "Imbued with ancient, dark magic...this headless demon controls the souls of the fallen.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -825,13 +825,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 6190 },
                                         "text": "His blood has turned purple after consuming the blood of so many humans.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 310, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Gurka"
                                             }
                                         }
@@ -847,7 +847,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 6790 },
                                         "text": "Queen Syndred",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -869,14 +869,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 6780 },
                                         "text": "Lady of Corruption",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -891,7 +891,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 6800 },
                                         "text": "The power of the great resurrection has tainted this demon of terror.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -904,13 +904,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 6790 },
                                         "text": "Only bits of flesh remain; the rest consumed by the fire of hatred.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 540, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Syndred"
                                             }
                                         }
@@ -926,7 +926,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 7520 },
                                         "text": "Ded'Domer",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -948,14 +948,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 7510 },
                                         "text": "Breaker of Realms",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -970,7 +970,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 7530 },
                                         "text": "The master of the Arcane Dimensional magic - Bending the realms to do his bidding.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -983,13 +983,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 7520 },
                                         "text": "His overflow of magic causes flames to spontaneously engulf him.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 710, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Deddomer"
                                             }
                                         }
@@ -1005,7 +1005,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 8120 },
                                         "text": "Anuburak",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -1027,14 +1027,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 8110 },
                                         "text": "Nightmare of Horadrim",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1049,7 +1049,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 8130 },
                                         "text": "Enraged during the maelstrom of chaos; it has absorbed untold power.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -1062,13 +1062,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 8120 },
                                         "text": "Losing all intellect and reason...it now only knows the hunt.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 550, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Anuburak"
                                             }
                                         }
@@ -1084,7 +1084,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 8810 },
                                         "text": "Raku'Ranth",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -1106,14 +1106,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 8800 },
                                         "text": "Demon Swordmaster",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1128,7 +1128,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 8820 },
                                         "text": "True sword experts that have trained in the arts of execution.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -1141,13 +1141,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 8810 },
                                         "text": "Their skin turned to an undead white after the great resurrection.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 580, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Rakuranth"
                                             }
                                         }
@@ -1163,7 +1163,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 9530 },
                                         "text": "Kelthir",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -1185,14 +1185,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 9520 },
                                         "text": "Beastmaster of Arms",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1207,7 +1207,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 9540 },
                                         "text": "Deadly with any weapon; his beast-like ferocity and speed have only increased.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -1220,13 +1220,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 9530 },
                                         "text": "Their skin turning black after human blood has soaked into their very being.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 690, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Kelthir"
                                             }
                                         }
@@ -1242,7 +1242,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 9990 },
                                         "text": "Grizzlepaw",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -1264,14 +1264,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 9980 },
                                         "text": "Tainted Bear King",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1286,7 +1286,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 10000 },
                                         "text": "Once loyal to the druids; now malformed into a tool of evil.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -1299,13 +1299,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 9980 },
                                         "text": "Battle hardened and created without fur - all know the king.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 600, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Grizzlepaw"
                                             }
                                         }
@@ -1321,7 +1321,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 10620 },
                                         "text": "Majiko",
-                                        "style": "$StyleSettingsCenterTitle"
+                                        "style": "$StyleSettingsTitle"
                                     },
                                     "children": [
                                         {
@@ -1343,14 +1343,14 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 10610 },
                                         "text": "Mutated Leaper",
-                                        "style": "$StyleSettingsTextCR"
+                                        "style": "$StyleSettingsTextR"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 0, "y": 60 },
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1365,7 +1365,7 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 10630 },
                                         "text": "Bestowed great size and speed has enabled it to be a deadly minion",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     }
                                 }
                             ]
@@ -1378,13 +1378,13 @@
                                     "fields": {
                                         "rect": { "x": 0, "y": 10610 },
                                         "text": "It's tormented soul making it become more erratic and lethal.",
-                                        "style": "$StyleSettingsTextC"
+                                        "style": "$StyleSettingsText"
                                     },
                                     "children": [
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": { "x": 670, "y": 70 },
+                                                "rect": { "x": 0, "y": 70 },
                                                 "filename": "..\\..\\..\\ReMoDDeD\\Monster Previews\\Majiko"
                                             }
                                         }

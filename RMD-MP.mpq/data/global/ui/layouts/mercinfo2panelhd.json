@@ -1194,8 +1194,66 @@
                                     }
                                 }
                             ]
-                        }
+                        },
                         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Quest 17",
+                                        "style": "$StyleSettingsTitleSkill",
+                                        "rect": { "x": -60, "y": -40 }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$MercOptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "To complete Quest 17, please cube a thawing potion and an id scroll",
+                                        "rect": { "x": -60, "y": -10, "width": 1350 },
+                                        "style": {
+                                            "alignment": { "h": "center", "v": "top" },
+                                            "options": { "newlineHandling": "standard", "lineWrap": true },
+                                            "fontColor": "$FontColorLightGold",
+                                            "pointSize": "$MediumFontSize"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "to receive your completion ticket",
+                                        "rect": { "x": -60, "y": -10, "width": 1350 },
+                                        "style": {
+                                            "alignment": { "h": "center", "v": "top" },
+                                            "options": { "newlineHandling": "standard", "lineWrap": true },
+                                            "fontColor": "$FontColorLightGold",
+                                            "pointSize": "$MediumFontSize"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
                     ]
                 }
             ]

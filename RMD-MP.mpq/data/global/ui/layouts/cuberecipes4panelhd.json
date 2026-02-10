@@ -274,7 +274,40 @@
                                     }
                                 }
                             ]
-                        }
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Quest 10",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "To complete quest 10, cube a thawing potion with the item mentioned in the Horadric Rift Shop",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
                     ]
                 }
             ]

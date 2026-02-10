@@ -2,32 +2,24 @@
     "type": "SoundOptionsPanel", "name": "RemoddedInfo4Panel",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
-        "anchor": {
-            "x": 0.5
-        },
+        "rect": "$OptionsPanelRectRMD",
+        "anchor": { "x": 0.5 },
         "applySettingsImmediately": true
     },
     "children": [
         {
-            "type": "ImageWidget",
-            "name": "ScrollBarBackground",
+            "type": "ImageWidget", "name": "ScrollBarBackground",
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
-                "anchor": {
-                    "x": 1.0
-                },
+                "anchor": { "x": 1.0 },
                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_R"
             },
             "children": [
                 {
-                    "type": "ScrollControllerWidget",
-                    "name": "ScrollController",
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
                     "fields": {
                         "rect": "$OptionsScrollBarRect",
-                        "anchor": {
-                            "x": 1.0
-                        },
+                        "anchor": { "x": 1.0 },
                         "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
                         "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
                         "barFilepath": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\SkullScroll",
@@ -39,22 +31,17 @@
             ]
         },
         {
-            "type": "ScrollViewWidget",
-            "name": "ScrollView",
+            "type": "ScrollViewWidget", "name": "ScrollView",
             "fields": {
                 "fitToParent": true,
                 "scrollControllerName": "ScrollController"
             },
             "children": [
                 {
-                    "type": "TableWidget",
-                    "name": "OptionsTable",
+                    "type": "TableWidget", "name": "OptionsTable",
                     "fields": {
-                        "columns": [
-                            "$RMDOptionsTableColumn1",
-                            "$RMDOptionsTableColumn2"
-                        ],
-                        "rowHeight": "$RMDOptionsTableRowHeight"
+                        "columns": [ "$CraftOptionsTableColumn1", "$CraftOptionsTableColumn2" ],
+                        "rowHeight": "$CubeOptionsTableRowHeight"
                     },
                     "children": [
                         /*
@@ -88,8 +75,8 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -268,7 +255,88 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                 }
                             ]
                         },
-                         {
+                        {
+                            "type": "TableRowWidget", "name": "Itemization",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ItemizationT",
+                                    "fields": {
+                                        "text": "Riddle Rewards",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - Riddles can be found throughout Sanctuary that offer various rewards if you manage to solve them",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - The rewards will vary from exclusive items to additional mod or app features unlocked",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - The riddles are NOT shared anywhere and should be considered as optional content for those who enjoy it",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": " - All riddles will require the cube to complete and will outline the needed items or steps (in riddle form)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "IZ1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "IZ1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
                             "type": "TableRowWidget", "name": "Itemization",
                             "children": [
                                 {
@@ -281,8 +349,8 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -460,8 +528,8 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -641,8 +709,8 @@ IIIIIIIIII        ttttttttttt      eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -778,8 +846,8 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                                         {
                                             "type": "ImageWidget", "name": "Divider",
                                             "fields": {
-                                                "rect": "$RMDOptionsDividerRect",
-                                                "filename": "PauseMenu\\Divider"
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
                                             }
                                         }
                                     ]
@@ -1086,7 +1154,75 @@ RRRRRRRR     RRRRRRR    uuuuuuuu  uuuunnnnnn    nnnnnn    eeeeeeeeeeeeee
                                 }
                             ]
                         },
-                        
+                        {
+                            "type": "TableRowWidget", "name": "RC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTextD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RuneChanges",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RuneChangesT",
+                                    "fields": {
+                                        "text": "Quest 24",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTextD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC1T",
+                                    "fields": {
+                                        "text": "To complete quest 24, please cube a scroll of town portal with an antidote potion to receive your completion ticket",
+                                        "style": "$StyleSettingsTextD"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "RC1T",
+                                    "fields": {
+                                        "text": "",
+                                        "style": "$StyleSettingsTextD"
+                                    }
+                                }
+                            ]
+                        }         
                     ]
                 }
             ]

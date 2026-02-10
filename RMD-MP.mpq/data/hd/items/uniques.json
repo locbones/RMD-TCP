@@ -4720,5 +4720,12 @@
       "uber": "..\\custom\\BarrierCharm3",
       "ultra": "..\\custom\\BarrierCharm3"
     }
+  },
+  {
+    "spartans_ire": {
+      "normal": "helmet/duskdeep",
+      "uber": "helmet/duskdeep",
+      "ultra": "helmet/duskdeep"
+    }
   }
 ]

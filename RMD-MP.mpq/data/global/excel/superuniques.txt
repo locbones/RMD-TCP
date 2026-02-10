@@ -78,3 +78,5 @@ Kelthir	Kelthir	kelthir	74		37	0	0	0	0	0	1		2	2	2			Kelthir			Kelthir	0
 Queen Syndred	Queen Syndred	queen_syndred	75		37	0	0	0	0	0	1		2	2	2			Syndred			Syndred	0
 Countess Patreon	Countess Patreon	countess_patreon	76		37	0	0	0	0	0	1		2	2	2	CountPatreonA	CountPatreonB	CountPatreonC	CountPatreonA	CountPatreonB	CountPatreonC	0
 The Mad King	The Mad King	madking	77		5	30	24	5	5	1	0		11	11	11	Act 4 Unique B	Act 4 (N) Unique B	ForsakenIzual	Act 4 Unique B	Act 4 (N) Unique B	ForsakenIzual	0
+Corpus Vesper	Corpus Vesper	batdemon4	78		5	6	27	0	0	1	0		2	2	2	Corpus Vesper	Corpus Vesper (N)	Corpus Vesper (H)	Corpus Vesper	Corpus Vesper (N)	Corpus Vesper (H)	0
+Rictulus	Rictulus	imp2	79		6	26	29	0	0	1	0		2	2	2	Rictulus	Rictulus (N)	Rictulus (H)	Rictulus	Rictulus (N)	Rictulus (H)	0

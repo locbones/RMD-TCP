@@ -185,12 +185,12 @@
     },
     {
       "Name": "Override Hellforge Drops (Hell Runes Table)",
-      "Description": "Forces hell Hellforge rune drops to Tm01",
+      "Description": "Forces hell Hellforge rune drops to r21-r31",
       "Category": "Alteration",
       "Address": "1857CE8",
       "Length": 44,
       "Type": "Hex",
-      "Values": "4576302045763020457630204576302045763020457630204576302045763020457630204576302045763020",
+      "Values": "7232312072323220723233207232342072323520723236207232372072323820723239207233302072333120",
       "OriginalValues": "???",
       "ModdedValues": "4576302045763020457630204576302045763020457630204576302045763020457630204576302045763020"
     },
