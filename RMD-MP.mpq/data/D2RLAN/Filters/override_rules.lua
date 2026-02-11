@@ -6144,7 +6144,7 @@ return {
             index = 670,
             stat = {  index = 398, op = "==", value = 25 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}As with many things in ReMoDDeD, expect these areas to be further developed over time\nYou may find exclusive drops, special monsters or generally increased farming benefit\nOptional levels have more reasons to visit them in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+20%% Faster Run/Walk added to your charm\n{gold}Reward: \n{white}Cube Unrelenting Will alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Unrelenting Will from Corpus Vesper (Disused Reliquary)\n{gold}Task: \n\n{tan}Current Quest {white}[25/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{lilac}As with many things in ReMoDDeD, expect these areas to be further developed over time\nYou may find exclusive drops, special monsters or generally increased farming benefit\nOptional levels have more reasons to visit them in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+20%% Faster Run/Walk added to your charm\n{gold}Reward: \n{white}Cube Arm of King Leoric alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Arm of King Leoric from Corpus Vesper (Disused Reliquary)\n{gold}Task: \n\n{tan}Current Quest {white}[25/45]\n{gold}----------------------------------------\n\n"
 		},
          { -- Evil Barrier 26
 			code = "B02",
@@ -6172,7 +6172,7 @@ return {
             index = 670,
             stat = {  index = 398, op = "==", value = 29 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}This will be the last free/known example area you will be told about\nThis is another example of an optional area you may want to visit in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube Arm of King Leoric alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Arm of King Leoric from Rictulus (Abaddon)\n{gold}Task: \n\n{tan}Current Quest {white}[29/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{lilac}This will be the last free/known example area you will be told about\nThis is another example of an optional area you may want to visit in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube Unrelenting Will alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Unrelenting Will from Rictulus (Abaddon)\n{gold}Task: \n\n{tan}Current Quest {white}[29/45]\n{gold}----------------------------------------\n\n"
 		},
         { -- Evil Barrier 30
 			code = "B02",
