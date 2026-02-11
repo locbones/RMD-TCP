@@ -5928,7 +5928,7 @@ return {
         { -- Parchment of Proof (Assigned Reward)
 			code= "Bt10",
 			location = { "onplayer" },
-			prefix_desc = "{white}Lightning Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			prefix_desc = "{white}Poison Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
 		},
         { -- Parchment of Proof (Chosen Reward)
 			code = "Bt15",
