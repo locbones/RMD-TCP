@@ -793,7 +793,9 @@ Mephistoq (H)			6	993	993	1024	1024	15	Act 4 (H) Equip A	52	Act 4 (H) Good	3	Goo
 Diablo			6	983	983	983	1024	15	"gld,mul=1280"	5	Act 5 Equip A	52	Act 5 Junk	5	Act 5 Good	3																0
 Diablo (N)			6	983	983	983	1024	15	"gld,mul=1536"	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
 Diablo (H)			6	983	983	983	1024	15	"gld,mul=2048"	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Goodies - Diablo	2														0
-Diabloq			6	993	993	1024	1024	15	Act 5 Equip A	52	Act 5 Good	3																				0
+Diabloq RGFT			-1						Rgx	1																						0
+Diabloq Base			4	993	993	1024	1024	15	Act 5 Equip A	52	Act 5 Good	3																				0
+Diabloq			-2	993	993	1024	1024		Diabloq RGFT	1	Diabloq Base	1																				0
 Diabloq (N)			-6	993	993	1024	1024		S01	6																						0
 Diabloq (H)			6	993	993	1024	1024	15	Act 5 (H) Equip A	52	Act 5 (H) Good	3	Goodies - Diablo	2																		0
 Summoner			5	900	900	972	1024	19	"gld,mul=1280"	9	Act 2 Equip C	15	Act 3 Junk	5	Act 2 Good	3																0

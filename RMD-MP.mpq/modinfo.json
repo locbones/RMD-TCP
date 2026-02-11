@@ -5,9 +5,9 @@
 --My Mod Details--
 Mod Download: https://github.com/locbones/RMD-TCP/archive/refs/heads/main.zip
 Mod Config Download: https://github.com/locbones/RMD-TCP/raw/refs/heads/main/RMD-MP.mpq/modinfo.json
-Mod Version: 0.9.9.9GF (021026)
-News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.9GF)"
-News 1 Message: "This update adds our 'Quest Charm/Onboarding' system to help players learn the mod and reward them for progression. New Superuniques have been added as well as drop tables adjustments for quest flags. New Uniques, New Riddle Rewards and New Recipe adjustments have also been added. As always, we've included some skill balancing and bug fixes to round out the update. We hope you enjoy yet another large update as we inch ever closer to our 1.0 release!"
+Mod Version: 0.9.9.9GFH (021126)
+News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.9GFH)"
+News 1 Message: "This is a hotfix patch that resolves various issues introduced by the large questing system update from 0.9.9.9GF. This update resolves all of the user-submitted bug reports that were brought to our attention yesterday. Thanks for everyone's patience in both dealing with the bugs and reporting them...enjoy the update!"
 News 2 Title: "Questing System!"
 News 2 Message: "We understand that with the scale of this mod and it's expansion-like experience, it can be a little overwhelming for some players trying to learn the ropes. For this reason, a new softcoded questing system has been added that will both teach you the mod in an organic way, while rewarding you for progression through the mod. Expect this feature to evolve over time, but you can view the current details of it in our Mod Info menu (Quest Charm tab)"
 
