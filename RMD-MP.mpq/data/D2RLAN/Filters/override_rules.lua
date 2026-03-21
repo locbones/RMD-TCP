@@ -5276,10 +5276,15 @@ return {
             location = { "onplayer", "atvendor" },
             prefix_desc = "{gray}Cube with QoL Bag to get 3-6 Unique Cores\n{lilac}[Mod Tip]\n\n"
         },
-		{ -- Mod Tips: Demon Tempering, Body Parts
-            codes = { "C00", "C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08", "C09", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C20", "C21", "C22", "C23", "C24", "C25", "C26", "C27", "C28", "C29", "C30", "C31", "C32", "C33", "C34", "C35", "C36", "C37" },
+		{ -- Mod Tips: Enemy Body Parts, Demon Tempering / Runic Forging / Forsaken Pacts
+            codes = { "C00", "C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08", "C09", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C20", "C21", "C22", "C23", "C24", "C25", "C26", "C27", "C28", "C29", "C30", "C31", "C32", "C33", "C34", "C35", "C36", "C37" },
             location = { "onplayer", "atvendor" },
-            prefix_desc = "{gray}One of the Body Parts used in {dark green}Demon Tempering\n{lilac}[Mod Tip]\n\n"
+            prefix_desc = "{white}Runic Forging{gray} and {green}Forsaken Pacts\n{gray}Body Parts are used to finalize {dark green}Demon Tempering{gray},\n{lilac}[Mod Tip]\n\n"
+        },
+		{ -- Mod Tips: Vendor Souls, Runic Forging / Forsaken Pacts
+            codes = { "C10", "C38", "C39", "C40", "C41", "C42", "C43", "C44", "C45", "C46" },
+            location = { "onplayer", "atvendor" },
+            prefix_desc = "{gray}Vendor Souls are used to finalize {white}Runic Forging{gray} and {green}Forsaken Pacts\n{lilac}[Mod Tip]\n\n"
         },
 		{-- Mod Tips: Demon Tempering, Normal base Relics
             codes = "allitems",
@@ -5608,132 +5613,132 @@ return {
 		{ -- Mod Tip: Civerb's Forsaken Pact
 			code = "L00",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Mirrored Flames {gray}- Civerb's + Aldur's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Mirrored Flames {gray}- Civerb's + Aldur's + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Hsaru's Forsaken Pact
 			code = "L01",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's + Larzuk's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Cleglaw's Forsaken Pact
 			code = "L02",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Mikael's Toxicity {gray}- Cleglaw's + Rathma's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Mikael's Toxicity {gray}- Cleglaw's + Rathma's + The Smith's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Iratha's Forsaken Pact
 			code = "L03",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Isenhart's Forsaken Pact
 			code = "L04",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous\n{white}Used for:\n\n"
+			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Vidala's Forsaken Pact
 			code = "L05",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos'\n{white}Used for:\n\n"
+			prefix_desc = "{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos' + Griswold's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Milabrega's Forsaken Pact
 			code = "L06",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's + The Smith's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Cathan's Forsaken Pact
 			code = "L07",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's + The Smith's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Tancred's Forsaken Pact
 			code = "L08",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Underworld's Unrest {gray}- Tancred's + Trang-Oul's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Underworld's Unrest {gray}- Tancred's + Trang-Oul's + Hephasto's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Sigon's Forsaken Pact
 			code = "L09",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Justitia's Divinity {gray}- Sigon's + Orphan's\n{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's\n{green}Blacklight {gray}- Sigon's + Immortal King's {red}-Paladin and Barbarian only\n{white}Used for:\n\n"
+			prefix_desc = "{green}Justitia's Divinity {gray}- Sigon's + Orphan's + Griswold's Soul\n{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's + Griswolds Jawbone\n{green}Blacklight {gray}- Sigon's + Immortal King's + Griswold's Soul {red}-Paladin and Barbarian only\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Infernal Forsaken Pact
 			code = "L10",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal + Aldur's + Immortal King's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal + Aldur's + Immortal King's + Hephasto's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Berserker's Forsaken Pact
 			code = "L11",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos'\n{green}Artio's Calling {gray}- Berserker's + Cow King's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos' + Larzuk's Soul\n{green}Artio's Calling {gray}- Berserker's + Cow King's + The Smith's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Death's Forsaken Pact
 			code = "L12",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos'\n{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos' + Larzuk's Soul\n{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Angelic Forsaken Pact
 			code = "L13",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's\n{green}Celestial Caress {gray}- Angelic's + The Disciple's + Vessel's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's + Griswolds Jawbone\n{green}Celestial Caress {gray}- Angelic's + The Disciple's + Vessel's + Larzuk's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Arctic Forsaken Pact
 			code = "L14",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+			prefix_desc = "{green}Winter Warrior {gray}- Arctic's + Rathma's + Hephasto's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Arcanna's Forsaken Pact
 			code = "L15",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Natalya's Forsaken Pact
 			code = "L16",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Silhouette of Silence {gray}- Natalya's + Kreigur's\n{green}Path of the Vortex {gray}- Unstoppable Force + Natalya's {red}-Barbarian and Assassin only\n{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Silhouette of Silence {gray}- Natalya's + Kreigur's + The Smith's Horn\n{green}Path of the Vortex {gray}- Unstoppable Force + Natalya's + Larzuk's Soul {red}-Barbarian and Assassin only\n{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's + Larzuk's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Aldur's Forsaken Pact
 			code = "L17",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal's + Aldur's + Immortal King's\n{green}Mirrored Flames {gray}- Civerb's + Aldur's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal's + Aldur's + Immortal King's + Hephasto's Horn\n{green}Mirrored Flames {gray}- Civerb's + Aldur's + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Immortal King's Forsaken Pact
 			code = "L18",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal's + Aldur's + Immortal King's\n{green}Blacklight {gray}- Sigon's + Immortal King's {red}-Paladin and Barbarian only\n{white}Used for:\n\n"
+			prefix_desc = "{green}Warrior's Wrath {gray}- Infernal's + Aldur's + Immortal King's + Hephasto's Horn\n{green}Blacklight {gray}- Sigon's + Immortal King's + Griswold's Soul {red}-Paladin and Barbarian only\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Tal Rasha's Forsaken Pact
 			code = "L19",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames\n{white}Used for:\n\n"
+			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames + Griswold's Jawbone\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Griswold's Forsaken Pact
 			code = "L20",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames\n{white}Used for:\n\n"
+			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames + Griswold's Jawbone\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Trang-Oul's Forsaken Pact
 			code = "L21",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Underworld's Unrest {gray}- Tancred's + Trang-Oul's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Underworld's Unrest {gray}- Tancred's + Trang-Oul's + Hephasto's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: M'avina's Forsaken Pact
 			code = "L22",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos'\n{white}Used for:\n\n"
+			prefix_desc = "{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos' + Griswold's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: The Disciple's Forsaken Pact
 			code = "L23",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Celestial Caress {gray}- Angelic's + The Disciple's + Vessel's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Celestial Caress {gray}- Angelic's + The Disciple's + Vessel's + Larzuk's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Heaven's Forsaken Pact
 			code = "L24",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's\n{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Raijin's Rebellion {gray}- Milabrega's + Cathan's + Heaven's + The Smith's Horn\n{green}Pulsing Presence {gray}- Sigon's + Angelic's + Heaven's + Griswolds Jawbone\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Orphan's Forsaken Pact
 			code = "L25",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Justitia's Divinity {gray}- Sigon's + Orphan's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Justitia's Divinity {gray}- Sigon's + Orphan's + Griswold's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Hwanin's Forsaken Pact
 			code = "L26",
@@ -5743,22 +5748,22 @@ return {
 		{ -- Mod Tip: Sazabi's Forsaken Pact
 			code = "L27",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous\n{white}Used for:\n\n"
+			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Bul-Kathos' Forsaken Pact
 			code = "L28",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos'\n{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos'\n{white}Used for:\n\n"
+			prefix_desc = "{green}Unstoppable Force {gray}- Berserker's + Death's + Bul-Kathos' + Larzuk's Soul\n{green}Blessings of Artemis {gray}- Vidala's + M'avina's + Bul Kathos' + Griswold's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Cow King's Forsaken Pact
 			code = "L29",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Artio's Calling {gray}- Berserker's + Cow King's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Artio's Calling {gray}- Berserker's + Cow King's + The Smith's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Naj's Forsaken Pact
 			code = "L30",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Elemental Blueprints {gray}- Iratha's + Arcanna's + Naj's + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Sander's/McAuley's Forsaken Pact
 			code = "L31",
@@ -5768,12 +5773,12 @@ return {
 		{ -- Mod Tip: Vessel's Forsaken Pact
 			code = "L32",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Celestial Caress {gray}- Angelic's + Disciple's + Vessel's\n{green}Breaker of Chains {gray}- Vessel's + Majestic\n{white}Used for:\n\n"
+			prefix_desc = "{green}Celestial Caress {gray}- Angelic's + Disciple's + Vessel's + Larzuk's Soul\n{green}Breaker of Chains {gray}- Vessel's + Majestic + Griswold's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Majestic Forsaken Pact
 			code = "L33",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Breaker of Chains {gray}- Vessel's + Majestic\n{white}Used for:\n\n"
+			prefix_desc = "{green}Breaker of Chains {gray}- Vessel's + Majestic + Griswold's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Skovos Forsaken Pact
 			code = "L34",
@@ -5783,37 +5788,37 @@ return {
 		{ -- Mod Tip: Wonderous / Wonder Wear Forsaken Pact
 			code = "L35",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous\n{white}Used for:\n\n"
+			prefix_desc = "{green}Plates Of Protection {gray}- Isenhart's + Sazabi's + Wonderous + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Vizjerei's Forsaken Pact
 			code = "L36",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's + Griswold's Jawbone\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Battlemage's Forsaken Pact
 			code = "L37",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's + Griswold's Jawbone\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Glacial Forsaken Pact
 			code = "L38",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Black Tempest {gray}- Glacial + Blessings of Artemis\n{white}Used for:\n\n"
+			prefix_desc = "{green}Black Tempest {gray}- Glacial + Blessings of Artemis + Hephasto's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Rathma's Forsaken Pact
 			code = "L39",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Mikael's Toxicity {gray}- Cleglaw's + Rathma's\n{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Winter Warrior {gray}- Arctic's + Rathma's + Hephasto's Horn\n{green}Mikael's Toxicity {gray}- Cleglaw's + Rathma's + The Smith's Horn\n{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Stacatomamba's Forsaken Pact
 			code = "L40",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Mangala's Teachings {gray}- Hsaru's + Natalya's + Stacatomamba's + Larzuk's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Kreigur's Forsaken Pact
 			code = "L41",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Silhouette of Silence {gray}- Natalya's + Kreigur's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Silhouette of Silence {gray}- Natalya's + Kreigur's + The Smith's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Sukami Forsaken Pact
 			code = "L42",
@@ -5823,12 +5828,12 @@ return {
 		{ -- Mod Tip: Mirrored Flames Forsaken Pact
 			code = "L43",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames\n{white}Used for:\n\n"
+			prefix_desc = "{green}Sacrificial Tribute {gray}- Tal Rasha's + Griswold's + Mirrored Flames + Griswold's Jawbone\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Unstoppable Force Forsaken Pact
 			code = "L44",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Path of the Vortex {gray}- Unstoppable Force + Natalya's {red}-Barbarian and Assassin only\n{white}Used for:\n\n"
+			prefix_desc = "{green}Path of the Vortex {gray}- Unstoppable Force + Natalya's + Larzuk's Soul {red}-Barbarian and Assassin only\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Underworld's Unrest Forsaken Pact
 			code = "L45",
@@ -5838,7 +5843,7 @@ return {
 		{ -- Mod Tip: Elemental Blueprints Forsaken Pact
 			code = "L46",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Cascading Caldera {gray}- Vizjerei's + Elemental Blueprints + Battlemage's + Griswold's Jawbone\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Raijin's Rebellion Forsaken Pact
 			code = "L47",
@@ -5858,12 +5863,12 @@ return {
 		{ -- Mod Tip: Blessings of Artemis Forsaken Pact
 			code = "L50",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Black Tempest {gray}- Glacial + Blessings of Artemis\n{white}Used for:\n\n"
+			prefix_desc = "{green}Black Tempest {gray}- Glacial + Blessings of Artemis + Hephasto's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Artio's Calling Forsaken Pact
 			code = "L51",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's\n{white}Used for:\n\n"
+			prefix_desc = "{green}Memento Mori {gray}- Rathma's + Artio's Calling + Death's + Charsi's Soul\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Justitia's Divinity Forsaken Pact
 			code = "L52",
@@ -5963,7 +5968,7 @@ return {
         { -- Parchment of Proof (Chosen Reward)
 			code = "Bt45",
 			location = { "onplayer" },
-			prefix_desc = "{blue}+1 Blink Strike\nDamage Reduced by 10%%\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+10%% Magic Resistance\n+150 Fire/Cold/Lightning Damage\n+10%% Faster Cast Rate\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}-10%% to All Enemy Immunities\n+10%% Increased Attack Speed\n+15%% Dexterity\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}+1 Spell Power\n+1000 Defense\n+5%% Life and Mana stolen per hit\n+1 to Magic Skills\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+20%% Cooldown Reduction\n-35%% Poison Length Reduction\n+10%% Chance of Crushing Blow\n+15 to All Stats\n+1 Summoning Power\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
+			prefix_desc = "{blue}+1 Blink Strike\nDamage Reduced by 10%%\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+10%% Magic Resistance\n+150 Fire/Cold/Lightning Damage\n+10%% Faster Cast Rate\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}-10%% to All Enemy Immunities\n+10%% Increased Attack Speed\n+15%% Dexterity\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}+1 Spell Power\n+1000 Defense\n+5%% Life and Mana stolen per hit\n+1 to Magic Skills\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+20%% Cooldown Reduction\n-35%% Poison Length Reduction\n+10%% Chance of Crushing Blow\n+15 to All Stats\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
 		},
         { -- Evil Barrier 1
 			code = "B01",

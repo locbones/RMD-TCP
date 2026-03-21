@@ -119,7 +119,7 @@
                                 "rect": { "x": -40, "y": 80 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword43@nl@white@rlvl 47@nl@blue +15% @cast@nl +24% @hitrecovery@nl +3-5 @to @skSummonMastery @strNecromanerOnly@nl +10 @strchrdef@nl +10-25% @sumhp@nl +10-25% @sumcr@nl +10-25% @sumdmg@nl +10 @to @strchrvit@nl +10% @maxmana@nl@mdr 3@nl +1 @lradius@nl@nl@runelow  1@runemid 0@runehigh 1@runeultra 0@canforge@nl@grey@t5cost@C03"
+                                "tooltipString": "@tan@Runeword43@nl@white@rlvl 47@nl@blue +15% @cast@nl +24% @hitrecovery@nl +3-5 @to @skSummonMastery @strNecromanerOnly@nl +10 @strchrdef@nl +10-25% @sumhp@nl +10-25% @sumcr@nl +10-25% @sumdmg@nl +10 @to @strchrvit@nl +10% @maxmana@nl@mdr 3@nl +1 @lradius@nl@nl@runelow  1@runemid 0@runehigh 1@runeultra 0@canforge@nl@grey@t5cost@C13"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------
@@ -7325,7 +7325,7 @@
                                         {
                                         "type": "TextBoxWidget", "name": "GameplayChangesT",
                                         "fields": {
-                                            "rect": { "x": 90, "y": -10},
+                                            "rect": { "x": 180, "y": -10},
                                             "text": "§",
                                             "style": "$RWInfoForge"
                                             }
@@ -7490,7 +7490,7 @@
                                         {
                                         "type": "TextBoxWidget", "name": "GameplayChangesT",
                                         "fields": {
-                                            "rect": { "x": 90, "y": -10},
+                                            "rect": { "x": 180, "y": -10},
                                             "text": "§",
                                             "style": "$RWInfoForge"
                                             }

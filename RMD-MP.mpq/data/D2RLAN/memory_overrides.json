@@ -270,6 +270,17 @@
       "Values": "47753120623635206D333020",
       "OriginalValues": "???",
       "ModdedValues": "47753120623635206D333020"
+    },
+    {
+        "Name": "Auto-Collect Player Corpse",
+        "Description": "This will make the player automatically retrieve corpse when re-spawning in town (gold still dropped)",
+        "Category": "Alteration",
+        "Address": "3136B6",
+        "Length": 5,
+        "Type": "Hex",
+        "Values": "9090909090",
+        "OriginalValues": "E825C3FFFF",
+        "ModdedValues": "9090909090"
     }
   ]
 }
