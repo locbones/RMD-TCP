@@ -3450,6 +3450,27 @@ return {
                 zhTW = "{blue}35%%冷/火/閃電損壞10分鐘\nμC0EAT要接收：\n\n〜C5A禮物來自Bonesy Bunny ...\n",
             }
         },
+            { -- Candy Corn
+            codes = { "Ev11", "Ev12" },
+            location = { "onplayer", "equipped", "atvendor", "onground" },
+            filter_levels = 1,
+            name_style = "OpenFlames",
+            prefix_desc = {
+                deDE = "{blue}35%% Kalt-/Feuer-/Blitzschaden für 10 Minuten\n{white}eat, um zu erhalten:\n\nbinc5a Geschenk vom Boney Bunny ...\n",
+                enUS = "{white}2000{orange} Candy Corn: {blue}Grants an Tri-Masteries Charm\n{white}1500{orange} Candy Corn: {blue}Grants an Tri-Splash Charm\n{white}1300{orange} Candy Corn: {blue}Grandfather Quiver\n{white}1000{orange} Candy Corn: {blue}Grants an infinite premium socket remover\n{white}750{orange} Candy Corn: {blue}Rune Gamble (x9 Random Runes)\n{white}500{orange} Candy Corn: {blue}Limit Break Package\n{white}400{orange} Candy Corn: {blue}Prismatic Facet\n{white}300{orange} Candy Corn: {blue}Random Unique Grand Charm\n{white}200{orange} Candy Corn: {blue}Buff Unique Charms\n{white}100{orange} Candy Corn: {blue}Random Unique Small Charm\n{white}50{orange} Candy Corn: {blue}Organ Set (Uber Tristram)\n{white}35{orange} Candy Corn: {blue}+50-100 Soul Shards\n{white}25{orange} Candy Corn: {blue}Remove Merc Only Restriction\n{white}15{orange} Candy Corn: {blue}Random Bugged/Legacy Item\n{white}10{orange} Candy Corn: {blue}Random Unique Archon Plate\n{white}5{orange} Candy Corn: {blue}Grants 250K Gold\n{white}3{orange} Candy Corn: {blue}Random Set Item\n{white}2{orange} Candy Corn: {blue}Random Unique Item\n{purple}Hint: (Check your Recipe Menu)\n\n",
+                esES = "{blue}35%% Cold/Fire/Lightning Daño durante 10 minutos\n{white}eat para recibir:\n\n{gray}a regalo del conejito de huesos ...\n",
+                esMX = "{blue}35%% Cold/Fire/Lightning Daño durante 10 minutos\n{white}eat para recibir:\n\n{gray}a regalo del conejito de huesos ...\n",
+                frFR = "{blue}35%% Dommages à froid / feu / Lightning pendant 10 minutes\n{white}EAT à recevoir:\n\n{gray}a Cadeau du Boney Bunny ...\n",
+                itIT = "{blue}35%% Danno freddo/fuoco/fulmini per 10 minuti\n{white}eat da ricevere:\n\n{gray}a regalo dal coniglietto Bonesy ...\n",
+                jaJP = "{blue}35%%コールド/火/稲妻ダメージ10分間\nc0eat受け取る：\n\n{gray}a骨バニーからの贈り物...\n",
+                koKR = "{blue}냉기/화염/번개 피해 +35%% (10분간 지속)\n{white}사용 시 효과:\n\n{gray}Bonesy Bunny가 준 선물...\n",
+                plPL = "{blue}35%% obrażeń zimnych/ognia/błyskawicy przez 10 minut\n{white}at, aby otrzymać:\n\n{gray}a Prezent od Boney Bunny ...\n",
+                ptBR = "{blue}35%% de dano de frio/fogo/raio por 10 minutos\n{white}eat para receber:\n\n{gray}a presente do coelho Bonesy ...\n",
+                ruRU = "{blue}35%% холодный/огнестойкий/молниеносный урон за 10 минут\n{white}eat для получения:\n\n{gray}a подарок от костей кролика ...\n",
+                zhCN = "{blue}35%%冷/火/闪电损坏10分钟\nμC0EAT要接收：\n\n〜C5A礼物来自Bonesy Bunny ...\n",
+                zhTW = "{blue}35%%冷/火/閃電損壞10分鐘\nμC0EAT要接收：\n\n〜C5A禮物來自Bonesy Bunny ...\n",
+            }
+        },
         { --Milk and Cookies
             codes = { "Ev05", "Ev06", "Ev07", "Ev08", "Ev09", "Ev10" },
             location = { "onplayer", "equipped", "atvendor", "onground" },
@@ -5309,7 +5330,17 @@ return {
             quality = "7",
             rarity = "2",
             identified = true,
-            index = { 189, 211, 213, 217, 225, 226, 231, 246, 247, 249, 254, 262, 292, 295, 412, 413, 418, 423, 428, 433, 438, 445, 447, 453 },
+            index = { 189, 211, 213, 217, 226, 231, 246, 247, 249, 254, 262, 292, 295, 412, 413, 418, 423, 428, 433, 438, 445, 447, 453 },
+            location = { "onplayer", "atvendor", "equipped" },
+            prefix = "{dark green}Can be Demon Tempered{gold}\n"
+        },        
+		{ -- Mod Tips: Demon Tempering, Grandfather
+            code = "7gd",
+            quality = "7",
+            rarity = "2",
+			itype = 30,
+            identified = true,
+            index = 225,
             location = { "onplayer", "atvendor", "equipped" },
             prefix = "{dark green}Can be Demon Tempered{gold}\n"
         },
@@ -5921,7 +5952,7 @@ return {
 			prefix_desc = "{white}(See Barrier Charm tooltip for more details)\nUsed to upgrade the quality of your {gold}Evil Barrier {white}charm\n"
 		},
         { -- Parchment of Proof (No Reward)
-			codes = { "Bt00", "Bt01", "Bt02", "Bt03", "Bt05", "Bt06", "Bt07", "Bt08", "Bt10", "Bt11", "Bt12", "Bt13", "Bt14", "Bt16", "Bt17", "Bt18", "Bt20", "Bt21", "Bt22", "Bt23", "Bt25", "Bt26", "Bt27", "Bt28", "Bt29", "Bt31", "Bt32", "Bt33", "Bt35", "Bt36", "Bt37", "Bt38", "Bt40", "Bt41", "Bt42", "Bt43", "Bt44" },
+			codes = { "Bt00", "Bt01", "Bt02", "Bt03", "Bt04", "Bt06", "Bt07", "Bt08", "Bt09", "Bt11", "Bt12", "Bt13", "Bt14", "Bt16", "Bt17", "Bt18", "Bt19", "Bt21", "Bt22", "Bt23", "Bt24", "Bt26", "Bt27", "Bt28", "Bt29", "Bt31", "Bt32", "Bt33", "Bt34", "Bt36", "Bt37", "Bt38", "Bt39", "Bt41", "Bt42", "Bt43", "Bt44" },
 			location = { "onplayer" },
 			prefix_desc = "{grey}Cube with your {gold}Evil Barrier {grey}charm to complete the Quest\n"
 		},
@@ -5953,7 +5984,7 @@ return {
         { -- Parchment of Proof (Chosen Reward)
 			code = "Bt30",
 			location = { "onplayer" },
-			prefix_desc = "{blue}-40%% Target Defense\n+50%% Curse Duration\n+20%% Chance to Block\n+5 Life after Demon kill\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+25%% Summon Damage\n+10%% Life\nHalf Freeze Duration\n10%% Chance to reanimate a slain enemy as a Blunderbore\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}+20%% Energy\n5%% CtC Level 40 Energy Shield when struck\n20%% Damage Taken goes to Mana\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}-10%% to All Enemy Resistances\n+150 Raven Damage\n+30 to Dexterity\n+40%% Buff Duration\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+20%% Movement Speed\n+100%% Mana Regen\n+20%% Bone Skill Damage\n+15%% Faster Hit Recovery\n+1 Summoning Power\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
+			prefix_desc = "{blue}-40%% Target Defense\n+50%% Curse Duration\n+20%% Chance to Block\n+5 Life after Demon kill\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+25%% Summon Damage\n+10%% Life\nHalf Freeze Duration\n10%% Chance to reanimate a slain enemy as a Blunderbore\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}+20%% Energy\n5%% CtC Level 40 Energy Shield when struck\n20%% Damage Taken goes to Mana\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}-10%% to All Enemy Resistances\n+150 Raven Damage\n+30 to Dexterity\n+40%% Buff Duration\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+20%% Movement Speed\n+20%% Bone Skill Damage\n+15%% Faster Hit Recovery\n+1 Summoning Power\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
 		},
         { -- Parchment of Proof (Assigned Reward)
 			code= "Bt35",
@@ -6205,7 +6236,7 @@ return {
             index = 670,
             stat = {  index = 398, op = "==", value = 33 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}If you'd like the most basic of Loot Filters, you can use the ReMoDDeD Default option\nIf you don't like any of the user-made ones and want to create your own, you can do that also\nFind the one that suits you the best, hides/displays items as you'd prefer, etc\nThese filters are created by players like yourself, each with their own goals and display choices\nLoot Filters can be chosen and applied to enhance your farming experience\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the specified items found in the 'Quest 33' loot filter to complete the quest\n{gold}Special Notes: \n{white}Visit the Loot Filter panel in the D2RLAN side-menu\n{gold}Task: \n\n{tan}Current Quest {white}[33/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{lilac}If you'd like the most basic of Loot Filters, you can use the ReMoDDeD Default option\nIf you don't like any of the user-made ones and want to create your own, you can do that also\nFind the one that suits you the best, hides/displays items as you'd prefer, etc\nThese filters are created by players like yourself, each with their own goals and display choices\nLoot Filters can be chosen and applied to enhance your farming experience\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the specified items found in the 'Quest 33' loot filter to complete the quest\n{gold}Special Notes: \n{white}Visit the Loot Filter panel in the Pandemonium side-menu\n{gold}Task: \n\n{tan}Current Quest {white}[33/45]\n{gold}----------------------------------------\n\n"
 		},
         { -- Evil Barrier 34
 			code = "B03",

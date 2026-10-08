@@ -33200,5 +33200,22 @@
 	    "ruRU": "ÿcTPact Fusion требует",
 	    "zhCN": "ÿcTPact Fusion 需要",
 	    "zhTW": "ÿcTPact Fusion 需要"
+    },
+    {
+      "id": 63192,
+      "Key": "bp24",
+      "deDE": "Blutiges Heiligtum",
+      "enUS": "Sanguine Sanctum",
+      "esES": "Santuario Sanguinario",
+      "esMX": "Santuario Sanguinario",
+      "frFR": "Sanctuaire Sanguinaire",
+      "itIT": "Santuario Sanguinario",
+      "jaJP": "血塗れの聖域",
+      "koKR": "피의 성소",
+      "plPL": "Krwawa Świątynia",
+      "ptBR": "Santuário Sanguinário",
+      "ruRU": "Кровавое святилище",
+      "zhCN": "血腥圣所",
+      "zhTW": "血腥聖所"
     }
 ]

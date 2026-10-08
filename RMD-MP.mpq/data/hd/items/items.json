@@ -12,6 +12,8 @@
   { "Ev08": { "asset": "..//custom//MilkCookies" } },
   { "Ev09": { "asset": "..//custom//MilkCookies" } },
   { "Ev10": { "asset": "..//custom//MilkCookies" } },
+  { "Ev11": { "asset": "..//custom//candycorn" } },
+  { "Ev12": { "asset": "..//custom//candycornb" } },
   { "Bt00": { "asset": "..//custom//Parchment_of_Proof" } },
   { "Bt01": { "asset": "..//custom//Parchment_of_Proof" } },
   { "Bt02": { "asset": "..//custom//Parchment_of_Proof" } },

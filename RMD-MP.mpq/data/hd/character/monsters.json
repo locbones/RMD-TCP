@@ -1081,13 +1081,13 @@
   "wraithX": "wraith1",
   "vampireX": "vampire1",
   "madking": "madking",
-  "andarielxmas": "andariel",
-  "durielxmas": "duriel",
-  "mephistoxmas": "mephisto",
-  "diabloxmas": "diablo",
-  "baalcrabxmas": "baalcrab",
-  "succubusxmas": "succubuswitch1",
-  "willowispxmas": "willowisp1",
-  "cr_lancerxmas": "cr_lancer1",
-  "cr_archerxmas": "cr_archer1"
+  "andarielevent": "andariel",
+  "durielevent": "duriel",
+  "mephistoevent": "mephisto",
+  "diabloevent": "diablo",
+  "baalcrabevent": "baalcrab",
+  "succubusevent": "succubuswitch1",
+  "willowispevent": "willowisp1",
+  "cr_lancerevent": "cr_lancer1",
+  "cr_archerevent": "cr_archer1"
 }

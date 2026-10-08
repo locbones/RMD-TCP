@@ -1,0 +1,316 @@
+{
+    "type": "VideoOptionsPanel", "name": "CubeRecipes4Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRectRMD",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": true
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_R"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\SkullScroll",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$CubeOptionsTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Socket-Related",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Ramaladni's Gift + Item = Same Item +1 Socket (Repeatable)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "1x Each Essence = Socket Remover (Destroys runes/jewels)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "10x Socket Remover = Premium Socket Remover (Keeps runes/jewels)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "Ramaladni's Gift Slot Limits: 1-Hand: 4, 2-Hand: 6 (Sets/Uniques Only)",
+                                        "style": "$RecipeSettingsTextPink"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Quality Upgrades",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Normal Item + 3x Rare Jewels = Rare Item (same ilvl)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Normal Item (Rare/Unique) + Item UpConverter (Advanced) = Exceptional Item",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Exceptional Item (Rare/Unique) + Item UpConverter (Elite) = Elite Item",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag (10 Magic Jewels) + Item UpConverter (Basic) = Rare Jewel",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag (30 Rare Jewels) + Item UpConverter (Advanced) = Rainbow Facet (Random)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Specialty Upgrades",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "5x Rainbow Facets of each element (30 total) = Prismatic Facet",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Storage Bag + 10x Rainbow Facets = Storage Bag (+100 Gems)",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "2x Zod Rune = Rare Jewel w/ Indestructible",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Any Item + Any Hammer = Item w/ Knockback Added",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC2T",
+                                    "fields": {
+                                        "text": "Any Item + Gold Bar + Token of Evil = Add Ethereal to Item",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "text": "Quest 10",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$CubeOptionsDividerRect",
+                                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\Divider"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC3T",
+                                    "fields": {
+                                        "text": "To complete quest 10, cube a thawing potion with the item mentioned in the Horadric Rift Shop",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                    ]
+                }
+            ]
+        }
+    ]
+}

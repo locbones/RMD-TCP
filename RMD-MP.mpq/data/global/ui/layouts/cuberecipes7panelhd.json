@@ -1,4 +1,4 @@
-//Sorting By: ItemType
+﻿//Sorting By: ItemType
 {
     "type": "VideoOptionsPanel", "name": "CubeRecipes7Panel",
     "fields": {
@@ -13,7 +13,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_R"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_D"
             },
             "children": [
                 {
@@ -613,7 +613,7 @@
         "rect": { "x": -40, "y": 880 },
         "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
         "hoveredFrame": 1,
-        "tooltipString": "@green@bp19@nl@grey (@RWHelm, @RWPole, @RWTorso)@nl@fpcost@C38@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +5 @to @skBoneSpikes@nl@sumdmg +150%@nl +3 @sumpower@nl 10% @reanimate @SkCommander@nl 10% @reanimate @Specter@nl 10% @reanimate @OblivionKnight@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
+        "tooltipString": "@green@bp19@nl@grey (@RWHelm, @RWPole, @RWTorso)@nl@fpcost@C38@nl@nl@gold@setbonus@nl@blue +3 @askills@nl +5 @to @skBoneSpikes@nl@sumdmg +150%@nl +3 @sumpower@nl 10% @reanimate @SkCommander@nl 10% @reanimate @Specter@nl 10% @reanimate @OblivionKnight@nl@tan Piercing Splash@nl@nl@gold@firstdiscover@tan PlausibleSheep@blue"
     }
 },
 
@@ -972,6 +972,48 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "x": 10, "y": -20},
+                                        "text": "@bp24",
+                                        "style": "$RWInfoFB"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " ???",
+                                        "style": "$RWInfo"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "y": -20},
+                                        "text": " ???",
+                                        "style": "$RWInfo"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "AdvancedStats",
+                            "fields": {
+                                "rect": { "x": -40, "y": 1520 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
+                                "hoveredFrame": 1,
+                                "tooltipString": "@green@bp24@nl@grey (@rin, @amu, @RWTorso)@nl@fpcost@C29@nl@nl@gold@setbonus@nl@blue +2 @to @askills@nl +3 @to @compower@nl Curse Length Reduced By 25%@nl +15 Physical Conviction @aura@nl@tan Piercing Splash@nl@nl@gold@firstdiscover@tan ???@blue"
+                            }
+                        },
+/*--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------*/                        
+                        {
+                            "type": "TableRowWidget", "name": "Gameplay Changes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GameplayChangesT",
+                                    "fields": {
+                                        "rect": { "x": 10, "y": -20},
                                         "text": "@bp14",
                                         "style": "$RWInfoFB"
                                     }
@@ -1005,7 +1047,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1520 },
+                                "rect": { "x": -40, "y": 1600 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@green@bp14@nl@grey (@Assassin @RWBoot, @cloak, @RWGlove)@nl@fpcost@C28@nl@nl@gold@setbonus@nl@blue +4 @sin@nl @buffdur 50%@nl@allenemyimmunity 20%@nl +10% @allatrb@nl +10 @lradius@nl@nl@gold@firstdiscover@tan Spike@blue"
@@ -1055,7 +1097,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1600 },
+                                "rect": { "x": -40, "y": 1680 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@green@bp03@nl@grey (@RWScythe, @RWBelt, @RWBoot)@nl@fpcost@C27@nl@nl@gold@setbonus@nl@blue +4 @necro@nl@allenemyimmunity -20%@nl +5 @to @skBloodGolem @strNecromanerOnly@nl +5 @sumpower@nl +10% @exp@nl@nl@gold@firstdiscover@tan Momotarou@blue"
@@ -1105,7 +1147,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1680 },
+                                "rect": { "x": -40, "y": 1760 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@green@bp02@nl@grey (2x @tsp)@nl@fpcost@C45@nl@nl@gold@setbonus@nl@blue +5 @barbsk@nl@dmg +500@nl +300% @hit@nl +30% @crush@nl +7 @to @skDoubleThrow @strBarbarianOnly@nl@nl@gold@firstdiscover@tan Momotarou@blue"
@@ -1155,7 +1197,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1760 },
+                                "rect": { "x": -40, "y": 1840 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@green@bp07@nl@grey (@RWGlove, @mau)@nl@fpcost@C27@nl@nl@gold@setbonus@nl@blue +4 @barbsk@nl +4 @druid@nl@dmg +250@nl@enemy @phys @immunity -40%@nl +30 @strchrstr@nl +10 @compower@nl@nl@gold@firstdiscover@tan Trasjr@blue"
@@ -1197,7 +1239,7 @@
                         {
                             "type": "ButtonWidget", "name": "AdvancedStats",
                             "fields": {
-                                "rect": { "x": -40, "y": 1840 },
+                                "rect": { "x": -40, "y": 1920 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
                                 "tooltipString": "@green@bp23@nl@grey (@RWShield, @amu)@nl@fpcost@C27@nl@nl@gold@setbonus@nl@blue +2 @askills@nl +1 @necro@nl +1 @to @skFrostGolem @nl +35% @cast@nl +75% @goldfind @nl @cdr 35%@nl@nl@gold@firstdiscover@tan KreshanXD@blue"

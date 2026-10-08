@@ -1,0 +1,165 @@
+{
+    "basedOn": "CharacterSelectPanelHD.json",
+    "type": "CharacterSelectPanel", "name": "CharacterSelectPanel",
+    "children": [
+        {
+            "type": "ImageWidget", "name": "Background",
+            "children": [
+                {
+                    "type": "ListWidget", "name": "CharacterList",
+                    "children": [
+                        // character list
+                        {
+                            "type": "ListItemWidget", "name": "CharacterTemplate",
+                            "fields": {
+                                "focusIndicatorFilename": "..\\..\\..\\ReMoDDeD\\Controller\\CS_Hover",
+                                "focusIndicatorOffset": { "x": 5, "y": 10 },
+                                "navigation": {
+                                    "left": { "panelBoundary": true }
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "ImageWidget", "name": "Background"
+                                },
+                                {
+                                    "type": "ImageWidget", "name": "LadderIcon",
+                                    "children": [
+                                        {
+                                            "type": "FocusableWidget", "name": "LadderIconTooltip"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ImageWidget", "name": "ClassicIcon",
+                                    "children": [
+                                        {
+                                            "type": "FocusableWidget", "name": "ClassicIconTooltip"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ImageWidget", "name": "HardcoreIcon",
+                                    "children": [
+                                        {
+                                            "type": "FocusableWidget", "name": "HardcoreIconTooltip"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Title"
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Name"
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Level&Class"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ImageWidget", "name": "Selection"
+                        }
+                    ]
+                },
+                {
+                    "type": "ImageWidget", "name": "BackgroundCover",
+                    "children": [
+                        {
+                            "type": "ButtonWidget", "name": "CreateCharacter",
+                            "fields": {
+                                "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                                "focusIndicatorOffset": { "x": 0, "y": 0 }
+                            },
+                            "children": [
+                                {
+                                    "type": "ButtonLegendWidget", "name": "MainMenuLegend",
+                                    "fields": {
+                                        "anchor": { "x": 0.5, "y": 1.0 },
+                                        "text": {
+                                            "style": "$StyleButtonLegend",
+                                            "style": {
+                                                "dropShadow": "$DefaultDropShadow"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "DeleteCharacter",
+                            "children": [
+                                {
+                                    "type": "ButtonLegendWidget", "name": "MainMenuLegend",
+                                    "fields": {
+                                        "anchor": { "x": 0.5, "y": 1.0 },
+                                        "text": {
+                                            "style": "$StyleButtonLegend",
+                                            "style": {
+                                                "dropShadow": "$DefaultDropShadow"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "ConvertCharacter",
+                            "children": [
+                                {
+                                    "type": "ButtonLegendWidget", "name": "MainMenuLegend",
+                                    "fields": {
+                                        "anchor": { "x": 0.5, "y": 1.0 },
+                                        "text": {
+                                            "style": "$StyleButtonLegend",
+                                            "style": {
+                                                "dropShadow": "$DefaultDropShadow"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TabBarWidget", "name": "Tabs"
+                        },
+                        {
+                            "type": "ImageWidget", "name": "ScrollBarBackground",
+                            "children": [
+                                {
+                                    "type": "ScrollControllerWidget", "name": "ScrollBar"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "ModName",
+                            "fields": {
+                                "rect": { "x": 255, "y": 1990, "width": 400 },
+                                "text":"ReMoDDeD",
+                                "style": {
+                                    "fontColor": "$CharacterListDetailsColor",
+                                    "pointSize": "$XLargeFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "ModAuthors",
+                            "fields": {
+                                "rect": { "x": 235, "y": 2040, "width": 400 },
+                                "text":"(Beta - 0.9.9.9GF)",
+                                "style": {
+                                    "fontColor": "$FontColorBonesyRed",
+                                    "pointSize": "$XMediumPanelFontSize",
+                                    "spacing": "$ReducedSpacing",
+                                    "dropShadow": "$DefaultDropShadow"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

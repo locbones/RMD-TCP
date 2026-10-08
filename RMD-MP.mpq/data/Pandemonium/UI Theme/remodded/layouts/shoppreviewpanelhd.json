@@ -1,0 +1,94 @@
+{
+    "type": "SettingsPanel", "name": "ShopPreviewPanel",
+    "fields": {
+        "priority": 9002,
+        "fitToParent": true
+    },
+    "children": [
+        {
+            "type": "RectangleWidget", "name": "Background",
+            "fields": {
+                "fitToScreen": true,
+                "color": [ 0.0, 0.0, 0.0, 0.7 ]
+            },
+            "children": [
+                {
+                    "type": "ClickCatcherWidget", "name": "catcher",
+                    "fields": {
+                        "fitToParent": true
+                    }
+                },
+                {
+                    "type": "Widget", "name": "Anchor",
+                    "fields": {
+                        "anchor": { "x": 0.5, "y": 0.5 },
+                        "rect": "$SettingsPanelAnchorRect"
+                    },
+                    "children": [
+                        {
+                            "type": "ImageWidget", "name": "Background",
+                            "fields": {
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\InfoBG"
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget", "name": "Title",
+                            "fields": {
+                                "rect": { "x": 0, "y": 50, "width": 1950, "height": 103 },
+                                "text": "Never Gonna Give You Up",
+                                "style": "$StyleTitleBlock"
+                            }
+                        },
+                        {
+                            "type": "ButtonWidget", "name": "CloseButton",
+                            "fields": {
+                                "rect": { "x": 1798, "y": 68 },
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\Exit",
+                                "hoveredFrame": 3,
+                                "onClickMessage": "PanelManager:ClosePanel:ShopPreviewPanel",
+                                "tooltipString": "@strClose",
+                                "sound": "cursor_close_window_hd",
+                                "acceptsEscKeyEverywhere": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ImageWidget", "name": "SettingsBackground",
+            "fields": {
+                "rect": "$SettingsPanelBackgroundRect",
+                "anchor": { "x": 0.5 },
+                "filename": "Controller/Panel/Options/Panel_Options_BG"
+            }
+        },
+        {
+            "type": "AnimatedImageWidget", "name": "Skill1",
+            "fields": {
+                "anchor": { "x": 0.42 },
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Shop\\ShopRick",
+                "rect": { "y": 580, "scale": 2.0 },
+                "fps": 10
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Title2",
+            "fields": {
+                "anchor": { "x": 0.5 },
+                "rect": { "y": 330 },
+                "text": "Never Gonna Let You Down",
+                "style": "$StyleTitleBlockG"
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Title3",
+            "fields": {
+                "anchor": { "x": 0.5 },
+                "rect": { "y": 480 },
+                "text": "But sometimes I will troll you...",
+                "style": "$StyleTitleBlockR"
+            }
+        },
+    ]
+}

@@ -76,7 +76,7 @@ Hephasto (N) Flavor			1					1	Bonesnap	1																						0
 Hephasto (NM) Flavor			1					1	The Gavel of Pain	1	Earthshaker	1																				0
 Hephasto (H) Flavor			1					1	The Cranium Basher	1																						0
 Bishibosh (N) Flavor			1					1	Hsarus' Iron Heel	1	Hsarus' Iron Fist	1	Hsarus' Iron Stay	1																		0
-Bishibosh (NM) Flavor			1					1	The Salamander	1	Magefist	1																				0
+Bishibosh (NM) Flavor			1					1	The Salamander	1	Magefist1	1																				0
 Bishibosh (H) Flavor			1					1	The Oculus	1																						0
 Fire Eye Flavor			1					1	Kreigur's Will	1	Kreigur's Judgement	1	Bul-Kathos' Sacred Charge	1	Bul-Kathos' Tribal Guardian	1																0
 Corpus Vesper Flavor			1					1	Gravenspine	1																						0
@@ -295,7 +295,7 @@ Act 3 (H) Good	5	78	1						Blank	80	Jewelry D	300	Perfect Gem	100	Runes 15	10	Rg
 Act 4 (H) Good	5	82	1						Blank	80	Jewelry D	300	Perfect Gem	100	Runes 15	10	Rgx	1	ColorDyes	5												0
 Act 5 (H) Good	5	85	1						Blank	80	Jewelry D	300	Perfect Gem	100	Runes 15	10	Rgx	1	ColorDyes	5												0
 Act X (H) Good	5	85	1						Blank	80	Jewelry D	300	Perfect Gem	100	Runes 17	10	Rgx	1	ColorDyes	5												0
-Act X (H) Good 100	5	103	1						Blank	400	Jewelry D	1500	Perfect Gem	500	Runes 17	50	Rgx	10	z20	1	z21	1	ColorDyes	5								0
+Act X (H) Good 100	5	103	1						Blank	400	Jewelry D	1500	Perfect Gem	500	Runes 17	50	Rgx	10	z20	5	z21	5	ColorDyes	5								0
 Act 1 Chest A	6	0	4					100	gld	15	Act 1 Junk	15	Act 1 Equip A	10	Act 1 Good	2																0
 Act 1 Chest B	6	5	4					100	gld	15	Act 1 Junk	15	Act 1 Equip B	10	Act 1 Good	2																0
 Act 1 Chest C	6	9	4					100	gld	15	Act 1 Junk	12	Act 2 Junk	3	Act 1 Equip C	15	Act 1 Good	2														0
@@ -771,9 +771,9 @@ Andariel (H)			6	983	983	983	1024	19	"gld,mul=2048"	11	Act 2 (H) Equip A	19	Act 
 Andarielq			6	995	995	1024	1024	19	Act 2 Equip A	19	Act 2 Good	3																				0
 Andarielq (N)			6	995	995	1024	1024	19	Act 2 (N) Equip A	19	Act 2 (N) Good	3																				0
 Andarielq (H)			6	995	995	1024	1024	19	Act 2 (H) Equip A	19	Act 2 (H) Good	5	Goodies - Andariel	2																		0
-Duriel - Base			6	983	983	983	1024	19	"gld,mul=1280"	11	Act 3 Equip A	19	Act 3 Junk	15	Act 3 Good	3																0
-Duriel (N) - Base			6	983	983	983	1024	19	"gld,mul=1536"	11	Act 3 (N) Equip A	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																0
-Duriel (H) - Base			6	983	983	983	1024	19	"gld,mul=2048"	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3	Goodies - Duriel	2														0
+Duriel - Base			6	983	983	983	1024																									0
+Duriel (N) - Base			6	983	983	983	1024																									0
+Duriel (H) - Base			6	983	983	983	1024																									0
 Durielq - Base			6	993	993	1024	1024	19	Act 3 Equip A	19	Act 3 Good	3																				0
 Durielq (N) - Base			6	993	993	1024	1024	19	Act 3 (N) Equip A	19	Act 3 (N) Good	3																				0
 Durielq (H) - Base			6	993	993	1024	1024	19	Act 3 (H) Equip A	19	Act 3 (H) Good	3	Goodies - Duriel	2																		0
@@ -928,9 +928,9 @@ Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpo
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Cow King (H)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2	Cow Queen Flavor	1																		0
-Duriel			5					0	Duriel - Base	2																						0
-Duriel (N)			5					0	Duriel (N) - Base	2																						0
-Duriel (H)			5					0	Duriel (H) - Base	2																						0
+Duriel			5																													0
+Duriel (N)			5																													0
+Duriel (H)			5																													0
 Durielq			5					0	Durielq - Base	2																						0
 Durielq (N)			5					0	Durielq (N) - Base	2																						0
 Durielq (H)			-5					0	Duriel RBF	1	Durielq (H) - Base	4																				0
@@ -1138,3 +1138,5 @@ Corpus Vesper (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 3 (H) Equip C	19
 Rictulus			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 Equip C	19	Act 5 Junk	5	Act 5 Good	3	Rictulus Flavor	1														0
 Rictulus (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (N) Equip C	19	Act 5 (N) Junk	5	Act 5 (N) Good	3	Rictulus (N) Flavor	1														0
 Rictulus (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	Rictulus (H) Flavor	1														0
+MadKing Jewels			1						Facetted MemoryA	1	Facetted MemoryB	1	Facetted MemoryC	1	Facetted MemoryD	1	Facetted MemoryE	1	Facetted MemoryF	1												0
+MadKing			6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	TormentBossesB	4	MadKing Jewels	2																0
