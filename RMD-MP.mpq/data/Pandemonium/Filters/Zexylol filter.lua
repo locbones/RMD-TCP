@@ -1,7 +1,7 @@
 --- Filter Title: Zexylol's Hardfilter v1.02
 --- Filter Type: (Hardconfig filter)
 --- Filter Description: \nIf you like seeing loot alot of loot, DO NOT USE THIS FILTER. \nYou will see Set, Unique, rare(amu/ring/jewels), Magic (Charms). \nAs for bases..... ONLY PERFECT ROLLED SUPERIORS.... \nMight be some items ive missed to hide or add to notify.
---- Filter Link: https://github.com/locbones/Pandemonium-Filters/raw/refs/heads/main/ReMoDDeD/Zexylol%20filter.lua
+--- Filter Link: https://github.com/locbones/D2RLAN-Filters/raw/refs/heads/main/ReMoDDeD/Zexylol%20filter.lua
 return {
     reload = "{pink} Zexylol's Hardconfig Filter {pink}Reloaded",
     --debug = true,

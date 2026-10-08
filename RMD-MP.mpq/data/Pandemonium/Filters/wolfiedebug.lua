@@ -1,7 +1,7 @@
 --- Filter Title: WolfieeifloW's Debug v1.4
 --- Filter Type: NOT FOR NORMAL USAGE. Used for debugging and testing, mostly for filter creators.
 --- Filter Description: DO NOT USE THIS FOR NORMAL PLAY. It is for testing and debugging.
---- Filter Link: https://github.com/locbones/Pandemonium-Filters/raw/refs/heads/main/ReMoDDeD/wolfiedebug.lua
+--- Filter Link: https://github.com/locbones/D2RLAN-Filters/raw/refs/heads/main/ReMoDDeD/wolfiedebug.lua
 
 return {
     reload = "WolfieeifloW's DEBUG v1.4: {green}reloaded",
