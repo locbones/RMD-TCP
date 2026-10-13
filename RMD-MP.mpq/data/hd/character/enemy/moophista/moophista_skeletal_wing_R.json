@@ -1,0 +1,295 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [
+      {
+        "path": "data/hd/env/model/global/decorator/act2/outdoors/act2_outdoors_bones/bone02.model"
+      }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_alb.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_nrm.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_orm.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "moophista_skeletal_wing_R",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "root_entity",
+      "id": 3900775401,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "root_entity_UnitRootComponent",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "upper_arm",
+      "id": 3900775600,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "upper_arm_model",
+          "filename": "data/hd/env/model/global/decorator/act2/outdoors/act2_outdoors_bones/bone02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "upper_arm_transform",
+          "position": {
+            "x": -0.37798041670464555,
+            "y": 0.3296196748756575,
+            "z": -0.24236648444062617
+          },
+          "orientation": {
+            "x": -0.5855464715625995,
+            "y": -0.4774455845048889,
+            "z": 0.0,
+            "w": 0.6551191063290512
+          },
+          "scale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.5823136006362903
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "forearm",
+      "id": 3900775601,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "forearm_model",
+          "filename": "data/hd/env/model/global/decorator/act2/outdoors/act2_outdoors_bones/bone02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "forearm_transform",
+          "position": {
+            "x": -1.0269212479210732,
+            "y": 0.5451849624153251,
+            "z": -0.34324679300331107
+          },
+          "orientation": {
+            "x": 0.21128412197444688,
+            "y": -0.7202867794583413,
+            "z": 0.0,
+            "w": 0.6607162591756146
+          },
+          "scale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.5415842632565151
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "finger_1",
+      "id": 3900775602,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "finger_1_model",
+          "filename": "data/hd/env/model/global/decorator/act2/outdoors/act2_outdoors_bones/bone02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "finger_1_transform",
+          "position": {
+            "x": -1.0276351865384301,
+            "y": 0.4786656431938062,
+            "z": -0.36752796631274004
+          },
+          "orientation": {
+            "x": 0.3245947585395051,
+            "y": -0.695560196870368,
+            "z": 0.0,
+            "w": 0.6409635366058941
+          },
+          "scale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.5781205787810378
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "finger_2",
+      "id": 3900775603,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "finger_2_model",
+          "filename": "data/hd/env/model/global/decorator/act2/outdoors/act2_outdoors_bones/bone02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "finger_2_transform",
+          "position": {
+            "x": -0.9513157432592462,
+            "y": 0.305018985050362,
+            "z": -0.3663665746061682
+          },
+          "orientation": {
+            "x": 0.5751561948496218,
+            "y": -0.5001358216083667,
+            "z": 0.0,
+            "w": 0.6473480605286679
+          },
+          "scale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.6368697903093645
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "finger_3",
+      "id": 3900775604,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "finger_3_model",
+          "filename": "data/hd/env/model/global/decorator/act2/outdoors/act2_outdoors_bones/bone02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "finger_3_transform",
+          "position": {
+            "x": -0.8482520523937541,
+            "y": 0.12386063081313001,
+            "z": -0.3665106129060056
+          },
+          "orientation": {
+            "x": 0.7031435978511568,
+            "y": -0.26786422775282165,
+            "z": 0.0,
+            "w": 0.6586636746407952
+          },
+          "scale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.7791243373548712
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "finger_4",
+      "id": 3900775605,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "finger_4_model",
+          "filename": "data/hd/env/model/global/decorator/act2/outdoors/act2_outdoors_bones/bone02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "finger_4_transform",
+          "position": {
+            "x": -0.7107979195182058,
+            "y": -0.03539363613781935,
+            "z": -0.36732920344864156
+          },
+          "orientation": {
+            "x": 0.7411028296131876,
+            "y": -0.07032362616767474,
+            "z": 0.0,
+            "w": 0.6676984225995712
+          },
+          "scale": {
+            "x": 0.65,
+            "y": 0.65,
+            "z": 0.9514521602259862
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    }
+  ]
+}

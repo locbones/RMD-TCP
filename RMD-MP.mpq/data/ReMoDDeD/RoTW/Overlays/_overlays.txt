@@ -1,0 +1,41 @@
+overlay	*ID	Filename	version	*Frames	Character	PreDraw	1ofN	Xoffset	Yoffset	Height1	Height2	Height3	Height4	AnimRate	LoopWaitTime	Trans	InitRadius	Radius	Red	Green	Blue	NumDirections	LocalBlood	WeaponStateFlags	WeaponStateGroup	StartSound
+warlock_fire_cast_1	293	warlock_fire_cast_1	100	14	warlock	1	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0			
+warlock_shadow_cast_1	294	warlock_shadow_cast_1	100	15	warlock	1	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0			
+warlock_psychic_cast_1	295	warlock_psychic_cast_1	100	10	warlock	1	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0	255		
+apocalypse	296	apocalypse	100	14	common	1	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0			
+psychicward	297	ManaShieldBall	0	8	warlock	0	1	0	0	0	0	0	0	8	0	5	0	0	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+warlock_psychic_cast_2	298	warlock_psychic_cast_2	100	16	warlock	0	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0			
+hexbanedebuff	299	HexBaneDebuffEffect	0	24	common	0	1	0	0	14	0	-14	-60	16	0	3	1	6	0	0	255	1	0			
+hexsyphondebuff	300	HexSyphonDebuffEffect	0	24	common	0	1	0	0	14	0	-14	-60	16	0	3	1	6	0	0	255	1	0			
+surge_hex_explode	301	surge_hex_explode	100	14	common	1	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0	255	7	
+engorgecast	302	EngorgeCast	0	20	warlock	0	1	0	0	0	0	0	0	16	0	3	11	11	255	255	255	1	0			
+engorgestate	303	EngorgeState	0	16	warlock	0	1	0	0	0	0	0	0	8	0	8	2	2	0	0	0	1	1			
+warlockdemonground	304	warlockdemonground	0	13	warlock	0	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0			
+warlockdemontorso	305	warlockdemontorso	0	24	warlock	0	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0			
+warlockconsume	306	warlock_consume	0	20	warlock	1	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0			
+death_mark	307	DeathMark	0	20	warlock	1	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0			
+warlock_death_mark_pet	308	WarlockDeathMarkPet	0	14	warlock	0	1	0	0	0	0	0	0	16	0	3	1	9	255	178	64	1	0			
+hex_enchant	309	warlock_hex_enchant	0	17	warlock	0	1	0	0	0	0	0	0	16	0	3	1	9	255	178	64	1	0			
+psychic_hit	310	FireHit	0	8	common	0	1	0	0	0	0	0	0	16	0	3	3	1	255	193	103	1	0	255		
+healthlink	311	expansion\painwormcurse	100	10	warlock	1	1	0	0	0	0	0	0	8	0	3	0	0	0	0	0	1	0			
+shadow_hit	312	FireHit	0	8	common		1	0	0	0	0	0	0	16	0	3	3	1	255	193	103	1	0			
+hexpurgedebuff	313	HexPurgeDebuffEffect	0	24	common	0	1	0	0	14	0	-14	-60	16	0	3	1	6	0	0	255	1	0			
+hex_purge_explosion	314	hex_purge_explosion	0	24	common	1	1	0	0	14	0	-14	-60	16	0	3	0	0	0	0	0	1	0			Warlock_Skill_Hex_Purge_Layer
+chronicle_backlight	315	null	0	20	common	1	1	50	0	0	0	0	0	8	0	3	0	0	255	255	255	1	0			
+psychicward_hit0	316	ManaShieldDir00	0	9	warlock	0	1	0	0	0	0	0	0	16	0	3	3	3	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+psychicward_hit1	317	ManaShieldDir02	0	9	warlock	0	1	0	0	0	0	0	0	16	0	3	3	3	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+psychicward_hit2	318	ManaShieldDir04	0	9	warlock	0	1	0	0	0	0	0	0	16	0	3	3	3	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+psychicward_hit3	319	ManaShieldDir06	0	9	warlock	1	1	0	0	0	0	0	0	16	0	3	3	3	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+psychicward_hit4	320	ManaShieldDir08	0	9	warlock	1	1	0	0	0	0	0	0	16	0	3	3	3	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+psychicward_hit5	321	ManaShieldDir10	0	9	warlock	1	1	0	0	0	0	0	0	16	0	3	3	3	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+psychicward_hit6	322	ManaShieldDir12	0	9	warlock	0	1	0	0	0	0	0	0	16	0	3	3	3	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+psychicward_hit7	323	ManaShieldDir14	0	9	warlock	0	1	0	0	0	0	0	0	16	0	3	3	3	255	255	255	1	0			Warlock_Skill_Psychic_Ward_03
+warlock_psychic_cast_1_no_hex	324	warlock_psychic_cast_1_no_hex	100	10	warlock	1	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0	1		
+eldritchblastperiodic	325	eldritchblastperiodic	0	19	warlock	1	1	0	0	0	0	0	0	16	0	3	8	8	255	255	255	1	0			
+lightningenchant	326	lightningenchant	0	17	monster	0	1	0	0	0	0	0	0	16	0	3	1	9	255	178	64	1	0			
+coldenchant	327	coldenchant	0	17	monster	0	1	0	0	0	0	0	0	16	0	3	1	9	255	178	64	1	0			
+talicfirepierce	328	Conviction	0	17	monster	0	1	0	0	0	0	0	0	16	0	3	8	8	255	193	103	1	0			
+madawclightpierce	329	Conviction	0	17	monster	0	1	0	0	0	0	0	0	16	0	3	8	8	210	210	255	1	0			
+korliccoldpierce	330	Conviction	0	17	monster	0	1	0	0	0	0	0	0	16	0	3	8	8	255	255	200	1	0			
+colossal_lightning	331	ShockHitSm	0	20	common	0	1	0	0	0	0	0	0	16	0	3	11	11	255	255	255	1	0			
+warlock_shadow_cast_2	332	warlock_shadow_cast_1	100	15	warlock	1	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0			

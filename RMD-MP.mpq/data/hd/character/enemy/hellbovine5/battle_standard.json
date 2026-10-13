@@ -1,0 +1,83 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [
+      {
+        "path": "data/hd/bvt/models/standard_spheres.model"
+      }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/env/texture/placeholder_alb.texture"
+      },
+      {
+        "path": "data/hd/env/texture/placeholder_nrm.texture"
+      },
+      {
+        "path": "data/hd/env/texture/placeholder_orm.texture"
+      },
+      {
+        "path": "data/hd/objects/standards/standard_1/texture/standards_standard_1_alb.texture"
+      },
+      {
+        "path": "data/hd/objects/standards/standard_1/texture/standards_standard_1_nrm.texture"
+      },
+      {
+        "path": "data/hd/objects/standards/standard_1/texture/standards_standard_1_orm.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "hellbovine5_battle_standard",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 3658928321,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.3826834,
+            "z": 0.0,
+            "w": 0.9238795
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_flagpole",
+      "id": 292462495,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "entity_flagpole_ModelDefinition",
+          "filename": "data/hd/bvt/models/standard_spheres.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    }
+  ]
+}

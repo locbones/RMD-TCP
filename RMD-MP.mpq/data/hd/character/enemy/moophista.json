@@ -1,0 +1,808 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_ambient_bluewhite.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/painworm1/vfx_painworm1_head_glow.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_eye_blue.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/wraith1/vfx_wraith1_neutral_rwing.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/wraith1/vfx_wraith1_neutral_rwrist.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/wraith1/vfx_wraith1_neutral_lwrist.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/wraith1/vfx_wraith1_neutral_lwing.particles"
+      }
+    ],
+    "models": [
+      {
+        "path": "data/hd/character/enemy/hellbovine/rhand_btx.model"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/rhand_hal.model"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/rhand_pax.model"
+      },
+      {
+        "path": "data/hd/bvt/models/skin_sphere.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/character/enemy/mephisto/fx_mesh_genericSkull.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/fx_mesh_polarDisc.model"
+      },
+      {
+        "path": "data/hd/bvt/models/blend_sphere.model"
+      },
+      {
+        "path": "data/hd/bvt/models/detail_normal_sphere.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/character/enemy/wraith1/fx_mesh_upperArm_glow.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/fx_mesh_polarDiscLump.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/missiles/ground_fire_big/fx_mesh_groundFireCylinder.model"
+      }
+    ],
+    "skeletons": [
+      {
+        "path": "data/hd/character/enemy/hellbovine/skeleton/hellbovine.skeleton"
+      }
+    ],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/character/common/common_ktint.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/Hell_Bovine_Fur_ALB.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/Hell_Bovine_Fur_FLOW.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/Hell_Bovine_Fur_HRT.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/moophista/textures/moophista_bones1_alb.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/hellbovine_body_nrm.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/hellbovine_body_orm.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/hellbovine_body_SSS.texture"
+      },
+      {
+        "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/fluid/T_FX_BloodDroplet_N.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/graphic/T_FX_Graphic_Skulls_Mephisto.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_Painworm_Variants_Gradient.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_alb.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_nrm.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_orm.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_cloudy_distortion.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_gaussian_distortion_strong.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_Moophista_BlueEye_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient_Exponential.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient_SharFallOff.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Grunge_Directional_Noise_Blur_gray.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_Plasma_Caustic_mono.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_wavelets_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_LinearGradient_Inset.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_billowy_cloud_noise_blurred.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_cloudnoise_generic.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_Mirror_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_fire_plate_Vertical_distortion_med_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_Wraith_Glow_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapCurve_blinkfix.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/White.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_FresnelGrad_03.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_gaussian_noise_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_perlin_noise.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_MooAura_________.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/graphic/MooAura0____________________.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/MooAura1________________.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/volumetric/MooAura2_____________________.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_MoophistaWing_______.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/Black.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_Stringy_Caustic_Distortion_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/MooNovaWhite_07_______.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/MooNovaWhite_09_______.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapLinear.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapLinear_inverted.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_LinearGradient_Inset_portal.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient_SharFallOff_exponent_notinvert.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/mask/T_FX_soft_glowcard.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/mask/T_FX_trailgradient_fromtop_mask_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_Plasma_Caustic_mono_glow.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_Plasma_Ropey_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_stringy_liquid_Tile_Mono.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_gaussian_noise_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/pyro/T_FX_fire_plate_med_03.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/pyro/T_FX_fire_plate_med_04.texture"
+      }
+    ],
+    "physics": [],
+    "json": [
+      {
+        "path": "data/hd/character/enemy/moophista/moophista_state_machine.json"
+      },
+      {
+        "path": "data/hd/items/weapon/axe/_monsters/hell_bovine_battle_axe.json"
+      },
+      {
+        "path": "data/hd/items/weapon/polearm/_monsters/hell_bovine_halberd.json"
+      },
+      {
+        "path": "data/hd/items/weapon/polearm/_monsters/zakarum_halberd.json"
+      },
+      {
+        "path": "data/hd/character/enemy/moophista/moophista_skull_ornament.json"
+      },
+      {
+        "path": "data/hd/character/enemy/moophista/moophista_eye_glow.json"
+      },
+      {
+        "path": "data/hd/character/enemy/moophista/moophista_mephisto_particle_wings.json"
+      }
+    ],
+    "variantdata": [
+      {
+        "path": "data/hd/character/enemy/moophista/moophista_variant.json"
+      }
+    ],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "moophista",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 2785694804,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "data/hd/character/enemy/moophista/moophista_state_machine.json",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.3826834,
+            "z": 0.0,
+            "w": 0.9238795
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        },
+        {
+          "type": "SkeletonDefinitionComponent",
+          "name": "component_skeleton",
+          "filename": "data/hd/character/enemy/hellbovine/skeleton/hellbovine.skeleton"
+        },
+        {
+          "type": "VariantDefinitionComponent",
+          "name": "component_variant",
+          "filename": "data/hd/character/enemy/moophista/moophista_variant.json"
+        },
+        {
+          "type": "DamageFXComponent",
+          "name": "entity_root_DamageFX",
+          "vfxSpawnBones": [],
+          "attackAttemptVfxOverrides": {},
+          "disableAttemptVfx": false,
+          "attackSuccessVfxOverrides": {
+            "type": "AttackVFXTable",
+            "name": "AttackSuccess_Blood",
+            "rules": [
+              {
+                "type": "AttackVFXRule",
+                "name": "AttackSuccess_Blood_rules_0",
+                "acceptedHitClasses": 828,
+                "acceptedVictims": 15,
+                "acceptedBloodTypes": 7,
+                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash.particles",
+                "soundId": "player_impact_gore_blood_hd2"
+              },
+              {
+                "type": "AttackVFXRule",
+                "name": "AttackSuccess_Blood_rules_1",
+                "acceptedHitClasses": 7362,
+                "acceptedVictims": 15,
+                "acceptedBloodTypes": 7,
+                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point.particles",
+                "soundId": "player_impact_gore_blood_hd2"
+              }
+            ],
+            "defaultVfxFile": "",
+            "defaultSoundId": "player_impact_gore_blood_hd2"
+          },
+          "disableSuccessVfx": false,
+          "attackFailVfxOverrides": {},
+          "disableFailVfx": false
+        },
+        {
+          "type": "MoveAnimationSelectComponent",
+          "name": "entity_root_MoveAnimationSelect",
+          "animationOptions": [
+            {
+              "type": "MoveAnimationOption",
+              "name": "entity_root_MoveAnimationSelect_animationOptions_0",
+              "validForWalk": true,
+              "validForRun": true,
+              "validInsideTown": true,
+              "validOutsideTown": true,
+              "minMoveSpeed": 0.0,
+              "maxMoveSpeed": 6.0,
+              "baseMoveSpeed": 5.0,
+              "animationName": "Walk"
+            },
+            {
+              "type": "MoveAnimationOption",
+              "name": "entity_root_MoveAnimationSelect_animationOptions_1",
+              "validForWalk": true,
+              "validForRun": true,
+              "validInsideTown": true,
+              "validOutsideTown": true,
+              "minMoveSpeed": 6.0,
+              "maxMoveSpeed": 99.0,
+              "baseMoveSpeed": 9.0,
+              "animationName": "Run"
+            }
+          ],
+          "defaultAnimationName": "Walk"
+        },
+        {
+          "type": "IKComponent",
+          "name": "entity_root_IK",
+          "preset": {
+            "type": "IKPreset",
+            "name": "Outsource_Quad_Biped_B",
+            "footIKSetup": [
+              {
+                "type": "FootIKSetup",
+                "name": "Outsource_Quad_Biped_B_footIKSetup_0",
+                "footBoneName": "L_leg_04_bind_jnt",
+                "kneeBoneName": "L_leg_02_bind_jnt",
+                "hipBoneName": "L_leg_01_bind_jnt",
+                "locationTrackName": "L_IK_Position",
+                "enabledTrackName": "L_FKIK",
+                "hyperExtensionStart": 0.0,
+                "hyperExtensionScale": 1.0,
+                "defaultEnabled": true,
+                "kneeRotationAxis": 0,
+                "flipKneeRotationAxis": false
+              },
+              {
+                "type": "FootIKSetup",
+                "name": "Outsource_Quad_Biped_B_footIKSetup_1",
+                "footBoneName": "R_leg_04_bind_jnt",
+                "kneeBoneName": "R_leg_02_bind_jnt",
+                "hipBoneName": "R_leg_01_bind_jnt",
+                "locationTrackName": "R_IK_Position",
+                "enabledTrackName": "R_FKIK",
+                "hyperExtensionStart": 0.0,
+                "hyperExtensionScale": 1.0,
+                "defaultEnabled": true,
+                "kneeRotationAxis": 0,
+                "flipKneeRotationAxis": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "moophista_MephistoAmbient",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_ambient_bluewhite.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "moophista_BossScale",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1.2
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_torso",
+      "id": 3657795852,
+      "components": [
+        {
+          "type": "UnitPartComponent",
+          "name": "component_part_torso",
+          "part": "torso",
+          "variant": "lit"
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "component_model_torso",
+          "filename": "data/hd/bvt/models/skin_sphere.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_rhand_hal",
+      "id": 1397992975,
+      "components": [
+        {
+          "type": "UnitPartComponent",
+          "name": "component_part_rhand_hal",
+          "part": "rhand",
+          "variant": "hal"
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "component_model_rhand_hal",
+          "filename": "data/hd/character/enemy/hellbovine/rhand_hal.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "entity_rhand_hal_UnitAttachment",
+          "filename": "data/hd/items/weapon/polearm/_monsters/zakarum_halberd.json",
+          "overrideBoneName": "",
+          "orientTowardBoneName": "L_weapon_attach",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "entity_rhand_hal_UnitAttachment_attachmentTransform",
+            "translation": {
+              "x": 0.0,
+              "y": -0.3,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.4,
+              "y": 1.4,
+              "z": 1.4
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "rhand",
+          "variant": "hal"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_rhand_pax",
+      "id": 2253317063,
+      "components": [
+        {
+          "type": "UnitPartComponent",
+          "name": "component_part_rhand_pax",
+          "part": "rhand",
+          "variant": "pax"
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "component_model_rhand_pax",
+          "filename": "data/hd/character/enemy/hellbovine/rhand_pax.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "entity_rhand_pax_UnitAttachment",
+          "filename": "data/hd/items/weapon/polearm/_monsters/hell_bovine_halberd.json",
+          "overrideBoneName": "",
+          "orientTowardBoneName": "L_weapon_attach",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "entity_rhand_pax_UnitAttachment_attachmentTransform",
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.4,
+              "y": 1.0,
+              "z": 1.4
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "rhand",
+          "variant": "pax"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_rhand_btx",
+      "id": 525891927,
+      "components": [
+        {
+          "type": "UnitPartComponent",
+          "name": "component_part_rhand_btx",
+          "part": "rhand",
+          "variant": "btx"
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "component_model_rhand_btx",
+          "filename": "data/hd/character/enemy/hellbovine/rhand_btx.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "entity_rhand_btx_UnitAttachment",
+          "filename": "data/hd/items/weapon/axe/_monsters/hell_bovine_battle_axe.json",
+          "overrideBoneName": "",
+          "orientTowardBoneName": "L_weapon_attach",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "entity_rhand_btx_UnitAttachment_attachmentTransform",
+            "translation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.4,
+              "y": 1.2,
+              "z": 1.4
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "rhand",
+          "variant": "btx"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "moophista_skull_L",
+      "id": 3900775100,
+      "components": [
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "moophista_skull_L_attachment",
+          "filename": "data/hd/character/enemy/moophista/moophista_skull_ornament.json",
+          "overrideBoneName": "L_upr_arm_bind_jnt",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "moophista_skull_L_transform",
+            "translation": {
+              "x": 0.04,
+              "y": 0.13,
+              "z": 0.03
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 90.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.1,
+              "y": 1.1,
+              "z": 1.1
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "torso",
+          "variant": "lit"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "moophista_skull_R",
+      "id": 3900775101,
+      "components": [
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "moophista_skull_R_attachment",
+          "filename": "data/hd/character/enemy/moophista/moophista_skull_ornament.json",
+          "overrideBoneName": "R_upr_arm_bind_jnt",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "moophista_skull_R_transform",
+            "translation": {
+              "x": -0.04,
+              "y": 0.13,
+              "z": 0.03
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 90.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.1,
+              "y": 1.1,
+              "z": 1.1
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "torso",
+          "variant": "lit"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "moophista_eye_glow_L",
+      "id": 3900775200,
+      "components": [
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "moophista_eye_glow_L_attachment",
+          "filename": "data/hd/character/enemy/moophista/moophista_eye_glow.json",
+          "overrideBoneName": "L_eye_bind_jnt",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "moophista_eye_glow_L_transform",
+            "translation": {
+              "x": -0.0008303523063659668,
+              "y": 1.3619661331176758e-05,
+              "z": 0.02469761110842228
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.035,
+              "y": 0.035,
+              "z": 0.035
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "torso",
+          "variant": "lit"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "moophista_eye_glow_R",
+      "id": 3900775201,
+      "components": [
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "moophista_eye_glow_R_attachment",
+          "filename": "data/hd/character/enemy/moophista/moophista_eye_glow.json",
+          "overrideBoneName": "R_eye_bind_jnt",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "moophista_eye_glow_R_transform",
+            "translation": {
+              "x": -0.0008417963981628418,
+              "y": -0.0003084540367126465,
+              "z": -0.023124853149056435
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.035,
+              "y": 0.035,
+              "z": 0.035
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "torso",
+          "variant": "lit"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "moophista_mephisto_particle_wings",
+      "id": 3900786001,
+      "components": [
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "moophista_mephisto_particle_wings_attachment",
+          "filename": "data/hd/character/enemy/moophista/moophista_mephisto_particle_wings.json",
+          "overrideBoneName": "spine_02_bind_jnt",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "moophista_mephisto_particle_wings_transform",
+            "translation": {
+              "x": 0.0,
+              "y": 2.5,
+              "z": -0.25
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "torso",
+          "variant": "lit"
+        }
+      ]
+    }
+  ]
+}

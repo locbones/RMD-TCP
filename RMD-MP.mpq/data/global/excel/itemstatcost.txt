@@ -432,9 +432,9 @@ StuffWasHere	429																																																		0
 StuffWasHere	430																																																		0
 StuffWasHere	431																																																		0
 StuffWasHere	432																																																		0
-color_dye	433																																																		0
+color_dye	433		1	6											0	0		1	0	6	23																														0
 StuffWasHere	434																																																		0
-transmog	435																																																		0
+transmog	435		1	16																15	16384																														0
 StuffWasHere	436																																																		0
 StuffWasHere	437																																																		0
 StuffWasHere	438																																																		0

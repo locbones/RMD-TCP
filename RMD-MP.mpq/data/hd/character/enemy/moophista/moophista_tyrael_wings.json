@@ -1,0 +1,297 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [
+      {
+        "path": "data/hd/character/npc/tyrael1/Wing_Shell.model"
+      },
+      {
+        "path": "data/hd/character/npc/tyrael1/wings.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/fx_mesh_sphere.model"
+      },
+      {
+        "path": "data/hd/character/npc/tyrael1/torso.model"
+      }
+    ],
+    "skeletons": [
+      {
+        "path": "data/hd/character/npc/tyrael1/skeleton/tyrael1.skeleton"
+      }
+    ],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/character/common/common_alb.texture"
+      },
+      {
+        "path": "data/hd/character/common/common_nrm.texture"
+      },
+      {
+        "path": "data/hd/character/common/common_orm.texture"
+      },
+      {
+        "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_alb.texture"
+      },
+      {
+        "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_nrm.texture"
+      },
+      {
+        "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_orm.texture"
+      },
+      {
+        "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_alb.texture"
+      },
+      {
+        "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_nrm.texture"
+      },
+      {
+        "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_orm.texture"
+      },
+      {
+        "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/White.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/Black.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/White.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_fire_plate_Vertical_distortion_med_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/fluid/T_FX_fluid_lava_ropes_05.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_FresnelGrad_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_Linear_Gradient_Mirrored_Vertical.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_TyraelWings_alphaRemap.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_TyraelWings_fresnel.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_bluegreen_white_gradientbox_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_stringy_liquid_Tile_Mono.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_billowy_cloud_noise.texture"
+      }
+    ],
+    "physics": [],
+    "json": [
+      {
+        "path": "data/hd/character/enemy/moophista/moophista_tyrael_wings_state_machine.json"
+      }
+    ],
+    "variantdata": [],
+    "objecteffects": [
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_tyrael_wings_all_modes.particles",
+        "dependency": ""
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_tyrael_wings_shell_all_modes.particles",
+        "dependency": ""
+      }
+    ],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "moophista_tyrael_wings",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 3900784000,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "data/hd/character/enemy/moophista/moophista_tyrael_wings_state_machine.json",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        },
+        {
+          "type": "SkeletonDefinitionComponent",
+          "name": "component_skeleton",
+          "filename": "data/hd/character/npc/tyrael1/skeleton/tyrael1.skeleton"
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "moophista_tyrael_wings_root_transform",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_torso",
+      "id": 3900784003,
+      "components": [
+        {
+          "type": "UnitPartComponent",
+          "name": "component_part_torso",
+          "part": "torso",
+          "variant": "lit"
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "component_model_torso",
+          "filename": "data/hd/character/npc/tyrael1/torso.model",
+          "visibleLayers": 1073741824,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "entity_torso_TransformDefinition",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_wings",
+      "id": 3900784001,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "entity_wings_ModelDefinition",
+          "filename": "data/hd/character/npc/tyrael1/wings.model",
+          "visibleLayers": 1073741824,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ObjectEffectDefinitionComponent",
+          "name": "entity_wings_ObjectEffectDefinition",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_tyrael_wings_all_modes.particles"
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "entity_wings_TransformDefinition",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_wings_shell",
+      "id": 3900784002,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "entity_wings_shell_ModelDefinition001",
+          "filename": "data/hd/character/npc/tyrael1/Wing_Shell.model",
+          "visibleLayers": 1073741824,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "entity_wings_shell_TransformDefinition001",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ObjectEffectDefinitionComponent",
+          "name": "entity_wings_shell_ObjectEffectDefinition001",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_tyrael_wings_shell_all_modes.particles"
+        }
+      ]
+    }
+  ]
+}

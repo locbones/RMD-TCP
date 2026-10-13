@@ -1,0 +1,80 @@
+{
+  "type": "UnitDefinition",
+  "name": "moophista_eye_glow",
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_eye_blue.particles"
+      }
+    ],
+    "models": [
+      {
+        "path": "data/hd/vfx/meshes/fx_mesh_polarDisc.model"
+      }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_cloudy_distortion.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_gaussian_distortion_strong.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_Moophista_BlueEye_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient_Exponential.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient_SharFallOff.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Grunge_Directional_Noise_Blur_gray.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_Plasma_Caustic_mono.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_wavelets_01.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "moophista_eye_glow_root",
+      "id": 3900775300,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "root_entity_UnitRootComponent",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        },
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "moophista_eye_glow_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_eye_blue.particles",
+          "hardKillOnDestroy": true
+        }
+      ]
+    }
+  ]
+}

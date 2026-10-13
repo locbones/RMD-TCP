@@ -1695,7 +1695,7 @@
   { "m32": { "asset": "charm/charm_small" } },
   { "m33": { "asset": "charm/charm_medium" } },
   { "m34": { "asset": "charm/charm_large" } },
-  { "m35": { "asset": "charm/charm_large" } },
+  {"m35": {"asset": "charm/charm_large"}},
   { "m36": { "asset": "charm/charm_small" } },
   { "m37": { "asset": "..//custom//EdyremSoul" } },
   { "Ss1": { "asset": "axe/brainhew" } },
@@ -1725,5 +1725,7 @@
   { "u02": { "asset": "..//custom//arrow_icona" } },
   { "B01": { "asset": "..\\custom\\BarrierCharm1" } },
   { "B02": { "asset": "..\\custom\\BarrierCharm2" } },
-  { "B03": { "asset": "..\\custom\\BarrierCharm3" } }
+  { "B03": { "asset": "..\\custom\\BarrierCharm3" } },
+  {"CW1": {"asset": "..//custom//DemonicMilk"} },
+  {"CW2": {"asset": "..//custom//WirtsOtherLeg"} }
 ]

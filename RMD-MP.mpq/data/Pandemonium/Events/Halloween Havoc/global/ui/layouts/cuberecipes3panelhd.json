@@ -12,7 +12,7 @@
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
                 "anchor": { "x": 1.0 },
-                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_R"
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Menus\\ScrollBG_D"
             },
             "children": [
                 {
@@ -72,6 +72,18 @@
                                     "type": "TextBoxWidget", "name": "GC1T",
                                     "fields": {
                                         "text": "100 Candy Corn = 1 Cornucopia",
+                                        "style": "$RecipeSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "GC1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "GC1T",
+                                    "fields": {
+                                        "text": "Quality of Life Bag (With x10 Gems) + Token of Evil = 1 Candy Corn",
                                         "style": "$RecipeSettingsText"
                                     }
                                 }

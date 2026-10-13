@@ -771,9 +771,9 @@ Andariel (H)			6	983	983	983	1024	19	"gld,mul=2048"	11	Act 2 (H) Equip A	19	Act 
 Andarielq			6	995	995	1024	1024	19	Act 2 Equip A	19	Act 2 Good	3																				0
 Andarielq (N)			6	995	995	1024	1024	19	Act 2 (N) Equip A	19	Act 2 (N) Good	3																				0
 Andarielq (H)			6	995	995	1024	1024	19	Act 2 (H) Equip A	19	Act 2 (H) Good	5	Goodies - Andariel	2																		0
-Duriel - Base			6	983	983	983	1024	19	"gld,mul=1280"	11	Act 3 Equip A	19	Act 3 Junk	15	Act 3 Good	3																0
-Duriel (N) - Base			6	983	983	983	1024	19	"gld,mul=1536"	11	Act 3 (N) Equip A	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																0
-Duriel (H) - Base			6	983	983	983	1024	19	"gld,mul=2048"	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3	Goodies - Duriel	2														0
+Duriel - Base			6	983	983	983	1024																									0
+Duriel (N) - Base			6	983	983	983	1024																									0
+Duriel (H) - Base			6	983	983	983	1024																									0
 Durielq - Base			6	993	993	1024	1024	19	Act 3 Equip A	19	Act 3 Good	3																				0
 Durielq (N) - Base			6	993	993	1024	1024	19	Act 3 (N) Equip A	19	Act 3 (N) Good	3																				0
 Durielq (H) - Base			6	993	993	1024	1024	19	Act 3 (H) Equip A	19	Act 3 (H) Good	3	Goodies - Duriel	2																		0
@@ -928,9 +928,9 @@ Act 5 (H) Super Cx	18	96	-4	512	654	972	1024	0	Act 5 (H) Uitem C	2	Act 5 (H) Cpo
 Cow King			5	850	983	983	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Cow King (N)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Cow King (H)			5	850	983	983	1024	0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2	Cow Queen Flavor	1																		0
-Duriel			5					0	Duriel - Base	2																						0
-Duriel (N)			5					0	Duriel (N) - Base	2																						0
-Duriel (H)			5					0	Duriel (H) - Base	2																						0
+Duriel			5																													0
+Duriel (N)			5																													0
+Duriel (H)			5																													0
 Durielq			5					0	Durielq - Base	2																						0
 Durielq (N)			5					0	Durielq (N) - Base	2																						0
 Durielq (H)			-5					0	Duriel RBF	1	Durielq (H) - Base	4																				0
@@ -1140,3 +1140,5 @@ Rictulus (N)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (N) Equip C	19	Act 
 Rictulus (H)			5	800	800	900	1024	19	"gld,mul=1280"	14	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	Rictulus (H) Flavor	1														0
 MadKing Jewels			1						Facetted MemoryA	1	Facetted MemoryB	1	Facetted MemoryC	1	Facetted MemoryD	1	Facetted MemoryE	1	Facetted MemoryF	1												0
 MadKing			6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	TormentBossesB	4	MadKing Jewels	1																0
+UberCowsA1			1	650	800	800		100	Blank	4500	Act 5 (H) Equip C	480	Act 5 (H) Good	220	RMD Loot A	2	Runes 18	5	gld,mul=1024	240												0
+Moophista			6	983	983	983	1024	15	gld,mul=2048	3000	Act 5 (H) Equip B	480	Act 5 (H) Junk	220	Act 5 (H) Good	480	Runes 18	10	m35	5												0

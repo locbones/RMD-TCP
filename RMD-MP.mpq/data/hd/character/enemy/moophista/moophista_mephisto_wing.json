@@ -1,0 +1,89 @@
+{
+  "type": "UnitDefinition",
+  "name": "moophista_mephisto_wing",
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_ambient_bluewhite.particles"
+      }
+    ],
+    "models": [
+      {
+        "path": "data/hd/vfx/meshes/character/enemy/mephisto/fx_mesh_mephistoCylinderSkirt.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/fx_mesh_polarDisc.model"
+      }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/vfx/textures/default/Black.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/White.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_gaussian_distortion_strong.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_MooAura_________.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_Exp_Gradient_Mirrored_Horizontal.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/graphic/MooAura0____________________.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/MooAura1________________.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_Plasma_Ropey_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_gaussian_noise_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/volumetric/MooAura2_____________________.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "moophista_eye_glow_root",
+      "id": 3900775300,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "root_entity_UnitRootComponent",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        },
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "moophista_eye_glow_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_ambient_bluewhite.particles",
+          "hardKillOnDestroy": true
+        }
+      ]
+    }
+  ]
+}

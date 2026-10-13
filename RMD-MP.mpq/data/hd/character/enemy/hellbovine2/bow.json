@@ -1,0 +1,98 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [
+      {
+        "path": "data/hd/items/weapon/bow/_monsters/corrupt_rogue_bow/corrupt_rogue_bow.model"
+      }
+    ],
+    "skeletons": [
+      {
+        "path": "data/hd/items/weapon/bow/_monsters/corrupt_rogue_bow/skeleton/corrupt_rogue_bow.skeleton"
+      }
+    ],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_weapons_ALB.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_weapons_NRM.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_weapons_ORM.texture"
+      }
+    ],
+    "physics": [],
+    "json": [
+      {
+        "path": "data/hd/character/enemy/hellbovine2/bow_state_machine.json"
+      }
+    ],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "hellbovine2_bow",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "root_entity",
+      "id": 817106023,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "root_entity_UnitRootComponent",
+          "state_machine_filename": "data/hd/character/enemy/hellbovine2/bow_state_machine.json",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        },
+        {
+          "type": "SkeletonDefinitionComponent",
+          "name": "root_entity_SkeletonDefinition",
+          "filename": "data/hd/items/weapon/bow/_monsters/corrupt_rogue_bow/skeleton/corrupt_rogue_bow.skeleton"
+        },
+        {
+          "type": "MissileReleasePointComponent",
+          "name": "cow_bow_release",
+          "releaseBoneName": "arrow_helper",
+          "releaseOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "missilesInheritScale": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "model_entity",
+      "id": 1607283695,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model_entity_ModelDefinitionComponent",
+          "filename": "data/hd/items/weapon/bow/_monsters/corrupt_rogue_bow/corrupt_rogue_bow.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    }
+  ]
+}

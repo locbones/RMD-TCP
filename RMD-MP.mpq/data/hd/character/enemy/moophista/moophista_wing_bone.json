@@ -1,0 +1,74 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [
+      {
+        "path": "data/hd/env/model/global/prop/act2/outdoors/act2_outdoors_bones/bone02.model"
+      }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_alb.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_nrm.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act2/outdoors/act2_outdoors_bones_small_pile_orm.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "moophista_wing_bone",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "root_entity",
+      "id": 1955459089,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "root_entity_UnitRootComponent",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "model_entity",
+      "id": 2504614302,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model_entity_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act2/outdoors/act2_outdoors_bones/bone02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    }
+  ]
+}

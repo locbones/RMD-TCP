@@ -1,0 +1,218 @@
+{
+  "type": "UnitDefinition",
+  "name": "moophista_anthrax_body",
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/missiles/skull_poison/vfx_skull_poison.particles"
+      }
+    ],
+    "models": [
+      {
+        "path": "data/hd/vfx/meshes/fx_mesh_fireballVertPaint.model"
+      },
+      {
+        "path": "data/hd/vfx/meshes/missiles/undeadmissile_01/undeadmissile_01.model"
+      }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/Black.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/White.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_gaussian_distortion.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/fluid/T_FX_fluid_lava_ropes_03a.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_FadedYellow_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_LightGreen_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_LightGreen_Gradient_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_Linear_Gradient_Mirrored_Horizontal_Imbalanced_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_Thorn_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient_horizontal_inverted.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/light/T_FX_light_basic_glow.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/light/T_FX_light_flare_ring_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/mask/T_FX_Blurry_Smoke_Mask_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_Noise_Plasma_Caustic_mono_glow_gray.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_cloudnoise_dark.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_gaussian_noise_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_gaussian_noise_gray.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_smokey_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/particulate/T_FX_Spore_Atlas_2x2_Alpha.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/volumetric/T_FX_Vol_Puffy_Cloud_Tile_Mono.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "moophista_eye_glow_root",
+      "id": 3900775300,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "root_entity_UnitRootComponent",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "moophista_anthrax_body_layer_0",
+      "id": 3900810000,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "moophista_anthrax_body_layer_0_VfxDefinitionComponent",
+          "filename": "data/hd/vfx/particles/missiles/skull_poison/vfx_skull_poison.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "moophista_anthrax_body_layer_0_TransformDefinitionComponent",
+          "position": {
+            "x": 0.0,
+            "y": 5.5,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "moophista_anthrax_body_layer_1",
+      "id": 3900810001,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "moophista_anthrax_body_layer_1_VfxDefinitionComponent",
+          "filename": "data/hd/vfx/particles/missiles/skull_poison/vfx_skull_poison.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "moophista_anthrax_body_layer_1_TransformDefinitionComponent",
+          "position": {
+            "x": 0.0,
+            "y": 4.5,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "moophista_anthrax_body_layer_2",
+      "id": 3900810002,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "moophista_anthrax_body_layer_2_VfxDefinitionComponent",
+          "filename": "data/hd/vfx/particles/missiles/skull_poison/vfx_skull_poison.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "moophista_anthrax_body_layer_2_TransformDefinitionComponent",
+          "position": {
+            "x": 0.0,
+            "y": 3.5,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    }
+  ]
+}

@@ -4727,5 +4727,12 @@
       "uber": "helmet/duskdeep",
       "ultra": "helmet/duskdeep"
     }
+  },
+  {
+    "amalthea": {
+      "normal": "..//custom/Amalthea",
+      "uber": "..//custom/Amalthea",
+      "ultra": "..//custom/Amalthea"
+    }
   }
 ]

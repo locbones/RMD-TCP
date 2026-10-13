@@ -1089,5 +1089,11 @@
   "succubusevent": "succubuswitch1",
   "willowispevent": "willowisp1",
   "cr_lancerevent": "cr_lancer1",
-  "cr_archerevent": "cr_archer1"
+  "cr_archerevent": "cr_archer1",
+  "andarieleventnorm": "andariel",
+  "moophista": "moophista",
+  "hellbovine2": "hellbovine2",
+  "hellbovine3": "hellbovine3",
+  "hellbovine4": "hellbovine4",
+  "hellbovine5": "hellbovine5"
 }

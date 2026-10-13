@@ -1,0 +1,156 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/missiles/moophista/vfx_moophista_nova_explosion.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/missiles/moophista/vfx_moophista_secondary_blue.particles"
+      }
+    ],
+    "models": [],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/debug/white.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/White.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_gaussian_distortion_strong.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/MooNovaBlastWhite_____.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapCurve.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/light/T_FX_light_glowFlash_gritty.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/mask/T_FX_CircleMask_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/mask/T_FX_Generic_Smoke_Mask_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/holybolt_T_FX_noise_swirl_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/pyro/T_FX_firePlume_Plate_01.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/MooNovaSecondaryBlue__.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "moophista_nova_explosion",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 3932352135,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.3826834,
+            "z": 0.0,
+            "w": 0.9238795
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_vfx1",
+      "id": 492643135,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "component_transform1",
+          "position": {
+            "x": 0.0,
+            "y": 4.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "entity_vfx1_VfxDefinition",
+          "filename": "data/hd/vfx/particles/missiles/moophista/vfx_moophista_nova_explosion.particles",
+          "hardKillOnDestroy": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_blue_outer_burst",
+      "id": 492643136,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "blue_outer_TransformDefinitionComponent",
+          "position": {
+            "x": 0.0,
+            "y": 4.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.5,
+            "y": 1.5,
+            "z": 1.5
+          },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "blue_outer_VfxDefinitionComponent",
+          "filename": "data/hd/vfx/particles/missiles/moophista/vfx_moophista_secondary_blue.particles",
+          "hardKillOnDestroy": false
+        }
+      ]
+    }
+  ]
+}

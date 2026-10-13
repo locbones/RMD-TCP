@@ -12323,5 +12323,56 @@
         "ptBR": "Para a fornalha da dor",
         "ruRU": "К печи боли",
         "zhCN": "苦痛的熔炉"
-    }    
+    },
+  {
+    "id": 64002,
+    "Key": "ForestRuins",
+    "enUS": "Forest Ruins",
+    "zhTW": "Forest Ruins",
+    "deDE": "Forest Ruins",
+    "esES": "Forest Ruins",
+    "frFR": "Forest Ruins",
+    "itIT": "Forest Ruins",
+    "koKR": "Forest Ruins",
+    "plPL": "Forest Ruins",
+    "esMX": "Forest Ruins",
+    "jaJP": "Forest Ruins",
+    "ptBR": "Forest Ruins",
+    "ruRU": "Forest Ruins",
+    "zhCN": "Forest Ruins"
+  },
+  {
+    "id": 64003,
+    "Key": "ToForestRuins",
+    "enUS": "To Forest Ruins",
+    "zhTW": "To Forest Ruins",
+    "deDE": "To Forest Ruins",
+    "esES": "To Forest Ruins",
+    "frFR": "To Forest Ruins",
+    "itIT": "To Forest Ruins",
+    "koKR": "To Forest Ruins",
+    "plPL": "To Forest Ruins",
+    "esMX": "To Forest Ruins",
+    "jaJP": "To Forest Ruins",
+    "ptBR": "To Forest Ruins",
+    "ruRU": "To Forest Ruins",
+    "zhCN": "To Forest Ruins"
+  },
+  {
+    "id": 64004,
+    "Key": "EnteringForestRuins",
+    "enUS": "Entering Forest Ruins",
+    "zhTW": "Entering Forest Ruins",
+    "deDE": "Entering Forest Ruins",
+    "esES": "Entering Forest Ruins",
+    "frFR": "Entering Forest Ruins",
+    "itIT": "Entering Forest Ruins",
+    "koKR": "Entering Forest Ruins",
+    "plPL": "Entering Forest Ruins",
+    "esMX": "Entering Forest Ruins",
+    "jaJP": "Entering Forest Ruins",
+    "ptBR": "Entering Forest Ruins",
+    "ruRU": "Entering Forest Ruins",
+    "zhCN": "Entering Forest Ruins"
+  }
 ]

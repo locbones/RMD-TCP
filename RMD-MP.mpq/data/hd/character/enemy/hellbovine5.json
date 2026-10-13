@@ -1,0 +1,301 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash.particles"
+      }
+    ],
+    "models": [
+      {
+        "path": "data/hd/bvt/models/hair_sphere.model"
+      }
+    ],
+    "skeletons": [
+      {
+        "path": "data/hd/character/enemy/hellbovine/skeleton/hellbovine.skeleton"
+      }
+    ],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/character/common/common_ktint.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine5/textures/hell_bovin_fur_alb.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/Hell_Bovine_Fur_FLOW.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/Hell_Bovine_Fur_HRT.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine5/textures/hellbovine_bod_alb.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/hellbovine_body_nrm.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/hellbovine_body_orm.texture"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine/textures/hellbovine_body_SSS.texture"
+      },
+      {
+        "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/fluid/T_FX_BloodDroplet_N.texture"
+      }
+    ],
+    "physics": [],
+    "json": [
+      {
+        "path": "data/hd/character/enemy/hellbovine5/hellbovine5_state_machine.json"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine5/battle_standard.json"
+      }
+    ],
+    "variantdata": [
+      {
+        "path": "data/hd/character/enemy/hellbovine5/hellbovine5_variant.json"
+      }
+    ],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "hellbovine5",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 2785694804,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "data/hd/character/enemy/hellbovine5/hellbovine5_state_machine.json",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.3826834,
+            "z": 0.0,
+            "w": 0.9238795
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        },
+        {
+          "type": "SkeletonDefinitionComponent",
+          "name": "component_skeleton",
+          "filename": "data/hd/character/enemy/hellbovine/skeleton/hellbovine.skeleton"
+        },
+        {
+          "type": "VariantDefinitionComponent",
+          "name": "component_variant",
+          "filename": "data/hd/character/enemy/hellbovine5/hellbovine5_variant.json"
+        },
+        {
+          "type": "DamageFXComponent",
+          "name": "entity_root_DamageFX",
+          "vfxSpawnBones": [],
+          "attackAttemptVfxOverrides": {},
+          "disableAttemptVfx": false,
+          "attackSuccessVfxOverrides": {
+            "type": "AttackVFXTable",
+            "name": "AttackSuccess_Blood",
+            "rules": [
+              {
+                "type": "AttackVFXRule",
+                "name": "AttackSuccess_Blood_rules_0",
+                "acceptedHitClasses": 828,
+                "acceptedVictims": 15,
+                "acceptedBloodTypes": 7,
+                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash.particles",
+                "soundId": "player_impact_gore_blood_hd2"
+              },
+              {
+                "type": "AttackVFXRule",
+                "name": "AttackSuccess_Blood_rules_1",
+                "acceptedHitClasses": 7362,
+                "acceptedVictims": 15,
+                "acceptedBloodTypes": 7,
+                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point.particles",
+                "soundId": "player_impact_gore_blood_hd2"
+              }
+            ],
+            "defaultVfxFile": "",
+            "defaultSoundId": "player_impact_gore_blood_hd2"
+          },
+          "disableSuccessVfx": false,
+          "attackFailVfxOverrides": {},
+          "disableFailVfx": false
+        },
+        {
+          "type": "MoveAnimationSelectComponent",
+          "name": "entity_root_MoveAnimationSelect",
+          "animationOptions": [
+            {
+              "type": "MoveAnimationOption",
+              "name": "entity_root_MoveAnimationSelect_animationOptions_0",
+              "validForWalk": true,
+              "validForRun": true,
+              "validInsideTown": true,
+              "validOutsideTown": true,
+              "minMoveSpeed": 0.0,
+              "maxMoveSpeed": 6.0,
+              "baseMoveSpeed": 5.0,
+              "animationName": "Walk"
+            },
+            {
+              "type": "MoveAnimationOption",
+              "name": "entity_root_MoveAnimationSelect_animationOptions_1",
+              "validForWalk": true,
+              "validForRun": true,
+              "validInsideTown": true,
+              "validOutsideTown": true,
+              "minMoveSpeed": 6.0,
+              "maxMoveSpeed": 99.0,
+              "baseMoveSpeed": 9.0,
+              "animationName": "Run"
+            }
+          ],
+          "defaultAnimationName": "Walk"
+        },
+        {
+          "type": "IKComponent",
+          "name": "entity_root_IK",
+          "preset": {
+            "type": "IKPreset",
+            "name": "Outsource_Quad_Biped_B",
+            "footIKSetup": [
+              {
+                "type": "FootIKSetup",
+                "name": "Outsource_Quad_Biped_B_footIKSetup_0",
+                "footBoneName": "L_leg_04_bind_jnt",
+                "kneeBoneName": "L_leg_02_bind_jnt",
+                "hipBoneName": "L_leg_01_bind_jnt",
+                "locationTrackName": "L_IK_Position",
+                "enabledTrackName": "L_FKIK",
+                "hyperExtensionStart": 0.0,
+                "hyperExtensionScale": 1.0,
+                "defaultEnabled": true,
+                "kneeRotationAxis": 0,
+                "flipKneeRotationAxis": false
+              },
+              {
+                "type": "FootIKSetup",
+                "name": "Outsource_Quad_Biped_B_footIKSetup_1",
+                "footBoneName": "R_leg_04_bind_jnt",
+                "kneeBoneName": "R_leg_02_bind_jnt",
+                "hipBoneName": "R_leg_01_bind_jnt",
+                "locationTrackName": "R_IK_Position",
+                "enabledTrackName": "R_FKIK",
+                "hyperExtensionStart": 0.0,
+                "hyperExtensionScale": 1.0,
+                "defaultEnabled": true,
+                "kneeRotationAxis": 0,
+                "flipKneeRotationAxis": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "hellbovine5_scale",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.25,
+            "y": 1.25,
+            "z": 1.25
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_torso",
+      "id": 3657795852,
+      "components": [
+        {
+          "type": "UnitPartComponent",
+          "name": "component_part_torso",
+          "part": "torso",
+          "variant": "lit"
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "component_model_torso",
+          "filename": "data/hd/bvt/models/hair_sphere.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_rhand_hal",
+      "id": 1397992975,
+      "components": [
+        {
+          "type": "UnitPartComponent",
+          "name": "component_part_rhand_hal",
+          "part": "rhand",
+          "variant": "hal"
+        },
+        {
+          "type": "UnitAttachmentComponent",
+          "name": "entity_rhand_hal_UnitAttachment",
+          "filename": "data/hd/character/enemy/hellbovine5/battle_standard.json",
+          "overrideBoneName": "R_weapon_attach",
+          "orientTowardBoneName": "",
+          "attachmentTransform": {
+            "type": "Transform",
+            "name": "entity_rhand_hal_UnitAttachment_attachmentTransform",
+            "translation": {
+              "x": 0.0,
+              "y": -3.8468625984251967,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "scale": {
+              "x": 0.6855312333434715,
+              "y": 0.6855312333434715,
+              "z": 0.6855312333434715
+            }
+          },
+          "attachmentStateMachineFilename": "",
+          "part": "rhand",
+          "variant": "hal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "type": "UnitDefinition",
+  "name": "moophista_bluewhite_aura",
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_bluewhite_aura.particles"
+      }
+    ],
+    "models": [],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/White.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/default/White.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_fire_plate_Vertical_distortion_med_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_MoophistaWing_______.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapCurve_blinkfix.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_LinearGradient_Inset.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_Mirror_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/mask/T_FX_Hemisphere_Exponential.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/mask/T_FX_soft_glowcard.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_billowy_cloud_noise_blurred.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_cloudnoise_generic.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "moophista_eye_glow_root",
+      "id": 3900775300,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "root_entity_UnitRootComponent",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        },
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "moophista_eye_glow_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_bluewhite_aura.particles",
+          "hardKillOnDestroy": true
+        }
+      ]
+    }
+  ]
+}

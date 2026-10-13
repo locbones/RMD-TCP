@@ -1,0 +1,1841 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles"
+      },
+      {
+        "path": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles"
+      }
+    ],
+    "models": [],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/vfx/textures/distortion/T_FX_fire_plate_Vertical_distortion_med_02.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_MoophistaWing_______.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapCurve_blinkfix.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_LinearGradient_Inset.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/T_FX_Mirror_Gradient.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_billowy_cloud_noise_blurred.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/noise/T_FX_cloudnoise_generic.texture"
+      },
+      {
+        "path": "data/hd/vfx/textures/gradient/FX_MoophistaWhite______.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "moophista_mephisto_particle_wings",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "mephisto_particle_wings_root",
+      "id": 3900786000,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "mephisto_particle_wings_root_component",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_shoulder_0",
+      "id": 3900786100,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_0_transform",
+          "position": {
+            "x": 0.9,
+            "y": 0.35,
+            "z": -0.325
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.043751798916441376,
+            "z": 0.20417506161005972,
+            "w": 0.9779561975406176
+          },
+          "scale": {
+            "x": 0.21910685178697628,
+            "y": 0.06,
+            "z": 0.06
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_shoulder_1",
+      "id": 3900786101,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_1_transform",
+          "position": {
+            "x": 2.75,
+            "y": 1.2,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.04395339151960801,
+            "z": 0.2197669575980401,
+            "w": 0.9745617393074825
+          },
+          "scale": {
+            "x": 0.29181543824821876,
+            "y": 0.0468,
+            "z": 0.0468
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_shoulder_2",
+      "id": 3900786102,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_2_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_2_transform",
+          "position": {
+            "x": 4.699999999999999,
+            "y": 1.5499999999999998,
+            "z": -0.7
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05474067638895522,
+            "z": -0.08211101458343281,
+            "w": 0.9951187063021975
+          },
+          "scale": {
+            "x": 0.2294694968835727,
+            "y": 0.033600000000000005,
+            "z": 0.033600000000000005
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_1_0",
+      "id": 3900786103,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_1_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_1_0_transform",
+          "position": {
+            "x": 4.699999999999999,
+            "y": 1.0,
+            "z": -0.7
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.04622405748147452,
+            "z": -0.3235684023703215,
+            "w": 0.9450750369666246
+          },
+          "scale": {
+            "x": 0.2861380785564899,
+            "y": 0.045,
+            "z": 0.045
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_1_1",
+      "id": 3900786104,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_1_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_1_1_transform",
+          "position": {
+            "x": 6.05,
+            "y": -0.35,
+            "z": -0.875
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05335467844113838,
+            "z": -0.46240721315653294,
+            "w": 0.8850609286988391
+          },
+          "scale": {
+            "x": 0.19852975217835742,
+            "y": 0.0351,
+            "z": 0.0351
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_2_0",
+      "id": 3900786105,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_2_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_2_0_transform",
+          "position": {
+            "x": 4.25,
+            "y": 0.425,
+            "z": -0.7
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.04688362350422563,
+            "z": -0.48055714091831253,
+            "w": 0.8757092897529014
+          },
+          "scale": {
+            "x": 0.304459048970465,
+            "y": 0.044,
+            "z": 0.044
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_2_1",
+      "id": 3900786106,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_2_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_2_1_transform",
+          "position": {
+            "x": 5.35,
+            "y": -1.5,
+            "z": -0.9
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.058172296713595126,
+            "z": -0.5235506704223563,
+            "w": 0.850006281974061
+          },
+          "scale": {
+            "x": 0.2527968552019585,
+            "y": 0.034319999999999996,
+            "z": 0.034319999999999996
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_3_0",
+      "id": 3900786107,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_3_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_3_0_transform",
+          "position": {
+            "x": 3.5999999999999996,
+            "y": -0.04999999999999993,
+            "z": -0.7
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.052995341758184995,
+            "z": -0.6094464302191273,
+            "w": 0.7910540704939806
+          },
+          "scale": {
+            "x": 0.2981715110469141,
+            "y": 0.042,
+            "z": 0.042
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_3_1",
+      "id": 3900786108,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_3_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_3_1_transform",
+          "position": {
+            "x": 4.25,
+            "y": -2.35,
+            "z": -0.9
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05160975898154952,
+            "z": -0.5935122282878195,
+            "w": 0.8031685175918524
+          },
+          "scale": {
+            "x": 0.3015584520453704,
+            "y": 0.032760000000000004,
+            "z": 0.032760000000000004
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_4_0",
+      "id": 3900786109,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_4_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_4_0_transform",
+          "position": {
+            "x": 2.7750000000000004,
+            "y": -0.35,
+            "z": -0.65
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.06321099924653172,
+            "z": -0.7269264913351148,
+            "w": 0.6837998579770798
+          },
+          "scale": {
+            "x": 0.28919338253148186,
+            "y": 0.04,
+            "z": 0.04
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_4_1",
+      "id": 3900786110,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_4_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_4_1_transform",
+          "position": {
+            "x": 2.85,
+            "y": -2.7,
+            "z": -0.85
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0549729448655537,
+            "z": -0.6596753383866446,
+            "w": 0.7495374728839611
+          },
+          "scale": {
+            "x": 0.3033665274877899,
+            "y": 0.031200000000000002,
+            "z": 0.031200000000000002
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_claw_0",
+      "id": 3900786111,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_claw_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_claw_0_transform",
+          "position": {
+            "x": 3.5,
+            "y": 2.2,
+            "z": -0.575
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": -0.032810808411679,
+            "z": 0.787459401880297,
+            "w": 0.6154926004768028
+          },
+          "scale": {
+            "x": 0.1547427300392493,
+            "y": 0.045,
+            "z": 0.045
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_claw_1",
+      "id": 3900786112,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_claw_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_claw_1_transform",
+          "position": {
+            "x": 3.2,
+            "y": 2.575,
+            "z": -0.575
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.09729088803557068,
+            "z": -0.8756179923201368,
+            "w": 0.47310423231091764
+          },
+          "scale": {
+            "x": 0.06789237807000134,
+            "y": 0.0351,
+            "z": 0.0351
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_shoulder_0",
+      "id": 3900786113,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_0_transform",
+          "position": {
+            "x": -0.9,
+            "y": 0.35,
+            "z": -0.325
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.20491027088939573,
+            "z": 0.95624793081718,
+            "w": 0.20881014269401849
+          },
+          "scale": {
+            "x": 0.21910685178697628,
+            "y": 0.06,
+            "z": 0.06
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_shoulder_1",
+      "id": 3900786114,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_1_transform",
+          "position": {
+            "x": -2.75,
+            "y": 1.2,
+            "z": -0.5
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.19112728176652985,
+            "z": 0.9556364088326494,
+            "w": 0.224119201047065
+          },
+          "scale": {
+            "x": 0.29181543824821876,
+            "y": 0.0468,
+            "z": 0.0468
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_shoulder_2",
+      "id": 3900786115,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_2_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_2_transform",
+          "position": {
+            "x": -4.699999999999999,
+            "y": 1.5499999999999998,
+            "z": -0.7
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.5519925416532251,
+            "z": -0.8279888124798375,
+            "w": 0.09868515778697946
+          },
+          "scale": {
+            "x": 0.2294694968835727,
+            "y": 0.033600000000000005,
+            "z": 0.033600000000000005
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_1_0",
+      "id": 3900786116,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_1_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_1_0_transform",
+          "position": {
+            "x": -4.699999999999999,
+            "y": 1.0,
+            "z": -0.7
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.13365379347384554,
+            "z": -0.9355765543169183,
+            "w": 0.32685344499107405
+          },
+          "scale": {
+            "x": 0.2861380785564899,
+            "y": 0.045,
+            "z": 0.045
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_1_1",
+      "id": 3900786117,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_1_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_1_1_transform",
+          "position": {
+            "x": -6.05,
+            "y": -0.35,
+            "z": -0.875
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.10144931946459557,
+            "z": -0.8792274353598287,
+            "w": 0.4654751899841156
+          },
+          "scale": {
+            "x": 0.19852975217835742,
+            "y": 0.0351,
+            "z": 0.0351
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_2_0",
+      "id": 3900786118,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_2_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_2_0_transform",
+          "position": {
+            "x": -4.25,
+            "y": 0.425,
+            "z": -0.7
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0850313407594225,
+            "z": -0.8715712427840803,
+            "w": 0.4828387306756459
+          },
+          "scale": {
+            "x": 0.304459048970465,
+            "y": 0.044,
+            "z": 0.044
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_2_1",
+      "id": 3900786119,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_2_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_2_1_transform",
+          "position": {
+            "x": -5.35,
+            "y": -1.5,
+            "z": -0.9
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.09386749089160185,
+            "z": -0.8448074180244168,
+            "w": 0.5267725511116094
+          },
+          "scale": {
+            "x": 0.2527968552019585,
+            "y": 0.034319999999999996,
+            "z": 0.034319999999999996
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_3_0",
+      "id": 3900786120,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_3_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_3_0_transform",
+          "position": {
+            "x": -3.5999999999999996,
+            "y": -0.04999999999999993,
+            "z": -0.7
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.06852871065074023,
+            "z": -0.7880801724835124,
+            "w": 0.611746236240898
+          },
+          "scale": {
+            "x": 0.2981715110469141,
+            "y": 0.042,
+            "z": 0.042
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_3_1",
+      "id": 3900786121,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_3_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_3_1_transform",
+          "position": {
+            "x": -4.25,
+            "y": -2.35,
+            "z": -0.9
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.06957818055530102,
+            "z": -0.8001490763859618,
+            "w": 0.5957519050320412
+          },
+          "scale": {
+            "x": 0.3015584520453704,
+            "y": 0.032760000000000004,
+            "z": 0.032760000000000004
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_4_0",
+      "id": 3900786122,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_4_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_4_0_transform",
+          "position": {
+            "x": -2.7750000000000004,
+            "y": -0.35,
+            "z": -0.65
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05923731936688785,
+            "z": -0.6812291727192102,
+            "w": 0.7296696199174842
+          },
+          "scale": {
+            "x": 0.28919338253148186,
+            "y": 0.04,
+            "z": 0.04
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_4_1",
+      "id": 3900786123,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_4_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_4_1_transform",
+          "position": {
+            "x": -2.85,
+            "y": -2.7,
+            "z": -0.85
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.06224569910400814,
+            "z": -0.7469483892480978,
+            "w": 0.6619619148732995
+          },
+          "scale": {
+            "x": 0.3033665274877899,
+            "y": 0.031200000000000002,
+            "z": 0.031200000000000002
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_claw_0",
+      "id": 3900786124,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_claw_0_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_claw_0_transform",
+          "position": {
+            "x": -3.5,
+            "y": 2.2,
+            "z": -0.575
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": -0.025623292224166268,
+            "z": 0.6149590133799911,
+            "w": 0.7881426639627516
+          },
+          "scale": {
+            "x": 0.1547427300392493,
+            "y": 0.045,
+            "z": 0.045
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_claw_1",
+      "id": 3900786125,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_claw_1_vfx",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_bone_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_claw_1_transform",
+          "position": {
+            "x": -3.2,
+            "y": 2.575,
+            "z": -0.575
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05224562236656331,
+            "z": -0.47021060129907016,
+            "w": 0.8810064615934989
+          },
+          "scale": {
+            "x": 0.06789237807000134,
+            "y": 0.0351,
+            "z": 0.0351
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_shoulder_0_white",
+      "id": 3900788000,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_0_transform_white",
+          "position": {
+            "x": 1.08,
+            "y": 0.38999999999999996,
+            "z": -0.545
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.043751798916441376,
+            "z": 0.20417506161005972,
+            "w": 0.9779561975406176
+          },
+          "scale": {
+            "x": 0.21910685178697628,
+            "y": 0.03,
+            "z": 0.03
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_shoulder_1_white",
+      "id": 3900788001,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_1_transform_white",
+          "position": {
+            "x": 2.93,
+            "y": 1.24,
+            "z": -0.72
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.04395339151960801,
+            "z": 0.2197669575980401,
+            "w": 0.9745617393074825
+          },
+          "scale": {
+            "x": 0.29181543824821876,
+            "y": 0.0234,
+            "z": 0.0234
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_shoulder_2_white",
+      "id": 3900788002,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_2_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_shoulder_2_transform_white",
+          "position": {
+            "x": 4.879999999999999,
+            "y": 1.5899999999999999,
+            "z": -0.9199999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05474067638895522,
+            "z": -0.08211101458343281,
+            "w": 0.9951187063021975
+          },
+          "scale": {
+            "x": 0.2294694968835727,
+            "y": 0.016800000000000002,
+            "z": 0.016800000000000002
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_1_0_white",
+      "id": 3900788003,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_1_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_1_0_transform_white",
+          "position": {
+            "x": 4.879999999999999,
+            "y": 1.04,
+            "z": -0.9199999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.04622405748147452,
+            "z": -0.3235684023703215,
+            "w": 0.9450750369666246
+          },
+          "scale": {
+            "x": 0.2861380785564899,
+            "y": 0.0225,
+            "z": 0.0225
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_1_1_white",
+      "id": 3900788004,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_1_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_1_1_transform_white",
+          "position": {
+            "x": 6.2299999999999995,
+            "y": -0.31,
+            "z": -1.095
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05335467844113838,
+            "z": -0.46240721315653294,
+            "w": 0.8850609286988391
+          },
+          "scale": {
+            "x": 0.19852975217835742,
+            "y": 0.01755,
+            "z": 0.01755
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_2_0_white",
+      "id": 3900788005,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_2_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_2_0_transform_white",
+          "position": {
+            "x": 4.43,
+            "y": 0.46499999999999997,
+            "z": -0.9199999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.04688362350422563,
+            "z": -0.48055714091831253,
+            "w": 0.8757092897529014
+          },
+          "scale": {
+            "x": 0.304459048970465,
+            "y": 0.022,
+            "z": 0.022
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_2_1_white",
+      "id": 3900788006,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_2_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_2_1_transform_white",
+          "position": {
+            "x": 5.529999999999999,
+            "y": -1.46,
+            "z": -1.12
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.058172296713595126,
+            "z": -0.5235506704223563,
+            "w": 0.850006281974061
+          },
+          "scale": {
+            "x": 0.2527968552019585,
+            "y": 0.017159999999999998,
+            "z": 0.017159999999999998
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_3_0_white",
+      "id": 3900788007,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_3_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_3_0_transform_white",
+          "position": {
+            "x": 3.78,
+            "y": -0.009999999999999933,
+            "z": -0.9199999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.052995341758184995,
+            "z": -0.6094464302191273,
+            "w": 0.7910540704939806
+          },
+          "scale": {
+            "x": 0.2981715110469141,
+            "y": 0.021,
+            "z": 0.021
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_3_1_white",
+      "id": 3900788008,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_3_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_3_1_transform_white",
+          "position": {
+            "x": 4.43,
+            "y": -2.31,
+            "z": -1.12
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05160975898154952,
+            "z": -0.5935122282878195,
+            "w": 0.8031685175918524
+          },
+          "scale": {
+            "x": 0.3015584520453704,
+            "y": 0.016380000000000002,
+            "z": 0.016380000000000002
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_4_0_white",
+      "id": 3900788009,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_4_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_4_0_transform_white",
+          "position": {
+            "x": 2.9550000000000005,
+            "y": -0.31,
+            "z": -0.87
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.06321099924653172,
+            "z": -0.7269264913351148,
+            "w": 0.6837998579770798
+          },
+          "scale": {
+            "x": 0.28919338253148186,
+            "y": 0.02,
+            "z": 0.02
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_rib_4_1_white",
+      "id": 3900788010,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_rib_4_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_rib_4_1_transform_white",
+          "position": {
+            "x": 3.0300000000000002,
+            "y": -2.66,
+            "z": -1.07
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0549729448655537,
+            "z": -0.6596753383866446,
+            "w": 0.7495374728839611
+          },
+          "scale": {
+            "x": 0.3033665274877899,
+            "y": 0.015600000000000001,
+            "z": 0.015600000000000001
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_claw_0_white",
+      "id": 3900788011,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_claw_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_claw_0_transform_white",
+          "position": {
+            "x": 3.68,
+            "y": 2.24,
+            "z": -0.7949999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": -0.032810808411679,
+            "z": 0.787459401880297,
+            "w": 0.6154926004768028
+          },
+          "scale": {
+            "x": 0.1547427300392493,
+            "y": 0.0225,
+            "z": 0.0225
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_L_claw_1_white",
+      "id": 3900788012,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_L_claw_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_L_claw_1_transform_white",
+          "position": {
+            "x": 3.3800000000000003,
+            "y": 2.615,
+            "z": -0.7949999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.09729088803557068,
+            "z": -0.8756179923201368,
+            "w": 0.47310423231091764
+          },
+          "scale": {
+            "x": 0.06789237807000134,
+            "y": 0.01755,
+            "z": 0.01755
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_shoulder_0_white",
+      "id": 3900788013,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_0_transform_white",
+          "position": {
+            "x": -1.08,
+            "y": 0.38999999999999996,
+            "z": -0.545
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.20491027088939573,
+            "z": 0.95624793081718,
+            "w": 0.20881014269401849
+          },
+          "scale": {
+            "x": 0.21910685178697628,
+            "y": 0.03,
+            "z": 0.03
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_shoulder_1_white",
+      "id": 3900788014,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_1_transform_white",
+          "position": {
+            "x": -2.93,
+            "y": 1.24,
+            "z": -0.72
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.19112728176652985,
+            "z": 0.9556364088326494,
+            "w": 0.224119201047065
+          },
+          "scale": {
+            "x": 0.29181543824821876,
+            "y": 0.0234,
+            "z": 0.0234
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_shoulder_2_white",
+      "id": 3900788015,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_2_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_shoulder_2_transform_white",
+          "position": {
+            "x": -4.879999999999999,
+            "y": 1.5899999999999999,
+            "z": -0.9199999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.5519925416532251,
+            "z": -0.8279888124798375,
+            "w": 0.09868515778697946
+          },
+          "scale": {
+            "x": 0.2294694968835727,
+            "y": 0.016800000000000002,
+            "z": 0.016800000000000002
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_1_0_white",
+      "id": 3900788016,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_1_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_1_0_transform_white",
+          "position": {
+            "x": -4.879999999999999,
+            "y": 1.04,
+            "z": -0.9199999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.13365379347384554,
+            "z": -0.9355765543169183,
+            "w": 0.32685344499107405
+          },
+          "scale": {
+            "x": 0.2861380785564899,
+            "y": 0.0225,
+            "z": 0.0225
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_1_1_white",
+      "id": 3900788017,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_1_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_1_1_transform_white",
+          "position": {
+            "x": -6.2299999999999995,
+            "y": -0.31,
+            "z": -1.095
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.10144931946459557,
+            "z": -0.8792274353598287,
+            "w": 0.4654751899841156
+          },
+          "scale": {
+            "x": 0.19852975217835742,
+            "y": 0.01755,
+            "z": 0.01755
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_2_0_white",
+      "id": 3900788018,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_2_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_2_0_transform_white",
+          "position": {
+            "x": -4.43,
+            "y": 0.46499999999999997,
+            "z": -0.9199999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0850313407594225,
+            "z": -0.8715712427840803,
+            "w": 0.4828387306756459
+          },
+          "scale": {
+            "x": 0.304459048970465,
+            "y": 0.022,
+            "z": 0.022
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_2_1_white",
+      "id": 3900788019,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_2_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_2_1_transform_white",
+          "position": {
+            "x": -5.529999999999999,
+            "y": -1.46,
+            "z": -1.12
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.09386749089160185,
+            "z": -0.8448074180244168,
+            "w": 0.5267725511116094
+          },
+          "scale": {
+            "x": 0.2527968552019585,
+            "y": 0.017159999999999998,
+            "z": 0.017159999999999998
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_3_0_white",
+      "id": 3900788020,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_3_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_3_0_transform_white",
+          "position": {
+            "x": -3.78,
+            "y": -0.009999999999999933,
+            "z": -0.9199999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.06852871065074023,
+            "z": -0.7880801724835124,
+            "w": 0.611746236240898
+          },
+          "scale": {
+            "x": 0.2981715110469141,
+            "y": 0.021,
+            "z": 0.021
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_3_1_white",
+      "id": 3900788021,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_3_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_3_1_transform_white",
+          "position": {
+            "x": -4.43,
+            "y": -2.31,
+            "z": -1.12
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.06957818055530102,
+            "z": -0.8001490763859618,
+            "w": 0.5957519050320412
+          },
+          "scale": {
+            "x": 0.3015584520453704,
+            "y": 0.016380000000000002,
+            "z": 0.016380000000000002
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_4_0_white",
+      "id": 3900788022,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_4_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_4_0_transform_white",
+          "position": {
+            "x": -2.9550000000000005,
+            "y": -0.31,
+            "z": -0.87
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05923731936688785,
+            "z": -0.6812291727192102,
+            "w": 0.7296696199174842
+          },
+          "scale": {
+            "x": 0.28919338253148186,
+            "y": 0.02,
+            "z": 0.02
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_rib_4_1_white",
+      "id": 3900788023,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_rib_4_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_rib_4_1_transform_white",
+          "position": {
+            "x": -3.0300000000000002,
+            "y": -2.66,
+            "z": -1.07
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.06224569910400814,
+            "z": -0.7469483892480978,
+            "w": 0.6619619148732995
+          },
+          "scale": {
+            "x": 0.3033665274877899,
+            "y": 0.015600000000000001,
+            "z": 0.015600000000000001
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_claw_0_white",
+      "id": 3900788024,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_claw_0_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_claw_0_transform_white",
+          "position": {
+            "x": -3.68,
+            "y": 2.24,
+            "z": -0.7949999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": -0.025623292224166268,
+            "z": 0.6149590133799911,
+            "w": 0.7881426639627516
+          },
+          "scale": {
+            "x": 0.1547427300392493,
+            "y": 0.0225,
+            "z": 0.0225
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mephisto_wing_R_claw_1_white",
+      "id": 3900788025,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "mephisto_wing_R_claw_1_vfx_white",
+          "filename": "data/hd/vfx/particles/character/enemy/moophista/moophista_mephisto_white_strip.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mephisto_wing_R_claw_1_transform_white",
+          "position": {
+            "x": -3.3800000000000003,
+            "y": 2.615,
+            "z": -0.7949999999999999
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.05224562236656331,
+            "z": -0.47021060129907016,
+            "w": 0.8810064615934989
+          },
+          "scale": {
+            "x": 0.06789237807000134,
+            "y": 0.01755,
+            "z": 0.01755
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    }
+  ]
+}
