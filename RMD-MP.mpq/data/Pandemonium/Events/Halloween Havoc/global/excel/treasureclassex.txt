@@ -1142,3 +1142,4 @@ MadKing Jewels			1						Facetted MemoryA	1	Facetted MemoryB	1	Facetted MemoryC	1
 MadKing			6	993	725	1024	600	19	Act 5 (H) Equip C	30	Act 5 (H) Good	10	TormentBossesB	4	MadKing Jewels	1																0
 UberCowsA1			1	650	800	800		100	Blank	4500	Act 5 (H) Equip C	480	Act 5 (H) Good	220	RMD Loot A	2	Runes 18	5	gld,mul=1024	240												0
 Moophista			6	983	983	983	1024	15	gld,mul=2048	3000	Act 5 (H) Equip B	480	Act 5 (H) Junk	220	Act 5 (H) Good	480	Runes 18	10	m35	5												0
+WirtOtherLeg			-1					0	CW2	1																						0
