@@ -1,2 +1,0 @@
-Player Class	Code
-Warlock	war
