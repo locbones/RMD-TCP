@@ -1,0 +1,403 @@
+{
+  "version": 1,
+  "enabled": true,
+  "status": "prototype; runtime acceptance pending",
+  "mod": "RMD-MP",
+  "act": 6,
+  "town": 240,
+  "levels": [
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248
+  ],
+  "clone_sources": [
+    103,
+    113,
+    115,
+    118,
+    123,
+    129,
+    35,
+    48,
+    57
+  ],
+  "first_waypoint": 39,
+  "quest_records": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "quest_labels": [
+    {
+      "title": 64019,
+      "objective": 64020,
+      "completed": 64021
+    },
+    {
+      "title": 64022,
+      "objective": 64023,
+      "completed": 64024
+    },
+    {
+      "title": 64025,
+      "objective": 64026,
+      "completed": 64027
+    },
+    {
+      "title": 64028,
+      "objective": 64029,
+      "completed": 64030
+    },
+    {
+      "title": 64031,
+      "objective": 64032,
+      "completed": 64033
+    },
+    {
+      "title": 64034,
+      "objective": 64035,
+      "completed": 64036
+    }
+  ],
+  "travel": "waypoints-only prototype",
+  "native_layouts": [
+    "D2RLAN/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json",
+    "D2RLAN/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json",
+    "D2RLAN/UI Theme/expanded/layouts/questlogpanelexpansionhd.json",
+    "D2RLAN/UI Theme/expanded/layouts/waypointspanelexpansionhd.json",
+    "D2RLAN/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json",
+    "D2RLAN/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json",
+    "D2RLAN/UI Theme/remodded/layouts/questlogpanelexpansionhd.json",
+    "D2RLAN/UI Theme/remodded/layouts/waypointspanelexpansionhd.json",
+    "global/ui/layouts/controller/questlogpanelexpansionhd.json",
+    "global/ui/layouts/controller/waypointspanelexpansionhd.json",
+    "global/ui/layouts/questlogpanelexpansionhd.json",
+    "global/ui/layouts/waypointspanelexpansionhd.json",
+    "Pandemonium/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json",
+    "Pandemonium/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json",
+    "Pandemonium/UI Theme/expanded/layouts/questlogpanelexpansionhd.json",
+    "Pandemonium/UI Theme/expanded/layouts/waypointspanelexpansionhd.json",
+    "Pandemonium/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json",
+    "Pandemonium/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json",
+    "Pandemonium/UI Theme/remodded/layouts/questlogpanelexpansionhd.json",
+    "Pandemonium/UI Theme/remodded/layouts/waypointspanelexpansionhd.json"
+  ],
+  "source_sha256": {
+    "global/excel/levels.txt": "25548d81a06ab6ab3049ea32ed5ca5f63d4734e907e36a139cac95c060ced535",
+    "global/excel/actinfo.txt": "22e8d8094a242fdf1527c9dbae50fddae58d4c082dd38a15210c20a4fa16e81a",
+    "local/lng/strings/levels.json": "2ddc9d1f98e586eb4810b1ff3ad4ee29d139c16ecb3f26fa7acf14c1b7458bcd",
+    "local/lng/strings/quests.json": "1d9c2277f281723c1d701b4914bde0bb5678a03b495e92a99d87bfd86e8f7011",
+    "global/excel/lvlmaze.txt": "82fb68c4401b6f771be4f4c970053fb6c338e999472e021e23dfcd396657910a",
+    "global/excel/lvlprest.txt": "29b91bcd77c76fb79802c340ad218d6bfcd5f2c65469c1455912b88660f320b1",
+    "global/excel/automap.txt": "7049daa93bb5f6143382b55cf95f93bbded7434f66d8b77dd48839f142e48b83",
+    "D2RLAN/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json": "9a6bbe904ecbe91580dc0241bd1f2c899c56d1bd9a9e1cf587d992d73d200ee1",
+    "D2RLAN/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json": "f8b84786a957710692cfc0c305ab865d90d7c79f74a5ddc62b41a620e9656a2e",
+    "D2RLAN/UI Theme/expanded/layouts/questlogpanelexpansionhd.json": "4260222de418d5c59f2db9efbbbe5fe3db223caa36f354fe91ed313e85819f0f",
+    "D2RLAN/UI Theme/expanded/layouts/waypointspanelexpansionhd.json": "26ea5e4c6b6a58cb981fd2eb2646051c3669c6779ddd8e0adcc7394be896a3bb",
+    "D2RLAN/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json": "9a6bbe904ecbe91580dc0241bd1f2c899c56d1bd9a9e1cf587d992d73d200ee1",
+    "D2RLAN/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json": "f8b84786a957710692cfc0c305ab865d90d7c79f74a5ddc62b41a620e9656a2e",
+    "D2RLAN/UI Theme/remodded/layouts/questlogpanelexpansionhd.json": "d7b2c50bf9beaad825840879226bd9a1d33de2c5dc2451167b35696d4eb3d6c6",
+    "D2RLAN/UI Theme/remodded/layouts/waypointspanelexpansionhd.json": "721f518d261660317be25f1cea199619efa6c09bb92ef7a449610503c9f401db",
+    "global/ui/layouts/controller/questlogpanelexpansionhd.json": "9a6bbe904ecbe91580dc0241bd1f2c899c56d1bd9a9e1cf587d992d73d200ee1",
+    "global/ui/layouts/controller/waypointspanelexpansionhd.json": "f8b84786a957710692cfc0c305ab865d90d7c79f74a5ddc62b41a620e9656a2e",
+    "global/ui/layouts/questlogpanelexpansionhd.json": "d7b2c50bf9beaad825840879226bd9a1d33de2c5dc2451167b35696d4eb3d6c6",
+    "global/ui/layouts/waypointspanelexpansionhd.json": "721f518d261660317be25f1cea199619efa6c09bb92ef7a449610503c9f401db",
+    "Pandemonium/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json": "9a6bbe904ecbe91580dc0241bd1f2c899c56d1bd9a9e1cf587d992d73d200ee1",
+    "Pandemonium/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json": "f8b84786a957710692cfc0c305ab865d90d7c79f74a5ddc62b41a620e9656a2e",
+    "Pandemonium/UI Theme/expanded/layouts/questlogpanelexpansionhd.json": "4260222de418d5c59f2db9efbbbe5fe3db223caa36f354fe91ed313e85819f0f",
+    "Pandemonium/UI Theme/expanded/layouts/waypointspanelexpansionhd.json": "26ea5e4c6b6a58cb981fd2eb2646051c3669c6779ddd8e0adcc7394be896a3bb",
+    "Pandemonium/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json": "9a6bbe904ecbe91580dc0241bd1f2c899c56d1bd9a9e1cf587d992d73d200ee1",
+    "Pandemonium/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json": "f8b84786a957710692cfc0c305ab865d90d7c79f74a5ddc62b41a620e9656a2e",
+    "Pandemonium/UI Theme/remodded/layouts/questlogpanelexpansionhd.json": "d7b2c50bf9beaad825840879226bd9a1d33de2c5dc2451167b35696d4eb3d6c6",
+    "Pandemonium/UI Theme/remodded/layouts/waypointspanelexpansionhd.json": "721f518d261660317be25f1cea199619efa6c09bb92ef7a449610503c9f401db"
+  },
+  "switch_files": [
+    {
+      "path": "global/excel/levels.txt",
+      "enabled": "Pandemonium/ActVI/enabled/global/excel/levels.txt",
+      "disabled": "Pandemonium/ActVI/disabled/global/excel/levels.txt",
+      "enabled_hash": 7874428495256853750,
+      "disabled_hash": 16628571718253797911
+    },
+    {
+      "path": "global/excel/actinfo.txt",
+      "enabled": "Pandemonium/ActVI/enabled/global/excel/actinfo.txt",
+      "disabled": "Pandemonium/ActVI/disabled/global/excel/actinfo.txt",
+      "enabled_hash": 11909110173761145827,
+      "disabled_hash": 16863866858184544214
+    },
+    {
+      "path": "global/excel/lvlmaze.txt",
+      "enabled": "Pandemonium/ActVI/enabled/global/excel/lvlmaze.txt",
+      "disabled": "Pandemonium/ActVI/disabled/global/excel/lvlmaze.txt",
+      "enabled_hash": 7572246530424170649,
+      "disabled_hash": 802865437609257336
+    },
+    {
+      "path": "global/excel/lvlprest.txt",
+      "enabled": "Pandemonium/ActVI/enabled/global/excel/lvlprest.txt",
+      "disabled": "Pandemonium/ActVI/disabled/global/excel/lvlprest.txt",
+      "enabled_hash": 4633201672588600140,
+      "disabled_hash": 4966955631479033529
+    },
+    {
+      "path": "global/excel/automap.txt",
+      "enabled": "Pandemonium/ActVI/enabled/global/excel/automap.txt",
+      "disabled": "Pandemonium/ActVI/disabled/global/excel/automap.txt",
+      "enabled_hash": 12352842278572641524,
+      "disabled_hash": 9129033598868613009
+    },
+    {
+      "path": "local/lng/strings/levels.json",
+      "enabled": "Pandemonium/ActVI/enabled/local/lng/strings/levels.json",
+      "disabled": "Pandemonium/ActVI/disabled/local/lng/strings/levels.json",
+      "enabled_hash": 15381426108139690720,
+      "disabled_hash": 7131868282167873235
+    },
+    {
+      "path": "local/lng/strings/quests.json",
+      "enabled": "Pandemonium/ActVI/enabled/local/lng/strings/quests.json",
+      "disabled": "Pandemonium/ActVI/disabled/local/lng/strings/quests.json",
+      "enabled_hash": 9226102513035353462,
+      "disabled_hash": 8079168266309113129
+    },
+    {
+      "path": "D2RLAN/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/D2RLAN/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/D2RLAN/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled_hash": 5297204816961769400,
+      "disabled_hash": 2802998293417349113
+    },
+    {
+      "path": "D2RLAN/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/D2RLAN/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/D2RLAN/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled_hash": 8620823207798068363,
+      "disabled_hash": 15937438005990999088
+    },
+    {
+      "path": "D2RLAN/UI Theme/expanded/layouts/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/D2RLAN/UI Theme/expanded/layouts/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/D2RLAN/UI Theme/expanded/layouts/questlogpanelexpansionhd.json",
+      "enabled_hash": 7563074922566253313,
+      "disabled_hash": 4445215568876264233
+    },
+    {
+      "path": "D2RLAN/UI Theme/expanded/layouts/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/D2RLAN/UI Theme/expanded/layouts/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/D2RLAN/UI Theme/expanded/layouts/waypointspanelexpansionhd.json",
+      "enabled_hash": 14796283088413626488,
+      "disabled_hash": 10629543746656822942
+    },
+    {
+      "path": "D2RLAN/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/D2RLAN/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/D2RLAN/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled_hash": 5297204816961769400,
+      "disabled_hash": 2802998293417349113
+    },
+    {
+      "path": "D2RLAN/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/D2RLAN/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/D2RLAN/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled_hash": 8620823207798068363,
+      "disabled_hash": 15937438005990999088
+    },
+    {
+      "path": "D2RLAN/UI Theme/remodded/layouts/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/D2RLAN/UI Theme/remodded/layouts/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/D2RLAN/UI Theme/remodded/layouts/questlogpanelexpansionhd.json",
+      "enabled_hash": 17109222166594839268,
+      "disabled_hash": 15344817231035121002
+    },
+    {
+      "path": "D2RLAN/UI Theme/remodded/layouts/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/D2RLAN/UI Theme/remodded/layouts/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/D2RLAN/UI Theme/remodded/layouts/waypointspanelexpansionhd.json",
+      "enabled_hash": 4725562681027007778,
+      "disabled_hash": 15651984084043107602
+    },
+    {
+      "path": "global/ui/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/global/ui/layouts/controller/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/global/ui/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled_hash": 5297204816961769400,
+      "disabled_hash": 2802998293417349113
+    },
+    {
+      "path": "global/ui/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/global/ui/layouts/controller/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/global/ui/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled_hash": 8620823207798068363,
+      "disabled_hash": 15937438005990999088
+    },
+    {
+      "path": "global/ui/layouts/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/global/ui/layouts/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/global/ui/layouts/questlogpanelexpansionhd.json",
+      "enabled_hash": 17109222166594839268,
+      "disabled_hash": 15344817231035121002
+    },
+    {
+      "path": "global/ui/layouts/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/global/ui/layouts/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/global/ui/layouts/waypointspanelexpansionhd.json",
+      "enabled_hash": 4725562681027007778,
+      "disabled_hash": 15651984084043107602
+    },
+    {
+      "path": "Pandemonium/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/Pandemonium/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/Pandemonium/UI Theme/expanded/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled_hash": 5297204816961769400,
+      "disabled_hash": 2802998293417349113
+    },
+    {
+      "path": "Pandemonium/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/Pandemonium/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/Pandemonium/UI Theme/expanded/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled_hash": 8620823207798068363,
+      "disabled_hash": 15937438005990999088
+    },
+    {
+      "path": "Pandemonium/UI Theme/expanded/layouts/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/Pandemonium/UI Theme/expanded/layouts/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/Pandemonium/UI Theme/expanded/layouts/questlogpanelexpansionhd.json",
+      "enabled_hash": 7563074922566253313,
+      "disabled_hash": 4445215568876264233
+    },
+    {
+      "path": "Pandemonium/UI Theme/expanded/layouts/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/Pandemonium/UI Theme/expanded/layouts/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/Pandemonium/UI Theme/expanded/layouts/waypointspanelexpansionhd.json",
+      "enabled_hash": 14796283088413626488,
+      "disabled_hash": 10629543746656822942
+    },
+    {
+      "path": "Pandemonium/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/Pandemonium/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/Pandemonium/UI Theme/remodded/layouts/controller/questlogpanelexpansionhd.json",
+      "enabled_hash": 5297204816961769400,
+      "disabled_hash": 2802998293417349113
+    },
+    {
+      "path": "Pandemonium/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/Pandemonium/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/Pandemonium/UI Theme/remodded/layouts/controller/waypointspanelexpansionhd.json",
+      "enabled_hash": 8620823207798068363,
+      "disabled_hash": 15937438005990999088
+    },
+    {
+      "path": "Pandemonium/UI Theme/remodded/layouts/questlogpanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/Pandemonium/UI Theme/remodded/layouts/questlogpanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/Pandemonium/UI Theme/remodded/layouts/questlogpanelexpansionhd.json",
+      "enabled_hash": 17109222166594839268,
+      "disabled_hash": 15344817231035121002
+    },
+    {
+      "path": "Pandemonium/UI Theme/remodded/layouts/waypointspanelexpansionhd.json",
+      "enabled": "Pandemonium/ActVI/enabled/Pandemonium/UI Theme/remodded/layouts/waypointspanelexpansionhd.json",
+      "disabled": "Pandemonium/ActVI/disabled/Pandemonium/UI Theme/remodded/layouts/waypointspanelexpansionhd.json",
+      "enabled_hash": 4725562681027007778,
+      "disabled_hash": 15651984084043107602
+    }
+  ],
+  "town_content": {
+    "name": "Dawn's Refuge",
+    "width": 48,
+    "height": 40,
+    "level_type": 26,
+    "dt1_mask": 127,
+    "ds1": "global/tiles/act6/refuge/dawnsrefuge.ds1",
+    "scene": "hd/env/preset/act6/refuge/dawnsrefuge.json",
+    "entry": [
+      24,
+      24
+    ],
+    "services": [
+      [
+        "Waypoint",
+        2,
+        0,
+        24,
+        20
+      ],
+      [
+        "Stash",
+        2,
+        2,
+        28,
+        23
+      ],
+      [
+        "Halbu",
+        1,
+        11,
+        12,
+        11
+      ],
+      [
+        "Jamella",
+        1,
+        10,
+        36,
+        11
+      ],
+      [
+        "Cain",
+        1,
+        25,
+        20,
+        30
+      ],
+      [
+        "Tyrael",
+        1,
+        7,
+        24,
+        9
+      ]
+    ],
+    "solid_rectangles": [
+      [
+        2,
+        2,
+        17,
+        7
+      ],
+      [
+        32,
+        2,
+        47,
+        7
+      ],
+      [
+        2,
+        32,
+        17,
+        39
+      ],
+      [
+        32,
+        32,
+        47,
+        39
+      ]
+    ],
+    "assets": {
+      "global/tiles/act6/refuge/dawnsrefuge.ds1": "b1e891c18c371ce53285a486fecbf3e69bfa5888989bd3cfb8bb18dd382ca549",
+      "hd/env/preset/act6/refuge/dawnsrefuge.json": "36c23cdd1e919f9311c71ce0cbb0aaae790d15ca298ea2c667a34a3b717a89c1"
+    },
+    "stock_art": true,
+    "hd_entities": 311
+  }
+}

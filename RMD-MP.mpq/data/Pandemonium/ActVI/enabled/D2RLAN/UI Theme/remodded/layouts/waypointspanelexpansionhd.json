@@ -1,0 +1,94 @@
+{
+    "basedOn": "WaypointsPanelOriginalHD.json",
+    "type": "WaypointsPanel",
+    "name": "WaypointsPanelExpansion",
+    "children": [
+        {
+            "type": "ClickCatcherWidget",
+            "name": "ClickCatcher",
+            "fields": {
+                "rect": "$PanelClickCatcherRectS"
+            }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "Background"
+        },
+        {
+            "type": "ImageWidget",
+            "name": "LeftHinge"
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "WaypointsTitle"
+        },
+        {
+            "type": "TabBarWidget",
+            "name": "Tabs",
+            "fields": {
+                "tabCount": 6,
+                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Waypoint\\WaypointTab_R",
+                "inactiveFrames": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "activeFrames": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "tabSize": {
+                    "x": 145,
+                    "y": 70
+                },
+                "tabPadding": {
+                    "x": -1,
+                    "y": 0
+                },
+                "textStrings": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV",
+                    "V",
+                    "VI"
+                ]
+            }
+        },
+        {
+            "type": "Widget",
+            "name": "Templates",
+            "children": [
+                {
+                    "type": "ButtonWidget",
+                    "name": "UnselectableButtonTemplate",
+                    "children": [
+                        {
+                            "type": "ImageWidget",
+                            "name": "TerrorZone"
+                        }
+                    ]
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "SelectableButton"
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "CurrentButton"
+                }
+            ]
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "CloseButton"
+        }
+    ]
+}

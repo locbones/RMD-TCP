@@ -3432,7 +3432,6 @@ return {
         { -- Gift Boxes
             codes = { "Ev03", "Ev04" },
             location = { "onplayer", "equipped", "atvendor", "onground" },
-            filter_levels = 1,
             name_style = "Christmas",
             prefix_desc = {
                 deDE = "{blue}35%% Kalt-/Feuer-/Blitzschaden für 10 Minuten\n{white}eat, um zu erhalten:\n\nbinc5a Geschenk vom Boney Bunny ...\n",
@@ -3453,7 +3452,6 @@ return {
             { -- Candy Corn
             codes = { "Ev11", "Ev12" },
             location = { "onplayer", "equipped", "atvendor", "onground" },
-            filter_levels = 1,
             name_style = "OpenFlames",
             prefix_desc = {
                 deDE = "{blue}35%% Kalt-/Feuer-/Blitzschaden für 10 Minuten\n{white}eat, um zu erhalten:\n\nbinc5a Geschenk vom Boney Bunny ...\n",
@@ -5889,7 +5887,7 @@ return {
 		{ -- Mod Tip: Warrior's Wrath Forsaken Pact
 			code = "L49",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+			prefix_desc = "{green}Sanguine Sanctum {gray}- Mangala's Teachings + Warrior's Wrath + Thresh Socket's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Blessings of Artemis Forsaken Pact
 			code = "L50",
@@ -5929,7 +5927,7 @@ return {
 		{ -- Mod Tip: Mangala's Teachings Forsaken Pact
 			code = "L57",
 			location = { "onplayer", "atvendor" },
-			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+			prefix_desc = "{green}Sanguine Sanctum {gray}- Mangala's Teachings + Warrior's Wrath + Thresh Socket's Horn\n{white}Used for:\n\n"
 		},
 		{ -- Mod Tip: Sacrificial Trinity Forsaken Pact
 			code = "L58",
@@ -5946,6 +5944,36 @@ return {
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
 		},
+		{ -- Mod Tip: Memento Mori Forsaken Pact
+			code = "L61",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Cascading Caldera Forsaken Pact
+			code = "L62",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Path of the Vortex Forsaken Pact
+			code = "L63",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Blacklight Forsaken Pact
+			code = "L65",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Winter Warrior Forsaken Pact
+			code = "L67",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
+		{ -- Mod Tip: Sanguine Sanctum Forsaken Pact
+			code = "L68",
+			location = { "onplayer", "atvendor" },
+			prefix_desc = "{red} Currently not used in any Pact\n{white}Used for:\n\n"
+		},
         { -- Quill of Quality
 			code = "m30",
 			location = { "onplayer" },
@@ -5954,52 +5982,62 @@ return {
         { -- Parchment of Proof (No Reward)
 			codes = { "Bt00", "Bt01", "Bt02", "Bt03", "Bt04", "Bt06", "Bt07", "Bt08", "Bt09", "Bt11", "Bt12", "Bt13", "Bt14", "Bt16", "Bt17", "Bt18", "Bt19", "Bt21", "Bt22", "Bt23", "Bt24", "Bt26", "Bt27", "Bt28", "Bt29", "Bt31", "Bt32", "Bt33", "Bt34", "Bt36", "Bt37", "Bt38", "Bt39", "Bt41", "Bt42", "Bt43", "Bt44" },
 			location = { "onplayer" },
-			prefix_desc = "{grey}Cube with your {gold}Evil Barrier {grey}charm to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{grey}Cube with your {gold}Evil Barrier {grey}charm to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Assigned Reward)
 			code= "Bt05",
 			location = { "onplayer" },
-			prefix_desc = "{white}Lightning Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{white}Lightning Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Assigned Reward)
 			code= "Bt10",
 			location = { "onplayer" },
-			prefix_desc = "{white}Poison Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{white}Poison Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Chosen Reward)
 			code = "Bt15",
 			location = { "onplayer" },
-			prefix_desc = "{blue}+25%% Chance of Piercing Attack\nLevel 6 Blessed Aim Aura when equipped\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+1%% Increased Attack Speed per 16 Strength\nCurse Length Reduced by 25%%\nMagic and Physical Damage Reduced by 5\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}+15%% Summon HP\nAttacker takes Damage of 2 per Character Level\n+1 Combat Power\n+10%% Chance of Open Wounds\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}-5%% to All Enemy Immunities\n+250 to Attack Rating\n+15%% Faster Block Rate\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+1%% Faster Cast Rate per 16 Energy\n+100%% Mana Regen\n+10 to All Stats\nPrevent Monster Heal\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{blue}+25%% Chance of Piercing Attack\nLevel 6 Blessed Aim Aura when equipped\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+1%% Increased Attack Speed per 16 Strength\nCurse Length Reduced by 25%%\nMagic and Physical Damage Reduced by 5\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}+15%% Summon HP\nAttacker takes Damage of 2 per Character Level\n+1 Combat Power\n+10%% Chance of Open Wounds\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}-5%% to All Enemy Immunities\n+250 to Attack Rating\n+15%% Faster Block Rate\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+1%% Faster Cast Rate per 16 Energy\n+100%% Mana Regen\n+10 to All Stats\nPrevent Monster Heal\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Assigned Reward)
 			code= "Bt20",
 			location = { "onplayer" },
-			prefix_desc = "{white}Cold Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{white}Cold Resist +25%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Assigned Reward)
 			code= "Bt25",
 			location = { "onplayer" },
-			prefix_desc = "{white}Movement Speed +20%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{white}Movement Speed +20%% Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Chosen Reward)
 			code = "Bt30",
 			location = { "onplayer" },
-			prefix_desc = "{blue}-40%% Target Defense\n+50%% Curse Duration\n+20%% Chance to Block\n+5 Life after Demon kill\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+25%% Summon Damage\n+10%% Life\nHalf Freeze Duration\n10%% Chance to reanimate a slain enemy as a Blunderbore\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}+20%% Energy\n5%% CtC Level 40 Energy Shield when struck\n20%% Damage Taken goes to Mana\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}-10%% to All Enemy Resistances\n+150 Raven Damage\n+30 to Dexterity\n+40%% Buff Duration\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+20%% Movement Speed\n+20%% Bone Skill Damage\n+15%% Faster Hit Recovery\n+1 Summoning Power\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{blue}-40%% Target Defense\n+50%% Curse Duration\n+20%% Chance to Block\n+5 Life after Demon kill\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+25%% Summon Damage\n+10%% Life\nHalf Freeze Duration\n10%% Chance to reanimate a slain enemy as a Blunderbore\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}+20%% Energy\n5%% CtC Level 40 Energy Shield when struck\n20%% Damage Taken goes to Mana\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}-10%% to All Enemy Resistances\n+150 Raven Damage\n+30 to Dexterity\n+40%% Buff Duration\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+20%% Movement Speed\n+20%% Bone Skill Damage\n+15%% Faster Hit Recovery\n+1 Summoning Power\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Assigned Reward)
 			code= "Bt35",
 			location = { "onplayer" },
-			prefix_desc = "{white}+100 Life Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{white}+100 Life Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Assigned Reward)
 			code= "Bt40",
 			location = { "onplayer" },
-			prefix_desc = "{white}+100 Mana Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{white}+100 Mana Added to your {gold}Evil Barrier {white}charm\n{dark green}Reward:\n\n{white}Cube with your {gold}Evil Barrier {white}charm to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Parchment of Proof (Chosen Reward)
 			code = "Bt45",
 			location = { "onplayer" },
-			prefix_desc = "{blue}+1 Blink Strike\nDamage Reduced by 10%%\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+10%% Magic Resistance\n+150 Fire/Cold/Lightning Damage\n+10%% Faster Cast Rate\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}-10%% to All Enemy Immunities\n+10%% Increased Attack Speed\n+15%% Dexterity\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}+1 Spell Power\n+1000 Defense\n+5%% Life and Mana stolen per hit\n+1 to Magic Skills\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+20%% Cooldown Reduction\n-35%% Poison Length Reduction\n+10%% Chance of Crushing Blow\n+15 to All Stats\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
+			-- D2RHUD legacy source (kept for journal export): prefix_desc = "{blue}+1 Blink Strike\nDamage Reduced by 10%%\n{dark green}Reward E: {grey}(Any Charm)\n\n{blue}+10%% Magic Resistance\n+150 Fire/Cold/Lightning Damage\n+10%% Faster Cast Rate\n{dark green}Reward D: {grey}(Any Amulet)\n\n{blue}-10%% to All Enemy Immunities\n+10%% Increased Attack Speed\n+15%% Dexterity\n{dark green}Reward C: {grey}(Any Ring)\n\n{blue}+1 Spell Power\n+1000 Defense\n+5%% Life and Mana stolen per hit\n+1 to Magic Skills\n{dark green}Reward B: {grey}(Any Armor)\n\n{blue}+20%% Cooldown Reduction\n-35%% Poison Length Reduction\n+10%% Chance of Crushing Blow\n+15 to All Stats\n{dark green}Reward A: {grey}(Any Weapon)\n\n{white}Cube this with your {gold}Evil Barrier {white}charm, a {orange}Quill of Quality{white} and one of the below items to complete the Quest\n"
+			prefix_desc = "{grey}Legacy proof item: no longer required for quest progress.\n{gold}Open Pandemonium > Quest Journal for your character's objectives and rewards.\n"
 		},
         { -- Evil Barrier 1
 			code = "B01",
@@ -6012,315 +6050,360 @@ return {
             index = 670,
             stat = {  index = 398, op = "==", value = 1 },
 			location = { "onplayer" },
-            suffix_desc = "{lilac}All gems stored in the bag are perfect gems when withdrawn\nThese can be withdrawn later or used in various recipes as you progress\nYou can store gems, runes and other valuables in your bag\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}None\n{gold}Special Notes: \n{white}Deposit a Skull into your Storage Bag\n{gold}Task: \n\n{tan}Current Quest {white}[1/45]\n{gold}----------------------------------------\n\n",
+            -- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}All gems stored in the bag are perfect gems when withdrawn\nThese can be withdrawn later or used in various recipes as you progress\nYou can store gems, runes and other valuables in your bag\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}None\n{gold}Special Notes: \n{white}Deposit a Skull into your Storage Bag\n{gold}Task: \n\n{tan}Current Quest {white}[1/45]\n{gold}----------------------------------------\n\n"
+            suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n",
 		},
         { -- Evil Barrier 2
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 2 },
 			location = { "onplayer" },
-            suffix_desc = "{lilac}You can cube a remover alone to change what type of gem, rune, etc it withdraws\nGem (and other) removers allow you to withdraw the corresponding items from your bag\nYou can visit Edyrem's shop to buy removers (Left corner of town)\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Your remover will be lost when withdrawing, but only for this quest (output limits)\n{gold}Special Notes: \n{white}Withdraw a Skull from your Storage Bag\n{gold}Task: \n\n{tan}Current Quest {white}[2/45]\n{gold}----------------------------------------\n\n",
+            -- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}You can cube a remover alone to change what type of gem, rune, etc it withdraws\nGem (and other) removers allow you to withdraw the corresponding items from your bag\nYou can visit Edyrem's shop to buy removers (Left corner of town)\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Your remover will be lost when withdrawing, but only for this quest (output limits)\n{gold}Special Notes: \n{white}Withdraw a Skull from your Storage Bag\n{gold}Task: \n\n{tan}Current Quest {white}[2/45]\n{gold}----------------------------------------\n\n"
+            suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n",
 		},
         { -- Evil Barrier 3
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 3 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}You will learn more about these features in future quests\nCharm Weighting, Limit Breaking, Kill/Death stat adjustments, etc rely on it\nWithout it, you will notice you no longer start with +3 All Skills as an example\nYour weapon helps enable various special features in our mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}With no weapon equipped, cube your Evil Barrier charm alone to complete the quest\n{gold}Special Notes: \n{white}Drop your equipped weapon on the ground\n{gold}Task: \n\n{tan}Current Quest {white}[3/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}You will learn more about these features in future quests\nCharm Weighting, Limit Breaking, Kill/Death stat adjustments, etc rely on it\nWithout it, you will notice you no longer start with +3 All Skills as an example\nYour weapon helps enable various special features in our mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}With no weapon equipped, cube your Evil Barrier charm alone to complete the quest\n{gold}Special Notes: \n{white}Drop your equipped weapon on the ground\n{gold}Task: \n\n{tan}Current Quest {white}[3/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 4
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 4 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}You can view your character's advanced stats to see your weight info\nEach class will also gain their own innate stats on the statue itself\nWhen you have exceeded your charm weight, your mana will be reduced to 0\nThe statue helps grant your starting charm weight capacity and display your lifetime kills/deaths\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your Mythos Statue alone to complete the quest\n{gold}Special Notes: \n{white}Place your Mythos Statue in the cube\n{gold}Task: \n\n{tan}Current Quest {white}[4/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}You can view your character's advanced stats to see your weight info\nEach class will also gain their own innate stats on the statue itself\nWhen you have exceeded your charm weight, your mana will be reduced to 0\nThe statue helps grant your starting charm weight capacity and display your lifetime kills/deaths\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your Mythos Statue alone to complete the quest\n{gold}Special Notes: \n{white}Place your Mythos Statue in the cube\n{gold}Task: \n\n{tan}Current Quest {white}[4/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 5
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 5 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}For more information about the stat adjustments, view the Itemization tab of our Mod Info menu\nAny stat adjustments applied will be shown in your character's advanced stats\nYour kills/deaths will adjust stats such as your HP%% to reflect the burden on your soul\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+25%% Lightning Resistance added to your charm\n{gold}Reward: \n{white}When kill count has been achieved, cube your Evil Barrier charm alone to complete the quest\n{gold}Special Notes: \n{white}Kill 1000 Monsters\n{gold}Task: \n\n{tan}Current Quest {white}[5/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}For more information about the stat adjustments, view the Itemization tab of our Mod Info menu\nAny stat adjustments applied will be shown in your character's advanced stats\nYour kills/deaths will adjust stats such as your HP%% to reflect the burden on your soul\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+25%% Lightning Resistance added to your charm\n{gold}Reward: \n{white}When kill count has been achieved, cube your Evil Barrier charm alone to complete the quest\n{gold}Special Notes: \n{white}Kill 1000 Monsters\n{gold}Task: \n\n{tan}Current Quest {white}[5/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 6
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 6 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}More info about these changes can be found in our Wiki\nMany other items have had similar adjustments made to them\nYou will find varying types of Splash damage on various items in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Gnasher alone to complete the quest\n{gold}Special Notes: \n{white}Find The Gnasher from Rakanishu (Stony Field)\n{gold}Task: \n\n{tan}Current Quest {white}[6/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}More info about these changes can be found in our Wiki\nMany other items have had similar adjustments made to them\nYou will find varying types of Splash damage on various items in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Gnasher alone to complete the quest\n{gold}Special Notes: \n{white}Find The Gnasher from Rakanishu (Stony Field)\n{gold}Task: \n\n{tan}Current Quest {white}[6/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 7
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 7 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Combined with our shortened levels, she is an even better source for this farming task\nCountess rune quality has been increased across all difficulties\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}None\n{gold}Special Notes: \n{white}Kill Countess and deposit a Thul rune into your bag\n{gold}Task: \n\n{tan}Current Quest {white}[7/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Combined with our shortened levels, she is an even better source for this farming task\nCountess rune quality has been increased across all difficulties\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}None\n{gold}Special Notes: \n{white}Kill Countess and deposit a Thul rune into your bag\n{gold}Task: \n\n{tan}Current Quest {white}[7/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 8
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 8 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}A rune point converter can be purchased from Edyrem to convert points between types\nThis replaces the need to upgrade or downgrade runes completely\nAll runes use a 2x same rune = next rune format for point totals\nIf you have enough points, you can withdraw runes that may have never dropped for you\nAll deposited runes add to your rune points total\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Your remover will be lost when withdrawing, but only for this quest (output limits)\n{gold}Special Notes: \n{white}Withdraw an Amn rune from your bag\n{gold}Task: \n\n{tan}Current Quest {white}[8/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}A rune point converter can be purchased from Edyrem to convert points between types\nThis replaces the need to upgrade or downgrade runes completely\nAll runes use a 2x same rune = next rune format for point totals\nIf you have enough points, you can withdraw runes that may have never dropped for you\nAll deposited runes add to your rune points total\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Your remover will be lost when withdrawing, but only for this quest (output limits)\n{gold}Special Notes: \n{white}Withdraw an Amn rune from your bag\n{gold}Task: \n\n{tan}Current Quest {white}[8/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 9
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 9 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}The maximum tier for all runewords is Tier 5, which also requires a 'body part' to complete\nTo increase a runeword's tier, simply cube the required runes with it again\nRunic Forging allows you to upgrade the 'Tier' of a runeword, improving or adding stats\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your T2 Daylight item alone to complete the quest\n{gold}Special Notes: \n{white}Create the Daylight runeword and Runic Forge it to Tier 2\n{gold}Task: \n\n{tan}Current Quest {white}[9/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}The maximum tier for all runewords is Tier 5, which also requires a 'body part' to complete\nTo increase a runeword's tier, simply cube the required runes with it again\nRunic Forging allows you to upgrade the 'Tier' of a runeword, improving or adding stats\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your T2 Daylight item alone to complete the quest\n{gold}Special Notes: \n{white}Create the Daylight runeword and Runic Forge it to Tier 2\n{gold}Task: \n\n{tan}Current Quest {white}[9/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 10
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 10 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}You will learn more about Forsaken Pacts and Limit Breaking in later quests\nThe Rift Shop will display rotational content that changes with major updates; limited-time purchases, special discounts, etc\nAll cube recipes, Runeword upgrades, Forsaken Pact combinations, and Limit Breaking options are displayed in the receipe menu\nYou can access these menu's from your Horadric Cube Panel\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+25%% Poison Resistance added to your charm\n{gold}Reward: \n{white}Cube the items specified in those menus to complete the quest\n{gold}Special Notes: \n{white}View the in-game Cube Recipe Menu and Horadric Rift Shop\n{gold}Task: \n\n{tan}Current Quest {white}[10/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}You will learn more about Forsaken Pacts and Limit Breaking in later quests\nThe Rift Shop will display rotational content that changes with major updates; limited-time purchases, special discounts, etc\nAll cube recipes, Runeword upgrades, Forsaken Pact combinations, and Limit Breaking options are displayed in the receipe menu\nYou can access these menu's from your Horadric Cube Panel\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+25%% Poison Resistance added to your charm\n{gold}Reward: \n{white}Cube the items specified in those menus to complete the quest\n{gold}Special Notes: \n{white}View the in-game Cube Recipe Menu and Horadric Rift Shop\n{gold}Task: \n\n{tan}Current Quest {white}[10/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 11
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 11 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}The riddle itself tells you how to complete it and no hints or answers will be provided outside of game\nIf you manage to solve the riddle, you will unlock exclusive rewards only available via this system\nIn your journey, you will find various 'Riddle Rewards', optional content you can pursue or ignore\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the scribblings alone to complete the quest\n{gold}Special Notes: \n{white}Purchase the Scribblings of a Clueless Beginner from Edyrem\n{gold}Task: \n\n{tan}Current Quest {white}[11/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}The riddle itself tells you how to complete it and no hints or answers will be provided outside of game\nIf you manage to solve the riddle, you will unlock exclusive rewards only available via this system\nIn your journey, you will find various 'Riddle Rewards', optional content you can pursue or ignore\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the scribblings alone to complete the quest\n{gold}Special Notes: \n{white}Purchase the Scribblings of a Clueless Beginner from Edyrem\n{gold}Task: \n\n{tan}Current Quest {white}[11/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 12
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 12 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}These adjustments will make quests more worthwhile to complete and will likely adjust over time\nNPC's such as Ormus, Akara, Qual-Kehk as well as Hellforge will offer increased rewards\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Gidbinn alone to complete the quest\n{gold}Special Notes: \n{white}Collect the Gidbinn (Flayer Dungeon Entrance)\n{gold}Task: \n\n{tan}Current Quest {white}[12/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}These adjustments will make quests more worthwhile to complete and will likely adjust over time\nNPC's such as Ormus, Akara, Qual-Kehk as well as Hellforge will offer increased rewards\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Gidbinn alone to complete the quest\n{gold}Special Notes: \n{white}Collect the Gidbinn (Flayer Dungeon Entrance)\n{gold}Task: \n\n{tan}Current Quest {white}[12/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 13
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 13 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}They can be stacked, but you will need to unstack them before using...else it will use the entire stack\nSome items will never drop with sockets (Throwing weapons as example) and will require these\nAll equip types can be socketed using this item, needing 1 per socket added\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your socketed amulet alone to complete the quest\n{gold}Special Notes: \n{white}Socket an amulet using a Ramaladni's Gift (Diablo quest drop)\n{gold}Task: \n\n{tan}Current Quest {white}[13/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}They can be stacked, but you will need to unstack them before using...else it will use the entire stack\nSome items will never drop with sockets (Throwing weapons as example) and will require these\nAll equip types can be socketed using this item, needing 1 per socket added\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your socketed amulet alone to complete the quest\n{gold}Special Notes: \n{white}Socket an amulet using a Ramaladni's Gift (Diablo quest drop)\n{gold}Task: \n\n{tan}Current Quest {white}[13/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 14
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 14 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Every 15 quests completed you will be eligible for a Tier upgrade\nYou will need this item for the next quest, hold onto it for now\nThe Quill of Quality is used to upgrade the tier of your Evil Barrier charm\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Quill of Quality alone to complete the quest\n{gold}Special Notes: \n{white}Obtain the Quill of Quality by completing Qual-Kehk's quest (save the prisoners)\n{gold}Task: \n\n{tan}Current Quest {white}[14/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Every 15 quests completed you will be eligible for a Tier upgrade\nYou will need this item for the next quest, hold onto it for now\nThe Quill of Quality is used to upgrade the tier of your Evil Barrier charm\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Quill of Quality alone to complete the quest\n{gold}Special Notes: \n{white}Obtain the Quill of Quality by completing Qual-Kehk's quest (save the prisoners)\n{gold}Task: \n\n{tan}Current Quest {white}[14/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 15
 			code = "B01",
             index = 670,
             stat = {  index = 398, op = "==", value = 15 },
 			location = { "onplayer" },
-			suffix_desc = "{tan}Completion of this quest will allow you to upgrade the Tier of your Evil Barrier charm\n\n{lilac}You will learn more about Soul Summons in a later quest\nIt also used to store your Soul Shards, helping you create Soul Summons\nThe Beacon of Hope grants Teleport to all classes\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}Choose your reward from the options listed on your Parchment of Proof\n{gold}Reward: \n{white}Cube your Beacon of Hope alone to complete the quest\n{gold}Special Notes: \n{white}Obtain the Beacon of Hope by killing Baal (quest drop)\n{gold}Task: \n\n{tan}Current Quest {white}[15/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{tan}Completion of this quest will allow you to upgrade the Tier of your Evil Barrier charm\n\n{lilac}You will learn more about Soul Summons in a later quest\nIt also used to store your Soul Shards, helping you create Soul Summons\nThe Beacon of Hope grants Teleport to all classes\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}Choose your reward from the options listed on your Parchment of Proof\n{gold}Reward: \n{white}Cube your Beacon of Hope alone to complete the quest\n{gold}Special Notes: \n{white}Obtain the Beacon of Hope by killing Baal (quest drop)\n{gold}Task: \n\n{tan}Current Quest {white}[15/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 16
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 16 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}You may find out more about these drops in our Discord server\nThese flavor drops are not listed anywhere officially and instead are discovered by the community...happy hunting!\nCertain superunique monsters have 'flavor drops', giving them increased odds to drop certain items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube Hexfire alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Hexfire by farming Rakanishu (Stony Field)\n{gold}Task: \n\n{tan}Current Quest {white}[16/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}You may find out more about these drops in our Discord server\nThese flavor drops are not listed anywhere officially and instead are discovered by the community...happy hunting!\nCertain superunique monsters have 'flavor drops', giving them increased odds to drop certain items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube Hexfire alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Hexfire by farming Rakanishu (Stony Field)\n{gold}Task: \n\n{tan}Current Quest {white}[16/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 17
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 17 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Icon functionality will be restored as soon as we're able, please be patient\nFor now, you can use this info menu to learn more about their unique changes\nDue to current engine limitations, the mercenaries will not correctly display their skill icons\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items mentioned in the menu to complete the quest\n{gold}Special Notes: \n{white}Read the Merc Info menu viewable from any hireling Vendor\n{gold}Task: \n\n{tan}Current Quest {white}[17/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Icon functionality will be restored as soon as we're able, please be patient\nFor now, you can use this info menu to learn more about their unique changes\nDue to current engine limitations, the mercenaries will not correctly display their skill icons\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items mentioned in the menu to complete the quest\n{gold}Special Notes: \n{white}Read the Merc Info menu viewable from any hireling Vendor\n{gold}Task: \n\n{tan}Current Quest {white}[17/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 18
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 18 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}You will learn more about Limit Breaking later in the quests\nBlacksmiths can gain additional benefits when enhancing items, as part of their Limit Break perk\nSome tiers of crystals have different usage limits, these apply on a per-item basis\nIt will grant you varying stst benefits, but also increases the item's required level\nEnhancements can be a powerful method to customize and diversify your build\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the enhanced belt alone to complete the quest\n{gold}Special Notes: \n{white}Enhance a belt with 'Magic Damage Reduced' using an enhancement crystal (Edyrem)\n{gold}Task: \n\n{tan}Current Quest {white}[18/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}You will learn more about Limit Breaking later in the quests\nBlacksmiths can gain additional benefits when enhancing items, as part of their Limit Break perk\nSome tiers of crystals have different usage limits, these apply on a per-item basis\nIt will grant you varying stst benefits, but also increases the item's required level\nEnhancements can be a powerful method to customize and diversify your build\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the enhanced belt alone to complete the quest\n{gold}Special Notes: \n{white}Enhance a belt with 'Magic Damage Reduced' using an enhancement crystal (Edyrem)\n{gold}Task: \n\n{tan}Current Quest {white}[18/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 19
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 19 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}New crafting types such as 'Legion' and 'Disarm' have been added, with more planned in the future\nSafety crafts grant you MDR and PDR, which will greatly impact your survivability\nCrafts can be a powerful option for your build, especially starting out\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Safety ring alone to complete the quest\n{gold}Special Notes: \n{white}Craft a 'Safety' ring (Recipe menu for details)\n{gold}Task: \n\n{tan}Current Quest {white}[19/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}New crafting types such as 'Legion' and 'Disarm' have been added, with more planned in the future\nSafety crafts grant you MDR and PDR, which will greatly impact your survivability\nCrafts can be a powerful option for your build, especially starting out\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Safety ring alone to complete the quest\n{gold}Special Notes: \n{white}Craft a 'Safety' ring (Recipe menu for details)\n{gold}Task: \n\n{tan}Current Quest {white}[19/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 20
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 20 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}More information about the required parts are listed in the recipe menu\nYou will need a specific 'body part' for each runeword to complete this final upgrade\nAs you might surmise, each runeword will receive different T5 stats/bonuses\nThis is a mini reward for reaching the maximum tier for that runeword\nTier 5 of Runic Forges unlocks more powerful stats or bonuses\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+25%% Cold Resistance added to your charm\n{gold}Reward: \n{white}Cube the T5 Daylight alone to complete the quest\n{gold}Special Notes: \n{white}Use Runic Forging to upgrade your Daylight runeword to Tier 5\n{gold}Task: \n\n{tan}Current Quest {white}[20/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}More information about the required parts are listed in the recipe menu\nYou will need a specific 'body part' for each runeword to complete this final upgrade\nAs you might surmise, each runeword will receive different T5 stats/bonuses\nThis is a mini reward for reaching the maximum tier for that runeword\nTier 5 of Runic Forges unlocks more powerful stats or bonuses\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+25%% Cold Resistance added to your charm\n{gold}Reward: \n{white}Cube the T5 Daylight alone to complete the quest\n{gold}Special Notes: \n{white}Use Runic Forging to upgrade your Daylight runeword to Tier 5\n{gold}Task: \n\n{tan}Current Quest {white}[20/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 21
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 21 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}The same system applies to Set items, but using Set Cores instead\nWeapons and Armors have different costs and slightly different output patterns\nUsing the recipes listed in the recipe menu, you can use them to forge new uniques\nUnique Cores can be acquired by salvaging unwanted uniques into your Storage Bag\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the weapon contract alone to complete the quest\n{gold}Special Notes: \n{white}Create a weapon 'Blood Contract' using 10 unique cores\n{gold}Task: \n\n{tan}Current Quest {white}[21/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}The same system applies to Set items, but using Set Cores instead\nWeapons and Armors have different costs and slightly different output patterns\nUsing the recipes listed in the recipe menu, you can use them to forge new uniques\nUnique Cores can be acquired by salvaging unwanted uniques into your Storage Bag\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the weapon contract alone to complete the quest\n{gold}Special Notes: \n{white}Create a weapon 'Blood Contract' using 10 unique cores\n{gold}Task: \n\n{tan}Current Quest {white}[21/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 22
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 22 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}You cannot pay gems to convert between colors, colors themselves must be found\nYou can also pay gems to change the shade of the color dye you obtained\nColor Dyes can be found which allow you to alter the visuals of your desired item\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the color dyed item alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Color Dye from Bloodwitch the Wild and dye an item of your choosing\n{gold}Task: \n\n{tan}Current Quest {white}[22/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}You cannot pay gems to convert between colors, colors themselves must be found\nYou can also pay gems to change the shade of the color dye you obtained\nColor Dyes can be found which allow you to alter the visuals of your desired item\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the color dyed item alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Color Dye from Bloodwitch the Wild and dye an item of your choosing\n{gold}Task: \n\n{tan}Current Quest {white}[22/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 23
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 23 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Explore all superunique monsters, you never know what goodies you may find...\nFlavor drops will change depending on the monster and difficulty\nThis is another 'flavor drop' item, your last free example of this feature\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube Skin of the Vipermagi alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Skin of the Vipermagi from Fangskin (Claw Viper Temple)\n{gold}Task: \n\n{tan}Current Quest {white}[23/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Explore all superunique monsters, you never know what goodies you may find...\nFlavor drops will change depending on the monster and difficulty\nThis is another 'flavor drop' item, your last free example of this feature\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube Skin of the Vipermagi alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Skin of the Vipermagi from Fangskin (Claw Viper Temple)\n{gold}Task: \n\n{tan}Current Quest {white}[23/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 24
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 24 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Disclaimer: We are actively working on updating this menu with more up-to-date info, please be patient\nIt will not list every change the mod has undergone, just some of the larger ones\nthe Mod Info menu will display more generalized changes for this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items specified in the menu to complete the quest\n{gold}Special Notes: \n{white}Read the Mod Info menu (Press ESC)\n{gold}Task: \n\n{tan}Current Quest {white}[24/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Disclaimer: We are actively working on updating this menu with more up-to-date info, please be patient\nIt will not list every change the mod has undergone, just some of the larger ones\nthe Mod Info menu will display more generalized changes for this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items specified in the menu to complete the quest\n{gold}Special Notes: \n{white}Read the Mod Info menu (Press ESC)\n{gold}Task: \n\n{tan}Current Quest {white}[24/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 25
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 25 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}As with many things in ReMoDDeD, expect these areas to be further developed over time\nYou may find exclusive drops, special monsters or generally increased farming benefit\nOptional levels have more reasons to visit them in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+20%% Faster Run/Walk added to your charm\n{gold}Reward: \n{white}Cube Arm of King Leoric alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Arm of King Leoric from Corpus Vesper (Disused Reliquary)\n{gold}Task: \n\n{tan}Current Quest {white}[25/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}As with many things in ReMoDDeD, expect these areas to be further developed over time\nYou may find exclusive drops, special monsters or generally increased farming benefit\nOptional levels have more reasons to visit them in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+20%% Faster Run/Walk added to your charm\n{gold}Reward: \n{white}Cube Arm of King Leoric alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Arm of King Leoric from Corpus Vesper (Disused Reliquary)\n{gold}Task: \n\n{tan}Current Quest {white}[25/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
          { -- Evil Barrier 26
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 26 },
 			location = { "onplayer" },
-            suffix_desc = "{lilac}These special drop tables will change depending on the difficulty\nIzual's quest drops will guarantee unique items, if they exist for that itemtype\nSome monsters now have new quest drops, giving them special perks for your first kill\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your Gem Vein alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a 'Gem Vein' by killing Izual\n{gold}Task: \n\n{tan}Current Quest {white}[26/45]\n{gold}----------------------------------------\n\n",
+            -- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}These special drop tables will change depending on the difficulty\nIzual's quest drops will guarantee unique items, if they exist for that itemtype\nSome monsters now have new quest drops, giving them special perks for your first kill\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your Gem Vein alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a 'Gem Vein' by killing Izual\n{gold}Task: \n\n{tan}Current Quest {white}[26/45]\n{gold}----------------------------------------\n\n"
+            suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n",
 		},
         { -- Evil Barrier 27
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 27 },
 			location = { "onplayer" },
-            suffix_desc = "{lilac}There is much more info about Soul Summons you can learn about on our Wiki\nSoul Summons have a max tier of 10, which also unlocks special perks for them\nThese allies have powerful bonuses that will vary depending on the class you're playing\nSoul Summons are powerful fallen heroes that can be upgraded over the longer term\nSoul Crystals can be deposited into your Beacon of Hope, allowing you to craft Soul Summons\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your Soul Crystal alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Soul Crystal by killing Diablo\n{gold}Task: \n\n{tan}Current Quest {white}[27/45]\n{gold}----------------------------------------\n\n",
+            -- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}There is much more info about Soul Summons you can learn about on our Wiki\nSoul Summons have a max tier of 10, which also unlocks special perks for them\nThese allies have powerful bonuses that will vary depending on the class you're playing\nSoul Summons are powerful fallen heroes that can be upgraded over the longer term\nSoul Crystals can be deposited into your Beacon of Hope, allowing you to craft Soul Summons\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your Soul Crystal alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Soul Crystal by killing Diablo\n{gold}Task: \n\n{tan}Current Quest {white}[27/45]\n{gold}----------------------------------------\n\n"
+            suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n",
 		},
         { -- Evil Barrier 28
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 28 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}If you MUST, you can speed up the rolling credits by holding the spacebar\nI respectfully request you take a minute to honor their contributions and pay them homage\nWe have many people who made this project possible, supporting it however they were able\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items specified in the credits to complete the quest\n{gold}Special Notes: \n{white}Read the Mod Credits Page (Character Select Screen)\n{gold}Task: \n\n{tan}Current Quest {white}[28/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}If you MUST, you can speed up the rolling credits by holding the spacebar\nI respectfully request you take a minute to honor their contributions and pay them homage\nWe have many people who made this project possible, supporting it however they were able\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items specified in the credits to complete the quest\n{gold}Special Notes: \n{white}Read the Mod Credits Page (Character Select Screen)\n{gold}Task: \n\n{tan}Current Quest {white}[28/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 29
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 29 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}This will be the last free/known example area you will be told about\nThis is another example of an optional area you may want to visit in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube Unrelenting Will alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Unrelenting Will from Rictulus (Abaddon)\n{gold}Task: \n\n{tan}Current Quest {white}[29/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}This will be the last free/known example area you will be told about\nThis is another example of an optional area you may want to visit in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube Unrelenting Will alone to complete the quest\n{gold}Special Notes: \n{white}Obtain Unrelenting Will from Rictulus (Abaddon)\n{gold}Task: \n\n{tan}Current Quest {white}[29/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 30
 			code = "B02",
             index = 670,
             stat = {  index = 398, op = "==", value = 30 },
 			location = { "onplayer" },
-			suffix_desc = "{tan}Completion of this quest will allow you to upgrade the Tier of your Evil Barrier charm\n\n{lilac}Standard removers will destory the socketed jewels/runes, Premium removers will preserve them\nSocket Removers come in 2 forms (excluding event options), Standard and Premium\nSocket Removers can be found which allow you to unsocket items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}Choose your reward from the options listed on your Parchment of Proof\n{gold}Reward: \n{white}Cube your Socket Remover alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a 'Socket Remover' by killing Nihlathak\n{gold}Task: \n\n{tan}Current Quest {white}[30/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{tan}Completion of this quest will allow you to upgrade the Tier of your Evil Barrier charm\n\n{lilac}Standard removers will destory the socketed jewels/runes, Premium removers will preserve them\nSocket Removers come in 2 forms (excluding event options), Standard and Premium\nSocket Removers can be found which allow you to unsocket items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}Choose your reward from the options listed on your Parchment of Proof\n{gold}Reward: \n{white}Cube your Socket Remover alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a 'Socket Remover' by killing Nihlathak\n{gold}Task: \n\n{tan}Current Quest {white}[30/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 31
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 31 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}This feature will search/process all 448 tabs of your shared stash automagically\nYou can use it to quickly search, filter and even locate desired items\nThe Grail Tracker will allow you to effortlessly view your collected items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items specified when hovering over the Hellfire Torch to complete the quest\n{gold}Special Notes: \n{white}Press F12 and view our in-game Automatic Grail Tracker\n{gold}Task: \n\n{tan}Current Quest {white}[31/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}This feature will search/process all 448 tabs of your shared stash automagically\nYou can use it to quickly search, filter and even locate desired items\nThe Grail Tracker will allow you to effortlessly view your collected items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items specified when hovering over the Hellfire Torch to complete the quest\n{gold}Special Notes: \n{white}Press F12 and view our in-game Automatic Grail Tracker\n{gold}Task: \n\n{tan}Current Quest {white}[31/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 32
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 32 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}There are currently 3 different types, each allowing their own options\nItem Upconverters can help you convert or upgrade various items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your rare jewel alone to complete this quest\n{gold}Special Notes: \n{white}Use an Item Upconverter (Akara) to convert 10 magic jewels into 1 rare jewel\n{gold}Task: \n\n{tan}Current Quest {white}[32/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}There are currently 3 different types, each allowing their own options\nItem Upconverters can help you convert or upgrade various items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your rare jewel alone to complete this quest\n{gold}Special Notes: \n{white}Use an Item Upconverter (Akara) to convert 10 magic jewels into 1 rare jewel\n{gold}Task: \n\n{tan}Current Quest {white}[32/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 33
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 33 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}If you'd like the most basic of Loot Filters, you can use the ReMoDDeD Default option\nIf you don't like any of the user-made ones and want to create your own, you can do that also\nFind the one that suits you the best, hides/displays items as you'd prefer, etc\nThese filters are created by players like yourself, each with their own goals and display choices\nLoot Filters can be chosen and applied to enhance your farming experience\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the specified items found in the 'Quest 33' loot filter to complete the quest\n{gold}Special Notes: \n{white}Visit the Loot Filter panel in the Pandemonium side-menu\n{gold}Task: \n\n{tan}Current Quest {white}[33/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}If you'd like the most basic of Loot Filters, you can use the ReMoDDeD Default option\nIf you don't like any of the user-made ones and want to create your own, you can do that also\nFind the one that suits you the best, hides/displays items as you'd prefer, etc\nThese filters are created by players like yourself, each with their own goals and display choices\nLoot Filters can be chosen and applied to enhance your farming experience\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the specified items found in the 'Quest 33' loot filter to complete the quest\n{gold}Special Notes: \n{white}Visit the Loot Filter panel in the Pandemonium side-menu\n{gold}Task: \n\n{tan}Current Quest {white}[33/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 34
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 34 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}If you're looking for some tips or instructions to help make sense of all of our new content, this is a great option\nThis post will help outline all of 'his' guides, and you are free to browse other players submissions in this channel also\nThere are many class build guides created by passionate players, such as from Xan Kreigur\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items specified in this post to complete the quest\n{gold}Special Notes: \n{white}Visit 'Kregiur's Guide Compendium' in our Discord\n{gold}Task: \n\n{tan}Current Quest {white}[34/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}If you're looking for some tips or instructions to help make sense of all of our new content, this is a great option\nThis post will help outline all of 'his' guides, and you are free to browse other players submissions in this channel also\nThere are many class build guides created by passionate players, such as from Xan Kreigur\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the items specified in this post to complete the quest\n{gold}Special Notes: \n{white}Visit 'Kregiur's Guide Compendium' in our Discord\n{gold}Task: \n\n{tan}Current Quest {white}[34/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 35
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 35 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}The first person in the community to share their discovery gets immortalized in the tooltip for it\nWhen new Forsaken sets are released, the combinations are unknown to the public and must be discovered\nEach Forsaken Set will require different completed sets to create, shown in the recipe menu\nTo create a Forsaken Pact, you will need to sacrifice 2 or more completed sets to fuse them into a Forsaken set\nSet items can also be used to create 'Forsaken Pacts', which are new undroppable sets\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+100 Life added to your charm\n{gold}Reward: \n{white}Cube the Griswold item alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a piece of Griswold's set by farming Griswold\n{gold}Task: \n\n{tan}Current Quest {white}[35/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}The first person in the community to share their discovery gets immortalized in the tooltip for it\nWhen new Forsaken sets are released, the combinations are unknown to the public and must be discovered\nEach Forsaken Set will require different completed sets to create, shown in the recipe menu\nTo create a Forsaken Pact, you will need to sacrifice 2 or more completed sets to fuse them into a Forsaken set\nSet items can also be used to create 'Forsaken Pacts', which are new undroppable sets\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+100 Life added to your charm\n{gold}Reward: \n{white}Cube the Griswold item alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a piece of Griswold's set by farming Griswold\n{gold}Task: \n\n{tan}Current Quest {white}[35/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 36
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 36 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Disclaimer: The Item Database is still in development, please be patient as we finalize and improve it\nOur unique items can be viewed in more detail in the Item Database of our Wiki\nThere are hundreds of new uniques and new twists on old uniques in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Rainbow Facet alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Rainbow Facet by killing Duriel (Hell)\n{gold}Task: \n\n{tan}Current Quest {white}[36/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Disclaimer: The Item Database is still in development, please be patient as we finalize and improve it\nOur unique items can be viewed in more detail in the Item Database of our Wiki\nThere are hundreds of new uniques and new twists on old uniques in this mod\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Rainbow Facet alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Rainbow Facet by killing Duriel (Hell)\n{gold}Task: \n\n{tan}Current Quest {white}[36/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 37
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 37 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}These can now be used as feeder material to gain High Rune Points, Gems and Set/Unique Cores\nSome items will have varying uses as cube recipes, such as essences\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the essence alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Charged Essence of Hatred from Mephisto\n{gold}Task: \n\n{tan}Current Quest {white}[37/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}These can now be used as feeder material to gain High Rune Points, Gems and Set/Unique Cores\nSome items will have varying uses as cube recipes, such as essences\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the essence alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Charged Essence of Hatred from Mephisto\n{gold}Task: \n\n{tan}Current Quest {white}[37/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 38
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 38 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Gold Bars can also be turned into a gold pile, if you need the gold itself from them\nSome cube recipes will use them as item upgrade material or to complete conversions\nGold Bars can be used to easily stock up or trade large amounts of gold\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the gold bar alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Gold Bar from Diablo\n{gold}Task: \n\n{tan}Current Quest {white}[38/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Gold Bars can also be turned into a gold pile, if you need the gold itself from them\nSome cube recipes will use them as item upgrade material or to complete conversions\nGold Bars can be used to easily stock up or trade large amounts of gold\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the gold bar alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Gold Bar from Diablo\n{gold}Task: \n\n{tan}Current Quest {white}[38/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 39
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 39 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}While many more endgame areas and bosses are planned, this is the current endgame grind area\nYou may also find many items found from previous quest-only reward drops\nTorment Trials will offer many endgame rewards, such as Ramaladni's Gifts\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Ramaladni's Gift alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Ramaladni's Gift from any Torment Trials monster\n{gold}Task: \n\n{tan}Current Quest {white}[39/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}While many more endgame areas and bosses are planned, this is the current endgame grind area\nYou may also find many items found from previous quest-only reward drops\nTorment Trials will offer many endgame rewards, such as Ramaladni's Gifts\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Ramaladni's Gift alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Ramaladni's Gift from any Torment Trials monster\n{gold}Task: \n\n{tan}Current Quest {white}[39/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 40
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 40 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Milk Bottles can only be obtained from the Cow Queen, temporarily enhancing your movement speed\nThe Cow King has become the Cow Queen, correcting SnowCo's gender mistake\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+100 Mana added to your charm\n{gold}Reward: \n{white}Cube your Milk Bottle alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Milk Bottle from the Cow Queen\n{gold}Task: \n\n{tan}Current Quest {white}[40/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Milk Bottles can only be obtained from the Cow Queen, temporarily enhancing your movement speed\nThe Cow King has become the Cow Queen, correcting SnowCo's gender mistake\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}+100 Mana added to your charm\n{gold}Reward: \n{white}Cube your Milk Bottle alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Milk Bottle from the Cow Queen\n{gold}Task: \n\n{tan}Current Quest {white}[40/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 41
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 41 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Terror Zones can be manually cycled, if you're able to solve the Riddle Reward that unlocks this ability\nMonster levels will scale based on your own level and the item levels will reflect this\nThese zones will rotate periodically and be displayed in the top right of your automap\nTerror Zones allow increased monster levels and special drop tables to be applied\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the gold pile alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a gold pile from Hell Fallen while in a Terrorized Zone\n{gold}Task: \n\n{tan}Current Quest {white}[41/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Terror Zones can be manually cycled, if you're able to solve the Riddle Reward that unlocks this ability\nMonster levels will scale based on your own level and the item levels will reflect this\nThese zones will rotate periodically and be displayed in the top right of your automap\nTerror Zones allow increased monster levels and special drop tables to be applied\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the gold pile alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a gold pile from Hell Fallen while in a Terrorized Zone\n{gold}Task: \n\n{tan}Current Quest {white}[41/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 42
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 42 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}More info about this system can be found on our Wiki and Community Database\nDemon Tempered Uniques will also have their own special item images and names, ensuring their special status\nThere are 3 randomized results for every combination, all of which are solely discovered by the community\nEach body part and unique item will have completely different results depending on both the unique item and body part used\nDemon Tempered uniques offer powerful bonuses, that depend entirely on the body part used\nBody Parts are a defining factor in 'Demon Tempering', a new boost option for chosen Unique items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the body part alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a body part from either a monster or vendor\n{gold}Task: \n\n{tan}Current Quest {white}[42/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}More info about this system can be found on our Wiki and Community Database\nDemon Tempered Uniques will also have their own special item images and names, ensuring their special status\nThere are 3 randomized results for every combination, all of which are solely discovered by the community\nEach body part and unique item will have completely different results depending on both the unique item and body part used\nDemon Tempered uniques offer powerful bonuses, that depend entirely on the body part used\nBody Parts are a defining factor in 'Demon Tempering', a new boost option for chosen Unique items\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the body part alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a body part from either a monster or vendor\n{gold}Task: \n\n{tan}Current Quest {white}[42/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 43
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 43 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}This is a longer term collection system with more info in our Wiki\nAny boss may drop any codex, with recipes available to convert excess duplicates\nTestaments drop only from bosses in the Icy Hell sublevels of Torment Trials (or special events)\nThey represent the 7 Deadly Sins and can be ultimately combined into one 'Mega Charm'\nCodexes and Testaments are and endgame charm creation system with powerful bonuses\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Codex alone to complete the quest\n{gold}Special Notes: \n{white}Complete one Codex by combining 7 of it's Testaments\n{gold}Task: \n\n{tan}Current Quest {white}[43/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}This is a longer term collection system with more info in our Wiki\nAny boss may drop any codex, with recipes available to convert excess duplicates\nTestaments drop only from bosses in the Icy Hell sublevels of Torment Trials (or special events)\nThey represent the 7 Deadly Sins and can be ultimately combined into one 'Mega Charm'\nCodexes and Testaments are and endgame charm creation system with powerful bonuses\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube the Codex alone to complete the quest\n{gold}Special Notes: \n{white}Complete one Codex by combining 7 of it's Testaments\n{gold}Task: \n\n{tan}Current Quest {white}[43/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 44
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 44 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}More info about this system can be viewed in the recipe menu (and Wiki)\nEach of these will offer quite unique build options and perks you won't find anywhere else\nIn addition, there are new Limit Break exclusive skills, items and effects\nThere are 3 tiers of Limit Breaking, each extending the maximum level you can achieve\nLimit Breaking is a new system that allows you exceed the player level 99 cap\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your LB1 Mythos Statue alone to complete the quest\n{gold}Special Notes: \n{white}Achieve Limit Break I\n{gold}Task: \n\n{tan}Current Quest {white}[44/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}More info about this system can be viewed in the recipe menu (and Wiki)\nEach of these will offer quite unique build options and perks you won't find anywhere else\nIn addition, there are new Limit Break exclusive skills, items and effects\nThere are 3 tiers of Limit Breaking, each extending the maximum level you can achieve\nLimit Breaking is a new system that allows you exceed the player level 99 cap\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}None\n{gold}Reward: \n{white}Cube your LB1 Mythos Statue alone to complete the quest\n{gold}Special Notes: \n{white}Achieve Limit Break I\n{gold}Task: \n\n{tan}Current Quest {white}[44/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         { -- Evil Barrier 45
 			code = "B03",
             index = 670,
             stat = {  index = 398, op = "==", value = 45 },
 			location = { "onplayer" },
-			suffix_desc = "{lilac}Disclaimer: This feature is still quite new for us, expect much more development for it over time\nThey will drop only in Terrorized Zones and only when you have reached LB1\nThey may have special perks, exclusive runewords or higher base stats than normal\nAs with Limit Break exclusive skills, LB exclusive items also exist\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}Choose your reward from the options listed on your Parchment of Proof\n{gold}Reward: \n{white}Cube the LB item alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Limit Break only item\n{gold}Task: \n\n{tan}Current Quest {white}[45/45]\n{gold}----------------------------------------\n\n"
+			-- D2RHUD legacy source (kept for journal export): suffix_desc = "{lilac}Disclaimer: This feature is still quite new for us, expect much more development for it over time\nThey will drop only in Terrorized Zones and only when you have reached LB1\nThey may have special perks, exclusive runewords or higher base stats than normal\nAs with Limit Break exclusive skills, LB exclusive items also exist\n{turquoise}Tips:\n\n{gold}----------------------------------------\n{white}Choose your reward from the options listed on your Parchment of Proof\n{gold}Reward: \n{white}Cube the LB item alone to complete the quest\n{gold}Special Notes: \n{white}Obtain a Limit Break only item\n{gold}Task: \n\n{tan}Current Quest {white}[45/45]\n{gold}----------------------------------------\n\n"
+			suffix_desc = "{white}Quest progress is saved on your character.\n{gold}Open Pandemonium > Quest Journal for objectives, progress and rewards.\n"
 		},
         -- endregion
 

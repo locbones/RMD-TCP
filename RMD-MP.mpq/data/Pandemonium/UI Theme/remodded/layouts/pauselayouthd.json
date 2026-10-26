@@ -78,7 +78,7 @@
             "type": "TableWidget", "name": "PauseTable",
             "fields": {
                 "anchor": { "x": 0.5, "y": 0.5 },
-                "rect": { "x": -329, "y": -340 },
+                "rect": { "x": -329, "y": -410 },
                 "columns": [ { "width": 658, "alignment": { "h": "center", "v": "center" } } ],
                 "rowHeight": 140,
                 "generateFocusLinks": true
@@ -118,6 +118,26 @@
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
                                 "sound": "select"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRowWidget", "name": "Row Restart Game",
+                    "children": [
+                        {
+                            "type": "ButtonWidget", "name": "RestartGame",
+                            "fields": {
+                                "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\ButtonLarge_R",
+                                "hoveredFrame": 3,
+                                "textString": "Restart Game",
+                                "pressLabelOffset": [ 0, 0 ],
+                                "onClickMessage": "PanelManager:OpenPanel:D2RHUDRestartGame",
+                                "textColor": "$LightButtonTextColor",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "cursor_select"
                             }
                         }
                     ]

@@ -60,6 +60,9 @@
       },
       {
         "path": "data/hd/character/enemy/hellbovine4/animation/charge_run.animation"
+      },
+      {
+        "path": "data/hd/character/enemy/hellbovine4/zeal_animation/zeal.animation"
       }
     ],
     "textures": [],
@@ -173,6 +176,11 @@
       "type": "AnimationItem",
       "name": "charge_run",
       "filename": "data/hd/character/enemy/hellbovine4/animation/charge_run.animation"
+    },
+    {
+      "type": "AnimationItem",
+      "name": "zeal",
+      "filename": "data/hd/character/enemy/hellbovine4/zeal_animation/zeal.animation"
     }
   ],
   "states": [
@@ -324,24 +332,6 @@
     },
     {
       "type": "AnimationState",
-      "name": "State_Skill1",
-      "_name": "Skill1",
-      "audioId": "",
-      "loopCount": 1,
-      "stateId": 8,
-      "modeId": 8,
-      "skillIndex": -1,
-      "stepIndex": 0,
-      "animationBindings": {
-        "hth": [
-          "reanimate"
-        ]
-      },
-      "enterEvents": [],
-      "exitEvents": []
-    },
-    {
-      "type": "AnimationState",
       "name": "State_Skill2",
       "_name": "Skill2",
       "audioId": "",
@@ -452,8 +442,8 @@
     },
     {
       "type": "AnimationState",
-      "name": "State_Vengeance",
-      "_name": "Vengeance",
+      "name": "State_Zeal_FirstAttack",
+      "_name": "Zeal_FirstAttack",
       "audioId": "",
       "loopCount": 1,
       "stateId": 15,
@@ -462,7 +452,7 @@
       "stepIndex": 0,
       "animationBindings": {
         "hth": [
-          "attack1"
+          "zeal"
         ]
       },
       "enterEvents": [],
@@ -470,17 +460,53 @@
     },
     {
       "type": "AnimationState",
-      "name": "State_Self-resurrect",
-      "_name": "Self-resurrect",
+      "name": "State_Zeal_FollowUpAttack_A1",
+      "_name": "Zeal_FollowUpAttack_A1",
       "audioId": "",
       "loopCount": 1,
       "stateId": 16,
-      "modeId": 8,
-      "skillIndex": 293,
+      "modeId": 4,
+      "skillIndex": 767,
+      "stepIndex": 1,
+      "animationBindings": {
+        "hth": [
+          "zeal"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": []
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Zeal_FirstAttack_Sequence",
+      "_name": "Zeal_FirstAttack_Sequence",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 17,
+      "modeId": 14,
+      "skillIndex": 767,
       "stepIndex": 0,
       "animationBindings": {
         "hth": [
-          "reanimate"
+          "zeal"
+        ]
+      },
+      "enterEvents": [],
+      "exitEvents": []
+    },
+    {
+      "type": "AnimationState",
+      "name": "State_Zeal_FollowUpAttack_Sequence",
+      "_name": "Zeal_FollowUpAttack_Sequence",
+      "audioId": "",
+      "loopCount": 1,
+      "stateId": 18,
+      "modeId": 14,
+      "skillIndex": 767,
+      "stepIndex": 1,
+      "animationBindings": {
+        "hth": [
+          "zeal"
         ]
       },
       "enterEvents": [],
@@ -537,12 +563,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Death_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Death_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -585,15 +605,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Death_transitions_to_MON_Charge",
+          "name": "Death_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Death_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Death_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Death_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Death_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -646,12 +678,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Neutral_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Neutral_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -694,15 +720,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Neutral_transitions_to_MON_Charge",
+          "name": "Neutral_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Neutral_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Neutral_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Neutral_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Neutral_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -755,12 +793,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Walk_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Walk_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -803,15 +835,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Walk_transitions_to_MON_Charge",
+          "name": "Walk_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Walk_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Walk_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Walk_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Walk_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -864,12 +908,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "GetHit_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "GetHit_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -912,15 +950,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "GetHit_transitions_to_MON_Charge",
+          "name": "GetHit_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "GetHit_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "GetHit_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "GetHit_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "GetHit_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -973,12 +1023,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Attack1_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Attack1_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -1021,15 +1065,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Attack1_transitions_to_MON_Charge",
+          "name": "Attack1_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Attack1_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Attack1_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Attack1_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Attack1_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -1082,12 +1138,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Attack16_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Attack16_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -1130,15 +1180,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Attack16_transitions_to_MON_Charge",
+          "name": "Attack16_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Attack16_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Attack16_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Attack16_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Attack16_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -1191,12 +1253,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Block_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Block_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -1239,15 +1295,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Block_transitions_to_MON_Charge",
+          "name": "Block_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Block_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Block_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Block_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Block_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -1300,12 +1368,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Cast_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Cast_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -1348,124 +1410,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Cast_transitions_to_MON_Charge",
+          "name": "Cast_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Cast_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
-        }
-      ]
-    },
-    {
-      "type": "AnimationTransitionGroup",
-      "name": "Skill1_transitions",
-      "from": 8,
-      "settings": [
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Death",
-          "crossfadeSeconds": 0.2,
-          "to": 0
+          "name": "Cast_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Neutral",
-          "crossfadeSeconds": 0.2,
-          "to": 1
+          "name": "Cast_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Walk",
-          "crossfadeSeconds": 0.2,
-          "to": 2
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_GetHit",
-          "crossfadeSeconds": 0.2,
-          "to": 3
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Attack1",
-          "crossfadeSeconds": 0.2,
-          "to": 4
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Attack16",
-          "crossfadeSeconds": 0.2,
-          "to": 5
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Block",
-          "crossfadeSeconds": 0.2,
-          "to": 6
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Cast",
-          "crossfadeSeconds": 0.2,
-          "to": 7
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Skill16",
-          "crossfadeSeconds": 0.2,
-          "to": 9
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Skill17",
-          "crossfadeSeconds": 0.2,
-          "to": 10
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Skill18",
-          "crossfadeSeconds": 0.2,
-          "to": 11
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Dead",
-          "crossfadeSeconds": 0.2,
-          "to": 12
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Knockback",
-          "crossfadeSeconds": 0.2,
-          "to": 13
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transition_to_Run",
-          "crossfadeSeconds": 0.2,
-          "to": 14
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transitions_transition",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transitions_to_MON_Charge",
-          "crossfadeSeconds": 0.02,
-          "to": 15
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Skill1_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Cast_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -1524,12 +1489,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill16_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Skill16_transition_to_Skill17",
           "crossfadeSeconds": 0.2,
           "to": 10
@@ -1566,15 +1525,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill16_transitions_to_MON_Charge",
+          "name": "Skill16_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill16_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Skill16_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Skill16_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Skill16_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -1633,12 +1604,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill17_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Skill17_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -1675,15 +1640,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill17_transitions_to_MON_Charge",
+          "name": "Skill17_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill17_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Skill17_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Skill17_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Skill17_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -1742,12 +1719,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill18_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Skill18_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -1784,15 +1755,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill18_transitions_to_MON_Charge",
+          "name": "Skill18_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Skill18_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Skill18_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Skill18_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Skill18_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -1851,12 +1834,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Dead_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Dead_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -1893,15 +1870,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Dead_transitions_to_MON_Charge",
+          "name": "Dead_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Dead_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Dead_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Dead_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Dead_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -1960,12 +1949,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Knockback_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Knockback_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -2002,15 +1985,27 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Knockback_transitions_to_MON_Charge",
+          "name": "Knockback_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Knockback_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Knockback_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Knockback_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Knockback_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
@@ -2069,12 +2064,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Run_transition_to_Skill1",
-          "crossfadeSeconds": 0.2,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "Run_transition_to_Skill16",
           "crossfadeSeconds": 0.2,
           "to": 9
@@ -2111,21 +2100,33 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Run_transitions_to_MON_Charge",
+          "name": "Run_transitions_to_Zeal_FirstAttack",
           "crossfadeSeconds": 0.02,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Run_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "Run_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Run_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.02
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Run_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.02
         }
       ]
     },
     {
       "type": "AnimationTransitionGroup",
-      "name": "MON_Charge_transitions",
+      "name": "Zeal_FirstAttack_transitions",
       "from": 15,
       "settings": [
         {
@@ -2178,12 +2179,6 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "MON_Charge_to_Skill1",
-          "crossfadeSeconds": 0.04,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
           "name": "MON_Charge_to_Skill2",
           "crossfadeSeconds": 0.04,
           "to": 9
@@ -2220,124 +2215,372 @@
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "MON_Charge_to_MON_Charge",
-          "crossfadeSeconds": 0.04,
+          "name": "MON_Charge_transitions_to_Zeal_FirstAttack",
+          "crossfadeSeconds": 0.0,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "MON_Charge_transitions_to_Self-resurrect",
-          "crossfadeSeconds": 0.02,
-          "to": 16
+          "name": "MON_Charge_transitions_to_Zeal_16",
+          "to": 16,
+          "crossfadeSeconds": 0.0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "MON_Charge_transitions_to_Zeal_17",
+          "to": 17,
+          "crossfadeSeconds": 0.0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "MON_Charge_transitions_to_Zeal_18",
+          "to": 18,
+          "crossfadeSeconds": 0.0
         }
       ]
     },
     {
       "type": "AnimationTransitionGroup",
-      "name": "Self-resurrect_transitions",
+      "name": "Zeal_16_transitions",
       "from": 16,
       "settings": [
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Death",
+          "name": "Zeal_16_to_0",
           "crossfadeSeconds": 0.04,
           "to": 0
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Neutral",
+          "name": "Zeal_16_to_1",
           "crossfadeSeconds": 0.04,
           "to": 1
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Walk",
+          "name": "Zeal_16_to_2",
           "crossfadeSeconds": 0.04,
           "to": 2
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_GetHit",
+          "name": "Zeal_16_to_3",
           "crossfadeSeconds": 0.04,
           "to": 3
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Attack1",
+          "name": "Zeal_16_to_4",
           "crossfadeSeconds": 0.04,
           "to": 4
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Attack2",
+          "name": "Zeal_16_to_5",
           "crossfadeSeconds": 0.04,
           "to": 5
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Block",
+          "name": "Zeal_16_to_6",
           "crossfadeSeconds": 0.04,
           "to": 6
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Cast",
+          "name": "Zeal_16_to_7",
           "crossfadeSeconds": 0.04,
           "to": 7
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Skill1",
-          "crossfadeSeconds": 0.04,
-          "to": 8
-        },
-        {
-          "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Skill2",
+          "name": "Zeal_16_to_9",
           "crossfadeSeconds": 0.04,
           "to": 9
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Skill3",
+          "name": "Zeal_16_to_10",
           "crossfadeSeconds": 0.04,
           "to": 10
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Skill4",
+          "name": "Zeal_16_to_11",
           "crossfadeSeconds": 0.04,
           "to": 11
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Dead",
+          "name": "Zeal_16_to_12",
           "crossfadeSeconds": 0.04,
           "to": 12
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Knockback",
+          "name": "Zeal_16_to_13",
           "crossfadeSeconds": 0.04,
           "to": 13
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Run",
+          "name": "Zeal_16_to_14",
           "crossfadeSeconds": 0.04,
           "to": 14
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_MON_Charge",
-          "crossfadeSeconds": 0.04,
+          "name": "Zeal_16_to_15",
+          "crossfadeSeconds": 0.0,
           "to": 15
         },
         {
           "type": "AnimationTransitionItem",
-          "name": "Self-resurrect_to_Self-resurrect",
+          "name": "Zeal_16_to_16",
+          "to": 16,
+          "crossfadeSeconds": 0.0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_16_to_17",
+          "to": 17,
+          "crossfadeSeconds": 0.0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_16_to_18",
+          "to": 18,
+          "crossfadeSeconds": 0.0
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "Zeal_17_transitions",
+      "from": 17,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_0",
           "crossfadeSeconds": 0.04,
-          "to": 16
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_1",
+          "crossfadeSeconds": 0.04,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_2",
+          "crossfadeSeconds": 0.04,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_3",
+          "crossfadeSeconds": 0.04,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_4",
+          "crossfadeSeconds": 0.04,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_5",
+          "crossfadeSeconds": 0.04,
+          "to": 5
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_6",
+          "crossfadeSeconds": 0.04,
+          "to": 6
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_7",
+          "crossfadeSeconds": 0.04,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_9",
+          "crossfadeSeconds": 0.04,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_10",
+          "crossfadeSeconds": 0.04,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_11",
+          "crossfadeSeconds": 0.04,
+          "to": 11
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_12",
+          "crossfadeSeconds": 0.04,
+          "to": 12
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_13",
+          "crossfadeSeconds": 0.04,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_14",
+          "crossfadeSeconds": 0.04,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_15",
+          "crossfadeSeconds": 0.0,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_16",
+          "to": 16,
+          "crossfadeSeconds": 0.0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_17",
+          "to": 17,
+          "crossfadeSeconds": 0.0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_17_to_18",
+          "to": 18,
+          "crossfadeSeconds": 0.0
+        }
+      ]
+    },
+    {
+      "type": "AnimationTransitionGroup",
+      "name": "Zeal_18_transitions",
+      "from": 18,
+      "settings": [
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_0",
+          "crossfadeSeconds": 0.04,
+          "to": 0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_1",
+          "crossfadeSeconds": 0.04,
+          "to": 1
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_2",
+          "crossfadeSeconds": 0.04,
+          "to": 2
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_3",
+          "crossfadeSeconds": 0.04,
+          "to": 3
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_4",
+          "crossfadeSeconds": 0.04,
+          "to": 4
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_5",
+          "crossfadeSeconds": 0.04,
+          "to": 5
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_6",
+          "crossfadeSeconds": 0.04,
+          "to": 6
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_7",
+          "crossfadeSeconds": 0.04,
+          "to": 7
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_9",
+          "crossfadeSeconds": 0.04,
+          "to": 9
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_10",
+          "crossfadeSeconds": 0.04,
+          "to": 10
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_11",
+          "crossfadeSeconds": 0.04,
+          "to": 11
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_12",
+          "crossfadeSeconds": 0.04,
+          "to": 12
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_13",
+          "crossfadeSeconds": 0.04,
+          "to": 13
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_14",
+          "crossfadeSeconds": 0.04,
+          "to": 14
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_15",
+          "crossfadeSeconds": 0.0,
+          "to": 15
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_16",
+          "to": 16,
+          "crossfadeSeconds": 0.0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_17",
+          "to": 17,
+          "crossfadeSeconds": 0.0
+        },
+        {
+          "type": "AnimationTransitionItem",
+          "name": "Zeal_18_to_18",
+          "to": 18,
+          "crossfadeSeconds": 0.0
         }
       ]
     }

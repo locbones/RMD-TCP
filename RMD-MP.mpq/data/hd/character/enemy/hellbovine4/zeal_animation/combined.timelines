@@ -1,0 +1,68 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [],
+    "skeletons": [],
+    "animations": [],
+    "textures": [],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "AnimationTimelines",
+  "name": "AnimationTimelines",
+  "timelines": {
+    "zeal": {
+      "type": "AnimationTimeline",
+      "name": "zeal",
+      "duration": 0.7333333,
+      "timeStep": 0.03333334,
+      "animationEvents": [
+        {
+          "type": "PlaySoundByCategory",
+          "name": "attack1_Weapon_track_event_01",
+          "eventTimestamp": 0.233333379,
+          "duration": 0.0,
+          "isCritical": false,
+          "eventParams": [
+            {
+              "type": "SoundCategoryAnimationEventParameter",
+              "name": "attack1_Weapon_track_eventParams_category001",
+              "value": 2,
+              "parameterName": "category"
+            },
+            {
+              "type": "VolumeAnimationEventParameter",
+              "name": "attack1_Weapon_track_eventParams_volume001",
+              "value": -1,
+              "parameterName": "volume"
+            }
+          ]
+        },
+        {
+          "type": "PlaySoundByCategory",
+          "name": "attack1_MonsterAttack_track_event_01",
+          "eventTimestamp": 0.0,
+          "duration": 0.0,
+          "isCritical": false,
+          "eventParams": [
+            {
+              "type": "SoundCategoryAnimationEventParameter",
+              "name": "attack1_MonsterAttack_track_eventParams_category001",
+              "value": 3,
+              "parameterName": "category"
+            },
+            {
+              "type": "VolumeAnimationEventParameter",
+              "name": "attack1_MonsterAttack_track_eventParams_volume001",
+              "value": -1,
+              "parameterName": "volume"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

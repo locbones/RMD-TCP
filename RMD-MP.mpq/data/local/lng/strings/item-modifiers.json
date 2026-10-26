@@ -10148,5 +10148,22 @@
 	  "ruRU": "ÿc8TZ Горячая клавиша цикла разблокирована",
 	  "zhCN": "ÿc8TZ 循环热键已解锁",
 	  "zhTW": "ÿc8TZ 循環熱鍵已解鎖"
+  },
+  {
+    "id": 48323,
+    "Key": "MapDesc1",
+    "deDE": "ÿc5Wohin die Karte führt, ist unklar. Anscheinend weiß es nur der Würfel...",
+    "enUS": "ÿc5It's unclear where the map leads, it seems only the cube knows...",
+    "esES": "ÿc5No está claro adónde conduce el mapa; parece que solo el cubo lo sabe...",
+    "esMX": "ÿc5No está claro adónde conduce el mapa; parece que solo el cubo lo sabe...",
+    "frFR": "ÿc5Nul ne sait où mène cette carte. Seul le cube semble le savoir...",
+    "itIT": "ÿc5Non è chiaro dove conduca la mappa. Sembra che solo il Cubo lo sappia...",
+    "jaJP": "ÿc5この地図がどこへ導くのかは分からない。どうやらキューブだけが知っているようだ...",
+    "koKR": "ÿc5이 지도가 어디로 이어지는지는 알 수 없다. 오직 큐브만이 아는 듯하다...",
+    "plPL": "ÿc5Nie wiadomo, dokąd prowadzi ta mapa. Zdaje się, że tylko kostka zna odpowiedź...",
+    "ptBR": "ÿc5Não se sabe ao certo aonde o mapa leva. Parece que só o Cubo sabe...",
+    "ruRU": "ÿc5Неясно, куда ведёт эта карта. Похоже, лишь куб знает ответ...",
+    "zhCN": "ÿc5无人知晓这张地图通往何处，似乎只有方块知道答案...",
+    "zhTW": "ÿc5無人知曉這張地圖通往何處，似乎只有方塊知道答案..."
   }
 ]

@@ -980,7 +980,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ???",
+                                        "text": " Warrior's Wrath",
                                         "style": "$RWInfo"
                                     }
                                 },
@@ -988,7 +988,7 @@
                                     "type": "TextBoxWidget", "name": "GameplayChangesT",
                                     "fields": {
                                         "rect": { "y": -20},
-                                        "text": " ???",
+                                        "text": " Mangala's Teachings",
                                         "style": "$RWInfo"
                                     }
                                 }
@@ -1000,7 +1000,7 @@
                                 "rect": { "x": -40, "y": 1520 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@green@bp24@nl@grey (@rin, @amu, @RWTorso)@nl@fpcost@C29@nl@nl@gold@setbonus@nl@blue +2 @to @askills@nl +3 @to @compower@nl Curse Length Reduced By 25%@nl +15 Physical Conviction @aura@nl@tan Piercing Splash@nl@nl@gold@firstdiscover@tan ???@blue"
+                                "tooltipString": "@green@bp24@nl@grey (@rin, @amu, @RWTorso)@nl@fpcost@C29@nl@nl@gold@setbonus@nl@blue +2 @to @askills@nl +3 @to @compower@nl Curse Length Reduced By 25%@nl@tan Piercing Splash@nl@nl@gold@firstdiscover@tan Archtaan@blue"
                             }
                         },
 /*--------------------------------------------------------------------------------------------------------------------

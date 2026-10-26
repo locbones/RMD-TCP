@@ -393,10 +393,10 @@
   },
   {
     "natures_intention": {
-      "normal": "staff/short_staff",
-      "uber": "staff/short_staff",
-      "ultra": "staff/short_staff"
-    }
+      "normal": "..//custom/NaturesCalling",
+      "uber": "..//custom/NaturesCalling",
+      "ultra": "..//custom/NaturesCalling"
+}
   },
   {
     "serpent_lord": {
@@ -1415,10 +1415,10 @@
   },
   {
     "wind_shatter": {
-      "normal": "polearm/halberd",
-      "uber": "polearm/halberd",
-      "ultra": "polearm/halberd"
-    }
+      "normal": "..//custom/Windshatter",
+      "uber": "..//custom/Windshatter",
+      "ultra": "..//custom/Windshatter"
+}
   },
   {
     "grims_burning_dead": {
@@ -4733,6 +4733,27 @@
       "normal": "..//custom/Amalthea",
       "uber": "..//custom/Amalthea",
       "ultra": "..//custom/Amalthea"
+    }
+  },
+  {
+    "zenith_of_the_frost": {
+      "normal": "..//custom/ZenithOfTheFrost",
+      "uber": "..//custom/ZenithOfTheFrost",
+      "ultra": "..//custom/ZenithOfTheFrost"
+    }
+  },
+  {
+    "magic_boots": {
+      "normal": "..//custom/MagicBoots",
+      "uber": "..//custom/MagicBoots",
+      "ultra": "..//custom/MagicBoots"
+    }
+  },
+  {
+    "dustdevil": {
+      "normal": "..//custom/Dustdevil",
+      "uber": "..//custom/Dustdevil",
+      "ultra": "..//custom/Dustdevil"
     }
   }
 ]

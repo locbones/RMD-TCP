@@ -10691,5 +10691,22 @@
     "ruRU": "Замученный вор",
     "zhCN": "受折磨的小偷",
     "zhTW": "受折磨的小偷"
+  },
+  {
+  "id": 55100,
+  "Key": "SoulSurpriseChest",
+  "deDE": "Seelengebundene Truhe",
+  "enUS": "Soulbound Chest",
+  "esES": "Cofre ligado al alma",
+  "esMX": "Cofre ligado al alma",
+  "frFR": "Coffre lié à l’âme",
+  "itIT": "Forziere vincolato all'anima",
+  "jaJP": "魂に縛られた宝箱",
+  "koKR": "영혼에 귀속된 상자",
+  "plPL": "Skrzynia związana z duszą",
+  "ptBR": "Baú vinculado à alma",
+  "ruRU": "Сундук, связанный с душой",
+  "zhCN": "灵魂绑定宝箱",
+  "zhTW": "靈魂綁定寶箱"
   }
 ]

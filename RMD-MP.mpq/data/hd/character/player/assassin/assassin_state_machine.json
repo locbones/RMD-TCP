@@ -8141,7 +8141,7 @@
         {
           "type": "AnimationTransitionItem",
           "name": "Neutral_transitions_transition017",
-          "crossfadeSeconds": 0.0,
+          "crossfadeSeconds": 0.07,
           "to": 36
         },
         {
@@ -8538,7 +8538,7 @@
         {
           "type": "AnimationTransitionItem",
           "name": "Walk_transitions_transition017",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 36
         },
         {
@@ -8935,7 +8935,7 @@
         {
           "type": "AnimationTransitionItem",
           "name": "Run_transitions_transition017",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 36
         },
         {
@@ -21441,19 +21441,19 @@
         {
           "type": "AnimationTransitionItem",
           "name": "AnimationState017_transitiongroup_transition001",
-          "crossfadeSeconds": 0.0,
+          "crossfadeSeconds": 0.07,
           "to": 1
         },
         {
           "type": "AnimationTransitionItem",
           "name": "AnimationState017_transitiongroup_transition002",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 2
         },
         {
           "type": "AnimationTransitionItem",
           "name": "AnimationState017_transitiongroup_transition003",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 3
         },
         {
@@ -21687,13 +21687,13 @@
         {
           "type": "AnimationTransitionItem",
           "name": "AnimationState017_transitiongroup_transition042",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 44
         },
         {
           "type": "AnimationTransitionItem",
           "name": "AnimationState017_transitiongroup_transition043",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 45
         },
         {
@@ -21705,7 +21705,7 @@
         {
           "type": "AnimationTransitionItem",
           "name": "AnimationState017_transitiongroup_transition045",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 36
         },
         {
@@ -24821,7 +24821,7 @@
         {
           "type": "AnimationTransitionItem",
           "name": "AnimationState025_transitiongroup_transition035",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 36
         },
         {
@@ -25218,7 +25218,7 @@
         {
           "type": "AnimationTransitionItem",
           "name": "AnimationState026_transitiongroup_transition035",
-          "crossfadeSeconds": 0.2,
+          "crossfadeSeconds": 0.07,
           "to": 36
         },
         {

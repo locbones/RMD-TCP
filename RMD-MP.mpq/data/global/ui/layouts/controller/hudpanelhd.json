@@ -357,7 +357,7 @@
             "type": "TextBoxWidget", "name": "BuildVersion",
             "fields": {
                 "rect": { "x": 3430, "y": 375, "width": 400 },
-                "text":"Build 101226",
+                "text":"Build 102126",
                 "style": {
                     "fontColor": "$FontColorGray",
                     "pointSize": "$SmallPanelFontSize",
