@@ -1,7 +1,7 @@
 --- Filter Title: ReMoDDeD Default
 --- Filter Type: (Basic)
 --- Filter Description: This is a barebones filter that adds only the frequently requested modifications; such as item levels, socket counts, etc.
---- Filter Link: https://github.com/locbones/Pandemonium-Filters/raw/refs/heads/main/ReMoDDeD/lootfilter_default.lua
+--- Filter Link: https://github.com/locbones/D2RLAN-Filters/raw/refs/heads/main/ReMoDDeD/lootfilter_default.lua
 return {
     reload = "{turquoise}RMD Barebones Filter {gray}(v1.0) {green}Reloaded",
     language = "enUS",

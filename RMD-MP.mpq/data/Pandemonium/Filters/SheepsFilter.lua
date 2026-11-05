@@ -1,38 +1,37 @@
---- Filter Title: Sheep's Filter v1.26
+--- Filter Title: Sheep's Filter v2.02
 --- Filter Type: (General Filter)
---- Filter Description: \nRule 0: Runewords beg you to keep them. \nRule 0b: Shows number of sockets. \nRule 0c: Hides scrolls on the ground. \nRule 0d: Hides scrolls on the ground. \nRule 0e: Hides all non-rare or lower arrows above level 60. \nRule 0f: Hides all white arrows. \nRule 2: Good bases — shows 3-skill scepters in red. \nRule 3: Adds border and notifies when uniques drop. \nRule 4: Adds border and notifies when sets drop. \nRule 5: Rune notification with special border and colors. \nRule 6: Unique Archons (color swap). \nRule 7: Potential high-quality uniques (e.g., Hydra Master) (color swap). \nRule 8: Unique charms (color swap). \nRule 9: Facet charms (color swap). \nRule 10: Treasure chests/gem veins. \nRule 11: Valuable uniques. \nRule 12: Hides zero-skill Paladin weapons. \nRule 13: Hides non-superior/non-class items by level (still shows 3-socket ones). \nRule 14: Hides non-class base magic items by level. \nRule 15: Hides low gold piles by level. \nRule 16: Codex tome. \nRule 17: Quest item notification. \nRule e1: Sorting of weapon bases by socket amount (hides 2 sockets or fewer on bases that cap at 3 sockets at level 80). \nRule e2: Added symbol for new bases.
+--- Filter Description: The Point of this filter is that "It just works" \n \n The Concept is a simple filter that hides things you would not be picking up anyway. \n \n There are now 2 levels one for grail chasers and one for everyone else \n GLHF!
 --- Filter Link: https://github.com/locbones/D2RLAN-Filters/raw/refs/heads/main/ReMoDDeD/SheepsFilter.lua
 return {
-    reload = "{pink}Sheep's Base Filter v1.26 {grey} 10/14/26{Green} Reloaded",
+    filter_level = 1,
+    filter_titles = {"Base", "Grail:Updates on loading Tracker"},
+    language = "enUS",
+    
+    reload = "{pink}Sheep's Base Filter v2.02 {grey} 11/1/26{Green} Reloaded",
     allowOverrides = true,
     audioVoice = 1,
     audioPlayback = true,
     rules = {
  
-        --add color to superior at vendor
+        
         {
+            label = "color to superior at vendor",--add color to superior at vendor
              codes = "allitems",
              quality = "3",
              location = "atvendor",
              prefix = "{purple}",
              prefix_desc = "{purple}Superiors at vendor are purple \n"
         },
-        { --Display item levels for weapons, armors, charms, jewels, rings, amulets and arrows/bolts, to the right of item name, (x)
+        {
+            label = "Display item levels", --Display item levels for weapons, armors, charms, jewels, rings, amulets and arrows/bolts, to the right of item name, (x)
             codes = "allitems",
             location = { "onground", "onplayer", "equipped", "atvendor" },
             itype = { 5, 6, 10, 12, 45, 50, 58, 82, 83, 84 },
             suffix = " ({ilvl})",
         },
-               ---Grail I Guess
-
-        ---{
-           -- codes = "allitems",
-           -- quality = {"5","7"},
-           -- grail = false,
-           -- suffix = "{red}|G|",
-        --},
          -- Display the socket amount on items in their description (stolen from vivasen ofc)
         {
+            label = "Display the socket amount",
 			codes="allitems",
 			location={"onground", "onplayer", "atvendor", "equipped"},
 			itype={45,50,10,12},
@@ -40,8 +39,9 @@ return {
 		},
         --hides 1 socket items while under 60
         {
+            label = "Hides 1 socket items",
             codes = "allitems",
-            sockets = "1",
+            sockets = 1,
             quality = "3-",
             pstat = { index = 12, op = "<=", value = 60 }, -- Char Level is >= 60
             hide = true,
@@ -49,6 +49,7 @@ return {
         },
          --Reminder to pick up Storage Bag so it doesn't get left behind
          {
+            label = "Storage Reminder",
             code = "Z01",
             name_override = "{red}Quality of Life Bag \n Don't leave me!!!" ,
             location = "onground",
@@ -58,6 +59,7 @@ return {
         },
                  --Reminder to pick up Storage Bag so it doesn't get left behind
          {
+            label = "Box reminder",
             code = "box",
             name_override = "{red}Horadric Cube \n Don't leave me!!!" ,
             location = "onground",
@@ -67,22 +69,25 @@ return {
         },
          --Fixing Storage Bag helper info
          {
+            label = "Storage bag info",
             code = "Z01",
             location = { "onplayer", "onground", "atvendor" },
             prefix_desc = "{purple}------------------\n{pink}(Cube with an item to store it)\n",
         },
                 --highlight 2 socket items while under 20
         {
+            label = "highlight 2 sockets",
             codes = "allitems",
             prefix_desc = "{pink}Highlighted for early runewords\n",
-            sockets = "2,3",
+            sockets = ">=2",
             quality = "3-",
             location = {"onplayer","onground","atvendor"},
             pstat = { index = 12, op = "<=", value = 20 }, -- Char Level is >= 20
             border = {150,100,200,230,2}
         },
         ---Rule 0b elite base icon fix
-        { 
+        {
+            label = "elite Icon", 
             codes = NOT { "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "l13", 
             "l14","l15", "l16", "l17","l18","l19","l20","l21","l22","l23","l24","l25","l26","l27","l28","l29","l30",
             "l31","l32","l33","l34","l35","l36","l37","l38","l39","l40","l41","l42","l43","l44","l45","l46","l47","l48","l49","l50"},
@@ -92,7 +97,8 @@ return {
             prefix = "ⅲ "
         },
                 ---Rule 0b elite base icon hidden at gambler
-        { 
+        {
+            label = "Elite icon hidden", 
             codes = NOT { "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "l13", "l14","l15", "l16",
              "l17","l18","l19","l20","l21","l22","l23","l24","l25","l26","l27","l28","l29","l30","l31","l32","l33","l34","l35","l36","l37",
              "l38","l39","l40","l41","l42","l43","l44","l45","l46","l47","l48","l49","l50"},
@@ -104,6 +110,7 @@ return {
         },
         --- notify for limit break bases
         {
+            label = "Limit break notify",
             codes = { "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "l13", "l14","l15", "l16", "l17","l18",
             "l19","l20","l21","l22","l23","l24","l25","l26","l27","l28","l29","l30","l31","l32","l33","l34","l35","l36","l37","l38","l39","l40","l41",
             "l42","l43","l44","l45","l46","l47","l48","l49","l50"},
@@ -112,14 +119,16 @@ return {
             border = {138, 119, 216, 230, 2}
         },
         ---Rule 0c: Runewords beg you to keep them.
-        { 
+        {
+            label = "Runewords beg you to keep them.", 
              codes = "allitems",
              runeword = true,
              suffix = "{red}Don't leave me!!!" 
         },
     
         ---Rule Bonesy: please stop breaking things I mean...shows number of sockets 
-        { 
+        {
+            label = "shows number of sockets ", 
             codes = "allitems",
             sockets = "1+",
             identified = true,
@@ -127,12 +136,14 @@ return {
         },
          --- Rule 0d: Hides scrolls on ground 
         {
+            label = " Hides scrolls on ground ",
             codes = { "tsc", "isc"},
             hide = true, 
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
         ---Rule 0e: Hides scrolls on ground 
         {
+            label = "Hides scrolls on ground ",
             codes = { "hp1", "hp2", "hp3", "hp4", "hp5", "mp1", "mp2", "mp3", "mp4", "mp5" },
             pstat = { index = 12, op = ">=", value = 25 }, -- Char Level is >= 25
             hide = true, 
@@ -140,6 +151,7 @@ return {
         },
         ---Rule 0f: hide all non rare or greater arrows over 60 
         {
+            label = "hide all non rare or greater arrows over 60 ",
             codes = {"aqv","cqv"},
             quality = "4-",
             hide = true, 
@@ -148,13 +160,15 @@ return {
         },
         ---Rule 0g: hide all white arrows 
         {
+            label = "hide all white arrows ",
             codes = {"aqv","cqv"},
             quality = "3-",
             hide = true, 
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
         --rule 0h Display RMD "Limit Broken Bases" with a special LB icon in RMD Red, to the right of item name
-        { 
+        {
+            label = " Display RMD \"Limit Broken Bases\" with a special LB icon in RMD Red, to the right of item name", 
             codes = { "l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "l13", "l14","l15", "l16",
              "l17","l18","l19","l20","l21","l22","l23","l24","l25","l26","l27","l28","l29","l30","l31","l32","l33","l34","l35","l36",
              "l37","l38","l39","l40","l41","l42","l43","l44","l45","l46","l47","l48","l49","l50"},
@@ -163,6 +177,7 @@ return {
         },
         --- Rule 2: Good Bases Shows 3 skill scepters in red  
         {
+            label = "Good Bases Shows 3 skill scepters",
             codes = { "scp", "wsp", "gsc", "7sc", "7ws", "7qs", "9sc", "9ws", "9qs" },
             quality = "3-",
             suffix = "{red}[3 Skill]",
@@ -171,18 +186,17 @@ return {
         },
         --- Rule 2b:Good Bases (paladin shieldsthanks cogy) 
         {
+            label = "Good Bases (paladin shields)",
             codes = { "pa1", "pa2", "pa3", "pa4", "pa5", "pa6", "pa7", "pa8", "pa9", "paa", "pab", "pac", "pad", "pae", "paf" },
             quality = "3-",
             stat = { index = 39, op = ">=", value = 40 }, -- This is the Res Check, change the Value to change the minimum amount of Res
-            stat = { index = 41, op = ">=", value = 40 },
-            stat = { index = 43, op = ">=", value = 40 },
-            stat = { index = 45, op = ">=", value = 40 },
             suffix = "{red}[High Resist]",
             border = { 255, 255, 255, 230, 2 } 
             --sockets = "0,4", -- add if you want socket sorting
         },
         --- Rule 2c: Shows Necro Shield bases with 3 summon skills  
         {
+            label = "Shows Necro Shield bases ",
             codes = { "ne6", "ne7", "ne8", "ne9", "nea", "neg", "ned", "nee", "nef", "neb", "ne1", "ne2", "ne3", "ne4", "ne5" },
             quality = "3-",
             --sockets = "0,4", -- add if you want socket sorting
@@ -192,6 +206,7 @@ return {
         },
         ---Rule 2d:Shows 2 bow skills Grand Matron/matriarchal Bow bases 
         {
+            label = "Shows 2 bow skills Grand Matron/matriarchal Bow bases  ",
             codes = { "amc", "amb" },
             quality = "3-",
             --sockets = "0,6", -- add if you want socket sorting
@@ -202,6 +217,7 @@ return {
         },
         ---Rule 2e:Shows +3 LF Amazon Javs bases  
         {
+            label = "Shows +3 LF Amazon Javs bases   ",
             codes = { "amf", "ama", "am5" },
             quality = "3-",
             --sockets = "0,3", -- add if you want socket sorting
@@ -211,6 +227,7 @@ return {
         },
         ---Rule 2f: Shows Raven Damage Druid Helmet bases 
         {
+            label = "Shows Raven Damage Druid Helmet bases  ",
             codes = { "dr1", "dr2", "dr3", "dr4", "dr5", "dr6", "dr7", "dr8", "dr9", "dra", "drb", "drc", "drd", "dre", "drf" },
             quality = "3-",
             -- sockets = "0,3", -- add if you want socket sorting
@@ -220,6 +237,7 @@ return {
         },
         ---Rule 2g: good superior bases continued  
         {
+            label = " good superior bases continued   ",
             codes = { "7wa", "7cr", "ci0", "ci1", "ci2", "ci3", "utp", "7b8", "amc" },
             quality = "3",
             prefix = "{Red}|GB|{white}",
@@ -227,6 +245,7 @@ return {
         },
         ---Rule 3: Border and notifies when uniques drop (typed out cause it hits quest items zzz)
         {
+            label = "Border and notifies when uniques drop (typed out cause it hits quest items zzz) ",
             codes = NOT { "7mp","Ev00","Ev01","Ev02","cqv","BoH","l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", 
             "l11", "l12", "l13", "l14", "l15", "l16", "l17","l18","l19","l20","l21","l22","l23","l24","l25","l26","l27","l28","l29",
             "l30","l31","l32","l33","l34","l35","l36","l37","l38","l39","l40","l41","l42","l43","l44","l45","l46","l47","l48","l49",
@@ -237,41 +256,47 @@ return {
             quality = "7",
             notify = "A Legend Appears: {name}",
             border = { 255, 128, 0, 230, 2 }, 
-            area = NOT {"Frozen Tundra"}
+            --area = NOT {"Frozen Tundra"}
         },
         ---randomly instered rule 3.5
         {
+            label = "Uber Key Notify",
             codes = {"pk1","pk2","pk3"},
             notify = "{red}A Key But To Where...?",
             border = { 240, 0, 0, 230, 2 } 
         },
         ---randomly instered rule 3.5.1
         {
+            label = "Demon Crystal Notify",
             codes = {"tes","ceh","bet","fed"},
             notify = "{red}The Demons Essence Has Crystalized",
             border = { 240, 0, 0, 230, 2 } 
         },
         ---randomly instered rule 3.5.2
         {
+            label = "Uber Organ Notify",
             codes = {"dhn","bey","mbr"},
             notify = "{red}You Feel An Evil Presence Watching You",
             border = { 240, 0, 0, 230, 2 } 
         },
         ---Rule 4: Border and notify sets  
         {
+            label = "Border and notify sets  ",
             codes = "allitems",
             quality = "5",
             notify = "{green}Piece of a Legacy: {name}",
             border = { 27, 209, 3, 230, 2 },
-            area = NOT {"Frozen Tundra"}
+            --area = NOT {"Frozen Tundra"}
         },
        ---Rule 5: High Runes notification and ultra rune border and colors  
         {
+            label = "High Runes",
             codes = { "r23", "r24", "r25", "r26", "r27", "r28", "r29", "r30", "r31", "r32", "r33" },
             notify = "{orange}High Rune Nearby: {name}"
         },
         ---Rule 5b: Ultra Runes   
         {
+            label = "Ultra Runes",
             codes = {"r34","r35"},
             background = { 255, 255, 255, 255 },
             prefix = "{red}|X|",
@@ -281,6 +306,7 @@ return {
         },
         ---Rule 5c: Ultra Runes Er 
         {
+            label = "Er Rune",
             code = "r36",
             background = { 255, 255, 255, 255 },
             prefix = "{red}|X|",
@@ -290,6 +316,7 @@ return {
         },
         ---Rule 6: Unique Archons (Color swap?)  
         {
+            label = "Unique Archons",
             code = "utp",
             quality = 7,
             background = { 255, 255, 255, 255 },
@@ -299,6 +326,7 @@ return {
         }, 
         ---Rule 7: Potential high quality uniques (ie hydra master)(color swap?) 
         {
+            label = "Variable Uniques",
             codes = { "6ls", "ci1", "xld","aqv","6sw", "cqv","7mp" },
             quality = 7,
             --name_style = "Open Flames", -- will be reenabled with EB symbol fix
@@ -308,6 +336,7 @@ return {
         },
         ---Rule 8: Unique Charms (Color swap?) 
         {
+            label = "Unique Charms",
             codes = { "cm1", "cm2", "cm3", "m32", "m33", "m34", "m35","m36" },
             quality = 7,
             notify = "{purple}A Legend Appears: {name}",
@@ -316,6 +345,7 @@ return {
         },
         ---Charms in inventory
         {
+            label = "Charms in Inventory",
             codes = { "cm1", "cm2", "cm3", "m32", "m33", "m34", "m35","m36" },
             quality = 7,
             name_style = "Open Flames",
@@ -323,6 +353,7 @@ return {
         },
         ---Rule 9: Facet Charms (Color swap?)  
         {
+            label = "Facet Notify",
             codes = { "j00", "jew" },
             quality = 7,
             notify = "{red}This jewel shines so bright",
@@ -331,6 +362,7 @@ return {
         },
         ---Rule 10: Treasure Chest/gem vein  
         {
+            label = "Treasures",
             codes = { "S01","b64","b65","Rgx","Ev0", "y09", "y10", "y11", "y12", "y13", "y14", "y15", "y16", "y17", "y18", 
             "y19", "y20", "y21", "y22", "y23", "y24", "y25", "y26", "y27", "y28", "y29", "y30", "y31", "y32", "y33", "Ev03" },
             notify = "{purple}An Extraordinary Find: {name}",
@@ -339,6 +371,7 @@ return {
         },
         ---Rule 11: Valuable Uniques (would be better to use unique indexing but lazy) 
         {
+            label = "Valuable Uniques",
             codes = { "6mx","amb","6cb", "6lw", "7ja", "7kr", "7bw", "7yw", "7gw", "obf", "oba", "ob7", "7gd", "upl", "ult",
              "uar", "uth", "ula", "ulc", "uhc", "utb", "xtb", "ci3", "umg", "nef", "pab", "pa9", "paa", "uit", "urg", "uuc", "vg3" },
             quality = 7,
@@ -347,6 +380,7 @@ return {
         },
         --- Rule 12: Hides zero skill paladin weapons.  
         {
+            label = "Hides zero skill paladin weapons.  ",
             codes = { "scp", "wsp", "gsc", "7sc", "7ws", "7qs", "9sc", "9ws", "9qs" },
             quality = "4-",
             stat = { index = 83, op = "<=", value = 0, param = 3 }, -- Value = How many +skills, Param = 3 for Paladin
@@ -356,6 +390,7 @@ return {
         },
         ---Rule 13: hiding non-superior/non-class bases by level (helms) still shows 2 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (helms) ",
             codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "bhm" },
             sockets = "1-",
             quality = "2-",
@@ -366,6 +401,7 @@ return {
         },
         ---Rule 13b: hiding non-superior/non-class bases by level (Body Armors) still shows 2 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (Body Armors)",
             codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp" },
             sockets = "1-",
             quality = "2-",
@@ -377,6 +413,7 @@ return {
         },
         ---Rule 13c: hiding non-superior/non-class bases by level (Shields) still shows 2 socket ones (higher level will force 4os)  
         {
+            label = "hiding non-superior/non-class bases by level (Shields)",
             codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk" },
             sockets = "1-",
             quality = "2-",
@@ -387,6 +424,7 @@ return {
         },
          ---Rule 13d: hiding non-superior/non-class bases by level (gloves) still shows 2 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (gloves)",
             codes = { "lgl", "vgl", "hgl", "mgl", "tgl" },
             sockets = "1-",
             quality = "2-",
@@ -398,6 +436,7 @@ return {
         },
          ---Rule 13e: hiding non-superior/non-class bases by level (boots) still shows 2 socket ones  
         {
+            label = "hiding non-superior/non-class bases by level (boots)",
             codes = { "lbt", "vbt", "mbt", "tbt", "hbt" },
             sockets = "1-",
             quality = "2-",
@@ -409,6 +448,7 @@ return {
         },
          ---Rule 13f: hiding non-superior/non-class bases by level (belts) still shows 2 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (belts)",
             codes = { "lbl", "vbl", "mbl", "tbl", "hbl" },
             sockets = "1-",
             quality = "2-",
@@ -420,6 +460,7 @@ return {
         },
         ---Rule b13: hiding non-superior/non-class bases by level (helms) still shows 3 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (helms)",
             codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "bhm" },
             sockets = "2-",
             quality = "2-",
@@ -430,6 +471,7 @@ return {
         },
         ---Rule b13b: hiding non-superior/non-class bases by level (Body Armors) still shows 3 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (Body Armors)",
             codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp" },
             sockets = "3-",
             quality = "2-",
@@ -441,6 +483,7 @@ return {
         },
         ---Rule b13c: hiding non-superior/non-class bases by level (Shields) still shows 2 socket ones (higher level will force 4os)  
         {
+            label = "hiding non-superior/non-class bases by level (Shields) ",
             codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk" },
             sockets = "2-",
             quality = "2-",
@@ -451,6 +494,7 @@ return {
         },
          ---Rule b13d: hiding non-superior/non-class bases by level (gloves) still shows 2 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (gloves) ",
             codes = { "lgl", "vgl", "hgl", "mgl", "tgl" },
             sockets = "2-",
             quality = "2-",
@@ -462,6 +506,7 @@ return {
         },
          ---Rule b13e: hiding non-superior/non-class bases by level (boots) still shows 2 socket ones  
         {
+            label = " hiding non-superior/non-class bases by level (boots)",
             codes = { "lbt", "vbt", "mbt", "tbt", "hbt" },
             sockets = "2-",
             quality = "2-",
@@ -473,6 +518,7 @@ return {
         },
          ---Rule b13f: hiding non-superior/non-class bases by level (belts) still shows 2 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (belts) ",
             codes = { "lbl", "vbl", "mbl", "tbl", "hbl" },
             sockets = "1-",
             quality = "2-",
@@ -484,6 +530,7 @@ return {
         },
         ---Rule 13g: hiding non-superior/non-class bases by level (helms) still shows 3 socket ones  
         {
+            label = "hiding non-superior/non-class bases by level (helms)",
             codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "bhm", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xsh", "xpk" },
             sockets = "2-",
             quality = "2-",
@@ -495,6 +542,7 @@ return {
         },
          ---Rule 13h: hiding non-superior/non-class bases by level (Body Armors) still shows 4 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (Body Armors)",
             codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp", "xui", 
             "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp" },
             sockets = "3-",
@@ -507,6 +555,7 @@ return {
         },
         ---Rule 13i: hiding non-superior/non-class bases by level (Shields) still shows 4 socket ones  
         {
+            label = "hiding non-superior/non-class bases by level (Shields) ",
             codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk", "xuc", "xml", "xrg", "xit", "xow", "xts", "xsh", "xpk" },
             sockets = "3-",
             quality = "2-",
@@ -518,6 +567,7 @@ return {
         },
           ---Rule 13j: hiding non-superior/non-class bases by level (gloves) still shows 3 socket ones  
         {
+            label = "hiding non-superior/non-class bases by level (gloves)",
             codes = { "lgl", "vgl", "hgl", "mgl", "tgl", "xlg", "xvg", "xhg", "xmg", "xtg" },
             sockets = "2-",
             quality = "2-",
@@ -529,6 +579,7 @@ return {
         },
         ---Rule 13k: hiding non-superior/non-class bases by level (boots) still shows 3 socket ones 
         {
+            label = "hiding non-superior/non-class bases by level (boots)",
             codes = { "lbt", "vbt", "mbt", "tbt", "hbt", "xlb", "xvb", "xmb", "xtb", "xhb" },
             sockets = "2-",
             quality = "2-",
@@ -540,6 +591,7 @@ return {
         },
         ---Rule 13l: hiding non-superior/non-class bases by level (belts) still shows 2 socket ones  
         {
+            label = " hiding non-superior/non-class bases by level (belts)",
             codes = { "lbl", "vbl", "mbl", "tbl", "hbl", "zlb", "zvb", "zmb", "ztb", "zhb" },
             sockets = "1-",
             quality = "2-",
@@ -551,6 +603,7 @@ return {
         },
          ---Rule 13m: hiding non-superior/non-class bases by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills)  
         {
+            label = "hiding non-superior/non-class bases by level (weapons)",
             codes = { "hax", "axe", "2ax", "wax", "lax", "bax", "btx", "gax", "gix", "mac", "mst", "whm", "mau", "gma", "ssd", "scm", 
             "sbr", "flc", "bsd", "lsd", "wsd", "clm", "gis", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav",
              "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sbw", "hbw", "lbw",
@@ -565,6 +618,7 @@ return {
         },
          ---Rule 13n: hiding non-superior/non-class runeword bases lacking sockets (ie flails,crystal swords)  
         {
+            label = "Hiding non-superior/non-class runeword bases lacking sockets (ie flails,crystal swords)   ",
             codes = { "fla", "crs", "9fl", "7fl", "7cr", "9cr" },
             sockets = "3-",
             quality = "2-",
@@ -575,6 +629,7 @@ return {
         },
                 ---Rule b13n: borders on superior spell blades and flails
         {
+            label = "borders on superior spell blades and flails",
             codes = { "crs","9cr","fla" },
             quality = "3",
             border = { 255, 250, 250, 230, 1 },
@@ -582,6 +637,7 @@ return {
         },
         ---Rule 13o: hiding non-class bases by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills) 
         {
+            label = "hiding non-class bases by level (weapons)",
             codes = { "hax", "axe", "2ax", "wax", "lax", "bax", "btx", "gax", "gix", "mac", "mst", "whm", "mau", "gma", "ssd", "scm", 
             "sbr", "flc", "bsd", "lsd", "wsd", "clm", "gis", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav",
              "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sbw", "hbw", "lbw",
@@ -597,6 +653,7 @@ return {
         },
         --Rule 13p: Hides non superior items with less than 2 Sockets if the player is above 80 does not include staff mod items  
         {
+            label = " Hides non superior items with less than 2 Sockets if the player is above 80",
             codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt",
             "fld", "gth", "ful", "aar", "ltp", "buc", "sml", "lrg", "kit", "tow", "gts", "lgl", "vgl", "mgl", "tgl", "hgl", "lbt", "vbt", "mbt",
             "tbt", "hbt", "lbl", "vbl", "mbl", "tbl", "hbl", "bhm", "bsh", "spk", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xui", "xea",
@@ -630,6 +687,7 @@ return {
         },
         ---Rule 14:  hiding non-class base magic items by level (Body Armors) 
         {
+            label = "hiding non-class base magic items by level (Body Armors) ",
             codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp" },
             quality = 4,
             pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
@@ -638,6 +696,7 @@ return {
         },
          ---Rule 14b:  hiding non-class base magic items by level (Shields)  
         {
+            label = "hiding non-class base magic items by level (Shields)  ",
             codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk" },
             quality = 4,
             pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
@@ -646,6 +705,7 @@ return {
         },
          ---Rule 14c:  hiding non-class base magic items by level(gloves) 
         {
+            label = "hiding non-class base magic items by level(gloves) ",
             codes = { "lgl", "vgl", "hgl", "mgl", "tgl" },
             quality = 4,
             pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
@@ -654,6 +714,7 @@ return {
         },
          ---Rule 14d:  hiding non-class base magic items by level(boots)  
         {
+            label = " hiding non-class base magic items by level(boots)  ",
             codes = { "lbt", "vbt", "mbt", "tbt", "hbt" },
             quality = 4,
             pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
@@ -662,6 +723,7 @@ return {
         },
          ---Rule 14e:  hiding non-class base magic items by level (belts)  
         {
+            label = " hiding non-class base magic items by level (belts)  ",
             codes = { "lbl", "vbl", "mbl", "tbl", "hbl", "Bb1", "Bb4" },
             quality = 4,
             pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
@@ -670,57 +732,64 @@ return {
         },
         ---Rule 14f: hiding non-class base magic items by level (helms)  
         {
+            label = "hiding non-class base magic items by level (helms)  ",
             codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "bhm", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xsh", "xpk" },
             quality = 4,
-            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 40
             hide = true, 
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
 
         ---Rule 14g:  hiding non-class base magic items by level (Body Armors) 
         {
+            label = "hiding non-class base magic items by level (Body Armors)",
             codes = { "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", 
             "ltp", "xui", "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp" },
             quality = 4,
-            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 40
             hide = true, 
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
         ---Rule 14h: hiding non-class base magic items by level (Shields) 
         {
+            label = "hiding non-class base magic items by level (Shields) ",
             codes = { "buc", "sml", "lrg", "kit", "tow", "gts", "bsh", "spk", "xuc", "xml", "xrg", "xit", "xow", "xts", "xsh", "xpk" },
             quality = 4,
-            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 40
             hide = true, 
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
         ---Rule 14i:  hiding non-class base magic items by level (gloves) 
         {
+            label = " hiding non-class base magic items by level (gloves)",
 
             codes = { "lgl", "vgl", "hgl", "mgl", "tgl", "xlg", "xvg", "xhg", "xmg", "xtg" },
             quality = 4,
-            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 40
             hide = true, 
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
         ---Rule 14j: hiding non-class base magic items by level(boots)  
         {
+            label = "hiding non-class base magic items by level(boots)  ",
             codes = { "lbt", "vbt", "mbt", "tbt", "hbt", "xlb", "xvb", "xmb", "xtb", "xhb" },
             quality = 4,
-            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 40
             hide = true, 
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
         ---Rule 14k:  hiding non-class base magic items by level (belts)  
         {
+            label = "hiding non-class base magic items by level (belts)  ",
             codes = { "lbl", "vbl", "mbl", "tbl", "hbl", "zlb", "zvb", "zmb", "ztb", "zhb", "Bb1", "Bb2", "Bb4", "Bb5" },
             quality = 4,
-            pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
+            pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 40
             hide = true, 
             area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" }
         },
         ---Rule 14l:  hiding non-class base magic items by level (weapons leaving runeword bases ie flails,crystal swords/ also skips bases that can roll skills)
         {
+            label = " hiding non-class base magic items by level (weapons)",
             codes = { "hax", "axe", "2ax", "wax", "lax", "bax", "btx", "gax", "gix", "mac", "mst", "whm", "mau", "gma", "ssd", 
             "scm", "sbr", "flc", "bsd", "lsd", "wsd", "clm", "gis", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", 
             "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", 
@@ -732,6 +801,7 @@ return {
         },
         ---Rule 14m:  hiding non-class base magic items by level (ie flails,crystal swords) 
         {
+            label = " hiding non-class base magic items by level (ie flails,crystal swords) ",
             codes = { "fla", "crs", "9fl" },
             quality = 4,
             pstat = { index = 12, op = ">=", value = 40 }, -- Char Level is >= 40
@@ -740,6 +810,7 @@ return {
         },
         ---Rule 14n:  hiding non-class base magic items by level (weapons leaving runeword bases ie flails,crystal swords) 
         {
+            label = " hiding non-class base magic items by level (weapons)",
             codes = { "7ha", "9ha", "9ax", "92a", "9wa", "9la", "9ba", "9bt", "9ga", "9gi", "9ma", "9mt", "9wh", "9m9",
                 "9gm", "9ss", "9sm", "9sb", "9fc", "9bs", "7tr", "9ls", "9wd", "9cm", "9gs", "9fb", "9gd", "9dg", "9di",
                 "9kr", "9bl", "9tk", "9ta", "9bk", "9b8", "9ja", "9pi", "9s9", "9gl", "9ts", "9sr", "9tr", "9br", "9st",
@@ -756,6 +827,7 @@ return {
         },
         --Rule 14o :Hides almost all magic items when clvl is 80 or above
         {
+            label = "Hides almost all magic items when clvl is 80 or above",
             codes = {"Ss2","7fb", "7s8", "Ab4", "Ab5", "Ab6", "Bp5", "Bp6", "Ca1", "Ca2", "Ca3", "Ss1", "Ss3", "Ss4", "dr1", "dr9",
             "amu","Bp2", "rin", "Gg1", "Gg2", "hla", "lea", "qui", "stu", "Wp1", "Wp2", "brs", "chn", "ltp", "rng", "scl", "xea", 
             "xla", "xui", "Ca4", "Ca5", "Ca6", "aar", "Bp1", "Bp2", "Bp3", "Bp4", "fld", "ful", "gth", "Gg3", "Na1", "Na2", "Na3",
@@ -799,6 +871,7 @@ return {
         },
         ---Rule 15: hide low gold piles by level 
         {
+            label = "hide low gold piles by level ",
             code = "gld",
             stat = { index = 14, op = "<=", value = 749 }, --hides gold under 1k
             pstat = { index = 12, op = ">=", value = 80 }, -- Char Level is >= 80
@@ -807,6 +880,7 @@ return {
         },
         ---Rule 15b: hide low gold piles by level 
         {
+            label = "hide low gold piles by level ",
             code = "gld",
             stat = { index = 14, op = "<=", value = 99 },  --hides gold under 100
             pstat = { index = 12, op = ">=", value = 20 }, -- Char Level is >= 20
@@ -815,6 +889,7 @@ return {
         },
         ---Rule 15c: hide low gold piles by level 
         {
+            label = "hide low gold piles by level ",
             code = "gld",
             stat = { index = 14, op = "<=", value = 499 }, --hides gold under 500
             pstat = { index = 12, op = ">=", value = 60 }, -- Char Level is >= 60
@@ -823,6 +898,7 @@ return {
         },
         ---Rule 16: Codex Tome 
         {
+            label = "Codex Tome ",
             codes = { "a10", "a11", "a12", "a13", "a14", "a15", "a16", "a17", "a18", "a19", "a20", "a21", "a22", "a23", "a24",
             "a25", "a26", "a27", "a28", "a29", "a30", "a31", "a32", "a33", "a34", "a35", "a36", "a37", "a38", "a39", "a40",
             "a41", "a42", "a43", "a44", "a45", "a46", "a47", "a48", "a49", "a50", "a51", "a52", "a53", "a54", "a55", "a56", "a57", "a58" },
@@ -832,6 +908,7 @@ return {
         },
         --- Rule 17: Quest item notify 
         {
+            label = " Quest item notify ",
            codes = { "bks", "bkd", "leg", "hdm", "ass", "tr1", "hst", "vip", "msf", "j34", "g34", "xyz", "g33", "qey", "qbr", "qhr", "qf1", 
            "qf2", "bbb", "mss", "hfh", "ice", "tr2" },
            notify = "{red}Quest Item: {name}",
@@ -842,13 +919,15 @@ return {
              ---Rule e2:Adds symbol for new Bases
           -- Rule e1: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 3 socket at level 80) 
         {
+            enabled = false,
+            label = " Sorting of weapon bases by socket amount ",
             codes = { "7ha", "9ha", "hax", "sbw", "7sp", "9sp", "spc", "7cs", "7lw", "7tw", "7qr", "7ar", "7xf", "7wb", "9xf", "9lw", "9tw", 
             "9cs", "9ar", "9qr", "9wb", "btl", "clw", "axf", "skr", "wrb", "lxb", "amf", "ama", "am5", "7s7", "7ja", "7pi", "9pi", "9s9", "9ja",
              "ssp", "7kr", "7bl", "9kr", "9bl", "bld", "kri", "Pm1", "Pm2", "Pm3", "7mt", "7ma", "9ma", "9mt", "mac", "mst", "obf", "oba", "ob5",
             "7sc", "7qs", "9qs", "9sc", "gsc", "scp", "Ds1", "Ds2", "Ds3", "6ss", "8ss", "sst", "k01", "k02", "2hs", "7sm", "7sb", "7ss", "7fc",
             "7wd", "9wd", "9ss", "9sm", "9sb", "9fc", "flc", "sbr", "ssd", "scm", "wsd" },
             quality = "3-",
-            sockets = "1,2",
+            sockets = "<=2",
             pstat = { index = 12, op = ">=", value = 80 }, -- value is character level
             hide = true, 
             runeword = false,
@@ -857,10 +936,12 @@ return {
         },
         -- Rule e1b: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 4 socket at level 80) 
         {
+            enabled = false,
+            label = "Sorting of weapon bases by socket amounT",
              codes = { "Bf4", "cbw", "hbw", "8lx", "mxb", "6cs", "6bs", "6ls", "8cs", "8bs", "8ls", "bst", "cst", "lst", "bsw", "k03", "72h",
               "92h", "7gs", "7b7", "7cm", "9cm", "9b9", "9gs", "bsd", "clm", "gis", "lsd", "bal", "7gl", "7ts", "9ts", "9gl", "glv", "tsp" },
             quality = "3-",
-            sockets = "1,2",
+            sockets = "<=2",
             pstat = { index = 12, op = ">=", value = 80 }, -- value is character level
             hide = true, 
             runeword = false,
@@ -868,10 +949,12 @@ return {
         },
         -- Rule e1c: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 5 socket at level 80) 
         {
+            enabled = false,
+            label = "Sorting of weapon bases by socket amount",
             codes = { "axe", "bax", "2ax", "lax", "am2", "am1", "6hb", "6cb", "6sb", "8cb", "8sb", "8hb", "lbw", "6rx", "6mx", "6lx", "8rx",
              "8mx", "rxb", "fla", "bar", "brn", "pax", "spr", "tri", "vou", "wsp", "scy", "9b8" },
             quality = "3-",
-            sockets = "1,2",
+            sockets = "<=2",
             pstat = { index = 12, op = ">=", value = 80 }, -- value is character level
             hide = true, 
             runeword = false,
@@ -879,6 +962,8 @@ return {
         },
         -- Rule e1d: Sorting of weapon bases by socket amount (hides 2 sockets or less on bases that cap at 6 socket at level 80) 
         {
+            enabled = false,
+            label = "Sorting of weapon bases by socket amount ",
             codes = { "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf5", "Bf6", "7wa", "7ga", "7bt",
              "72a", "7la", "7gi", "7ba", "7ax", "9gi", "9ba", "9ax", "9ga", "9la", "9wa", "9bt", "92a", "btx", "gix", "gax", "wax", "amc", "amb",
             "am6", "am7", "6l7", "6s7", "6lw", "6lb", "6sw", "8lb", "8lw", "8l8", "8sw", "8s8", "lbb", "lwb", "sbb", "swb", "6hx", "8hx", "hxb",
@@ -896,12 +981,14 @@ return {
          --Things added post 1.0 release (will be sorted out later sorry)
         ---Rule 18 gold style (thanks vivasen)
         {
+            label = "gold style",
             code = "gld",
             background = {180, 199, 0, 110},
             name_override = "{white}{name} G"
         },
         ---Rule 19 rare jewel borders
         {
+            label = "rare jewel borders",
             code = "jew",
             quality = "6",
             border = { 255, 255, 100, 230, 2 },
@@ -909,12 +996,14 @@ return {
         },
                 ---Rule 19b magic jewel borders
         {
+            label = "Magic jewel borders",
             code = "jew",
             quality = "4",
             border = { 0, 0, 150, 230, 3 }
         },
         ---rule 20? added notify for unique limit break bases (notify subject to change)
-        { 
+        {
+            label = " notify for unique limit break bases", 
             codes = {"l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "l13", "l14", "l15",
              "l16", "l17","l18","l19","l20","l21","l22","l23","l24","l25","l26","l27","l28","l29","l30","l31","l32","l33","l34",
              "l35","l36","l37","l38","l39","l40","l41","l42","l43","l44","l45","l46","l47","l48","l49","l50"},
@@ -924,7 +1013,8 @@ return {
 
         },
              ---rule 20? added border for magic lb items
-        { 
+        {
+            label = "border for magic lb items", 
             codes = {"l01", "l02", "l03", "l04", "l05", "l06", "l07", "l08", "l09", "l10", "l11", "l12", "l13", "l14", "l15", "l16",
              "l17","l18","l19","l20","l21","l22","l23","l24","l25","l26","l27","l28","l29","l30","l31","l32","l33","l34","l35","l36",
              "l37","l38","l39","l40","l41","l42","l43","l44","l45","l46","l47","l48","l49","l50"},
@@ -936,6 +1026,7 @@ return {
         },
         ---rule 21: added notify and colors for demon temper items
         {
+            label = "notify and colors for demon temper items",
             codes = {"C00","C01","C02","C03","C04","C05","C06","C07","C08","C09","C10","C11","C12","C13","C14","C15","C16","C17","C18","C19",
             "C20","C21","C22","C23","C24","C25","C26","C27","C28","C29","C30","C31","C32","C33","C34","C35","C36","C37"},
             name_style = "Toxic Fog",
@@ -945,6 +1036,7 @@ return {
         },
                 ---rule 21: added notify and colors for demon temper items
         {
+            label = "colors for demon temper items",
             codes = {"C00","C01","C02","C03","C04","C05","C06","C07","C08","C09","C10","C11","C12","C13","C14","C15","C16","C17","C18","C19",
             "C20","C21","C22","C23","C24","C25","C26","C27","C28","C29","C30","C31","C32","C33","C34","C35","C36","C37"},
             name_style = "Toxic Fog",
@@ -954,6 +1046,7 @@ return {
         },
         ---Rule 22: Beacon of hopes
         {
+            label = " Beacon of hopes",
             code = "BoH",
             quality = 7,
             background = { 255, 255, 255, 255 },
@@ -964,6 +1057,7 @@ return {
         }, 
                 ---Rule 22: Beacon of hopes
         {
+            label = " Beacon of hopes description",
             code = "BoH",
             quality = 7,
             background = { 255, 255, 255, 255 },
@@ -972,13 +1066,15 @@ return {
             prefix_desc = "{Gold} Can Store Soul Shards \n"
         },
         ---torment scrolls
-        { 
+        {
+            label = "torment scrolls", 
             codes = "allitems",
             itype = 115,
             notify = "{lilac}A Path Forward: {name}"
         },  
         ---Ultra Crystals
         {
+            label = "Ultra Crystals",
             codes = {"z19", "z20", "z21", "z22", "z23", "z24", "z25", "z26", "z27"},
             notify = "{red}A Powerful Enhancement Appears?",
             name_override = "{red}Ultra Enhancement Crystal",
@@ -987,54 +1083,114 @@ return {
 
         },
         -- Demonic Milk - onplayer
-        { 
+        {
+            label = "Demonic Milk - onplayer", 
 			code = "CW1",
 			location = { "onplayer", "atvendor", "equipped" },
 			prefix_desc = "{gray}You probably shouldn't drink this...\n"
 		},
         -- Wirt's Leg 2 - onground
-		{ 
+		{
+            label = "Wirt's Leg 2 - onground", 
 			code = "CW2",
 			notify = "{red}Quest Item: {name}"
 		},
         -- Wirt's Leg 2 - onplayer
-		{ 
+		{
+            label = "Wirt's Leg 2 - onplayer", 
 			code = "CW2",
 			location = { "onplayer", "atvendor", "equipped" },
 			prefix_desc = "{gray}I hope you don't find a third one...\n"
 		},
         ---Dye Bottles
         {
-            codes = {"z60", "z61", "z62", "z63", "z64", "z65", "z66", "z67", "z68", "z69","z70", "z71", "z72", "z73"},
+            label = "Dye Bottles",
+			codes = { "Z52", "Z53", "Z54", "Z55", "Z56", "Z57", "Z58", "Z59", "z60", "z61", "z62", "z63", "z64", "z65", "z66", "z67", "z68", "z69", "z70", "z71", "z72", "z73" },
             --prefix = "{gold}",
             border = { 255, 255, 255, 230, 3 },
             background = { 30, 100, 30, 200 },
         },
         -- Stocking Stuffer
-		{ 
+		{
+            label = "Stocking Stuffer", 
 			code = "Ev04",
 			notify = "{orange}Hopefully, it's not coal"
 		},
          -- Milk&Cookies
 		{
+            label = "Milk&Cookies",
 			codes = { "Ev05", "Ev06", "Ev07", "Ev08", "Ev09", "Ev10" },
 			notify = "{orange}An offering to Satan... i mean Santa"
 		},
          -- Candy Corn
 		{
+            label = "Candy Corn",
 			code = "Ev11",
 			border = { 0, 35, 255, 130, 2 },
 			notify = "{orange}Happy Halloween"
 		},
         -- Cornucopia
-		{ 
+		{
+            label = "Cornucopia", 
 			code = "Ev12",
 			border = { 0, 35, 255, 130, 2 },
 			notify = "{orange}Happy Halloween"
 		},
-     
-		
-
+             ---event rule for hiding rares
+        {
+            label = "event rule for hiding rares",
+            codes = NOT {"jew", "Ev11"},
+            quality = "6",
+            hide = true,
+            area = {"Mausoleum", "Crypt"}
+        },
+		             ---event rule for hiding rares
+        {
+            label = "Hiding all Rares at 99 (minus jewels)",
+            codes = NOT {"jew", "Ev11"},
+            quality = "6",
+            hide = true,
+            pstat = { index = 12, op = ">=", value = 99 }, -- Char Level is >= 99
+        },
+         {
+            label = "Goldstrike Memes",
+            codes = "allitems",
+            quality = "7",
+            index = 161, --Goldstrike Arch
+            runeword = false,
+            prefix = "{red}WTF!!!",
+            background = { 255, 255, 255, 255 },
+            border = { 240, 0, 0, 230, 2 },
+            --location = {"onground", "onplayer","equipped"},
+            stat = {
+            {index = 24, op = "==", value = 332 }, -- Max damage none ethereal
+            {index = 119, op = "==", value = 150 }, -- 100-150% Bonus to Attack Rating
+            {index = 122, op = "==", value = 200 }, -- +100-200% Damage to Undead
+            {index = 121, op = "==", value = 200 }, -- +100-200% Damage to Demons
+        },
+            suffix = "\n {red} Maxed Stats",
+            notify = "{pink}PlausibleSheep{gold}:Congratulations on finding the rarest perfect item in Diablo 2 go show it off",
+    },
+        ---grail sets
+        	{
+            label = "grail sets",
+            filter_levels = 2,
+			codes = NOT { "j00", "j34", "jew", "qey", "g34", "xyz", "bks", "leg", "hdm", "ass", "msf", "hst", "vip", "box", "g33", "qbr", "bbb", "qhr", "qf1", "qf2", "mss", "hfh", "ice", "tr2", "BoH", "std", "B01", "B02", "B03" },
+			quality = "5",
+			grail = false,
+			suffix = " \n{red}Undiscovered",
+		},
+        -- grail uniques
+           {
+            label = "grail uniques",
+            filter_levels = 2,
+			codes = NOT { "j00", "j34", "jew", "qey", "g34", "xyz", "bks", "leg", "hdm", "ass", "msf", "hst", "vip", "box", "g33", "qbr", "bbb", "qhr", "qf1", "qf2", "mss", "hfh", "ice", "tr2", "BoH", "std", "B01", "B02", "B03" },
+			quality = "7",
+			grail = false,
+			suffix = " \n{red}Undiscovered",
+		},
+    
+    
     }
 }
 

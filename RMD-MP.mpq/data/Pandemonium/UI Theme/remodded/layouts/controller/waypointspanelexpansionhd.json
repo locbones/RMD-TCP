@@ -1,45 +1,79 @@
 {
     "basedOn": "Controller/WaypointsPanelOriginalHD.json",
-    "type": "WaypointsPanel", "name": "WaypointsPanelExpansion",
+    "type": "WaypointsPanel",
+    "name": "WaypointsPanelExpansion",
     "children": [
         {
-            "type": "ClickCatcherWidget", "name": "ClickCatcher"
+            "type": "ClickCatcherWidget",
+            "name": "ClickCatcher"
         },
         {
-            "type": "ImageWidget", "name": "Background"
+            "type": "ImageWidget",
+            "name": "Background"
         },
         {
-            "type": "TabBarWidget", "name": "Tabs",
+            "type": "TabBarWidget",
+            "name": "Tabs",
             "fields": {
                 "filename": "Controller/Panel/Waypoints/V2/WaypointsTab2",
-                "tabSize": { "x": 315, "y": 121 },
-                "tabCount": 5,
-                "inactiveFrames": [ 1, 1, 1, 1, 1 ],
-                "activeFrames": [ 0, 0, 0, 0, 0 ]
+                "tabSize": {
+                    "x": 262,
+                    "y": 121
+                },
+                "tabCount": 6,
+                "inactiveFrames": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "activeFrames": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "textStrings": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV",
+                    "V",
+                    "VI"
+                ]
             }
         },
-        // waypoint button templates
         {
-            "type": "Widget", "name": "Templates",
+            "type": "Widget",
+            "name": "Templates",
             "children": [
                 {
-                    "type": "ButtonWidget", "name": "UnselectableButtonTemplate",
+                    "type": "ButtonWidget",
+                    "name": "UnselectableButtonTemplate",
                     "children": [
                         {
-                            "type": "ImageWidget", "name": "TerrorZone"
+                            "type": "ImageWidget",
+                            "name": "TerrorZone"
                         }
                     ]
                 },
                 {
-                    "type": "ImageWidget", "name": "SelectableButton"
+                    "type": "ImageWidget",
+                    "name": "SelectableButton"
                 },
                 {
-                    "type": "ImageWidget", "name": "CurrentButton"
+                    "type": "ImageWidget",
+                    "name": "CurrentButton"
                 }
             ]
         },
         {
-            "type": "ImageWidget", "name": "Overlay"
+            "type": "ImageWidget",
+            "name": "Overlay"
         }
     ]
 }

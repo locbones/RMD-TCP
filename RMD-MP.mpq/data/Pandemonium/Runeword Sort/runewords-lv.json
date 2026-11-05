@@ -2193,7 +2193,7 @@
                                 },
                                 "filename": "..\\..\\..\\ReMoDDeD\\Panels\\Buttons\\RwBtn",
                                 "hoveredFrame": 1,
-                                "tooltipString": "@tan@Runeword75@nl@white@rlvl 18@nl@blue +1 @askills @nl +10 @to @strchreng @nl @light @res +10% @nl @pdr 7 @nl +2 @mak @nl +2 @lradius @nl@nl@runelow 256@runemid 0@runehigh 0@runeultra 0"
+                                "tooltipString": "@tan@Runeword75@nl@white@rlvl 18@nl@blue +1 @askills @nl +10 @to @strchreng @nl @light @res +10% @nl @pdr 7 @nl +2 @mak @nl +2 @lradius @nl@nl@runelow 256@runemid 1@runehigh 0@runeultra 0"
                             }
                         },
                         {

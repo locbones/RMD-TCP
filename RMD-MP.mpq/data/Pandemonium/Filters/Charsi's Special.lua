@@ -5,11 +5,11 @@
 
 return {
 filter_level = 1,
-filter_titles = {"Lite","Lite + Hunter","Lite + Hunter + Grail","Intermediate","Intermediate + Hunter","Intermediate + Hunter + Grail","Aggressive","Aggressive + Hunter","Aggressive + Hunter + Grail"}, -- Names for Filter Levels, from 1-4 in order
-reload = "{gold}Charsi's Special ({yellow}v2.1.3{gold}) {Green}Reloaded", -- Filter reload message.
+filter_titles = {"Lite","Lite + Hunter","Lite + Hunter + Grail","Intermediate","Intermediate + Hunter","Intermediate + Hunter + Grail","Aggressive","Aggressive + Hunter","Aggressive + Hunter + Grail","{tan}Fire Lord Awakens!"}, -- Names for Filter Levels, from 1-4 in order
+reload = "{gold}Charsi's Special ({yellow}v2.2{gold}) {Green}Reloaded", -- Filter reload message.
 allowOverrides = true, -- Necessary, do not turn off.
 audioVoice = 0, -- Choice of voice for TTS.
-audioPlayback = true, -- Turns ON/OFF sounds feature.
+audioPlayback = false, -- Turns ON/OFF sounds feature.
     rules = {
         { --Display item levels for weapons, armors, charms, jewels, rings, amulets and arrows/bolts, to the right of item name, (x)
             codes = "allitems",
@@ -26,6 +26,20 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 		
 		--																	      			         	BASES - misc + Lite
 		
+		{ -- Temp, Elr special, pgems
+			codes = { "gpw", "gpb", "gpv", "gpr", "gpg", "gpy", "skz" },
+			background = { 255, 255, 255, 255 },
+			filter_levels = 10,
+			notify = "{red}Edyrem{white}: You better pick it up (`ー´)",
+			name_override = "\n\n{black}     PICK ME UP IDIOT     \n\n"
+		},
+		{ -- Temp, Elr special, candeez
+			codes = "Ev11",
+			background = { 255, 255, 255, 255 },
+			filter_levels = "10",
+			name_style = "OpenFlames",
+			name_override = "\n\n     Candy Corn     \n\n"
+		},
 		{ -- Suffix for potentially great bases while leveling - Normal
 			codes = { "cap", "skp", "hlm", "fhl", "ghm", "crn", "msk", "qui", "lea", "hla", "stu", "rng", "scl", "chn", "brs", "spl", "plt", "fld", "gth", "ful", "aar", "ltp", "buc", "sml", "lrg", "kit", "tow", "gts", "lgl", "vgl", "mgl", "tgl", "hgl", "lbt", "vbt", "mbt", "tbt", "hbt", "lbl", "vbl", "mbl", "tbl", "hbl", "bhm", "bsh", "spk", "xap", "xkp", "xlm", "xhl", "xhm", "xrn", "xsk", "xui", "xea", "xla", "xtu", "xng", "xcl", "xhn", "xrs", "xpl", "xlt", "xld", "xth", "xul", "xar", "xtp", "xuc", "xml", "xrg", "xit", "xow", "xts", "xlg", "xvg", "xmg", "xtg", "xhg", "xlb", "xvb", "xmb", "xtb", "xhb", "zlb", "zvb", "zmb", "ztb", "zhb", "xh9", "xsh", "xpk", "dr1", "dr2", "dr3", "dr4", "dr5", "ba1", "ba2", "ba3", "ba4", "ba5", "pa1", "pa2", "pa3", "pa4", "pa5", "ne1", "ne2", "ne3", "ne4", "ne5", "ci0", "ci1", "ci2", "ci3", "uap", "ukp", "ulm", "uhl", "uhm", "urn", "usk", "uui", "uea", "ula", "utu", "ung", "ucl", "uhn", "urs", "upl", "ult", "uld", "uth", "uul", "uar", "utp", "uuc", "uml", "urg", "uit", "uow", "uts", "ulg", "uvg", "umg", "utg", "uhg", "ulb", "uvb", "umb", "utb", "uhb", "ulc", "uvc", "umc", "utc", "uhc", "uh9", "ush", "upk", "dr6", "dr7", "dr8", "dr9", "dra", "ba6", "ba7", "ba8", "ba9", "baa", "pa6", "pa7", "pa8", "pa9", "paa", "ne6", "ne7", "ne8", "ne9", "nea", "drb", "drc", "drd", "dre", "drf", "bab", "bac", "bad", "bae", "baf", "pab", "pac", "pad", "pae", "paf", "neb", "neg", "ned", "nee", "nef", "Ca1", "Ca2", "Ca3", "Wp1", "Wp2", "Wp3", "Gg1", "Gg2", "Gg3", "Ab1", "Ab2", "Ab3", "Bp1", "Bp2", "Bp3", "Oa1", "Oa2", "Oa3", "Vg1", "Vg2", "Vg3", "Bb1", "Bb2", "Bb3", "Zc1", "Zc2", "Zc3", "St1", "St2", "Pc1", "Pc2", "Pc3", "Ag1", "Ag2", "Ag3", "Na1", "Na2", "Na3", "Sa1", "Sa2", "Sa3", "St3", "St4", "St5", "St6", "St7", "St8", "St9", "St0", "D01", "D03", "D04", "D05", "D08", "D09", "D11", "D12", "D17", "D19", "D20", "D21", "D23", "D29", "D35", "D36", "D37", "D38", "D45", "hax", "axe", "2ax", "mpi", "wax", "lax", "bax", "btx", "gax", "gix", "wnd", "ywn", "bwn", "gwn", "clb", "scp", "gsc", "wsp", "spc", "mac", "mst", "fla", "whm", "mau", "gma", "ssd", "scm", "sbr", "flc", "crs", "bsd", "lsd", "wsd", "2hs", "clm", "gis", "bsw", "flb", "gsd", "dgr", "dir", "kri", "bld", "tkf", "tax", "bkf", "bal", "jav", "pil", "ssp", "glv", "tsp", "spr", "tri", "brn", "spt", "pik", "bar", "vou", "scy", "pax", "hal", "wsc", "sst", "lst", "cst", "bst", "wst", "sbw", "hbw", "lbw", "cbw", "sbb", "lbb", "swb", "lwb", "lxb", "mxb", "hxb", "rxb", "gps", "ops", "gpm", "opm", "gpl", "opl", "d33", "9ha", "9ax", "92a", "9mp", "9wa", "9la", "9ba", "9bt", "9ga", "9gi", "9wn", "9yw", "9bw", "9gw", "9cl", "9sc", "9qs", "9ws", "9sp", "9ma", "9mt", "9fl", "9wh", "9m9", "9gm", "9ss", "9sm", "9sb", "9fc", "9cr", "9bs", "9ls", "9wd", "92h", "9cm", "9gs", "9b9", "9fb", "9gd", "9dg", "9di", "9kr", "9bl", "9tk", "9ta", "9bk", "9b8", "9ja", "9pi", "9s9", "9gl", "9ts", "9sr", "9tr", "9br", "9st", "9p9", "9b7", "9vo", "9s8", "9pa", "9h9", "9wc", "8ss", "8ls", "8cs", "8bs", "8ws", "8sb", "8hb", "8lb", "8cb", "8s8", "8l8", "8sw", "8lw", "8lx", "8mx", "8hx", "8rx", "ktr", "wrb", "axf", "ces", "clw", "btl", "skr", "9ar", "9wb", "9xf", "9cs", "9lw", "9tw", "9qr", "7ar", "7wb", "7xf", "7cs", "7lw", "7tw", "7qr", "7ha", "7ax", "72a", "7mp", "7wa", "7la", "7ba", "7bt", "7ga", "7gi", "7wn", "7yw", "7bw", "7gw", "7cl", "7sc", "7qs", "7ws", "7sp", "7ma", "7mt", "7fl", "7wh", "7m7", "7gm", "7ss", "7sm", "7sb", "7fc", "7cr", "7bs", "7ls", "7wd", "72h", "7cm", "7gs", "7b7", "7fb", "7gd", "7dg", "7di", "7kr", "7bl", "7tk", "7ta", "7bk", "7b8", "7ja", "7pi", "7s7", "7gl", "7ts", "7sr", "7tr", "7br", "7st", "7p7", "7o7", "7vo", "7s8", "7pa", "7h7", "7wc", "6ss", "6ls", "6cs", "6bs", "6ws", "6sb", "6hb", "6lb", "6cb", "6s7", "6l7", "6sw", "6lw", "6lx", "6mx", "6hx", "6rx", "ob1", "ob2", "ob3", "ob4", "ob5", "am1", "am2", "am3", "am4", "am5", "ob6", "ob7", "ob8", "ob9", "oba", "am6", "am7", "am8", "am9", "ama", "obb", "obc", "obd", "obe", "obf", "amb", "amc", "amd", "ame", "amf", "k01", "k02", "k03", "Ds1", "Ds2", "Ds3", "Pm1", "Pm2", "Pm3", "Bm1", "Bm2", "Bm3", "Bm4", "Bm5", "Bm6", "Bm7", "Bm8", "Bm9", "Bf1", "Bf2", "Bf3", "Bf4", "Bf5", "Bf6", "D00", "Ss1", "Ss2", "Ss3", "Ss4", "D02", "D13", "D14", "D15", "D16", "D24", "D25", "D26", "D27", "D28", "D30", "D31", "D34", "D39", "D40", "D41", "D42", "D43", "D44", "Ev9" },
 			quality = "3",
@@ -123,7 +137,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "{yellow} [{stat=(45)}%% All Res]"
 		},
 		{ -- Display good rolled Enlightened Plate bases (max 4os)
-			code = "Bp3",	
+			codes = "Bp3",	
 			quality = "3-",
             stat = { {index = 39, op = ">=", value = 11}, {index = 41, op = ">=", value = 11}, {index = 43, op = ">=", value = 11}, {index = 45, op = ">=", value = 11} },
 			suffix = "{yellow}[{stat=(45)}%% All Res]"
@@ -171,7 +185,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "{yellow} [{stat=(281)}%% Summon Damage]"
 		},
 		{ -- Display >=4% Life Leech Bloodletting Sword base (max 6os)
-			code = "Bf6",
+			codes = "Bf6",
 			quality = "3-",
 			stat = { index = 60, op = ">=", value = 4 },
 			suffix = "{yellow} [{stat=(60)}%% LL]"
@@ -282,7 +296,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Hide badly rolled DEX/LVL Amazon Gloves Superior bases (max 3os)
-			code = "Ag2",
+			codes = "Ag2",
 			quality = "3-",
 			stat = { index = 221, op = "<", value = 5 },
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
@@ -402,7 +416,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Hide badly rolled Enlightened Plate Superior bases (max 4os)
-			code = "Bp3",	
+			codes = "Bp3",	
 			quality = "3-",
             stat = { {index = 39, op = "<", value = 11}, {index = 41, op = "<", value = 11}, {index = 43, op = "<", value = 11}, {index = 45, op = "<", value = 11} },
 			area = NOT {"Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath"},
@@ -444,7 +458,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             hide = true
         },
 		{ -- Hides leftover (non-superior) bases (max 5os)
-			code = "6lx",
+			codes = "6lx",
             quality = "2",
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Hell",
@@ -497,7 +511,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Hide <4% Life Leech Bloodletting Sword base (max 6os)
-			code = "Bf6",
+			codes = "Bf6",
 			quality = "3-",
 			stat = { index = 60, op = "<", value = 4 },
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
@@ -508,7 +522,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Hide <15% Deadly Strike Hellforged Axe base (max 6os)
-			code = "Bf3",
+			codes = "Bf3",
 			quality = "3-",
 			stat = { index = 141, op = "<", value = 15 },
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
@@ -519,7 +533,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Display >=15% Deadly Strike Hellforged Axe base (max 6os)
-			code = "Bf3",
+			codes = "Bf3",
 			quality = "3-",
 			stat = { index = 141, op = ">=", value = 15 },
 			suffix = "{yellow} [{stat=(141)}%% Deadly]"
@@ -606,7 +620,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Hides magic Large Charms, Intermediate and Aggressive
-			code = "cm2",
+			codes = "cm2",
 			quality = "4",
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare,Hell",
@@ -678,44 +692,99 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 
 
 		{ -- Hide gold drops under 10 for Normal difficulty besides first half of A1 - All Levels
-			code = "gld",
+			codes = "gld",
             stat = { index = 14, op = "<", value = 10 }, 
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath", "Blood Moor", "Cold Plains", "Stony Field", "Dark Wood", "Den Of Evil", "Cave Level 1", "Underground Passage Level 1", "Cave Level 2", "Underground Passage Level 2", "Burial Grounds", "Crypt", "Mausoleum" },
 			difficulty = "Normal",
             hide = true
         },
+		{ -- Perfect Diamond, expanded hitbox
+			codes = "gpw",
+			border = { 229, 230, 232, 220, 1 },
+			filter_levels = "1,2,3,4,5,6,7,8,9",
+			suffix = " ",
+			prefix = " "
+		},
+		{ -- Perfect Saphire, expanded hitbox
+			codes = "gpb",
+			border = { 110, 110, 255, 220, 1 },
+			filter_levels = "1,2,3,4,5,6,7,8,9",
+			suffix = " ",
+			prefix = " "
+		},
+		{ -- Perfect Amethyst, expanded hitbox
+			codes = "gpv",
+			border = { 174, 0, 255, 220, 1 },
+			filter_levels = "1,2,3,4,5,6,7,8,9",
+			suffix = " ",
+			prefix = " "
+		},
+		{ -- Perfect Ruby, expanded hitbox
+			codes = "gpr",
+			border = { 251, 76, 76, 220, 1 },
+			filter_levels = "1,2,3,4,5,6,7,8,9",
+			suffix = " ",
+			prefix = " "
+		},
+		{ -- Perfect Emerald, expanded hitbox
+			codes = "gpg",
+			border = { 0, 251, 0, 220, 1 },
+			filter_levels = "1,2,3,4,5,6,7,8,9",
+			suffix = " ",
+			prefix = " "
+		},
+		{ -- Perfect Topaz, expanded hitbox
+			codes = "gpy",
+			border = { 251, 251, 98, 220, 1 },
+			filter_levels = "1,2,3,4,5,6,7,8,9",
+			suffix = " ",
+			prefix = " "
+		},
+		{ -- Perfect Skull, expanded hitbox
+			codes = "skz",
+			border = { 255, 255, 255, 220, 1 },
+			filter_levels = "1,2,3,4,5,6,7,8,9",
+			suffix = " ",
+			prefix = " "
+		},
+		{ -- Full rejuvenation potion, expanded hitbox
+			codes = "rvl",
+			border = { 174, 0, 255, 220, 1 },
+			filter_levels = "1,2,3,4,5,6,7,8,9",
+			suffix = " "
+		},
 		{ -- Demonic Milk - onplayer
-			code = "CW1",
+			codes = "CW1",
 			location = { "onplayer", "atvendor", "equipped" },
 			prefix_desc = "{gray}Oh heavens, the smell...\n"
 		},
 		{ -- Wirt's Another Leg - onground
-			code = "CW2",
+			codes = "CW2",
 			notify = "{red}Edurem{white}: Wait, there is another one?"
 		},
 		{ -- Wirt's Another Leg - onplayer
-			code = "CW2",
+			codes = "CW2",
 			location = { "onplayer", "atvendor", "equipped" },
 			prefix_desc = "{gray}Hmm, maybe there is an arm somewhere.\n"
 		},
 		{ -- Hide gold drops under 50 for Nightmare difficulty - Lite
-			code = "gld",
+			codes = "gld",
             stat = { index = 14, op = "<=", value = 49 }, 
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare",
-			filter_levels = "1,2,3",
+			filter_levels = "1,2,3,10",
             hide = true
         },
 		{ -- Hide gold drops under 200 for Hell difficulty - Lite
-			code = "gld",
+			codes = "gld",
             stat = { index = 14, op = "<=", value = 199 }, 
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Hell",
-			filter_levels = "1,2,3",
+			filter_levels = "1,2,3,10",
             hide = true
         },
 		{ -- Hide gold drops under 80 in Nightmare difficulty - Intermediate
-			code = "gld",
+			codes = "gld",
             stat = { index = 14, op = "<=", value = 79 }, 
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare",
@@ -723,7 +792,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             hide = true
         },
 		{ -- Hide gold drops under 600 in Hell difficulty - Intermediate
-			code = "gld",
+			codes = "gld",
             stat = { index = 14, op = "<=", value = 599 }, 
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Hell",
@@ -731,7 +800,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             hide = true
         },
 		{ -- Hide gold drops under 150 in Nightmare - Aggressive
-			code = "gld",
+			codes = "gld",
             stat = { index = 14, op = "<=", value = 149 }, 
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare",
@@ -739,7 +808,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             hide = true
         },
 		{ -- Hide gold drops under 1000 in Hell difficulty - Aggressive
-			code = "gld",
+			codes = "gld",
             stat = { index = 14, op = "<=", value=999 }, 
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Hell",
@@ -747,7 +816,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             hide = true
         },
 		{ -- Hide all Small Charms that aren't either +20 Life, 5% AllRes, 5% CDR or 7% MF - Nightmare + Hell - Aggressive // Thanks, Zexy
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare,Hell",
@@ -756,7 +825,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Small charm hiding check - Part 1 - Nightmare + Hell - Aggressive
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare,Hell",
@@ -765,7 +834,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Small charm hiding check - Part 2 - Nightmare + Hell - Aggressive
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare,Hell",
@@ -774,7 +843,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Small charm hiding check - Part 3 - Nightmare + Hell - Aggressive
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare,Hell",
@@ -783,7 +852,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Small charm hiding check - Part 4 - Nightmare + Hell - Aggressive
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Nightmare,Hell",
@@ -792,13 +861,13 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			hide = true
 		},
 		{ -- Style for Magic Jewels
-			code = "jew",
+			codes = "jew",
 			quality = "4",
 			border = { 115, 115, 255, 170, 1 },
 			background = { 1, 1, 17, 255 }
 		},
 		{ -- Style for Rare Jewels
-			code = "jew",
+			codes = "jew",
 			quality = "6",
 			border = { 255, 255, 105, 190, 1 }
 		},
@@ -829,7 +898,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             codes = { "hp1", "hp2", "hp3", "hp4", "hp5", "mp1", "mp2", "mp3", "mp4", "mp5", "rvs" },
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			difficulty = "Hell",
-			filter_levels = "1,2,3,4,5,6",
+			filter_levels = "1,2,3,4,5,6,10",
 			pstat = { index = 12, op = ">=", value = 90 },
             hide = true
         },
@@ -840,7 +909,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             hide = true
         },
         { -- Hides small rejuv drops after clvl 90 - Aggressive
-            code = "rvs",
+            codes = "rvs",
 			area = NOT { "Rogue Encampment", "Lut Gholein", "Kurast Docktown", "The Pandemonium Fortress", "Harrogath" },
 			filter_levels = "7,8,9",
 			pstat = { index = 12, op = ">=", value = 90 },
@@ -871,7 +940,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             background_style = "SapphireSonnet"
         },
 		{ -- EEE Notify
-			code = "a66",
+			codes = "a66",
 			notify = "{red}VERY {white}important item on ground!"
 		},
 		{ -- Ultra Runes notification and style
@@ -891,7 +960,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			prefix = "{pink}"
 		},
 		{ -- Style for Beacon of Hope
-			code = "BoH",
+			codes = "BoH",
 			notify = "{yellow}Important Item: {gold}{name}\n{red}Edyrem:{white} Is that a... bacon?"
 		},
 		{ -- Border for Superior 0os non-eth Bases
@@ -924,13 +993,13 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			name_style = "Cotton Candy"
 		},
 		{ -- Style for Scroll of Triumph
-			code = "a06",
+			codes = "a06",
 			notify = "{red}???: {white}Are ya winning son?\n{gold}[Game] {red}Edyrem: {white}Yes, dad.",
 			name_style = "Christmas",
 			border = { 0, 35, 255, 80, 3 },
 		},
 		{ -- Style for Gold
-			code = "gld",
+			codes = "gld",
 			border = { 230, 255, 70, 165, 1 },
 			name_override = "{white}{name}{yellow}g"
 		},
@@ -955,14 +1024,14 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			notify = "{red}Demon Tempered item on ground!"
 		},
 		{ -- Style for Facets
-            code = "jew",
+            codes = "jew",
             quality = 7,
             notify = "{red}Rainbow Facet Nearby!",
             name_style = "Rainbow",
             border = { 255, 0, 0, 230, 1 } 
         },
 		{ -- Style for Prismatic Facets
-            code = "j00",
+            codes = "j00",
 			index = 610,
             quality = 7,
             notify = "{red}Prismatic Facet Nearby!",
@@ -970,21 +1039,21 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             border = { 255, 0, 0, 230, 1 } 
         },
 		{ -- Style for Premium Socket Remover
-			code = "b65",
+			codes = "b65",
 			notify = "{red}Are you sure?",
 			name_override = "Premium Socket Remover",
 			border = { 7, 167, 222, 170, 1 },
 			name_style = "Cotton Candy"
 		},
 		{ -- Infinite Premium Socket Remover, name change, onground
-			code = "b66",
+			codes = "b66",
 			notify = "{red}Are you sure?",
 			name_override = "Infinite Socket Remover",
 			border = { 7, 167, 222, 170, 1 },
 			name_style = "Cotton Candy"
 		},
 		{ -- Infinite Premium Socket Remover, name change and additional info, onplayer
-			code = "b66",
+			codes = "b66",
 			name_override = "{gold}Infinite Premium Socket Remover",
 			prefix = "{gray}Not consumed upon use\n",
 			location = { "onplayer", "atvendor", "equipped" }
@@ -1092,126 +1161,126 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			name_override = "{gold}Low Enhancement Crystal ({tan}Unlimited Uses{gold})"
 		},
 		{ -- Onground display for Amethyst Remover
-			code = "Z02",
+			codes = "Z02",
 			name_override = "{purple}Amethyst {gold}Remover"
 		},
         { -- Onground display for Topaz Remover
-			code = "Z03",
+			codes = "Z03",
 			name_override = "{yellow}Topaz {gold}Remover"
 		},
         { -- Onground display for Sapphire Remover
-			code = "Z04",
+			codes = "Z04",
 			name_override = "{blue}Sapphire {gold}Remover"
 		},
         { -- Onground display for Emerald Remover
-			code = "Z05",
+			codes = "Z05",
 			name_override = "{green}Emerald {gold}Remover"
 		},
         { -- Onground display for Ruby Remover
-			code = "Z06",
+			codes = "Z06",
 			name_override = "{red}Ruby {gold}Remover"
 		},
         { -- Onground display for Diamond Remover
-			code = "Z07",
+			codes = "Z07",
 			name_override = "{white}Diamond {gold}Remover"
 		},
         { -- Onground display for Skull Remover
-			code = "Z08",
+			codes = "Z08",
 			name_override = "{gray}Skull {gold}Remover"
 		},
 		{ -- Unholy Commander name color fix, not identified and onground
-			code = "cm3",
+			codes = "cm3",
 			index = 590,
 			identified = false,
 			notify = "{gold}Unique: Grand Charm",
 			name_override = "{gold}Grand Charm ({ilvl})"
 		},
 		{ -- Unholy Commander name color fix, not identified, other locations
-			code = "cm3",
+			codes = "cm3",
 			index = 590,
 			identified = false,
 			location = { "onplayer", "atvendor" },
 			name_override = "{gold}Grand Charm ({ilvl})"
 		},
 		{ -- Blank Talent name color fix, not identified and onground
-			code = "cm3",
+			codes = "cm3",
 			index = 611,
 			identified = false,
 			notify = "{gold}Unique: Grand Charm",
 			name_override = "{gold}Grand Charm ({ilvl})"
 		},
 		{ -- Blank Talent name color fix, not identified, other locations
-			code = "cm3",
+			codes = "cm3",
 			index = 611,
 			identified = false,
 			location = { "onplayer", "atvendor" },
 			name_override = "{gold}Grand Charm ({ilvl})"
 		},
 		{ -- Gheed's Fortune name color fix, not identified and onground
-			code = "cm3",
+			codes = "cm3",
 			index = 542,
 			identified = false,
 			notify = "{gold}Unique: Grand Charm",
 			name_override = "{gold}Grand Charm ({ilvl})"
 		},
 		{ -- Gheed's Fortune name color fix, not identified other locations
-			code = "cm3",
+			codes = "cm3",
 			index = 542,
 			identified = false,
 			location = { "onplayer", "atvendor" },
 			name_override = "{gold}Grand Charm ({ilvl})"
 		},
 		{ -- Annihilus name color fix, not identified and onground
-			code = "cm1",
+			codes = "cm1",
 			index = 543,
 			identified = false,
 			notify = "{gold}Unique: Small Charm",
 			name_override = "{gold}Small Charm ({ilvl})"
 		},
 		{ -- Annihilus name color fix, not identified other locations
-			code = "cm1",
+			codes = "cm1",
 			index = 543,
 			identified = false,
 			location = { "onplayer", "atvendor" },
 			name_override = "{gold}Small Charm ({ilvl})"
 		},
 		{ -- Cola Cube name color fix, not identified and onground
-			code = "cm1",
+			codes = "cm1",
 			index = 606,
 			identified = false,
 			notify = "{gold}Unique: Small Charm",
 			name_override = "{gold}Small Charm ({ilvl})"
 		},
 		{ -- Cola Cube name color fix, not identified other locations
-			code = "cm1",
+			codes = "cm1",
 			index = 606,
 			identified = false,
 			location = { "onplayer", "atvendor" },
 			name_override = "{gold}Small Charm ({ilvl})"
 		},
 		{ -- Kuroneko no Himitsu name color fix, not identified and onground
-			code = "cm3",
+			codes = "cm3",
 			index = 654,
 			identified = false,
 			notify = "{gold}Unique: Grand Charm",
 			name_override = "{gold}Grand Charm ({ilvl})"
 		},
 		{ -- Kuroneko no Himitsu name color fix, not identified other locations
-			code = "cm3",
+			codes = "cm3",
 			index = 654,
 			identified = false,
 			location = { "onplayer", "atvendor" },
 			name_override = "{gold}Grand Charm ({ilvl})"
 		},
 		{ -- Healthy Breakfast notify, not identified and onground
-			code = "cm1",
+			codes = "cm1",
 			index = 598,
 			identified = false,
 			notify = "{gold}Unique: Small Charm",
 			name_override = "{gold}Small Charm ({ilvl})"
 		},
 		{ -- Hellfire Torch notify, not identified and onground
-			code = "cm2",
+			codes = "cm2",
 			index = 556,
 			identified = false,
 			location = "onground",
@@ -1219,7 +1288,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			name_override = "{gold}Large Charm ({ilvl})"
 		},
 		{ -- Soul of Edyrem notify
-			code = "m37",
+			codes = "m37",
 			notify = "{red}Edyrem{white}: . . ."
 		},
 
@@ -1316,13 +1385,13 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 		--																             Additional/missing prefixes or gameplay tips for various items
 		
 		{ -- SoJ Dclone note
-			code = "rin",
+			codes = "rin",
 			index = 527,
 			location = { "onplayer", "atvendor", "equipped" },
 			prefix = "{gray}Can be sold to any vendor in Hell to spawn Dclone{gold}\n"
 		},
 		{ -- Horadric Staff (credits to Wolfie, mine now hehe)
-			code = "hst",
+			codes = "hst",
 			location = { "onplayer", "equipped" },
 			prefix_desc = "{yellow}0   )   []   +   >>   /_\\   0)\nTombs:\n"
 		},
@@ -1341,37 +1410,37 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "{yellow}[DT]"
 		},
 		{ -- Identify Scroll
-			code = "isc",
+			codes = "isc",
 			location = { "onplayer", "atvendor" },
 			prefix = "{grey}ID Scroll + HP potion in NM/Hell = New Beacon\nUsed for re-rolling Unique/Set items\n"
 		},
 		{ -- Gold Bar Splitter
-			code = "GBd",
+			codes = "GBd",
 			location = { "onplayer", "atvendor" },
 			prefix = "{grey}Used for splitting stacked {yellow}Gold Bars{white}\n"
 		},
 		{ -- Token Forger
-			code = "TK8",
+			codes = "TK8",
 			location = { "onplayer", "atvendor" },
 			name_override = "{grey}Beacon of Hope + X (Summon lvl +1) Class Tokens = Upgraded Summon\nClass Token + Beacon of Hope = Added Soul Summon\nToken Forger + Beacon of Hope (100 Soul Shards) = Class Token{white}\nToken Forger"
 		},
 		{ -- Starter Pack
-			code = "y66",
+			codes = "y66",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Visit our discord 'D2R-Modding' for any help if needed :)\n"
 		},
 		{ -- QoL Bag
-			code = "Z01",
+			codes = "Z01",
 			location = { "onplayer", "atvendor" },
 			prefix = "{gray}Warning: Jewels will be sacrificed!\nMagic/Rare Jewels, Uber Organ/Keys, Gems\nRunes, Unique/Set cores, Full Rejuvs\n{white}Can store various items such as:\n"
 		},
 		{ -- Horadric Cube
-			code = "box",
+			codes = "box",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{gray}Press Portal icon inside cube to show 'Rift' with rotating recipes/perks inside\nPress Scroll icon inside cube to show recipes and Runewords\n"
 		},
 		{ -- Premium Socket Remover name fix
-			code = "b65",
+			codes = "b65",
 			location = { "onplayer", "atvendor", "equipped", "onground" },
 			name_override = "{gold}Premium Socket Remover"
 		},
@@ -1383,237 +1452,237 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 		--																                            Monster Body Parts and Vendor Souls
 		
 		{ -- Andariels Flag
-			code = "C00",
+			codes = "C00",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Pestilence\n{gold}Used for:\n\n"
 		},
 		{ -- Anuburaks FLag
-			code = "C01",
+			codes = "C01",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Baals Flag
-			code = "C02",
+			codes = "C02",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Deddomers Flag
-			code = "C03",
+			codes = "C03",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Famine\n{gold}Used for:\n\n"
 		},
 		{ -- Diablos Flag
-			code = "C04",
+			codes = "C04",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Rain\n{gold}Used for:\n\n"
 		},
 		{ -- Duriels Flag
-			code = "C05",
+			codes = "C05",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Eternity\n{gold}Used for:\n\n"
 		},
 		{ -- Forsaken Izuals Flag
-			code = "C06",
+			codes = "C06",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Destruction\n{gold}Used for:\n\n"
 		},
 		{ -- Gurkas Flag
-			code = "C07",
+			codes = "C07",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Alacrity\n{gold}Used for:\n\n"
 		},
 		{ -- Mephistos Flag
-			code = "C08",
+			codes = "C08",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Queen Syndreds Flag
-			code = "C09",
+			codes = "C09",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Akaras Soul
-			code = "C10",
+			codes = "C10",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Runic Forging Tier 5: {yellow}Mystery{white}, {yellow}Obsession\n{gold}Used for:\n\n"
 		},
 		{ -- Ancients Soul
-			code = "C11",
+			codes = "C11",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Ancient's Pledge\n{gold}Used for:\n\n"
 		},
 		{ -- Baals Soul
-			code = "C12",
+			codes = "C12",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Blood Ravens Soul
-			code = "C13",
+			codes = "C13",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Gloom, Amity\n{gold}Used for:\n\n"
 		},
 		{ -- Forsaken Izuals Soul
-			code = "C14",
+			codes = "C14",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Griswolds Soul
-			code = "C15",
+			codes = "C15",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Crafting {green}Forsaken Pacts {grey}(list in cube recipes)\n{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Fortitude\n{gold}Used for:\n\n"
 		},
 		{ -- Gurkas Soul
-			code = "C16",
+			codes = "C16",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Izuals Soul
-			code = "C17",
+			codes = "C17",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Radaments Soul
-			code = "C18",
+			codes = "C18",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Bone\n{gold}Used for:\n\n"
 		},
 		{ -- Corpsefires Jawbone
-			code = "C19",
+			codes = "C19",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Deddomers Jawbone
-			code = "C20",
+			codes = "C20",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Limit Break II {grey}(Path of the Blacksmith)\n{gold}Used for:\n\n"
 		},
 		{ -- ??? Griswolds Jawbone
-			code = "C21",
+			codes = "C21",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Crafting {green}Forsaken Pacts {grey}(list in cube recipes)\n{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- ??? Mephistos Jawbone
-			code = "C22",
+			codes = "C22",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Deception\n{gold}Used for:\n\n"
 		},
 		{ -- Radaments Jawbone
-			code = "C23",
+			codes = "C23",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- ??? Thresh Sockets Jawbone
-			code = "C24",
+			codes = "C24",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Diablos Horn
-			code = "C25",
+			codes = "C25",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Duriels Horn
-			code = "C26",
+			codes = "C26",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Hephastos Horn
-			code = "C27",
+			codes = "C27",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Crafting {green}Forsaken Pacts {grey}(list in cube recipes)\n{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- The Smiths Horn
-			code = "C28",
+			codes = "C28",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Crafting {green}Forsaken Pacts {grey}(list in cube recipes)\n{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Thresh Sockets Horn
-			code = "C29",
+			codes = "C29",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Crafting {green}Forsaken Pacts {grey}(list in cube recipes)\n{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Anuburaks Tail
-			code = "C30",
+			codes = "C30",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Diablos Tail
-			code = "C31",
+			codes = "C31",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Fangskins Tail
-			code = "C32",
+			codes = "C32",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Forsaken Izuals Tail
-			code = "C33",
+			codes = "C33",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Izuals Tail
-			code = "C34",
+			codes = "C34",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{white}Runic Forging Tier 5: {yellow}Rift\n{gold}Used for:\n\n"
 		},
 		{ -- Andariels Fang
-			code = "C35",
+			codes = "C35",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Fangskins Fang
-			code = "C36",
+			codes = "C36",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Queen Syndreds Fang
-			code = "C37",
+			codes = "C37",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Body part for {dark green}Demon Tempering\n{gold}Used for:\n\n"
 		},
 		{ -- Charsis Soul
-			code = "C38",
+			codes = "C38",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Crafting {green}Forsaken Pacts {grey}(list in cube recipes)\n{white}Runic Forging Tier 5: {yellow}Broken Promise{white}, {yellow}Steel{white}, {yellow}Edge\n{gold}Used for:\n\n"
 		},
 		{ -- Faras Soul
-			code = "C39",
+			codes = "C39",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Runic Forging Tier 5: {yellow}Radiance{white}, {yellow}Myth{white}, {yellow}Voice of Reason\n{gold}Used for:\n\n"
 		},
 		{ -- Drognans Soul
-			code = "C40",
+			codes = "C40",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Runic Forging Tier 5: {yellow}Daylight\n{gold}Used for:\n\n"
 		},
 		{ -- Hratlis Soul
-			code = "C41",
+			codes = "C41",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Runic Forging Tier 5: {yellow}Envy{white}, {yellow}Passion\n{gold}Used for:\n\n"
 		},
 		{ -- Ormus' Soul
-			code = "C42",
+			codes = "C42",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Runic Forging Tier 5: {yellow}Lightning{white}, {yellow}Zephyr\n{gold}Used for:\n\n"
 		},
 		{ -- Jamellas Soul
-			code = "C43",
+			codes = "C43",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Runic Forging Tier 5: {yellow}Rhyme\n{gold}Used for:\n\n"
 		},
 		{ -- Halbus Soul
-			code = "C44",
+			codes = "C44",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Runic Forging Tier 5: {yellow}Oath\n{gold}Used for:\n\n"
 		},
 		{ -- Larzuks Soul
-			code = "C45",
+			codes = "C45",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Crafting {green}Forsaken Pacts {grey}(list in cube recipes)\n{white}Runic Forging Tier 5: {yellow}King's Grace\n{gold}Used for:\n\n"
 		},
 		{ -- Malahs Soul
-			code = "C46",
+			codes = "C46",
 			location = { "onplayer", "atvendor" },
 			prefix = "{white}Runic Forging Tier 5: {yellow}Lust\n{gold}Used for:\n\n"
 		},
@@ -1626,69 +1695,69 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 		
 
 		{ -- Horadric Malus - Nightmare
-			code = "hdm",
+			codes = "hdm",
 			location = { "onplayer", "atvendor" },
 			difficulty = "Nightmare",
 			prefix = "{gray}Example: Spirit in 6os Spell Blade = Jewel+Jewel+Tal+Thul+Ort+Amn\nThose {white}'Jeweled Runewords'{gray} can be made by filling excess sockets with Jewels (not gems!) {red}BEFORE{gray} Runes\n{orange}Gameplay Tip:{gray} You can make Runewords in items that have more sockets that those RWs need runes.\n"
 		},
 		{ -- Horadric Malus - Hell
-			code = "hdm",
+			codes = "hdm",
 			location = { "onplayer", "atvendor" },
 			difficulty = "Hell",
 			prefix = "{gray}You will still want less MF to farm bases of course, but overall it's the best place for farming bases!\n{orange}Gameplay tip:{white} Cow Level{gray} is specifically tailored in ReMoDDeD to drop as many {white}bases{gray} as possible\n"
 		},
 		{ -- Horadric Malus - notify NM
-			code = "hdm",
+			codes = "hdm",
 			difficulty = "Nightmare",
 			notify = "{orange}New gameplay tip available! Look at description of {name}"
 		},
 		{ -- Horadric Malus - notify Hell
-			code = "hdm",
+			codes = "hdm",
 			difficulty = "Hell",
 			notify = "{orange}New gameplay tip available! Look at description of {name}"
 		},
 		{ -- Mephisto's Soulstone - Normal
-			code = "mss",
+			codes = "mss",
 			location = { "onplayer", "atvendor" },
 			difficulty = "Normal",
-			prefix = "{gray}or by holding ALT and clicking on any attribute '+' in character stats window\nYou respec by clicking recpec button in your skills window\n\ncheck the checkbox 'respec' in Launchers main window, inside 'Launch Options'\n{orange}Gameplay Tip:{gray} You can {white}infinitely respec{gray} your stats/skills if you\n"
+			prefix = "{gray}or by holding ALT and clicking on any attribute '+' in character stats window\nYou respec by clicking recpec button in your skills window\n\ncheck the checkbox 'Infinite respec' in Launchers 'Settings' (needs game relaunch)\n{orange}Gameplay Tip:{gray} You can {white}infinitely respec{gray} your stats/skills if you\n"
 		},
 		{ -- Mephisto's Soulstone - Nightmare
-			code = "mss",
+			codes = "mss",
 			location = { "onplayer", "atvendor" },
 			difficulty = "Nightmare",
 			prefix = "You might need to refresh a few times for it to appear (next to jewelry)\nsockets to items, can be gold gambled from {red}Edyrem\n{orange}Gameplay Tip:{gold} Ramaladni's Gift{white}, which adds\n\n"
 		},
 		{ -- Mephisto's Soulstone - Hell
-			code = "mss",
+			codes = "mss",
 			location = { "onplayer", "atvendor" },
 			difficulty = "Hell",
 			prefix = "{gray}Entrance to levels full of Torment (Hell only)\n{orange}Gameplay Tip:{gray} The {white}Worldstone Chamber{gray} contains an\n"
 		},
 		{ --  Mephisto's Soul Stone - notify
-			code = "mss",
+			codes = "mss",
 			notify = "{orange}New gameplay tip available! Look at description of {name}"
 		},
 		{ -- Scroll of Resistance - Normal
-			code = "tr2",
+			codes = "tr2",
 			location = { "onplayer", "atvendor" },
 			difficulty = "Normal",
 			prefix = "{orange}Gameplay Tip:{gray} QoL Options in Launcher have many useful things. Recommend to check it out!\n"
 		},
 		{ -- Scroll of Resistance - Nightmare
-			code = "tr2",
+			codes = "tr2",
 			location = { "onplayer", "atvendor" },
 			difficulty = "Nightmare",
 			prefix = "{gray}However, your '- x resistance' stats do not update those numbers!\nYour '- x immunity' stats, Curses and Conviction Auras affect those numbers\n\nLauncher - Options - QoL Options - Monster HP Bar - choose any 'Advanced' option\n{orange}Gameplay Tip:{gray} You can see all enemy {white}Resistance Values{gray} if you set it in:\n"
 		},
 		{ -- Scroll of Resistance - Hell
-			code = "tr2",
+			codes = "tr2",
 			location = { "onplayer", "atvendor" },
 			difficulty = "Hell",
 			prefix = "{gray}'LB' icon in item name means 'Limit Broken Base' (ilvl 103+)\n'EB' icon in item name means 'Elite Base'\n"
 		},
 		{ --  Scroll of Resistance - notify
-			code = "tr2",
+			codes = "tr2",
 			location = { "onplayer", "atvendor" },
 			notify = "{orange}New gameplay tip available! Look at description of {name}"
 		},
@@ -3086,7 +3155,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			notify = "Valuable Amulet nearby!"
 		},
 		{ -- Cola Cube Small Charm
-			code = "cm1",
+			codes = "cm1",
 			quality = "7",
 			index = 606,
 			identified = false,
@@ -3094,7 +3163,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "|Cola"
 		},
 		{ -- Healthy Breakfast Small Charm
-			code = "cm1",
+			codes = "cm1",
 			quality = "7",
 			index = 598,
 			identified = false,
@@ -3102,7 +3171,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "|HB"
 		},
 		{ -- Gheed's Fortune Grand Charm
-			code = "cm3",
+			codes = "cm3",
 			quality = "7",
 			index = 542,
 			identified = false,
@@ -3110,7 +3179,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "|Gheed's"
 		},
 		{ -- Unholy Commander Grand Charm
-			code = "cm3",
+			codes = "cm3",
 			quality = "7",
 			index = 590,
 			identified = false,
@@ -3118,7 +3187,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "|Unholy"
 		},
 		{ -- Blank Talent Grand Charm
-			code = "cm3",
+			codes = "cm3",
 			quality = "7",
 			index = 611,
 			identified = false,
@@ -3126,7 +3195,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "|Blank"
 		},
 		{ -- Kuroneko no Himitsu Grand Charm
-			code = "cm3",
+			codes = "cm3",
 			quality = "7",
 			index = 654,
 			identified = false,
@@ -3140,7 +3209,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 		
 		
 		{ -- All Res Small Charms
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			identified = false,
 			filter_levels = "2,3,5,6,8,9",
@@ -3149,7 +3218,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "{yellow} [5%% All Res]"
 		},
 		{ -- CDR Small Charms
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			identified = false,
 			filter_levels = "2,3,5,6,8,9",
@@ -3158,7 +3227,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "{yellow} [5%% CDR]"
 		},
 		{ -- MF Small Charms
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			filter_levels = "2,3,5,6,8,9",
 			location = { "onground", "onplayer" },
@@ -3167,7 +3236,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "{yellow} [{stat=(80)}%% MF]"
 		},
 		{ -- +20 Life Small Charms
-			code = "cm1",
+			codes = "cm1",
 			quality = 4,
 			filter_levels = "2,3,5,6,8,9",
 			location = { "onground", "onplayer" },
@@ -3176,7 +3245,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "{yellow} [20 Life]"
 		},
 		{ -- High ED% magic/rare Jewels
-			code = "jew",
+			codes = "jew",
 			quality = "4,6",
 			filter_levels = "2,3,5,6,8,9",
 			location = { "onground", "onplayer" },
@@ -3185,7 +3254,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			suffix = "{yellow} [{stat=(17)}%% ED]"
 		},
 		{ -- 15% IAS and any ED% magic/rare Jewels
-			code = "jew",
+			codes = "jew",
 			quality = "4,6",
 			filter_levels = "2,3,5,6,8,9",
 			location = { "onground", "onplayer" },
@@ -3208,122 +3277,122 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             background_style = "SapphireSonnet"
         },
 		{ -- Treasure Chests - Armor - 25
-			code = "y09",
+			codes = "y09",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}25\n{white}Contains: {gold}Armor\n"
 		},
 		{ -- Treasure Chests - Armor - 50
-			code = "y10",
+			codes = "y10",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}50\n{white}Contains: {gold}Armor\n"
 		},
 		{ -- Treasure Chests - Armor - 70
-			code = "y11",
+			codes = "y11",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}70\n{white}Contains: {gold}Armor\n"
 		},
 		{ -- Treasure Chests - Armor - 90
-			code = "y12",
+			codes = "y12",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}90\n{white}Contains: {gold}Armor\n"
 		},
 		{ -- Treasure Chests - Weapons - 25
-			code = "y13",
+			codes = "y13",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}25\n{white}Contains: {gold}Weapons\n"
 		},
 		{ -- Treasure Chests - Weapons - 50
-			code = "y14",
+			codes = "y14",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}50\n{white}Contains: {gold}Weapons\n"
 		},
 		{ -- Treasure Chests - Weapons - 70
-			code = "y15",
+			codes = "y15",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}70\n{white}Contains: {gold}Weapons\n"
 		},
 		{ -- Treasure Chests - Weapons - 90
-			code = "y16",
+			codes = "y16",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}90\n{white}Contains: {gold}Weapons\n"
 		},
 		{ -- Treasure Chests - Rings - 25
-			code = "y17",
+			codes = "y17",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}25\n{white}Contains: {gold}Rings\n"
 		},
 		{ -- Treasure Chests - Rings - 50
-			code = "y18",
+			codes = "y18",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}50\n{white}Contains: {gold}Rings\n"
 		},
 		{ -- Treasure Chests - Rings - 70
-			code = "y19",
+			codes = "y19",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}70\n{white}Contains: {gold}Rings\n"
 		},
 		{ -- Treasure Chests - Rings - 90
-			code = "y20",
+			codes = "y20",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}90\n{white}Contains: {gold}Rings\n"
 		},
 		{ -- Treasure Chests - Amulets - 25
-			code = "y21",
+			codes = "y21",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}25\n{white}Contains: {gold}Amulets\n"
 		},
 		{ -- Treasure Chests - Amulets - 50
-			code = "y22",
+			codes = "y22",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}50\n{white}Contains: {gold}Amulets\n"
 		},
 		{ -- Treasure Chests - Amulets - 70
-			code = "y23",
+			codes = "y23",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}70\n{white}Contains: {gold}Amulets\n"
 		},
 		{ -- Treasure Chests - Amulets - 90
-			code = "y24",
+			codes = "y24",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}90\n{white}Contains: {gold}Amulets\n"
 		},
 		{ -- Treasure Chests - Arrows - 25
-			code = "y25",
+			codes = "y25",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}25\n{white}Contains: {gold}Arrows\n"
 		},
 		{ -- Treasure Chests - Arrows - 50
-			code = "y26",
+			codes = "y26",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}50\n{white}Contains: {gold}Arrows\n"
 		},
 		{ -- Treasure Chests - Arrows - 70
-			code = "y27",
+			codes = "y27",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}70\n{white}Contains: {gold}Arrows\n"
 		},
 		{ -- Treasure Chests - Arrows - 90
-			code = "y28",
+			codes = "y28",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}90\n{white}Contains: {gold}Arrows\n"
 		},
 		{ -- Treasure Chests - Runes - 25
-			code = "y29",
+			codes = "y29",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}25\n{white}Contains: {gold}Runes\n"
 		},
 		{ -- Treasure Chests - Runes - 50
-			code = "y30",
+			codes = "y30",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}50\n{white}Contains: {gold}Runes\n"
 		},
 		{ -- Treasure Chests - Runes - 70
-			code = "y31",
+			codes = "y31",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}70\n{white}Contains: {gold}Runes\n"
 		},
 		{ -- Treasure Chests - Runes - 90
-			code = "y32",
+			codes = "y32",
 			location = { "onplayer", "atvendor" },
 			prefix_desc = "{white}Item Level: {orange}90\n{white}Contains: {gold}Runes\n"
 		},
@@ -3352,7 +3421,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			audio = "Ding1Charsi.mp3"
 		},
 		{ -- Audio for Rainbow Facets
-			code = "jew",
+			codes = "jew",
 			quality = 7,
 			identified = false,
 			audio = "Ding1Charsi.mp3"
@@ -3379,86 +3448,86 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 		--                                                                                     Quest item notifies
 		
 		{ -- Khalim's Eye
-			code = "qey",
+			codes = "qey",
 			notify = "{red}???: {white}A group of aspiring heroes, I see. I hope you know what you are getting yourself into.\n{red}Edyrem: {white}Who was that?"
 		},
 		{ -- Khalim's Brain
-			code = "qbr",
+			codes = "qbr",
 			notify = "{red}???: {white}You proved yourself determined enough... Fine, I will aid you. Find my heart, I can feel it deep beneath Kurast."
 		},
 		{ -- Khalim's Heart
-			code = "qhr",
+			codes = "qhr",
 			notify = "{red}???: {white}Completely filled with hatred, what an irony. It's time to meet with old friends in Travincal"
 		},
 		{ -- Khalim's Flail
-			code = "qf1",
+			codes = "qf1",
 			notify = "{red}???: {white}A fine piece of weaponry it once was, now only a memory. Assemble my scattered will, Nephalem."
 		},
 		{ -- Khalim's Will
-			code = "qf2",
+			codes = "qf2",
 			location = "equipped",
 			notify = "{red}Khalim: {white}I SHALL HAVE MY VENGEANCE, DEMON! Even if it's not me that delivers it.\n{red}Edyrem: {white}Your deed is done, priest. It's time to join us."
 		},
 		{ -- Horadric Scroll
-			code = "tr1",
+			codes = "tr1",
 			notify = "{red}Edyrem: {white}A true heroes they were."
 		},
 		{ -- Staff of Kings
-			code = "msf",
+			codes = "msf",
 			notify = "{red}Edyrem: {white}King of Staffs."
 		},
 		{ -- Amulet of the Viper
-			code = "vip",
+			codes = "vip",
 			notify = "{red}Edyrem: {white}Clouds only block the sunshine temporarily. The sun always returns."
 		},
 		{ -- Wirt's Leg
-			code = "leg",
+			codes = "leg",
 			notify = "{red}Edyrem: {white}Ooooh Who lives in a pineapple under the sea..."
 		},
 		{ -- Book of Skill
-			code = "ass",
+			codes = "ass",
 			notify = "{red}Edyrem: {white}My precious~~"
 		},
 		{ -- Horadric Staff
-			code = "hst",
+			codes = "hst",
 			notify = "{red}Edyrem: {white}Why would you do that?"
 		},
 		{ -- A Jade Figurine onground
-			code = "j34",
+			codes = "j34",
 			notify = "{red}Edyrem: {white}Is that an Anime Figurine?"
 		},
 		{ -- A Jade Figurine onplayer
-			code = "j34",
+			codes = "j34",
 			location = "onplayer",
 			prefix = "{gray}It is in fact, not an Anime Figurine :v\n"
 		},
 		{ -- Golden Bird
-			code = "g34",
+			codes = "g34",
 			location = "onplayer",
 			notify = "{red}Edyrem: {white}Pfff, what a waste of Gold. Could have been made into a Gold Bar..."
 		},
 		{ -- Lam Esen's Tome - normal
-			code = "bbb",
+			codes = "bbb",
 			difficulty = "Normal",
 			notify = "{red}Edyrem: {white}MY PIZZA RECIPE! So that's where I put it..."
 		},
 		{ -- Lam Esen's Tome - nightmare
-			code = "bbb",
+			codes = "bbb",
 			difficulty = "Nightmare",
 			notify = "{red}Edyrem: {white}MY PIZZA RECIPE! So tha... Didn't I find it already? A Deja vu?"
 		},
 		{ -- Lam Esen's Tome - hell
-			code = "bbb",
+			codes = "bbb",
 			difficulty = "Hell",
 			notify = "{red}Edyrem: {white}MY PIZZA R... Hold on, what's going on in here? Who is doing it?"
 		},
 		{ -- Potion of life
-			code = "xyz",
+			codes = "xyz",
 			location = "onplayer",
 			notify = "{red}Edyrem: {white}If only we could mass produce that D:"
 		},
 		{ -- Hellforge Hammer
-			code = "hfh",
+			codes = "hfh",
 			notify = "{red}Edyrem: {white}We have a bad feeling about this -_-"
 		},
 		
@@ -3480,7 +3549,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 		
 		--                                                                                           EVENTS
 		{ -- Event Boxes
-            code = "Ev03",
+            codes = "Ev03",
             notify = "{purple}Event Box!",
 			name_override = "Gamba Box!",
 			background = { 46, 47, 67, 230 },
@@ -3489,7 +3558,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
             name_style = "Rainbow"
         },
 		{ -- Stocking Stuffer
-			code = "Ev04",
+			codes = "Ev04",
 			notify = "{orange}Stocking Stuffer  (o_O) !"
 		},
 		{ -- Milk&Cookies
@@ -3497,17 +3566,17 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			notify = "{red}Edyrem{white}: Mmmmm, tasty Milk and Cookies"
 		},
 		{ -- Candy Corn
-			code = "Ev11",
+			codes = "Ev11",
 			border = { 0, 35, 255, 130, 2 },
 			notify = "{orange}Candy Corn ヽ(°〇°)ﾉ"
 		},
 		{ -- Cornucopia
-			code = "Ev12",
+			codes = "Ev12",
 			border = { 0, 35, 255, 130, 2 },
 			notify = "{red}Edyrem{white}: That's a LOT of candy!"
 		},
 		{ -- Faceted Memory name fix, identified
-			code = "j00",
+			codes = "j00",
 			index =  NOT { 610 },
 			identified = true,
 			location = { "onground", "onplayer", "equipped", "atvendor" },
@@ -3515,14 +3584,14 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			name_override = "{gold}Jewel\nFaceted Memory ({ilvl})"
 		},
 		{ -- Faceted Memory notify, unidentified onground
-			code = "j00",
+			codes = "j00",
 			index =  NOT { 610 },
 			identified = false,
 			name_style = "ToxicFog",
 			notify = "{orange}That Jewel looks a bit special!"
 		},
 		{ -- Faceted Memory notify, unidentified in eq
-			code = "j00",
+			codes = "j00",
 			index =  NOT { 610 },
 			identified = false,
 			location = { "onplayer", "equipped", "atvendor" },
@@ -3535,12 +3604,12 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 		--                                                                                           Evil Barrier Questing System
 		
 		{ -- Evil Barrier drop notify - unidentified
-			code = "B01",
+			codes = "B01",
 			identified = false,
 			notify = "{red}Edyrem:{white} Hmm, interesting find."
 		},
 		{ -- The Gnasher
-			code = "hax",
+			codes = "hax",
 			index = 6,
 			quality = 7,
 			difficulty = "Normal",
@@ -3549,18 +3618,18 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			notify = "{red}Edyrem: {white}Hey! You need that {gold}Hand Axe{white} for {purple}Evil Barrier{white} I think."
 		},
 		{ -- The Gidbinn
-			code = "g33",
+			codes = "g33",
 			difficulty = "Normal",
 			notify = "{red}Edyrem: {white}Hey, don't give that to Ormus right away! You need that for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Ramaladni's Gift
-			code = "Rgx",
+			codes = "Rgx",
 			difficulty = "Normal",
 			area = "Chaos Sanctuary",
 			notify = "{red}Edyrem: {white}Hey! You need that Gift for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Hexfire
-			code = "9sb",
+			codes = "9sb",
 			index = 113,
 			quality = 7,
 			difficulty = "Nightmare",
@@ -3569,13 +3638,13 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			notify = "{red}Edyrem: {white}Hey! You need that {gold}Shamshir{white} for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Color Dye Bottle (Crystal Blue)
-			code = "Z55",
+			codes = "Z55",
 			difficulty = "Nightmare",
 			area = "Halls Of The Dead Level 3",
 			notify = "{red}Edyrem: {white}Hey! You need that Dye Bottle for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Skin of the Vipermagi
-			code = "xea",
+			codes = "xea",
 			index = 351,
 			quality = 7,
 			difficulty = "Nightmare",
@@ -3584,7 +3653,7 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			notify = "{red}Edyrem: {white}Hey! You need that {gold}Serpentskin Armor{white} for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Arm of King Leoric
-			code = "9bw",
+			codes = "9bw",
 			index = 98,
 			quality = 7,
 			difficulty = "Nightmare",
@@ -3593,19 +3662,19 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			notify = "{red}Edyrem: {white}Hey! You need {gold}Tomb Wand{white} that for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Gem Vein
-			code = "y33",
+			codes = "y33",
 			difficulty = "Nightmare",
 			area = "Plains Of Despair",
 			notify = "{red}Edyrem: {white}Hey! You need that Gem Vein for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Soul Shard
-			code = "S01",
+			codes = "S01",
 			difficulty = "Nightmare",
 			area = "Chaos Sanctuary",
 			notify = "{red}Edyrem: {white}Hey! You need 1 of those Soul Shards for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Unrelenting Will
-			code = "9ts",
+			codes = "9ts",
 			index = 137,
 			quality = 7,
 			difficulty = "Nightmare",
@@ -3614,238 +3683,238 @@ audioPlayback = true, -- Turns ON/OFF sounds feature.
 			notify = "{red}Edyrem: {white}Hey! You need that {gold}Harpoon{white} for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Socket Remover
-			code = "b64",
+			codes = "b64",
 			difficulty = "Nightmare",
 			area = "Halls Of Vaught",
 			notify = "{red}Edyrem: {white}Hey! You need that Socket Remover for {purple}Evil Barrier{white} I think."
 		},
 		{ -- Parchment of Proof 1
-			code = "Bt01",
+			codes = "Bt01",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 1\n"
 		},
 		{ -- Parchment of Proof 2
-			code = "Bt02",
+			codes = "Bt02",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 2\n"
 		},
 		{ -- Parchment of Proof 3
-			code = "Bt03",
+			codes = "Bt03",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 3\n"
 		},
 		{ -- Parchment of Proof 4
-			code = "Bt04",
+			codes = "Bt04",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 4\n"
 		},
 		{ -- Parchment of Proof 5
-			code = "Bt05",
+			codes = "Bt05",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 5\n"
 		},
 		{ -- Parchment of Proof 6
-			code = "Bt06",
+			codes = "Bt06",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 6\n"
 		},
 		{ -- Parchment of Proof 7
-			code = "Bt07",
+			codes = "Bt07",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 7\n"
 		},
 		{ -- Parchment of Proof 8
-			code = "Bt08",
+			codes = "Bt08",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 8\n"
 		},
 		{ -- Parchment of Proof 9
-			code = "Bt09",
+			codes = "Bt09",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 9\n"
 		},
 		{ -- Parchment of Proof 10
-			code = "Bt10",
+			codes = "Bt10",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 10\n"
 		},
 		{ -- Parchment of Proof 11
-			code = "Bt11",
+			codes = "Bt11",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 11\n"
 		},
 		{ -- Parchment of Proof 12
-			code = "Bt12",
+			codes = "Bt12",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 12\n"
 		},
 		{ -- Parchment of Proof 13
-			code = "Bt13",
+			codes = "Bt13",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 13\n"
 		},
 		{ -- Parchment of Proof 14
-			code = "Bt14",
+			codes = "Bt14",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 14\n"
 		},
 		{ -- Parchment of Proof 15
-			code = "Bt15",
+			codes = "Bt15",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 15\n"
 		},
 		{ -- Parchment of Proof 16
-			code = "Bt16",
+			codes = "Bt16",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 16\n"
 		},
 		{ -- Parchment of Proof 17
-			code = "Bt17",
+			codes = "Bt17",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 17\n"
 		},
 		{ -- Parchment of Proof 18
-			code = "Bt18",
+			codes = "Bt18",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 18\n"
 		},
 		{ -- Parchment of Proof 19
-			code = "Bt19",
+			codes = "Bt19",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 19\n"
 		},
 		{ -- Parchment of Proof 20
-			code = "Bt20",
+			codes = "Bt20",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 20\n"
 		},
 		{ -- Parchment of Proof 21
-			code = "Bt21",
+			codes = "Bt21",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 21\n"
 		},
 		{ -- Parchment of Proof 22
-			code = "Bt22",
+			codes = "Bt22",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 22\n"
 		},
 		{ -- Parchment of Proof 23
-			code = "Bt23",
+			codes = "Bt23",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 23\n"
 		},
 		{ -- Parchment of Proof 24
-			code = "Bt24",
+			codes = "Bt24",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 24\n"
 		},
 		{ -- Parchment of Proof 25
-			code = "Bt25",
+			codes = "Bt25",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 25\n"
 		},
 		{ -- Parchment of Proof 26
-			code = "Bt26",
+			codes = "Bt26",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 26\n"
 		},
 		{ -- Parchment of Proof 27
-			code = "Bt27",
+			codes = "Bt27",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 27\n"
 		},
 		{ -- Parchment of Proof 28
-			code = "Bt28",
+			codes = "Bt28",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 28\n"
 		},
 		{ -- Parchment of Proof 29
-			code = "Bt29",
+			codes = "Bt29",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 29\n"
 		},
 		{ -- Parchment of Proof 30
-			code = "Bt30",
+			codes = "Bt30",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 30\n"
 		},
 		{ -- Parchment of Proof 31
-			code = "Bt31",
+			codes = "Bt31",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 31\n"
 		},
 		{ -- Parchment of Proof 32
-			code = "Bt32",
+			codes = "Bt32",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 32\n"
 		},
 		{ -- Parchment of Proof 33
-			code = "Bt33",
+			codes = "Bt33",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 33\n"
 		},
 		{ -- Parchment of Proof 34
-			code = "Bt34",
+			codes = "Bt34",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 34\n"
 		},
 		{ -- Parchment of Proof 35
-			code = "Bt35",
+			codes = "Bt35",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 35\n"
 		},
 		{ -- Parchment of Proof 36
-			code = "Bt36",
+			codes = "Bt36",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 36\n"
 		},
 		{ -- Parchment of Proof 37
-			code = "Bt37",
+			codes = "Bt37",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 37\n"
 		},
 		{ -- Parchment of Proof 38
-			code = "Bt38",
+			codes = "Bt38",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 38\n"
 		},
 		{ -- Parchment of Proof 39
-			code = "Bt39",
+			codes = "Bt39",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 39\n"
 		},
 		{ -- Parchment of Proof 40
-			code = "Bt40",
+			codes = "Bt40",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 40\n"
 		},
 		{ -- Parchment of Proof 41
-			code = "Bt41",
+			codes = "Bt41",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 41\n"
 		},
 		{ -- Parchment of Proof 42
-			code = "Bt42",
+			codes = "Bt42",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 42\n"
 		},
 		{ -- Parchment of Proof 43
-			code = "Bt43",
+			codes = "Bt43",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 43\n"
 		},
 		{ -- Parchment of Proof 44
-			code = "Bt44",
+			codes = "Bt44",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 44\n"
 		},
 		{ -- Parchment of Proof 45
-			code = "Bt45",
+			codes = "Bt45",
 			location = { "onplayer", "atvendor" },
 			prefix = "Quest: 45\n"
 		},
 		{ -- Evil Barrier notify - identified
-			code = "B01",
+			codes = "B01",
 			identified = true,
 			notify = "{red}Important item on ground!"
 		},

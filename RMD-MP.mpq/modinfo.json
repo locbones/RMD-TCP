@@ -5,11 +5,11 @@
 --My Mod Details--
 Mod Download: https://github.com/locbones/RMD-TCP/archive/refs/heads/main.zip
 Mod Config Download: https://github.com/locbones/RMD-TCP/raw/refs/heads/main/RMD-MP.mpq/modinfo.json
-Mod Version: 0.9.9.9KHF (102126)
-News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.9KHF)"
-News 1 Message: "This is a hotfix update for our previous patch which resolves a lot of event-related woes, along with simplifying the candy corn recipes using our new cube engine. I apologize for the delayed resolution, but hope you enjoy the new content!"
-News 2 Title: "D2RHUD 1.7.8 Update!"
-News 2 Message: "D2RHUD has also received a very large update, adding many new 'hardocde' features along with improved logic, performance and UI viewability. For RMD players especially, the new quest journal, D3 whirlwind, etc will be valuable additions to your adventure...enjoy!"
+Mod Version: 0.9.9.9L (110426)
+News 1 Title: "ReMoDDeD Beta Update Released! (0.9.9.9L)"
+News 1 Message: "This is a fairly large patch that adds a new 'Marketplace' feature to enable offline trading, as well as new QoL features and bug fixes. For more info about the Marketplace, please visit d2rmodding.com. Enjoy the update!"
+News 2 Title: "D2RHUD 1.8.0 Update!"
+News 2 Message: "D2RHUD has continued to receive substantial upgrades, adding a dozen new features, including a new Marketplace for offline trading. Several performance improvements and bug fixes were also included. For a full changelog, visit our Discord!"
 
 --General Options--
 Map Layouts: Enabled

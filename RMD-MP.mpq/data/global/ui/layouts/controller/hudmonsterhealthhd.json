@@ -34,7 +34,7 @@
                 {
                     "type": "TextBoxWidget", "name": "Additional",
                     "fields": {
-                        "rect": { "y": 100 },
+                        "rect": { "y": 150 },
                         "style": {
                             "pointSize": "$SmallFontSize",
                             "alignment": { "h": "center" },
